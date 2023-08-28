@@ -1,0 +1,14 @@
+{
+"image":"phptip-1.png",
+"date":"2023-04-04",
+"title":"Inconsistent Constructor Signatures",
+"content":"PHP enforces that methods have the same signature in a parent class and in a children class. It raises a Fatal Error if not.\nUnless for constructors, where the signatures can be different.\nThis exception to the rule is for legacy purposes, as many source code have varying signatures in a class hierarchy.\nYet, modern OOP recommends to synchronize those signatures, so has to allow instantiation using the same set of arguments.",
+"seeAlso":{
+	"Constructors and Destructors (PHP manual)":"https://www.php.net/manual/en/language.oop5.decon.php"
+},
+"tags":[
+	"PHP",
+	"class",
+	"OOP"
+]
+}

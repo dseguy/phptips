@@ -1,0 +1,15 @@
+{
+"image":"quizz-1.png",
+"date":"2023-04-02",
+"title":"foreach() With All The Same Keys",
+"question":"How can a foreach() loop can return always the same keys?",
+"content":"To generate such a strange structure, arrays are not possible, as index in arrays are unique.\nOne need to use a generator or a Traversable class, where the same key is always yielded.",
+"seeAlso":{
+	"foreach (PHP manual)":"https://www.php.net/manual/en/control-structures.foreach.php",
+	"yield (PHP manual)":"https://www.php.net/manual/en/language.generators.syntax.php"
+},
+"tags":[
+	"PHP",
+	"strict_types"
+]
+}
