@@ -1,0 +1,40 @@
+<?php
+
+$phptips = array();
+
+$phptips[] = "PHP tips and tricks";
+$phptips[] = "-------------------";
+$phptips[] = "";
+
+$files = glob('docs/*.json');
+$errors = 0;
+foreach($files as $file) {
+	$tip = json_decode(file_get_contents($file));
+	if ($tip === null) {
+		print "Warning : $file is not valid JSON\n";
+		continue;
+	}
+	
+	if ($e = check($tip)) {
+		print "Error in file $file : $e\n";
+		++$errors;
+		continue;
+	}
+	
+	$phptips[] = $tip->title;
+	$phptips[] = str_repeat('-', strlen($tip->title));
+	$phptips[] = str_replace("\n", "\n\n", $tip->content);
+	$phptips[] = '';
+	$phptips[] = ".. image:: ../images/".$tip->image;
+	$phptips[] = "\n----\n";
+	$phptips[] = PHP_EOL;
+}
+
+file_put_contents('source/tips.rst', implode(PHP_EOL, $phptips));
+print "processed ".count($files)." file with $errors error\n";
+
+function check(stdClass $tip) : string {
+	return '';
+}
+
+?>
