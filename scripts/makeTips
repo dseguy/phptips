@@ -8,14 +8,22 @@ $phptips[] = "";
 
 $files = glob('docs/*.json');
 $errors = 0;
+$tips = array();
 foreach($files as $file) {
 	$tip = json_decode(file_get_contents($file));
+
 	if ($tip === null) {
 		print "Warning : $file is not valid JSON\n";
 		continue;
 	}
-	
-	if ($e = check($tip)) {
+
+	$tips[$tip->date] = $tip;
+}
+
+krsort($tips);
+
+foreach($tips as $tip) {
+	if ($e = check($tip, $file)) {
 		print "Error in file $file : $e\n";
 		++$errors;
 		continue;
@@ -26,6 +34,14 @@ foreach($files as $file) {
 	$phptips[] = str_replace("\n", "\n\n", $tip->content);
 	$phptips[] = '';
 	$phptips[] = ".. image:: ../images/".$tip->image;
+	
+	if (!empty($tip->seeAlso)) {
+		$phptips[] = '';
+		foreach($tip->seeAlso as $title => $link) {
+			$phptips[] = '* `'.$title.' <'.$link.'>`_';
+		}
+		$phptips[] = '';
+	}
 	$phptips[] = "\n----\n";
 	$phptips[] = PHP_EOL;
 }
@@ -33,7 +49,10 @@ foreach($files as $file) {
 file_put_contents('source/tips.rst', implode(PHP_EOL, $phptips));
 print "processed ".count($files)." file with $errors error\n";
 
-function check(stdClass $tip) : string {
+function check(stdClass $tip, string $file) : string {
+	if (!isset($tip->date)) {
+		print "Missing date in $file\n";
+	}
 	return '';
 }
 
