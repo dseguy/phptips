@@ -1,0 +1,16 @@
+{
+"image":"elephpant.png",
+"date":"2022-10-04",
+"title":"En elephpant in the code",	
+"content":"When you need an elephant in your text, and you have #PHP handy : \nits unicode is 128024 or 0x1F418.",
+"seeAlso":{
+	"Double quoted":"https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double"
+},
+"tags":[
+	"PHP",
+	"elephpant",
+	"string",
+	"unicode",
+	"emoji"
+]
+}

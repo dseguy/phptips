@@ -1,0 +1,13 @@
+{
+"image":"foreach_same_keys.png",
+"date":"2023-04-02",
+"title":"foreach() With All The Same Keys",
+"content":"It is possible for a foreach() loop to produce multiple times the same key. To do so, avoid using arrays, which enforce the unique key.\nOne need to use a generator or a Traversable class, where the same key is always yielded.",
+"seeAlso":{
+	"foreach (PHP manual)":"https://www.php.net/manual/en/control-structures.foreach.php",
+	"yield (PHP manual)":"https://www.php.net/manual/en/language.generators.syntax.php"
+},
+"tags":[
+	"PHP"
+]
+}

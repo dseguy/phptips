@@ -1,0 +1,17 @@
+{
+"image":"readonly_and_private.png",
+"date":"2023-09-27",
+"title":"Set readonly Outside The Host Class",	
+"content":"PHP 8.1 readonly properties cannot be set from global space, but they can be forced from the host class, just like accessing private properties. \nIt doesn't work outside the host class : not in global space, not in a derived class.\nBesides that, readonly act as usual : it is only possible to assign the property once.",
+"seeAlso":{
+	"Readonly properties":"https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties",
+	"Visibility": "https://www.php.net/manual/en/language.oop5.visibility.php",
+	"Class Invasation": "https://php-dictionary.readthedocs.io/en/latest/dictionary.html#class-invasion"
+},
+"tags":[
+	"PHP",
+	"private",
+	"readonly",
+	"class invasion"
+]
+}

@@ -1,0 +1,15 @@
+{
+"image":"playing_with_the_limit.png",
+"date":"2022-09-19",
+"title":"",	
+"content":"Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1/12.\nPHP has the integer overflow. Stay away from the PHP_INT_MAX limits. Valid with (int) or intval() with recent #PHP versions.",
+"seeAlso":{
+	"Operator Precedence":"https://www.php.net/manual/en/language.operators.precedence.php",
+	"8s8q1":"https://3v4l.org/8s8q1"
+},
+"tags":[
+	"PHP",
+	"operator",
+	"literal"
+]
+}

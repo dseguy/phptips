@@ -1,0 +1,12 @@
+{
+"image":"interface_exceptions.png",
+"date":"2023-09-23",
+"title":"Exception Polyphormism",	
+"content":"Customs exceptions are classes like any others: they may implements an interface. That interface may be used to catch the exception, even if the interface has nothing to do with exceptions.",
+"seeAlso":{
+	"Exceptions":"https://www.php.net/manual/en/language.exceptions.php"
+},
+"tags":[
+	"exception"
+]
+}
