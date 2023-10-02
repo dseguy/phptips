@@ -17,7 +17,7 @@ It is possible to extend this syntax to #PHP 8.0+ with a clever array_values() /
 
 Now, this extended syntax is an easy prey to property definition order, constructor argument order, and temporary property deletion, unlike your original approach.
 
-.. image:: ../images/quick-dto.png
+.. image:: images/quick-dto.png
 
 * `Function arguments <https://www.php.net/manual/en/functions.arguments.php>`_
 
@@ -34,7 +34,7 @@ It is possible to chain clone operators : PHP optimize this and skips any interm
 
 On the other hand, it is possible to create a new object from an existing object, but it is not possible to chain the new calls without using parenthesis. 
 
-.. image:: ../images/clone_clone_clone.png
+.. image:: images/clone_clone_clone.png
 
 * `Cloning objects <https://www.php.net/manual/en/language.oop5.cloning.php>`_
 * `new <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.new>`_
@@ -54,7 +54,7 @@ It doesn't work outside the host class : not in global space, not in a derived c
 
 Besides that, readonly act as usual : it is only possible to assign the property once.
 
-.. image:: ../images/readonly_and_private.png
+.. image:: images/readonly_and_private.png
 
 * `Readonly properties <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties>`_
 * `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php>`_
@@ -71,7 +71,7 @@ Exception Polyphormism
 ======================
 Customs exceptions are classes like any others: they may implements an interface. That interface may be used to catch the exception, even if the interface has nothing to do with exceptions.
 
-.. image:: ../images/interface_exceptions.png
+.. image:: images/interface_exceptions.png
 
 * `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_
 
@@ -88,7 +88,7 @@ By `Frederic Bouchery <https://twitter.com/FredBouchery>`_
 
 Infinite values are sometimes provided by PHP functions, such as log(0) or exp(PHP_INT_MAX). In that case, beware and do not compare it directly with an integer as a positive is considered bigger than infinite.
 
-.. image:: ../images/infinite_is_reachable.png
+.. image:: images/infinite_is_reachable.png
 
 * `is_infinite() (PHP manual) <https://www.php.net/is_infinite>`_
 
@@ -103,7 +103,7 @@ Negative Squares
 ================
 Still my favorite PHP bug : literal negative value is squared, and is ... negative. In fact, the ** operator has precedence over the minus operator, and the square is then executed before the negation. Hence, the negative results. It is useful to process, correctly, parenthesises, but not integers. 
 
-.. image:: ../images/squared_negative.png
+.. image:: images/squared_negative.png
 
 * `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
 
@@ -124,7 +124,7 @@ I'm sure other such expressions are possible, with unary operators.
 
 Definitely not for me, for readability reasons; same as !$o instanceof X.
 
-.. image:: ../images/negating_a_variable.png
+.. image:: images/negating_a_variable.png
 
 * `Operator precedence (PHP manual) <https://www.php.net/manual/en/language.operators.precedence.php>`_
 
@@ -145,7 +145,7 @@ The solution is to rely on eval(), with a trick : ``$int = eval('return '.$a.';'
 
 Another option is to remove the _ chars, and cast the value to int.
 
-.. image:: ../images/numeric_separator_string.png
+.. image:: images/numeric_separator_string.png
 
 * `Integers: syntax (PHP manual) <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.syntax>`_
 * `Eval <https://www.php.net/manual/en/function.eval.php>`_
@@ -168,7 +168,7 @@ This exception to the rule is for legacy purposes, as many source code have vary
 
 Yet, modern OOP recommends to synchronize those signatures, so has to allow instantiation using the same set of arguments.
 
-.. image:: ../images/phptip-1.png
+.. image:: images/phptip-1.png
 
 * `Constructors and Destructors (PHP manual) <https://www.php.net/manual/en/language.oop5.decon.php>`_
 
@@ -185,7 +185,7 @@ It is possible for a foreach() loop to produce multiple times the same key. To d
 
 One need to use a generator or a Traversable class, where the same key is always yielded.
 
-.. image:: ../images/foreach_same_keys.png
+.. image:: images/foreach_same_keys.png
 
 * `foreach (PHP manual) <https://www.php.net/manual/en/control-structures.foreach.php>`_
 * `yield (PHP manual) <https://www.php.net/manual/en/language.generators.syntax.php>`_
@@ -205,7 +205,7 @@ While normal properties are initialized at constructor time, static properties m
 
 In fact, there is a way : it is the short assignation with coalesce, which will accept to check the NULL value, and only fill it if it is null.  
 
-.. image:: ../images/initialize_with_coalesce.png
+.. image:: images/initialize_with_coalesce.png
 
 * `Properties <https://www.php.net/manual/en/language.oop5.properties.php>`_
 
@@ -222,7 +222,7 @@ Array keys are only strings or integers: the later has priority. So, when storin
 
 In the case displayed, the keys are French Zip code, which might start with the leading 0. But PHP will convert it into integer, and drop that leading 0. The value is still correctly indexed, but now, the string representation has changed.
 
-.. image:: ../images/keys_are_integers.png
+.. image:: images/keys_are_integers.png
 
 * `Array: syntax (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
 
@@ -239,7 +239,7 @@ When you need an elephant in your text, and you have #PHP handy :
 
 its unicode is 128024 or 0x1F418.
 
-.. image:: ../images/elephpant.png
+.. image:: images/elephpant.png
 
 * `Double quoted <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`_
 
@@ -258,7 +258,7 @@ Which one? It is the d::foo(). All other calls are made within the C class : int
 
 When the call to bar() is made with '(new d)', the 'd::foo()' works again. 
 
-.. image:: ../images/internal_static_call.png
+.. image:: images/internal_static_call.png
 
 * `Late Static Bindings (PHP manual) <https://www.php.net/manual/en/language.oop5.late-static-bindings.php>`_
 
@@ -275,7 +275,7 @@ Mathematics have the 'Ramanujan Summation', where the infinite sum of all intege
 
 PHP has the integer overflow. Stay away from the PHP_INT_MAX limits. Valid with (int) or intval() with recent #PHP versions.
 
-.. image:: ../images/playing_with_the_limit.png
+.. image:: images/playing_with_the_limit.png
 
 * `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
 * `8s8q1 <https://3v4l.org/8s8q1>`_
@@ -295,7 +295,7 @@ Here, concatenation and interpolation all call __toString(), but not foo().
 
 As you can see, print() and echo() are safe too, while implode() is not. 
 
-.. image:: ../images/phptip-1.png
+.. image:: images/phptip-1.png
 
 * `declare (PHP manual) <https://www.php.net/manual/en/control-structures.declare.php>`_
 
@@ -310,7 +310,7 @@ Object is not a type
 ====================
 Such situations always make me smile, yet I am certain several of us will loose time on such a mistake. It is a bit more obvious with integer or string in the instanceof.
 
-.. image:: ../images/object_is_not_a_type.png
+.. image:: images/object_is_not_a_type.png
 
 * `Variables (PHP manual) <https://www.php.net/manual/en/language.variables.php>`_
 
@@ -329,7 +329,7 @@ In PHP 8.0, namespaces are processed independently, for their literal value. Bef
 
 The last keyword that one can't still use in a namespace is namespace, when used as the first part of the namespace : it is later replaced dynamically by the current namespace.
 
-.. image:: ../images/keywords_in_namespaces.png
+.. image:: images/keywords_in_namespaces.png
 
 * `Namespaces (PHP manual) <https://www.php.net/manual/en/language.namespaces.php>`_
 
@@ -352,7 +352,7 @@ second is skipped : no need to execute 2nd term
 
 third is reporting a warning. 
 
-.. image:: ../images/variable_optimisation.png
+.. image:: images/variable_optimisation.png
 
 * `Variables (PHP manual) <https://www.php.net/manual/en/language.variables.php>`_
 
@@ -369,7 +369,7 @@ PHP recycles the previously created stdClass objects ids. The following code dis
 
 Also, PHP's stdClass's constructor ignores all its arguments, as they are not used.
 
-.. image:: ../images/stdclass_tracking.png
+.. image:: images/stdclass_tracking.png
 
 * `The stdClass class (PHP manual) <https://www.php.net/manual/en/class.stdclass.php>`_
 
@@ -386,7 +386,7 @@ The closing parenthesis of the in_array() call may be misplaced, yet yield a val
 
 It is most probably a bug, given the number of arguments in in_array().
 
-.. image:: ../images/misplaced_parenthesis.png
+.. image:: images/misplaced_parenthesis.png
 
 
 
@@ -408,7 +408,7 @@ php => Cannot declare class stdClass
 
  because the name is already in use
 
-.. image:: ../images/check_for_names.png
+.. image:: images/check_for_names.png
 
 
 
@@ -426,7 +426,7 @@ Yet, this doesn't apply to array keys, so this code will display an 'Uncaught Ty
 
 This code needs an explicit cast to string to work.
 
-.. image:: ../images/not_all_strings.png
+.. image:: images/not_all_strings.png
 
 * `Array: syntax (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
 * `__toString() Magic Method <https://www.php.net/manual/fr/language.oop5.magic.php#object.tostring>`_

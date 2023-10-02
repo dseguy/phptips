@@ -43,7 +43,7 @@ foreach($tips as $tip) {
 	
 	$phptips[] = str_replace("\n", "\n\n", $tip->content);
 	$phptips[] = '';
-	$phptips[] = ".. image:: ../images/".$tip->image;
+	$phptips[] = ".. image:: images/".$tip->image;
 	
 	if (!empty($tip->seeAlso)) {
 		$phptips[] = '';
@@ -56,7 +56,7 @@ foreach($tips as $tip) {
 	$phptips[] = PHP_EOL;
 }
 
-file_put_contents('source/tips.rst', implode(PHP_EOL, $phptips));
+file_put_contents('tips.rst', implode(PHP_EOL, $phptips));
 print "processed ".count($files)." file with $errors error\n";
 
 if (!empty($authors)) {
@@ -73,7 +73,7 @@ RST;
 		$authorRst .= implode(PHP_EOL, $list).PHP_EOL;
 		++$stats['author'];
 	}
-	file_put_contents('source/authorindex.rst', $authorRst);
+	file_put_contents('authorindex.rst', $authorRst);
 	print "processed ".$stats['author']." authors\n";
 }
 
