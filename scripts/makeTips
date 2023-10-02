@@ -7,6 +7,8 @@ $phptips[] = "-------------------";
 $phptips[] = "";
 
 $files = glob('docs/*.json');
+$stats = array('author' => 0,
+				);
 $errors = 0;
 $tips = array();
 foreach($files as $file) {
@@ -29,8 +31,16 @@ foreach($tips as $tip) {
 		continue;
 	}
 	
+	$phptips[] = '.. _'.make_anchor($tip->title).':'.PHP_EOL;
 	$phptips[] = $tip->title;
-	$phptips[] = str_repeat('-', strlen($tip->title));
+	$phptips[] = str_repeat('=', strlen($tip->title));
+	
+	if (!empty($tip->author)) {
+		$author = '`'.$tip->author.' <'.$tip->contact.'>`_';
+		$phptips[] = 'By '.$author.PHP_EOL;
+		$authors[$author][] = '    * :ref:`'.make_anchor($tip->title).'`';
+	}
+	
 	$phptips[] = str_replace("\n", "\n\n", $tip->content);
 	$phptips[] = '';
 	$phptips[] = ".. image:: ../images/".$tip->image;
@@ -49,11 +59,34 @@ foreach($tips as $tip) {
 file_put_contents('source/tips.rst', implode(PHP_EOL, $phptips));
 print "processed ".count($files)." file with $errors error\n";
 
+if (!empty($authors)) {
+	$authorRst = <<<RST
+Author index
+------------
+
+
+RST;
+	
+	ksort($authors);
+	foreach($authors as $name => $list) {
+		$authorRst .= "* $name\n";
+		$authorRst .= implode(PHP_EOL, $list).PHP_EOL;
+		++$stats['author'];
+	}
+	file_put_contents('source/authorindex.rst', $authorRst);
+	print "processed ".$stats['author']." authors\n";
+}
+
 function check(stdClass $tip, string $file) : string {
 	if (!isset($tip->date)) {
 		print "Missing date in $file\n";
 	}
 	return '';
+}
+
+function make_anchor(string $title) : string {
+	$title = strtr(strtolower($title), ' ', '-');
+	return $title;
 }
 
 ?>
