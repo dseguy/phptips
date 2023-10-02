@@ -26,6 +26,23 @@ Now, this extended syntax is an easy prey to property definition order, construc
 
 
 
+.. _stealth-generator:
+
+Stealth Generator
+=================
+By `Frederic Bouchery <https://twitter.com/FredBouchery>`_
+
+The code below has a useless loop. The presence of the ``yield`` keyword in the function body makes it a generator. As such, foreach() will react to ``yield`` calls, though the function returns immediately, without a ``yield``. Hence, the empty loop, even though the function returns an array: indeed, to have the function behave as expected, it is necessary to remove the unreachable ``yield`` call, and then, the foreach() can use the return for the loop.
+
+.. image:: images/stealth-generator.png
+
+* `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
+
+
+----
+
+
+
 .. _clone-clone-clone:
 
 Clone Clone Clone
@@ -267,10 +284,10 @@ When the call to bar() is made with '(new d)', the 'd::foo()' works again.
 
 
 
-.. _:
+.. _playing-with-integers-limits:
 
-
-
+Playing With Integers Limits
+============================
 Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1/12.
 
 PHP has the integer overflow. Stay away from the PHP_INT_MAX limits. Valid with (int) or intval() with recent #PHP versions.

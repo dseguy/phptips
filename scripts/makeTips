@@ -81,6 +81,11 @@ function check(stdClass $tip, string $file) : string {
 	if (!isset($tip->date)) {
 		print "Missing date in $file\n";
 	}
+
+	if (empty($tip->title)) {
+		print "Empty title in $file\n";
+	}
+
 	return '';
 }
 
