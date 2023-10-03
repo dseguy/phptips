@@ -12,6 +12,7 @@
 	"PHP",
 	"private",
 	"readonly",
-	"class invasion"
+	"class invasion",
+	"PHP 8.1"
 ]
 }
