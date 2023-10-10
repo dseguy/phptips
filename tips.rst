@@ -267,9 +267,9 @@ In the case displayed, the keys are French Zip code, which might start with the 
 
 
 
-.. _en-elephpant-in-the-code:
+.. _an-elephpant-in-the-code:
 
-En elephpant in the code
+An elephpant in the code
 ========================
 When you need an elephant in your text, and you have #PHP handy : 
 
