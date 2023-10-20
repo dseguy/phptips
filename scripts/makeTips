@@ -19,6 +19,10 @@ foreach($files as $file) {
 		continue;
 	}
 
+	if (isset($tips[$tip->date])) {
+		print "Warning : $tip->date is already set in $file\n";
+		continue;
+	}
 	$tips[$tip->date] = $tip;
 }
 

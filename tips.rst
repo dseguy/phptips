@@ -1,6 +1,25 @@
 PHP tips and tricks
 -------------------
 
+.. _unsetting-properties-surprises:
+
+Unsetting Properties Surprises
+==============================
+Unsetting properties is always a suprise.
+
+First, if the property was typed, it yields a Fatal Error, as the property cannot be accessed before initialization. And, the unset destroyed the property.
+
+Also, checking an unset property with property_exists() is done against the class definition, not the current object state.
+
+.. image:: images/unset_properties.png
+
+* `Double quoted <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`_
+
+
+----
+
+
+
 .. _constants-can-be-impossible:
 
 Constants Can Be Impossible
@@ -110,6 +129,22 @@ Customs exceptions are classes like any others: they may implements an interface
 .. image:: images/interface_exceptions.png
 
 * `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_
+
+
+----
+
+
+
+.. _php-infinity-is-reachable:
+
+PHP Infinity is reachable
+=========================
+You can save typing by using expm1($x) instead of exp($x) - 1. Also, you might have to take care of differences, as both results might be slighltly different depending on the OS you're running it on : Debian is OK, but MacOS says it's different.
+
+.. image:: images/exp_minus_one.png
+
+* `expm1() (PHP manual) <https://www.php.net/expm1>`_
+* `expm1() versus exp() - 1 <https://3v4l.org/s2Y5G>`_
 
 
 ----
@@ -391,6 +426,25 @@ third is reporting a warning.
 .. image:: images/variable_optimisation.png
 
 * `Variables (PHP manual) <https://www.php.net/manual/en/language.variables.php>`_
+
+
+----
+
+
+
+.. _stdclass-object:
+
+stdClass Object
+===============
+object is a type, but it can also be used as a constant name. Then, instanceof will accept it for testing a variable. 
+
+There are some other cases around instanceof, which are surprising upon first read. 
+
+We can use a string in a variable, but not a direct string, a constant nor a ::class.
+
+.. image:: images/instanceof_class.png
+
+* `Type Operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
 
 
 ----
