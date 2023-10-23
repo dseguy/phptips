@@ -1,7 +1,7 @@
 {
 "image":"exp_minus_one.png",
 "date":"2023-09-11",
-"title":"PHP Infinity is reachable",	
+"title":"Exponential Minus One",
 "content":"You can save typing by using expm1($x) instead of exp($x) - 1. Also, you might have to take care of differences, as both results might be slighltly different depending on the OS you're running it on : Debian is OK, but MacOS says it's different.",
 "seeAlso":{
 	"expm1() (PHP manual)":"https://www.php.net/expm1",

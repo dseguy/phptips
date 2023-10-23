@@ -1,7 +1,7 @@
 {
 "image":"instanceof_class.png",
 "date":"2022-08-10",
-"title":"stdClass Object",	
+"title":"instanceof Object",
 "content":"object is a type, but it can also be used as a constant name. Then, instanceof will accept it for testing a variable. \nThere are some other cases around instanceof, which are surprising upon first read. \nWe can use a string in a variable, but not a direct string, a constant nor a ::class.",
 "seeAlso":{
 	"Type Operators (PHP manual)":"https://www.php.net/manual/en/language.operators.type.php"

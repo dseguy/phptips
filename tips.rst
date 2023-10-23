@@ -1,6 +1,31 @@
 PHP tips and tricks
 -------------------
 
+.. _void-paramete-in-array_keys():
+
+Void Paramete In array_keys()
+=============================
+There is a 'void' parameter in #PHP. It is the second argument of array_keys().
+
+That second parameter is often omitted (and unknown). 
+
+If present, it is typed 'mixed' to allow any value to be searched (here, null). 
+
+
+
+If absent, array_keys() returns ALL keys. When absent, it is not null, nor any other type. The last one possible is 'void' 
+
+Type is then : void|mixed.
+
+.. image:: images/void_parameter.png
+
+* `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
+
+
+----
+
+
+
 .. _unsetting-properties-surprises:
 
 Unsetting Properties Surprises
@@ -24,7 +49,7 @@ Also, checking an unset property with property_exists() is done against the clas
 
 Constants Can Be Impossible
 ===========================
-In this code, the constant x2::F is not possible, because adding a string and an array will result in Fatal error.
+In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error.
 
 Yet, this will be determined at execution time, and only if the constant is being used.
 
@@ -135,10 +160,10 @@ Customs exceptions are classes like any others: they may implements an interface
 
 
 
-.. _php-infinity-is-reachable:
+.. _exponential-minus-one:
 
-PHP Infinity is reachable
-=========================
+Exponential Minus One
+=====================
 You can save typing by using expm1($x) instead of exp($x) - 1. Also, you might have to take care of differences, as both results might be slighltly different depending on the OS you're running it on : Debian is OK, but MacOS says it's different.
 
 .. image:: images/exp_minus_one.png
@@ -221,6 +246,21 @@ Another option is to remove the _ chars, and cast the value to int.
 * `Integers: syntax (PHP manual) <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.syntax>`_
 * `Eval <https://www.php.net/manual/en/function.eval.php>`_
 * `strtr() <https://www.php.net/manual/fr/function.strtr.php>`_
+
+
+----
+
+
+
+.. _don't-forget-to-yield:
+
+Don't Forget To Yield
+=====================
+
+
+.. image:: images/dont_forget_yield.png
+
+* `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
 
 
 ----
@@ -432,10 +472,10 @@ third is reporting a warning.
 
 
 
-.. _stdclass-object:
+.. _instanceof-object:
 
-stdClass Object
-===============
+instanceof Object
+=================
 object is a type, but it can also be used as a constant name. Then, instanceof will accept it for testing a variable. 
 
 There are some other cases around instanceof, which are surprising upon first read. 

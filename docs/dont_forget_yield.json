@@ -1,0 +1,14 @@
+{
+"image":"dont_forget_yield.png",
+"date":"2023-04-12",
+"title":"Don't Forget To Yield",
+"content":"",
+"seeAlso":{
+	"Generator syntax":"https://www.php.net/manual/en/language.generators.syntax.php"
+},
+"tags":[
+	"lint",
+	"function",
+	"class"
+]
+}
