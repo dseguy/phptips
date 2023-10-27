@@ -1,0 +1,14 @@
+{
+"image":"void_parameter.png",
+"date":"2022-12-23",
+"title":"ReturnTypeWillChange Is For All",
+"content":"ReturnTypeWillChange is an attribute that tells PHP that the return type of the related method is different from the defined by the PHP native methods. In fact, this attribute may also be used on custom interfaces, to skip the type checks.",
+"seeAlso":{
+	"ReturnTypeWillChange (PHP manual)":"https://www.php.net/manual/en/class.returntypewillchange.php"
+},
+"tags":[
+	"attribute",
+	"native-attribute",
+	"custom code"
+]
+}
