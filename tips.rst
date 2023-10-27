@@ -1,10 +1,25 @@
 PHP tips and tricks
 -------------------
 
-.. _void-paramete-in-array_keys():
+.. _recursive-generator:
 
-Void Paramete In array_keys()
-=============================
+Recursive generator
+===================
+Generator, using yield, may become recursive, when using the ``yield from`` keyword. This recursion is only available when used with a foreach() statement, or a generator using statement such as iterator_to_array(). 
+
+.. image:: images/recursive_yield.png
+
+* `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
+
+
+----
+
+
+
+.. _void-parameter-in-array_keys():
+
+Void Parameter In array_keys()
+==============================
 There is a 'void' parameter in #PHP. It is the second argument of array_keys().
 
 That second parameter is often omitted (and unknown). 
@@ -256,7 +271,11 @@ Another option is to remove the _ chars, and cast the value to int.
 
 Don't Forget To Yield
 =====================
+It is possible to delegate a generator to another generator.
 
+Just don't call them raw, as nothing will happen.
+
+And don't forget the 'from' part of the keyword, otherwise, it will yield the generator, instead of running it.
 
 .. image:: images/dont_forget_yield.png
 
@@ -300,6 +319,21 @@ One need to use a generator or a Traversable class, where the same key is always
 
 * `foreach (PHP manual) <https://www.php.net/manual/en/control-structures.foreach.php>`_
 * `yield (PHP manual) <https://www.php.net/manual/en/language.generators.syntax.php>`_
+
+
+----
+
+
+
+.. _missing-methods-are-fatal:
+
+Missing Methods Are Fatal
+=========================
+Calling a missing method is a fatal error. Reading a missing property is a warning and a default to NULL. Writing a missing property is deprecated in PHP 8.3, and will become a fatal error in PHP 9.0.
+
+.. image:: images/missing_methods_are_fatal.png
+
+* `Properties (PHP manual) <https://www.php.net/manual/en/language.oop5.properties.php>`_
 
 
 ----

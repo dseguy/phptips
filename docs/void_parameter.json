@@ -1,7 +1,7 @@
 {
 "image":"void_parameter.png",
 "date":"2023-10-23",
-"title":"Void Paramete In array_keys()",	
+"title":"Void Parameter In array_keys()",	
 "content":"There is a 'void' parameter in #PHP. It is the second argument of array_keys().\nThat second parameter is often omitted (and unknown). \nIf present, it is typed 'mixed' to allow any value to be searched (here, null). \n\nIf absent, array_keys() returns ALL keys. When absent, it is not null, nor any other type. The last one possible is 'void' \nType is then : void|mixed.",
 "seeAlso":{
 	"Void (PHP manual)":"https://www.php.net/manual/en/language.types.void.php"
