@@ -1,0 +1,16 @@
+{
+"image":"no_empty_function.png",
+"date":"2023-11-01",
+"title":"No Such Function As Empty",	
+"content":"",
+"seeAlso":{
+	"Empty (PHP manual)":"https://www.php.net/manual/en/function.empty.php",
+	"Language constructs":"https://www.php.net/manual/en/control-structures.intro.php"
+	
+},
+"tags":[
+	"empty",
+	"function",
+	"language construct"
+]
+}
