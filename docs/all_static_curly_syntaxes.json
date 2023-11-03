@@ -1,0 +1,11 @@
+{
+"image":"all_static_curly_syntaxes.png",
+"date":"2023-11-03",
+"title":"All Static Curly Syntaxes And One Wrong",	
+"content":"What is the only invalid syntax in the following list?\nAssume that all needed definitions are available.\nLet's review them all.\n1) This is a classic class constant syntax, or an enumeration case. \n2) This is the new PHP 8.3 variable class constant syntax. The trick is that the dynamic part is the global constant A. \n3) This is the new PHP 8.3 variable class constant syntax. The name of the constant is in the variable $A.\n4) This is the variable static property class. The name of the property is in the global constant A.\n5) This is the variable static property class. The name of the property is in the variable $A.\n6) This is the variable static property class. The name of the property is in the global constant A, which builds the variable variable ${A}.\n7) This is the variable static property class. The name of the property is in the variable $A, which builds the variable variable ${$A}.\n8) This is the variable static property class. The name of the property is in the variable variable $$A, which builds the variable variable ${$$A}.\n9) This is the variable static property class. The name of the property is in the variable variable ${$A}. It is a composition of previous cases.\n10) This is the problematic one. $A{A} is an attempt at reading a element at position A in the variable $A. This is a removed PHP feature, since PHP 8. It should be written $A[A], though it would be too obvious for the puzzle.",
+"seeAlso":{
+},
+"tags":[
+	"dynamic syntax"
+]
+}
