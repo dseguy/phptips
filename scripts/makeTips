@@ -7,6 +7,7 @@ $phptips[] = "-------------------";
 $phptips[] = "";
 
 $files = glob('docs/*.json');
+$files = array_diff($files, ['docs/skeleton.json']);
 $stats = array('author' => 0,
 				);
 $errors = 0;
