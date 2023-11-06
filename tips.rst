@@ -1,6 +1,25 @@
 PHP tips and tricks
 -------------------
 
+.. _enumeration's-cases-comparisons:
+
+Enumeration's Cases Comparisons
+===============================
+By `Frederic Bouchery <https://twitter.com/FredBouchery>`_
+
+Enumeration cases are different when the enumeration are different, not when the value of the case is different. It is a differenc with using constants for enumerations.
+
+To compare their value, the comparison must be done with the 'value' property, not the object.
+
+.. image:: images/enum_case_comparisons.png
+
+* `Backed enumeration (PHP manual) <https://www.php.net/manual/en/language.enumerations.backed.php>`_
+
+
+----
+
+
+
 .. _all-static-curly-syntaxes-and-one-wrong:
 
 All Static Curly Syntaxes And One Wrong
@@ -350,6 +369,21 @@ Another option is to remove the _ chars, and cast the value to int.
 * `Integers: syntax (PHP manual) <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.syntax>`_
 * `Eval <https://www.php.net/manual/en/function.eval.php>`_
 * `strtr() <https://www.php.net/manual/fr/function.strtr.php>`_
+
+
+----
+
+
+
+.. _the-``...``-operator-can-be-used-to-create-a-closure-from-a-method.-that-closure-can-be-called-immediately,-or-used-to-create-yet-another-closure.-that-processed-is-not-guarded,-so-the-``(...)``-operator-can-be-called-multiple-times,-without-any-effect.:
+
+The ``...`` operator can be used to create a closure from a method. That closure can be called immediately, or used to create yet another closure. That processed is not guarded, so the ``(...)`` operator can be called multiple times, without any effect.
+=============================================================================================================================================================================================================================================================
+
+
+.. image:: images/closure_to_call.png
+
+* `First Class Callable Syntax (PHP manual) <https://www.php.net/manual/en/functions.first_class_callable_syntax.php>`_
 
 
 ----

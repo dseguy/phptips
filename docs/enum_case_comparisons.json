@@ -1,0 +1,14 @@
+{
+"image":"enum_case_comparisons.png",
+"date":"2023-11-06",
+"title":"Enumeration's Cases Comparisons",     
+"content":"Enumeration cases are different when the enumeration are different, not when the value of the case is different. It is a differenc with using constants for enumerations.\nTo compare their value, the comparison must be done with the 'value' property, not the object.",
+"seeAlso":{
+        "Backed enumeration (PHP manual)":"https://www.php.net/manual/en/language.enumerations.backed.php"
+},
+"tags":[
+        ""
+],
+"author":"Frederic Bouchery",
+"contact":"https://twitter.com/FredBouchery"
+}
