@@ -31,7 +31,7 @@ foreach($files as $file) {
 krsort($tips);
 
 foreach($tips as $tip) {
-	if ($e = check($tip, $file)) {
+	if ($e = check($tip, 'docs/'.str_replace('.json', '.png', $tip->image))) {
 		print "Error in file $file : $e\n";
 		++$errors;
 		continue;
