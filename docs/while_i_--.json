@@ -1,7 +1,7 @@
 {
 "image":"while_i_--.png",
-"date":"2023-10-30",
 "title":"Strange --> Operator",     
+"date":"2023-10-30",
 "content":"This PHP code is valid and works because of the way operator syntax is parsed, it's just another way of writing ```while ($i-- > 0)```",
 "seeAlso":{
 },
