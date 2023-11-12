@@ -494,6 +494,39 @@ One need to use a generator or a Traversable class, where the same key is always
 
 
 
+.. _battle-of-definition:
+
+Battle Of Definition
+====================
+Methods signatures must be compatible with the parent class's definition. This is true, except for __construct(), for which the compatibility is not checked.
+
+Yet, compatibility is still enforced when the __construct definition is in an interface.
+
+.. image:: images/battle_of_definitions.png
+
+* `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
+* `3v4l : __construct() signature enforced when in an interface <https://3v4l.org/QPaRG>`_
+
+
+----
+
+
+
+.. _:
+
+
+
+
+
+.. image:: images/skeleton.png
+
+* `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
+
+
+----
+
+
+
 .. _returntypewillchange-is-for-all:
 
 ReturnTypeWillChange Is For All
@@ -624,7 +657,7 @@ Here, concatenation and interpolation all call __toString(), but not foo().
 
 As you can see, print() and echo() are safe too, while implode() is not. 
 
-.. image:: images/phptip-1.png
+.. image:: images/constructor_consistency.png
 
 * `declare (PHP manual) <https://www.php.net/manual/en/control-structures.declare.php>`_
 
