@@ -30,7 +30,11 @@ foreach($files as $file) {
 
 krsort($tips);
 
+$tags = array();
+
 foreach($tips as $tip) {
+	$name = str_replace('.png', '', $tip->image);
+	
 	if ($e = check($tip, 'docs/'.str_replace('.json', '.png', $tip->image))) {
 		print "Error in file $file : $e\n";
 		++$errors;
@@ -64,10 +68,20 @@ foreach($tips as $tip) {
 	}
 	$phptips[] = "\n----\n";
 	$phptips[] = PHP_EOL;
+	
+	foreach(array_filter($tip->tags) as $tag) {
+		if (!isset($tags[$tag])) {
+			$tags[$tag] = array();
+		}
+		$tags[$tag][] = $name;
+	}
 }
 
 file_put_contents('tips.rst', implode(PHP_EOL, $phptips));
 print "processed ".count($files)." file with $errors error\n";
+
+uasort($tags, function ($a, $b) { return count($a) <=> count($b);});
+print_r($tags);
 
 if (!empty($authors)) {
 	$authorRst = <<<RST

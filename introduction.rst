@@ -13,7 +13,7 @@ Contributions
 
 Contributions are welcomed, by submitting PR to the `repository <https://github.com/exakat/php-tips.git>`_. 
 
-+ code images are made with `carbon <https://carbon.now.sh/>_`_. They shall be in the 'images' folder and be in png format. 
++ code images are made with `carbon <https://carbon.now.sh/>`_. They shall be in the 'images' folder and be in png format. 
 + id is the name of the file, and by convention, the name of the image. 
 + title is the name of the tip. It should be short.
 + description is the longer description of the code snippet.

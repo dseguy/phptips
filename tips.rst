@@ -512,21 +512,6 @@ Yet, compatibility is still enforced when the __construct definition is in an in
 
 
 
-.. _:
-
-
-
-
-
-.. image:: images/skeleton.png
-
-* `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
-
-
-----
-
-
-
 .. _returntypewillchange-is-for-all:
 
 ReturnTypeWillChange Is For All
