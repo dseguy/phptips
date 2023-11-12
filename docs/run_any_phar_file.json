@@ -1,0 +1,15 @@
+{
+"image":"run_any_phar_file.png",
+"date":"2023-11-10",
+"title":"Run Any Script In A Phar",	
+"content":"It is not possible to call directly a #PHP script stored in a Phar archive: the only way to reach it, is using include('phar://$path'), where #PHP understands the phar:// protocol.\nAnd that makes it possible to call directly a #PHP script from the shell: include it directly.\nIn terms of security, it is important to remember that a PHAR is an archive, and anything may be accessed or extracted.",
+"seeAlso":{
+	"Phar (PHP manual)":"https://www.php.net/manual/en/book.phar.php"
+},
+"tags":[
+	"phar",
+	"security"
+],
+"author":"",
+"contact":""
+}
