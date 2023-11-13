@@ -1,19 +1,42 @@
 PHP tips and tricks
 -------------------
 
-.. _run-any-script-in-a-phar:
+.. _cannot-static-static-property:
 
-Run Any Script In A Phar
-========================
-It is not possible to call directly a #PHP script stored in a Phar archive: the only way to reach it, is using include('phar://$path'), where #PHP understands the phar:// protocol.
+Cannot Static Static Property
+=============================
+Static can be used as a keyword to mark a property as 'static' (sic). It could also be used as a type for that same property, leading to those confusing lines below.
 
-And that makes it possible to call directly a #PHP script from the shell: include it directly.
+In fact, static would accept ``self``, but also ``parent`` and any children class: just like ``self``. So, ``self`` is sufficient to type properties, and there is no need for ``static static``.
 
-In terms of security, it is important to remember that a PHAR is an archive, and anything may be accessed or extracted.
+.. image:: images/static_static_property.png
 
-.. image:: images/run_any_phar_file.png
+* `Static properties (PHP manual) <https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties>`_
+* `Late Static Binding (PHP manual) <https://www.php.net/manual/en/language.oop5.late-static-bindings.php#language.oop5.late-static-bindings>`_
+* `5 usages of static keyword in PHP <https://www.exakat.io/en/5-usages-of-static-keyword-in-php/>`_
 
-* `Phar (PHP manual) <https://www.php.net/manual/en/book.phar.php>`_
+
+----
+
+
+
+.. _more-attribute-usage:
+
+More Attribute Usage
+====================
+#PHP attributes are for classes, but also for enums, traits and interfaces. With ::TARGET_CLASS. 
+
+
+
+#PHP attributes are for functions, and also for closures and arrow functions (but not for methods). With ::TARGET_FUNCTION.
+
+
+
+Beware of the position of the attribute with closures and arrow functions, though.
+
+.. image:: images/attributes_for_all.png
+
+* `Declaring Attribute Classes <https://www.php.net/manual/en/language.attributes.classes.php>`_
 
 
 ----
