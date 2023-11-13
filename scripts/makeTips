@@ -81,7 +81,7 @@ file_put_contents('tips.rst', implode(PHP_EOL, $phptips));
 print "processed ".count($files)." file with $errors error\n";
 
 uasort($tags, function ($a, $b) { return count($a) <=> count($b);});
-print_r($tags);
+//print_r($tags);
 
 if (!empty($authors)) {
 	$authorRst = <<<RST
