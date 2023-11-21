@@ -1,0 +1,16 @@
+{
+"image":"class_and_constants.png",
+"date":"2023-05-08",
+"title":"Class And Constant Confusion",	
+"content":"Class names and global constant names are two distinct name spaces. It is possible to use the name of a class as a constant.\nIt is also possible to instanciate a class with a constant notation: that is, by omitting the parenthesis in the new call, when no arguments are needed.\nThis allows for very confusing lines like these ones.",
+"seeAlso":{
+	"Void (PHP manual)":"https://www.php.net/manual/en/language.types.void.php"
+},
+"tags":[
+	"class",
+	"constant",
+	"confusion"
+],
+"author":"",
+"contact":""
+}
