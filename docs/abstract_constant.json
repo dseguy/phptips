@@ -1,0 +1,19 @@
+{
+"image":"abstract_constant.png",
+"date":"2023-11-19",
+"title":"Abstract Constants",	
+"content":"There's a pretty common pattern to declare \"abstract class constants\" in PHP.\n\n#PHP lazy loading will prevent the error \"Fatal error: Uncaught Error: Cannot declare self-referencing constant self::NAME\" if the constant is overloaded. \n\nThis makes an effective 'abstract constant', that must be defined to be usable. \n",
+"seeAlso":{
+	"Class Constants (PHP manual)":"https://www.php.net/manual/en/language.oop5.constants.php",
+	"Class Abstraction (PHP manual)":"https://www.php.net/manual/en/language.oop5.abstract.php",
+	"Abstract constants in PHP - Force a child class to define a constant":"https://stackoverflow.com/questions/10368620/abstract-constants-in-php-force-a-child-class-to-define-a-constant"
+},
+"tags":[
+	"abstract",
+	"class constant",
+	"dirty",
+	"lazy loading"
+],
+"author":"WebSmithery",
+"contact":"https://stackoverflow.com/users/2519523/websmithery"
+}
