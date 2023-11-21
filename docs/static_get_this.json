@@ -1,0 +1,23 @@
+{
+"image":"static_get_this.png",
+"date":"2023-06-20",
+"title":"Get $this In A Static",	
+"content":"A static method does not have access to the current object, by definition. 
+
+It is also possible to call statically any method within a class. 
+
+But when a static method calls a non-static method, an error is produced:  Non-static method x::foo() cannot be called statically.
+
+Finally, calling staticcally a non-static method still defines $this in the target method. Static is the nature of the method, not the call. 
+",
+"seeAlso":{
+	"Static Keyword (PHP manual)":"https://www.php.net/manual/en/language.oop5.static.php"
+},
+"tags":[
+	"static",
+	"this",
+	"unexpected"
+],
+"author":"",
+"contact":""
+}
