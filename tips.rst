@@ -1,6 +1,37 @@
 PHP tips and tricks
 -------------------
 
+.. _mixed-and-untyped-are-not-compatible-types:
+
+Mixed And Untyped Are Not Compatible Types
+==========================================
+A property typed mixed cannot be redefined later as untyped. 
+
+A property untyped cannot be redefined later as mixed. 
+
+
+
+Although, both syntax represent the same reality: any type goes. 
+
+
+
+Same for return type, in method compatibility situations. Although, it happens only when the parent is mixed, and the child untyped. 
+
+
+
+With return type, PHP does check if anything is returned with a type of ``mixed``, and not if it is untyped.
+
+
+
+.. image:: images/mixed_and_no_type.png
+
+* `Mixed (PHP manual) <https://www.php.net/manual/en/language.types.mixed.php>`_
+
+
+----
+
+
+
 .. _abstract-constants:
 
 Abstract Constants
@@ -501,6 +532,35 @@ The ``...`` operator can be used to create a closure from a method. That closure
 .. image:: images/closure_to_call.png
 
 * `First Class Callable Syntax (PHP manual) <https://www.php.net/manual/en/functions.first_class_callable_syntax.php>`_
+
+
+----
+
+
+
+.. _get-$this-in-a-static:
+
+Get $this In A Static
+=====================
+A static method does not have access to the current object, by definition. 
+
+
+
+It is also possible to call statically any method within a class. 
+
+
+
+But when a static method calls a non-static method, an error is produced:  Non-static method x::foo() cannot be called statically.
+
+
+
+Finally, calling staticcally a non-static method still defines $this in the target method. Static is the nature of the method, not the call. 
+
+
+
+.. image:: images/static_get_this.png
+
+* `Static Keyword (PHP manual) <https://www.php.net/manual/en/language.oop5.static.php>`_
 
 
 ----
