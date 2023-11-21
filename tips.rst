@@ -1,6 +1,35 @@
 PHP tips and tricks
 -------------------
 
+.. _abstract-constants:
+
+Abstract Constants
+==================
+By `WebSmithery <https://stackoverflow.com/users/2519523/websmithery>`_
+
+There's a pretty common pattern to declare "abstract class constants" in PHP.
+
+
+
+#PHP lazy loading will prevent the error "Fatal error: Uncaught Error: Cannot declare self-referencing constant self::NAME" if the constant is overloaded. 
+
+
+
+This makes an effective 'abstract constant', that must be defined to be usable. 
+
+
+
+.. image:: images/abstract_constant.png
+
+* `Class Constants (PHP manual) <https://www.php.net/manual/en/language.oop5.constants.php>`_
+* `Class Abstraction (PHP manual) <https://www.php.net/manual/en/language.oop5.abstract.php>`_
+* `Abstract constants in PHP - Force a child class to define a constant <https://stackoverflow.com/questions/10368620/abstract-constants-in-php-force-a-child-class-to-define-a-constant>`_
+
+
+----
+
+
+
 .. _cannot-static-static-property:
 
 Cannot Static Static Property
@@ -838,6 +867,21 @@ This code needs an explicit cast to string to work.
 
 * `Array: syntax (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
 * `__toString() Magic Method <https://www.php.net/manual/fr/language.oop5.magic.php#object.tostring>`_
+
+
+----
+
+
+
+.. _catch-on-interfaces:
+
+Catch On Interfaces
+===================
+It is possible to catch exceptions based on their interface. That means polymorphism for exceptions.
+
+.. image:: images/catch_interfaces.png
+
+* `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
 
 
 ----

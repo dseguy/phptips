@@ -1,0 +1,18 @@
+{
+"image":"catch_interfaces.png",
+"date":"2022-04-05",
+"title":"Catch On Interfaces",	
+"content":"It is possible to catch exceptions based on their interface. That means polymorphism for exceptions.",
+"seeAlso":{
+	"Exceptions (PHP manual)":"https://www.php.net/manual/en/language.exceptions.php"
+},
+"tags":[
+	"exception",
+	"catch",
+	"interface",
+	"tip",
+	"unusual"
+],
+"author":"",
+"contact":""
+}
