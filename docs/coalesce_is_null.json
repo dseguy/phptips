@@ -1,0 +1,15 @@
+{
+    "image": "coalesce_is_null.png",
+    "date": "2023-11-26",
+    "title": "coalesce_is_null",
+    "content": "I'm still struggling to pick a #PHP side.\n\n@ is too slow, because it merely hides the error.\n\n?? looks dumb: it reads : if it is null, use null as default.\n\nthe if() command is long to type.",
+    "seeAlso": {
+        "Error Control Operators": "https://www.php.net/manual/en/language.operators.errorcontrol.php"
+    },
+    "tags": [
+        "syntax",
+        "readability"
+    ],
+    "author": "",
+    "contact": ""
+}

@@ -1,0 +1,18 @@
+{
+    "image": "class_alias_alias.png",
+    "date": "2023-11-25",
+    "title": "class_alias_alias",
+    "content": "To make a class alias, use class_alias();\nTo make an interface alias, use class_alias();\nTo make an enum alias, use class_alias();\nTo make a trait alias, use class_alias();\n\nAlso, no ::enum operator, ::trait operator? ",
+    "seeAlso": {
+        "Void (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.types.void.php"
+    },
+    "tags": [
+        "alias",
+        "trait",
+        "class",
+        "enum",
+        "interface"
+    ],
+    "author": "",
+    "contact": ""
+}

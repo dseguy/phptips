@@ -1,6 +1,58 @@
 PHP tips and tricks
 -------------------
 
+.. _coalesce_is_null:
+
+coalesce_is_null
+================
+I'm still struggling to pick a #PHP side.
+
+
+
+@ is too slow, because it merely hides the error.
+
+
+
+?? looks dumb: it reads : if it is null, use null as default.
+
+
+
+the if() command is long to type.
+
+.. image:: images/coalesce_is_null.png
+
+* `Error Control Operators <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_
+
+
+----
+
+
+
+.. _class_alias_alias:
+
+class_alias_alias
+=================
+To make a class alias, use class_alias();
+
+To make an interface alias, use class_alias();
+
+To make an enum alias, use class_alias();
+
+To make a trait alias, use class_alias();
+
+
+
+Also, no ::enum operator, ::trait operator? 
+
+.. image:: images/class_alias_alias.png
+
+* `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
+
+
+----
+
+
+
 .. _mixed-and-untyped-are-not-compatible-types:
 
 Mixed And Untyped Are Not Compatible Types
