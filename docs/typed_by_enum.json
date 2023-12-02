@@ -1,0 +1,14 @@
+{
+    "image": "typed_by_enum.png",
+    "date": "2023-12-02",
+    "title": "Typed By Enum",
+    "content": "Enumeration cannot be instantiated into an object. In fact, the cases of the enumeration are the objects. Hence, a case object has the enumeration type.\nThen, an enumeration (class) constant cannot be confused with a case, because the enumeration cannot be instantiated, and class constants also do not support new initializers.",
+    "seeAlso": {
+        "Enumeration (PHP manual)": "https://www.php.net/manual/en/language.types.enumerations.php"
+    },
+    "tags": [
+        ""
+    ],
+    "author": "",
+    "contact": ""
+}
