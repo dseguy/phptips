@@ -1,6 +1,7 @@
 <?php
 
 $name = $argv[1];
+$name = preg_replace('/\.png$/', '', $name);
 
 if (!file_exists('images/'.$name.'.png')) {
 	die("No such file as 'images/'.$name.'.png'.");
