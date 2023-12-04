@@ -1,17 +1,32 @@
 PHP tips and tricks
 -------------------
 
-.. _typed-by-enum:
+.. _class-invasion-both-ways:
 
-Typed By Enum
-=============
-Enumeration cannot be instantiated into an object. In fact, the cases of the enumeration are the objects. Hence, a case object has the enumeration type.
+Class Invasion Both Ways
+========================
+Class invasion, it when an object access anything it wants in another object of the same class. Thanks to the way #PHP checks each object's perimeter.
 
-Then, an enumeration (class) constant cannot be confused with a case, because the enumeration cannot be instantiated, and class constants also do not support new initializers.
+The same checks allow the other object to access the current one's, as seen in that example.
 
-.. image:: images/typed_by_enum.png
+.. image:: images/class_invasion_reciproque.png
 
-* `Enumeration (PHP manual) <https://www.php.net/manual/en/language.types.enumerations.php>`_
+* `Class Invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary.html#class-invasion>`_
+
+
+----
+
+
+
+.. _relaxed_syntax_with_const:
+
+relaxed_syntax_with_const
+=========================
+
+
+.. image:: images/relaxed_syntax_with_const.png
+
+* `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
 
 
 ----
