@@ -1,6 +1,26 @@
 PHP tips and tricks
 -------------------
 
+.. _cannot-yield-and-never:
+
+Cannot Yield And Never
+======================
+Never, as a return type, mentions that the method will never return. This means that it either calls exit(), throws an exception, or is an infinite loop.
+
+Infinite loop escaped my radar until I realized it is a good way to characterize the loop in an explicit way: put any explicit loop in a ``never`` method and know before hand of the implications.
+
+Sadly, infinite loop work very well with Yield and yield from, but such methods must be typed with ``Generator``. Too bad.
+
+.. image:: images/yield_cannot_never.png
+
+* `Never (PHP manual) <https://www.php.net/manual/en/language.types.never.php>`_
+* `Generators overview (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
+
+
+----
+
+
+
 .. _class-invasion-both-ways:
 
 Class Invasion Both Ways
@@ -18,15 +38,17 @@ The same checks allow the other object to access the current one's, as seen in t
 
 
 
-.. _relaxed_syntax_with_const:
+.. _typed-by-enum:
 
-relaxed_syntax_with_const
-=========================
+Typed By Enum
+=============
+Enumeration cannot be instantiated into an object. In fact, the cases of the enumeration are the objects. Hence, a case object has the enumeration type.
 
+Then, an enumeration (class) constant cannot be confused with a case, because the enumeration cannot be instantiated, and class constants also do not support new initializers.
 
-.. image:: images/relaxed_syntax_with_const.png
+.. image:: images/typed_by_enum.png
 
-* `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
+* `Enumeration (PHP manual) <https://www.php.net/manual/en/language.types.enumerations.php>`_
 
 
 ----
@@ -650,6 +672,21 @@ Another option is to remove the _ chars, and cast the value to int.
 * `Integers: syntax (PHP manual) <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.syntax>`_
 * `Eval <https://www.php.net/manual/en/function.eval.php>`_
 * `strtr() <https://www.php.net/manual/fr/function.strtr.php>`_
+
+
+----
+
+
+
+.. _relaxed-syntax-with-const:
+
+Relaxed Syntax With Const
+=========================
+Relaxed syntax is the possibility to use PHP keywords as method or class constant names. This leads to funny expressions, that look like something else.
+
+.. image:: images/relaxed_syntax_with_const.png
+
+* `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
 
 
 ----
