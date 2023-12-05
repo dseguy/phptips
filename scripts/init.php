@@ -18,3 +18,4 @@ $json->title = $name;
 //print_r($json);
 
 file_put_contents('docs/'.$name.'.json', json_encode($json, JSON_PRETTY_PRINT));
+print "Written docs/$name.json\n";
