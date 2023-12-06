@@ -1,0 +1,16 @@
+{
+    "image": "array_array_array.png",
+    "date": "2023-12-06",
+    "title": "array array = array()",
+    "content": "This made me chuckle... welcome to #PHP 8.3 !\nFirst array is the type, the second is the name of the constant, with the relaxed keyword, and the last one is the value of the array.",
+    "seeAlso": {
+    },
+    "tags": [
+        "array",
+        "typed constants",
+        "funny",
+        "semantics"
+    ],
+    "author": "",
+    "contact": ""
+}
