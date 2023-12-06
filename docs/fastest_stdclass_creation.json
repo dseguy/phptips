@@ -1,0 +1,16 @@
+{
+    "image": "fastest_stdclass_creation.png",
+    "date": "2022-10-06",
+    "title": "Fast Creation of stdClass Objects",
+    "content": "The fastest way to create a stdClass object is to create an array, and then cast it to stdClass with the (array) operator. It is still faster even if the array is build peacemal (2 times slower).\nSetting directly properties on the stdClass object is then about 3 times slower, and creating a class extension with an adapted __construc method is then 4 times slower.\nIn the end, this is a micro optimisation.",
+    "seeAlso": {
+        "Converting to an object (PHP manual)": "https://www.php.net/manual/en/language.types.object.php#language.types.object.casting"
+    },
+    "tags": [
+        "performance",
+        "cast",
+        "stdclass"
+    ],
+    "author": "",
+    "contact": ""
+}
