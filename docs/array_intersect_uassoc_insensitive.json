@@ -1,0 +1,19 @@
+{
+    "image": "array_intersect_uassoc_insensitive.png",
+    "date": "2023-05-24",
+    "title": "array_intersect_uassoc_insensitive() ?",
+    "content": "array_intersect() functions use a direct comparison between the values in the array to make the comparison. When you need that comparison to be case insensitive, then you can use the ``u`` version of those functions, to make a case insensitive comparison.",
+    "seeAlso": {
+        "array_intersect()": "https://www.php.net/array_intersect",
+        "array_intersect_key()": "https://www.php.net/array_intersect_key",
+        "array_intersect_ukey()": "https://www.php.net/array_intersect_ukey",
+        "array_intersect_assoc()": "https://www.php.net/array_intersect_assoc",
+        "array_intersect_uassoc()": "https://www.php.net/array_intersect_uassoc"
+    },
+    "tags": [
+        "native function",
+        "variations"
+    ],
+    "author": "",
+    "contact": ""
+}
