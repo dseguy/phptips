@@ -1,5 +1,11 @@
 <?php
 
+const LEVEL_UNDERLINE = '-';
+
+if (!file_exists('tips')) {
+	mkdir('tips', 0755);
+}
+
 $phptips = array();
 
 $phptips[] = "PHP tips and tricks";
@@ -13,6 +19,7 @@ $stats = array('author' => 0,
 $errors = 0;
 $tips = array();
 $anchors = array();
+$images = array();
 foreach($files as $file) {
 	$tip = json_decode(file_get_contents($file));
 
@@ -26,13 +33,35 @@ foreach($files as $file) {
 		continue;
 	}
 	$tips[$tip->date] = $tip;
+	
+	if (!isset($tips[$tip->date])) {
+		print "Warning : $file has no image entry\n";
+	}
+
+	if (isset($images[$tip->image])) {
+		print "Warning : $tip->image is already in used in {$images[$tip->image]}\n";
+		continue;
+	} else {
+		$images[$tip->image] = $file;
+	}
+
+	if (strlen($tip->title) > 50) {
+		print "Warning : $tip->title is too long (".strlen($tip->title).") in $file\n";
+		continue;
+	}
+	
+	$tip->content = str_replace('#PHP', 'PHP', $tip->content);
+
+	$tips[$tip->date] = $tip;
 }
 
 krsort($tips);
 
 $tags = array();
+$tiplist = array();
 
 foreach($tips as $tip) {
+	$phptip = array();
 	$name = str_replace('.png', '', $tip->image);
 	
 	if ($e = check($tip, 'docs/'.str_replace('.json', '.png', $tip->image))) {
@@ -41,33 +70,34 @@ foreach($tips as $tip) {
 		continue;
 	}
 	
-	$phptips[] = '.. _'.make_anchor($tip->title).':'.PHP_EOL;
+	$phptip[] = '.. _'.make_anchor($tip->title).':'.PHP_EOL;
 	if (isset($anchors[make_anchor($tip->title)])) {
 		print "Duplicate entry for $tip->title in $file\n";
 	}
 	$anchors[make_anchor($tip->title)] = 1;
-	$phptips[] = $tip->title;
-	$phptips[] = str_repeat('=', strlen($tip->title));
+	$phptip[] = $tip->title;
+	$phptip[] = str_repeat(LEVEL_UNDERLINE, strlen($tip->title));
+	$phptip[] = '';
 	
 	if (!empty($tip->author)) {
 		$author = '`'.$tip->author.' <'.$tip->contact.'>`_';
-		$phptips[] = 'By '.$author.PHP_EOL;
+		$phptip[] = 'By '.$author.PHP_EOL;
 		$authors[$author][] = '    * :ref:`'.make_anchor($tip->title).'`';
 	}
 	
-	$phptips[] = str_replace("\n", "\n\n", $tip->content);
-	$phptips[] = '';
-	$phptips[] = ".. image:: images/".$tip->image;
+	$phptip[] = str_replace("\n", "\n\n", $tip->content);
+	$phptip[] = '';
+	$phptip[] = ".. image:: ../images/".$tip->image;
 	
 	if (!empty($tip->seeAlso)) {
-		$phptips[] = '';
+		$phptip[] = '';
 		foreach($tip->seeAlso as $title => $link) {
-			$phptips[] = '* `'.$title.' <'.$link.'>`_';
+			$phptip[] = '* `'.$title.' <'.$link.'>`_';
 		}
-		$phptips[] = '';
+		$phptip[] = '';
 	}
-	$phptips[] = "\n----\n";
-	$phptips[] = PHP_EOL;
+
+	$phptip[] = PHP_EOL;
 	
 	foreach(array_filter($tip->tags) as $tag) {
 		if (!isset($tags[$tag])) {
@@ -75,9 +105,18 @@ foreach($tips as $tip) {
 		}
 		$tags[$tag][] = $name;
 	}
+	
+	$file = str_replace('.png', '.rst', $tip->image);
+	file_put_contents('tips/'.$file, implode(PHP_EOL, $phptip));
+	
+	$tiplist[] = '   tips/'.$file;
 }
 
-file_put_contents('tips.rst', implode(PHP_EOL, $phptips));
+$index = file_get_contents('tipSection.rst.in');
+$index = str_replace('   tips', implode(PHP_EOL, $tiplist), $index);
+file_put_contents('tipSection.rst', $index);
+
+//file_put_contents('tips.rst', implode(PHP_EOL, $phptips));
 print "processed ".count($files)." file with $errors error\n";
 
 uasort($tags, function ($a, $b) { return count($a) <=> count($b);});
