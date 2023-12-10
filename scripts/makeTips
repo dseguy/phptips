@@ -117,10 +117,12 @@ foreach($tips as $tip) {
 	$file = str_replace('.png', '.rst', $tip->image);
 	file_put_contents('tips/'.$file, implode(PHP_EOL, $phptip));
 
-	$sitemap->addItem('https://php-changed-behaviors.readthedocs.io/en/latest/tips/'.$file.'.html');
+	$sitemap->addItem('https://php-tips.readthedocs.io/en/latest/tips/'.substr($file, 0, -4).'.html');
 
 	$tiplist[] = '   tips/'.$file;
 }
+
+$sitemap->write();
 
 $index = file_get_contents('tipSection.rst.in');
 $index = str_replace('   tips', implode(PHP_EOL, $tiplist), $index);
