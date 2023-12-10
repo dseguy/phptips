@@ -55,4 +55,6 @@ html_theme = 'alabaster'
 html_static_path = ['_static']
 
 # Extra config to verify read the docs
-html_extra_path = ["googlee919cb0917e4fefc.html"]
+html_extra_path = ["googlee919cb0917e4fefc.html", 
+                                        "robots.txt",
+                                        "sitemap.xml"]
