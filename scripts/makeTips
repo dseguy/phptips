@@ -1,5 +1,13 @@
 <?php
 
+include 'vendor/autoload.php';
+
+use samdark\sitemap\Sitemap;
+use samdark\sitemap\Index;
+
+// create sitemap
+$sitemap = new Sitemap('./sitemap.xml');
+
 const LEVEL_UNDERLINE = '-';
 
 if (!file_exists('tips')) {
@@ -108,7 +116,9 @@ foreach($tips as $tip) {
 	
 	$file = str_replace('.png', '.rst', $tip->image);
 	file_put_contents('tips/'.$file, implode(PHP_EOL, $phptip));
-	
+
+	$sitemap->addItem('https://php-changed-behaviors.readthedocs.io/en/latest/tips/'.$file.'.html');
+
 	$tiplist[] = '   tips/'.$file;
 }
 
