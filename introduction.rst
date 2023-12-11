@@ -1,5 +1,6 @@
+============
 Introduction
-++++++++++++
+============
 
 PHP tips and tricks is a treasure trove of PHP pieces of code. It collects all those quick one-liners, unexpected behaviors, hidden features and strange things that are concealed in the dark corners of PHP. 
 
