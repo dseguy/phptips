@@ -1,0 +1,13 @@
+{
+    "image": "cast_to_int.png",
+    "date": "2023-01-15",
+    "title": "Another Cast To Int",
+    "content": "Another way to cast a value to int, besides the obvious (int) and the classic ``+ 0``, is to use the ``+`` operator on a variable.",
+    "seeAlso": {
+    },
+    "tags": [
+        "arcane"
+    ],
+    "author": "",
+    "contact": ""
+}
