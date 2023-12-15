@@ -64,6 +64,7 @@ PHP tips and tricks
    tips/playing_with_the_limit.rst
    tips/constructor_consistency.rst
    tips/object_is_not_a_type.rst
+   tips/forgotten_throw.rst
    tips/keywords_in_namespaces.rst
    tips/variable_optimisation.rst
    tips/instanceof_class.rst
