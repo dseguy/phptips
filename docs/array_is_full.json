@@ -1,0 +1,17 @@
+{
+    "image": "array_is_full.png",
+    "date": "2023-12-15",
+    "title": "Array Is Full",
+    "content": "When using append, the next id is calculated based on the largest integer key ever used in that array. When the array has reached the biggest integer possible, aka PHP_INT_MAX, then the next-array-key generator fails, and this error is displayed.\nAlso, it is a fatal error to fill an array beyond its capacity.",
+    "seeAlso": {
+        "array (PHP manual)": "https://www.php.net/manual/en/language.types.array.php",
+        "PHP_INT_MAX":"https://www.php.net/manual/en/reserved.constants.php"
+    },
+    "tags": [
+        "array",
+        "php_int_max",
+        "fatal error"
+    ],
+    "author": "",
+    "contact": ""
+}
