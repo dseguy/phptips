@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/easy_wither.rst
    tips/array_is_full.rst
    tips/const_without_parenthesis.rst
    tips/cast_are_case_insensitive.rst
