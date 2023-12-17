@@ -5,9 +5,12 @@ Introduction
 PHP tips and tricks is a treasure trove of PHP pieces of code. It collects all those quick one-liners, unexpected behaviors, hidden features and strange things that are concealed in the dark corners of PHP. 
 
 This encyclopedia has several goals: 
+
 + entertain, with special situations and unexpected but valid usage of the PHP syntax
 + provoke thoughts, by bringing edge cases into the light. They might be bugs, tolerated behaviors or simply collateral damages
 + challenge PHP users with their knowledge of the language
+
+This encyclopedia is for the advanced PHP users. Do not go there without a solid experience of the language, and a good sense of humour. 
 
 Contributions
 -------------
