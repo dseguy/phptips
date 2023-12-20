@@ -56,6 +56,7 @@ PHP tips and tricks
    tips/phptip-1.rst
    tips/foreach_same_keys.rst
    tips/battle_of_definitions.rst
+   tips/variadic_all_yield.rst
    tips/is_a_and_instanceof.rst
    tips/cast_to_int.rst
    tips/returntypewillchange_for_all.rst
