@@ -1,0 +1,14 @@
+{
+    "image": "catch_is_optional.png",
+    "date": "2023-10-24",
+    "title": "Catch Is Optional",
+    "content": "In a Try Catch Finally command, only the try part is compulsory. It is possible to create a try command without any catch clause: that way, exceptions are indeed not caught. The finally clause is also optional, but when it is provided, it is always executed, even if exceptions are not caught.",
+    "seeAlso": {
+        "Exceptions (PHP manual)": "https://www.php.net/manual/en/language.exceptions.php"
+    },
+    "tags": [
+        "unusual"
+    ],
+    "author": "",
+    "contact": ""
+}

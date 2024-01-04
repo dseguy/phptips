@@ -36,8 +36,12 @@ PHP tips and tricks
    tips/while_i_--.rst
    tips/unexpected_keys.rst
    tips/recursive_yield.rst
+   tips/documenting_parameter.rst
+   tips/catch_is_optional.rst
    tips/void_parameter.rst
    tips/unset_properties.rst
+   tips/multipleAliases.rst
+   tips/plus_plus_minus_minus.rst
    tips/when_a_constant_is_impossible.rst
    tips/quick-dto.rst
    tips/stealth-generator.rst

@@ -94,10 +94,22 @@
   <loc>https://php-tips.readthedocs.io/en/latest/tips/recursive_yield.html</loc>
  </url>
  <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/documenting_parameter.html</loc>
+ </url>
+ <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/catch_is_optional.html</loc>
+ </url>
+ <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/void_parameter.html</loc>
  </url>
  <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/unset_properties.html</loc>
+ </url>
+ <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/multipleAliases.html</loc>
+ </url>
+ <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/plus_plus_minus_minus.html</loc>
  </url>
  <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/when_a_constant_is_impossible.html</loc>
