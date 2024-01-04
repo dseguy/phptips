@@ -24,6 +24,18 @@ $phptips[] = "";
 
 $files = glob('docs/*.json');
 $files = array_diff($files, ['docs/skeleton.json']);
+
+$images = glob('images/*.png');
+
+$f = array_map(function ($file) { return substr($file, 5, -5);}, $files);
+$i = array_map(function ($image) { return substr($image, 7, -4);}, $images);
+if ($diff = array_diff($f, $i)) {
+	print "Missing files in images : ".implode(', ', $diff)."\n";
+}
+if ($diff = array_diff($i, $f)) {
+	print "Missing files in docs : ".implode(', ', $diff)."\n";
+}
+
 $stats = array('author' => 0,
 				);
 $errors = 0;
