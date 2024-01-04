@@ -1,0 +1,16 @@
+{
+    "image": "sensitiveParameter.png",
+    "date": "2024-01-02",
+    "title": "Hide Sensitive Parameter",
+    "content": "#PHP 8.2 has the #[SensitiveParameter] attribute that hides values in debug messages. \nThere is also the SensitiveParameterValue class, that does the same, while working from the caller perspective. Get the value with $object->getValue()",
+    "seeAlso": {
+        "SensitiveParameter (PHP manual)": "https://www.php.net/manual/en/class.sensitiveparameter.php",
+        "SensitiveParameterValue (PHP manual)": "https://www.php.net/manual/en/class.sensitiveparametervalue.php",
+        "Hide Sensitive Parameter (3v4l)": "https://3v4l.org/KrViH"
+    },
+    "tags": [
+        "security"
+    ],
+    "author": "",
+    "contact": ""
+}

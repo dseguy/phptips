@@ -5,6 +5,8 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/nullAsArray.rst
+   tips/sensitiveParameter.rst
    tips/no_property_in_interface.rst
    tips/uncallable_function.rst
    tips/easy_wither.rst
