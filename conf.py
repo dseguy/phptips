@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'PHP tips and tricks'
-copyright = '2023, Damien Seguy'
+copyright = '2023-2024, Damien Seguy'
 author = 'Damien Seguy'
 
 # The full version, including alpha/beta/rc tags
@@ -56,5 +56,4 @@ html_static_path = ['_static']
 
 # Extra config to verify read the docs
 html_extra_path = ["googlee919cb0917e4fefc.html", 
-                                        "robots.txt",
-                                        "sitemap.xml"]
+                                 "sitemap.xml"]
