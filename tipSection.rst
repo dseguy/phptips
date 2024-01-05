@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/try-catch-finally.rst
    tips/nullAsArray.rst
    tips/sensitiveParameter.rst
    tips/no_property_in_interface.rst
