@@ -1,0 +1,17 @@
+{
+    "image": "always_compatible_variadic.png",
+    "date": "2024-01-10",
+    "title": "always_compatible_variadic",
+    "content": "A variadic argument is a valid and compatible signature, for methods that overwrite other methods.\nMethod compatibility usually require the arguments to be the same, but with a variadic argument and also some of the arguments from the parent method, the signature is still considered compatible by PHP.",
+    "seeAlso": {
+        "Void (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.types.void.php",
+        "Original Tweet":"https://twitter.com/SergiiShymko/status/1744905838089961807"
+    },
+    "tags": [
+        "covariance",
+        "contravariance",
+        "method compatibility"
+    ],
+    "author": "Sergii Shymko",
+    "contact": "https://twitter.com/SergiiShymko"
+}

@@ -10,5 +10,7 @@ Author index
     * :ref:`enumeration's-cases-comparisons`
     * :ref:`stealth-generator`
     * :ref:`php-infinity-is-reachable`
+* `Sergii Shymko <https://twitter.com/SergiiShymko>`_
+    * :ref:`always_compatible_variadic`
 * `WebSmithery <https://stackoverflow.com/users/2519523/websmithery>`_
     * :ref:`abstract-constants`
