@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/abstract_again.rst
    tips/always_compatible_variadic.rst
    tips/try-catch-finally.rst
    tips/nullAsArray.rst
