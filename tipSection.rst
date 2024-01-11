@@ -88,4 +88,5 @@ PHP tips and tricks
    tips/check_for_names.rst
    tips/not_all_strings.rst
    tips/recursive_closure.rst
+   tips/type_is_not_available.rst
    tips/catch_interfaces.rst
