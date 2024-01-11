@@ -1,7 +1,7 @@
 {
     "image": "class_alias_alias.png",
     "date": "2023-11-25",
-    "title": "class_alias_alias",
+    "title": "All Classes Aliases",
     "content": "To make a class alias, use class_alias();\nTo make an interface alias, use class_alias();\nTo make an enum alias, use class_alias();\nTo make a trait alias, use class_alias();\n\nAlso, no ::enum operator, ::trait operator? ",
     "seeAlso": {
         "class_alias (PHP manual)": "https://www.php.net/class_alias"

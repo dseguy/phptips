@@ -1,6 +1,6 @@
-.. _abstract_again:
+.. _abstract-again:
 
-abstract_again
+Abstract Again
 --------------
 
 A concrete class may have an abstract child: the child class extends the parent class, and also receives the abstract option.

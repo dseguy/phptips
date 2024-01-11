@@ -1,6 +1,6 @@
-.. _always_compatible_variadic:
+.. _always-compatible-variadic:
 
-always_compatible_variadic
+Always Compatible Variadic
 --------------------------
 
 By `Sergii Shymko <https://twitter.com/SergiiShymko>`_

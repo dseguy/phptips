@@ -1,7 +1,7 @@
 {
     "image": "abstract_again.png",
     "date": "2024-01-11",
-    "title": "abstract_again",
+    "title": "Abstract Again",
     "content": "A concrete class may have an abstract child: the child class extends the parent class, and also receives the abstract option.\nOn the other hand, a concrete method, inside any kind of class, cannot be made abstract in a child. The child class can be made abstract, and new methods can be made abstract. But the existing methods cannot be turned back to abstract.",
     "seeAlso": {
         "Class Abstraction (PHP manual)": "https://www.php.net/manual/en/language.oop5.abstract.php"

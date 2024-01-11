@@ -1,7 +1,7 @@
-.. _class_alias_alias:
+.. _all-classes-aliases:
 
-class_alias_alias
------------------
+All Classes Aliases
+-------------------
 
 To make a class alias, use class_alias();
 

@@ -46,29 +46,40 @@ foreach($files as $file) {
 	$tip = json_decode(file_get_contents($file));
 
 	if ($tip === null) {
-		buildlog("Warning : $file is not valid JSON");;
+		buildlog("Warning : $file is not valid JSON");
+		++$errors;
 		continue;
 	}
 
 	if (isset($tips[$tip->date])) {
 		buildlog("Warning : $tip->date is already set in $file");;
+		++$errors;
 		continue;
 	}
 	$tips[$tip->date] = $tip;
 	
 	if (!isset($tips[$tip->date])) {
 		buildlog("Warning : $file has no image entry");;
+		++$errors;
 	}
 
 	if (isset($images[$tip->image])) {
 		buildlog("Warning : $tip->image is already in used in {$images[$tip->image]}");;
+		++$errors;
 		continue;
 	} else {
 		$images[$tip->image] = $file;
 	}
 
+	if (substr_count($tip->title, '_') > 1) {
+		buildlog("Warning : Too many _ in title '$tip->title' in $file");;
+		++$errors;
+		continue;
+	}
+
 	if (strlen($tip->title) > 50) {
 		buildlog("Warning : $tip->title is too long (".strlen($tip->title).") in $file");;
+		++$errors;
 		continue;
 	}
 	
