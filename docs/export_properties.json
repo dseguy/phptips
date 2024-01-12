@@ -1,0 +1,14 @@
+{
+    "image": "export_properties.png",
+    "date": "2023-01-19",
+    "title": "Exporting Properties",
+    "content": "With an accessor and a reference, it is possible to export a private property and manipulate it from the outside of the object.\nThis is not recommended, as it exposes data that is supposed to be protected by its visibility.",
+    "seeAlso": {
+        "Original Tweet)": "https://twitter.com/timacdonald87/status/1615886928943153153"
+    },
+    "tags": [
+        ""
+    ],
+    "author": "Tim Macdonald",
+    "contact": "https://twitter.com/timacdonald87"
+}

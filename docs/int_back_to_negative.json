@@ -1,0 +1,16 @@
+{
+    "image": "int_back_to_negative.png",
+    "date": "2022-07-29",
+    "title": "Integer Becomes Negative",
+    "content": "$a is the largest integer in PHP. So, $b, which is one bigger than $a, is actually a float, which is bigger and still positive. When casting the float to an integer, the integer is turned into a negative number by overflowing.",
+    "seeAlso": {
+        "Integer (PHP manual)": "https://www.php.net/manual/en/language.types.integer.php"
+    },
+    "tags": [
+        "overflow",
+        "integer",
+        "float"
+    ],
+    "author": "",
+    "contact": ""
+}

@@ -12,5 +12,7 @@ Author index
     * :ref:`php-infinity-is-reachable`
 * `Sergii Shymko <https://twitter.com/SergiiShymko>`_
     * :ref:`always-compatible-variadic`
+* `Tim Macdonald <https://twitter.com/timacdonald87>`_
+    * :ref:`exporting-properties`
 * `WebSmithery <https://stackoverflow.com/users/2519523/websmithery>`_
     * :ref:`abstract-constants`

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/finally_catches_exception.html</loc>
+ </url>
+ <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/abstract_again.html</loc>
  </url>
  <url>
@@ -190,6 +193,9 @@
   <loc>https://php-tips.readthedocs.io/en/latest/tips/is_a_and_instanceof.html</loc>
  </url>
  <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/export_properties.html</loc>
+ </url>
+ <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/cast_to_int.html</loc>
  </url>
  <url>
@@ -242,6 +248,9 @@
  </url>
  <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/check_for_names.html</loc>
+ </url>
+ <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/int_back_to_negative.html</loc>
  </url>
  <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/not_all_strings.html</loc>

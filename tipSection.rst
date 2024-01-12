@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/finally_catches_exception.rst
    tips/abstract_again.rst
    tips/always_compatible_variadic.rst
    tips/try-catch-finally.rst
@@ -68,6 +69,7 @@ PHP tips and tricks
    tips/battle_of_definitions.rst
    tips/variadic_all_yield.rst
    tips/is_a_and_instanceof.rst
+   tips/export_properties.rst
    tips/cast_to_int.rst
    tips/returntypewillchange_for_all.rst
    tips/missing_methods_are_fatal.rst
@@ -86,6 +88,7 @@ PHP tips and tricks
    tips/stdclass_tracking.rst
    tips/misplaced_parenthesis.rst
    tips/check_for_names.rst
+   tips/int_back_to_negative.rst
    tips/not_all_strings.rst
    tips/recursive_closure.rst
    tips/type_is_not_available.rst
