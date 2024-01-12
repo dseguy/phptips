@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/roman_loops.rst
    tips/finally_catches_exception.rst
    tips/abstract_again.rst
    tips/always_compatible_variadic.rst

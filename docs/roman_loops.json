@@ -1,0 +1,16 @@
+{
+    "image": "roman_loops.png",
+    "date": "2024-01-13",
+    "title": "Roman Loops",
+    "content": "If the classic variable with a for() loop is ``$i``, then nested loop should use ``$ii``, then ``$iii``, ``$iv``, ``$v``. ",
+    "seeAlso": {
+        "Original Tweet": "https://twitter.com/valorin/status/1745688764465218033",
+        "Original Source": "https://twitter.com/trunarla/status/1745582255840649608"
+    },
+    "tags": [
+        "for",
+        "syntax"
+    ],
+    "author": "Stephen Rees-Carter",
+    "contact": "https://twitter.com/valorin"
+}

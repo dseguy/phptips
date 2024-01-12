@@ -12,6 +12,8 @@ Author index
     * :ref:`php-infinity-is-reachable`
 * `Sergii Shymko <https://twitter.com/SergiiShymko>`_
     * :ref:`always-compatible-variadic`
+* `Stephen Rees-Carter <https://twitter.com/valorin>`_
+    * :ref:`roman-loops`
 * `Tim Macdonald <https://twitter.com/timacdonald87>`_
     * :ref:`exporting-properties`
 * `WebSmithery <https://stackoverflow.com/users/2519523/websmithery>`_
