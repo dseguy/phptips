@@ -87,6 +87,7 @@ PHP tips and tricks
    tips/forgotten_throw.rst
    tips/keywords_in_namespaces.rst
    tips/variable_optimisation.rst
+   tips/self_in_interface.rst
    tips/instanceof_class.rst
    tips/stdclass_tracking.rst
    tips/misplaced_parenthesis.rst
