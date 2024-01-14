@@ -13,5 +13,6 @@ This issue has been with PHP since PHP 4.
 
 .. image:: ../images/cast_is_strong.png
 
+* `Example code with int <https://3v4l.org/moVUK>`_
 
 

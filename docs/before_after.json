@@ -1,0 +1,13 @@
+{
+    "image": "before_after.png",
+    "date": "2024-01-15",
+    "title": "Before Or After",
+    "content": "PHP takes the opportunity to validate everything it can when it is handy, and leave the rest to execution time. In the code below, the first class has no error reported, because it is linted before the parent class. The last class displays an error because it appears after the definition of the parent, and PHP can lazily check it.\nThe validation of the first class will be more thorough at execution time, and yield the error then.",
+    "seeAlso": {
+    },
+    "tags": [
+        "lintable"
+    ],
+    "author": "",
+    "contact": ""
+}
