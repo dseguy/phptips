@@ -1,0 +1,14 @@
+{
+    "image": "redefine_native_functions.png",
+    "date": "2024-01-17",
+    "title": "Redefine Native Functions",
+    "content": "It is possible to redefine PHP functions or constants, or even any defined of such, by using the ``use`` command.\nThis feature is interesting for testing purposes: it allows the replacement of a defined function with an alternative.\nIt is not possible to do this twice in the same file, nor to redefine classes.",
+    "seeAlso": {
+    },
+    "tags": [
+        "use",
+        "native"
+    ],
+    "author": "",
+    "contact": ""
+}

@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/redefine_native_functions.rst
    tips/static_cannot_call_non_static.rst
    tips/before_after.rst
    tips/cast_is_strong.rst
