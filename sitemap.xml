@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/get_the_generator.html</loc>
+ </url>
+ <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/redefine_native_functions.html</loc>
  </url>
  <url>
@@ -23,6 +26,9 @@
  </url>
  <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/always_compatible_variadic.html</loc>
+ </url>
+ <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/yield_not_return.html</loc>
  </url>
  <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/try-catch-finally.html</loc>

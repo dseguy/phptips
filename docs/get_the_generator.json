@@ -1,0 +1,15 @@
+{
+    "image": "get_the_generator.png",
+    "date": "2024-01-18",
+    "title": "Get The Generator",
+    "content": "It is possible to catch a generator when it is called, by putting it in a variable. Once the generator has been used, you can then call a method such as ``getReturn`` on it.\nThis works with ``...`` and ``foreach``.",
+    "seeAlso": {
+        "Generators overview (PHP manual)": "https://www.php.net/manual/en/language.generators.overview.php"
+    },
+    "tags": [
+        "ellipsis",
+        "yield"
+    ],
+    "author": "",
+    "contact": ""
+}

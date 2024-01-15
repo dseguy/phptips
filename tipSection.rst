@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/get_the_generator.rst
    tips/redefine_native_functions.rst
    tips/static_cannot_call_non_static.rst
    tips/before_after.rst
@@ -13,6 +14,7 @@ PHP tips and tricks
    tips/finally_catches_exception.rst
    tips/abstract_again.rst
    tips/always_compatible_variadic.rst
+   tips/yield_not_return.rst
    tips/try-catch-finally.rst
    tips/nullAsArray.rst
    tips/sensitiveParameter.rst
