@@ -1,0 +1,13 @@
+{
+    "image": "static_cannot_call_non_static.png",
+    "date": "2024-01-16",
+    "title": "A Static Method Cannot Call A Non Static Method",
+    "content": "It is known that a non-static method can call a static method. It is less known that a static method cannot call a non-static method, even if the static syntax is possible.\nA non-static method needs a value for ``$this``, which a static call doesn't provide.",
+    "seeAlso": {
+    },
+    "tags": [
+        "static"
+    ],
+    "author": "",
+    "contact": ""
+}
