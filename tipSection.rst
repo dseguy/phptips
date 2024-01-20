@@ -99,6 +99,7 @@ PHP tips and tricks
    tips/int_back_to_negative.rst
    tips/not_all_strings.rst
    tips/recursive_closure.rst
+   tips/enum_as_name.rst
    tips/type_is_not_available.rst
    tips/namespace_stack.rst
    tips/catch_interfaces.rst
