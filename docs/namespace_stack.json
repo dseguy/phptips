@@ -1,0 +1,14 @@
+{
+    "image": "namespace_stack.png",
+    "date": "2022-04-06",
+    "title": "The Namespace Stack",
+    "content": "Reminder that namespaces are not stacked, but are merely prefixes. Hence, there is the current namespace, and the global one for the occasional fallback, but nothing in between. Namespaces are not folders, even when they are stored as such.",
+    "seeAlso": {
+        "Namespace (PHP manual)": "https://www.php.net/manual/en/language.namespaces.php"
+    },
+    "tags": [
+        "namespace"
+    ],
+    "author": "",
+    "contact": ""
+}

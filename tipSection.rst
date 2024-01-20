@@ -100,4 +100,5 @@ PHP tips and tricks
    tips/not_all_strings.rst
    tips/recursive_closure.rst
    tips/type_is_not_available.rst
+   tips/namespace_stack.rst
    tips/catch_interfaces.rst

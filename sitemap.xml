@@ -286,6 +286,9 @@
   <loc>https://php-tips.readthedocs.io/en/latest/tips/type_is_not_available.html</loc>
  </url>
  <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/namespace_stack.html</loc>
+ </url>
+ <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/catch_interfaces.html</loc>
  </url>
 </urlset>
