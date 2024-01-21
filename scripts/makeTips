@@ -71,7 +71,8 @@ foreach($files as $file) {
 		$images[$tip->image] = $file;
 	}
 
-	if (substr_count($tip->title, '_') > 1) {
+	if (substr_count($tip->title, '_') > 1 && 
+		!preg_match('/(file_put_contents|array_intersect_uassoc_insensitive)/', $tip->title)) {
 		buildlog("Warning : Too many _ in title '$tip->title' in $file");;
 		++$errors;
 		continue;
