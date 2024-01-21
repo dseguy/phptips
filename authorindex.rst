@@ -10,6 +10,8 @@ Author index
     * :ref:`enumeration's-cases-comparisons`
     * :ref:`stealth-generator`
     * :ref:`php-infinity-is-reachable`
+* `Gina Peter Banyard <https://github.com/Girgias>`_
+    * :ref:`file_put_contents-with-array-argument`
 * `Sergii Shymko <https://twitter.com/SergiiShymko>`_
     * :ref:`always-compatible-variadic`
 * `Stephen Rees-Carter <https://twitter.com/valorin>`_
