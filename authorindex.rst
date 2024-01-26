@@ -12,6 +12,8 @@ Author index
     * :ref:`php-infinity-is-reachable`
 * `Gina Peter Banyard <https://github.com/Girgias>`_
     * :ref:`file_put_contents-with-array-argument`
+* `Ondrej Mirtes <https://twitter.com/OndrejMirtes>`_
+    * :ref:`no_change_to_this`
 * `Sergii Shymko <https://twitter.com/SergiiShymko>`_
     * :ref:`always-compatible-variadic`
 * `Stephen Rees-Carter <https://twitter.com/valorin>`_
