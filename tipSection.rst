@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/class_constant_different_types.rst
    tips/no_change_to_this.rst
    tips/file_put_array.rst
    tips/get_the_generator.rst

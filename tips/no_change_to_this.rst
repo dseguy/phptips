@@ -1,7 +1,7 @@
-.. _no_change_to_this:
+.. _no-change-to-$this:
 
-no_change_to_this
------------------
+No Change To $this
+------------------
 
 By `Ondrej Mirtes <https://twitter.com/OndrejMirtes>`_
 

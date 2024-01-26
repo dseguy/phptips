@@ -1,7 +1,7 @@
 {
     "image": "no_change_to_this.png",
     "date": "2024-01-26",
-    "title": "no_change_to_this",
+    "title": "No Change To $this",
     "content": "Variable $this this passed and reassigned by reference is a noop, as opposed to all other variables. I'd expect an error to be honest.",
     "seeAlso": {
         "Original tweet": "https://twitter.com/OndrejMirtes/status/1750522433633927620",
