@@ -100,6 +100,7 @@ PHP tips and tricks
    tips/check_for_names.rst
    tips/int_back_to_negative.rst
    tips/not_all_strings.rst
+   tips/recursive_arrow_function.rst
    tips/recursive_closure.rst
    tips/enum_as_name.rst
    tips/type_is_not_available.rst
