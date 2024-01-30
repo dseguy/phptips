@@ -6,6 +6,8 @@ Author index
 * `Benoit Viguier <https://phpc.social/@b_viguier>`_
     * :ref:`easy-wither-call`
     * :ref:`quick-dto/vo-copy`
+* `Doeke Norg <https://twitter.com/doekenorg>`_
+    * :ref:`quick_serialize`
 * `Frederic Bouchery <https://twitter.com/FredBouchery>`_
     * :ref:`enumeration's-cases-comparisons`
     * :ref:`stealth-generator`

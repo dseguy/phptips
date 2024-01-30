@@ -59,6 +59,7 @@ PHP tips and tricks
    tips/when_a_constant_is_impossible.rst
    tips/quick-dto.rst
    tips/stealth-generator.rst
+   tips/quick_serialize.rst
    tips/clone_clone_clone.rst
    tips/readonly_and_private.rst
    tips/interface_exceptions.rst
