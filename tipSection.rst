@@ -79,11 +79,12 @@ PHP tips and tricks
    tips/foreach_same_keys.rst
    tips/battle_of_definitions.rst
    tips/variadic_all_yield.rst
+   tips/refactor_str_pos.rst
    tips/is_a_and_instanceof.rst
    tips/export_properties.rst
    tips/cast_to_int.rst
    tips/returntypewillchange_for_all.rst
-   tips/refactor_str_pos.rst
+   tips/URL_as_comments.rst
    tips/missing_methods_are_fatal.rst
    tips/initialize_with_coalesce.rst
    tips/keys_are_integers.rst

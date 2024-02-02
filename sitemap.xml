@@ -223,6 +223,9 @@
   <loc>https://php-tips.readthedocs.io/en/latest/tips/variadic_all_yield.html</loc>
  </url>
  <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/refactor_str_pos.html</loc>
+ </url>
+ <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/is_a_and_instanceof.html</loc>
  </url>
  <url>
@@ -235,7 +238,7 @@
   <loc>https://php-tips.readthedocs.io/en/latest/tips/returntypewillchange_for_all.html</loc>
  </url>
  <url>
-  <loc>https://php-tips.readthedocs.io/en/latest/tips/refactor_str_pos.html</loc>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/URL_as_comments.html</loc>
  </url>
  <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/missing_methods_are_fatal.html</loc>
