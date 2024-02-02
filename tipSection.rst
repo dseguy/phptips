@@ -58,6 +58,7 @@ PHP tips and tricks
    tips/multipleAliases.rst
    tips/plus_plus_minus_minus.rst
    tips/when_a_constant_is_impossible.rst
+   tips/constant_are_mutable.rst
    tips/quick-dto.rst
    tips/stealth-generator.rst
    tips/quick_serialize.rst
