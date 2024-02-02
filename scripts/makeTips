@@ -78,6 +78,12 @@ foreach($files as $file) {
 		continue;
 	}
 
+	if (ucwords(strtolower($tip->title)) != $tip->title &&
+		!preg_match('/(URL|array|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch)/', $tip->title)) {
+		buildlog("Warning : Not First Upper Cased in $file");;
+		++$errors;
+	}
+
 	if (strlen($tip->title) > 50) {
 		buildlog("Warning : $tip->title is too long (".strlen($tip->title).") in $file");;
 		++$errors;
