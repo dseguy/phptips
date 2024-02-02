@@ -83,6 +83,7 @@ PHP tips and tricks
    tips/export_properties.rst
    tips/cast_to_int.rst
    tips/returntypewillchange_for_all.rst
+   tips/refactor_str_pos.rst
    tips/missing_methods_are_fatal.rst
    tips/initialize_with_coalesce.rst
    tips/keys_are_integers.rst

@@ -235,6 +235,9 @@
   <loc>https://php-tips.readthedocs.io/en/latest/tips/returntypewillchange_for_all.html</loc>
  </url>
  <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/refactor_str_pos.html</loc>
+ </url>
+ <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/missing_methods_are_fatal.html</loc>
  </url>
  <url>
