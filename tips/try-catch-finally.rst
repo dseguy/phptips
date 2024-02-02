@@ -1,6 +1,6 @@
 .. _try,-catch,-finally-are-all-optional:
 
-try, catch, finally are all optional
+try, catch, finally Are All Optional
 ------------------------------------
 
 The finally clause in a try-catch-finally is actually optional: it can be omitted.

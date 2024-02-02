@@ -1,6 +1,6 @@
 .. _php-infinity-is-reachable:
 
-PHP Infinity is reachable
+PHP Infinity Is Reachable
 -------------------------
 
 By `Frederic Bouchery <https://twitter.com/FredBouchery>`_

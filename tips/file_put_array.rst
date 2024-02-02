@@ -1,7 +1,7 @@
-.. _file_put_contents-with-array-argument:
+.. _file_put_contents()-with-array-argument:
 
-file_put_contents With Array Argument
--------------------------------------
+file_put_contents() With Array Argument
+---------------------------------------
 
 By `Gina Peter Banyard <https://github.com/Girgias>`_
 

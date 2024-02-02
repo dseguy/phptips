@@ -1,6 +1,6 @@
 .. _an-elephpant-in-the-code:
 
-An elephpant in the code
+An Elephpant In The Code
 ------------------------
 
 When you need an elephant in your text, and you have PHP handy : 

@@ -1,7 +1,7 @@
-.. _set-readonly-outside-the-host-class:
+.. _set-readonly-properties-outside-the-class:
 
-Set readonly Outside The Host Class
------------------------------------
+Set readonly Properties Outside The Class
+-----------------------------------------
 
 PHP 8.1 readonly properties cannot be set from global space, but they can be forced from the host class, just like accessing private properties. 
 

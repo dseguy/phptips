@@ -1,7 +1,7 @@
 {
     "image": "quick_serialize.png",
     "date": "2023-09-27",
-    "title": "quick_serialize",
+    "title": "Quick Serialize",
     "content": "Did you know that `get_object_vars` only returns the initialized parameters from your objects? This can be very useful when (un)serializing objects.\nPS : accessing uninitialized properties leads to a Fatal error. This trick avoids it.",
     "seeAlso": {
         "Original": "https://twitter.com/doekenorg/status/1706624773646594134",

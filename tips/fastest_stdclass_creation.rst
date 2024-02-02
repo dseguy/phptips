@@ -1,6 +1,6 @@
 .. _fast-creation-of-stdclass-objects:
 
-Fast Creation of stdClass Objects
+Fast Creation Of stdClass Objects
 ---------------------------------
 
 The fastest way to create a stdClass object is to create an array, and then cast it to stdClass with the (array) operator. It is still faster even if the array is build peacemal (2 times slower).

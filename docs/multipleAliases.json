@@ -1,7 +1,7 @@
 {
 "image":"multipleAliases.png",
 "date":"2023-10-10",
-"title":"Multiple aliases",	
+"title":"Multiple Aliases",	
 "content":"It is possible to rename an imported method from a trait, by using an alias name. It is also possible to import it several times, with different names.\nAnd, unlike static/self, it is not possible for the called method to know how it was called.",
 "seeAlso":{
 	"Traits":"https://www.php.net/manual/en/language.oop5.traits.php"

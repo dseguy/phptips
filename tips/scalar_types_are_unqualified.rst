@@ -1,6 +1,6 @@
 .. _scalar-types-are-unqualified:
 
-Scalar types are unqualified
+Scalar Types Are Unqualified
 ----------------------------
 
 Scalar types, such as ``int`` or ``iterable`` shall be used without the leading slash. Yet, there are some exceptions, in PHP 8.3.

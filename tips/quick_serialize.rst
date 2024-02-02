@@ -1,6 +1,6 @@
-.. _quick_serialize:
+.. _quick-serialize:
 
-quick_serialize
+Quick Serialize
 ---------------
 
 By `Doeke Norg <https://twitter.com/doekenorg>`_

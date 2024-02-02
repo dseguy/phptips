@@ -1,7 +1,7 @@
 {
     "image": "reference_on_static.png",
     "date": "2023-12-01",
-    "title": "Edit a static variable outside its function",
+    "title": "Change A Static Variable Outside Its Function",
     "content": "Static variables are persistent between calls to the same method. They are local, unless they are returned with a reference. Then, they can be accessed in the main code, and read or even written.\nThis is the case here, without even storing the value: it is actually updated on the fly with the array notation on the function call. ",
     "seeAlso": {
         "Static variables (PHP manual)": "https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static"

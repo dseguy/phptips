@@ -1,7 +1,7 @@
-.. _edit-a-static-variable-outside-its-function:
+.. _change-a-static-variable-outside-its-function:
 
-Edit a static variable outside its function
--------------------------------------------
+Change A Static Variable Outside Its Function
+---------------------------------------------
 
 Static variables are persistent between calls to the same method. They are local, unless they are returned with a reference. Then, they can be accessed in the main code, and read or even written.
 

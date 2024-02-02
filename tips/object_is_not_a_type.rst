@@ -1,6 +1,6 @@
 .. _object-is-not-a-type:
 
-Object is not a type
+Object Is Not A Type
 --------------------
 
 Such situations always make me smile, yet I am certain several of us will loose time on such a mistake. It is a bit more obvious with integer or string in the instanceof.

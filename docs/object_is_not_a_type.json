@@ -1,13 +1,15 @@
 {
 "image":"object_is_not_a_type.png",
 "date":"2022-09-11",
-"title":"Object is not a type",	
+"title":"Object Is Not A Type",	
 "content":"Such situations always make me smile, yet I am certain several of us will loose time on such a mistake. It is a bit more obvious with integer or string in the instanceof.",
 "seeAlso":{
 	"Variables (PHP manual)":"https://www.php.net/manual/en/language.variables.php"
 },
 "tags":[
 	"scalar types",
-	"instanceof"
+	"instanceof",
+	"surprising",
+	"silent"
 ]
 }

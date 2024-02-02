@@ -5,15 +5,15 @@ Author index
     * :ref:`strange--->-operator`
 * `Benoit Viguier <https://phpc.social/@b_viguier>`_
     * :ref:`easy-wither-call`
-    * :ref:`quick-dto/vo-copy`
+    * :ref:`quick-dto-or-vo-copy`
 * `Doeke Norg <https://twitter.com/doekenorg>`_
-    * :ref:`quick_serialize`
+    * :ref:`quick-serialize`
 * `Frederic Bouchery <https://twitter.com/FredBouchery>`_
     * :ref:`enumeration's-cases-comparisons`
     * :ref:`stealth-generator`
     * :ref:`php-infinity-is-reachable`
 * `Gina Peter Banyard <https://github.com/Girgias>`_
-    * :ref:`file_put_contents-with-array-argument`
+    * :ref:`file_put_contents()-with-array-argument`
 * `Ondrej Mirtes <https://twitter.com/OndrejMirtes>`_
     * :ref:`no-change-to-$this`
 * `Sergii Shymko <https://twitter.com/SergiiShymko>`_

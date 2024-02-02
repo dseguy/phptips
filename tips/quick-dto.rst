@@ -1,7 +1,7 @@
-.. _quick-dto/vo-copy:
+.. _quick-dto-or-vo-copy:
 
-Quick DTO/VO copy
------------------
+Quick DTO Or VO Copy
+--------------------
 
 By `Benoit Viguier <https://phpc.social/@b_viguier>`_
 
