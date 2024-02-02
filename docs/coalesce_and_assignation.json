@@ -1,0 +1,18 @@
+{
+    "image": "coalesce_and_assignation.png",
+    "date": "2022-10-25",
+    "title": "Coalesce And Assignation",
+    "content": "Coalesce has lower priority than assignation, so assignation happens first. It basically acts as a parenthesis, with the rest of the expression, and the results, stored in the variable, is used as part of the coalesce operator.",
+    "seeAlso": {
+        "Operators precedence": "https://www.php.net/manual/en/language.operators.precedence.php",
+        "Null Coalesce Operator":"https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.coalesce"
+    },
+    "tags": [
+        "precedence",
+        "operator",
+        "coalesce",
+        "assignation"
+    ],
+    "author": "",
+    "contact": ""
+}

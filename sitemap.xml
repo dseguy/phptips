@@ -241,6 +241,9 @@
   <loc>https://php-tips.readthedocs.io/en/latest/tips/URL_as_comments.html</loc>
  </url>
  <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/coalesce_and_assignation.html</loc>
+ </url>
+ <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/missing_methods_are_fatal.html</loc>
  </url>
  <url>

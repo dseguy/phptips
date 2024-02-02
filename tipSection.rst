@@ -85,6 +85,7 @@ PHP tips and tricks
    tips/cast_to_int.rst
    tips/returntypewillchange_for_all.rst
    tips/URL_as_comments.rst
+   tips/coalesce_and_assignation.rst
    tips/missing_methods_are_fatal.rst
    tips/initialize_with_coalesce.rst
    tips/keys_are_integers.rst
