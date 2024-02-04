@@ -16,6 +16,8 @@ Author index
     * :ref:`file_put_contents()-with-array-argument`
 * `Ondrej Mirtes <https://twitter.com/OndrejMirtes>`_
     * :ref:`no-change-to-$this`
+* `Rahul Chavan <https://twitter.com/rcsofttech85>`_
+    * :ref:`array_reduce()-to-filter-and-alter`
 * `Sergii Shymko <https://twitter.com/SergiiShymko>`_
     * :ref:`always-compatible-variadic`
 * `Stephen Rees-Carter <https://twitter.com/valorin>`_

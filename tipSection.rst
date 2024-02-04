@@ -6,6 +6,7 @@ PHP tips and tricks
    :caption: Contents:
 
    tips/file_append_contents.rst
+   tips/array_reduce.rst
    tips/this_is_not_the_current_class.rst
    tips/class_constant_different_types.rst
    tips/no_change_to_this.rst
