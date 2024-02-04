@@ -1,13 +1,13 @@
 {
 "image":"constructor_consistency.png",
 "date":"2022-09-18",
-"title":"strict_types Exceptions",
-"content":"strict_types do not apply to #PHP operators, only on to typed structures. \nHere, concatenation and interpolation all call __toString(), but not foo(). \nAs you can see, print() and echo() are safe too, while implode() is not. ",
+"title":"Signature Compatibility Exception",
+"content":"All methods must be compatible with their parent's signature: the types, reference options, variadic and number must be compatible (although, not equal).\nThe only exception are constructors, which may be completely different from their parent's. This is for backward compatibility.",
 "seeAlso":{
-	"declare (PHP manual)":"https://www.php.net/manual/en/control-structures.declare.php"
+	"constructors":"https://www.php.net/manual/en/control-structures.declare.php"
 },
 "tags":[
 	"PHP",
-	"strict_types"
+	"backward compatibility"
 ]
 }

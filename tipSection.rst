@@ -96,6 +96,7 @@ PHP tips and tricks
    tips/fastest_stdclass_creation.rst
    tips/elephpant.rst
    tips/internal_static_call.rst
+   tips/strict_types_exceptions.rst
    tips/playing_with_the_limit.rst
    tips/constructor_consistency.rst
    tips/object_is_not_a_type.rst
