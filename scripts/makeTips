@@ -72,14 +72,14 @@ foreach($files as $file) {
 	}
 
 	if (substr_count($tip->title, '_') > 1 && 
-		!preg_match('/(file_put_contents|array_intersect_uassoc_insensitive)/', $tip->title)) {
+		!preg_match('/(file_put_contents|array_intersect_uassoc_insensitive|file_append_contents)/', $tip->title)) {
 		buildlog("Warning : Too many _ in title '$tip->title' in $file");;
 		++$errors;
 		continue;
 	}
 
 	if (ucwords(strtolower($tip->title)) != $tip->title &&
-		!preg_match('/(URL|array|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch)/', $tip->title)) {
+		!preg_match('/(URL|array|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents)/', $tip->title)) {
 		buildlog("Warning : Not First Upper Cased in $file");;
 		++$errors;
 	}
