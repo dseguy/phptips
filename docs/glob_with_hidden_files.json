@@ -1,0 +1,14 @@
+{
+    "image": "glob_with_hidden_files.png",
+    "date": "2024-02-06",
+    "title": "glob() With Hidden Files",
+    "content": "By default, the glob() function list only files that don't start with a dot. With the GLOB_BRACE option, it is possible to list all files, and even filter out the evergreen '.' and '..'. ",
+    "seeAlso": {
+        "glob": "https://www.php.net/manual/en/function.glob.php"
+    },
+    "tags": [
+        "tip"
+    ],
+    "author": "",
+    "contact": ""
+}
