@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/no_semi_colon_in_sight.rst
    tips/glob_with_hidden_files.rst
    tips/file_append_contents.rst
    tips/array_reduce.rst
