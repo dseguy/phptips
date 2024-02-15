@@ -5,13 +5,7 @@ class_exists() With Enums
 
 	.. meta::
 		:description lang=en:
-			class_exists() With Enums: In PHP, we have:
-- class_exists()
-- trait_exists()
-- interface_exists()
-- enum_exists()
-
-What would you expect as a result here.
+			class_exists() With Enums: In PHP, we have:.
 
 By `Jan Nedbal <https://twitter.com/janedbal>`_
 
