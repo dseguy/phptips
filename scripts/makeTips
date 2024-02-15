@@ -79,7 +79,7 @@ foreach($files as $file) {
 	}
 
 	if (ucwords(strtolower($tip->title)) != $tip->title &&
-		!preg_match('/(URL|array|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents)/', $tip->title)) {
+		!preg_match('/(URL|array|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents|glob)/', $tip->title)) {
 		buildlog("Warning : Not First Upper Cased in $file");;
 		++$errors;
 	}
@@ -119,6 +119,12 @@ foreach($tips as $tip) {
 	$phptip[] = str_repeat(LEVEL_UNDERLINE, strlen($tip->title));
 	$phptip[] = '';
 	
+	$phptip[] = '	.. meta::';
+	$phptip[] = '		:description lang=en:';
+	$first = preg_split('/[\.\?;]/', $tip->content)[0];
+	$phptip[] = '			'.$tip->title.': '.$first.'.';
+	$phptip[] = '';
+
 	if (!empty($tip->author)) {
 		$author = '`'.$tip->author.' <'.$tip->contact.'>`_';
 		$phptip[] = 'By '.$author.PHP_EOL;
