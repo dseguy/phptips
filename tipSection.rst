@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/yield_not_return_by_reference.rst
    tips/enum_exists.rst
    tips/no_semi_colon_in_sight.rst
    tips/glob_with_hidden_files.rst
