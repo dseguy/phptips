@@ -1,0 +1,15 @@
+{
+    "image": "enum_exists.png",
+    "date": "2024-02-15",
+    "title": "class_exists() With Enums",
+    "content": "In #PHP, we have:\n- class_exists()\n- trait_exists()\n- interface_exists()\n- enum_exists()\n\nWhat would you expect as a result here?\n\nThis is displaying true. \n",
+    "seeAlso": {
+        "enum_exists": "https://www.php.net/manual/en/function.enum-exists.php",
+        "All Classes Aliases":"https://php-tips.readthedocs.io/en/latest/tips/class_alias_alias.html"
+    },
+    "tags": [
+        "surprising"
+    ],
+    "author": "Jan Nedbal",
+    "contact": "https://twitter.com/janedbal"
+}

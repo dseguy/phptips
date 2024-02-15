@@ -14,6 +14,8 @@ Author index
     * :ref:`php-infinity-is-reachable`
 * `Gina Peter Banyard <https://github.com/Girgias>`_
     * :ref:`file_put_contents()-with-array-argument`
+* `Jan Nedbal <https://twitter.com/janedbal>`_
+    * :ref:`class_exists()-with-enums`
 * `Ondrej Mirtes <https://twitter.com/OndrejMirtes>`_
     * :ref:`no-change-to-$this`
 * `Rahul Chavan <https://twitter.com/rcsofttech85>`_
