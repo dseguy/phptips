@@ -3,6 +3,10 @@
 Don't Forget To Yield
 ---------------------
 
+	.. meta::
+		:description lang=en:
+			Don't Forget To Yield: It is possible to delegate a generator to another generator.
+
 It is possible to delegate a generator to another generator.
 
 Just don't call them raw, as nothing will happen.

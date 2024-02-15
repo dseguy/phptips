@@ -3,6 +3,10 @@
 Easy Wither Call
 ----------------
 
+	.. meta::
+		:description lang=en:
+			Easy Wither Call: Can be useful to create "with-ers" in an immutable (value) object with a LOT of readonly properties.
+
 By `Benoit Viguier <https://phpc.social/@b_viguier>`_
 
 Can be useful to create "with-ers" in an immutable (value) object with a LOT of readonly properties.

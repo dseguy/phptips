@@ -3,6 +3,10 @@
 Yield, Not Return
 -----------------
 
+	.. meta::
+		:description lang=en:
+			Yield, Not Return: This will display ``1 2 3``.
+
 This will display ``1 2 3``. This is because the ``...`` operator will act as a ``foreach`` and runs the generator. It will then spread the values as arguments for the function call, and, in this case, it matches the needed arguments.
 
 Note that named parameters are also supported, with the good PHP version.

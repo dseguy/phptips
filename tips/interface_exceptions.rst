@@ -3,6 +3,10 @@
 Exception Polyphormism
 ----------------------
 
+	.. meta::
+		:description lang=en:
+			Exception Polyphormism: Customs exceptions are classes like any others: they may implements an interface.
+
 Customs exceptions are classes like any others: they may implements an interface. That interface may be used to catch the exception, even if the interface has nothing to do with exceptions.
 
 .. image:: ../images/interface_exceptions.png

@@ -3,6 +3,10 @@
 All Classes Aliases
 -------------------
 
+	.. meta::
+		:description lang=en:
+			All Classes Aliases: To make a class alias, use class_alias().
+
 To make a class alias, use class_alias();
 
 To make an interface alias, use class_alias();

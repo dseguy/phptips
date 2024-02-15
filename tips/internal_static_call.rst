@@ -3,6 +3,10 @@
 Internal Static Call
 --------------------
 
+	.. meta::
+		:description lang=en:
+			Internal Static Call: Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error.
+
 Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error. 
 
 Which one? It is the d::foo(). All other calls are made within the C class : internal calls may use static or normal syntax, while external calls must use the correct call syntax. This allows calls like 'parent::__construct()'. 

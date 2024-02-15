@@ -3,6 +3,10 @@
 file_put_contents() With Array Argument
 ---------------------------------------
 
+	.. meta::
+		:description lang=en:
+			file_put_contents() With Array Argument: The second argument of file_put_contents() is typed as 'mixed'.
+
 By `Gina Peter Banyard <https://github.com/Girgias>`_
 
 The second argument of file_put_contents() is typed as 'mixed'. It may be a string, which is the most common case. It may be a stream, (aka, a resource), which pours a file into a file.

@@ -3,6 +3,10 @@
 A Static Method Cannot Call A Non Static Method
 -----------------------------------------------
 
+	.. meta::
+		:description lang=en:
+			A Static Method Cannot Call A Non Static Method: It is known that a non-static method can call a static method.
+
 It is known that a non-static method can call a static method. It is less known that a static method cannot call a non-static method, even if the static syntax is possible.
 
 A non-static method needs a value for ``$this``, which a static call doesn't provide.

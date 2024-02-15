@@ -3,6 +3,10 @@
 Negating An Assignation
 -----------------------
 
+	.. meta::
+		:description lang=en:
+			Negating An Assignation: I always wondered why PHP allows to NOT a variable on the LEFT side of an assignation.
+
 I always wondered why PHP allows to NOT a variable on the LEFT side of an assignation.
 
 It makes sense with an iffectation (an assignation in an if)

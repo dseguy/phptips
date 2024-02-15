@@ -3,6 +3,10 @@
 Type Is Not Always Returned
 ---------------------------
 
+	.. meta::
+		:description lang=en:
+			Type Is Not Always Returned: A method can display a return type, and never return it actually.
+
 A method can display a return type, and never return it actually. This happens with exceptions, errors, yield and infinite loops. May be 'never' would be a better choice, if possible.
 
 On the other hand, a function returning 'void', aka returning nothing, should not have any return statement, including the hidden one at the end of the method.

@@ -3,6 +3,10 @@
 Playing With Integers Limits
 ----------------------------
 
+	.. meta::
+		:description lang=en:
+			Playing With Integers Limits: Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1/12.
+
 Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1/12.
 
 PHP has the integer overflow. Stay away from the PHP_INT_MAX limits. Valid with (int) or intval() with recent PHP versions.

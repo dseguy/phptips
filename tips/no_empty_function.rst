@@ -3,6 +3,10 @@
 No Such Function As Empty
 -------------------------
 
+	.. meta::
+		:description lang=en:
+			No Such Function As Empty: .
+
 
 
 .. image:: ../images/no_empty_function.png

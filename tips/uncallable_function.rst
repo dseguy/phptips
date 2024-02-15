@@ -3,6 +3,10 @@
 Uncallable Function
 -------------------
 
+	.. meta::
+		:description lang=en:
+			Uncallable Function: The function foo() cannot be called.
+
 The function foo() cannot be called. When the code does so, nothing happens.
 
 The trick is the inclusion of a call to yield (or yield from) in the function. It turns the function into a generator, and calling it directly does nothing. It needs to be called with foreach() or iterator_to_array().

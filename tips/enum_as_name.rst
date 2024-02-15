@@ -3,6 +3,10 @@
 Enum As A Name
 --------------
 
+	.. meta::
+		:description lang=en:
+			Enum As A Name: It is possible to name a class enum, but not to name an enum class.
+
 It is possible to name a class enum, but not to name an enum class. In fact, 'enum' is an authorized name for interfaces and traits, to help with backward compatibility.
 
  This also means that an enumeration may be called 'enum'.

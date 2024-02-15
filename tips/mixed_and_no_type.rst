@@ -3,6 +3,10 @@
 Mixed And Untyped Are Not Compatible Types
 ------------------------------------------
 
+	.. meta::
+		:description lang=en:
+			Mixed And Untyped Are Not Compatible Types: A property typed mixed cannot be redefined later as untyped.
+
 A property typed mixed cannot be redefined later as untyped. 
 
 A property untyped cannot be redefined later as mixed. 

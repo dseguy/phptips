@@ -3,6 +3,10 @@
 Cannot Yield And Never
 ----------------------
 
+	.. meta::
+		:description lang=en:
+			Cannot Yield And Never: Never, as a return type, mentions that the method will never return.
+
 Never, as a return type, mentions that the method will never return. This means that it either calls exit(), throws an exception, or is an infinite loop.
 
 Infinite loop escaped my radar until I realized it is a good way to characterize the loop in an explicit way: put any explicit loop in a ``never`` method and know before hand of the implications.

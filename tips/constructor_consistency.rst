@@ -3,6 +3,10 @@
 Signature Compatibility Exception
 ---------------------------------
 
+	.. meta::
+		:description lang=en:
+			Signature Compatibility Exception: All methods must be compatible with their parent's signature: the types, reference options, variadic and number must be compatible (although, not equal).
+
 All methods must be compatible with their parent's signature: the types, reference options, variadic and number must be compatible (although, not equal).
 
 The only exception are constructors, which may be completely different from their parent's. This is for backward compatibility.

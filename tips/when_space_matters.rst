@@ -3,6 +3,10 @@
 When Space Matters
 ------------------
 
+	.. meta::
+		:description lang=en:
+			When Space Matters: The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation.
+
 The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation.
 
 The third and fourth ones are a syntax error, because PHP starts interpreting a float, but fail to get the decimal part.

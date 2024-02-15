@@ -3,6 +3,10 @@
 Checking For Names At Different Times
 -------------------------------------
 
+	.. meta::
+		:description lang=en:
+			Checking For Names At Different Times: PHP lint detects early to avoid 'redeclared functions', based on local compilation.
+
 PHP lint detects early to avoid 'redeclared functions', based on local compilation.
 
 php -l => Cannot redeclare mb_substr() 

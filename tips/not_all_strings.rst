@@ -3,6 +3,10 @@
 Not All Strings In Arrays
 -------------------------
 
+	.. meta::
+		:description lang=en:
+			Not All Strings In Arrays: Array keys are coerced into strings or integers, while array values are left intact.
+
 Array keys are coerced into strings or integers, while array values are left intact.
 
 Yet, this doesn't apply to array keys, so this code will display an 'Uncaught TypeError: Illegal offset type', even without strict_types.

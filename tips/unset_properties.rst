@@ -3,6 +3,10 @@
 Unsetting Properties Surprises
 ------------------------------
 
+	.. meta::
+		:description lang=en:
+			Unsetting Properties Surprises: Unsetting properties is always a suprise.
+
 Unsetting properties is always a suprise.
 
 First, if the property was typed, it yields a Fatal Error, as the property cannot be accessed before initialization. And, the unset destroyed the property.

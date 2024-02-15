@@ -3,6 +3,10 @@
 Only Initialize With Short Assignation Coalesce
 -----------------------------------------------
 
+	.. meta::
+		:description lang=en:
+			Only Initialize With Short Assignation Coalesce: It is not possible to access a property before its initialisation.
+
 It is not possible to access a property before its initialisation. This is true to both static and normal properties.
 
 While normal properties are initialized at constructor time, static properties might require a check before assignation : in case the property has not been yet assigned, a Fatal error will stop the code execution.

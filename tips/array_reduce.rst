@@ -3,6 +3,10 @@
 array_reduce() To Filter And Alter
 ----------------------------------
 
+	.. meta::
+		:description lang=en:
+			array_reduce() To Filter And Alter: Using array_reduce() to create custom data structures goes beyond simple filtering.
+
 By `Rahul Chavan <https://twitter.com/rcsofttech85>`_
 
 Using array_reduce() to create custom data structures goes beyond simple filtering.

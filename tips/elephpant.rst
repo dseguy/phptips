@@ -3,9 +3,13 @@
 An Elephpant In The Code
 ------------------------
 
-When you need an elephant in your text, and you have PHP handy : 
+	.. meta::
+		:description lang=en:
+			An Elephpant In The Code: When you need an elephant in your text, you have PHP always ready.
 
-its unicode is 128024 or 0x1F418.
+When you need an elephant in your text, you have PHP always ready.
+
+Its unicode is 128024 or 0x1F418.
 
 .. image:: ../images/elephpant.png
 

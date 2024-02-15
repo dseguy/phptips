@@ -3,6 +3,10 @@
 Enumeration's Cases Comparisons
 -------------------------------
 
+	.. meta::
+		:description lang=en:
+			Enumeration's Cases Comparisons: Enumeration cases are different when the enumeration are different, not when the value of the case is different.
+
 By `Frederic Bouchery <https://twitter.com/FredBouchery>`_
 
 Enumeration cases are different when the enumeration are different, not when the value of the case is different. It is a differenc with using constants for enumerations.

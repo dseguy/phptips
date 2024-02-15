@@ -3,6 +3,10 @@
 Cannot Static Static Property
 -----------------------------
 
+	.. meta::
+		:description lang=en:
+			Cannot Static Static Property: Static can be used as a keyword to mark a property as 'static' (sic).
+
 Static can be used as a keyword to mark a property as 'static' (sic). It could also be used as a type for that same property, leading to those confusing lines below.
 
 In fact, static would accept ``self``, but also ``parent`` and any children class: just like ``self``. So, ``self`` is sufficient to type properties, and there is no need for ``static static``.

@@ -3,6 +3,10 @@
 Get The Generator
 -----------------
 
+	.. meta::
+		:description lang=en:
+			Get The Generator: It is possible to catch a generator when it is called, by putting it in a variable.
+
 It is possible to catch a generator when it is called, by putting it in a variable. Once the generator has been used, you can then call a method such as ``getReturn`` on it.
 
 This works with ``...`` and ``foreach``.

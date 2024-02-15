@@ -3,6 +3,10 @@
 Variadic All The Yields
 -----------------------
 
+	.. meta::
+		:description lang=en:
+			Variadic All The Yields: The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array().
+
 The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array().
 
 Here, the generator produces three values, and they are used to fill the three argument positions. It makes a kind of shortcut.

@@ -3,6 +3,10 @@
 Cast Is So Strong
 -----------------
 
+	.. meta::
+		:description lang=en:
+			Cast Is So Strong: The code below yields a Fatal Error, at linting time.
+
 The code below yields a Fatal Error, at linting time. PHP identifies too early the cast operator ``(int)``, and fail to recognize the function call to ``var_dump()``. 
 
 It is possible to create a constant called ``int``, but it is not possible to put it between parenthesis, including with spaces. PHP always confuse it with the cast operator. 

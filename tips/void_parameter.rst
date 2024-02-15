@@ -3,6 +3,10 @@
 Void Parameter In array_keys()
 ------------------------------
 
+	.. meta::
+		:description lang=en:
+			Void Parameter In array_keys(): There is a 'void' parameter in PHP.
+
 There is a 'void' parameter in PHP. It is the second argument of array_keys().
 
 That second parameter is often omitted (and unknown). 

@@ -3,6 +3,10 @@
 Multiple Aliases
 ----------------
 
+	.. meta::
+		:description lang=en:
+			Multiple Aliases: It is possible to rename an imported method from a trait, by using an alias name.
+
 It is possible to rename an imported method from a trait, by using an alias name. It is also possible to import it several times, with different names.
 
 And, unlike static/self, it is not possible for the called method to know how it was called.

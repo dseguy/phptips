@@ -3,6 +3,10 @@
 Static Variable Outside A Method
 --------------------------------
 
+	.. meta::
+		:description lang=en:
+			Static Variable Outside A Method: TIL that PHP static variables can be declared out of a function, in the namespace.
+
 TIL that PHP static variables can be declared out of a function, in the namespace. 
 
 

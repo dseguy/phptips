@@ -3,6 +3,10 @@
 Abstract Again
 --------------
 
+	.. meta::
+		:description lang=en:
+			Abstract Again: A concrete class may have an abstract child: the child class extends the parent class, and also receives the abstract option.
+
 A concrete class may have an abstract child: the child class extends the parent class, and also receives the abstract option.
 
 On the other hand, a concrete method, inside any kind of class, cannot be made abstract in a child. The child class can be made abstract, and new methods can be made abstract. But the existing methods cannot be turned back to abstract.
