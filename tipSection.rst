@@ -117,6 +117,7 @@ PHP tips and tricks
    tips/not_all_strings.rst
    tips/recursive_arrow_function.rst
    tips/recursive_closure.rst
+   tips/cast_precedence.rst
    tips/enum_as_name.rst
    tips/type_is_not_available.rst
    tips/namespace_stack.rst
