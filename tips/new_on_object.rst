@@ -13,17 +13,17 @@ It is possible to use new on an object, to get a new object of the same class. T
 
     
 
-When using the parenthesis after the variable, the __invoke() magic method won't be called, as those parenthesis are used to call the constructor. To get that result, it must be called outside the new command.
+When using the parenthesis after the variable, the __invoke() magic method won't be called, as those parenthesis are used to call the constructor. To get that result, it must be called outside the new command or within parenthesis, as ``new ($a())``.
 
 
 
-Under the hood, PHP collects the class name from the object to produce the new one. It is akin to using the class name in a string. 
+Under the hood, PHP collects the class name from the object to produce the new one. It is akin to using the class name in a string.
 
 
 
-Lastly, the full class name is available in the x::class syntax, but PHP won't recognize ``new x::class``, and even emit a Fatal error. 
+Lastly, the full class name is available in the x::class syntax, but PHP won't recognize ``new x::class``, and even emit a Fatal error: it recognizes ``new (x::class)``. 
 
-    
+
 
 .. image:: ../images/new_on_object.png
 
