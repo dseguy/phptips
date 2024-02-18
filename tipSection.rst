@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/new_on_object.rst
    tips/unfinished_class.rst
    tips/yield_not_return_by_reference.rst
    tips/enum_exists.rst

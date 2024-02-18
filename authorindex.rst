@@ -4,6 +4,7 @@ Author index
 * `Andrew Schmelyun <https://twitter.com/aschmelyun>`_
     * :ref:`strange--->-operator`
 * `Benoit Viguier <https://phpc.social/@b_viguier>`_
+    * :ref:`new-on-object`
     * :ref:`easy-wither-call`
     * :ref:`quick-dto-or-vo-copy`
 * `Doeke Norg <https://twitter.com/doekenorg>`_
