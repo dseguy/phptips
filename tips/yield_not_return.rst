@@ -11,7 +11,7 @@ This will display ``1 2 3``. This is because the ``...`` operator will act as a 
 
 Note that named parameters are also supported, with the good PHP version.
 
-The returned value of the generator is lost, in this case. If you need to access the returned values, you must get the generator, and call the ``getReturn()`` method. 
+The returned value of the generator is lost, in this case. If you need to access the returned values, you must get the generator, and call the ``getReturn()`` method.
 
 .. image:: ../images/yield_not_return.png
 

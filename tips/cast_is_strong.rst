@@ -13,7 +13,7 @@ It is possible to create a constant called ``int``, but it is not possible to pu
 
 Later, ``bool``, ``float``, ``string``, ``array``, ``object`` all fail to parse for the same reasons. It is also the case for ``unset``, although this operator is not supported anymore. It is also the case for ``boolean``, and ``integer``, although PHP complains about the short name of the operator.
 
-This issue has been with PHP since PHP 4. 
+This issue has been with PHP since PHP 4.
 
 .. image:: ../images/cast_is_strong.png
 

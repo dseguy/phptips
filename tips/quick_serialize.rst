@@ -5,11 +5,11 @@ Quick Serialize
 
 	.. meta::
 		:description lang=en:
-			Quick Serialize: Did you know that `get_object_vars` only returns the initialized parameters from your objects.
+			Quick Serialize: Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects.
 
 By `Doeke Norg <https://twitter.com/doekenorg>`_
 
-Did you know that `get_object_vars` only returns the initialized parameters from your objects? This can be very useful when (un)serializing objects.
+Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects? This can be very useful when (un)serializing objects.
 
 PS : accessing uninitialized properties leads to a Fatal error. This trick avoids it.
 

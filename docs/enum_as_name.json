@@ -2,7 +2,7 @@
     "image": "enum_as_name.png",
     "date": "2022-04-23",
     "title": "Enum As A Name",
-    "content": "It is possible to name a class enum, but not to name an enum class. In fact, 'enum' is an authorized name for interfaces and traits, to help with backward compatibility.\n This also means that an enumeration may be called 'enum'.",
+    "content": "It is possible to name a class enum, but not to name an enum class. In fact, 'enum' is an authorized name for interfaces and traits, to help with backward compatibility.\nThis also means that an enumeration may be called 'enum'.",
     "seeAlso": {
         "Example (PHP manual)": "https://3v4l.org/bojkm"
     },

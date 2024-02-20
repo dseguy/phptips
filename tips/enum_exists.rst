@@ -11,13 +11,13 @@ By `Jan Nedbal <https://twitter.com/janedbal>`_
 
 In PHP, we have:
 
-- class_exists()
+- ``class_exists()``
 
-- trait_exists()
+- ``trait_exists()``
 
-- interface_exists()
+- ``interface_exists()``
 
-- enum_exists()
+- ``enum_exists()``
 
 
 
@@ -25,9 +25,7 @@ What would you expect as a result here?
 
 
 
-This is displaying true. 
-
-
+This is displaying true.
 
 .. image:: ../images/enum_exists.png
 

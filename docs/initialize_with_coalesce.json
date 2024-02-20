@@ -2,7 +2,7 @@
 "image":"initialize_with_coalesce.png",
 "date":"2022-10-22",
 "title":"Only Initialize With Short Assignation Coalesce",	
-"content":"It is not possible to access a property before its initialisation. This is true to both static and normal properties.\nWhile normal properties are initialized at constructor time, static properties might require a check before assignation : in case the property has not been yet assigned, a Fatal error will stop the code execution.\nIn fact, there is a way : it is the short assignation with coalesce, which will accept to check the NULL value, and only fill it if it is null.  ",
+"content":"It is not possible to access a property before its initialisation. This is true to both static and normal properties.\nWhile normal properties are initialized at constructor time, static properties might require a check before assignation : in case the property has not been yet assigned, a Fatal error will stop the code execution.\nIn fact, there is a way : it is the short assignation with coalesce, which will accept to check the NULL value, and only fill it if it is null.",
 "seeAlso":{
 	"Properties":"https://www.php.net/manual/en/language.oop5.properties.php"
 },

@@ -2,7 +2,7 @@
 "image":"check_for_names.png",
 "date":"2022-07-31",
 "title":"Checking For Names At Different Times",	
-"content":"PHP lint detects early to avoid 'redeclared functions', based on local compilation.\nphp -l => Cannot redeclare mb_substr() \nIt doesn't apply to CIT until execution though : \nphp => Cannot declare class stdClass\n because the name is already in use",
+"content":"PHP lint detects early to avoid 'redeclared functions', based on local compilation.\nphp -l => Cannot redeclare mb_substr() \nIt doesn't apply to CIT until execution though : \nphp => Cannot declare class stdClass\nbecause the name is already in use.",
 "seeAlso":{
 	
 },

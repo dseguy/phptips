@@ -2,7 +2,7 @@
     "image": "yield_not_return.png",
     "date": "2024-01-09",
     "title": "Yield, Not Return",
-    "content": "This will display ``1 2 3``. This is because the ``...`` operator will act as a ``foreach`` and runs the generator. It will then spread the values as arguments for the function call, and, in this case, it matches the needed arguments.\nNote that named parameters are also supported, with the good PHP version.\nThe returned value of the generator is lost, in this case. If you need to access the returned values, you must get the generator, and call the ``getReturn()`` method. ",
+    "content": "This will display ``1 2 3``. This is because the ``...`` operator will act as a ``foreach`` and runs the generator. It will then spread the values as arguments for the function call, and, in this case, it matches the needed arguments.\nNote that named parameters are also supported, with the good PHP version.\nThe returned value of the generator is lost, in this case. If you need to access the returned values, you must get the generator, and call the ``getReturn()`` method.",
     "seeAlso": {
         "Generators overview (PHP manual)": "https://www.php.net/manual/en/language.generators.overview.php"
     },

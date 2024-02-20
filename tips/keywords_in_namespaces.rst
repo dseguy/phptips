@@ -5,9 +5,9 @@ Keywords In Namespaces
 
 	.. meta::
 		:description lang=en:
-			Keywords In Namespaces: Since PHP 8.
+			Keywords In Namespaces: Since #PHP 8.
 
-Since PHP 8.0, it is possible to use PHP keywords in namespaces.
+Since #PHP 8.0, it is possible to use PHP keywords in namespaces.
 
 In PHP 8.0, namespaces are processed independently, for their literal value. Before then, each namespace level was a distinct token, separated by the namespace separator: PHP keyword would then run into a processing conflict. 
 

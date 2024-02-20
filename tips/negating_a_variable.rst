@@ -13,7 +13,7 @@ It makes sense with an iffectation (an assignation in an if)
 
 I'm sure other such expressions are possible, with unary operators. 
 
-Definitely not for me, for readability reasons; same as !$o instanceof X.
+Definitely not for me, for readability reasons; same as ``!$o instanceof X``.
 
 .. image:: ../images/negating_a_variable.png
 

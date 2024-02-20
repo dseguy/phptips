@@ -17,7 +17,7 @@ To make a trait alias, use class_alias();
 
 
 
-Also, no ::enum operator, ::trait operator? 
+Also, no ::enum operator, ::trait operator?
 
 .. image:: ../images/class_alias_alias.png
 

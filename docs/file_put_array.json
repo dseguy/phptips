@@ -2,7 +2,7 @@
     "image": "file_put_array.png",
     "date": "2024-01-21",
     "title": "file_put_contents() With Array Argument",
-    "content": "The second argument of file_put_contents() is typed as 'mixed'. It may be a string, which is the most common case. It may be a stream, (aka, a resource), which pours a file into a file.\n It also may be an array. PHP simply writes the elements of the array in the file, like an implode('', $array); ",
+    "content": "The second argument of file_put_contents() is typed as ``mixed``. It may be a string, which is the most common case. It may be a stream, (aka, a resource), which pours a file into a file.\nIt also may be an array. PHP simply writes the elements of the array in the file, like an ``implode('', $array)``.",
     "seeAlso": {
         "file_put_contents (PHP manual)": "https://www.php.net/manual/en/function.file-put-contents.php"
     },

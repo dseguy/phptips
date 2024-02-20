@@ -1,0 +1,18 @@
+{
+    "image": "no_dnf_for_catch.png",
+    "date": "2024-02-20",
+    "title": "No DNF For Catch",
+    "content": "Catch clauses accept multiple types of exceptions, since PHP 7.1: they are listed with the '|' separator.\nThis looks like the union type of PHP 8.0, and actually acts like it.\nYet, this is not a normal type, because the intersectional and the DNF format are not supported at parsing time. Thus, the two expressions below generate an error.",
+    "seeAlso": {
+        "Catch (PHP manual)": "https://www.php.net/manual/en/language.exceptions.php#language.exceptions.catch",
+        "Type declarations":"https://www.php.net/manual/en/language.exceptions.php#language.exceptions.catch"
+    },
+    "tags": [
+        "type",
+        "catch",
+        "intersectional",
+        "lint"
+    ],
+    "author": "",
+    "contact": ""
+}

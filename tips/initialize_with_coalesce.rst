@@ -11,7 +11,7 @@ It is not possible to access a property before its initialisation. This is true 
 
 While normal properties are initialized at constructor time, static properties might require a check before assignation : in case the property has not been yet assigned, a Fatal error will stop the code execution.
 
-In fact, there is a way : it is the short assignation with coalesce, which will accept to check the NULL value, and only fill it if it is null.  
+In fact, there is a way : it is the short assignation with coalesce, which will accept to check the NULL value, and only fill it if it is null.
 
 .. image:: ../images/initialize_with_coalesce.png
 

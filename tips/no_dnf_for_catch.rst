@@ -1,0 +1,21 @@
+.. _no-dnf-for-catch:
+
+No DNF For Catch
+----------------
+
+	.. meta::
+		:description lang=en:
+			No DNF For Catch: Catch clauses accept multiple types of exceptions, since PHP 7.
+
+Catch clauses accept multiple types of exceptions, since PHP 7.1: they are listed with the '|' separator.
+
+This looks like the union type of PHP 8.0, and actually acts like it.
+
+Yet, this is not a normal type, because the intersectional and the DNF format are not supported at parsing time. Thus, the two expressions below generate an error.
+
+.. image:: ../images/no_dnf_for_catch.png
+
+* `Catch (PHP manual) <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.catch>`_
+* `Type declarations <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.catch>`_
+
+

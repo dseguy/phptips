@@ -15,7 +15,7 @@ It doesn't apply to CIT until execution though :
 
 php => Cannot declare class stdClass
 
- because the name is already in use
+because the name is already in use.
 
 .. image:: ../images/check_for_names.png
 
