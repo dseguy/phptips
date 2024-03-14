@@ -5,9 +5,9 @@ No Such Function As Empty
 
 	.. meta::
 		:description lang=en:
-			No Such Function As Empty: .
+			No Such Function As Empty: There is no function called empty(), which could be accessed using a fully qualified name.
 
-
+There is no function called empty(), which could be accessed using a fully qualified name. There is also no function that can be defined as such, since empty() is already taken.
 
 .. image:: ../images/no_empty_function.png
 

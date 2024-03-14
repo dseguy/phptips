@@ -5,13 +5,13 @@ strict_types Exceptions
 
 	.. meta::
 		:description lang=en:
-			strict_types Exceptions: strict_types do not apply to #PHP operators, only on to typed structures.
+			strict_types Exceptions: strict_types do not apply to PHP operators, only on to typed structures.
 
-strict_types do not apply to #PHP operators, only on to typed structures.
+strict_types do not apply to PHP operators, only on to typed structures.
 
 Here, concatenation and interpolation all call __toString(), but not foo().
 
-As you can see, print() and echo() are safe too, while implode() is not: actually, it is not safe for the first argument, but still OK with the elements of the array, in the second argument. 
+As you can see, print() and echo() are safe too, while implode() is not: actually, it is not safe for the first argument, but still OK with the elements of the array, in the second argument.
 
 .. image:: ../images/strict_types_exceptions.png
 

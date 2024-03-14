@@ -19,9 +19,7 @@ But when a static method calls a non-static method, an error is produced:  Non-s
 
 
 
-Finally, calling staticcally a non-static method still defines $this in the target method. Static is the nature of the method, not the call. 
-
-
+Finally, calling staticcally a non-static method still defines $this in the target method. Static is the nature of the method, not the call.
 
 .. image:: ../images/static_get_this.png
 

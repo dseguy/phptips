@@ -13,7 +13,7 @@ There's a pretty common pattern to declare "abstract class constants" in PHP.
 
 
 
-#PHP lazy loading will prevent the error "Fatal error: Uncaught Error: Cannot declare self-referencing constant self::NAME" if the constant is overloaded. 
+PHP lazy loading will prevent the error "Fatal error: Uncaught Error: Cannot declare self-referencing constant self::NAME" if the constant is overloaded. 
 
 
 

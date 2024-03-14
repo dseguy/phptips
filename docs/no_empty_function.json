@@ -2,7 +2,7 @@
 "image":"no_empty_function.png",
 "date":"2023-11-01",
 "title":"No Such Function As Empty",	
-"content":"",
+"content":"There is no function called empty(), which could be accessed using a fully qualified name. There is also no function that can be defined as such, since empty() is already taken.",
 "seeAlso":{
 	"Empty (PHP manual)":"https://www.php.net/manual/en/function.empty.php",
 	"Language constructs":"https://www.php.net/manual/en/control-structures.intro.php"

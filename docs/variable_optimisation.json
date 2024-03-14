@@ -2,7 +2,7 @@
 "image":"variable_optimisation.png",
 "date":"2022-08-27",
 "title":"No Warning For Unused Variables",	
-"content":"PHP optimisation in action : undefined variables are only reported when they are used.\n\nfirst is omitted : no operation\nsecond is skipped : no need to execute 2nd term\nthird is reporting a warning. ",
+"content":"PHP optimisation in action : undefined variables are only reported when they are used.\n\nfirst is omitted : no operation\nsecond is skipped : no need to execute 2nd term\nthird is reporting a warning.",
 "seeAlso":{
 	"Variables (PHP manual)":"https://www.php.net/manual/en/language.variables.php"
 },

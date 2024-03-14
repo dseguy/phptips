@@ -2,7 +2,7 @@
     "image": "cast_are_case_insensitive.png",
     "date": "2023-12-11",
     "title": "Cast Are Case Insensitive",
-    "content": "TIL that the #PHP cast operators such as (int), (array)... are case insensitive: (STRING)\nAlso, the amount of white space (space, tabs...) is not important.\nThe rest is coding convention, as they say.",
+    "content": "TIL that the PHP cast operators such as (int), (array)... are case insensitive: (STRING)\nAlso, the amount of white space (space, tabs...) is not important.\nThe rest is coding convention, as they say.",
     "seeAlso": {
         "Type Operators (PHP manual)": "https://www.php.net/manual/en/language.operators.type.php"
     },

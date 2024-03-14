@@ -5,11 +5,11 @@ Hide Sensitive Parameter
 
 	.. meta::
 		:description lang=en:
-			Hide Sensitive Parameter: #PHP 8.
+			Hide Sensitive Parameter: PHP 8.
 
-#PHP 8.2 has the #[SensitiveParameter] attribute that hides values in debug messages. 
+PHP 8.2 has the #[SensitiveParameter] attribute that hides values in debug messages. 
 
-There is also the SensitiveParameterValue class, that does the same, while working from the caller perspective. Get the value with $object->getValue()
+There is also the SensitiveParameterValue class, that does the same, while working from the caller perspective. Get the value with $object->getValue().
 
 .. image:: ../images/sensitiveParameter.png
 

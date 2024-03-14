@@ -5,9 +5,9 @@ Static Variable Outside A Method
 
 	.. meta::
 		:description lang=en:
-			Static Variable Outside A Method: TIL that #PHP static variables can be declared out of a function, in the namespace.
+			Static Variable Outside A Method: TIL that PHP static variables can be declared out of a function, in the namespace.
 
-TIL that #PHP static variables can be declared out of a function, in the namespace. 
+TIL that PHP static variables can be declared out of a function, in the namespace. 
 
 
 
@@ -19,7 +19,7 @@ May be a warning from the linter could be nice.
 
 
 
-In #PHP 8.3, duplicate 'static' variable definitions is forbidden. Not in a loop, which is a bad practice anyway. 
+In PHP 8.3, duplicate 'static' variable definitions is forbidden. Not in a loop, which is a bad practice anyway.
 
 .. image:: ../images/static_outside_method.png
 

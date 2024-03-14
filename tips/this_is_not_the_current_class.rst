@@ -11,7 +11,7 @@ $this is a pseudo-variable, that represents the current object of the calling ob
 
 Yet, it is possible of this object to be an instance of another class. This happens with a child of the class, in particular when that child hasn't defined a method that is present in the parent. The fallback mechanism will use the parent class.
 
-In the end, this is still compatible. 
+In the end, this is still compatible.
 
 .. image:: ../images/this_is_not_the_current_class.png
 

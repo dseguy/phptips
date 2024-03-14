@@ -7,7 +7,7 @@ Closure To Call
 		:description lang=en:
 			Closure To Call: The ``.
 
-The ``...`` operator can be used to create a closure from a method. That closure can be called immediately, or used to create yet another closure. That processed is not guarded, so the ``(...)`` operator can be called multiple times, without any effect
+The ``...`` operator can be used to create a closure from a method. That closure can be called immediately, or used to create yet another closure. That processed is not guarded, so the ``(...)`` operator can be called multiple times, without any effect.
 
 .. image:: ../images/closure_to_call.png
 

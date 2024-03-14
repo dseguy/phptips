@@ -9,7 +9,7 @@ Clone Clone Clone
 
 It is possible to chain clone operators : PHP optimize this and skips any intermediate clone. The resulting final object is number 2, so the inner clones were duly ignored. 
 
-On the other hand, it is possible to create a new object from an existing object, but it is not possible to chain the new calls without using parenthesis. 
+On the other hand, it is possible to create a new object from an existing object, but it is not possible to chain the new calls without using parenthesis.
 
 .. image:: ../images/clone_clone_clone.png
 

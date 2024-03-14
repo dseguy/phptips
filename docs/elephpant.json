@@ -2,7 +2,7 @@
 "image":"elephpant.png",
 "date":"2022-10-04",
 "title":"An Elephpant In The Code",	
-"content":"When you need an elephant in your text, you have #PHP always ready.\nIts unicode is 128024 or 0x1F418.",
+"content":"When you need an elephant in your text, you have PHP always ready.\nIts unicode is 128024 or 0x1F418.",
 "seeAlso":{
 	"Double quoted":"https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double"
 },

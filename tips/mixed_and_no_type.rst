@@ -23,8 +23,6 @@ Same for return type, in method compatibility situations. Although, it happens o
 
 With return type, PHP does check if anything is returned with a type of ``mixed``, and not if it is untyped.
 
-
-
 .. image:: ../images/mixed_and_no_type.png
 
 * `Mixed (PHP manual) <https://www.php.net/manual/en/language.types.mixed.php>`_

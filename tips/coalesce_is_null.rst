@@ -5,9 +5,9 @@ Coalesce And Null
 
 	.. meta::
 		:description lang=en:
-			Coalesce And Null: I'm still struggling to pick a #PHP side.
+			Coalesce And Null: I'm still struggling to pick a PHP side.
 
-I'm still struggling to pick a #PHP side.
+I'm still struggling to pick a PHP side.
 
 
 

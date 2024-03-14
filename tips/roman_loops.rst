@@ -9,7 +9,7 @@ Roman Loops
 
 By `Stephen Rees-Carter <https://twitter.com/valorin>`_
 
-If the classic variable with a for() loop is ``$i``, then nested loop should use ``$ii``, then ``$iii``, ``$iv``, ``$v``. 
+If the classic variable with a for() loop is ``$i``, then nested loop should use ``$ii``, then ``$iii``, ``$iv``, ``$v``.
 
 .. image:: ../images/roman_loops.png
 

@@ -2,7 +2,7 @@
 "image":"unexpected_keys.png",
 "date":"2023-10-29",
 "title":"Unexpected keys in array",	
-"content":"It is possible to put 2 elements in a #PHP array, find different 5 keys with array_key_exists or isset) and yet, still count 2 distinct elements (key wise).\nThe type-juggling for array keys is applied in every #PHP features, to keep things easy to use.\nThis code is one rare way to show how it still leaks. Depending on the context, it might be very confusing.",
+"content":"It is possible to put 2 elements in a PHP array, find different 5 keys with array_key_exists or isset) and yet, still count 2 distinct elements (key wise).\nThe type-juggling for array keys is applied in every PHP features, to keep things easy to use.\nThis code is one rare way to show how it still leaks. Depending on the context, it might be very confusing.",
 "seeAlso":{
 	"Arrays (PHP manual)":"https://www.php.net/manual/en/language.types.array.php"
 },

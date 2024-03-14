@@ -15,7 +15,7 @@ first is omitted : no operation
 
 second is skipped : no need to execute 2nd term
 
-third is reporting a warning. 
+third is reporting a warning.
 
 .. image:: ../images/variable_optimisation.png
 

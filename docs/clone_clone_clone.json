@@ -2,7 +2,7 @@
 "image":"clone_clone_clone.png",
 "date":"2023-09-26",
 "title":"Clone Clone Clone",	
-"content":"It is possible to chain clone operators : PHP optimize this and skips any intermediate clone. The resulting final object is number 2, so the inner clones were duly ignored. \nOn the other hand, it is possible to create a new object from an existing object, but it is not possible to chain the new calls without using parenthesis. ",
+"content":"It is possible to chain clone operators : PHP optimize this and skips any intermediate clone. The resulting final object is number 2, so the inner clones were duly ignored. \nOn the other hand, it is possible to create a new object from an existing object, but it is not possible to chain the new calls without using parenthesis.",
 "seeAlso":{
 	"Cloning objects":"https://www.php.net/manual/en/language.oop5.cloning.php",
 	"new":"https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.new"	
