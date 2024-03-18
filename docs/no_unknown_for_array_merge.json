@@ -1,0 +1,15 @@
+{
+    "image": "no_unknown_for_array_merge.png",
+    "date": "2024-03-18",
+    "title": "No Unknown For array_merge()",
+    "content": "A PHP variadic argument collects all the unused named parameters, along with their key.  That way, it is possible to handle them with their name inside the method.\nOn the other hand, array_merge (and some cousins) refuse them, and emits a Fatal error.",
+    "seeAlso": {
+        "array_merge (PHP manual)": "hhttps://www.php.net/array_merge",
+        "Functions arguments":"https://www.php.net/manual/en/functions.arguments.php"
+    },
+    "tags": [
+        "special case"
+    ],
+    "author": "",
+    "contact": ""
+}
