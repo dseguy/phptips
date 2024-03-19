@@ -9,6 +9,8 @@ Author index
     * :ref:`quick-dto-or-vo-copy`
 * `Doeke Norg <https://twitter.com/doekenorg>`_
     * :ref:`quick-serialize`
+* `Fred Bouchery <https://twitter.com/FredBouchery>`_
+    * :ref:`no-returntype-but-still,-only-string`
 * `Frederic Bouchery <https://twitter.com/FredBouchery>`_
     * :ref:`enumeration's-cases-comparisons`
     * :ref:`stealth-generator`

@@ -1,0 +1,17 @@
+{
+    "image": "no-type-but-string.png",
+    "date": "2024-03-19",
+    "title": "No Returntype But Still, Only String",
+    "content": "Without a return type (or mixed), a method may return any type of data. This is not the case for the magic method ``__toString``, as it really should return a string. So, even without a return type, it complains about the type.\nThat trick requires ``strict_types`` though.",
+    "seeAlso": {
+        "Magic methods (PHP manual)": "https://www.php.net/manual/en/language.oop5.magic.php",
+        "Declare":"https://www.php.net/manual/en/control-structures.declare.php"
+    },
+    "tags": [
+        "strict_types",
+        "magic-method",
+        "__toString"
+    ],
+    "author": "Fred Bouchery",
+    "contact":"https://twitter.com/FredBouchery"
+}
