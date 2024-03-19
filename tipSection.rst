@@ -7,6 +7,7 @@ PHP tips and tricks
 
    tips/no-type-but-string.rst
    tips/no_unknown_for_array_merge.rst
+   tips/no-returntype-enforced.rst
    tips/as-as-as.rst
    tips/no_dnf_for_catch.rst
    tips/new_on_object.rst
