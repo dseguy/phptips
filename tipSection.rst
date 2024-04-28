@@ -6,6 +6,7 @@ PHP tips and tricks
    :caption: Contents:
 
    tips/store_float_as_index.rst
+   tips/case_insensitive_cast.rst
    tips/this_this.rst
    tips/no-type-but-string.rst
    tips/no_unknown_for_array_merge.rst
