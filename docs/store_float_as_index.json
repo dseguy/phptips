@@ -1,0 +1,13 @@
+{
+    "image": "store_float_as_index.png",
+    "date": "2024-04-28",
+    "title": "Store Float As Index",
+    "content": "PHP doesn't allow float as index in arrays.\nIt is possible to use them as such by casting them to string. Later, type juggling will allow adding to another float, seamlessly.",
+    "seeAlso": {
+    },
+    "tags": [
+        "trick"
+    ],
+    "author": "",
+    "contact": ""
+}

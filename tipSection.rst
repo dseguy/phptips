@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/store_float_as_index.rst
    tips/this_this.rst
    tips/no-type-but-string.rst
    tips/no_unknown_for_array_merge.rst
