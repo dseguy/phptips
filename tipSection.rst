@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/class_is_valid_class.rst
    tips/precision.rst
    tips/store_float_as_index.rst
    tips/case_insensitive_cast.rst
