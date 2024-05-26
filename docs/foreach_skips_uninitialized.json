@@ -1,0 +1,17 @@
+{
+    "image": "foreach_skips_uninitialized.png",
+    "date": "2024-05-26",
+    "title": "Foreach() Skips Uninitialized Properties",
+    "content": "Foreach() reads naturally all public properties in an object. Protected and private are omitted, unless in the right context.\nForeach() also skips silently uninitialized properties: this prevents the generation of NULL values, but also, skips all readonly properties: any direct hit on such property would otherwise generate a Fatal error.",
+    "seeAlso": {
+        "Foreach (PHP manual)": "https://www.php.net/manual/en/control-structures.foreach.php#control-structures.foreach"
+    },
+    "tags": [
+        "foreach",
+        "readonly",
+        "object",
+        "silent"
+    ],
+    "author": "",
+    "contact": ""
+}

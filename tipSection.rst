@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/foreach_skips_uninitialized.rst
    tips/cast_and_power.rst
    tips/attribute_without_class.rst
    tips/class_is_valid_class.rst
