@@ -2,7 +2,7 @@
 "image":"quick-dto.png",
 "date":"2023-10-01",
 "title":"Quick DTO Or VO Copy",	
-"content":"A small PHP trick, combining named parameters, spread and union arrays operators to « easily » create a modified copy of a DTO: https://3v4l.org/ZWX5G#v8.2.10\nIt’s fun if you have a lot of parameters, but using a string containing the parameter’s name isn’t really satisfactory 😕\nIt is possible to extend this syntax to PHP 8.0+ with a clever array_values() / array_merge(): https://3v4l.org/igrsW\n``$copy = new DTO(...(array_values(array_merge(get_object_vars($dto), ['d' => 43]))));``\nNow, this extended syntax is an easy prey to property definition order, constructor argument order, and temporary property deletion, unlike your original approach.",
+"content":"A small PHP trick, combining named parameters, spread and union arrays operators to \"easily\" create a modified copy of a DTO: https://3v4l.org/ZWX5G#v8.2.10\nIt’s fun if you have a lot of parameters, but using a string containing the parameter’s name isn’t really satisfactory\nIt is possible to extend this syntax to PHP 8.0+ with a clever array_values() / array_merge(): https://3v4l.org/igrsW\n``$copy = new DTO(...(array_values(array_merge(get_object_vars($dto), ['d' => 43]))));``\nNow, this extended syntax is an easy prey to property definition order, constructor argument order, and temporary property deletion, unlike your original approach.",
 "seeAlso":{
 	"Function arguments":"https://www.php.net/manual/en/functions.arguments.php"
 },
