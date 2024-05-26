@@ -57,6 +57,32 @@ foreach($files as $file) {
 		continue;
 	}
 	$tips[$tip->date] = $tip;
+
+	if (preg_match('/\\n /', $tip->content)) {
+		buildlog("Warning : some new lines are followed by spaces in $file");;
+		++$errors;
+		continue;
+	}
+
+	if (preg_match('/[^`]`[^`]/', $tip->content)) {
+		buildlog("Warning : code formatting needs double `` in $file");;
+		++$errors;
+		continue;
+	}
+
+	if (str_contains($tip->content, '#PHP')) {
+		buildlog("Warning : No need for #PHP in $file");;
+		++$errors;
+		continue;
+	}
+
+	if (!in_array(substr($tip->content, -1), array('.', '?'), true)) {
+		buildlog("Warning : content doesn't finish with . in $file");;
+		++$errors;
+		continue;
+	}
+
+
 	
 	if (!isset($tips[$tip->date])) {
 		buildlog("Warning : $file has no image entry");;
@@ -79,7 +105,7 @@ foreach($files as $file) {
 	}
 
 	if (ucwords(strtolower($tip->title)) != $tip->title &&
-		!preg_match('/(new|URL|array|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents|glob|class_exists)/', $tip->title)) {
+		!preg_match('/(DNF|new|URL|array|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents|glob|class_exists)/', $tip->title)) {
 		buildlog("Warning : Not First Upper Cased in $file");;
 		++$errors;
 	}
