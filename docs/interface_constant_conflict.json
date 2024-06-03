@@ -1,0 +1,15 @@
+{
+    "image": "interface_constant_conflict.png",
+    "date": "2024-06-03",
+    "title": "Interfaces Constants Conflicts",
+    "content": "PHP reports duplicate constant definitions in different interfaces.\nThis is very unusual occurrence, reported at linting time. It may also lead to quite a set back when one has to untangle these definitions.\nSo, shall we always give unique names across interfaces? Or just avoid multiple interfaces with constants on the same class?\nThere is no 'use' expression to solve the conflict.\nAlso, multiple same methods in different interface are OK.",
+    "seeAlso": {
+        "Object Interfaces (PHP manual)": "https://www.php.net/manual/en/language.oop5.interfaces.php"
+    },
+    "tags": [
+        "interfaces",
+        "constants"
+    ],
+    "author": "",
+    "contact": ""
+}

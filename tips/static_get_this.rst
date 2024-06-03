@@ -15,11 +15,11 @@ It is also possible to call statically any method within a class.
 
 
 
-But when a static method calls a non-static method, an error is produced:  Non-static method x::foo() cannot be called statically.
+But when a static method calls a non-static method, an error is produced:  Non-static ``method x::foo()`` cannot be called statically.
 
 
 
-Finally, calling staticcally a non-static method still defines $this in the target method. Static is the nature of the method, not the call.
+Finally, calling statically a non-static method still defines ``$this`` in the target method. Static is the nature of the method, not the call.
 
 .. image:: ../images/static_get_this.png
 
