@@ -14,5 +14,6 @@ Match against two values in PHP.
 .. image:: ../images/match_multiple_values.png
 
 * `Match (PHP manual) <https://www.php.net/manual/en/control-structures.match.php>`_
+* `PHP Tricks: Multi-value match() <https://peakd.com/hive-168588/@crell/php-tricks-multi-value-match>`_
 
 

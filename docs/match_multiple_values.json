@@ -4,7 +4,8 @@
     "title": "Match() With Multiple Values",
     "content": "Match against two values in PHP.",
     "seeAlso": {
-        "Match (PHP manual)": "https://www.php.net/manual/en/control-structures.match.php"
+        "Match (PHP manual)": "https://www.php.net/manual/en/control-structures.match.php",
+        "PHP Tricks: Multi-value match()":"https://peakd.com/hive-168588/@crell/php-tricks-multi-value-match"
     },
     "tags": [
         "match",
