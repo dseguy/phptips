@@ -22,6 +22,8 @@ Author index
     * :ref:`class_exists()-with-enums`
 * `Ondrej Mirtes <https://twitter.com/OndrejMirtes>`_
     * :ref:`no-change-to-$this`
+* `Pascal Baljet <https://x.com/pascalbaljet>`_
+    * :ref:`match()-with-multiple-values`
 * `Rahul Chavan <https://twitter.com/rcsofttech85>`_
     * :ref:`array_reduce()-to-filter-and-alter`
 * `Ryan Chandler <https://twitter.com/ryangjchandler>`_

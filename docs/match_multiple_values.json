@@ -1,0 +1,15 @@
+{
+    "image": "match_multiple_values.png",
+    "date": "2024-06-04",
+    "title": "Match() With Multiple Values",
+    "content": "Match against two values in PHP.",
+    "seeAlso": {
+        "Match (PHP manual)": "https://www.php.net/manual/en/control-structures.match.php"
+    },
+    "tags": [
+        "match",
+        "comparison"
+    ],
+    "author": "Pascal Baljet",
+    "contact": "https://x.com/pascalbaljet"
+}

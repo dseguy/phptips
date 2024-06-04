@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/match_multiple_values.rst
    tips/interface_constant_conflict.rst
    tips/foreach_skips_uninitialized.rst
    tips/cast_and_power.rst
