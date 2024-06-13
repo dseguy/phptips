@@ -1,0 +1,13 @@
+{
+    "image": "function_function.png",
+    "date": "2024-06-13",
+    "title": "The Function Method",
+    "content": "It is possible to name a method 'function'. This is part of the relaxed keywords of PHP, which allows PHP keywords to be used as a method name.\nOf course, it is also possible to create a function called method.",
+    "seeAlso": {
+    },
+    "tags": [
+        ""
+    ],
+    "author": "Brent Roose",
+    "contact": "https://twitter.com/brendt_gd"
+}

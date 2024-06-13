@@ -7,6 +7,8 @@ Author index
     * :ref:`new-on-object`
     * :ref:`easy-wither-call`
     * :ref:`quick-dto-or-vo-copy`
+* `Brent Roose <https://twitter.com/brendt_gd>`_
+    * :ref:`the-function-method`
 * `Doeke Norg <https://twitter.com/doekenorg>`_
     * :ref:`quick-serialize`
 * `Fred Bouchery <https://twitter.com/FredBouchery>`_
