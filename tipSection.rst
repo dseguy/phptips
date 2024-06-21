@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/dynamic_class_constant.rst
    tips/function_function.rst
    tips/match_multiple_values.rst
    tips/interface_constant_conflict.rst
