@@ -1,0 +1,15 @@
+{
+    "image": "no_child_with_attribute.png",
+    "date": "2024-06-26",
+    "title": "Child Of Attribute Is Not An Attribute",
+    "content": "A class attribute must be marked with an attribute called ``Attribute``. It is compulsory to use Reflection and obtain an instance of the attribute.\nThat attribute is only for the class itself, and it doesn't propage automatically to the child classes.\nOn the other hand, the ``Attribute`` class cannot be extended: it is not possible to create a child that may carry some of the ``Attribute`` properties.",
+    "seeAlso": {
+        "Attributes Overview (PHP manual)": "https://www.php.net/manual/en/language.attributes.overview.php"
+    },
+    "tags": [
+        "Reflection",
+        "Attributes"
+    ],
+    "author": "",
+    "contact": ""
+}
