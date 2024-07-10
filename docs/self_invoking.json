@@ -1,0 +1,14 @@
+{
+    "image": "self_invoking.png",
+    "date": "2024-07-10",
+    "title": "Lots Of Silly Arguments",
+    "content": "PHP 8.4 drops the requirement of parenthesis around the new operator: it is possible to directly call a method on it.\nThen, it is also possible to use an object as a method, by creating the __invoke() magic method. In this case, it returns a new instance of the class.\nFinally, it is possible to call a function whose name is the result of a previous call.\nThe final result is quite impressive.",
+    "seeAlso": {
+        "__invoke() (PHP manual)": "https://www.php.net/manual/en/language.oop5.magic.php#object.invoke"
+    },
+    "tags": [
+        "8.4"
+    ],
+    "author": "Greg Korba",
+    "contact": "https://twitter.com/_Codito_"
+}

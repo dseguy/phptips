@@ -19,6 +19,8 @@ Author index
     * :ref:`php-infinity-is-reachable`
 * `Gina Peter Banyard <https://github.com/Girgias>`_
     * :ref:`file_put_contents()-with-array-argument`
+* `Greg Korba <https://twitter.com/_Codito_>`_
+    * :ref:`lots-of-silly-arguments`
 * `Jan Nedbal <https://twitter.com/janedbal>`_
     * :ref:`unfinished-class-doesn't-compile`
     * :ref:`class_exists()-with-enums`

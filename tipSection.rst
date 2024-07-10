@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/self_invoking.rst
    tips/no_child_with_attribute.rst
    tips/dynamic_class_constant.rst
    tips/function_function.rst
