@@ -1,0 +1,11 @@
+#!/usr/bin/php
+<?php
+
+foreach(glob('images/*.png') as $image) {
+	print "$image\n";
+	shell_exec("pngcrush -q -ow -brute $image");
+}
+
+print "Fini\n";
+
+?>
