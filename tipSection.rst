@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/send_to_generator.rst
    tips/php_integer_format.rst
    tips/compatible_interface.rst
    tips/no_cast_in_constant_expression.rst

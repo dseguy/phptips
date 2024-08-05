@@ -29,6 +29,7 @@ Author index
 * `Pascal Baljet <https://x.com/pascalbaljet>`_
     * :ref:`match()-with-multiple-values`
 * `Rahul Chavan <https://twitter.com/rcsofttech85>`_
+    * :ref:`send-an-argument-to-generator`
     * :ref:`array_reduce()-to-filter-and-alter`
 * `Ryan Chandler <https://twitter.com/ryangjchandler>`_
     * :ref:`no-semicolon-in-sight`
