@@ -4,7 +4,8 @@
     "title": "URL As Comments",
     "content": "The code below includes a raw URL in the code. PHP understand that code as a goto label, followed by a online comment starting with //. As such, the comment is valid, but cannot be repeated, as it would make a dual goto label, and PHP would raise an error.",
     "seeAlso": {
-        "Goto": "https://www.php.net/manual/en/control-structures.goto.php"
+        "Goto": "https://www.php.net/manual/en/control-structures.goto.php",
+        "A URL is valid PHP code?!": "https://liamhammett.com/a-url-is-valid-php-code"
     },
     "tags": [
         "goto",
