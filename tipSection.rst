@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/enum_are_not_linted.rst
    tips/sorting_with_minus.rst
    tips/override_with_interface.rst
    tips/send_to_generator.rst
