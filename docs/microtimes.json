@@ -1,0 +1,16 @@
+{
+    "image": "microtimes.png",
+    "date": "2024-08-27",
+    "title": "Reading Micro-seconds",
+    "content": "There are different ways to access micro seconds in PHP : use the Datetime format of ``u``, which works with Datetime. Or call the microtime() function, with the true parameter.\nBut don't use date(): although it has the same ``u`` formating letter, it never provides it.",
+    "seeAlso": {
+        "microtime() (PHP manual)": "https://www.php.net/microtime",
+        "date() (PHP manual)": "https://www.php.net/date",
+        "Datetime (PHP manual)": "https://www.php.net/manual/en/class.datetime.php"
+    },
+    "tags": [
+        "micro-second"
+    ],
+    "author": "",
+    "contact": ""
+}
