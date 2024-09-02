@@ -1,0 +1,14 @@
+{
+    "image": "where-is-the-semicolon.png",
+    "date": "2024-09-02",
+    "title": "Where Is The Semicolon?",
+    "content": "This code is an attribute. A attribute always expects to be followed by a structure that it will characterize. Here, without anything else to parse, the parser displays a mysterious error about a semi colon, while none is in sight.\nIn fact, the closing PHP tag has a built-in semi colon, to end any expression that was still open.\nThis is similar to another tip, that relies on echo.",
+    "seeAlso": {
+        "No Semicolon in sight": "https://php-tips.readthedocs.io/en/latest/tips/no_semi_colon_in_sight.html"
+    },
+    "tags": [
+        "strange"
+    ],
+    "author": "",
+    "contact": ""
+}

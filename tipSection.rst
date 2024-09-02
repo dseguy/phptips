@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/where-is-the-semicolon.rst
    tips/microtimes.rst
    tips/promoted_compatibility.rst
    tips/enum_are_not_linted.rst
