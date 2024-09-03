@@ -21,6 +21,8 @@ Author index
     * :ref:`file_put_contents()-with-array-argument`
 * `Greg Korba <https://twitter.com/_Codito_>`_
     * :ref:`lots-of-silly-arguments`
+* `Jan Nedbal <https://janedbal.cz/>`_
+    * :ref:`self-as-attribute`
 * `Jan Nedbal <https://twitter.com/janedbal>`_
     * :ref:`unfinished-class-doesn't-compile`
     * :ref:`class_exists()-with-enums`

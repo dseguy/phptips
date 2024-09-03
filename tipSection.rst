@@ -5,8 +5,10 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/noscream-on-ellipsis.rst
    tips/incompatible-promoted-readonlies.rst
    tips/where-is-the-semicolon.rst
+   tips/self-as-attribute.rst
    tips/microtimes.rst
    tips/promoted_compatibility.rst
    tips/enum_are_not_linted.rst
