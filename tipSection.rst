@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/incompatible-promoted-readonlies.rst
    tips/where-is-the-semicolon.rst
    tips/microtimes.rst
    tips/promoted_compatibility.rst

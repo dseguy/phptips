@@ -1,0 +1,16 @@
+{
+    "image": "incompatible-promoted-readonlies.png",
+    "date": "2024-09-03",
+    "title": "Incompatible Promoted Readonlies",
+    "content": "Promoted properties allows the creation of properties directly from the constructor signature.\nreadonly properties are only written once, and cannot be written again.\nWhen a promoted property is public or protected, it cannot be used in two constructor's signature, as the first instance is immediately written, and cannot be changed again.\nThis doesn't happen with private, which keeps the properties distinct in the class and its parent. This still may produce confusion.\nIt is then possible to only use one promoted property definition, and skip that parameter in the other constructor; or make the second a simple parameter, rather than a promoted property.",
+    "seeAlso": {
+        "Constructor promotion (PHP manual)": "https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion",
+        "Properties":"https://www.php.net/manual/en/language.oop5.properties.php"
+    },
+    "tags": [
+        "promoted",
+        "readonly"
+    ],
+    "author": "",
+    "contact": ""
+}
