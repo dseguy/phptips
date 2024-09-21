@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/deanonymize-class.rst
    tips/noscream-on-ellipsis.rst
    tips/incompatible-promoted-readonlies.rst
    tips/where-is-the-semicolon.rst
