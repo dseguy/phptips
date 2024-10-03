@@ -13,6 +13,10 @@ Later, if the code needs a second object of the same 'class', it has to go throu
 
 Or, it is possible to get access to the 'hidden' definition of the class within PHP, by simply creating a class alias to this class. Then, it can be used anywhere else.
 
+The sane alternative might be to simply give a name to the class, or make a direct clone of the object.
+
+And as usual, if that class is not under the code's own control (say, external lib), it might be useful though hackish.
+
 .. image:: ../images/deanonymize-class.png
 
 * `Anonymous Classes (PHP manual) <https://www.php.net/manual/en/language.oop5.anonymous.php>`_

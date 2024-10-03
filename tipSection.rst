@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/self-referencing-constants.rst
    tips/deanonymize-class.rst
    tips/noscream-on-ellipsis.rst
    tips/incompatible-promoted-readonlies.rst
