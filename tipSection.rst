@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/array_syntax_on_string.rst
    tips/constructor_needed.rst
    tips/self-referencing-constants.rst
    tips/deanonymize-class.rst
