@@ -7,7 +7,7 @@ class_exists() With Enums
 		:description lang=en:
 			class_exists() With Enums: In PHP, we have:.
 
-By `Jan Nedbal <https://twitter.com/janedbal>`_
+By `Jan Nedbal <https://janedbal.cz/>`_
 
 In PHP, we have:
 
