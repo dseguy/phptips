@@ -8,6 +8,7 @@ PHP tips and tricks
    tips/silent_optimisation.rst
    tips/array_syntax_on_string.rst
    tips/no_force_object_to_string.rst
+   tips/invoke_and_properties.rst
    tips/constructor_needed.rst
    tips/self-referencing-constants.rst
    tips/deanonymize-class.rst

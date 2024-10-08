@@ -1,0 +1,17 @@
+{
+    "image": "invoke_and_properties.png",
+    "date": "2024-10-05",
+    "title": "__invoke() Method And Properties",
+    "content": "In the code here, the __invoke() makes the class ``X`` invokable : the object may be used as a function name and it will call the magic method ``__invoke``.\nThen, in the same class, there is a property ``$y``, with the type of ``X``. That property is, hence, holding an invokable object. So, may be, it is possible to call this property as a method, and invoke it?\nWell, no. This call will yield an error, ``undefined method y``. PHP doesn't use the __invoke() here, as it would conflict with an existing ``y`` method. Also, that would make a case-sensitive method, as the property ``$Y`` doesn't exists.\nTo invoke the object in the proeprty ``y``, one has to put parenthesis around the object, so that PHP can extract the object and then, invoke it safely.",
+    "seeAlso": {
+        "__invoke() (PHP manual)": "https://www.php.net/manual/en/language.oop5.magic.php#object.invoke"
+    },
+    "tags": [
+        "magic method",
+        "property",
+        "invoke",
+        "confusion"
+    ],
+    "author": "",
+    "contact": ""
+}
