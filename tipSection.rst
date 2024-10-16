@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/initialize_readonly_on_child.rst
    tips/silent_optimisation.rst
    tips/array_syntax_on_string.rst
    tips/no_force_object_to_string.rst

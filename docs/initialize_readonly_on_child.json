@@ -1,0 +1,16 @@
+{
+    "image": "initialize_readonly_on_child.png",
+    "date": "2024-10-16",
+    "title": "Initialize Readonly On Child",
+    "content": "Readonly properties could only be initialized in the same class as their definition. That hold true, whatever the visibility of the property: ``private``, ``protected``, ``private``.\nIn PHP 8.4, it is now possible to initialize these properties from a child class.",
+    "seeAlso": {
+        "readonly (PHP manual)": "https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties"
+    },
+    "tags": [
+        "readonly",
+        "inheritance",
+        "initialization"
+    ],
+    "author": "",
+    "contact": ""
+}
