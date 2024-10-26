@@ -42,3 +42,5 @@ Author index
     * :ref:`exporting-properties`
 * `WebSmithery <https://stackoverflow.com/users/2519523/websmithery>`_
     * :ref:`abstract-constants`
+* `• Kartoffeljunge • <https://bsky.app/profile/devatreides.bsky.social>`_
+    * :ref:`typed_array`

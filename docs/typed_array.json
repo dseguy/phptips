@@ -1,0 +1,15 @@
+{
+    "image": "typed_array.png",
+    "date": "2024-10-26",
+    "title": "typed_array",
+    "content": "You can set the array content type using variadic functions feature (syntax below). Just remember to spread the array when calling your function.",
+    "seeAlso": {
+    },
+    "tags": [
+        "array",
+        "typing",
+        "variadic"
+    ],
+    "author": "• Kartoffeljunge •",
+    "contact": "https://bsky.app/profile/devatreides.bsky.social"
+}
