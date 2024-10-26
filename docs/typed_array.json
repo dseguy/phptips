@@ -4,6 +4,7 @@
     "title": "typed_array",
     "content": "You can set the array content type using variadic functions feature (syntax below). Just remember to spread the array when calling your function.",
     "seeAlso": {
+        "Original on BluSky": "https://bsky.app/profile/devatreides.bsky.social/post/3l3bwchdism2s"
     },
     "tags": [
         "array",

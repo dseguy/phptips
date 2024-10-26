@@ -13,5 +13,6 @@ You can set the array content type using variadic functions feature (syntax belo
 
 .. image:: ../images/typed_array.png
 
+* `Original on BluSky <https://bsky.app/profile/devatreides.bsky.social/post/3l3bwchdism2s>`_
 
 
