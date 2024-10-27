@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/array_map_assoc.rst
    tips/array_map_to_the_max.rst
    tips/typed_array.rst
    tips/initialize_readonly_on_child.rst
