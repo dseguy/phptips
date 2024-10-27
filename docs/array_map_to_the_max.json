@@ -1,0 +1,14 @@
+{
+    "image": "array_map_to_the_max.png",
+    "date": "2024-10-27",
+    "title": "array_map() Goes Full Throttle",
+    "content": "array_map() applies a closure (first arg) to every elements of an array (second arg).\nWhen the closure needs more parameters, they may be passed as third (and n-th) parameter, as an array. When there are less extra parameters than the closure needs, PHP emits a ArgumentCountError exception.\nWhen there are too many extra parameters, PHP just omits them, silently.\nA call to array_map() makes sense when all the provided arrays have the same number of elements. \nWhen the numbers of elements differ, PHP runs the function for the largest array possible. It provides ``null``, anytime an element is missing. This is also the case when the array is superfluous: here, the last array has 100 elements, and is not used in the closure, but forces the results to have 100 entries.",
+    "seeAlso": {
+        "array_map (PHP manual)": "https:\/\/www.php.net\/manual\/en\/function.array_map.php"
+    },
+    "tags": [
+        ""
+    ],
+    "author": "",
+    "contact": ""
+}
