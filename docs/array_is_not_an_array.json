@@ -1,0 +1,14 @@
+{
+    "image": "array_is_not_an_array.png",
+    "date": "2024-10-29",
+    "title": "array Is Not An Array",
+    "content": "PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\\``. Such code get hit with a ``Type declaration ‘\\int’ must be unqualified``.\nThis is the case for all of the PHP native types, except for ``array``, and ``iterable``.\nThat error message is really hilarious.",
+    "seeAlso": {
+        "Type declaration ‘%s’ must be unqualified": "https://php-errors.readthedocs.io/en/latest/messages/type-declaration-%27%25s%27-must-be-unqualified.html"
+    },
+    "tags": [
+        "funny"
+    ],
+    "author": "",
+    "contact": ""
+}

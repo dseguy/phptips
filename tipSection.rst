@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/array_is_not_an_array.rst
    tips/array_map_assoc.rst
    tips/array_map_to_the_max.rst
    tips/typed_array.rst
