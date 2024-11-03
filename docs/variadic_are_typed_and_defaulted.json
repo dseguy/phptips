@@ -1,0 +1,17 @@
+{
+    "image": "variadic_are_typed_and_defaulted.png",
+    "date": "2024-11-04",
+    "title": "Variadic Are Typed And Defaulted",
+    "content": "When using the ``...`` operator, the argument is automatically typed and defaulted: it is typed with array, and its default value is the empty array ``[]``.\nThere can be a type added to the argument, and, with it, element element of the argument will be of this type. Yet, the argument itself is actually ``array``.",
+    "seeAlso": {
+        "Type declarations (PHP manual)": "https://www.php.net/manual/en/language.types.declarations.php"
+    },
+    "tags": [
+        "array",
+        "variadic",
+        "type",
+        "default"
+    ],
+    "author": "",
+    "contact": ""
+}

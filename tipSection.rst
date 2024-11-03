@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/variadic_are_typed_and_defaulted.rst
    tips/array_column_to_hash.rst
    tips/array_is_custom.rst
    tips/array_is_not_an_array.rst
