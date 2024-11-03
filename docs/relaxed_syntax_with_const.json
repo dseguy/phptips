@@ -2,12 +2,14 @@
     "image": "relaxed_syntax_with_const.png",
     "date": "2023-07-23",
     "title": "Relaxed Syntax With Const",
-    "content": "Relaxed syntax is the possibility to use PHP keywords as method or class constant names. This leads to funny expressions, that look like something else.",
+    "content": "Relaxed syntax is the possibility to use PHP keywords as method or class constant names. This leads to funny expressions, that look like something else.\nThe only forbidden keyword is ``class``, as it is used to report the name of the current class.",
     "seeAlso": {
         "Void (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.types.void.php"
     },
     "tags": [
-        ""
+        "relaxed syntax",
+        "keyword",
+        "funny"
     ],
     "author": "",
     "contact": ""

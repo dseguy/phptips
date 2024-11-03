@@ -7,7 +7,7 @@ More Attribute Usage
 		:description lang=en:
 			More Attribute Usage: PHP attributes are for classes, but also for enums, traits and interfaces.
 
-PHP attributes are for classes, but also for enums, traits and interfaces. With ::TARGET_CLASS. 
+PHP attributes are for classes, but also for enums, traits and interfaces. With ::TARGET_CLASS.
 
 
 

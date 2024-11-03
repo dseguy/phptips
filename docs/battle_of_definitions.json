@@ -8,6 +8,9 @@
 	"3v4l : __construct() signature enforced when in an interface":"https://3v4l.org/QPaRG"
 },
 "tags":[
-	""
-]
+	"name conflict",
+	"constructor"
+],
+"author":"",
+"contact":""
 }

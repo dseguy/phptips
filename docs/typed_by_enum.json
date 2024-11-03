@@ -7,7 +7,8 @@
         "Enumeration (PHP manual)": "https://www.php.net/manual/en/language.types.enumerations.php"
     },
     "tags": [
-        ""
+        "enum",
+        "instantiation"
     ],
     "author": "",
     "contact": ""

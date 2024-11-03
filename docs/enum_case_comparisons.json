@@ -7,7 +7,8 @@
         "Backed enumeration (PHP manual)":"https://www.php.net/manual/en/language.enumerations.backed.php"
 },
 "tags":[
-        ""
+        "comparison",
+        "enum"
 ],
 "author":"Frederic Bouchery",
 "contact":"https://twitter.com/FredBouchery"

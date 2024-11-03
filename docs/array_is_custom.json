@@ -1,8 +1,8 @@
 {
     "image": "array_is_custom.png",
     "date": "2024-11-02",
-    "title": "\\array Is Customizable",
-    "content": "This code gathers several PHP hacks together. First, the naming of an anonymous class, and this time, it is renamed as ``\\array``.\n``array`` would not work, but the absolute naming make it pass.\nThen, that ``\\array`` is used as type, and it works.\nNow, there is something that looks like an array, but is actually a random object.\nThis is a bug, since other PHP native types, like ``int`` disallow usage of their absolute name.",
+    "title": "\\\\array Was Customizable",
+    "content": "This code gathers several PHP hacks together.\nFirst, the naming of an anonymous class, and this time, it is renamed as ``\\array``.\n``array`` would not work, but the absolute naming make it pass.\nThen, that ``\\array`` is used as type, and it works.\nNow, there is something that looks like an array, but is actually a random object.\nThis is a bug, since other PHP native types, like ``int`` disallow usage of their absolute name.\nThis was reported as a bug, and fixed in PHP 8.4. Thanks!.",
     "seeAlso": {
         "\\array should not be usable #16665": "https://github.com/php/php-src/issues/16665",
         "Type declaration ‘%s’ must be unqualified":"https://php-errors.readthedocs.io/en/latest/messages/type-declaration-%27%25s%27-must-be-unqualified.html"
