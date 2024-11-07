@@ -1,0 +1,14 @@
+{
+    "image": "private_is_relaxed.png",
+    "date": "2024-11-08",
+    "title": "private Is Relaxed",
+    "content": "PHP has the relaxed syntax since early 7.0, which allows usage of PHP keywords for methods and class constant names.\n``private``, ``protected`` and ``public`` were forgotten until PHP 8.2: this is now fixed, and this beauty is now possible.\nAs usual, use with caution.",
+    "seeAlso": {
+    },
+    "tags": [
+        "funny",
+        "relaxed naming"
+    ],
+    "author": "",
+    "contact": ""
+}

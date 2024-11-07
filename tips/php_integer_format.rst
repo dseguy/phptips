@@ -15,7 +15,7 @@ For the reverse operation, the reverse functions are also useful, with an extra 
 
 .. image:: ../images/php_integer_format.png
 
-* `Void (PHP manual) <https://www.php.net/manual/en/language.types.integer.php>`_
+* `Integer (PHP manual) <https://www.php.net/manual/en/language.types.integer.php>`_
 * `hexdec <https://www.php.net/manual/fr/function.hexdec.php>`_
 * `octdec <https://www.php.net/manual/fr/function.octdec.php>`_
 * `bindec <https://www.php.net/manual/fr/function.bindec.php>`_

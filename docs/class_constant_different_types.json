@@ -4,7 +4,7 @@
     "title": "Class Constants With Different Types",
     "content": "With PHP, it is possible to have a class constant with different values, between a parent class, and its child class.\nQuizz of the day : can you make a class constant with different types ? Optionally different values.\nWorks on PHP 8.3. Application unknown.\nThe trick is to use union types, which allows adding new valid types without ascendant compatibility.",
     "seeAlso": {
-        "Void (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.types.void.php"
+        "Class Constants (PHP manual)": "https://www.php.net/manual/en/language.oop5.constants.php"
     },
     "tags": [
         "union types",
