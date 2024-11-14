@@ -5,11 +5,13 @@ Match() With Multiple Values
 
 .. meta::
 	:description:
-		Match() With Multiple Values: Match against two values in PHP.
+		Match() With Multiple Values: This is an example of using ``match()``, to match against two values at the same time.
 
 By `Pascal Baljet <https://x.com/pascalbaljet>`_
 
-Match against two values in PHP.
+This is an example of using ``match()``, to match against two values at the same time. The trick is to collect the two, or more, values in an array, and then return an array with the same number of elements in the same order.
+
+It would also be possible to make a ``match(true)``, and use boolean expressions for each arm of the ``match()``. The first one that match is used.
 
 .. image:: ../images/match_multiple_values.png
 

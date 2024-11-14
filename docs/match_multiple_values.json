@@ -2,7 +2,7 @@
     "image": "match_multiple_values.png",
     "date": "2024-06-04",
     "title": "Match() With Multiple Values",
-    "content": "Match against two values in PHP.",
+    "content": "This is an example of using ``match()``, to match against two values at the same time. The trick is to collect the two, or more, values in an array, and then return an array with the same number of elements in the same order.\nIt would also be possible to make a ``match(true)``, and use boolean expressions for each arm of the ``match()``. The first one that match is used.",
     "seeAlso": {
         "Match (PHP manual)": "https://www.php.net/manual/en/control-structures.match.php",
         "PHP Tricks: Multi-value match()":"https://peakd.com/hive-168588/@crell/php-tricks-multi-value-match"
