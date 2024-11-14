@@ -3,9 +3,9 @@
 strict_types Exceptions
 -----------------------
 
-	.. meta::
-		:description lang=en:
-			strict_types Exceptions: strict_types do not apply to PHP operators, only on to typed structures.
+.. meta::
+	:description:
+		strict_types Exceptions: strict_types do not apply to PHP operators, only on to typed structures.
 
 strict_types do not apply to PHP operators, only on to typed structures.
 

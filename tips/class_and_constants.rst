@@ -3,9 +3,9 @@
 Class And Constant Confusion
 ----------------------------
 
-	.. meta::
-		:description lang=en:
-			Class And Constant Confusion: Class names and global constant names are two distinct name spaces.
+.. meta::
+	:description:
+		Class And Constant Confusion: Class names and global constant names are two distinct name spaces.
 
 Class names and global constant names are two distinct name spaces. It is possible to use the name of a class as a constant.
 

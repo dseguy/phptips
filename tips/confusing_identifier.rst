@@ -3,9 +3,9 @@
 Identifier Confusions
 ---------------------
 
-	.. meta::
-		:description lang=en:
-			Identifier Confusions: Identifiers are used both for constant names and for class names (CITE).
+.. meta::
+	:description:
+		Identifier Confusions: Identifiers are used both for constant names and for class names (CITE).
 
 Identifiers are used both for constant names and for class names (CITE). Depending on the situation, they may be confused one for the other: here, ``A`` is a constant, and its value is accessible for dynamic code purposes. Yet, ``A()`` cannot be used.
 

@@ -3,9 +3,9 @@
 Attribute Without Class
 -----------------------
 
-	.. meta::
-		:description lang=en:
-			Attribute Without Class: PHP 8.
+.. meta::
+	:description:
+		Attribute Without Class: PHP 8.
 
 PHP 8.0 has an attribute feature, where extra options may be attached to various structures. The option is defined as a class, and is accessible via the Reflection API, and the getAttribute() method.
 

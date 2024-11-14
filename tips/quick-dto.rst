@@ -3,9 +3,9 @@
 Quick DTO Or VO Copy
 --------------------
 
-	.. meta::
-		:description lang=en:
-			Quick DTO Or VO Copy: A small PHP trick, combining named parameters, spread and union arrays operators to "easily" create a modified copy of a DTO: https://3v4l.
+.. meta::
+	:description:
+		Quick DTO Or VO Copy: A small PHP trick, combining named parameters, spread and union arrays operators to "easily" create a modified copy of a DTO: https://3v4l.
 
 By `Benoit Viguier <https://phpc.social/@b_viguier>`_
 

@@ -3,9 +3,9 @@
 No DNF For Catch
 ----------------
 
-	.. meta::
-		:description lang=en:
-			No DNF For Catch: Catch clauses accept multiple types of exceptions, since PHP 7.
+.. meta::
+	:description:
+		No DNF For Catch: Catch clauses accept multiple types of exceptions, since PHP 7.
 
 Catch clauses accept multiple types of exceptions, since PHP 7.1: they are listed with the '|' separator.
 

@@ -3,9 +3,9 @@
 new On Object
 -------------
 
-	.. meta::
-		:description lang=en:
-			new On Object: It is possible to use new on an object, to get a new object of the same class.
+.. meta::
+	:description:
+		new On Object: It is possible to use new on an object, to get a new object of the same class.
 
 By `Benoit Viguier <https://phpc.social/@b_viguier>`_
 

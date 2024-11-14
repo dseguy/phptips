@@ -3,9 +3,9 @@
 Array Is Full
 -------------
 
-	.. meta::
-		:description lang=en:
-			Array Is Full: When using append, the next id is calculated based on the largest integer key ever used in that array.
+.. meta::
+	:description:
+		Array Is Full: When using append, the next id is calculated based on the largest integer key ever used in that array.
 
 When using append, the next id is calculated based on the largest integer key ever used in that array. When the array has reached the biggest integer possible, aka PHP_INT_MAX, then the next-array-key generator fails, and this error is displayed.
 

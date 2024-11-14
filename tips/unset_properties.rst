@@ -3,9 +3,9 @@
 Unsetting Properties Surprises
 ------------------------------
 
-	.. meta::
-		:description lang=en:
-			Unsetting Properties Surprises: Unsetting properties is always a surprise.
+.. meta::
+	:description:
+		Unsetting Properties Surprises: Unsetting properties is always a surprise.
 
 Unsetting properties is always a surprise.
 

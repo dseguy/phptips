@@ -3,9 +3,9 @@
 Float Precision
 ---------------
 
-	.. meta::
-		:description lang=en:
-			Float Precision: PHP has a 'precision' directive that controls the number of decimals displayed by float values.
+.. meta::
+	:description:
+		Float Precision: PHP has a 'precision' directive that controls the number of decimals displayed by float values.
 
 PHP has a 'precision' directive that controls the number of decimals displayed by float values. This is used with echo (and co), but also with cast to string. 
 

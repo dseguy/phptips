@@ -3,9 +3,9 @@
 Constants Can Be Impossible
 ---------------------------
 
-	.. meta::
-		:description lang=en:
-			Constants Can Be Impossible: In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error.
+.. meta::
+	:description:
+		Constants Can Be Impossible: In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error.
 
 In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error.
 

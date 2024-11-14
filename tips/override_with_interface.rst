@@ -3,9 +3,9 @@
 Override With Interface
 -----------------------
 
-	.. meta::
-		:description lang=en:
-			Override With Interface: The override attribute checks that a method is actually overriding a parent definition of the same method: this implides that a class must have a parent to use the Override attribute.
+.. meta::
+	:description:
+		Override With Interface: The override attribute checks that a method is actually overriding a parent definition of the same method: this implides that a class must have a parent to use the Override attribute.
 
 The override attribute checks that a method is actually overriding a parent definition of the same method: this implides that a class must have a parent to use the Override attribute.
 

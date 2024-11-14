@@ -3,9 +3,9 @@
 Battle Of Definition
 --------------------
 
-	.. meta::
-		:description lang=en:
-			Battle Of Definition: Methods signatures must be compatible with the parent class's definition.
+.. meta::
+	:description:
+		Battle Of Definition: Methods signatures must be compatible with the parent class's definition.
 
 Methods signatures must be compatible with the parent class's definition. This is true, except for __construct(), for which the compatibility is not checked.
 

@@ -3,9 +3,9 @@
 Cast Precedence
 ---------------
 
-	.. meta::
-		:description lang=en:
-			Cast Precedence: Casting has a higher precedence than multiplication (and addition).
+.. meta::
+	:description:
+		Cast Precedence: Casting has a higher precedence than multiplication (and addition).
 
 Casting has a higher precedence than multiplication (and addition). Here, the cast on the float happens first, which leads to 0. This 0 is later multiplied by 100, and that still gives 0.
 

@@ -3,9 +3,9 @@
 \\array Was Customizable
 ------------------------
 
-	.. meta::
-		:description lang=en:
-			\\array Was Customizable: This code gathers several PHP hacks together.
+.. meta::
+	:description:
+		\\array Was Customizable: This code gathers several PHP hacks together.
 
 This code gathers several PHP hacks together.
 

@@ -3,9 +3,9 @@
 No Returntype But Still, Only String
 ------------------------------------
 
-	.. meta::
-		:description lang=en:
-			No Returntype But Still, Only String: Without a return type (or mixed), a method may return any type of data.
+.. meta::
+	:description:
+		No Returntype But Still, Only String: Without a return type (or mixed), a method may return any type of data.
 
 By `Fred Bouchery <https://twitter.com/FredBouchery>`_
 

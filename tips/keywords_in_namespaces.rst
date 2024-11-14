@@ -3,9 +3,9 @@
 Keywords In Namespaces
 ----------------------
 
-	.. meta::
-		:description lang=en:
-			Keywords In Namespaces: Since PHP 8.
+.. meta::
+	:description:
+		Keywords In Namespaces: Since PHP 8.
 
 Since PHP 8.0, it is possible to use PHP keywords in namespaces.
 

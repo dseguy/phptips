@@ -3,9 +3,9 @@
 Documenting Parameters
 ----------------------
 
-	.. meta::
-		:description lang=en:
-			Documenting Parameters: Sometimes, even a literal value used as parameter is not readable.
+.. meta::
+	:description:
+		Documenting Parameters: Sometimes, even a literal value used as parameter is not readable.
 
 Sometimes, even a literal value used as parameter is not readable. An easy way to document the literal values is to provide the name of the paramter. Since the parameters need a smart name to be used in the method, using it in the method call provides more context to the parameter.
 

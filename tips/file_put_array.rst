@@ -3,9 +3,9 @@
 file_put_contents() With Array Argument
 ---------------------------------------
 
-	.. meta::
-		:description lang=en:
-			file_put_contents() With Array Argument: The second argument of file_put_contents() is typed as ``mixed``.
+.. meta::
+	:description:
+		file_put_contents() With Array Argument: The second argument of file_put_contents() is typed as ``mixed``.
 
 By `Gina Peter Banyard <https://github.com/Girgias>`_
 

@@ -3,9 +3,9 @@
 Child Of Attribute Is Not An Attribute
 --------------------------------------
 
-	.. meta::
-		:description lang=en:
-			Child Of Attribute Is Not An Attribute: A class attribute must be marked with an attribute called ``Attribute``.
+.. meta::
+	:description:
+		Child Of Attribute Is Not An Attribute: A class attribute must be marked with an attribute called ``Attribute``.
 
 A class attribute must be marked with an attribute called ``Attribute``. It is compulsory to use Reflection and obtain an instance of the attribute.
 

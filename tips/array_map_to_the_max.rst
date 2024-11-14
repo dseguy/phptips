@@ -3,9 +3,9 @@
 array_map() Goes Full Throttle
 ------------------------------
 
-	.. meta::
-		:description lang=en:
-			array_map() Goes Full Throttle: array_map() applies a closure (first arg) to every elements of an array (second arg).
+.. meta::
+	:description:
+		array_map() Goes Full Throttle: array_map() applies a closure (first arg) to every elements of an array (second arg).
 
 array_map() applies a closure (first arg) to every elements of an array (second arg).
 

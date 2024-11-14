@@ -3,9 +3,9 @@
 array array = array()
 ---------------------
 
-	.. meta::
-		:description lang=en:
-			array array = array(): This made me chuckle.
+.. meta::
+	:description:
+		array array = array(): This made me chuckle.
 
 This made me chuckle... welcome to PHP 8.3 !
 

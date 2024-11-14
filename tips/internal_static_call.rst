@@ -3,9 +3,9 @@
 Internal Static Call
 --------------------
 
-	.. meta::
-		:description lang=en:
-			Internal Static Call: Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error.
+.. meta::
+	:description:
+		Internal Static Call: Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error.
 
 Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error. 
 

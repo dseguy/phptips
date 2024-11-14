@@ -3,9 +3,9 @@
 Initialize Readonly On Child
 ----------------------------
 
-	.. meta::
-		:description lang=en:
-			Initialize Readonly On Child: Readonly properties could only be initialized in the same class as their definition.
+.. meta::
+	:description:
+		Initialize Readonly On Child: Readonly properties could only be initialized in the same class as their definition.
 
 Readonly properties could only be initialized in the same class as their definition. That hold true, whatever the visibility of the property: ``private``, ``protected``, ``private``.
 

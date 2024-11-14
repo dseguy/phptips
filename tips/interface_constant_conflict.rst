@@ -3,9 +3,9 @@
 Interfaces Constants Conflicts
 ------------------------------
 
-	.. meta::
-		:description lang=en:
-			Interfaces Constants Conflicts: PHP reports duplicate constant definitions in different interfaces.
+.. meta::
+	:description:
+		Interfaces Constants Conflicts: PHP reports duplicate constant definitions in different interfaces.
 
 PHP reports duplicate constant definitions in different interfaces.
 

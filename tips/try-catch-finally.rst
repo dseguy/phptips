@@ -3,9 +3,9 @@
 try, catch, finally Are All Optional
 ------------------------------------
 
-	.. meta::
-		:description lang=en:
-			try, catch, finally Are All Optional: The finally clause in a try-catch-finally is actually optional: it can be omitted.
+.. meta::
+	:description:
+		try, catch, finally Are All Optional: The finally clause in a try-catch-finally is actually optional: it can be omitted.
 
 The finally clause in a try-catch-finally is actually optional: it can be omitted.
 

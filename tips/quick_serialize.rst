@@ -3,9 +3,9 @@
 Quick Serialize
 ---------------
 
-	.. meta::
-		:description lang=en:
-			Quick Serialize: Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects.
+.. meta::
+	:description:
+		Quick Serialize: Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects.
 
 By `Doeke Norg <https://twitter.com/doekenorg>`_
 

@@ -3,9 +3,9 @@
 file_append_contents()
 ----------------------
 
-	.. meta::
-		:description lang=en:
-			file_append_contents(): file_put_contents() can append data to the end of the file, with the FILE_APPEND option.
+.. meta::
+	:description:
+		file_append_contents(): file_put_contents() can append data to the end of the file, with the FILE_APPEND option.
 
 file_put_contents() can append data to the end of the file, with the FILE_APPEND option.
 

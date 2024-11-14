@@ -3,9 +3,9 @@
 Class Constants With Different Types
 ------------------------------------
 
-	.. meta::
-		:description lang=en:
-			Class Constants With Different Types: With PHP, it is possible to have a class constant with different values, between a parent class, and its child class.
+.. meta::
+	:description:
+		Class Constants With Different Types: With PHP, it is possible to have a class constant with different values, between a parent class, and its child class.
 
 With PHP, it is possible to have a class constant with different values, between a parent class, and its child class.
 

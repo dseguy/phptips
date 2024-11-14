@@ -3,9 +3,9 @@
 null Does Not Always Equal false
 --------------------------------
 
-	.. meta::
-		:description lang=en:
-			null Does Not Always Equal false: null equals false, so the first equality is actually true.
+.. meta::
+	:description:
+		null Does Not Always Equal false: null equals false, so the first equality is actually true.
 
 null equals false, so the first equality is actually true.
 

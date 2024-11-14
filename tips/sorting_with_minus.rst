@@ -3,9 +3,9 @@
 Sorting With Minus
 ------------------
 
-	.. meta::
-		:description lang=en:
-			Sorting With Minus: Did you know that sorting f, 0 and -f actually ends up with -f first, then 0, then f.
+.. meta::
+	:description:
+		Sorting With Minus: Did you know that sorting f, 0 and -f actually ends up with -f first, then 0, then f.
 
 Did you know that sorting f, 0 and -f actually ends up with -f first, then 0, then f. And this works with any string, including strings with duplicate initial minus sign.
 

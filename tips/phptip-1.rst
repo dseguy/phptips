@@ -3,9 +3,9 @@
 Inconsistent Constructor Signatures
 -----------------------------------
 
-	.. meta::
-		:description lang=en:
-			Inconsistent Constructor Signatures: PHP enforces that methods have the same signature in a parent class and in a children class.
+.. meta::
+	:description:
+		Inconsistent Constructor Signatures: PHP enforces that methods have the same signature in a parent class and in a children class.
 
 PHP enforces that methods have the same signature in a parent class and in a children class. It raises a Fatal Error if not.
 

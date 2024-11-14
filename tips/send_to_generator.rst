@@ -3,9 +3,9 @@
 Send An Argument To Generator
 -----------------------------
 
-	.. meta::
-		:description lang=en:
-			Send An Argument To Generator: When calling the method send() on a PHP generator, the result of the first yield keyword is the argument value.
+.. meta::
+	:description:
+		Send An Argument To Generator: When calling the method send() on a PHP generator, the result of the first yield keyword is the argument value.
 
 By `Rahul Chavan <https://twitter.com/rcsofttech85>`_
 

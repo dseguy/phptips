@@ -3,9 +3,9 @@
 Scalar Types Are Unqualified
 ----------------------------
 
-	.. meta::
-		:description lang=en:
-			Scalar Types Are Unqualified: Scalar types, such as ``int`` or ``iterable`` shall be used without the leading slash.
+.. meta::
+	:description:
+		Scalar Types Are Unqualified: Scalar types, such as ``int`` or ``iterable`` shall be used without the leading slash.
 
 Scalar types, such as ``int`` or ``iterable`` shall be used without the leading slash. Yet, there are some exceptions, in PHP 8.3.
 

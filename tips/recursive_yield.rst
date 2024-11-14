@@ -3,9 +3,9 @@
 Recursive Generator
 -------------------
 
-	.. meta::
-		:description lang=en:
-			Recursive Generator: Generator, using yield, may become recursive, when using the ``yield from`` keyword.
+.. meta::
+	:description:
+		Recursive Generator: Generator, using yield, may become recursive, when using the ``yield from`` keyword.
 
 Generator, using yield, may become recursive, when using the ``yield from`` keyword. This recursion is only available when used with a foreach() statement, or a generator using statement such as iterator_to_array().
 

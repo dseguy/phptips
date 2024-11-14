@@ -3,9 +3,9 @@
 Catch On Interfaces
 -------------------
 
-	.. meta::
-		:description lang=en:
-			Catch On Interfaces: It is possible to catch exceptions based on their interface.
+.. meta::
+	:description:
+		Catch On Interfaces: It is possible to catch exceptions based on their interface.
 
 It is possible to catch exceptions based on their interface. That means polymorphism for exceptions.
 

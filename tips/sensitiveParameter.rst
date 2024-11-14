@@ -3,9 +3,9 @@
 Hide Sensitive Parameter
 ------------------------
 
-	.. meta::
-		:description lang=en:
-			Hide Sensitive Parameter: PHP 8.
+.. meta::
+	:description:
+		Hide Sensitive Parameter: PHP 8.
 
 PHP 8.2 has the #[SensitiveParameter] attribute that hides values in debug messages. 
 

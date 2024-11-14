@@ -3,9 +3,9 @@
 Store Float As Index
 --------------------
 
-	.. meta::
-		:description lang=en:
-			Store Float As Index: PHP doesn't allow float as index in arrays.
+.. meta::
+	:description:
+		Store Float As Index: PHP doesn't allow float as index in arrays.
 
 PHP doesn't allow float as index in arrays.
 

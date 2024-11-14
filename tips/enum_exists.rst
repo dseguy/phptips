@@ -3,9 +3,9 @@
 class_exists() With Enums
 -------------------------
 
-	.. meta::
-		:description lang=en:
-			class_exists() With Enums: In PHP, we have:.
+.. meta::
+	:description:
+		class_exists() With Enums: In PHP, we have:.
 
 By `Jan Nedbal <https://janedbal.cz/>`_
 

@@ -3,9 +3,9 @@
 The Function Method
 -------------------
 
-	.. meta::
-		:description lang=en:
-			The Function Method: It is possible to name a method 'function'.
+.. meta::
+	:description:
+		The Function Method: It is possible to name a method 'function'.
 
 By `Brent Roose <https://twitter.com/brendt_gd>`_
 

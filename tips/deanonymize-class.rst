@@ -3,9 +3,9 @@
 Deanonymize Class
 -----------------
 
-	.. meta::
-		:description lang=en:
-			Deanonymize Class: Anonymize class are classes without a name.
+.. meta::
+	:description:
+		Deanonymize Class: Anonymize class are classes without a name.
 
 Anonymize class are classes without a name. That way, it provides directly an object, but doesn't litter the namespace with an extra class name. 
 

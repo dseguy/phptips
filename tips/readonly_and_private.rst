@@ -3,9 +3,9 @@
 Set readonly Properties Outside The Class
 -----------------------------------------
 
-	.. meta::
-		:description lang=en:
-			Set readonly Properties Outside The Class: PHP 8.
+.. meta::
+	:description:
+		Set readonly Properties Outside The Class: PHP 8.
 
 PHP 8.1 readonly properties cannot be set from global space, but they can be forced from the host class, just like accessing private properties. 
 

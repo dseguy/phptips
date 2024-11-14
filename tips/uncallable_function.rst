@@ -3,9 +3,9 @@
 Uncallable Function
 -------------------
 
-	.. meta::
-		:description lang=en:
-			Uncallable Function: The function foo() cannot be called.
+.. meta::
+	:description:
+		Uncallable Function: The function foo() cannot be called.
 
 The function foo() cannot be called. When the code does so, nothing happens.
 

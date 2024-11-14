@@ -3,9 +3,9 @@
 array_map_assoc()
 -----------------
 
-	.. meta::
-		:description lang=en:
-			array_map_assoc(): array_map() only provides the value of the array, not the key.
+.. meta::
+	:description:
+		array_map_assoc(): array_map() only provides the value of the array, not the key.
 
 array_map() only provides the value of the array, not the key. To access the key, use the extra arguments, and array_keys().
 

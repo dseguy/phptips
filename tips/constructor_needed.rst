@@ -3,9 +3,9 @@
 Constructor Needed
 ------------------
 
-	.. meta::
-		:description lang=en:
-			Constructor Needed: By default, classes don't need a constructor, and it may be omitted.
+.. meta::
+	:description:
+		Constructor Needed: By default, classes don't need a constructor, and it may be omitted.
 
 By default, classes don't need a constructor, and it may be omitted. It is also true in the case of child classes: PHP look for a local constructor, then a parent constructor, and it is valid to have none of them.
 

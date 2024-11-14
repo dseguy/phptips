@@ -3,9 +3,9 @@
 Modify String With Array Syntax
 -------------------------------
 
-	.. meta::
-		:description lang=en:
-			Modify String With Array Syntax: PHP strings allows access to individiual characters using the array syntax: ``$string[$index]``.
+.. meta::
+	:description:
+		Modify String With Array Syntax: PHP strings allows access to individiual characters using the array syntax: ``$string[$index]``.
 
 PHP strings allows access to individiual characters using the array syntax: ``$string[$index]``.
 

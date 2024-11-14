@@ -3,9 +3,9 @@
 Abstract Constants
 ------------------
 
-	.. meta::
-		:description lang=en:
-			Abstract Constants: There's a pretty common pattern to declare "abstract class constants" in PHP.
+.. meta::
+	:description:
+		Abstract Constants: There's a pretty common pattern to declare "abstract class constants" in PHP.
 
 By `WebSmithery <https://stackoverflow.com/users/2519523/websmithery>`_
 

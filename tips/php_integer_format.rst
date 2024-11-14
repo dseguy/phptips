@@ -3,9 +3,9 @@
 PHP Integer Format
 ------------------
 
-	.. meta::
-		:description lang=en:
-			PHP Integer Format: PHP has several convenient integer format to write them in a proper way: 0x12F, 0b110101, 0o12367.
+.. meta::
+	:description:
+		PHP Integer Format: PHP has several convenient integer format to write them in a proper way: 0x12F, 0b110101, 0o12367.
 
 PHP has several convenient integer format to write them in a proper way: 0x12F, 0b110101, 0o12367. This works well as part of the code
 

@@ -3,9 +3,9 @@
 Not All Strings In Arrays
 -------------------------
 
-	.. meta::
-		:description lang=en:
-			Not All Strings In Arrays: Array keys are coerced into strings or integers, while array values are left intact.
+.. meta::
+	:description:
+		Not All Strings In Arrays: Array keys are coerced into strings or integers, while array values are left intact.
 
 Array keys are coerced into strings or integers, while array values are left intact.
 

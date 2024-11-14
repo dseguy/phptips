@@ -3,9 +3,9 @@
 Compatible Only Interface
 -------------------------
 
-	.. meta::
-		:description lang=en:
-			Compatible Only Interface: Interfaces are contracts that defines methods signatures, which implmenting class have to implements.
+.. meta::
+	:description:
+		Compatible Only Interface: Interfaces are contracts that defines methods signatures, which implmenting class have to implements.
 
 Interfaces are contracts that defines methods signatures, which implmenting class have to implements.
 

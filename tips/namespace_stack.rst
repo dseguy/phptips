@@ -3,9 +3,9 @@
 The Namespace Stack
 -------------------
 
-	.. meta::
-		:description lang=en:
-			The Namespace Stack: Reminder that namespaces are not stacked, but are merely prefixes.
+.. meta::
+	:description:
+		The Namespace Stack: Reminder that namespaces are not stacked, but are merely prefixes.
 
 Reminder that namespaces are not stacked, but are merely prefixes. Hence, there is the current namespace, and the global one for the occasional fallback, but nothing in between. Namespaces are not folders, even when they are stored as such.
 

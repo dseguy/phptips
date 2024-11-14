@@ -3,9 +3,9 @@
 Stealth Generator
 -----------------
 
-	.. meta::
-		:description lang=en:
-			Stealth Generator: The code below has a useless loop.
+.. meta::
+	:description:
+		Stealth Generator: The code below has a useless loop.
 
 By `Frederic Bouchery <https://twitter.com/FredBouchery>`_
 

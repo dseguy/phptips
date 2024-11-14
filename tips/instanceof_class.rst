@@ -3,9 +3,9 @@
 instanceof Object
 -----------------
 
-	.. meta::
-		:description lang=en:
-			instanceof Object: object is a type, but it can also be used as a constant name.
+.. meta::
+	:description:
+		instanceof Object: object is a type, but it can also be used as a constant name.
 
 object is a type, but it can also be used as a constant name. Then, instanceof will accept it for testing a variable. 
 

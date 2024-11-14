@@ -3,9 +3,9 @@
 No Cast In Constant Expressions
 -------------------------------
 
-	.. meta::
-		:description lang=en:
-			No Cast In Constant Expressions: Constant expressions do not accept the cast operator.
+.. meta::
+	:description:
+		No Cast In Constant Expressions: Constant expressions do not accept the cast operator.
 
 Constant expressions do not accept the cast operator.
 

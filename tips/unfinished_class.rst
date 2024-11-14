@@ -3,9 +3,9 @@
 Unfinished Class Doesn't Compile
 --------------------------------
 
-	.. meta::
-		:description lang=en:
-			Unfinished Class Doesn't Compile: PHP is not able to use a class before it is defined.
+.. meta::
+	:description:
+		Unfinished Class Doesn't Compile: PHP is not able to use a class before it is defined.
 
 By `Jan Nedbal <https://janedbal.cz/>`_
 

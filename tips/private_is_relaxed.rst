@@ -3,9 +3,9 @@
 private Is Relaxed
 ------------------
 
-	.. meta::
-		:description lang=en:
-			private Is Relaxed: PHP has the relaxed syntax since early 7.
+.. meta::
+	:description:
+		private Is Relaxed: PHP has the relaxed syntax since early 7.
 
 PHP has the relaxed syntax since early 7.0, which allows usage of PHP keywords for methods and class constant names.
 

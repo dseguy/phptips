@@ -3,9 +3,9 @@
 Cast Is So Strong
 -----------------
 
-	.. meta::
-		:description lang=en:
-			Cast Is So Strong: The code below yields a Fatal Error, at linting time.
+.. meta::
+	:description:
+		Cast Is So Strong: The code below yields a Fatal Error, at linting time.
 
 The code below yields a Fatal Error, at linting time. PHP identifies too early the cast operator ``(int)``, and fail to recognize the function call to ``var_dump()``. 
 

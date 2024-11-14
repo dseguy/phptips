@@ -3,9 +3,9 @@
 Enum Are Not Linted
 -------------------
 
-	.. meta::
-		:description lang=en:
-			Enum Are Not Linted: It is possible to give two identical values to different enumeration cases, but not to execute it.
+.. meta::
+	:description:
+		Enum Are Not Linted: It is possible to give two identical values to different enumeration cases, but not to execute it.
 
 It is possible to give two identical values to different enumeration cases, but not to execute it.
 

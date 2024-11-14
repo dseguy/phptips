@@ -3,9 +3,9 @@
 Exponential Minus One
 ---------------------
 
-	.. meta::
-		:description lang=en:
-			Exponential Minus One: You can save typing by using expm1($x) instead of exp($x) - 1.
+.. meta::
+	:description:
+		Exponential Minus One: You can save typing by using expm1($x) instead of exp($x) - 1.
 
 You can save typing by using expm1($x) instead of exp($x) - 1. Also, you might have to take care of differences, as both results might be slightly different depending on the OS you're running it on : Debian is OK, but MacOS says it's different.
 

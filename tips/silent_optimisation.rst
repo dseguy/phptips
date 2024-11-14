@@ -3,9 +3,9 @@
 Silent Optimisation Of Variables
 --------------------------------
 
-	.. meta::
-		:description lang=en:
-			Silent Optimisation Of Variables: See PHP optimisation in action : undefined variables are only reported when they are used.
+.. meta::
+	:description:
+		Silent Optimisation Of Variables: See PHP optimisation in action : undefined variables are only reported when they are used.
 
 See PHP optimisation in action : undefined variables are only reported when they are used.
 

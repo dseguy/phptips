@@ -3,9 +3,9 @@
 Don't Forget To Yield
 ---------------------
 
-	.. meta::
-		:description lang=en:
-			Don't Forget To Yield: It is possible to delegate a generator to another generator.
+.. meta::
+	:description:
+		Don't Forget To Yield: It is possible to delegate a generator to another generator.
 
 It is possible to delegate a generator to another generator.
 

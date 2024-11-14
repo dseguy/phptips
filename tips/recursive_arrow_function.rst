@@ -3,9 +3,9 @@
 Recursive Arrow Function
 ------------------------
 
-	.. meta::
-		:description lang=en:
-			Recursive Arrow Function: To make an arrow function recursive, it must include itself in the list of arguments.
+.. meta::
+	:description:
+		Recursive Arrow Function: To make an arrow function recursive, it must include itself in the list of arguments.
 
 To make an arrow function recursive, it must include itself in the list of arguments. That way, it can call itself.
 

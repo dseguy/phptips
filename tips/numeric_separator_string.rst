@@ -3,9 +3,9 @@
 Numeric Separators Inside A String?
 -----------------------------------
 
-	.. meta::
-		:description lang=en:
-			Numeric Separators Inside A String?: Since PHP 7.
+.. meta::
+	:description:
+		Numeric Separators Inside A String?: Since PHP 7.
 
 Since PHP 7.4, there are numeric separators, to make integers more readable. 
 

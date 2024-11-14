@@ -3,9 +3,9 @@
 __invoke() Method And Properties
 --------------------------------
 
-	.. meta::
-		:description lang=en:
-			__invoke() Method And Properties: In the code here, the __invoke() makes the class ``X`` invokable : the object may be used as a function name and it will call the magic method ``__invoke``.
+.. meta::
+	:description:
+		__invoke() Method And Properties: In the code here, the __invoke() makes the class ``X`` invokable : the object may be used as a function name and it will call the magic method ``__invoke``.
 
 In the code here, the __invoke() makes the class ``X`` invokable : the object may be used as a function name and it will call the magic method ``__invoke``.
 

@@ -3,9 +3,9 @@
 Incompatible Promoted Readonlies
 --------------------------------
 
-	.. meta::
-		:description lang=en:
-			Incompatible Promoted Readonlies: Promoted properties allows the creation of properties directly from the constructor signature.
+.. meta::
+	:description:
+		Incompatible Promoted Readonlies: Promoted properties allows the creation of properties directly from the constructor signature.
 
 Promoted properties allows the creation of properties directly from the constructor signature.
 

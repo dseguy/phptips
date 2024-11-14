@@ -3,9 +3,9 @@
 No Semicolon In Sight
 ---------------------
 
-	.. meta::
-		:description lang=en:
-			No Semicolon In Sight: This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag.
+.. meta::
+	:description:
+		No Semicolon In Sight: This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag.
 
 By `Ryan Chandler <https://twitter.com/ryangjchandler>`_
 

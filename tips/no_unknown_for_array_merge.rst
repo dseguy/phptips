@@ -3,9 +3,9 @@
 No Unknown For array_merge()
 ----------------------------
 
-	.. meta::
-		:description lang=en:
-			No Unknown For array_merge(): A PHP variadic argument collects all the unused named parameters, along with their key.
+.. meta::
+	:description:
+		No Unknown For array_merge(): A PHP variadic argument collects all the unused named parameters, along with their key.
 
 A PHP variadic argument collects all the unused named parameters, along with their key.  That way, it is possible to handle them with their name inside the method.
 

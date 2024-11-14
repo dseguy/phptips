@@ -3,9 +3,9 @@
 Cast Are Case Insensitive
 -------------------------
 
-	.. meta::
-		:description lang=en:
-			Cast Are Case Insensitive: TIL that the PHP cast operators such as (int), (array).
+.. meta::
+	:description:
+		Cast Are Case Insensitive: TIL that the PHP cast operators such as (int), (array).
 
 TIL that the PHP cast operators such as (int), (array)... are case insensitive: (STRING)
 

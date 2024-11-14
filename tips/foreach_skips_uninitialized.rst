@@ -3,9 +3,9 @@
 Foreach() Skips Uninitialized Properties
 ----------------------------------------
 
-	.. meta::
-		:description lang=en:
-			Foreach() Skips Uninitialized Properties: Foreach() reads naturally all public properties in an object.
+.. meta::
+	:description:
+		Foreach() Skips Uninitialized Properties: Foreach() reads naturally all public properties in an object.
 
 Foreach() reads naturally all public properties in an object. Protected and private are omitted, unless in the right context.
 

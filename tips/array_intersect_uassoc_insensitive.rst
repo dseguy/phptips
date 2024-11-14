@@ -3,9 +3,9 @@
 array_intersect_uassoc_insensitive() ?
 --------------------------------------
 
-	.. meta::
-		:description lang=en:
-			array_intersect_uassoc_insensitive() ?: array_intersect() functions use a direct comparison between the values in the array to make the comparison.
+.. meta::
+	:description:
+		array_intersect_uassoc_insensitive() ?: array_intersect() functions use a direct comparison between the values in the array to make the comparison.
 
 array_intersect() functions use a direct comparison between the values in the array to make the comparison. When you need that comparison to be case insensitive, then you can use the ``u`` version of those functions, to make a case insensitive comparison.
 

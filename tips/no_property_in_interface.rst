@@ -3,9 +3,9 @@
 No Property In Interface
 ------------------------
 
-	.. meta::
-		:description lang=en:
-			No Property In Interface: PHP is better than me : I thought I found a way to create properties in an interface, by declaring promoted properties in a constructor.
+.. meta::
+	:description:
+		No Property In Interface: PHP is better than me : I thought I found a way to create properties in an interface, by declaring promoted properties in a constructor.
 
 PHP is better than me : I thought I found a way to create properties in an interface, by declaring promoted properties in a constructor. 
 

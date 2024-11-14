@@ -3,9 +3,9 @@
 Promoted Properties Compatibility
 ---------------------------------
 
-	.. meta::
-		:description lang=en:
-			Promoted Properties Compatibility: Promoted properties are defined in a constructor signature.
+.. meta::
+	:description:
+		Promoted Properties Compatibility: Promoted properties are defined in a constructor signature.
 
 Promoted properties are defined in a constructor signature. They cannot be defined in an abstract method, so they are not allowed in an abstract constructor: this is true in an abstract class and in an interface.
 

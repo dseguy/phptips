@@ -3,9 +3,9 @@
 foreach() With All The Same Keys
 --------------------------------
 
-	.. meta::
-		:description lang=en:
-			foreach() With All The Same Keys: It is possible for a foreach() loop to produce multiple times the same key.
+.. meta::
+	:description:
+		foreach() With All The Same Keys: It is possible for a foreach() loop to produce multiple times the same key.
 
 It is possible for a foreach() loop to produce multiple times the same key. To do so, avoid using arrays, which enforce the unique key.
 

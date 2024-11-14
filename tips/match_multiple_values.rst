@@ -3,9 +3,9 @@
 Match() With Multiple Values
 ----------------------------
 
-	.. meta::
-		:description lang=en:
-			Match() With Multiple Values: Match against two values in PHP.
+.. meta::
+	:description:
+		Match() With Multiple Values: Match against two values in PHP.
 
 By `Pascal Baljet <https://x.com/pascalbaljet>`_
 

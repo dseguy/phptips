@@ -3,9 +3,9 @@
 An Elephpant In The Code
 ------------------------
 
-	.. meta::
-		:description lang=en:
-			An Elephpant In The Code: When you need an elephant in your text, you have PHP always ready.
+.. meta::
+	:description:
+		An Elephpant In The Code: When you need an elephant in your text, you have PHP always ready.
 
 When you need an elephant in your text, you have PHP always ready.
 

@@ -3,9 +3,9 @@
 array Is Not An Array
 ---------------------
 
-	.. meta::
-		:description lang=en:
-			array Is Not An Array: PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\``.
+.. meta::
+	:description:
+		array Is Not An Array: PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\``.
 
 PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\``. Such code get hit with a ``Type declaration ‘\int’ must be unqualified``.
 

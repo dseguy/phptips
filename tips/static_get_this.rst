@@ -3,9 +3,9 @@
 Get $this In A Static
 ---------------------
 
-	.. meta::
-		:description lang=en:
-			Get $this In A Static: A static method does not have access to the current object, by definition.
+.. meta::
+	:description:
+		Get $this In A Static: A static method does not have access to the current object, by definition.
 
 A static method does not have access to the current object, by definition. 
 

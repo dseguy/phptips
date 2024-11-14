@@ -3,9 +3,9 @@
 Where Is The Semicolon?
 -----------------------
 
-	.. meta::
-		:description lang=en:
-			Where Is The Semicolon?: This code is an attribute.
+.. meta::
+	:description:
+		Where Is The Semicolon?: This code is an attribute.
 
 This code is an attribute. A attribute always expects to be followed by a structure that it will characterize. Here, without anything else to parse, the parser displays a mysterious error about a semi colon, while none is in sight.
 

@@ -3,9 +3,9 @@
 No Self Referencing Constants
 -----------------------------
 
-	.. meta::
-		:description lang=en:
-			No Self Referencing Constants: It is not possible to define a recursive PHP class constant, although it is possible to write it.
+.. meta::
+	:description:
+		No Self Referencing Constants: It is not possible to define a recursive PHP class constant, although it is possible to write it.
 
 It is not possible to define a recursive PHP class constant, although it is possible to write it. A self referencing constant may be with itself, or it may use a complex right of class definitions before failing.
 

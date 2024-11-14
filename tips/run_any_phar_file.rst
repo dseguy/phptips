@@ -3,9 +3,9 @@
 Run Any Script In A Phar
 ------------------------
 
-	.. meta::
-		:description lang=en:
-			Run Any Script In A Phar: It is not possible to call directly a PHP script stored in a Phar archive: the only way to reach it, is using include('phar://$path'), where PHP understands the phar:// protocol.
+.. meta::
+	:description:
+		Run Any Script In A Phar: It is not possible to call directly a PHP script stored in a Phar archive: the only way to reach it, is using include('phar://$path'), where PHP understands the phar:// protocol.
 
 It is not possible to call directly a PHP script stored in a Phar archive: the only way to reach it, is using include('phar://$path'), where PHP understands the phar:// protocol.
 

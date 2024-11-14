@@ -3,9 +3,9 @@
 Recursive Closure
 -----------------
 
-	.. meta::
-		:description lang=en:
-			Recursive Closure: To make a recursive closure, the closure must be both stored in a variable and passed as a ``use`` parameter to the same factorial.
+.. meta::
+	:description:
+		Recursive Closure: To make a recursive closure, the closure must be both stored in a variable and passed as a ``use`` parameter to the same factorial.
 
 To make a recursive closure, the closure must be both stored in a variable and passed as a ``use`` parameter to the same factorial.
 

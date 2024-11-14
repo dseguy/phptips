@@ -3,9 +3,9 @@
 Forgotten Throw
 ---------------
 
-	.. meta::
-		:description lang=en:
-			Forgotten Throw: Sometimes, the throw keyword is forgotten, and it is difficult to realize it is missing.
+.. meta::
+	:description:
+		Forgotten Throw: Sometimes, the throw keyword is forgotten, and it is difficult to realize it is missing.
 
 Sometimes, the throw keyword is forgotten, and it is difficult to realize it is missing.
 

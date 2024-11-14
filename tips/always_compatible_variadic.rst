@@ -3,9 +3,9 @@
 Always Compatible Variadic
 --------------------------
 
-	.. meta::
-		:description lang=en:
-			Always Compatible Variadic: A variadic argument is a valid and compatible signature, for methods that overwrite other methods.
+.. meta::
+	:description:
+		Always Compatible Variadic: A variadic argument is a valid and compatible signature, for methods that overwrite other methods.
 
 By `Sergii Shymko <https://twitter.com/SergiiShymko>`_
 

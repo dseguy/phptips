@@ -3,9 +3,9 @@
 $this $this
 -----------
 
-	.. meta::
-		:description lang=en:
-			$this $this: $this is the pseudo-variable that represents the current object.
+.. meta::
+	:description:
+		$this $this: $this is the pseudo-variable that represents the current object.
 
 $this is the pseudo-variable that represents the current object. It is also a variable, like others, and may be used to describe a dynamic property.
 

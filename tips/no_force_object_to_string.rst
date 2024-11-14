@@ -3,9 +3,9 @@
 No Force Object To String
 -------------------------
 
-	.. meta::
-		:description lang=en:
-			No Force Object To String: PHP forces numeric strings to integers when using them as a index, in an array.
+.. meta::
+	:description:
+		No Force Object To String: PHP forces numeric strings to integers when using them as a index, in an array.
 
 PHP forces numeric strings to integers when using them as a index, in an array. On the other hand, it doesn't force objects to be strings, and it rather raise an error: ``Illegal offset type``.
 

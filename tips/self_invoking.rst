@@ -3,9 +3,9 @@
 Lots Of Silly Arguments
 -----------------------
 
-	.. meta::
-		:description lang=en:
-			Lots Of Silly Arguments: PHP 8.
+.. meta::
+	:description:
+		Lots Of Silly Arguments: PHP 8.
 
 By `Greg Korba <https://twitter.com/_Codito_>`_
 

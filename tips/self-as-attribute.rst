@@ -3,9 +3,9 @@
 Self As Attribute
 -----------------
 
-	.. meta::
-		:description lang=en:
-			Self As Attribute: Self, parent and static cannot be used as attributes.
+.. meta::
+	:description:
+		Self As Attribute: Self, parent and static cannot be used as attributes.
 
 By `Jan Nedbal <https://janedbal.cz/>`_
 

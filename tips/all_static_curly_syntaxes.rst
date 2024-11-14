@@ -3,9 +3,9 @@
 All Static Curly Syntaxes And One Wrong
 ---------------------------------------
 
-	.. meta::
-		:description lang=en:
-			All Static Curly Syntaxes And One Wrong: What is the only invalid syntax in the following list.
+.. meta::
+	:description:
+		All Static Curly Syntaxes And One Wrong: What is the only invalid syntax in the following list.
 
 What is the only invalid syntax in the following list?
 

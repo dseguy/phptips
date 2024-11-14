@@ -3,9 +3,9 @@
 All Classes Aliases
 -------------------
 
-	.. meta::
-		:description lang=en:
-			All Classes Aliases: To make a class alias, use class_alias().
+.. meta::
+	:description:
+		All Classes Aliases: To make a class alias, use class_alias().
 
 To make a class alias, use class_alias();
 
@@ -17,7 +17,9 @@ To make a trait alias, use class_alias();
 
 
 
-Also, no ::enum operator, ::trait operator?
+Also, there is no ``::enum`` operator, ``::trait`` operator or ``::interface`` operator, so you can just just ``::class``
+
+In the end, they all share the same name space.
 
 .. image:: ../images/class_alias_alias.png
 

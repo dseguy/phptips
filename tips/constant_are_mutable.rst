@@ -3,9 +3,9 @@
 Constants Are Mutable
 ---------------------
 
-	.. meta::
-		:description lang=en:
-			Constants Are Mutable: Since PHP 8.
+.. meta::
+	:description:
+		Constants Are Mutable: Since PHP 8.
 
 Since PHP 8.2, it is possible to use an object with a constant: this is the new initializer feature.
 

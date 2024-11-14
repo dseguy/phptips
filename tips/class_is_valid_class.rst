@@ -3,9 +3,9 @@
 Class Is A Valid Class
 ----------------------
 
-	.. meta::
-		:description lang=en:
-			Class Is A Valid Class: PHP allows to use 'class' as a class name in a type.
+.. meta::
+	:description:
+		Class Is A Valid Class: PHP allows to use 'class' as a class name in a type.
 
 PHP allows to use 'class' as a class name in a type. Same for interface, enum, trait... and some others keywords.
 

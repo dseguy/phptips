@@ -3,9 +3,9 @@
 Typed By Enum
 -------------
 
-	.. meta::
-		:description lang=en:
-			Typed By Enum: Enumeration cannot be instantiated into an object.
+.. meta::
+	:description:
+		Typed By Enum: Enumeration cannot be instantiated into an object.
 
 Enumeration cannot be instantiated into an object. In fact, the cases of the enumeration are the objects. Hence, a case object has the enumeration type.
 

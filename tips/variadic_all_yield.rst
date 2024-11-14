@@ -3,9 +3,9 @@
 Variadic All The Yields
 -----------------------
 
-	.. meta::
-		:description lang=en:
-			Variadic All The Yields: The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array().
+.. meta::
+	:description:
+		Variadic All The Yields: The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array().
 
 The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array().
 

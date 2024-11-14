@@ -3,9 +3,9 @@
 Dynamic Class Constant
 ----------------------
 
-	.. meta::
-		:description lang=en:
-			Dynamic Class Constant: It is not allowed to create dynamically a class constant.
+.. meta::
+	:description:
+		Dynamic Class Constant: It is not allowed to create dynamically a class constant.
 
 It is not allowed to create dynamically a class constant. The only way is to create a global constant, using the define() function.
 

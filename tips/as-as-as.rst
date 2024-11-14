@@ -3,9 +3,9 @@
 As As As
 --------
 
-	.. meta::
-		:description lang=en:
-			As As As: 1) it is possible to call a method 'as', because relaxed keywords PHP methods.
+.. meta::
+	:description:
+		As As As: 1) it is possible to call a method 'as', because relaxed keywords PHP methods.
 
 1) it is possible to call a method 'as', because relaxed keywords PHP methods
 

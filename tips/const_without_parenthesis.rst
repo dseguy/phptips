@@ -3,9 +3,9 @@
 Const Without Parenthesis
 -------------------------
 
-	.. meta::
-		:description lang=en:
-			Const Without Parenthesis: It is possible to put a single literal inside parenthesis: that's just the literal itself.
+.. meta::
+	:description:
+		Const Without Parenthesis: It is possible to put a single literal inside parenthesis: that's just the literal itself.
 
 It is possible to put a single literal inside parenthesis: that's just the literal itself.
 

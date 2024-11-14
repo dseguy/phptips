@@ -3,9 +3,9 @@
 is_a() Versus Instanceof
 ------------------------
 
-	.. meta::
-		:description lang=en:
-			is_a() Versus Instanceof: is_a() and instanceof are the same feature: check if an object is of a specific class.
+.. meta::
+	:description:
+		is_a() Versus Instanceof: is_a() and instanceof are the same feature: check if an object is of a specific class.
 
 is_a() and instanceof are the same feature: check if an object is of a specific class. Yet, they do things in different ways.
 

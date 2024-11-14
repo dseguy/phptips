@@ -3,9 +3,9 @@
 Exporting Properties
 --------------------
 
-	.. meta::
-		:description lang=en:
-			Exporting Properties: With an accessor and a reference, it is possible to export a private property and manipulate it from the outside of the object.
+.. meta::
+	:description:
+		Exporting Properties: With an accessor and a reference, it is possible to export a private property and manipulate it from the outside of the object.
 
 By `Tim Macdonald <https://twitter.com/timacdonald87>`_
 

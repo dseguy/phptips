@@ -3,9 +3,9 @@
 Noscream On Ellipsis
 --------------------
 
-	.. meta::
-		:description lang=en:
-			Noscream On Ellipsis: Noscream operator @ hides errors locally, in an expression.
+.. meta::
+	:description:
+		Noscream On Ellipsis: Noscream operator @ hides errors locally, in an expression.
 
 Noscream operator @ hides errors locally, in an expression. Variadic ``...`` spreads the elements of an array.
 

@@ -3,9 +3,9 @@
 No Change To $this
 ------------------
 
-	.. meta::
-		:description lang=en:
-			No Change To $this: Variable $this this passed and reassigned by reference is a noop, as opposed to all other variables.
+.. meta::
+	:description:
+		No Change To $this: Variable $this this passed and reassigned by reference is a noop, as opposed to all other variables.
 
 By `Ondrej Mirtes <https://twitter.com/OndrejMirtes>`_
 

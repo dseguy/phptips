@@ -3,9 +3,9 @@
 Casting And Power
 -----------------
 
-	.. meta::
-		:description lang=en:
-			Casting And Power: When you know that 2*2 = 4, and 2**2 = 4 (too), and 2.
+.. meta::
+	:description:
+		Casting And Power: When you know that 2*2 = 4, and 2**2 = 4 (too), and 2.
 
 When you know that 2*2 = 4, and 2**2 = 4 (too), and 2.5 ** 2.5 = 9.8821176880262, have to ask yourself where is this 6 coming from. 
 

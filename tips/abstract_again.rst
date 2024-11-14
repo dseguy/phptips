@@ -3,9 +3,9 @@
 Abstract Again
 --------------
 
-	.. meta::
-		:description lang=en:
-			Abstract Again: A concrete class may have an abstract child: the child class extends the parent class, and also receives the abstract option.
+.. meta::
+	:description:
+		Abstract Again: A concrete class may have an abstract child: the child class extends the parent class, and also receives the abstract option.
 
 A concrete class may have an abstract child: the child class extends the parent class, and also receives the abstract option.
 

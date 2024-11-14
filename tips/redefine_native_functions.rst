@@ -3,9 +3,9 @@
 Redefine Native Functions
 -------------------------
 
-	.. meta::
-		:description lang=en:
-			Redefine Native Functions: It is possible to redefine PHP functions or constants, or even any defined of such, by using the ``use`` command.
+.. meta::
+	:description:
+		Redefine Native Functions: It is possible to redefine PHP functions or constants, or even any defined of such, by using the ``use`` command.
 
 It is possible to redefine PHP functions or constants, or even any defined of such, by using the ``use`` command.
 

@@ -3,9 +3,9 @@
 Variadic Are Typed And Defaulted
 --------------------------------
 
-	.. meta::
-		:description lang=en:
-			Variadic Are Typed And Defaulted: When using the ``.
+.. meta::
+	:description:
+		Variadic Are Typed And Defaulted: When using the ``.
 
 When using the ``...`` operator, the argument is automatically typed and defaulted: it is typed with array, and its default value is the empty array ``[]``.
 

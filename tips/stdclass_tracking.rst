@@ -3,9 +3,9 @@
 stdClass Object
 ---------------
 
-	.. meta::
-		:description lang=en:
-			stdClass Object: PHP recycles the previously created stdClass objects ids.
+.. meta::
+	:description:
+		stdClass Object: PHP recycles the previously created stdClass objects ids.
 
 PHP recycles the previously created stdClass objects ids. The following code displays Object #1, until it is stored in $b. When the stdClass is not stored in a container (variable, property, etc.), it is completely lost and no object counting happens.
 

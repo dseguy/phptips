@@ -3,9 +3,9 @@
 Playing With Integers Limits
 ----------------------------
 
-	.. meta::
-		:description lang=en:
-			Playing With Integers Limits: Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1/12.
+.. meta::
+	:description:
+		Playing With Integers Limits: Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1/12.
 
 Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1/12.
 

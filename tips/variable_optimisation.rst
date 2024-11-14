@@ -3,9 +3,9 @@
 No Warning For Unused Variables
 -------------------------------
 
-	.. meta::
-		:description lang=en:
-			No Warning For Unused Variables: PHP optimisation in action : undefined variables are only reported when they are used.
+.. meta::
+	:description:
+		No Warning For Unused Variables: PHP optimisation in action : undefined variables are only reported when they are used.
 
 PHP optimisation in action : undefined variables are only reported when they are used.
 

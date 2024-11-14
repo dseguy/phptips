@@ -3,9 +3,9 @@
 typed_array
 -----------
 
-	.. meta::
-		:description lang=en:
-			typed_array: You can set the array content type using variadic functions feature (syntax below).
+.. meta::
+	:description:
+		typed_array: You can set the array content type using variadic functions feature (syntax below).
 
 By `• Kartoffeljunge • <https://bsky.app/profile/devatreides.bsky.social>`_
 

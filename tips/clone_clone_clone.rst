@@ -3,9 +3,9 @@
 Clone Clone Clone
 -----------------
 
-	.. meta::
-		:description lang=en:
-			Clone Clone Clone: It is possible to chain clone operators : PHP optimize this and skips any intermediate clone.
+.. meta::
+	:description:
+		Clone Clone Clone: It is possible to chain clone operators : PHP optimize this and skips any intermediate clone.
 
 It is possible to chain clone operators : PHP optimize this and skips any intermediate clone. The resulting final object is number 2, so the inner clones were duly ignored. 
 

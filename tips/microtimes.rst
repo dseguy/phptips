@@ -3,9 +3,9 @@
 Reading Micro-seconds
 ---------------------
 
-	.. meta::
-		:description lang=en:
-			Reading Micro-seconds: There are different ways to access micro seconds in PHP : use the Datetime format of ``u``, which works with Datetime.
+.. meta::
+	:description:
+		Reading Micro-seconds: There are different ways to access micro seconds in PHP : use the Datetime format of ``u``, which works with Datetime.
 
 There are different ways to access micro seconds in PHP : use the Datetime format of ``u``, which works with Datetime. Or call the microtime() function, with the true parameter.
 

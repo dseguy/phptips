@@ -3,9 +3,9 @@
 Yield, Not Return By Reference
 ------------------------------
 
-	.. meta::
-		:description lang=en:
-			Yield, Not Return By Reference: When a method returns a reference, there is a ``&`` before its name, in the signature.
+.. meta::
+	:description:
+		Yield, Not Return By Reference: When a method returns a reference, there is a ``&`` before its name, in the signature.
 
 When a method returns a reference, there is a ``&`` before its name, in the signature. This means that the function must return a variable, or a property, and not a literal value.
 

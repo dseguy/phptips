@@ -3,9 +3,9 @@
 Class Implement No More
 -----------------------
 
-	.. meta::
-		:description lang=en:
-			Class Implement No More: Inheritance forces children classes to have only methods that are compatible with the parent's methods.
+.. meta::
+	:description:
+		Class Implement No More: Inheritance forces children classes to have only methods that are compatible with the parent's methods.
 
 Inheritance forces children classes to have only methods that are compatible with the parent's methods.
 
