@@ -1,0 +1,57 @@
+<?php
+
+$file = $args[1] ?? 'no_empty_function.json';
+
+$json = json_decode(file_get_contents('docs/'.$file));
+
+$words = getWords($json->content);
+
+$words = removeStopWords($words);
+
+foreach($words as $word) {
+	if (!file_exists('../analyzeG3/human/en/Features/'.$word.'.ini')) {
+		print $word.PHP_EOL;
+	}
+}
+
+function getWords(string $text) {
+	$text = mb_strtolower($text);
+	
+	$breakIterator = \IntlBreakIterator::createWordInstance('en_US');
+	$breakIterator->setText($text);
+
+	$partsIterator = new \IntlPartsIterator($breakIterator, $text);
+
+	$last = 0;
+	$return = array();
+	foreach ($breakIterator as $part) {
+		if ($part - $last < 3) { 
+			$last = $part;
+			continue; 
+		}
+
+		$return[] = substr($text, $last, $part - $last);
+	    $last = $part;
+	}
+	
+	return array_unique($return);
+}
+
+function removeStopWords(array $array) : array {
+	$stop = array(
+	'can',
+	'the',
+	'since',
+	'already',
+	'taken',
+	'also',
+	'that',
+	'which',
+	'could',
+	'such',
+	'there',
+	);
+	
+	return array_diff ($array, $stop);
+}
+?>

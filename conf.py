@@ -57,3 +57,6 @@ html_static_path = ['_static']
 # Extra config to verify read the docs
 html_extra_path = ["googlee919cb0917e4fefc.html", 
                                  "sitemap.xml"]
+                                 
+# Only displays the title of the page
+html_title = '';
