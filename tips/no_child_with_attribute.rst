@@ -9,7 +9,7 @@ Child Of Attribute Is Not An Attribute
 
 A class attribute must be marked with an attribute called ``Attribute``. It is compulsory to use Reflection and obtain an instance of the attribute.
 
-That attribute is only for the class itself, and it doesn't propage automatically to the child classes.
+That attribute is only for the class itself, and it doesn't propagate automatically to the child classes.
 
 On the other hand, the ``Attribute`` class cannot be extended: it is not possible to create a child that may carry some of the ``Attribute`` properties.
 

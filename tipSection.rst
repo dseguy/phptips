@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/compatible-signature.rst
    tips/private_is_relaxed.rst
    tips/class_implements_no_more.rst
    tips/variadic_are_typed_and_defaulted.rst

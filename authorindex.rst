@@ -9,6 +9,8 @@ Author index
     * :ref:`quick-dto-or-vo-copy`
 * `Brent Roose <https://twitter.com/brendt_gd>`_
     * :ref:`the-function-method`
+* `Christian Lück <https://x.com/another_clue>`_
+    * :ref:`compatible-signature`
 * `Doeke Norg <https://twitter.com/doekenorg>`_
     * :ref:`quick-serialize`
 * `Fred Bouchery <https://twitter.com/FredBouchery>`_

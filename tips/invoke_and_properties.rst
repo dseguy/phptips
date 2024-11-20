@@ -13,7 +13,7 @@ Then, in the same class, there is a property ``$y``, with the type of ``X``. Tha
 
 Well, no. This call will yield an error, ``undefined method y``. PHP doesn't use the __invoke() here, as it would conflict with an existing ``y`` method. Also, that would make a case-sensitive method, as the property ``$Y`` doesn't exists.
 
-To invoke the object in the proeprty ``y``, one has to put parenthesis around the object, so that PHP can extract the object and then, invoke it safely.
+To invoke the object in the property ``y``, one has to put parenthesis around the object, so that PHP can extract the object and then, invoke it safely.
 
 .. image:: ../images/invoke_and_properties.png
 
