@@ -6,10 +6,18 @@ Playing With Integers Limits
 .. meta::
 	:description:
 		Playing With Integers Limits: Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1/12.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Playing With Integers Limits.
+	:twitter:description: Playing With Integers Limits: Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1/12.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/playing_with_the_limit.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/playing_with_the_limit.png.png.
+	:og:image: Playing With Integers Limits: Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1/12.
 
 Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1/12.
 
-PHP has the integer overflow. Stay away from the PHP_INT_MAX limits. Valid with (int) or intval() with recent PHP versions.
+PHP has the integer overflow. Stay away from the PHP_INT_MAX limits. The code in the illustration is valid with (int) or intval(), on recent PHP versions.
 
 .. image:: ../images/playing_with_the_limit.png
 

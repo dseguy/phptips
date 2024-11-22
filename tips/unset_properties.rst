@@ -6,6 +6,14 @@ Unsetting Properties Surprises
 .. meta::
 	:description:
 		Unsetting Properties Surprises: Unsetting properties is always a surprise.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Unsetting Properties Surprises.
+	:twitter:description: Unsetting Properties Surprises: Unsetting properties is always a surprise.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/unset_properties.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/unset_properties.png.png.
+	:og:image: Unsetting Properties Surprises: Unsetting properties is always a surprise.
 
 Unsetting properties is always a surprise.
 

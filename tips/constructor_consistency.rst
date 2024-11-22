@@ -6,6 +6,14 @@ Signature Compatibility Exception
 .. meta::
 	:description:
 		Signature Compatibility Exception: All methods must be compatible with their parent's signature: the types, reference options, variadic and number must be compatible (although, not equal).
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Signature Compatibility Exception.
+	:twitter:description: Signature Compatibility Exception: All methods must be compatible with their parent's signature: the types, reference options, variadic and number must be compatible (although, not equal).
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/constructor_consistency.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/constructor_consistency.png.png.
+	:og:image: Signature Compatibility Exception: All methods must be compatible with their parent's signature: the types, reference options, variadic and number must be compatible (although, not equal).
 
 All methods must be compatible with their parent's signature: the types, reference options, variadic and number must be compatible (although, not equal).
 

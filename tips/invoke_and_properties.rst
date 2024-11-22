@@ -6,6 +6,14 @@ __invoke() Method And Properties
 .. meta::
 	:description:
 		__invoke() Method And Properties: In the code here, the __invoke() makes the class ``X`` invokable : the object may be used as a function name and it will call the magic method ``__invoke``.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: __invoke() Method And Properties.
+	:twitter:description: __invoke() Method And Properties: In the code here, the __invoke() makes the class ``X`` invokable : the object may be used as a function name and it will call the magic method ``__invoke``.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/invoke_and_properties.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/invoke_and_properties.png.png.
+	:og:image: __invoke() Method And Properties: In the code here, the __invoke() makes the class ``X`` invokable : the object may be used as a function name and it will call the magic method ``__invoke``.
 
 In the code here, the __invoke() makes the class ``X`` invokable : the object may be used as a function name and it will call the magic method ``__invoke``.
 

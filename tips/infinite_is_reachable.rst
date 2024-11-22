@@ -6,6 +6,14 @@ PHP Infinity Is Reachable
 .. meta::
 	:description:
 		PHP Infinity Is Reachable: Infinite values are sometimes provided by PHP functions, such as log(0) or exp(PHP_INT_MAX).
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: PHP Infinity Is Reachable.
+	:twitter:description: PHP Infinity Is Reachable: Infinite values are sometimes provided by PHP functions, such as log(0) or exp(PHP_INT_MAX).
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/infinite_is_reachable.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/infinite_is_reachable.png.png.
+	:og:image: PHP Infinity Is Reachable: Infinite values are sometimes provided by PHP functions, such as log(0) or exp(PHP_INT_MAX).
 
 By `Frederic Bouchery <https://twitter.com/FredBouchery>`_
 

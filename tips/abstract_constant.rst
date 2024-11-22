@@ -6,6 +6,14 @@ Abstract Constants
 .. meta::
 	:description:
 		Abstract Constants: There's a pretty common pattern to declare "abstract class constants" in PHP.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Abstract Constants.
+	:twitter:description: Abstract Constants: There's a pretty common pattern to declare "abstract class constants" in PHP.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/abstract_constant.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/abstract_constant.png.png.
+	:og:image: Abstract Constants: There's a pretty common pattern to declare "abstract class constants" in PHP.
 
 By `WebSmithery <https://stackoverflow.com/users/2519523/websmithery>`_
 

@@ -6,6 +6,14 @@ Override With Interface
 .. meta::
 	:description:
 		Override With Interface: The override attribute checks that a method is actually overriding a parent definition of the same method: this implides that a class must have a parent to use the Override attribute.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Override With Interface.
+	:twitter:description: Override With Interface: The override attribute checks that a method is actually overriding a parent definition of the same method: this implides that a class must have a parent to use the Override attribute.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/override_with_interface.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/override_with_interface.png.png.
+	:og:image: Override With Interface: The override attribute checks that a method is actually overriding a parent definition of the same method: this implides that a class must have a parent to use the Override attribute.
 
 The override attribute checks that a method is actually overriding a parent definition of the same method: this implides that a class must have a parent to use the Override attribute.
 

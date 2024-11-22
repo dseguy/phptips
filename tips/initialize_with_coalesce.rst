@@ -6,6 +6,14 @@ Only Initialize With Short Assignation Coalesce
 .. meta::
 	:description:
 		Only Initialize With Short Assignation Coalesce: It is not possible to access a property before its initialisation.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Only Initialize With Short Assignation Coalesce.
+	:twitter:description: Only Initialize With Short Assignation Coalesce: It is not possible to access a property before its initialisation.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/initialize_with_coalesce.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/initialize_with_coalesce.png.png.
+	:og:image: Only Initialize With Short Assignation Coalesce: It is not possible to access a property before its initialisation.
 
 It is not possible to access a property before its initialisation. This is true to both static and normal properties.
 

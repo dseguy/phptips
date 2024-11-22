@@ -6,6 +6,14 @@ Modify String With Array Syntax
 .. meta::
 	:description:
 		Modify String With Array Syntax: PHP strings allows access to individiual characters using the array syntax: ``$string[$index]``.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Modify String With Array Syntax.
+	:twitter:description: Modify String With Array Syntax: PHP strings allows access to individiual characters using the array syntax: ``$string[$index]``.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_syntax_on_string.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_syntax_on_string.png.png.
+	:og:image: Modify String With Array Syntax: PHP strings allows access to individiual characters using the array syntax: ``$string[$index]``.
 
 PHP strings allows access to individiual characters using the array syntax: ``$string[$index]``.
 

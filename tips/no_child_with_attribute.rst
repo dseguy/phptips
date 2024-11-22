@@ -6,6 +6,14 @@ Child Of Attribute Is Not An Attribute
 .. meta::
 	:description:
 		Child Of Attribute Is Not An Attribute: A class attribute must be marked with an attribute called ``Attribute``.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Child Of Attribute Is Not An Attribute.
+	:twitter:description: Child Of Attribute Is Not An Attribute: A class attribute must be marked with an attribute called ``Attribute``.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_child_with_attribute.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_child_with_attribute.png.png.
+	:og:image: Child Of Attribute Is Not An Attribute: A class attribute must be marked with an attribute called ``Attribute``.
 
 A class attribute must be marked with an attribute called ``Attribute``. It is compulsory to use Reflection and obtain an instance of the attribute.
 

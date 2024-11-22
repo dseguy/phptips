@@ -6,6 +6,14 @@ new On Object
 .. meta::
 	:description:
 		new On Object: It is possible to use new on an object, to get a new object of the same class.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: new On Object.
+	:twitter:description: new On Object: It is possible to use new on an object, to get a new object of the same class.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/new_on_object.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/new_on_object.png.png.
+	:og:image: new On Object: It is possible to use new on an object, to get a new object of the same class.
 
 By `Benoit Viguier <https://phpc.social/@b_viguier>`_
 

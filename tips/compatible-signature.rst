@@ -6,6 +6,14 @@ Compatible Signature
 .. meta::
 	:description:
 		Compatible Signature: This piece of code shows a signature that changes with the version of PHP.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Compatible Signature.
+	:twitter:description: Compatible Signature: This piece of code shows a signature that changes with the version of PHP.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/compatible-signature.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/compatible-signature.png.png.
+	:og:image: Compatible Signature: This piece of code shows a signature that changes with the version of PHP.
 
 By `Christian Lück <https://x.com/another_clue>`_
 

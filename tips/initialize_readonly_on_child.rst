@@ -6,10 +6,18 @@ Initialize Readonly On Child
 .. meta::
 	:description:
 		Initialize Readonly On Child: Readonly properties could only be initialized in the same class as their definition.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Initialize Readonly On Child.
+	:twitter:description: Initialize Readonly On Child: Readonly properties could only be initialized in the same class as their definition.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/initialize_readonly_on_child.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/initialize_readonly_on_child.png.png.
+	:og:image: Initialize Readonly On Child: Readonly properties could only be initialized in the same class as their definition.
 
-Readonly properties could only be initialized in the same class as their definition. That hold true, whatever the visibility of the property: ``private``, ``protected``, ``private``.
+Readonly properties could only be initialized in the same class as their definition. That holds true, whatever the visibility of the property: ``private``, ``protected``, ``private``.
 
-In PHP 8.4, it is now possible to initialize these properties from a child class.
+In PHP 8.4, it is now possible to initialize the readonly properties from a child class, if the visibility allows. And the property is assigned only once.
 
 .. image:: ../images/initialize_readonly_on_child.png
 

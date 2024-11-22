@@ -6,6 +6,14 @@ All Static Curly Syntaxes And One Wrong
 .. meta::
 	:description:
 		All Static Curly Syntaxes And One Wrong: What is the only invalid syntax in the following list.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: All Static Curly Syntaxes And One Wrong.
+	:twitter:description: All Static Curly Syntaxes And One Wrong: What is the only invalid syntax in the following list.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/all_static_curly_syntaxes.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/all_static_curly_syntaxes.png.png.
+	:og:image: All Static Curly Syntaxes And One Wrong: What is the only invalid syntax in the following list.
 
 What is the only invalid syntax in the following list?
 

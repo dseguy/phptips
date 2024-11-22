@@ -6,6 +6,14 @@ array_map() Goes Full Throttle
 .. meta::
 	:description:
 		array_map() Goes Full Throttle: array_map() applies a closure (first arg) to every elements of an array (second arg).
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: array_map() Goes Full Throttle.
+	:twitter:description: array_map() Goes Full Throttle: array_map() applies a closure (first arg) to every elements of an array (second arg).
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_map_to_the_max.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_map_to_the_max.png.png.
+	:og:image: array_map() Goes Full Throttle: array_map() applies a closure (first arg) to every elements of an array (second arg).
 
 array_map() applies a closure (first arg) to every elements of an array (second arg).
 

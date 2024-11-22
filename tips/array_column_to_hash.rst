@@ -6,6 +6,14 @@ array_column() To Hash
 .. meta::
 	:description:
 		array_column() To Hash: array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: array_column() To Hash.
+	:twitter:description: array_column() To Hash: array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_column_to_hash.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_column_to_hash.png.png.
+	:og:image: array_column() To Hash: array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects.
 
 array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects.
 

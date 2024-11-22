@@ -6,6 +6,14 @@ Coalesce And Null
 .. meta::
 	:description:
 		Coalesce And Null: I'm still struggling to pick a PHP side.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Coalesce And Null.
+	:twitter:description: Coalesce And Null: I'm still struggling to pick a PHP side.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/coalesce_is_null.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/coalesce_is_null.png.png.
+	:og:image: Coalesce And Null: I'm still struggling to pick a PHP side.
 
 I'm still struggling to pick a PHP side.
 

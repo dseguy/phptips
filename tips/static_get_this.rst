@@ -6,6 +6,14 @@ Get $this In A Static
 .. meta::
 	:description:
 		Get $this In A Static: A static method does not have access to the current object, by definition.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Get $this In A Static.
+	:twitter:description: Get $this In A Static: A static method does not have access to the current object, by definition.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/static_get_this.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/static_get_this.png.png.
+	:og:image: Get $this In A Static: A static method does not have access to the current object, by definition.
 
 A static method does not have access to the current object, by definition. 
 

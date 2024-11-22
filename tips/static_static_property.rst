@@ -6,6 +6,14 @@ Cannot Static Static Property
 .. meta::
 	:description:
 		Cannot Static Static Property: Static can be used as a keyword to mark a property as 'static' (sic).
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Cannot Static Static Property.
+	:twitter:description: Cannot Static Static Property: Static can be used as a keyword to mark a property as 'static' (sic).
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/static_static_property.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/static_static_property.png.png.
+	:og:image: Cannot Static Static Property: Static can be used as a keyword to mark a property as 'static' (sic).
 
 Static can be used as a keyword to mark a property as 'static' (sic). It could also be used as a type for that same property, leading to those confusing lines below.
 

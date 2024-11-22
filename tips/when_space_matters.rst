@@ -6,6 +6,14 @@ When Space Matters
 .. meta::
 	:description:
 		When Space Matters: The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: When Space Matters.
+	:twitter:description: When Space Matters: The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/when_space_matters.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/when_space_matters.png.png.
+	:og:image: When Space Matters: The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation.
 
 The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation.
 

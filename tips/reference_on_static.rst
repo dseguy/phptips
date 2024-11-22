@@ -6,6 +6,14 @@ Change A Static Variable Outside Its Function
 .. meta::
 	:description:
 		Change A Static Variable Outside Its Function: Static variables are persistent between calls to the same method.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Change A Static Variable Outside Its Function.
+	:twitter:description: Change A Static Variable Outside Its Function: Static variables are persistent between calls to the same method.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/reference_on_static.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/reference_on_static.png.png.
+	:og:image: Change A Static Variable Outside Its Function: Static variables are persistent between calls to the same method.
 
 Static variables are persistent between calls to the same method. They are local, unless they are returned with a reference. Then, they can be accessed in the main code, and read or even written.
 

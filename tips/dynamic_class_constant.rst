@@ -6,6 +6,14 @@ Dynamic Class Constant
 .. meta::
 	:description:
 		Dynamic Class Constant: It is not allowed to create dynamically a class constant.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Dynamic Class Constant.
+	:twitter:description: Dynamic Class Constant: It is not allowed to create dynamically a class constant.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/dynamic_class_constant.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/dynamic_class_constant.png.png.
+	:og:image: Dynamic Class Constant: It is not allowed to create dynamically a class constant.
 
 It is not allowed to create dynamically a class constant. The only way is to create a global constant, using the define() function.
 

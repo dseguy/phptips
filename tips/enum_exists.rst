@@ -6,6 +6,14 @@ class_exists() With Enums
 .. meta::
 	:description:
 		class_exists() With Enums: In PHP, we have:.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: class_exists() With Enums.
+	:twitter:description: class_exists() With Enums: In PHP, we have:.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/enum_exists.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/enum_exists.png.png.
+	:og:image: class_exists() With Enums: In PHP, we have:.
 
 By `Jan Nedbal <https://janedbal.cz/>`_
 

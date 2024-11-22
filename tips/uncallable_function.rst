@@ -6,6 +6,14 @@ Uncallable Function
 .. meta::
 	:description:
 		Uncallable Function: The function foo() cannot be called.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Uncallable Function.
+	:twitter:description: Uncallable Function: The function foo() cannot be called.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/uncallable_function.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/uncallable_function.png.png.
+	:og:image: Uncallable Function: The function foo() cannot be called.
 
 The function foo() cannot be called. When the code does so, nothing happens.
 

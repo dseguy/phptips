@@ -6,6 +6,14 @@ No Warning For Unused Variables
 .. meta::
 	:description:
 		No Warning For Unused Variables: PHP optimisation in action : undefined variables are only reported when they are used.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: No Warning For Unused Variables.
+	:twitter:description: No Warning For Unused Variables: PHP optimisation in action : undefined variables are only reported when they are used.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/variable_optimisation.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/variable_optimisation.png.png.
+	:og:image: No Warning For Unused Variables: PHP optimisation in action : undefined variables are only reported when they are used.
 
 PHP optimisation in action : undefined variables are only reported when they are used.
 

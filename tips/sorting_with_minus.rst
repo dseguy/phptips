@@ -6,6 +6,14 @@ Sorting With Minus
 .. meta::
 	:description:
 		Sorting With Minus: Did you know that sorting f, 0 and -f actually ends up with -f first, then 0, then f.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Sorting With Minus.
+	:twitter:description: Sorting With Minus: Did you know that sorting f, 0 and -f actually ends up with -f first, then 0, then f.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/sorting_with_minus.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/sorting_with_minus.png.png.
+	:og:image: Sorting With Minus: Did you know that sorting f, 0 and -f actually ends up with -f first, then 0, then f.
 
 Did you know that sorting f, 0 and -f actually ends up with -f first, then 0, then f. And this works with any string, including strings with duplicate initial minus sign.
 

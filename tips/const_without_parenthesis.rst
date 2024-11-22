@@ -6,6 +6,14 @@ Const Without Parenthesis
 .. meta::
 	:description:
 		Const Without Parenthesis: It is possible to put a single literal inside parenthesis: that's just the literal itself.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Const Without Parenthesis.
+	:twitter:description: Const Without Parenthesis: It is possible to put a single literal inside parenthesis: that's just the literal itself.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/const_without_parenthesis.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/const_without_parenthesis.png.png.
+	:og:image: Const Without Parenthesis: It is possible to put a single literal inside parenthesis: that's just the literal itself.
 
 It is possible to put a single literal inside parenthesis: that's just the literal itself.
 

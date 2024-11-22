@@ -6,6 +6,14 @@ Relaxed Syntax With Const
 .. meta::
 	:description:
 		Relaxed Syntax With Const: Relaxed syntax is the possibility to use PHP keywords as method or class constant names.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Relaxed Syntax With Const.
+	:twitter:description: Relaxed Syntax With Const: Relaxed syntax is the possibility to use PHP keywords as method or class constant names.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/relaxed_syntax_with_const.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/relaxed_syntax_with_const.png.png.
+	:og:image: Relaxed Syntax With Const: Relaxed syntax is the possibility to use PHP keywords as method or class constant names.
 
 Relaxed syntax is the possibility to use PHP keywords as method or class constant names. This leads to funny expressions, that look like something else.
 

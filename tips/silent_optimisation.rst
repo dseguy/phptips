@@ -6,6 +6,14 @@ Silent Optimisation Of Variables
 .. meta::
 	:description:
 		Silent Optimisation Of Variables: See PHP optimisation in action : undefined variables are only reported when they are used.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Silent Optimisation Of Variables.
+	:twitter:description: Silent Optimisation Of Variables: See PHP optimisation in action : undefined variables are only reported when they are used.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/silent_optimisation.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/silent_optimisation.png.png.
+	:og:image: Silent Optimisation Of Variables: See PHP optimisation in action : undefined variables are only reported when they are used.
 
 See PHP optimisation in action : undefined variables are only reported when they are used.
 

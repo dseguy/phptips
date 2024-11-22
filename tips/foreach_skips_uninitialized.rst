@@ -6,6 +6,14 @@ Foreach() Skips Uninitialized Properties
 .. meta::
 	:description:
 		Foreach() Skips Uninitialized Properties: Foreach() reads naturally all public properties in an object.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Foreach() Skips Uninitialized Properties.
+	:twitter:description: Foreach() Skips Uninitialized Properties: Foreach() reads naturally all public properties in an object.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/foreach_skips_uninitialized.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/foreach_skips_uninitialized.png.png.
+	:og:image: Foreach() Skips Uninitialized Properties: Foreach() reads naturally all public properties in an object.
 
 Foreach() reads naturally all public properties in an object. Protected and private are omitted, unless in the right context.
 

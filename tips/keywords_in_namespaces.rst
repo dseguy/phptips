@@ -6,6 +6,14 @@ Keywords In Namespaces
 .. meta::
 	:description:
 		Keywords In Namespaces: Since PHP 8.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Keywords In Namespaces.
+	:twitter:description: Keywords In Namespaces: Since PHP 8.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/keywords_in_namespaces.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/keywords_in_namespaces.png.png.
+	:og:image: Keywords In Namespaces: Since PHP 8.
 
 Since PHP 8.0, it is possible to use PHP keywords in namespaces.
 

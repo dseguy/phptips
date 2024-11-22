@@ -6,6 +6,14 @@ Deanonymize Class
 .. meta::
 	:description:
 		Deanonymize Class: Anonymize class are classes without a name.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Deanonymize Class.
+	:twitter:description: Deanonymize Class: Anonymize class are classes without a name.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/deanonymize-class.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/deanonymize-class.png.png.
+	:og:image: Deanonymize Class: Anonymize class are classes without a name.
 
 Anonymize class are classes without a name. That way, it provides directly an object, but doesn't litter the namespace with an extra class name. 
 

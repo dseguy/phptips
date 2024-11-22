@@ -6,6 +6,14 @@ $this Is Not Of The Current Class
 .. meta::
 	:description:
 		$this Is Not Of The Current Class: $this is a pseudo-variable, that represents the current object of the calling object (dixit the manual): it is often portrayed as representing an object of the current class.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: $this Is Not Of The Current Class.
+	:twitter:description: $this Is Not Of The Current Class: $this is a pseudo-variable, that represents the current object of the calling object (dixit the manual): it is often portrayed as representing an object of the current class.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/this_is_not_the_current_class.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/this_is_not_the_current_class.png.png.
+	:og:image: $this Is Not Of The Current Class: $this is a pseudo-variable, that represents the current object of the calling object (dixit the manual): it is often portrayed as representing an object of the current class.
 
 $this is a pseudo-variable, that represents the current object of the calling object (dixit the manual): it is often portrayed as representing an object of the current class. This is commonly the case.
 

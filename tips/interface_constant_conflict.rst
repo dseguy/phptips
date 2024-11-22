@@ -6,6 +6,14 @@ Interfaces Constants Conflicts
 .. meta::
 	:description:
 		Interfaces Constants Conflicts: PHP reports duplicate constant definitions in different interfaces.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Interfaces Constants Conflicts.
+	:twitter:description: Interfaces Constants Conflicts: PHP reports duplicate constant definitions in different interfaces.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/interface_constant_conflict.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/interface_constant_conflict.png.png.
+	:og:image: Interfaces Constants Conflicts: PHP reports duplicate constant definitions in different interfaces.
 
 PHP reports duplicate constant definitions in different interfaces.
 

@@ -6,6 +6,14 @@ Array And Object Syntax, Not The Same Error
 .. meta::
 	:description:
 		Array And Object Syntax, Not The Same Error: When accessing an array as an object, PHP raises a Warning and continues with NULL.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Array And Object Syntax, Not The Same Error.
+	:twitter:description: Array And Object Syntax, Not The Same Error: When accessing an array as an object, PHP raises a Warning and continues with NULL.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/not_same_error.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/not_same_error.png.png.
+	:og:image: Array And Object Syntax, Not The Same Error: When accessing an array as an object, PHP raises a Warning and continues with NULL.
 
 When accessing an array as an object, PHP raises a Warning and continues with NULL.
 

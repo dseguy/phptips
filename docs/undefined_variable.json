@@ -1,0 +1,13 @@
+{
+    "image": "undefined_variable.png",
+    "date": "2024-11-22",
+    "title": "Undefined Variable",
+    "content": "The variable is undefined, and yet this is reported on the actual line where the variable is defined!\nIn fact, the assignation to ``$x`` appears to be the definition of the variable, because we, as human, encounter it first while reading.\nUpon close inspection, the variable is actually used in the call to the function ``foo``: PHP evaluates the arguments before calling the function, and finally, make the assignation. So the ``$x``, used as second parameter in the ``foo`` call, is actually the first usage of the variable ``$x``. Hence, the error message.",
+    "seeAlso": {
+    },
+    "tags": [
+        "surprise"
+    ],
+    "author": "",
+    "contact": ""
+}

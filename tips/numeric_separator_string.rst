@@ -6,6 +6,14 @@ Numeric Separators Inside A String?
 .. meta::
 	:description:
 		Numeric Separators Inside A String?: Since PHP 7.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Numeric Separators Inside A String?.
+	:twitter:description: Numeric Separators Inside A String?: Since PHP 7.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/numeric_separator_string.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/numeric_separator_string.png.png.
+	:og:image: Numeric Separators Inside A String?: Since PHP 7.
 
 Since PHP 7.4, there are numeric separators, to make integers more readable. 
 

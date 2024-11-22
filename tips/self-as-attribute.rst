@@ -6,6 +6,14 @@ Self As Attribute
 .. meta::
 	:description:
 		Self As Attribute: Self, parent and static cannot be used as attributes.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Self As Attribute.
+	:twitter:description: Self As Attribute: Self, parent and static cannot be used as attributes.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/self-as-attribute.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/self-as-attribute.png.png.
+	:og:image: Self As Attribute: Self, parent and static cannot be used as attributes.
 
 By `Jan Nedbal <https://janedbal.cz/>`_
 

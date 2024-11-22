@@ -6,6 +6,14 @@ Variadic Are Typed And Defaulted
 .. meta::
 	:description:
 		Variadic Are Typed And Defaulted: When using the ``.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Variadic Are Typed And Defaulted.
+	:twitter:description: Variadic Are Typed And Defaulted: When using the ``.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/variadic_are_typed_and_defaulted.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/variadic_are_typed_and_defaulted.png.png.
+	:og:image: Variadic Are Typed And Defaulted: When using the ``.
 
 When using the ``...`` operator, the argument is automatically typed and defaulted: it is typed with array, and its default value is the empty array ``[]``.
 

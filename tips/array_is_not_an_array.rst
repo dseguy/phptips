@@ -6,6 +6,14 @@ array Is Not An Array
 .. meta::
 	:description:
 		array Is Not An Array: PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\``.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: array Is Not An Array.
+	:twitter:description: array Is Not An Array: PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\``.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_is_not_an_array.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_is_not_an_array.png.png.
+	:og:image: array Is Not An Array: PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\``.
 
 PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\``. Such code get hit with a ``Type declaration ‘\int’ must be unqualified``.
 

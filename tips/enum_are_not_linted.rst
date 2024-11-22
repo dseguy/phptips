@@ -6,6 +6,14 @@ Enum Are Not Linted
 .. meta::
 	:description:
 		Enum Are Not Linted: It is possible to give two identical values to different enumeration cases, but not to execute it.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Enum Are Not Linted.
+	:twitter:description: Enum Are Not Linted: It is possible to give two identical values to different enumeration cases, but not to execute it.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/enum_are_not_linted.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/enum_are_not_linted.png.png.
+	:og:image: Enum Are Not Linted: It is possible to give two identical values to different enumeration cases, but not to execute it.
 
 It is possible to give two identical values to different enumeration cases, but not to execute it.
 

@@ -6,6 +6,14 @@ array_intersect_uassoc_insensitive() ?
 .. meta::
 	:description:
 		array_intersect_uassoc_insensitive() ?: array_intersect() functions use a direct comparison between the values in the array to make the comparison.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: array_intersect_uassoc_insensitive() ?.
+	:twitter:description: array_intersect_uassoc_insensitive() ?: array_intersect() functions use a direct comparison between the values in the array to make the comparison.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_intersect_uassoc_insensitive.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_intersect_uassoc_insensitive.png.png.
+	:og:image: array_intersect_uassoc_insensitive() ?: array_intersect() functions use a direct comparison between the values in the array to make the comparison.
 
 array_intersect() functions use a direct comparison between the values in the array to make the comparison. When you need that comparison to be case insensitive, then you can use the ``u`` version of those functions, to make a case insensitive comparison.
 

@@ -6,6 +6,14 @@
 .. meta::
 	:description:
 		\\array Was Customizable: This code gathers several PHP hacks together.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: \\array Was Customizable.
+	:twitter:description: \\array Was Customizable: This code gathers several PHP hacks together.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_is_custom.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_is_custom.png.png.
+	:og:image: \\array Was Customizable: This code gathers several PHP hacks together.
 
 This code gathers several PHP hacks together.
 

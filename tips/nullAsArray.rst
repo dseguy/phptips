@@ -6,6 +6,14 @@ null Or Boolean As Array
 .. meta::
 	:description:
 		null Or Boolean As Array: Null and booleans support the array syntax, but always return NULL as value.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: null Or Boolean As Array.
+	:twitter:description: null Or Boolean As Array: Null and booleans support the array syntax, but always return NULL as value.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/nullAsArray.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/nullAsArray.png.png.
+	:og:image: null Or Boolean As Array: Null and booleans support the array syntax, but always return NULL as value.
 
 Null and booleans support the array syntax, but always return NULL as value. Since PHP 7.4, they also report a warning, as this is not good code.
 

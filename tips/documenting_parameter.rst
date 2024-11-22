@@ -6,6 +6,14 @@ Documenting Parameters
 .. meta::
 	:description:
 		Documenting Parameters: Sometimes, even a literal value used as parameter is not readable.
+	:twitter:card: summary_large_image.
+	:twitter:site: @exakat.
+	:twitter:title: Documenting Parameters.
+	:twitter:description: Documenting Parameters: Sometimes, even a literal value used as parameter is not readable.
+	:twitter:creator: @exakat.
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/documenting_parameter.png.png.
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/documenting_parameter.png.png.
+	:og:image: Documenting Parameters: Sometimes, even a literal value used as parameter is not readable.
 
 Sometimes, even a literal value used as parameter is not readable. An easy way to document the literal values is to provide the name of the paramter. Since the parameters need a smart name to be used in the method, using it in the method call provides more context to the parameter.
 
