@@ -177,6 +177,17 @@ foreach($tips as $tip) {
 	$phptip[] = '	:description:';
 	$first = preg_split('/[\.\?;'.PHP_EOL.']/', $tip->content)[0];
 	$phptip[] = '		'.$tip->title.': '.$first.'.';
+	
+	$phptip[] = '	:twitter:card: summary_large_image.';
+	$phptip[] = '	:twitter:site: @exakat.';
+	$phptip[] = '	:twitter:title: '.$tip->title.'.';
+	$phptip[] = '	:twitter:description: '.$tip->title.': '.$first.'.';
+	$phptip[] = '	:twitter:creator: @exakat.';
+	$phptip[] = '	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/'.$tip->image.'.png.';
+
+	$phptip[] = '	:og:image: https://php-tips.readthedocs.io/en/latest/_images/'.$tip->image.'.png.';
+	$phptip[] = '	:og:image: '.$tip->title.': '.$first.'.';
+
 	$phptip[] = '';
 
 	if (!empty($tip->author)) {
