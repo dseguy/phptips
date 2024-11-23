@@ -186,7 +186,11 @@ foreach($tips as $tip) {
 	$phptip[] = '	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/'.$tip->image.'.png.';
 
 	$phptip[] = '	:og:image: https://php-tips.readthedocs.io/en/latest/_images/'.$tip->image.'.png.';
-	$phptip[] = '	:og:image: '.$tip->title.': '.$first.'.';
+	$phptip[] = '	:og:title: '.$tip->title.'';
+	$phptip[] = '	:og:type: article';
+	$phptip[] = '	:og:description: '.$first.'.';
+	$phptip[] = '	:og:url: https://php-tips.readthedocs.io/en/latest/'.$tip->id.'.html.';
+	$phptip[] = '	:og:locale: en';
 
 	$phptip[] = '';
 
