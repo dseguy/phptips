@@ -178,18 +178,18 @@ foreach($tips as $tip) {
 	$first = preg_split('/[\.\?;'.PHP_EOL.']/', $tip->content)[0];
 	$phptip[] = '		'.$tip->title.': '.$first.'.';
 	
-	$phptip[] = '	:twitter:card: summary_large_image.';
-	$phptip[] = '	:twitter:site: @exakat.';
-	$phptip[] = '	:twitter:title: '.$tip->title.'.';
-	$phptip[] = '	:twitter:description: '.$tip->title.': '.$first.'.';
-	$phptip[] = '	:twitter:creator: @exakat.';
-	$phptip[] = '	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/'.$tip->image.'.png.';
+	$phptip[] = '	:twitter:card: summary_large_image';
+	$phptip[] = '	:twitter:site: @exakat';
+	$phptip[] = '	:twitter:title: '.$tip->title.'';
+	$phptip[] = '	:twitter:description: '.$tip->title.': '.$first.'';
+	$phptip[] = '	:twitter:creator: @exakat';
+	$phptip[] = '	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/'.$tip->image.'.png';
 
-	$phptip[] = '	:og:image: https://php-tips.readthedocs.io/en/latest/_images/'.$tip->image.'.png.';
+	$phptip[] = '	:og:image: https://php-tips.readthedocs.io/en/latest/_images/'.$tip->image.'';
 	$phptip[] = '	:og:title: '.$tip->title.'';
 	$phptip[] = '	:og:type: article';
-	$phptip[] = '	:og:description: '.$first.'.';
-	$phptip[] = '	:og:url: https://php-tips.readthedocs.io/en/latest/'.$tip->id.'.html.';
+	$phptip[] = '	:og:description: '.$first.'';
+	$phptip[] = '	:og:url: https://php-tips.readthedocs.io/en/latest/tips/'.$name.'.html';
 	$phptip[] = '	:og:locale: en';
 
 	$phptip[] = '';

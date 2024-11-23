@@ -64,4 +64,8 @@ html_title = '';
 html_theme_options = {
     'logo': 'logo.png',
     'analytics_id': 'G-29LCZ34CDW',
+    'github_button': True,
+    'github_repo':'phptips',
+    'github_user':'dseguy',
+    'description': 'An evolving PHP tips and tricks library, designed to amaze developers.',
 }
