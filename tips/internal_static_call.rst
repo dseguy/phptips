@@ -6,14 +6,18 @@ Internal Static Call
 .. meta::
 	:description:
 		Internal Static Call: Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: Internal Static Call.
-	:twitter:description: Internal Static Call: Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/internal_static_call.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/internal_static_call.png.png.
-	:og:image: Internal Static Call: Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Internal Static Call
+	:twitter:description: Internal Static Call: Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/internal_static_call.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/internal_static_call.png
+	:og:title: Internal Static Call
+	:og:type: article
+	:og:description: Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/internal_static_call.html
+	:og:locale: en
 
 Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error. 
 

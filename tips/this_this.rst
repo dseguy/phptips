@@ -6,14 +6,18 @@ $this $this
 .. meta::
 	:description:
 		$this $this: $this is the pseudo-variable that represents the current object.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: $this $this.
-	:twitter:description: $this $this: $this is the pseudo-variable that represents the current object.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/this_this.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/this_this.png.png.
-	:og:image: $this $this: $this is the pseudo-variable that represents the current object.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $this $this
+	:twitter:description: $this $this: $this is the pseudo-variable that represents the current object
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/this_this.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/this_this.png
+	:og:title: $this $this
+	:og:type: article
+	:og:description: $this is the pseudo-variable that represents the current object
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/this_this.html
+	:og:locale: en
 
 $this is the pseudo-variable that represents the current object. It is also a variable, like others, and may be used to describe a dynamic property.
 

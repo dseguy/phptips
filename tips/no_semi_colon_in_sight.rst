@@ -6,14 +6,18 @@ No Semicolon In Sight
 .. meta::
 	:description:
 		No Semicolon In Sight: This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: No Semicolon In Sight.
-	:twitter:description: No Semicolon In Sight: This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_semi_colon_in_sight.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_semi_colon_in_sight.png.png.
-	:og:image: No Semicolon In Sight: This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Semicolon In Sight
+	:twitter:description: No Semicolon In Sight: This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_semi_colon_in_sight.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_semi_colon_in_sight.png
+	:og:title: No Semicolon In Sight
+	:og:type: article
+	:og:description: This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/no_semi_colon_in_sight.html
+	:og:locale: en
 
 By `Ryan Chandler <https://twitter.com/ryangjchandler>`_
 

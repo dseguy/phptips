@@ -6,14 +6,18 @@ Quick Serialize
 .. meta::
 	:description:
 		Quick Serialize: Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: Quick Serialize.
-	:twitter:description: Quick Serialize: Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/quick_serialize.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/quick_serialize.png.png.
-	:og:image: Quick Serialize: Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Quick Serialize
+	:twitter:description: Quick Serialize: Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/quick_serialize.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/quick_serialize.png
+	:og:title: Quick Serialize
+	:og:type: article
+	:og:description: Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/quick_serialize.html
+	:og:locale: en
 
 By `Doeke Norg <https://twitter.com/doekenorg>`_
 

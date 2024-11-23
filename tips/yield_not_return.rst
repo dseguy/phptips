@@ -6,14 +6,18 @@ Yield, Not Return
 .. meta::
 	:description:
 		Yield, Not Return: This will display ``1 2 3``.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: Yield, Not Return.
-	:twitter:description: Yield, Not Return: This will display ``1 2 3``.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/yield_not_return.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/yield_not_return.png.png.
-	:og:image: Yield, Not Return: This will display ``1 2 3``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Yield, Not Return
+	:twitter:description: Yield, Not Return: This will display ``1 2 3``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/yield_not_return.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/yield_not_return.png
+	:og:title: Yield, Not Return
+	:og:type: article
+	:og:description: This will display ``1 2 3``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/yield_not_return.html
+	:og:locale: en
 
 This will display ``1 2 3``. This is because the ``...`` operator will act as a ``foreach`` and runs the generator. It will then spread the values as arguments for the function call, and, in this case, it matches the needed arguments.
 

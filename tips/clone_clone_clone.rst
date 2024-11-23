@@ -6,14 +6,18 @@ Clone Clone Clone
 .. meta::
 	:description:
 		Clone Clone Clone: It is possible to chain clone operators : PHP optimize this and skips any intermediate clone.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: Clone Clone Clone.
-	:twitter:description: Clone Clone Clone: It is possible to chain clone operators : PHP optimize this and skips any intermediate clone.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/clone_clone_clone.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/clone_clone_clone.png.png.
-	:og:image: Clone Clone Clone: It is possible to chain clone operators : PHP optimize this and skips any intermediate clone.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Clone Clone Clone
+	:twitter:description: Clone Clone Clone: It is possible to chain clone operators : PHP optimize this and skips any intermediate clone
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/clone_clone_clone.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/clone_clone_clone.png
+	:og:title: Clone Clone Clone
+	:og:type: article
+	:og:description: It is possible to chain clone operators : PHP optimize this and skips any intermediate clone
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/clone_clone_clone.html
+	:og:locale: en
 
 It is possible to chain clone operators : PHP optimize this and skips any intermediate clone. The resulting final object is number 2, so the inner clones were duly ignored. 
 

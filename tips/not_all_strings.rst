@@ -6,14 +6,18 @@ Not All Strings In Arrays
 .. meta::
 	:description:
 		Not All Strings In Arrays: Array keys are coerced into strings or integers, while array values are left intact.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: Not All Strings In Arrays.
-	:twitter:description: Not All Strings In Arrays: Array keys are coerced into strings or integers, while array values are left intact.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/not_all_strings.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/not_all_strings.png.png.
-	:og:image: Not All Strings In Arrays: Array keys are coerced into strings or integers, while array values are left intact.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Not All Strings In Arrays
+	:twitter:description: Not All Strings In Arrays: Array keys are coerced into strings or integers, while array values are left intact
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/not_all_strings.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/not_all_strings.png
+	:og:title: Not All Strings In Arrays
+	:og:type: article
+	:og:description: Array keys are coerced into strings or integers, while array values are left intact
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/not_all_strings.html
+	:og:locale: en
 
 Array keys are coerced into strings or integers, while array values are left intact.
 

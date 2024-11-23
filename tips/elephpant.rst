@@ -6,14 +6,18 @@ An Elephpant In The Code
 .. meta::
 	:description:
 		An Elephpant In The Code: When you need an elephant in your text, you have PHP always ready.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: An Elephpant In The Code.
-	:twitter:description: An Elephpant In The Code: When you need an elephant in your text, you have PHP always ready.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/elephpant.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/elephpant.png.png.
-	:og:image: An Elephpant In The Code: When you need an elephant in your text, you have PHP always ready.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: An Elephpant In The Code
+	:twitter:description: An Elephpant In The Code: When you need an elephant in your text, you have PHP always ready
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/elephpant.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/elephpant.png
+	:og:title: An Elephpant In The Code
+	:og:type: article
+	:og:description: When you need an elephant in your text, you have PHP always ready
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/elephpant.html
+	:og:locale: en
 
 When you need an elephant in your text, you have PHP always ready.
 

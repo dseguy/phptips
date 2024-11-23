@@ -6,14 +6,18 @@ file_put_contents() With Array Argument
 .. meta::
 	:description:
 		file_put_contents() With Array Argument: The second argument of file_put_contents() is typed as ``mixed``.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: file_put_contents() With Array Argument.
-	:twitter:description: file_put_contents() With Array Argument: The second argument of file_put_contents() is typed as ``mixed``.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/file_put_array.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/file_put_array.png.png.
-	:og:image: file_put_contents() With Array Argument: The second argument of file_put_contents() is typed as ``mixed``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: file_put_contents() With Array Argument
+	:twitter:description: file_put_contents() With Array Argument: The second argument of file_put_contents() is typed as ``mixed``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/file_put_array.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/file_put_array.png
+	:og:title: file_put_contents() With Array Argument
+	:og:type: article
+	:og:description: The second argument of file_put_contents() is typed as ``mixed``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/file_put_array.html
+	:og:locale: en
 
 By `Gina Peter Banyard <https://github.com/Girgias>`_
 

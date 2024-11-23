@@ -6,14 +6,18 @@ Cannot Yield And Never
 .. meta::
 	:description:
 		Cannot Yield And Never: Never, as a return type, mentions that the method will never return.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: Cannot Yield And Never.
-	:twitter:description: Cannot Yield And Never: Never, as a return type, mentions that the method will never return.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/yield_cannot_never.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/yield_cannot_never.png.png.
-	:og:image: Cannot Yield And Never: Never, as a return type, mentions that the method will never return.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot Yield And Never
+	:twitter:description: Cannot Yield And Never: Never, as a return type, mentions that the method will never return
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/yield_cannot_never.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/yield_cannot_never.png
+	:og:title: Cannot Yield And Never
+	:og:type: article
+	:og:description: Never, as a return type, mentions that the method will never return
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/yield_cannot_never.html
+	:og:locale: en
 
 Never, as a return type, mentions that the method will never return. This means that it either calls exit(), throws an exception, or is an infinite loop.
 

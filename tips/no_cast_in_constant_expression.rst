@@ -6,14 +6,18 @@ No Cast In Constant Expressions
 .. meta::
 	:description:
 		No Cast In Constant Expressions: Constant expressions do not accept the cast operator.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: No Cast In Constant Expressions.
-	:twitter:description: No Cast In Constant Expressions: Constant expressions do not accept the cast operator.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_cast_in_constant_expression.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_cast_in_constant_expression.png.png.
-	:og:image: No Cast In Constant Expressions: Constant expressions do not accept the cast operator.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Cast In Constant Expressions
+	:twitter:description: No Cast In Constant Expressions: Constant expressions do not accept the cast operator
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_cast_in_constant_expression.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_cast_in_constant_expression.png
+	:og:title: No Cast In Constant Expressions
+	:og:type: article
+	:og:description: Constant expressions do not accept the cast operator
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/no_cast_in_constant_expression.html
+	:og:locale: en
 
 Constant expressions do not accept the cast operator.
 

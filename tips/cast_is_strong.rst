@@ -6,14 +6,18 @@ Cast Is So Strong
 .. meta::
 	:description:
 		Cast Is So Strong: The code below yields a Fatal Error, at linting time.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: Cast Is So Strong.
-	:twitter:description: Cast Is So Strong: The code below yields a Fatal Error, at linting time.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/cast_is_strong.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/cast_is_strong.png.png.
-	:og:image: Cast Is So Strong: The code below yields a Fatal Error, at linting time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cast Is So Strong
+	:twitter:description: Cast Is So Strong: The code below yields a Fatal Error, at linting time
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/cast_is_strong.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/cast_is_strong.png
+	:og:title: Cast Is So Strong
+	:og:type: article
+	:og:description: The code below yields a Fatal Error, at linting time
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/cast_is_strong.html
+	:og:locale: en
 
 The code below yields a Fatal Error, at linting time. PHP identifies too early the cast operator ``(int)``, and fail to recognize the function call to ``var_dump()``. 
 

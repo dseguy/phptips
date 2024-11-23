@@ -6,14 +6,18 @@ Void Parameter In array_keys()
 .. meta::
 	:description:
 		Void Parameter In array_keys(): There is a 'void' parameter in PHP.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: Void Parameter In array_keys().
-	:twitter:description: Void Parameter In array_keys(): There is a 'void' parameter in PHP.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/void_parameter.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/void_parameter.png.png.
-	:og:image: Void Parameter In array_keys(): There is a 'void' parameter in PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Void Parameter In array_keys()
+	:twitter:description: Void Parameter In array_keys(): There is a 'void' parameter in PHP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/void_parameter.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/void_parameter.png
+	:og:title: Void Parameter In array_keys()
+	:og:type: article
+	:og:description: There is a 'void' parameter in PHP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/void_parameter.html
+	:og:locale: en
 
 There is a 'void' parameter in PHP. It is the second argument of array_keys().
 

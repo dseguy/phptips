@@ -6,14 +6,18 @@ typed_array
 .. meta::
 	:description:
 		typed_array: You can set the array content type using variadic functions feature (syntax below).
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: typed_array.
-	:twitter:description: typed_array: You can set the array content type using variadic functions feature (syntax below).
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/typed_array.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/typed_array.png.png.
-	:og:image: typed_array: You can set the array content type using variadic functions feature (syntax below).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: typed_array
+	:twitter:description: typed_array: You can set the array content type using variadic functions feature (syntax below)
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/typed_array.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/typed_array.png
+	:og:title: typed_array
+	:og:type: article
+	:og:description: You can set the array content type using variadic functions feature (syntax below)
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/typed_array.html
+	:og:locale: en
 
 By `• Kartoffeljunge • <https://bsky.app/profile/devatreides.bsky.social>`_
 

@@ -6,14 +6,18 @@ PHP Integer Format
 .. meta::
 	:description:
 		PHP Integer Format: PHP has several convenient integer format to write them in a proper way: 0x12F, 0b110101, 0o12367.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: PHP Integer Format.
-	:twitter:description: PHP Integer Format: PHP has several convenient integer format to write them in a proper way: 0x12F, 0b110101, 0o12367.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/php_integer_format.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/php_integer_format.png.png.
-	:og:image: PHP Integer Format: PHP has several convenient integer format to write them in a proper way: 0x12F, 0b110101, 0o12367.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Integer Format
+	:twitter:description: PHP Integer Format: PHP has several convenient integer format to write them in a proper way: 0x12F, 0b110101, 0o12367
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/php_integer_format.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/php_integer_format.png
+	:og:title: PHP Integer Format
+	:og:type: article
+	:og:description: PHP has several convenient integer format to write them in a proper way: 0x12F, 0b110101, 0o12367
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/php_integer_format.html
+	:og:locale: en
 
 PHP has several convenient integer format to write them in a proper way: 0x12F, 0b110101, 0o12367. This works well as part of the code
 

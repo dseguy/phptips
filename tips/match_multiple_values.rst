@@ -6,14 +6,18 @@ Match() With Multiple Values
 .. meta::
 	:description:
 		Match() With Multiple Values: This is an example of using ``match()``, to match against two values at the same time.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: Match() With Multiple Values.
-	:twitter:description: Match() With Multiple Values: This is an example of using ``match()``, to match against two values at the same time.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/match_multiple_values.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/match_multiple_values.png.png.
-	:og:image: Match() With Multiple Values: This is an example of using ``match()``, to match against two values at the same time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Match() With Multiple Values
+	:twitter:description: Match() With Multiple Values: This is an example of using ``match()``, to match against two values at the same time
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/match_multiple_values.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/match_multiple_values.png
+	:og:title: Match() With Multiple Values
+	:og:type: article
+	:og:description: This is an example of using ``match()``, to match against two values at the same time
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/match_multiple_values.html
+	:og:locale: en
 
 By `Pascal Baljet <https://x.com/pascalbaljet>`_
 

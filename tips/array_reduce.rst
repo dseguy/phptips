@@ -6,14 +6,18 @@ array_reduce() To Filter And Alter
 .. meta::
 	:description:
 		array_reduce() To Filter And Alter: Using array_reduce() to create custom data structures goes beyond simple filtering.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: array_reduce() To Filter And Alter.
-	:twitter:description: array_reduce() To Filter And Alter: Using array_reduce() to create custom data structures goes beyond simple filtering.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_reduce.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_reduce.png.png.
-	:og:image: array_reduce() To Filter And Alter: Using array_reduce() to create custom data structures goes beyond simple filtering.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: array_reduce() To Filter And Alter
+	:twitter:description: array_reduce() To Filter And Alter: Using array_reduce() to create custom data structures goes beyond simple filtering
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_reduce.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_reduce.png
+	:og:title: array_reduce() To Filter And Alter
+	:og:type: article
+	:og:description: Using array_reduce() to create custom data structures goes beyond simple filtering
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/array_reduce.html
+	:og:locale: en
 
 By `Rahul Chavan <https://twitter.com/rcsofttech85>`_
 

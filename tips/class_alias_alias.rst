@@ -6,14 +6,18 @@ All Classes Aliases
 .. meta::
 	:description:
 		All Classes Aliases: To make a class alias, use class_alias().
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: All Classes Aliases.
-	:twitter:description: All Classes Aliases: To make a class alias, use class_alias().
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/class_alias_alias.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/class_alias_alias.png.png.
-	:og:image: All Classes Aliases: To make a class alias, use class_alias().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: All Classes Aliases
+	:twitter:description: All Classes Aliases: To make a class alias, use class_alias()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/class_alias_alias.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/class_alias_alias.png
+	:og:title: All Classes Aliases
+	:og:type: article
+	:og:description: To make a class alias, use class_alias()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/class_alias_alias.html
+	:og:locale: en
 
 To make a class alias, use class_alias();
 

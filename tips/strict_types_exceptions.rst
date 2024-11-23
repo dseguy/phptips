@@ -6,14 +6,18 @@ strict_types Exceptions
 .. meta::
 	:description:
 		strict_types Exceptions: strict_types do not apply to PHP operators, only on to typed structures.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: strict_types Exceptions.
-	:twitter:description: strict_types Exceptions: strict_types do not apply to PHP operators, only on to typed structures.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/strict_types_exceptions.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/strict_types_exceptions.png.png.
-	:og:image: strict_types Exceptions: strict_types do not apply to PHP operators, only on to typed structures.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: strict_types Exceptions
+	:twitter:description: strict_types Exceptions: strict_types do not apply to PHP operators, only on to typed structures
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/strict_types_exceptions.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/strict_types_exceptions.png
+	:og:title: strict_types Exceptions
+	:og:type: article
+	:og:description: strict_types do not apply to PHP operators, only on to typed structures
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/strict_types_exceptions.html
+	:og:locale: en
 
 strict_types do not apply to PHP operators, only on to typed structures.
 

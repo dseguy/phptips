@@ -6,14 +6,18 @@ is_a() Versus Instanceof
 .. meta::
 	:description:
 		is_a() Versus Instanceof: is_a() and instanceof are the same feature: check if an object is of a specific class.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: is_a() Versus Instanceof.
-	:twitter:description: is_a() Versus Instanceof: is_a() and instanceof are the same feature: check if an object is of a specific class.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/is_a_and_instanceof.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/is_a_and_instanceof.png.png.
-	:og:image: is_a() Versus Instanceof: is_a() and instanceof are the same feature: check if an object is of a specific class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: is_a() Versus Instanceof
+	:twitter:description: is_a() Versus Instanceof: is_a() and instanceof are the same feature: check if an object is of a specific class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/is_a_and_instanceof.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/is_a_and_instanceof.png
+	:og:title: is_a() Versus Instanceof
+	:og:type: article
+	:og:description: is_a() and instanceof are the same feature: check if an object is of a specific class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/is_a_and_instanceof.html
+	:og:locale: en
 
 is_a() and instanceof are the same feature: check if an object is of a specific class. Yet, they do things in different ways.
 

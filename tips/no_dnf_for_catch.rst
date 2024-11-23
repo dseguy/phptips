@@ -6,14 +6,18 @@ No DNF For Catch
 .. meta::
 	:description:
 		No DNF For Catch: Catch clauses accept multiple types of exceptions, since PHP 7.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: No DNF For Catch.
-	:twitter:description: No DNF For Catch: Catch clauses accept multiple types of exceptions, since PHP 7.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_dnf_for_catch.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_dnf_for_catch.png.png.
-	:og:image: No DNF For Catch: Catch clauses accept multiple types of exceptions, since PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No DNF For Catch
+	:twitter:description: No DNF For Catch: Catch clauses accept multiple types of exceptions, since PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_dnf_for_catch.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_dnf_for_catch.png
+	:og:title: No DNF For Catch
+	:og:type: article
+	:og:description: Catch clauses accept multiple types of exceptions, since PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/no_dnf_for_catch.html
+	:og:locale: en
 
 Catch clauses accept multiple types of exceptions, since PHP 7.1: they are listed with the '|' separator.
 

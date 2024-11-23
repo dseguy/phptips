@@ -6,14 +6,18 @@ Yield, Not Return By Reference
 .. meta::
 	:description:
 		Yield, Not Return By Reference: When a method returns a reference, there is a ``&`` before its name, in the signature.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: Yield, Not Return By Reference.
-	:twitter:description: Yield, Not Return By Reference: When a method returns a reference, there is a ``&`` before its name, in the signature.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/yield_not_return_by_reference.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/yield_not_return_by_reference.png.png.
-	:og:image: Yield, Not Return By Reference: When a method returns a reference, there is a ``&`` before its name, in the signature.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Yield, Not Return By Reference
+	:twitter:description: Yield, Not Return By Reference: When a method returns a reference, there is a ``&`` before its name, in the signature
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/yield_not_return_by_reference.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/yield_not_return_by_reference.png
+	:og:title: Yield, Not Return By Reference
+	:og:type: article
+	:og:description: When a method returns a reference, there is a ``&`` before its name, in the signature
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/yield_not_return_by_reference.html
+	:og:locale: en
 
 When a method returns a reference, there is a ``&`` before its name, in the signature. This means that the function must return a variable, or a property, and not a literal value.
 

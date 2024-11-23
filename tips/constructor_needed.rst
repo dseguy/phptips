@@ -6,14 +6,18 @@ Constructor Needed
 .. meta::
 	:description:
 		Constructor Needed: By default, classes don't need a constructor, and it may be omitted.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: Constructor Needed.
-	:twitter:description: Constructor Needed: By default, classes don't need a constructor, and it may be omitted.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/constructor_needed.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/constructor_needed.png.png.
-	:og:image: Constructor Needed: By default, classes don't need a constructor, and it may be omitted.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constructor Needed
+	:twitter:description: Constructor Needed: By default, classes don't need a constructor, and it may be omitted
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/constructor_needed.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/constructor_needed.png
+	:og:title: Constructor Needed
+	:og:type: article
+	:og:description: By default, classes don't need a constructor, and it may be omitted
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/constructor_needed.html
+	:og:locale: en
 
 By default, classes don't need a constructor, and it may be omitted. It is also true in the case of child classes: PHP look for a local constructor, then a parent constructor, and it is valid to have none of them.
 

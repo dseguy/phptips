@@ -6,14 +6,18 @@ Compatible Only Interface
 .. meta::
 	:description:
 		Compatible Only Interface: Interfaces are contracts that defines methods signatures, which implmenting class have to implements.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: Compatible Only Interface.
-	:twitter:description: Compatible Only Interface: Interfaces are contracts that defines methods signatures, which implmenting class have to implements.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/compatible_interface.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/compatible_interface.png.png.
-	:og:image: Compatible Only Interface: Interfaces are contracts that defines methods signatures, which implmenting class have to implements.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Compatible Only Interface
+	:twitter:description: Compatible Only Interface: Interfaces are contracts that defines methods signatures, which implmenting class have to implements
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/compatible_interface.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/compatible_interface.png
+	:og:title: Compatible Only Interface
+	:og:type: article
+	:og:description: Interfaces are contracts that defines methods signatures, which implmenting class have to implements
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/compatible_interface.html
+	:og:locale: en
 
 Interfaces are contracts that defines methods signatures, which implmenting class have to implements.
 

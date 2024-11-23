@@ -6,14 +6,18 @@ No Such Function As Empty
 .. meta::
 	:description:
 		No Such Function As Empty: There is no function called empty(), which could be accessed using a fully qualified name.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: No Such Function As Empty.
-	:twitter:description: No Such Function As Empty: There is no function called empty(), which could be accessed using a fully qualified name.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_empty_function.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_empty_function.png.png.
-	:og:image: No Such Function As Empty: There is no function called empty(), which could be accessed using a fully qualified name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Such Function As Empty
+	:twitter:description: No Such Function As Empty: There is no function called empty(), which could be accessed using a fully qualified name
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_empty_function.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_empty_function.png
+	:og:title: No Such Function As Empty
+	:og:type: article
+	:og:description: There is no function called empty(), which could be accessed using a fully qualified name
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/no_empty_function.html
+	:og:locale: en
 
 There is no function called empty(), which could be accessed using a fully qualified name. There is also no function that can be defined as such, since empty() is already taken.
 

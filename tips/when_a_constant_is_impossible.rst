@@ -6,14 +6,18 @@ Constants Can Be Impossible
 .. meta::
 	:description:
 		Constants Can Be Impossible: In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: Constants Can Be Impossible.
-	:twitter:description: Constants Can Be Impossible: In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/when_a_constant_is_impossible.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/when_a_constant_is_impossible.png.png.
-	:og:image: Constants Can Be Impossible: In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constants Can Be Impossible
+	:twitter:description: Constants Can Be Impossible: In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/when_a_constant_is_impossible.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/when_a_constant_is_impossible.png
+	:og:title: Constants Can Be Impossible
+	:og:type: article
+	:og:description: In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/when_a_constant_is_impossible.html
+	:og:locale: en
 
 In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error.
 

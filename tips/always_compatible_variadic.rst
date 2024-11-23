@@ -6,14 +6,18 @@ Always Compatible Variadic
 .. meta::
 	:description:
 		Always Compatible Variadic: A variadic argument is a valid and compatible signature, for methods that overwrite other methods.
-	:twitter:card: summary_large_image.
-	:twitter:site: @exakat.
-	:twitter:title: Always Compatible Variadic.
-	:twitter:description: Always Compatible Variadic: A variadic argument is a valid and compatible signature, for methods that overwrite other methods.
-	:twitter:creator: @exakat.
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/always_compatible_variadic.png.png.
-	:og:image: https://php-tips.readthedocs.io/en/latest/_images/always_compatible_variadic.png.png.
-	:og:image: Always Compatible Variadic: A variadic argument is a valid and compatible signature, for methods that overwrite other methods.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Always Compatible Variadic
+	:twitter:description: Always Compatible Variadic: A variadic argument is a valid and compatible signature, for methods that overwrite other methods
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/always_compatible_variadic.png.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/always_compatible_variadic.png
+	:og:title: Always Compatible Variadic
+	:og:type: article
+	:og:description: A variadic argument is a valid and compatible signature, for methods that overwrite other methods
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/always_compatible_variadic.html
+	:og:locale: en
 
 By `Sergii Shymko <https://twitter.com/SergiiShymko>`_
 
