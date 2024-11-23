@@ -60,3 +60,8 @@ html_extra_path = ["googlee919cb0917e4fefc.html",
                                  
 # Only displays the title of the page
 html_title = '';
+
+html_theme_options = {
+    'logo': 'logo.png',
+    'analytics_id': 'G-29LCZ34CDW',
+}
