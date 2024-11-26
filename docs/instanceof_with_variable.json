@@ -1,0 +1,14 @@
+{
+    "image": "instanceof_with_variable.png",
+    "date": "2024-11-24",
+    "title": "instanceof With Variables",
+    "content": "It is possible to compare the type of two objects with ``instanceof``: PHP uses the class of the second operand, or the name of the class passed as a string.\nThe cast operator ``(object)`` creates ``stdClass`` when applied to array.",
+    "seeAlso": {
+        "Type operators (PHP manual)": "https://www.php.net/manual/en/language.operators.type.php"
+    },
+    "tags": [
+        "operator"
+    ],
+    "author": "",
+    "contact": ""
+}

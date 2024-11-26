@@ -1,0 +1,15 @@
+{
+    "image": "escaped_regex.png",
+    "date": "2024-11-26",
+    "title": "Escaping A Regex",
+    "content": "To use literal characters inside a regex, it is possible to use preg_quote(): it adds a backslash before every special character in the string. Don't forget to use the second argument, which can hold any arbitrary delimiter.\nAnother option is to use the ``\\Q`` and ``\\E`` characters inside the regex: it turns all the special characters into a literal value.",
+    "seeAlso": {
+        "Escape sequences (PHP manual)": "https://www.php.net/manual/en/regexp.reference.escape.php",
+        "preg_quote":"https://www.php.net/manual/en/function.preg-quote.php"
+    },
+    "tags": [
+        "hidden gem"
+    ],
+    "author": "",
+    "contact": ""
+}

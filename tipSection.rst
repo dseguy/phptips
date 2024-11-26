@@ -5,6 +5,9 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/escaped_regex.rst
+   tips/every_anonymous_class.rst
+   tips/instanceof_with_variable.rst
    tips/undefined_variable.rst
    tips/compatible-signature.rst
    tips/private_is_relaxed.rst

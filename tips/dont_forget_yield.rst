@@ -21,9 +21,9 @@ Don't Forget To Yield
 
 It is possible to delegate a generator to another generator.
 
-Just don't call them raw, as nothing will happen.
+One point to keep in mind is that they should not be called raw, as nothing happens.
 
-And don't forget the 'from' part of the keyword, otherwise, it will yield the generator, instead of running it.
+And don't forget the ``from`` part of the keyword, otherwise, it yields the generator, instead of running it.
 
 .. image:: ../images/dont_forget_yield.png
 

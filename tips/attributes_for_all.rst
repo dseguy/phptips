@@ -21,8 +21,6 @@ More Attribute Usage
 
 PHP attributes are for classes, but also for enums, traits and interfaces. With ::TARGET_CLASS.
 
-
-
 PHP attributes are for functions, and also for closures and arrow functions (but not for methods). With ::TARGET_FUNCTION.
 
 
