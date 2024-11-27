@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/datetime_and_year.rst
    tips/escaped_regex.rst
    tips/every_anonymous_class.rst
    tips/instanceof_with_variable.rst

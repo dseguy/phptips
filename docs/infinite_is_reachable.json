@@ -2,12 +2,12 @@
 "image":"infinite_is_reachable.png",
 "date":"2023-09-10",
 "title":"PHP Infinity Is Reachable",	
-"content":"Infinite values are sometimes provided by PHP functions, such as log(0) or exp(PHP_INT_MAX). In that case, beware and do not compare it directly with an integer as a positive is considered bigger than infinite.",
+"content":"Infinite values are sometimes returned by PHP functions, such as ``log(0)`` or ``exp(PHP_INT_MAX)``. In these cases, beware and do not compare it directly with an integer as a positive is considered bigger than infinite. It is recommended to use the function ``is_finite``.",
 "seeAlso":{
 	"is_infinite() (PHP manual)":"https://www.php.net/is_infinite"
 },
 "author":"Frederic Bouchery",
-"contact":"https://twitter.com/FredBouchery",
+"contact":"https://bsky.app/profile/bouchery.fr",
 "tags":[
 	"integer"
 ]

@@ -2,7 +2,7 @@
     "image": "case_insensitive_cast.png",
     "date": "2024-04-27",
     "title": "Case Insensitive Cast",
-    "content": "PHP's cast are case insensitive. (int), (INT) and all variations of (iNt) are possible, though never used.",
+    "content": "PHP's cast operators are case insensitive. ``(int)``, ``(INT)`` and all variations, like ``(iNt)`` are possible. The usual convention is to use the all lower case syntax for the operators, and any other usage is extremely rare.",
     "seeAlso": {
         "Type Juggling": "https://www.php.net/manual/en/language.types.type-juggling.php"
     },

@@ -19,7 +19,7 @@ Enumeration's Cases Comparisons
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/enum_case_comparisons.html
 	:og:locale: en
 
-By `Frederic Bouchery <https://twitter.com/FredBouchery>`_
+By `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
 
 Enumeration cases are different when the enumeration are different, not when the value of the case is different. It is a difference with using constants for enumerations.
 

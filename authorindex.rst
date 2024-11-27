@@ -13,9 +13,10 @@ Author index
     * :ref:`compatible-signature`
 * `Doeke Norg <https://twitter.com/doekenorg>`_
     * :ref:`quick-serialize`
-* `Fred Bouchery <https://twitter.com/FredBouchery>`_
+* `Fred Bouchery <https://bsky.app/profile/bouchery.fr>`_
     * :ref:`no-returntype-but-still,-only-string`
-* `Frederic Bouchery <https://twitter.com/FredBouchery>`_
+* `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
+    * :ref:`datetime-object,-and-years`
     * :ref:`enumeration's-cases-comparisons`
     * :ref:`stealth-generator`
     * :ref:`php-infinity-is-reachable`
