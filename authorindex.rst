@@ -1,6 +1,8 @@
 Author index
 ------------
 
+* `Aken Roberts <https://bsky.app/profile/akenroberts.com>`_
+    * :ref:`unicode-comments`
 * `Andrew Schmelyun <https://twitter.com/aschmelyun>`_
     * :ref:`strange--->-operator`
 * `Benoit Viguier <https://phpc.social/@b_viguier>`_

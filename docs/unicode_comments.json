@@ -1,0 +1,15 @@
+{
+    "image": "unicode_comments.png",
+    "date": "2024-11-30",
+    "title": "Unicode Comments",
+    "content": "Besides ``//``, ``#``, ``/** */`` and ``/* */``, there is another way to make a comment in PHP: unicode #️⃣️ . This is possible as this unicode character is build on top of 3 codepoints: among those, the first one is ``#``, which is an actual comment character. Then, PHP parses it as a single bytes, and interprets it as a comment: the rest of the line is omitted.",
+    "seeAlso": {
+        "Comments (PHP manual)": "https://www.php.net/manual/en/language.basic-syntax.comments.php"
+    },
+    "tags": [
+        "comment",
+        "unicode"
+    ],
+    "author": "Aken Roberts",
+    "contact": "https://bsky.app/profile/akenroberts.com"
+}
