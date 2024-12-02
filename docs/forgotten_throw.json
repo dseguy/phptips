@@ -2,7 +2,7 @@
     "image": "forgotten_throw.png",
     "date": "2022-09-08",
     "title": "Forgotten Throw",
-    "content": "Sometimes, the ``throw`` keyword is forgotten when it is needed. It is difficult to realize it is missing.",
+    "content": "Sometimes, the ``throw`` keyword is forgotten, even as it is needed. It is difficult to realize it is missing: PHP instantiates correctly the exception, yet it immediately ignores it, as there is no usage of that exception: no error is reported. One need to identify a situation with an error, understand that the error is missing.",
     "seeAlso": {
         "Exceptions (PHP manual)": "https://www.php.net/manual/en/language.exceptions.php"
     },

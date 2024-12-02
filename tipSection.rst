@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/all_cases.rst
    tips/unicode_comments.rst
    tips/datetime_and_year.rst
    tips/escaped_regex.rst
