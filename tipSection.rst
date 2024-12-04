@@ -6,6 +6,7 @@ PHP tips and tricks
    :caption: Contents:
 
    tips/named_sqlite3_in_memory.rst
+   tips/variable_creation.rst
    tips/all_cases.rst
    tips/unicode_comments.rst
    tips/datetime_and_year.rst
