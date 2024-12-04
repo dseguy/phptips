@@ -47,5 +47,7 @@ Author index
     * :ref:`exporting-properties`
 * `WebSmithery <https://stackoverflow.com/users/2519523/websmithery>`_
     * :ref:`abstract-constants`
+* `archtechx <https://x.com/archtechx>`_
+    * :ref:`named-sqlite3-in-memory`
 * `• Kartoffeljunge • <https://bsky.app/profile/devatreides.bsky.social>`_
     * :ref:`typed_array`

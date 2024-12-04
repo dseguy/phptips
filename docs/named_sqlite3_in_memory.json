@@ -1,0 +1,16 @@
+{
+    "image": "named_sqlite3_in_memory.png",
+    "date": "2024-12-04",
+    "title": "Named Sqlite3 In Memory",
+    "content": "Sqlite3 allows the creation of ``memory`` databases: the database is not stored on the disk, but in memory. This is good for temporary data, that requires some SQL features.\nThen, by default, every instantiation of a Sqlite3 memory database provides the same database. Then, when using the command ``sqlite:file:foo:?mode=memory&cache=shared``, the memory database gets a name, and it is now possible to have distinct sqlite3 instances.",
+    "seeAlso": {
+        "Original Tweet": "https://x.com/archtechx/status/1863623958739796116",
+        "SQLite3::__construct": "https://www.php.net/manual/en/sqlite3.construct.php",
+        "PDO Sqlite3 DSN": "https://www.php.net/manual/en/ref.pdo-sqlite.connection.php"
+    },
+    "tags": [
+        "sqlite"
+    ],
+    "author": "archtechx",
+    "contact": "https://x.com/archtechx"
+}
