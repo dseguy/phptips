@@ -4,7 +4,8 @@
     "title": "Variable Creation",
     "content": "When defining a closure, the lexical variables (in the ``use`` clause) are created immediately, with the default value of NULL. The closure is executed later, and then, the value of the lexical variable is changed.\nWhen creating an anonymous object, the constructor is immediately executed: hence, the argument with reference is created, then inited with ``[]`` and immediately available.",
     "seeAlso": {
-        
+        "The Closure class":"https://www.php.net/manual/en/class.closure.php",
+        "Anonymous functions":"https://www.php.net/manual/en/functions.anonymous.php"
     },
     "tags": [
         "closure",

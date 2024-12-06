@@ -2,13 +2,14 @@
     "image": "scalar_types_are_unqualified.png",
     "date": "2023-11-30",
     "title": "Scalar Types Are Unqualified",
-    "content": "Scalar types, such as ``int`` or ``iterable`` shall be used without the leading slash. Yet, there are some exceptions, in PHP 8.3.",
+    "content": "Scalar types, such as ``int`` or ``iterable`` shall only be used without the leading slash. Yet, there are some exceptions, in PHP 8.3, ``callable`` and ``array`` are still mistaken for a class name, leading to strangely worded error message.",
     "seeAlso": {
         "Type declaration (PHP manual)": "https://www.php.net/manual/en/language.types.declarations.php"
     },
     "tags": [
         "type",
-        "bug"
+        "bug",
+        "funny"
     ],
     "author": "",
     "contact": ""

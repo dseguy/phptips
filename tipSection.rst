@@ -5,6 +5,8 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/call_function_with_strings.rst
+   tips/non-empty-match.rst
    tips/named_sqlite3_in_memory.rst
    tips/variable_creation.rst
    tips/all_cases.rst

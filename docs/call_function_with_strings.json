@@ -1,0 +1,14 @@
+{
+    "image": "call_function_with_strings.png",
+    "date": "2024-12-07",
+    "title": "Call Function With Strings",
+    "content": "Usually, a function is called with its name as first element of the syntax.\nAnd it is also possible to use a string, either in a variable or directly as a literal. This means that adding single or double quotes to the name of a function is still a valid syntax.\nOf course, there is still the left over binary string of PHP 6, so it is also possible to add an initial ``b`` to the string.\nThen, the double quoted strings accepts interpolated variables, to make the call dynamic.\nFinally, it is not possible to use the HereDoc syntax, as parenthesis are not allowed directly after the closing tag.",
+    "seeAlso": {
+        "Function (PHP manual)": "https://www.php.net/manual/en/language.functions.php"
+    },
+    "tags": [
+        "surprising"
+    ],
+    "author": "",
+    "contact": ""
+}

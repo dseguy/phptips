@@ -5,23 +5,23 @@ typed_array
 
 .. meta::
 	:description:
-		typed_array: You can set the array content type using variadic functions feature (syntax below).
+		typed_array: It is possible to set the type of all elements in a variadic: this is equivalent of passing an argument of type ``array<User>``.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: typed_array
-	:twitter:description: typed_array: You can set the array content type using variadic functions feature (syntax below)
+	:twitter:description: typed_array: It is possible to set the type of all elements in a variadic: this is equivalent of passing an argument of type ``array<User>``
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/typed_array.png.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/typed_array.png
 	:og:title: typed_array
 	:og:type: article
-	:og:description: You can set the array content type using variadic functions feature (syntax below)
+	:og:description: It is possible to set the type of all elements in a variadic: this is equivalent of passing an argument of type ``array<User>``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/typed_array.html
 	:og:locale: en
 
 By `• Kartoffeljunge • <https://bsky.app/profile/devatreides.bsky.social>`_
 
-You can set the array content type using variadic functions feature (syntax below). Just remember to spread the array when calling your function.
+It is possible to set the type of all elements in a variadic: this is equivalent of passing an argument of type ``array<User>``. 
 
 .. image:: ../images/typed_array.png
 
