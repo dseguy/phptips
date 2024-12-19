@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/return_int_not_bool.rst
    tips/by_reference_errors.rst
    tips/call_function_with_strings.rst
    tips/non-empty-match.rst

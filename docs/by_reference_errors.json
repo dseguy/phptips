@@ -2,7 +2,7 @@
     "image": "by_reference_errors.png",
     "date": "2024-12-11",
     "title": "By Reference, Error Or Notice?",
-    "content": "Passing a literal, by reference, to a method is a Fatal error.\nReturning a literal by reference, is a Notice.\nWhy is there a difference of treatment?",
+    "content": "Passing a literal, by reference, to a method yields a Fatal error.\nReturning a literal by reference, yields a Notice.\nWhy is there a difference of error level between these two operations, which are very similar?",
     "seeAlso": {
         "Passing By Reference (PHP manual)": "https://www.php.net/manual/en/language.references.pass.php"
     },

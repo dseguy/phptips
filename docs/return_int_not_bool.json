@@ -1,0 +1,16 @@
+{
+    "image": "return_int_not_bool.png",
+    "date": "2024-12-19",
+    "title": "Return Int Not Bool",
+    "content": "There is a cute deprecation warning, when using a closure to sort an array: ``Deprecated: usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero``.\nAnd if this deprecation is ignored, the boolean is cast automatically to an integer. As PHP turns 0 to false, and everything else, including 1 and -1 to true, this leads to surprising sorting effect.\nJust trust the deprecation notice.",
+    "seeAlso": {
+        "usort (PHP manual)": "https://www.php.net/manual/en/function.usort.php",
+        "Comparison Operator": "https://www.php.net/manual/en/language.operators.comparison.php"
+    },
+    "tags": [
+        "surprising",
+        "deprecation"
+    ],
+    "author": "",
+    "contact": ""
+}
