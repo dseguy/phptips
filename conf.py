@@ -72,4 +72,5 @@ html_theme_options = {
 
 html_js_files = [
     'js/custom.js',
+    'https://www.googletagmanager.com/gtag/js?id=G-29LCZ34CDW'
 ]
