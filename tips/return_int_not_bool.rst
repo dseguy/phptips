@@ -29,5 +29,6 @@ Just trust the deprecation notice.
 
 * `usort (PHP manual) <https://www.php.net/manual/en/function.usort.php>`_
 * `Comparison Operator <https://www.php.net/manual/en/language.operators.comparison.php>`_
+* ` <>`_
 
 

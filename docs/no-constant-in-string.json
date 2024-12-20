@@ -1,0 +1,15 @@
+{
+    "image": "no-constant-in-string.png",
+    "date": "2024-12-20",
+    "title": "No Class Constant In String",
+    "content": "Interpolation is injecting variable values inside strings. For complex variables, such as objects, it requires the curly braces to work.\nYet, the simple ``$object::CONSTANT`` doesn't compile. But, the error message mentions it could do something with a square bracket, so it is still possible to access the value of strings by using the array notation.\nI wish there was a better way to inject that class name in the string, or, any class constant.\nAlso, note that the reported class name is the definition one, not the name that was used at instanciation.\nSo many suprises.",
+    "seeAlso": {
+        "String interpolation (PHP manual)": "https://www.php.net/manual/en/language.types.string.php#language.types.string.parsing"
+    },
+    "tags": [
+        "interpolation",
+        "funny"
+    ],
+    "author": "",
+    "contact": ""
+}
