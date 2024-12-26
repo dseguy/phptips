@@ -1,0 +1,15 @@
+{
+    "image": "constant_redefinition.png",
+    "date": "2024-12-26",
+    "title": "Constant Redefinition",
+    "content": "It is possible to specify several identical global constant definition: PHP reports a warning, and ignores the second definitions.\nOn the other hand, a duplicate class constant definition is a fatal error, and fails the compilation phase.\nThe difference of behavior may be linked to the level of consistence that PHP can achieve: global constants needs an application wide check for name unicity, while class constants can be checked while compiling a class.\nYet, it might be worth looking into leveling both errors, to avoid hard to find bugs.",
+    "seeAlso": {
+        "Constants (PHP manual)": "https://www.php.net/manual/en/language.constants.php"
+    },
+    "tags": [
+        "constant",
+        "different levels"
+    ],
+    "author": "",
+    "contact": ""
+}
