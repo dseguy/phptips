@@ -82,6 +82,12 @@ foreach($files as $file) {
 		continue;
 	}
 
+	if (str_contains($tip->content, 'will')) {
+//		buildlog("Warning : No need for will in $file");;
+//		++$errors;
+//		continue;
+	}
+
 	if (!in_array(substr($tip->content, -1), array('.', '?'), true)) {
 		buildlog("Warning : content doesn't finish with . in $file");;
 		++$errors;
@@ -119,6 +125,12 @@ foreach($files as $file) {
 	if (substr_count($tip->title, '_') > 1 && 
 		!preg_match('/(file_put_contents|private|array_intersect_uassoc_insensitive|file_append_contents|__invoke|array_map_assoc)/', $tip->title)) {
 		buildlog("Warning : Too many _ in title '$tip->title' in $file");;
+		++$errors;
+		continue;
+	}
+
+	if (substr_count($tip->title, ' ') === 0) {
+		buildlog("Warning : title is default '$tip->title' in $file");;
 		++$errors;
 		continue;
 	}
