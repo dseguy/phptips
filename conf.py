@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'PHP tips and tricks'
-copyright = '2023-2024, Damien Seguy'
+copyright = '2023-2025, Damien Seguy'
 author = 'Damien Seguy'
 html_favicon = '_static/logo.png'
 
@@ -57,7 +57,8 @@ html_static_path = ['_static']
 
 # Extra config to verify read the docs
 html_extra_path = ["googlee919cb0917e4fefc.html", 
-                                 "sitemap.xml"]
+                                 "sitemap.xml",
+                                 "BingSiteAuth.xml"]
                                  
 # Only displays the title of the page
 html_title = '';
