@@ -11,7 +11,7 @@ Documenting Parameters
 	:twitter:title: Documenting Parameters
 	:twitter:description: Documenting Parameters: Sometimes, even a literal value used as parameter is not readable
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/documenting_parameter.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/documenting_parameter.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/documenting_parameter.png
 	:og:title: Documenting Parameters
 	:og:type: article

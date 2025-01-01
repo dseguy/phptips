@@ -11,7 +11,7 @@ Keys Are Integers Whenever Possible
 	:twitter:title: Keys Are Integers Whenever Possible
 	:twitter:description: Keys Are Integers Whenever Possible: Array keys are only strings or integers: the later has priority
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/keys_are_integers.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/keys_are_integers.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/keys_are_integers.png
 	:og:title: Keys Are Integers Whenever Possible
 	:og:type: article

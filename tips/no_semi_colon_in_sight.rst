@@ -11,7 +11,7 @@ No Semicolon In Sight
 	:twitter:title: No Semicolon In Sight
 	:twitter:description: No Semicolon In Sight: This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_semi_colon_in_sight.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_semi_colon_in_sight.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_semi_colon_in_sight.png
 	:og:title: No Semicolon In Sight
 	:og:type: article

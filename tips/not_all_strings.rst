@@ -11,7 +11,7 @@ Not All Strings In Arrays
 	:twitter:title: Not All Strings In Arrays
 	:twitter:description: Not All Strings In Arrays: Array keys are coerced into strings or integers, while array values are left intact
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/not_all_strings.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/not_all_strings.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/not_all_strings.png
 	:og:title: Not All Strings In Arrays
 	:og:type: article

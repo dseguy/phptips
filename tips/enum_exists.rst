@@ -11,7 +11,7 @@ class_exists() With Enums
 	:twitter:title: class_exists() With Enums
 	:twitter:description: class_exists() With Enums: In PHP, there is:
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/enum_exists.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/enum_exists.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/enum_exists.png
 	:og:title: class_exists() With Enums
 	:og:type: article

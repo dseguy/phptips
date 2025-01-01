@@ -11,7 +11,7 @@ private Is Relaxed
 	:twitter:title: private Is Relaxed
 	:twitter:description: private Is Relaxed: PHP has the relaxed syntax since early 7
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/private_is_relaxed.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/private_is_relaxed.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/private_is_relaxed.png
 	:og:title: private Is Relaxed
 	:og:type: article

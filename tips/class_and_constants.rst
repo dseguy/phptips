@@ -11,7 +11,7 @@ Class And Constant Confusion
 	:twitter:title: Class And Constant Confusion
 	:twitter:description: Class And Constant Confusion: Class names and global constant names are two distinct name spaces
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/class_and_constants.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/class_and_constants.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/class_and_constants.png
 	:og:title: Class And Constant Confusion
 	:og:type: article

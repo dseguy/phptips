@@ -11,7 +11,7 @@ Variadic Are Typed And Defaulted
 	:twitter:title: Variadic Are Typed And Defaulted
 	:twitter:description: Variadic Are Typed And Defaulted: When using the ``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/variadic_are_typed_and_defaulted.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/variadic_are_typed_and_defaulted.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/variadic_are_typed_and_defaulted.png
 	:og:title: Variadic Are Typed And Defaulted
 	:og:type: article

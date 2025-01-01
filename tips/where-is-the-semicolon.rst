@@ -11,7 +11,7 @@ Where Is The Semicolon?
 	:twitter:title: Where Is The Semicolon?
 	:twitter:description: Where Is The Semicolon?: This code is an attribute
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/where-is-the-semicolon.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/where-is-the-semicolon.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/where-is-the-semicolon.png
 	:og:title: Where Is The Semicolon?
 	:og:type: article

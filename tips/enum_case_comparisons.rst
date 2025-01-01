@@ -11,7 +11,7 @@ Enumeration's Cases Comparisons
 	:twitter:title: Enumeration's Cases Comparisons
 	:twitter:description: Enumeration's Cases Comparisons: Enumeration cases are different when the enumeration are different, not when the value of the case is different
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/enum_case_comparisons.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/enum_case_comparisons.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/enum_case_comparisons.png
 	:og:title: Enumeration's Cases Comparisons
 	:og:type: article

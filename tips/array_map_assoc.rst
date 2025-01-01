@@ -11,7 +11,7 @@ array_map_assoc()
 	:twitter:title: array_map_assoc()
 	:twitter:description: array_map_assoc(): array_map() only provides the value of the array, not the key
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_map_assoc.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_map_assoc.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_map_assoc.png
 	:og:title: array_map_assoc()
 	:og:type: article

@@ -11,7 +11,7 @@ Identifier Confusions
 	:twitter:title: Identifier Confusions
 	:twitter:description: Identifier Confusions: Identifiers are used both for constant names and for class names (CITE)
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/confusing_identifier.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/confusing_identifier.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/confusing_identifier.png
 	:og:title: Identifier Confusions
 	:og:type: article

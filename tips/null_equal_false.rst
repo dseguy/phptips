@@ -11,7 +11,7 @@ null Does Not Always Equal false
 	:twitter:title: null Does Not Always Equal false
 	:twitter:description: null Does Not Always Equal false: null equals false, so the first equality is actually true
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/null_equal_false.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/null_equal_false.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/null_equal_false.png
 	:og:title: null Does Not Always Equal false
 	:og:type: article

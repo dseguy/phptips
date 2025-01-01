@@ -11,7 +11,7 @@ null Or Boolean As Array
 	:twitter:title: null Or Boolean As Array
 	:twitter:description: null Or Boolean As Array: Null and booleans support the array syntax, but always return NULL as value
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/nullAsArray.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/nullAsArray.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/nullAsArray.png
 	:og:title: null Or Boolean As Array
 	:og:type: article

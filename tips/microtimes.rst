@@ -11,7 +11,7 @@ Reading Micro-seconds
 	:twitter:title: Reading Micro-seconds
 	:twitter:description: Reading Micro-seconds: There are different ways to access micro seconds in PHP : use the Datetime format of ``u``, which works with Datetime
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/microtimes.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/microtimes.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/microtimes.png
 	:og:title: Reading Micro-seconds
 	:og:type: article

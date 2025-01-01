@@ -11,7 +11,7 @@ Forgotten Throw
 	:twitter:title: Forgotten Throw
 	:twitter:description: Forgotten Throw: Sometimes, the ``throw`` keyword is forgotten, even as it is needed
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/forgotten_throw.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/forgotten_throw.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/forgotten_throw.png
 	:og:title: Forgotten Throw
 	:og:type: article

@@ -11,7 +11,7 @@ Sorting With Minus
 	:twitter:title: Sorting With Minus
 	:twitter:description: Sorting With Minus: Did you know that sorting f, 0 and -f actually ends up with -f first, then 0, then f
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/sorting_with_minus.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/sorting_with_minus.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/sorting_with_minus.png
 	:og:title: Sorting With Minus
 	:og:type: article

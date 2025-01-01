@@ -11,7 +11,7 @@ Datetime Object, And Years
 	:twitter:title: Datetime Object, And Years
 	:twitter:description: Datetime Object, And Years: In this code, 2 years are given to datetime, and handed back
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/datetime_and_year.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/datetime_and_year.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/datetime_and_year.png
 	:og:title: Datetime Object, And Years
 	:og:type: article

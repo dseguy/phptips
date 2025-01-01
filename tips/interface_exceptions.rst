@@ -11,7 +11,7 @@ Exception Polyphormism
 	:twitter:title: Exception Polyphormism
 	:twitter:description: Exception Polyphormism: Custom exceptions are like any other classes: they may implements interfaces
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/interface_exceptions.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/interface_exceptions.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/interface_exceptions.png
 	:og:title: Exception Polyphormism
 	:og:type: article

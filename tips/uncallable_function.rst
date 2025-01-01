@@ -11,7 +11,7 @@ Uncallable Function
 	:twitter:title: Uncallable Function
 	:twitter:description: Uncallable Function: The function foo() cannot be called
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/uncallable_function.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/uncallable_function.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/uncallable_function.png
 	:og:title: Uncallable Function
 	:og:type: article

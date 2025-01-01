@@ -50,4 +50,4 @@ Author index
 * `archtechx <https://x.com/archtechx>`_
     * :ref:`named-sqlite3-in-memory`
 * `• Kartoffeljunge • <https://bsky.app/profile/devatreides.bsky.social>`_
-    * :ref:`typed_array`
+    * :ref:`typed-array`

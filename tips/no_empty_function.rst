@@ -11,7 +11,7 @@ No Such Function As Empty
 	:twitter:title: No Such Function As Empty
 	:twitter:description: No Such Function As Empty: There is no function called empty(), which could be accessed using a fully qualified name, such as ``\empty``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_empty_function.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_empty_function.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_empty_function.png
 	:og:title: No Such Function As Empty
 	:og:type: article

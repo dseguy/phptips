@@ -11,7 +11,7 @@ Class Is A Valid Type
 	:twitter:title: Class Is A Valid Type
 	:twitter:description: Class Is A Valid Type: PHP allows to use ``\class`` as a class name in a type
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/class_is_valid_class.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/class_is_valid_class.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/class_is_valid_class.png
 	:og:title: Class Is A Valid Type
 	:og:type: article

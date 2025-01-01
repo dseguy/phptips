@@ -11,7 +11,7 @@ Relaxed Syntax With Const
 	:twitter:title: Relaxed Syntax With Const
 	:twitter:description: Relaxed Syntax With Const: Relaxed syntax is the possibility to use PHP keywords as method or class constant names
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/relaxed_syntax_with_const.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/relaxed_syntax_with_const.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/relaxed_syntax_with_const.png
 	:og:title: Relaxed Syntax With Const
 	:og:type: article

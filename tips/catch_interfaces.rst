@@ -11,7 +11,7 @@ Catch On Interfaces
 	:twitter:title: Catch On Interfaces
 	:twitter:description: Catch On Interfaces: It is possible to catch exceptions based on their interfaces, instead of their actual name or parents
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/catch_interfaces.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/catch_interfaces.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/catch_interfaces.png
 	:og:title: Catch On Interfaces
 	:og:type: article

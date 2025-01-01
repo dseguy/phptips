@@ -11,7 +11,7 @@ Get $this In A Static
 	:twitter:title: Get $this In A Static
 	:twitter:description: Get $this In A Static: A static method does not have access to the current object, by definition
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/static_get_this.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/static_get_this.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/static_get_this.png
 	:og:title: Get $this In A Static
 	:og:type: article

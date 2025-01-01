@@ -11,7 +11,7 @@ Signature Compatibility Exception
 	:twitter:title: Signature Compatibility Exception
 	:twitter:description: Signature Compatibility Exception: All methods must be compatible with their parent's signature: the types, reference options, variadic and number must be compatible (although, not equal)
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/constructor_consistency.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/constructor_consistency.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/constructor_consistency.png
 	:og:title: Signature Compatibility Exception
 	:og:type: article

@@ -11,7 +11,7 @@ Array Is Full
 	:twitter:title: Array Is Full
 	:twitter:description: Array Is Full: When using append, the next id is calculated based on the largest integer key ever used in that array
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_is_full.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_is_full.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_is_full.png
 	:og:title: Array Is Full
 	:og:type: article

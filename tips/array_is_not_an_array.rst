@@ -11,7 +11,7 @@ array Is Not An Array
 	:twitter:title: array Is Not An Array
 	:twitter:description: array Is Not An Array: PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_is_not_an_array.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_is_not_an_array.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_is_not_an_array.png
 	:og:title: array Is Not An Array
 	:og:type: article

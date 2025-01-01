@@ -11,7 +11,7 @@ No Cast In Constant Expressions
 	:twitter:title: No Cast In Constant Expressions
 	:twitter:description: No Cast In Constant Expressions: Constant expressions do not accept the cast operator
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_cast_in_constant_expression.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_cast_in_constant_expression.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_cast_in_constant_expression.png
 	:og:title: No Cast In Constant Expressions
 	:og:type: article

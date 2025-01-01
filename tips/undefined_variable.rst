@@ -11,7 +11,7 @@ Undefined Variable
 	:twitter:title: Undefined Variable
 	:twitter:description: Undefined Variable: The variable is undefined, and yet this is reported on the actual line where the variable is defined!
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/undefined_variable.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/undefined_variable.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/undefined_variable.png
 	:og:title: Undefined Variable
 	:og:type: article

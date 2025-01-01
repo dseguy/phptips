@@ -11,7 +11,7 @@ Change A Static Variable Outside Its Function
 	:twitter:title: Change A Static Variable Outside Its Function
 	:twitter:description: Change A Static Variable Outside Its Function: Static variables are persistent between calls to the same method
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/reference_on_static.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/reference_on_static.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/reference_on_static.png
 	:og:title: Change A Static Variable Outside Its Function
 	:og:type: article

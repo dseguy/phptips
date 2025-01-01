@@ -11,7 +11,7 @@ array array = array()
 	:twitter:title: array array = array()
 	:twitter:description: array array = array(): This made me chuckle
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_array_array.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_array_array.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_array_array.png
 	:og:title: array array = array()
 	:og:type: article

@@ -11,7 +11,7 @@ Exponential Minus One
 	:twitter:title: Exponential Minus One
 	:twitter:description: Exponential Minus One: You can save typing by using expm1($x) instead of exp($x) - 1
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/exp_minus_one.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/exp_minus_one.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/exp_minus_one.png
 	:og:title: Exponential Minus One
 	:og:type: article

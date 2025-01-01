@@ -11,7 +11,7 @@ Float Precision
 	:twitter:title: Float Precision
 	:twitter:description: Float Precision: PHP has a 'precision' directive that controls the number of decimals displayed by float values
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/precision.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/precision.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/precision.png
 	:og:title: Float Precision
 	:og:type: article

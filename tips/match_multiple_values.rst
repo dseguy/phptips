@@ -11,7 +11,7 @@ Match() With Multiple Values
 	:twitter:title: Match() With Multiple Values
 	:twitter:description: Match() With Multiple Values: This is an example of using ``match()``, to match against two values at the same time
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/match_multiple_values.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/match_multiple_values.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/match_multiple_values.png
 	:og:title: Match() With Multiple Values
 	:og:type: article

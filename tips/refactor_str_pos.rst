@@ -11,7 +11,7 @@ Refactoring strpos()
 	:twitter:title: Refactoring strpos()
 	:twitter:description: Refactoring strpos(): It is straightforward to convert an expression strpos() === 0 to using the str_start_with() function
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/refactor_str_pos.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/refactor_str_pos.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/refactor_str_pos.png
 	:og:title: Refactoring strpos()
 	:og:type: article

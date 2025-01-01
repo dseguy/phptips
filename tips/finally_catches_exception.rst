@@ -11,7 +11,7 @@ Finally Catches Exception
 	:twitter:title: Finally Catches Exception
 	:twitter:description: Finally Catches Exception: In this code, finally is executed after the throw
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/finally_catches_exception.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/finally_catches_exception.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/finally_catches_exception.png
 	:og:title: Finally Catches Exception
 	:og:type: article

@@ -11,7 +11,7 @@ Attribute Without Class
 	:twitter:title: Attribute Without Class
 	:twitter:description: Attribute Without Class: PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/attribute_without_class.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/attribute_without_class.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/attribute_without_class.png
 	:og:title: Attribute Without Class
 	:og:type: article

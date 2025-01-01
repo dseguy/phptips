@@ -11,7 +11,7 @@ Hide Sensitive Parameter
 	:twitter:title: Hide Sensitive Parameter
 	:twitter:description: Hide Sensitive Parameter: PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/sensitiveParameter.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/sensitiveParameter.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/sensitiveParameter.png
 	:og:title: Hide Sensitive Parameter
 	:og:type: article

@@ -11,7 +11,7 @@ PHP Infinity Is Reachable
 	:twitter:title: PHP Infinity Is Reachable
 	:twitter:description: PHP Infinity Is Reachable: Infinite values are sometimes returned by PHP functions, such as ``log(0)`` or ``exp(PHP_INT_MAX)``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/infinite_is_reachable.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/infinite_is_reachable.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/infinite_is_reachable.png
 	:og:title: PHP Infinity Is Reachable
 	:og:type: article

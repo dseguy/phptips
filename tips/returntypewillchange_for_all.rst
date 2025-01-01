@@ -11,7 +11,7 @@ ReturnTypeWillChange Is For All
 	:twitter:title: ReturnTypeWillChange Is For All
 	:twitter:description: ReturnTypeWillChange Is For All: ReturnTypeWillChange is an attribute that tells PHP that the return type of the related method is different from the defined by the PHP native methods
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/returntypewillchange_for_all.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/returntypewillchange_for_all.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/returntypewillchange_for_all.png
 	:og:title: ReturnTypeWillChange Is For All
 	:og:type: article

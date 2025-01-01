@@ -11,7 +11,7 @@ Compatible Only Interface
 	:twitter:title: Compatible Only Interface
 	:twitter:description: Compatible Only Interface: Interfaces are contracts that defines methods signatures, which implmenting class have to implements
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/compatible_interface.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/compatible_interface.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/compatible_interface.png
 	:og:title: Compatible Only Interface
 	:og:type: article

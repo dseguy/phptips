@@ -11,7 +11,7 @@ A Static Method Cannot Call A Non Static Method
 	:twitter:title: A Static Method Cannot Call A Non Static Method
 	:twitter:description: A Static Method Cannot Call A Non Static Method: It is known that a non-static method can call a static method
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/static_cannot_call_non_static.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/static_cannot_call_non_static.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/static_cannot_call_non_static.png
 	:og:title: A Static Method Cannot Call A Non Static Method
 	:og:type: article

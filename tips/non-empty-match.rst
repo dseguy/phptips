@@ -11,7 +11,7 @@ Non Empty Match
 	:twitter:title: Non Empty Match
 	:twitter:description: Non Empty Match: PHP allows the empty ``switch``: that is, a switch command with an empty block of cases
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/non-empty-match.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/non-empty-match.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/non-empty-match.png
 	:og:title: Non Empty Match
 	:og:type: article

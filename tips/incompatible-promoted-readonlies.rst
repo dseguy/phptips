@@ -11,7 +11,7 @@ Incompatible Promoted Readonlies
 	:twitter:title: Incompatible Promoted Readonlies
 	:twitter:description: Incompatible Promoted Readonlies: Promoted properties allows the creation of properties directly from the constructor signature
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/incompatible-promoted-readonlies.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/incompatible-promoted-readonlies.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/incompatible-promoted-readonlies.png
 	:og:title: Incompatible Promoted Readonlies
 	:og:type: article

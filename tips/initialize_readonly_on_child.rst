@@ -11,7 +11,7 @@ Initialize Readonly On Child
 	:twitter:title: Initialize Readonly On Child
 	:twitter:description: Initialize Readonly On Child: Readonly properties could only be initialized in the same class as their definition
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/initialize_readonly_on_child.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/initialize_readonly_on_child.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/initialize_readonly_on_child.png
 	:og:title: Initialize Readonly On Child
 	:og:type: article

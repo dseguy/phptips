@@ -11,7 +11,7 @@ Checking For Names At Different Times
 	:twitter:title: Checking For Names At Different Times
 	:twitter:description: Checking For Names At Different Times: PHP lint detects early to avoid 'redeclared functions', based on local compilation
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/check_for_names.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/check_for_names.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/check_for_names.png
 	:og:title: Checking For Names At Different Times
 	:og:type: article

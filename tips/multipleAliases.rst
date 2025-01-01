@@ -11,7 +11,7 @@ Multiple Aliases
 	:twitter:title: Multiple Aliases
 	:twitter:description: Multiple Aliases: It is possible to rename an imported method from a trait, by using an alias name
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/multipleAliases.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/multipleAliases.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/multipleAliases.png
 	:og:title: Multiple Aliases
 	:og:type: article

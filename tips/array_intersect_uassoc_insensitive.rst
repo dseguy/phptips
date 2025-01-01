@@ -11,7 +11,7 @@ array_intersect_uassoc_insensitive() ?
 	:twitter:title: array_intersect_uassoc_insensitive() ?
 	:twitter:description: array_intersect_uassoc_insensitive() ?: array_intersect() functions use a direct comparison between the values in the array to make the comparison
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_intersect_uassoc_insensitive.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_intersect_uassoc_insensitive.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_intersect_uassoc_insensitive.png
 	:og:title: array_intersect_uassoc_insensitive() ?
 	:og:type: article

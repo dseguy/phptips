@@ -11,7 +11,7 @@ try, catch, finally Are All Optional
 	:twitter:title: try, catch, finally Are All Optional
 	:twitter:description: try, catch, finally Are All Optional: The finally clause in a try-catch-finally is actually optional: it can be omitted
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/try-catch-finally.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/try-catch-finally.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/try-catch-finally.png
 	:og:title: try, catch, finally Are All Optional
 	:og:type: article

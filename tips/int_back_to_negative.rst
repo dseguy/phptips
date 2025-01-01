@@ -11,7 +11,7 @@ Integer Becomes Negative
 	:twitter:title: Integer Becomes Negative
 	:twitter:description: Integer Becomes Negative: $a is the largest integer in PHP
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/int_back_to_negative.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/int_back_to_negative.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/int_back_to_negative.png
 	:og:title: Integer Becomes Negative
 	:og:type: article

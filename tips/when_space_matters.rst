@@ -11,7 +11,7 @@ When Space Matters
 	:twitter:title: When Space Matters
 	:twitter:description: When Space Matters: The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/when_space_matters.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/when_space_matters.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/when_space_matters.png
 	:og:title: When Space Matters
 	:og:type: article

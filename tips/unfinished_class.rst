@@ -11,7 +11,7 @@ Unfinished Class Doesn't Compile
 	:twitter:title: Unfinished Class Doesn't Compile
 	:twitter:description: Unfinished Class Doesn't Compile: PHP is not able to use a class before it is defined
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/unfinished_class.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/unfinished_class.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/unfinished_class.png
 	:og:title: Unfinished Class Doesn't Compile
 	:og:type: article

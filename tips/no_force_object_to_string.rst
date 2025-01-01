@@ -11,7 +11,7 @@ No Force Object To String
 	:twitter:title: No Force Object To String
 	:twitter:description: No Force Object To String: PHP forces numeric strings to integers when using them as a index, in an array
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_force_object_to_string.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_force_object_to_string.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_force_object_to_string.png
 	:og:title: No Force Object To String
 	:og:type: article

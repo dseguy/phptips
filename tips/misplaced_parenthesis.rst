@@ -11,7 +11,7 @@ A Case Of Misplaced Parenthesis
 	:twitter:title: A Case Of Misplaced Parenthesis
 	:twitter:description: A Case Of Misplaced Parenthesis: The closing parenthesis of the in_array() call may be misplaced, yet yield a valid PHP code, and even, a valid business case
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/misplaced_parenthesis.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/misplaced_parenthesis.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/misplaced_parenthesis.png
 	:og:title: A Case Of Misplaced Parenthesis
 	:og:type: article

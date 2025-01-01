@@ -11,7 +11,7 @@ All Enum Cases
 	:twitter:title: All Enum Cases
 	:twitter:description: All Enum Cases: One convenient aspect of enumerations is that they come with a full list of their cases
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/all_cases.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/all_cases.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/all_cases.png
 	:og:title: All Enum Cases
 	:og:type: article

@@ -11,7 +11,7 @@ PHP Integer Format
 	:twitter:title: PHP Integer Format
 	:twitter:description: PHP Integer Format: PHP has several convenient integer format to write them in a proper way: 0x12F, 0b110101, 0o12367
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/php_integer_format.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/php_integer_format.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/php_integer_format.png
 	:og:title: PHP Integer Format
 	:og:type: article

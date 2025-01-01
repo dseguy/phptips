@@ -2,7 +2,7 @@
 "image":"while_i_--.png",
 "title":"Strange --> Operator",     
 "date":"2023-10-30",
-"content":"This PHP code is valid and works because of the way operator syntax is parsed, it's just another way of writing ``while ($i-- > 0)``: the spaces are not important in this syntax. ",
+"content":"This PHP code is valid. It works because of the way operator syntax is parsed: it's another way of writing ``while ($i-- > 0)``: the spaces are not important in this syntax. The result is a very visual way to explain what the loop is doing.",
 "seeAlso":{
 },
 "tags":[

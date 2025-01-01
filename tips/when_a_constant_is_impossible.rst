@@ -11,7 +11,7 @@ Constants Can Be Impossible
 	:twitter:title: Constants Can Be Impossible
 	:twitter:description: Constants Can Be Impossible: In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/when_a_constant_is_impossible.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/when_a_constant_is_impossible.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/when_a_constant_is_impossible.png
 	:og:title: Constants Can Be Impossible
 	:og:type: article

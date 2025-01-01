@@ -11,7 +11,7 @@ Typed By Enum
 	:twitter:title: Typed By Enum
 	:twitter:description: Typed By Enum: Enumeration cannot be instantiated into an object
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/typed_by_enum.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/typed_by_enum.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/typed_by_enum.png
 	:og:title: Typed By Enum
 	:og:type: article

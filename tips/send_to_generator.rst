@@ -11,7 +11,7 @@ Send An Argument To Generator
 	:twitter:title: Send An Argument To Generator
 	:twitter:description: Send An Argument To Generator: When calling the method send() on a PHP generator, the result of the first yield keyword is the argument value
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/send_to_generator.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/send_to_generator.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/send_to_generator.png
 	:og:title: Send An Argument To Generator
 	:og:type: article

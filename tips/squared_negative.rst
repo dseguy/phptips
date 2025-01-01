@@ -11,7 +11,7 @@ Negative Squares
 	:twitter:title: Negative Squares
 	:twitter:description: Negative Squares: Still my favorite PHP bug : literal negative value is squared, and is 
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/squared_negative.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/squared_negative.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/squared_negative.png
 	:og:title: Negative Squares
 	:og:type: article

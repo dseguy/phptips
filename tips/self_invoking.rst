@@ -11,7 +11,7 @@ Lots Of Silly Arguments
 	:twitter:title: Lots Of Silly Arguments
 	:twitter:description: Lots Of Silly Arguments: PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/self_invoking.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/self_invoking.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/self_invoking.png
 	:og:title: Lots Of Silly Arguments
 	:og:type: article

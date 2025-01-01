@@ -11,7 +11,7 @@ The Namespace Stack
 	:twitter:title: The Namespace Stack
 	:twitter:description: The Namespace Stack: Reminder that namespaces are not stacked, but are merely prefixes
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/namespace_stack.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/namespace_stack.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/namespace_stack.png
 	:og:title: The Namespace Stack
 	:og:type: article

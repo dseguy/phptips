@@ -11,7 +11,7 @@ Quick DTO Or VO Copy
 	:twitter:title: Quick DTO Or VO Copy
 	:twitter:description: Quick DTO Or VO Copy: A small PHP trick, combining named parameters, spread and union arrays operators to "easily" create a modified copy of a DTO: https://3v4l
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/quick-dto.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/quick-dto.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/quick-dto.png
 	:og:title: Quick DTO Or VO Copy
 	:og:type: article

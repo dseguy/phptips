@@ -11,7 +11,7 @@ is_a() Versus Instanceof
 	:twitter:title: is_a() Versus Instanceof
 	:twitter:description: is_a() Versus Instanceof: is_a() and instanceof are the same feature: check if an object is of a specific class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/is_a_and_instanceof.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/is_a_and_instanceof.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/is_a_and_instanceof.png
 	:og:title: is_a() Versus Instanceof
 	:og:type: article

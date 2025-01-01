@@ -11,7 +11,7 @@ Catch Is Optional
 	:twitter:title: Catch Is Optional
 	:twitter:description: Catch Is Optional: In a Try Catch Finally command, only the try part is compulsory
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/catch_is_optional.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/catch_is_optional.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/catch_is_optional.png
 	:og:title: Catch Is Optional
 	:og:type: article

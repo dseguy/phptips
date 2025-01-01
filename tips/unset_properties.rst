@@ -11,7 +11,7 @@ Unsetting Properties Surprises
 	:twitter:title: Unsetting Properties Surprises
 	:twitter:description: Unsetting Properties Surprises: Unsetting properties is always a surprise
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/unset_properties.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/unset_properties.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/unset_properties.png
 	:og:title: Unsetting Properties Surprises
 	:og:type: article

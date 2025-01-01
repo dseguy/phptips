@@ -11,7 +11,7 @@ stdClass Object
 	:twitter:title: stdClass Object
 	:twitter:description: stdClass Object: PHP recycles the previously created stdClass objects ids
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/stdclass_tracking.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/stdclass_tracking.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/stdclass_tracking.png
 	:og:title: stdClass Object
 	:og:type: article

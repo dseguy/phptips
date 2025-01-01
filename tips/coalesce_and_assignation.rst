@@ -11,7 +11,7 @@ Coalesce And Assignation
 	:twitter:title: Coalesce And Assignation
 	:twitter:description: Coalesce And Assignation: Coalesce has lower priority than assignation, so assignation happens first
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/coalesce_and_assignation.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/coalesce_and_assignation.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/coalesce_and_assignation.png
 	:og:title: Coalesce And Assignation
 	:og:type: article

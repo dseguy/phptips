@@ -11,7 +11,7 @@ Plus Plus Minus Minus
 	:twitter:title: Plus Plus Minus Minus
 	:twitter:description: Plus Plus Minus Minus: What does a separated list of plus and minus do to a literal
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/plus_plus_minus_minus.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/plus_plus_minus_minus.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/plus_plus_minus_minus.png
 	:og:title: Plus Plus Minus Minus
 	:og:type: article

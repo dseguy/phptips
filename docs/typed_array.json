@@ -1,8 +1,8 @@
 {
     "image": "typed_array.png",
     "date": "2024-10-26",
-    "title": "typed_array",
-    "content": "It is possible to set the type of all elements in a variadic: this is equivalent of passing an argument of type ``array<User>``. ",
+    "title": "Typed Array",
+    "content": "It is possible to set the type of all elements in a variadic: this is equivalent of passing an argument of type ``array<User>``. That way, all the elements in the array must have the expected type. Use union-type to make have several distinct types.",
     "seeAlso": {
         "Original on BluSky": "https://bsky.app/profile/devatreides.bsky.social/post/3l3bwchdism2s"
     },

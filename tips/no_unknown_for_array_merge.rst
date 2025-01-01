@@ -11,7 +11,7 @@ No Unknown For array_merge()
 	:twitter:title: No Unknown For array_merge()
 	:twitter:description: No Unknown For array_merge(): A PHP variadic argument collects all the unused named parameters, along with their key
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_unknown_for_array_merge.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_unknown_for_array_merge.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_unknown_for_array_merge.png
 	:og:title: No Unknown For array_merge()
 	:og:type: article

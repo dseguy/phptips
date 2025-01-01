@@ -11,7 +11,7 @@ Internal Static Call
 	:twitter:title: Internal Static Call
 	:twitter:description: Internal Static Call: Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/internal_static_call.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/internal_static_call.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/internal_static_call.png
 	:og:title: Internal Static Call
 	:og:type: article

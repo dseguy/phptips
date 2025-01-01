@@ -11,7 +11,7 @@ Roman Loops
 	:twitter:title: Roman Loops
 	:twitter:description: Roman Loops: If the classic variable with a for() loop is ``$i``, then nested loop should use ``$ii``, then ``$iii``, ``$iv``, ``$v``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/roman_loops.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/roman_loops.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/roman_loops.png
 	:og:title: Roman Loops
 	:og:type: article

@@ -11,7 +11,7 @@ Self In An Interface
 	:twitter:title: Self In An Interface
 	:twitter:description: Self In An Interface: The keyword self in an interface means that interface, not the host class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/self_in_interface.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/self_in_interface.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/self_in_interface.png
 	:og:title: Self In An Interface
 	:og:type: article

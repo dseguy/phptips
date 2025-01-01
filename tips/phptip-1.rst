@@ -11,7 +11,7 @@ Inconsistent Constructor Signatures
 	:twitter:title: Inconsistent Constructor Signatures
 	:twitter:description: Inconsistent Constructor Signatures: PHP enforces that methods have the same signature in a parent class and in a children class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/phptip-1.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/phptip-1.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/phptip-1.png
 	:og:title: Inconsistent Constructor Signatures
 	:og:type: article

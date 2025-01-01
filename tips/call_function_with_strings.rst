@@ -11,7 +11,7 @@ Call Function With Strings
 	:twitter:title: Call Function With Strings
 	:twitter:description: Call Function With Strings: Usually, a function is called with its name as first element of the syntax
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/call_function_with_strings.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/call_function_with_strings.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/call_function_with_strings.png
 	:og:title: Call Function With Strings
 	:og:type: article

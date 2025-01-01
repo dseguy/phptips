@@ -11,7 +11,7 @@ Case Insensitive Cast
 	:twitter:title: Case Insensitive Cast
 	:twitter:description: Case Insensitive Cast: PHP's cast operators are case insensitive
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/case_insensitive_cast.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/case_insensitive_cast.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/case_insensitive_cast.png
 	:og:title: Case Insensitive Cast
 	:og:type: article

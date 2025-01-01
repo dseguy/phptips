@@ -11,7 +11,7 @@ glob() With Hidden Files
 	:twitter:title: glob() With Hidden Files
 	:twitter:description: glob() With Hidden Files: By default, the ``glob()`` function lists only files that don't start with a dot ``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/glob_with_hidden_files.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/glob_with_hidden_files.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/glob_with_hidden_files.png
 	:og:title: glob() With Hidden Files
 	:og:type: article

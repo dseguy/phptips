@@ -11,7 +11,7 @@ Scalar Types Are Unqualified
 	:twitter:title: Scalar Types Are Unqualified
 	:twitter:description: Scalar Types Are Unqualified: Scalar types, such as ``int`` or ``iterable`` shall only be used without the leading slash
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/scalar_types_are_unqualified.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/scalar_types_are_unqualified.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/scalar_types_are_unqualified.png
 	:og:title: Scalar Types Are Unqualified
 	:og:type: article

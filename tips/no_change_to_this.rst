@@ -11,7 +11,7 @@ No Change To $this
 	:twitter:title: No Change To $this
 	:twitter:description: No Change To $this: Variable ``$this`` is passed and reassigned by reference is a noop, as opposed to all other variables
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_change_to_this.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_change_to_this.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_change_to_this.png
 	:og:title: No Change To $this
 	:og:type: article

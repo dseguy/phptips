@@ -11,7 +11,7 @@ An Elephpant In The Code
 	:twitter:title: An Elephpant In The Code
 	:twitter:description: An Elephpant In The Code: When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/elephpant.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/elephpant.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/elephpant.png
 	:og:title: An Elephpant In The Code
 	:og:type: article

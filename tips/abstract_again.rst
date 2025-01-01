@@ -11,7 +11,7 @@ Abstract Again
 	:twitter:title: Abstract Again
 	:twitter:description: Abstract Again: A concrete class may have an abstract child: the child class extends the parent class, and also receives the abstract option
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/abstract_again.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/abstract_again.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/abstract_again.png
 	:og:title: Abstract Again
 	:og:type: article

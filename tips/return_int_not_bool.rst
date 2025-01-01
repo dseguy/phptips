@@ -11,7 +11,7 @@ Return Int Not Bool
 	:twitter:title: Return Int Not Bool
 	:twitter:description: Return Int Not Bool: There is a cute deprecation warning, when using a closure to sort an array: ``Deprecated: usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/return_int_not_bool.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/return_int_not_bool.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/return_int_not_bool.png
 	:og:title: Return Int Not Bool
 	:og:type: article

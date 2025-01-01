@@ -11,7 +11,7 @@ Get The Generator
 	:twitter:title: Get The Generator
 	:twitter:description: Get The Generator: It is possible to catch a generator when it is called, by putting it in a variable
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/get_the_generator.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/get_the_generator.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/get_the_generator.png
 	:og:title: Get The Generator
 	:og:type: article

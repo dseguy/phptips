@@ -11,7 +11,7 @@ Every Anonymous Class Is Different
 	:twitter:title: Every Anonymous Class Is Different
 	:twitter:description: Every Anonymous Class Is Different: Anonymous classes don't have an explicit name, yet PHP uses one internally
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/every_anonymous_class.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/every_anonymous_class.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/every_anonymous_class.png
 	:og:title: Every Anonymous Class Is Different
 	:og:type: article

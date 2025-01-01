@@ -11,7 +11,7 @@ Store Float As Index
 	:twitter:title: Store Float As Index
 	:twitter:description: Store Float As Index: PHP doesn't allow float as index in arrays
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/store_float_as_index.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/store_float_as_index.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/store_float_as_index.png
 	:og:title: Store Float As Index
 	:og:type: article

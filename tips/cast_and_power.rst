@@ -11,7 +11,7 @@ Casting And Power
 	:twitter:title: Casting And Power
 	:twitter:description: Casting And Power: When you know that 2*2 = 4, and 2**2 = 4 (too), and 2
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/cast_and_power.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/cast_and_power.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/cast_and_power.png
 	:og:title: Casting And Power
 	:og:type: article

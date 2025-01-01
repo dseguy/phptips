@@ -11,7 +11,7 @@ Enum As A Name
 	:twitter:title: Enum As A Name
 	:twitter:description: Enum As A Name: It is possible to name a class enum, but not to name an enum class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/enum_as_name.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/enum_as_name.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/enum_as_name.png
 	:og:title: Enum As A Name
 	:og:type: article

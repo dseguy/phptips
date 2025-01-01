@@ -11,7 +11,7 @@ Named Sqlite3 In Memory
 	:twitter:title: Named Sqlite3 In Memory
 	:twitter:description: Named Sqlite3 In Memory: Sqlite3 allows the creation of ``memory`` databases: the database is not stored on the disk, but in memory
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/named_sqlite3_in_memory.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/named_sqlite3_in_memory.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/named_sqlite3_in_memory.png
 	:og:title: Named Sqlite3 In Memory
 	:og:type: article

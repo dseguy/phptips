@@ -11,7 +11,7 @@ Constants Are Mutable
 	:twitter:title: Constants Are Mutable
 	:twitter:description: Constants Are Mutable: Since PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/constant_are_mutable.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/constant_are_mutable.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/constant_are_mutable.png
 	:og:title: Constants Are Mutable
 	:og:type: article

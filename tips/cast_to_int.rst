@@ -11,7 +11,7 @@ Another Cast To Int
 	:twitter:title: Another Cast To Int
 	:twitter:description: Another Cast To Int: Another way to cast a value to int, besides the obvious ``(int)`` operator and the classic ``+ 0``, is to use the unary operator ``+`` operator on a variable: it add a sign operation on the variable, and the ``+`` sign is invariant: yet, the content of the variable is turned into an integer
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/cast_to_int.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/cast_to_int.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/cast_to_int.png
 	:og:title: Another Cast To Int
 	:og:type: article

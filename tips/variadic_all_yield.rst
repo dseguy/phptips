@@ -11,7 +11,7 @@ Variadic All The Yields
 	:twitter:title: Variadic All The Yields
 	:twitter:description: Variadic All The Yields: The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array()
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/variadic_all_yield.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/variadic_all_yield.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/variadic_all_yield.png
 	:og:title: Variadic All The Yields
 	:og:type: article

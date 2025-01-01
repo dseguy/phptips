@@ -11,7 +11,7 @@ strict_types Exceptions
 	:twitter:title: strict_types Exceptions
 	:twitter:description: strict_types Exceptions: strict_types do not apply to PHP operators, only on to typed structures
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/strict_types_exceptions.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/strict_types_exceptions.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/strict_types_exceptions.png
 	:og:title: strict_types Exceptions
 	:og:type: article

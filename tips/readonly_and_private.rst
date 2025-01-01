@@ -11,7 +11,7 @@ Set readonly Properties Outside The Class
 	:twitter:title: Set readonly Properties Outside The Class
 	:twitter:description: Set readonly Properties Outside The Class: PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/readonly_and_private.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/readonly_and_private.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/readonly_and_private.png
 	:og:title: Set readonly Properties Outside The Class
 	:og:type: article

@@ -11,7 +11,7 @@ instanceof With Variables
 	:twitter:title: instanceof With Variables
 	:twitter:description: instanceof With Variables: It is possible to compare the type of two objects with ``instanceof``: PHP uses the class of the second operand, or the name of the class passed as a string
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/instanceof_with_variable.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/instanceof_with_variable.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/instanceof_with_variable.png
 	:og:title: instanceof With Variables
 	:og:type: article

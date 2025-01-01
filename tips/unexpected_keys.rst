@@ -11,7 +11,7 @@ Unexpected keys in array
 	:twitter:title: Unexpected keys in array
 	:twitter:description: Unexpected keys in array: It is possible to put 2 elements in a PHP array, find different 5 keys with array_key_exists or isset) and yet, still count 2 distinct elements (key wise)
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/unexpected_keys.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/unexpected_keys.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/unexpected_keys.png
 	:og:title: Unexpected keys in array
 	:og:type: article

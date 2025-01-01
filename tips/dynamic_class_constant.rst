@@ -11,7 +11,7 @@ Dynamic Class Constant
 	:twitter:title: Dynamic Class Constant
 	:twitter:description: Dynamic Class Constant: It is not allowed to create dynamically a class constant
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/dynamic_class_constant.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/dynamic_class_constant.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/dynamic_class_constant.png
 	:og:title: Dynamic Class Constant
 	:og:type: article

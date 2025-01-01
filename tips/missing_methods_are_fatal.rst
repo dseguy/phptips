@@ -11,7 +11,7 @@ Missing Methods Are Fatal
 	:twitter:title: Missing Methods Are Fatal
 	:twitter:description: Missing Methods Are Fatal: Calling a missing method is a fatal error
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/missing_methods_are_fatal.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/missing_methods_are_fatal.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/missing_methods_are_fatal.png
 	:og:title: Missing Methods Are Fatal
 	:og:type: article
@@ -19,7 +19,7 @@ Missing Methods Are Fatal
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/missing_methods_are_fatal.html
 	:og:locale: en
 
-Calling a missing method is a fatal error. Reading a missing property is a warning and a default to NULL. Writing a missing property is deprecated in PHP 8.3, and will become a fatal error in PHP 9.0.
+Calling a missing method is a fatal error. Reading a missing property is a warning, and defaults to NULL. Writing to an undefined property is deprecated in PHP 8.3, and will become a fatal error in PHP 9.0. This means that both errors will have the same impact in the code.
 
 .. image:: ../images/missing_methods_are_fatal.png
 

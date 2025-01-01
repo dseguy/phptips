@@ -11,7 +11,7 @@ Only Initialize With Short Assignation Coalesce
 	:twitter:title: Only Initialize With Short Assignation Coalesce
 	:twitter:description: Only Initialize With Short Assignation Coalesce: It is not possible to access a property before its initialisation
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/initialize_with_coalesce.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/initialize_with_coalesce.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/initialize_with_coalesce.png
 	:og:title: Only Initialize With Short Assignation Coalesce
 	:og:type: article

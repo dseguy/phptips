@@ -11,7 +11,7 @@ Coalesce And Null
 	:twitter:title: Coalesce And Null
 	:twitter:description: Coalesce And Null: I'm still struggling to pick a PHP side
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/coalesce_is_null.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/coalesce_is_null.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/coalesce_is_null.png
 	:og:title: Coalesce And Null
 	:og:type: article

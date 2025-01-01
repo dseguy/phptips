@@ -11,7 +11,7 @@ Object Is Not A Type
 	:twitter:title: Object Is Not A Type
 	:twitter:description: Object Is Not A Type: Such situations always make me smile, yet I am certain several of us will loose time on such a mistake
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/object_is_not_a_type.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/object_is_not_a_type.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/object_is_not_a_type.png
 	:og:title: Object Is Not A Type
 	:og:type: article

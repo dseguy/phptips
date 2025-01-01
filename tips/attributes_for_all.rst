@@ -11,7 +11,7 @@ More Attribute Usage
 	:twitter:title: More Attribute Usage
 	:twitter:description: More Attribute Usage: PHP attributes are for classes, but also for enums, traits and interfaces
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/attributes_for_all.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/attributes_for_all.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/attributes_for_all.png
 	:og:title: More Attribute Usage
 	:og:type: article

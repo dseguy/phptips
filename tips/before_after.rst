@@ -11,7 +11,7 @@ Before Or After
 	:twitter:title: Before Or After
 	:twitter:description: Before Or After: PHP takes the opportunity to validate everything it can when it is handy, and leave the rest to execution time
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/before_after.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/before_after.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/before_after.png
 	:og:title: Before Or After
 	:og:type: article

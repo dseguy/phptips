@@ -11,7 +11,7 @@ Mixed And Untyped Are Not Compatible Types
 	:twitter:title: Mixed And Untyped Are Not Compatible Types
 	:twitter:description: Mixed And Untyped Are Not Compatible Types: A property typed mixed cannot be redefined later as untyped
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/mixed_and_no_type.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/mixed_and_no_type.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/mixed_and_no_type.png
 	:og:title: Mixed And Untyped Are Not Compatible Types
 	:og:type: article

@@ -11,7 +11,7 @@ No Returntype Enforced
 	:twitter:title: No Returntype Enforced
 	:twitter:description: No Returntype Enforced: A return type on a method means that the method must return something of that type
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no-returntype-enforced.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no-returntype-enforced.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no-returntype-enforced.png
 	:og:title: No Returntype Enforced
 	:og:type: article

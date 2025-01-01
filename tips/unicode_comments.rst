@@ -11,7 +11,7 @@ Unicode Comments
 	:twitter:title: Unicode Comments
 	:twitter:description: Unicode Comments: Besides ``//``, ``#``, ``/** */`` and ``/* */``, there is another way to make a comment in PHP: unicode #️⃣️ 
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/unicode_comments.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/unicode_comments.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/unicode_comments.png
 	:og:title: Unicode Comments
 	:og:type: article

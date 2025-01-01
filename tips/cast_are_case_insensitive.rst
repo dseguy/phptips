@@ -11,7 +11,7 @@ Cast Are Case Insensitive
 	:twitter:title: Cast Are Case Insensitive
 	:twitter:description: Cast Are Case Insensitive: TIL that the PHP cast operators such as (int), (array)
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/cast_are_case_insensitive.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/cast_are_case_insensitive.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/cast_are_case_insensitive.png
 	:og:title: Cast Are Case Insensitive
 	:og:type: article

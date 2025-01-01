@@ -11,7 +11,7 @@ Constructor Needed
 	:twitter:title: Constructor Needed
 	:twitter:description: Constructor Needed: By default, classes don't need a constructor, and it may be omitted
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/constructor_needed.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/constructor_needed.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/constructor_needed.png
 	:og:title: Constructor Needed
 	:og:type: article

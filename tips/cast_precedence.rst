@@ -11,7 +11,7 @@ Cast Precedence
 	:twitter:title: Cast Precedence
 	:twitter:description: Cast Precedence: Casting has a higher precedence than multiplication (and addition)
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/cast_precedence.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/cast_precedence.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/cast_precedence.png
 	:og:title: Cast Precedence
 	:og:type: article

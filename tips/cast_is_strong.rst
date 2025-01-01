@@ -11,7 +11,7 @@ Cast Is So Strong
 	:twitter:title: Cast Is So Strong
 	:twitter:description: Cast Is So Strong: The code below yields a Fatal Error, at linting time
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/cast_is_strong.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/cast_is_strong.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/cast_is_strong.png
 	:og:title: Cast Is So Strong
 	:og:type: article

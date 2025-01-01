@@ -11,7 +11,7 @@ Cannot Yield And Never
 	:twitter:title: Cannot Yield And Never
 	:twitter:description: Cannot Yield And Never: Never, as a return type, mentions that the method will never return
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/yield_cannot_never.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/yield_cannot_never.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/yield_cannot_never.png
 	:og:title: Cannot Yield And Never
 	:og:type: article

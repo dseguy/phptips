@@ -11,7 +11,7 @@ By Reference, Error Or Notice?
 	:twitter:title: By Reference, Error Or Notice?
 	:twitter:description: By Reference, Error Or Notice?: Passing a literal, by reference, to a method yields a Fatal error
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/by_reference_errors.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/by_reference_errors.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/by_reference_errors.png
 	:og:title: By Reference, Error Or Notice?
 	:og:type: article

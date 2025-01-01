@@ -11,7 +11,7 @@ Class Implement No More
 	:twitter:title: Class Implement No More
 	:twitter:description: Class Implement No More: Inheritance forces children classes to have only methods that are compatible with the parent's methods
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/class_implements_no_more.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/class_implements_no_more.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/class_implements_no_more.png
 	:og:title: Class Implement No More
 	:og:type: article

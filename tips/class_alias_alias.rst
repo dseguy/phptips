@@ -11,7 +11,7 @@ All Classes Aliases
 	:twitter:title: All Classes Aliases
 	:twitter:description: All Classes Aliases: To make a class alias, use class_alias()
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/class_alias_alias.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/class_alias_alias.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/class_alias_alias.png
 	:og:title: All Classes Aliases
 	:og:type: article

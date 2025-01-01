@@ -11,7 +11,7 @@ Noscream On Ellipsis
 	:twitter:title: Noscream On Ellipsis
 	:twitter:description: Noscream On Ellipsis: Noscream operator @ hides errors locally, in an expression
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/noscream-on-ellipsis.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/noscream-on-ellipsis.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/noscream-on-ellipsis.png
 	:og:title: Noscream On Ellipsis
 	:og:type: article

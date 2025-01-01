@@ -11,7 +11,7 @@ No Property In Interface
 	:twitter:title: No Property In Interface
 	:twitter:description: No Property In Interface: PHP is better than me : I thought I found a way to create properties in an interface, by declaring promoted properties in a constructor
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_property_in_interface.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_property_in_interface.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_property_in_interface.png
 	:og:title: No Property In Interface
 	:og:type: article

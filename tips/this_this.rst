@@ -11,7 +11,7 @@ $this $this
 	:twitter:title: $this $this
 	:twitter:description: $this $this: $this is the pseudo-variable that represents the current object
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/this_this.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/this_this.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/this_this.png
 	:og:title: $this $this
 	:og:type: article

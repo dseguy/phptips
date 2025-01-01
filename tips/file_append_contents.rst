@@ -11,7 +11,7 @@ A Function Called file_append_contents()
 	:twitter:title: A Function Called file_append_contents()
 	:twitter:description: A Function Called file_append_contents(): file_put_contents() can append data to the end of the file, with the ``FILE_APPEND`` option
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/file_append_contents.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/file_append_contents.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/file_append_contents.png
 	:og:title: A Function Called file_append_contents()
 	:og:type: article

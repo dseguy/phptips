@@ -11,7 +11,7 @@ array_append() And Short Assignation
 	:twitter:title: array_append() And Short Assignation
 	:twitter:description: array_append() And Short Assignation: PHP allows using short assignation operators with the array append operators
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_append.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_append.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_append.png
 	:og:title: array_append() And Short Assignation
 	:og:type: article

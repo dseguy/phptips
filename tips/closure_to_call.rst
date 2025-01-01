@@ -11,7 +11,7 @@ Closure To Call
 	:twitter:title: Closure To Call
 	:twitter:description: Closure To Call: The ``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/closure_to_call.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/closure_to_call.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/closure_to_call.png
 	:og:title: Closure To Call
 	:og:type: article

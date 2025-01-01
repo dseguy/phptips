@@ -11,7 +11,7 @@ Cannot Static Static Property
 	:twitter:title: Cannot Static Static Property
 	:twitter:description: Cannot Static Static Property: Static can be used as a keyword to mark a property as 'static' (sic)
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/static_static_property.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/static_static_property.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/static_static_property.png
 	:og:title: Cannot Static Static Property
 	:og:type: article

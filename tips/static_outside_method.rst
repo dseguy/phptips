@@ -11,7 +11,7 @@ Static Variable Outside A Method
 	:twitter:title: Static Variable Outside A Method
 	:twitter:description: Static Variable Outside A Method: TIL that PHP static variables can be declared out of a function, in the namespace
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/static_outside_method.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/static_outside_method.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/static_outside_method.png
 	:og:title: Static Variable Outside A Method
 	:og:type: article

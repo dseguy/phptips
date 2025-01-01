@@ -11,7 +11,7 @@ Negating An Assignation
 	:twitter:title: Negating An Assignation
 	:twitter:description: Negating An Assignation: I always wondered why PHP allows to NOT a variable on the LEFT side of an assignation
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/negating_a_variable.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/negating_a_variable.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/negating_a_variable.png
 	:og:title: Negating An Assignation
 	:og:type: article

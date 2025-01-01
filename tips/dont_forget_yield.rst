@@ -11,7 +11,7 @@ Don't Forget To Yield
 	:twitter:title: Don't Forget To Yield
 	:twitter:description: Don't Forget To Yield: It is possible to delegate a generator to another generator
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/dont_forget_yield.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/dont_forget_yield.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/dont_forget_yield.png
 	:og:title: Don't Forget To Yield
 	:og:type: article

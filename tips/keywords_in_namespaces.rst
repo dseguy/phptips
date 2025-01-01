@@ -11,7 +11,7 @@ Keywords In Namespaces
 	:twitter:title: Keywords In Namespaces
 	:twitter:description: Keywords In Namespaces: Since PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/keywords_in_namespaces.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/keywords_in_namespaces.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/keywords_in_namespaces.png
 	:og:title: Keywords In Namespaces
 	:og:type: article

@@ -11,7 +11,7 @@ Enum Are Not Linted
 	:twitter:title: Enum Are Not Linted
 	:twitter:description: Enum Are Not Linted: It is possible to give two identical values to different enumeration cases, but not to execute it
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/enum_are_not_linted.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/enum_are_not_linted.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/enum_are_not_linted.png
 	:og:title: Enum Are Not Linted
 	:og:type: article

@@ -11,7 +11,7 @@ No Class Constant In String
 	:twitter:title: No Class Constant In String
 	:twitter:description: No Class Constant In String: Interpolation is injecting variable values inside strings
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no-constant-in-string.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no-constant-in-string.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no-constant-in-string.png
 	:og:title: No Class Constant In String
 	:og:type: article

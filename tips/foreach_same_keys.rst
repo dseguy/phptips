@@ -11,7 +11,7 @@ foreach() With All The Same Keys
 	:twitter:title: foreach() With All The Same Keys
 	:twitter:description: foreach() With All The Same Keys: It is possible for a foreach() loop to produce multiple times the same key
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/foreach_same_keys.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/foreach_same_keys.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/foreach_same_keys.png
 	:og:title: foreach() With All The Same Keys
 	:og:type: article

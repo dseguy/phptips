@@ -11,7 +11,7 @@ Compatible Signature
 	:twitter:title: Compatible Signature
 	:twitter:description: Compatible Signature: This piece of code shows a signature that changes with the version of PHP
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/compatible-signature.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/compatible-signature.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/compatible-signature.png
 	:og:title: Compatible Signature
 	:og:type: article

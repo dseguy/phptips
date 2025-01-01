@@ -11,7 +11,7 @@ array_reduce() To Filter And Alter
 	:twitter:title: array_reduce() To Filter And Alter
 	:twitter:description: array_reduce() To Filter And Alter: Using array_reduce() to create custom data structures goes beyond simple filtering
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_reduce.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_reduce.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_reduce.png
 	:og:title: array_reduce() To Filter And Alter
 	:og:type: article

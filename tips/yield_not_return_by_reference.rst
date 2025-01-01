@@ -11,7 +11,7 @@ Yield, Not Return By Reference
 	:twitter:title: Yield, Not Return By Reference
 	:twitter:description: Yield, Not Return By Reference: When a method returns a reference, there is a ``&`` before its name, in the signature
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/yield_not_return_by_reference.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/yield_not_return_by_reference.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/yield_not_return_by_reference.png
 	:og:title: Yield, Not Return By Reference
 	:og:type: article

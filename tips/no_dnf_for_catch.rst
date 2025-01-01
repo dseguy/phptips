@@ -11,7 +11,7 @@ No DNF For Catch
 	:twitter:title: No DNF For Catch
 	:twitter:description: No DNF For Catch: Catch clauses accept multiple types of exceptions, since PHP 7
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_dnf_for_catch.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no_dnf_for_catch.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no_dnf_for_catch.png
 	:og:title: No DNF For Catch
 	:og:type: article

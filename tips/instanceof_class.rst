@@ -11,7 +11,7 @@ instanceof Object
 	:twitter:title: instanceof Object
 	:twitter:description: instanceof Object: object is a type, but it can also be used as a constant name
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/instanceof_class.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/instanceof_class.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/instanceof_class.png
 	:og:title: instanceof Object
 	:og:type: article

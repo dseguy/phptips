@@ -11,7 +11,7 @@ Escaping A Regex
 	:twitter:title: Escaping A Regex
 	:twitter:description: Escaping A Regex: To use literal characters inside a regex, it is possible to use preg_quote(): it adds a backslash before every special character in the string
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/escaped_regex.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/escaped_regex.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/escaped_regex.png
 	:og:title: Escaping A Regex
 	:og:type: article

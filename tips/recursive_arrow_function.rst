@@ -11,7 +11,7 @@ Recursive Arrow Function
 	:twitter:title: Recursive Arrow Function
 	:twitter:description: Recursive Arrow Function: To make an arrow function recursive, it must include itself in the list of arguments
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/recursive_arrow_function.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/recursive_arrow_function.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/recursive_arrow_function.png
 	:og:title: Recursive Arrow Function
 	:og:type: article

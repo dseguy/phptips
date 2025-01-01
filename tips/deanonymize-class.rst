@@ -11,7 +11,7 @@ Deanonymize Class
 	:twitter:title: Deanonymize Class
 	:twitter:description: Deanonymize Class: Anonymize class are classes without a name
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/deanonymize-class.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/deanonymize-class.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/deanonymize-class.png
 	:og:title: Deanonymize Class
 	:og:type: article

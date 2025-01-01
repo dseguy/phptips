@@ -11,7 +11,7 @@ Playing With Integers Limits
 	:twitter:title: Playing With Integers Limits
 	:twitter:description: Playing With Integers Limits: Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1/12
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/playing_with_the_limit.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/playing_with_the_limit.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/playing_with_the_limit.png
 	:og:title: Playing With Integers Limits
 	:og:type: article

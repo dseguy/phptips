@@ -11,7 +11,7 @@ Void Parameter In array_keys()
 	:twitter:title: Void Parameter In array_keys()
 	:twitter:description: Void Parameter In array_keys(): There is a 'void' parameter in PHP
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/void_parameter.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/void_parameter.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/void_parameter.png
 	:og:title: Void Parameter In array_keys()
 	:og:type: article

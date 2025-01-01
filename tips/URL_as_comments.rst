@@ -11,7 +11,7 @@ URL As Comments
 	:twitter:title: URL As Comments
 	:twitter:description: URL As Comments: The code below includes a raw URL in the code
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/URL_as_comments.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/URL_as_comments.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/URL_as_comments.png
 	:og:title: URL As Comments
 	:og:type: article

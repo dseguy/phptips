@@ -11,7 +11,7 @@ No Returntype But Still, Only String
 	:twitter:title: No Returntype But Still, Only String
 	:twitter:description: No Returntype But Still, Only String: Without a return type (or mixed), a method may return any type of data
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no-type-but-string.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/no-type-but-string.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/no-type-but-string.png
 	:og:title: No Returntype But Still, Only String
 	:og:type: article

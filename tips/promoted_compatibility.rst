@@ -11,7 +11,7 @@ Promoted Properties Compatibility
 	:twitter:title: Promoted Properties Compatibility
 	:twitter:description: Promoted Properties Compatibility: Promoted properties are defined in a constructor signature
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/promoted_compatibility.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/promoted_compatibility.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/promoted_compatibility.png
 	:og:title: Promoted Properties Compatibility
 	:og:type: article

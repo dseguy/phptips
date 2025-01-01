@@ -11,7 +11,7 @@ The Function Method
 	:twitter:title: The Function Method
 	:twitter:description: The Function Method: It is possible to name a method 'function'
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/function_function.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/function_function.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/function_function.png
 	:og:title: The Function Method
 	:og:type: article

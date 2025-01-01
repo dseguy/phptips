@@ -11,7 +11,7 @@ Numeric Separators Inside A String?
 	:twitter:title: Numeric Separators Inside A String?
 	:twitter:description: Numeric Separators Inside A String?: Since PHP 7
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/numeric_separator_string.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/numeric_separator_string.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/numeric_separator_string.png
 	:og:title: Numeric Separators Inside A String?
 	:og:type: article

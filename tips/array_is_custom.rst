@@ -11,7 +11,7 @@
 	:twitter:title: \\array Was Customizable
 	:twitter:description: \\array Was Customizable: This code gathers several PHP hacks together
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_is_custom.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_is_custom.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_is_custom.png
 	:og:title: \\array Was Customizable
 	:og:type: article

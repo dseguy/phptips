@@ -11,7 +11,7 @@ Stealth Generator
 	:twitter:title: Stealth Generator
 	:twitter:description: Stealth Generator: The code below has a useless loop
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/stealth-generator.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/stealth-generator.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/stealth-generator.png
 	:og:title: Stealth Generator
 	:og:type: article

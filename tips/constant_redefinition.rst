@@ -11,7 +11,7 @@ Constant Redefinition
 	:twitter:title: Constant Redefinition
 	:twitter:description: Constant Redefinition: It is possible to specify several identical global constant definition: PHP reports a warning, and ignores the second definitions
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/constant_redefinition.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/constant_redefinition.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/constant_redefinition.png
 	:og:title: Constant Redefinition
 	:og:type: article

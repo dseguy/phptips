@@ -11,7 +11,7 @@ Recursive Generator
 	:twitter:title: Recursive Generator
 	:twitter:description: Recursive Generator: Generator, using yield, may become recursive, when using the ``yield from`` keyword
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/recursive_yield.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/recursive_yield.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/recursive_yield.png
 	:og:title: Recursive Generator
 	:og:type: article

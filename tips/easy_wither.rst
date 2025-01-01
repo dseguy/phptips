@@ -11,7 +11,7 @@ Easy Wither Call
 	:twitter:title: Easy Wither Call
 	:twitter:description: Easy Wither Call: Can be useful to create "with-ers" in an immutable (value) object with a LOT of readonly properties
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/easy_wither.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/easy_wither.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/easy_wither.png
 	:og:title: Easy Wither Call
 	:og:type: article

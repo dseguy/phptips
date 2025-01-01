@@ -11,7 +11,7 @@ Yield, Not Return
 	:twitter:title: Yield, Not Return
 	:twitter:description: Yield, Not Return: This will display ``1 2 3``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/yield_not_return.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/yield_not_return.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/yield_not_return.png
 	:og:title: Yield, Not Return
 	:og:type: article

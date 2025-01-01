@@ -11,7 +11,7 @@ Type Is Not Always Returned
 	:twitter:title: Type Is Not Always Returned
 	:twitter:description: Type Is Not Always Returned: A method can display a return type, and never return it actually
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/type_is_not_available.png.png
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/type_is_not_available.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/type_is_not_available.png
 	:og:title: Type Is Not Always Returned
 	:og:type: article
