@@ -19,7 +19,7 @@ Get The Generator
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/get_the_generator.html
 	:og:locale: en
 
-It is possible to catch a generator when it is called, by putting it in a variable. Once the generator has been used, you can then call a method such as ``getReturn`` on it.
+It is possible to catch a generator when it is called, by putting it in a variable. Once the generator has been used, it is possible to call a method such as ``getReturn`` on it.
 
 This works with ``...`` and ``foreach``.
 

@@ -19,10 +19,10 @@ Object Is Not A Type
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/object_is_not_a_type.html
 	:og:locale: en
 
-Such situations always make me smile, yet I am certain several of us will loose time on such a mistake. It is a bit more obvious with integer or string in the instanceof.
+Such situations always make me smile, yet I am certain several of us will loose time on such a mistake. ``object`` is a type that can be used with argument, returntypes and properties, but not with ``instanceof``. It is a bit more obvious with integer or string in the ``instanceof``.
 
 .. image:: ../images/object_is_not_a_type.png
 
-* `Variables (PHP manual) <https://www.php.net/manual/en/language.variables.php>`_
+* `Type Operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
 
 

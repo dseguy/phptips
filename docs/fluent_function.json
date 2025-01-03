@@ -1,0 +1,15 @@
+{
+    "image": "fluent_function.png",
+    "date": "2025-01-03",
+    "title": "Fluent Function",
+    "content": "A fluent interface allows the chaining of method calls. It is a bit harder to do with functions, as there is no supporting object, but it is possible.\nReturning ``__FUNCTION__`` allows the subsequent call of the same function.\nReturning a closure of itself is also possible, yet a bit more cumbersome, as ``__FUNCTION__`` is not recognized as a string for a function call.\nThanks to Andreas Heigl for the inspiration.",
+    "seeAlso": {
+        "Magic Constant (PHP manual)": "https://www.php.net/manual/en/language.constants.magic.php",
+        "First Class Callable (PHP manual)": "https://www.php.net/manual/en/functions.first_class_callable_syntax.php"
+    },
+    "tags": [
+        "surprising"
+    ],
+    "author": "",
+    "contact": ""
+}

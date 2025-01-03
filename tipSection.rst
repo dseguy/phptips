@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/fluent_function.rst
    tips/isset_on_expression.rst
    tips/constant_redefinition.rst
    tips/no-constant-in-string.rst

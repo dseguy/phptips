@@ -2,7 +2,7 @@
     "image": "recursive_closure.png",
     "date": "2022-05-24",
     "title": "Recursive Closure",
-    "content": "To make a recursive closure, the closure must be both stored in a variable and passed as a ``use`` parameter to the same factorial.\nIt also works for array functions, without the use.",
+    "content": "To make a recursive closure, the closure must be both stored in a variable and passed as a ``use`` parameter to the same factorial.\nIt also works for arrow functions, although there is no the use, but the variable must be defined first, so it can be used in context later.",
     "seeAlso": {
         "Closure (PHP manual)": "https://www.php.net/manual/en/class.closure.php"
     },
