@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/new_and_parenthesis.html</loc>
+ </url>
+ <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/fluent_function.html</loc>
  </url>
  <url>
@@ -248,9 +251,6 @@
  </url>
  <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/before_after.html</loc>
- </url>
- <url>
-  <loc>https://php-tips.readthedocs.io/en/latest/tips/cast_is_strong.html</loc>
  </url>
  <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/roman_loops.html</loc>
@@ -511,9 +511,6 @@
   <loc>https://php-tips.readthedocs.io/en/latest/tips/keywords_in_namespaces.html</loc>
  </url>
  <url>
-  <loc>https://php-tips.readthedocs.io/en/latest/tips/variable_optimisation.html</loc>
- </url>
- <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/self_in_interface.html</loc>
  </url>
  <url>
@@ -542,9 +539,6 @@
  </url>
  <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/recursive_closure.html</loc>
- </url>
- <url>
-  <loc>https://php-tips.readthedocs.io/en/latest/tips/cast_precedence.html</loc>
  </url>
  <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/enum_as_name.html</loc>

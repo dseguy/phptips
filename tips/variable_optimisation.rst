@@ -25,9 +25,11 @@ PHP variable optimisation in action: the undefined variables are only reported w
 
 The first is omitted : there are no operations.
 
-The second is skipped : no need to execute its second term
+The second is skipped : no need to execute the second term of the ``or``.
 
 The third is reporting a warning.
+
+Of course, an assignation is not reported with an undefined variable, as it will be set. Although, may be reusage of a variable could be reported.
 
 .. image:: ../images/variable_optimisation.png
 

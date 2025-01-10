@@ -4,13 +4,15 @@
     "title": "Cast Precedence",
     "content": "Casting has a higher precedence than multiplication (and addition). Here, the cast on the float happens first, which leads to 0. This 0 is later multiplied by 100, and that still gives 0.\nIf $c was the first operand, it would be cast first to integer, with no impact, and then multiplied: that leads to a float value, even with the cast.",
     "seeAlso": {
-        "Operator Precedence": "https://www.php.net/manual/en/language.operators.precedence.php",
-        "Reverse illustration":"https://3v4l.org/JIP0g"
+        "Operator Precedence": "https://www.php.net/manual/en/language.operators.precedence.php"
     },
     "tags": [
         "surprising",
         "bug"
     ],
+    "3v4l": {
+            "Reverse illustration":"https://3v4l.org/JIP0g"
+    }
     "author": "",
     "contact": ""
 }
