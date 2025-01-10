@@ -64,7 +64,7 @@ foreach($files as $file) {
 		continue;
 	}
 
-	if (($c = count(explode(' ', $tip->content))) < 40) {
+	if (empty($tip->author) &&  ($c = count(explode(' ', $tip->content))) < 40) {
 		buildlog("Warning : $c words content in $file");;
 		++$errors;
 		continue;
@@ -76,6 +76,33 @@ foreach($files as $file) {
 		continue;
 	}
 
+    if (empty($tip->seeAlso)) {
+        $sandbox = false;
+    } else {
+        $sandbox = false;
+        foreach($tip->seeAlso as $title => $link) {
+            if (empty($title)) {
+            	buildlog("Warning : No title in seeAlso in $file");;
+        		++$errors;
+            }
+            if (empty($link)) {
+            	buildlog("Warning : No link in seeAlso in $file");;
+        		++$errors;
+            }
+            if (!isset($tip->seeAlso->{$tip->title.' on 3v4l.org'})) {
+            	buildlog("Warning : No title to 3v4l.org in $file");;
+        		++$errors;
+            }
+
+            if (str_contains($link, '3v4l.org')) {
+	    	    $sandbox = true;
+		    }
+        }
+    }
+    if ($sandbox === false) {
+    	buildlog("Warning : No 3v4l link in $file");;
+    }
+
 	if (str_contains($tip->content, '#PHP')) {
 		buildlog("Warning : No need for #PHP in $file");;
 		++$errors;
@@ -83,7 +110,7 @@ foreach($files as $file) {
 	}
 
 	if (str_contains($tip->content, 'will')) {
-//		buildlog("Warning : No need for will in $file");;
+//		buildlog("Warning : No need for will in $file");
 //		++$errors;
 //		continue;
 	}
@@ -195,7 +222,7 @@ foreach($tips as $tip) {
 	$phptip[] = '	:twitter:title: '.$tip->title.'';
 	$phptip[] = '	:twitter:description: '.$tip->title.': '.$first.'';
 	$phptip[] = '	:twitter:creator: @exakat';
-	$phptip[] = '	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/'.$tip->image.'.png';
+	$phptip[] = '	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/'.$tip->image.'';
 
 	$phptip[] = '	:og:image: https://php-tips.readthedocs.io/en/latest/_images/'.$tip->image.'';
 	$phptip[] = '	:og:title: '.$tip->title.'';
