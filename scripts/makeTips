@@ -23,6 +23,7 @@ $phptips[] = "-------------------";
 $phptips[] = "";
 
 $files = glob('docs/*.json');
+
 $files = array_diff($files, ['docs/skeleton.json']);
 
 $images = glob('images/*.png');
@@ -89,7 +90,7 @@ foreach($files as $file) {
             	buildlog("Warning : No link in seeAlso in $file");;
         		++$errors;
             }
-            if (!isset($tip->seeAlso->{$tip->title.' on 3v4l.org'})) {
+            if (empty($tip->{'3v4l'}) && !isset($tip->seeAlso->{$tip->title.' on 3v4l.org'})) {
             	buildlog("Warning : No title to 3v4l.org in $file");;
         		++$errors;
             }
@@ -99,8 +100,9 @@ foreach($files as $file) {
 		    }
         }
     }
-    if ($sandbox === false) {
-    	buildlog("Warning : No 3v4l link in $file");;
+    if ($sandbox === false && empty($tip->{'3v4l'})) {
+    	buildlog("Warning : No 3v4l link in $file");
+    	++$errors;
     }
 
 	if (str_contains($tip->content, '#PHP')) {
@@ -211,21 +213,24 @@ foreach($tips as $tip) {
 	$phptip[] = $tip->title;
 	$phptip[] = str_repeat(LEVEL_UNDERLINE, strlen($tip->title));
 	$phptip[] = '';
-	
+
+
+    $title = $tip->title;
+    $title = str_replace('`', '', $title);
 	$phptip[] = '.. meta::';
 	$phptip[] = '	:description:';
 	$first = preg_split('/[\.\?;'.PHP_EOL.']/', $tip->content)[0];
-	$phptip[] = '		'.$tip->title.': '.$first.'.';
+	$phptip[] = '		'.$title.': '.$first.'.';
 	
 	$phptip[] = '	:twitter:card: summary_large_image';
 	$phptip[] = '	:twitter:site: @exakat';
-	$phptip[] = '	:twitter:title: '.$tip->title.'';
+	$phptip[] = '	:twitter:title: '.$title.'';
 	$phptip[] = '	:twitter:description: '.$tip->title.': '.$first.'';
 	$phptip[] = '	:twitter:creator: @exakat';
 	$phptip[] = '	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/'.$tip->image.'';
 
 	$phptip[] = '	:og:image: https://php-tips.readthedocs.io/en/latest/_images/'.$tip->image.'';
-	$phptip[] = '	:og:title: '.$tip->title.'';
+	$phptip[] = '	:og:title: '.$title.'';
 	$phptip[] = '	:og:type: article';
 	$phptip[] = '	:og:description: '.$first.'';
 	$phptip[] = '	:og:url: https://php-tips.readthedocs.io/en/latest/tips/'.$name.'.html';
@@ -243,10 +248,14 @@ foreach($tips as $tip) {
 	
 	$phptip[] = '';
 	$phptip[] = ".. image:: ../images/".$tip->image;
-	
-	if (!empty($tip->seeAlso)) {
+
+	$links = array_merge((array) $tip->seeAlso, (array)($tip?->{'3v4l'} ?? []));
+	if (empty($links)) {
+		buildlog("Warning : seeAlso & 3v4l are empty in $file");;
+		++$errors;
+	} else {
 		$phptip[] = '';
-		foreach($tip->seeAlso as $title => $link) {
+		foreach($links as $title => $link) {
 			$phptip[] = '* `'.$title.' <'.$link.'>`_';
 		}
 		$phptip[] = '';
@@ -279,7 +288,6 @@ file_put_contents('tipSection.rst', $index);
 print "processed ".count($files)." file with $errors error\n";
 
 uasort($tags, function ($a, $b) { return count($a) <=> count($b);});
-//print_r($tags);
 
 if (!empty($authors)) {
 	$authorRst = <<<RST
