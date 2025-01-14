@@ -31,9 +31,9 @@ Valid in PHP 8.1, with support for variadic and named keys.
 
 .. image:: ../images/easy_wither.png
 
-* `Easy Wither code <https://3v4l.org/XhG90>`_
 * `Original Tweet <https://twitter.com/b_viguier/status/1736328787741065295>`_
 * `get_defined_vars <https://www.php.net/manual/en/function.get-defined-vars.php>`_
 * `func_get_args <https://www.php.net/manual/en/function.func-get-args.php>`_
+* `Easy Wither <https://3v4l.org/XhG90>`_
 
 

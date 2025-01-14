@@ -4,7 +4,6 @@
     "title": "Easy Wither Call",
     "content": "Can be useful to create \"with-ers\" in an immutable (value) object with a LOT of readonly properties.\n'+' is the addition of arrays, the first values have priority.\nget_defined_vars() gets the local variables, with their name, unlike func_get_args().\nValid in PHP 8.1, with support for variadic and named keys.",
     "seeAlso": {
-        "Easy Wither code": "https://3v4l.org/XhG90",
         "Original Tweet": "https://twitter.com/b_viguier/status/1736328787741065295",
         "get_defined_vars": "https://www.php.net/manual/en/function.get-defined-vars.php",
         "func_get_args": "https://www.php.net/manual/en/function.func-get-args.php"
@@ -14,5 +13,8 @@
         "object copy"
     ],
 	"author":"Benoit Viguier",
-	"contact":"https://phpc.social/@b_viguier"
+	"contact":"https://phpc.social/@b_viguier",
+	"3v4l":{
+	    "Easy Wither":"https://3v4l.org/XhG90"
+	}
 }
