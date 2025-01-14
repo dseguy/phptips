@@ -29,6 +29,3 @@ To invoke the object in the property ``y``, one has to put parenthesis around th
 
 .. image:: ../images/invoke_and_properties.png
 
-* `__invoke() (PHP manual) <https://www.php.net/manual/en/language.oop5.magic.php#object.invoke>`_
-
-

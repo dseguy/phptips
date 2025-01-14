@@ -28,5 +28,6 @@ When changing it, don't forget to reset it to default, unless you like to puzzle
 .. image:: ../images/precision.png
 
 * `precision (PHP manual) <https://www.php.net/manual/en/ini.core.php#ini.precision>`_
+* `precision <https://3v4l.org/OlpZu>`_
 
 

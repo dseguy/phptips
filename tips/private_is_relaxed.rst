@@ -27,5 +27,3 @@ As usual, use with caution.
 
 .. image:: ../images/private_is_relaxed.png
 
-
-

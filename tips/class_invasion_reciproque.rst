@@ -26,5 +26,6 @@ The same checks allow the other object to access the current one's, as seen in t
 .. image:: ../images/class_invasion_reciproque.png
 
 * `Class Invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary.html#class-invasion>`_
+* `class invasion reciproque <https://3v4l.org/rFjoe>`_
 
 

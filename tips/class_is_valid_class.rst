@@ -27,5 +27,3 @@ Of course, once this is typed like that, it is not possible to satisfy the type 
 
 .. image:: ../images/class_is_valid_class.png
 
-
-

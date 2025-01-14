@@ -47,5 +47,3 @@ Let's review them all.
 
 .. image:: ../images/all_static_curly_syntaxes.png
 
-
-

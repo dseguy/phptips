@@ -25,5 +25,3 @@ First ``array`` is the type, the second is the name of the constant, with the re
 
 .. image:: ../images/array_array_array.png
 
-
-

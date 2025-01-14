@@ -31,5 +31,3 @@ third is reporting a warning.
 
 .. image:: ../images/silent_optimisation.png
 
-
-

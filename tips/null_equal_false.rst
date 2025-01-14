@@ -25,5 +25,3 @@ On the other hand, using null and false as keys in an array, lead them to be cas
 
 .. image:: ../images/null_equal_false.png
 
-
-

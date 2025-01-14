@@ -27,5 +27,3 @@ Of course, it is also possible to create a function called method.
 
 .. image:: ../images/function_function.png
 
-
-

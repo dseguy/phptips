@@ -29,5 +29,3 @@ Some edge cases of white space matters in the syntax.
 
 .. image:: ../images/when_space_matters.png
 
-
-

@@ -19,7 +19,7 @@ array_intersect_uassoc_insensitive() ?
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/array_intersect_uassoc_insensitive.html
 	:og:locale: en
 
-array_intersect() functions use a direct comparison between the values in the array to make the comparison. When you need that comparison to be case insensitive, then you can use the ``u`` version of those functions, to make a case insensitive comparison.
+array_intersect() functions use a direct comparison between the values in the array to make the comparison. When the comparison needs to be case insensitive, then one can use the ``u`` version of those functions, to make a case insensitive comparison.
 
 .. image:: ../images/array_intersect_uassoc_insensitive.png
 

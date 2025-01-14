@@ -27,5 +27,3 @@ It is not possible to do this twice in the same file, nor to redefine classes.
 
 .. image:: ../images/redefine_native_functions.png
 
-
-

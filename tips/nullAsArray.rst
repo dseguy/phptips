@@ -27,5 +27,3 @@ Interestingly, Null and boolean accept illegal keys, with a simple warning.
 
 .. image:: ../images/nullAsArray.png
 
-
-

@@ -25,5 +25,3 @@ The validation of the first class will be more thorough at execution time, and y
 
 .. image:: ../images/before_after.png
 
-
-

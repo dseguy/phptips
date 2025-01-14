@@ -36,5 +36,6 @@ Now, it would be great to have a syntax where the parenthesis are before the cla
 .. image:: ../images/new_and_parenthesis.png
 
 * `Basics (PHP manual) <https://www.php.net/manual/en/language.oop5.basic.php>`_
+* `new and parenthesis <https://3v4l.org/K2ZrD>`_
 
 

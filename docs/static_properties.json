@@ -1,0 +1,16 @@
+{
+    "image": "static_properties.png",
+    "date": "2025-01-14",
+    "title": "Static Properties",
+    "content": "It is easy to read that the property ``$x`` is of type ``Test`` (via static), with an impossible default value of 0. In fact, this property is not typed, as using ``static`` is not a possible type for properties.\nSecondly, static properties are inherited and shared with the parent static properties, unless they are declared again. In that case, they are distinct.",
+    "seeAlso": {
+        "Static keywords (PHP manual)": "https://www.php.net/manual/en/language.oop5.static.php"
+    },
+    "tags": [
+        "lesser known"
+    ],
+    "author": "",
+    "contact": "",
+    "3v4l":"https://3v4l.org/78oEF",
+    "features":["static-properties", "property"]
+}

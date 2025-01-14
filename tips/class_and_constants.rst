@@ -28,5 +28,6 @@ This allows for very confusing lines like these ones.
 .. image:: ../images/class_and_constants.png
 
 * `Class Constants (PHP manual) <https://www.php.net/manual/en/language.oop5.constants.php>`_
+* `class and constants <https://3v4l.org/RQIRu>`_
 
 

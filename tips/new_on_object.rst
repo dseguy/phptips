@@ -37,5 +37,3 @@ Lastly, the full class name is available in the x::class syntax, but PHP won't r
 
 .. image:: ../images/new_on_object.png
 
-
-

@@ -25,5 +25,3 @@ It is most probably a bug, given the number of arguments in in_array().
 
 .. image:: ../images/misplaced_parenthesis.png
 
-
-

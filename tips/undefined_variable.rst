@@ -27,5 +27,3 @@ Upon close inspection, the variable is actually used in the call to the function
 
 .. image:: ../images/undefined_variable.png
 
-
-

@@ -6,6 +6,9 @@
     "seeAlso": {
         "precision (PHP manual)": "https://www.php.net/manual/en/ini.core.php#ini.precision"
     },
+    "3v4l": {
+        "precision":"https://3v4l.org/OlpZu"
+    },
     "tags": [
         "float",
         "directive"

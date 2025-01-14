@@ -23,5 +23,3 @@ Another way to cast a value to int, besides the obvious ``(int)`` operator and t
 
 .. image:: ../images/cast_to_int.png
 
-
-

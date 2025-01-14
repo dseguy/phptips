@@ -27,11 +27,13 @@ I'm still struggling to pick a PHP side.
 
 
 
-?? looks dumb: it reads : if it is null, use null as default.
+``??`` looks dumb. It looks like : if it is null, use null as default.
 
 
 
 the if() command is long to type.
+
+Is there another way to handle this issue?
 
 .. image:: ../images/coalesce_is_null.png
 

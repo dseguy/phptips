@@ -25,5 +25,3 @@ This PHP code is valid. It works because of the way operator syntax is parsed: i
 
 .. image:: ../images/while_i_--.png
 
-
-

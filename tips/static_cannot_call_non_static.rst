@@ -25,5 +25,3 @@ A non-static method needs a value for ``$this``, which a static call doesn't pro
 
 .. image:: ../images/static_cannot_call_non_static.png
 
-
-

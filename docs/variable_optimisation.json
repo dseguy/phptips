@@ -6,7 +6,7 @@
 "seeAlso":{
 	"Variables (PHP manual)":"https://www.php.net/manual/en/language.variables.php"
 },
-"3v4l"["Variable optimisation"]: "https://3v4l.org/HJKbV",
+"3v4l":{"Variable optimisation": "https://3v4l.org/HJKbV"},
 "tags":[
 	"variable",
 	"optimisation"

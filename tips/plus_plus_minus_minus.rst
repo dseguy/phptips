@@ -25,5 +25,3 @@ Don't forget the space between the plus and minus, or it will be a post incremen
 
 .. image:: ../images/plus_plus_minus_minus.png
 
-
-

@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/static_properties.rst
    tips/new_and_parenthesis.rst
    tips/fluent_function.rst
    tips/isset_on_expression.rst
@@ -89,6 +90,7 @@ PHP tips and tricks
    tips/redefine_native_functions.rst
    tips/static_cannot_call_non_static.rst
    tips/before_after.rst
+   tips/cast_is_strong.rst
    tips/roman_loops.rst
    tips/finally_catches_exception.rst
    tips/abstract_again.rst
@@ -175,6 +177,7 @@ PHP tips and tricks
    tips/object_is_not_a_type.rst
    tips/forgotten_throw.rst
    tips/keywords_in_namespaces.rst
+   tips/variable_optimisation.rst
    tips/self_in_interface.rst
    tips/instanceof_class.rst
    tips/stdclass_tracking.rst

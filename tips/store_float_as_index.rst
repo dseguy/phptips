@@ -25,5 +25,3 @@ It is possible to use them as such by casting them to string. Later, type juggli
 
 .. image:: ../images/store_float_as_index.png
 
-
-

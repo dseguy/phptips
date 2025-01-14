@@ -25,5 +25,3 @@ There is no syntax to call dynamically a function whose name is stored in a cons
 
 .. image:: ../images/confusing_identifier.png
 
-
-

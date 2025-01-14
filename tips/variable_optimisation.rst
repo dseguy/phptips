@@ -34,5 +34,6 @@ Of course, an assignation is not reported with an undefined variable, as it will
 .. image:: ../images/variable_optimisation.png
 
 * `Variables (PHP manual) <https://www.php.net/manual/en/language.variables.php>`_
+* `Variable optimisation <https://3v4l.org/HJKbV>`_
 
 
