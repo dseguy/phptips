@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://php-tips.readthedocs.io/en/latest/sitemap.xml

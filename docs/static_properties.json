@@ -11,6 +11,7 @@
     ],
     "author": "",
     "contact": "",
-    "3v4l":"https://3v4l.org/78oEF",
+    "3v4l":
+    {"Static Properties on 3v4l":"https://3v4l.org/78oEF"},
     "features":["static-properties", "property"]
 }

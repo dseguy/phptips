@@ -105,6 +105,11 @@ foreach($files as $file) {
     	++$errors;
     }
 
+    if (isset($tip->{'3v4l'}) && is_string($tip->{'3v4l'})) {
+    	buildlog("Warning : 3v4l is a string in $file");
+    	++$errors;
+    }
+
 	if (str_contains($tip->content, '#PHP')) {
 		buildlog("Warning : No need for #PHP in $file");;
 		++$errors;
