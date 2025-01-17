@@ -23,6 +23,8 @@ When accessing an array as an object, PHP raises a Warning and continues with NU
 
 When accessing an object as an array, without ArrayAccess, PHP raises a Fatal Error and stops.
 
+ It is critical to check the syntax used to access an object.
+
 .. image:: ../images/not_same_error.png
 
 * `Array (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_

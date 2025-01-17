@@ -31,7 +31,7 @@ After that, there is a dynamic call, where the full name of the class is build, 
 
 And the last one is the constant version, with an explicit ``::class`` operator.
 
-Now, it would be great to have a syntax where the parenthesis are before the class name: no other language has that! So, for PHP 9, but more importantly: what for? 
+Now, it would be great to have a syntax where the parenthesis are before the class name: no other language has that! So, for PHP 9, but more importantly: what for?
 
 .. image:: ../images/new_and_parenthesis.png
 

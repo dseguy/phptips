@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/method_not_property_name_must_be_string.rst
    tips/static_properties.rst
    tips/new_and_parenthesis.rst
    tips/fluent_function.rst
@@ -188,6 +189,7 @@ PHP tips and tricks
    tips/recursive_arrow_function.rst
    tips/null_equal_false.rst
    tips/recursive_closure.rst
+   tips/cast_precedence.rst
    tips/enum_as_name.rst
    tips/type_is_not_available.rst
    tips/namespace_stack.rst

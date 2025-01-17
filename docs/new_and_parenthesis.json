@@ -2,7 +2,7 @@
     "image": "new_and_parenthesis.png",
     "date": "2025-01-10",
     "title": "The New And The Parenthesis",
-    "content": "Where does PHP accept parenthesis in a ``new`` call?\nFirst, no parenthesis is possible, as long as the constructor has no parameter.\nSecondly, also, parenthesis are possible, after the class name.\nThen, the parenthesis may be around the class name, as long as there is a constant which holds the name of the class. Bonus point for the class and the constant with the same name.\nAfter that, there is a dynamic call, where the full name of the class is build, then used.\nAnd the last one is the constant version, with an explicit ``::class`` operator.\nNow, it would be great to have a syntax where the parenthesis are before the class name: no other language has that! So, for PHP 9, but more importantly: what for? ",
+    "content": "Where does PHP accept parenthesis in a ``new`` call?\nFirst, no parenthesis is possible, as long as the constructor has no parameter.\nSecondly, also, parenthesis are possible, after the class name.\nThen, the parenthesis may be around the class name, as long as there is a constant which holds the name of the class. Bonus point for the class and the constant with the same name.\nAfter that, there is a dynamic call, where the full name of the class is build, then used.\nAnd the last one is the constant version, with an explicit ``::class`` operator.\nNow, it would be great to have a syntax where the parenthesis are before the class name: no other language has that! So, for PHP 9, but more importantly: what for?",
     "seeAlso": {
         "Basics (PHP manual)": "https://www.php.net/manual/en/language.oop5.basic.php"
     },
