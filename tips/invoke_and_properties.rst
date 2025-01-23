@@ -21,7 +21,7 @@ __invoke() Method And Properties
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invoke_and_properties.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invoke_and_properties.html","name":"__invoke() Method And Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 13:40:03 +0000","dateModified":"Tue, 14 Jan 2025 13:40:03 +0000","description":"In the code here, the __invoke() makes the class ``X`` invokable : the object may be used as a function name and it will call the magic method ``__invoke``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invoke_and_properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invoke_and_properties.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invoke_and_properties.html","name":"__invoke() Method And Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 15:52:11 +0000","dateModified":"Thu, 23 Jan 2025 15:52:11 +0000","description":"In the code here, the __invoke() makes the class ``X`` invokable : the object may be used as a function name and it will call the magic method ``__invoke``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invoke_and_properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 In the code here, the __invoke() makes the class ``X`` invokable : the object may be used as a function name and it will call the magic method ``__invoke``.
 
@@ -32,4 +32,7 @@ Well, no. This call will yield an error, ``undefined method y``. PHP doesn't use
 To invoke the object in the property ``y``, one has to put parenthesis around the object, so that PHP can extract the object and then, invoke it safely.
 
 .. image:: ../images/invoke_and_properties.png
+
+* `__invoke and properties <https://3v4l.org/BtooN>`_
+
 
