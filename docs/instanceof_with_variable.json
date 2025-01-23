@@ -7,8 +7,11 @@
         "Type operators (PHP manual)": "https://www.php.net/manual/en/language.operators.type.php"
     },
     "tags": [
-        "operator"
+        "operator",
+        "dynamic"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l":"https://3v4l.org/UCoEf",
+    "features":["instanceof"]
 }
