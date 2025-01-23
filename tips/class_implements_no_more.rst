@@ -19,6 +19,10 @@ Class Implement No More
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/class_implements_no_more.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_implements_no_more.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_implements_no_more.html","name":"Class Implement No More","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 07 Nov 2024 22:18:33 +0000","dateModified":"Thu, 07 Nov 2024 22:18:33 +0000","description":"Inheritance forces children classes to have only methods that are compatible with the parent's methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_implements_no_more.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Inheritance forces children classes to have only methods that are compatible with the parent's methods.
 
 The only exception is the constructor, which may have a totally different signature from generation to generation.

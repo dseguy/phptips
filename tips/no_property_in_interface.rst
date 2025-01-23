@@ -19,6 +19,10 @@ No Property In Interface
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/no_property_in_interface.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_property_in_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_property_in_interface.html","name":"No Property In Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Mar 2024 20:49:27 +0000","dateModified":"Thu, 14 Mar 2024 20:49:27 +0000","description":"PHP is better than me : I thought I found a way to create properties in an interface, by declaring promoted properties in a constructor","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_property_in_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 PHP is better than me : I thought I found a way to create properties in an interface, by declaring promoted properties in a constructor. 
 
 Someone coding the PHP engine was smarter than me : it feels so good! (BTW, who would that be?)

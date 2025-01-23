@@ -19,6 +19,10 @@ Method Not Property Name Must Be String
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/method_not_property_name_must_be_string.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/method_not_property_name_must_be_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/method_not_property_name_must_be_string.html","name":"Method Not Property Name Must Be String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jan 2025 10:22:10 +0000","dateModified":"Fri, 17 Jan 2025 10:22:10 +0000","description":"A dynamic property name must be a string, and it must exist","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/method_not_property_name_must_be_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 A dynamic property name must be a string, and it must exist. It cannot be anything else, as not casting to string happens.
 
 On the other hand, a dynamic property name is forcefully cast to a string before accessing its value.

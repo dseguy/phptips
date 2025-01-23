@@ -19,6 +19,10 @@ Redefine Native Functions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/redefine_native_functions.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html","name":"Redefine Native Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jan 2024 20:27:37 +0000","dateModified":"Mon, 15 Jan 2024 20:27:37 +0000","description":"It is possible to redefine PHP functions or constants, or even any defined of such, by using the ``use`` command","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 It is possible to redefine PHP functions or constants, or even any defined of such, by using the ``use`` command.
 
 This feature is interesting for testing purposes: it allows the replacement of a defined function with an alternative.

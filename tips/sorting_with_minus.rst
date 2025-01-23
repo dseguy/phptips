@@ -19,6 +19,10 @@ Sorting With Minus
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/sorting_with_minus.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sorting_with_minus.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sorting_with_minus.html","name":"Sorting With Minus","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 19 Aug 2024 21:04:56 +0000","dateModified":"Mon, 19 Aug 2024 21:04:56 +0000","description":"Did you know that sorting f, 0 and -f actually ends up with -f first, then 0, then f","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sorting_with_minus.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Did you know that sorting f, 0 and -f actually ends up with -f first, then 0, then f. And this works with any string, including strings with duplicate initial minus sign.
 
 This is the SORT_REGULAR, with which PHP compares 'normally' different pieces of data. Any string whose first character has an ASCII code lower than 0 will be sorted first (in PHP 8.2+) : this means characters up to /. Then any starting character beyond 9, aka colon and beyond, will be sorted after the 0 (or any digit).

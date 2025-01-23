@@ -19,6 +19,10 @@ Casting And Power
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/cast_and_power.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_and_power.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_and_power.html","name":"Casting And Power","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 May 2024 20:17:42 +0000","dateModified":"Mon, 20 May 2024 20:17:42 +0000","description":"When you know that 2*2 = 4, and 2**2 = 4 (too), and 2","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_and_power.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 When you know that 2*2 = 4, and 2**2 = 4 (too), and 2.5 ** 2.5 = 9.8821176880262, have to ask yourself where is this 6 coming from. 
 
 The answer is in the precedence. Casting has higher precedence than multiplication, so cast is done first (2.5 -> 2) then multiplication. This gives the first 4. 

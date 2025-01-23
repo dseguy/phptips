@@ -19,6 +19,10 @@ The New And The Parenthesis
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/new_and_parenthesis.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_and_parenthesis.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_and_parenthesis.html","name":"The New And The Parenthesis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jan 2025 10:34:44 +0000","dateModified":"Fri, 17 Jan 2025 10:34:44 +0000","description":"Where does PHP accept parenthesis in a ``new`` call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_and_parenthesis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Where does PHP accept parenthesis in a ``new`` call?
 
 First, no parenthesis is possible, as long as the constructor has no parameter.

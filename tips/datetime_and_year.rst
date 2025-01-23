@@ -19,6 +19,10 @@ Datetime Object, And Years
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/datetime_and_year.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html","name":"Datetime Object, And Years","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 27 Nov 2024 17:41:52 +0000","dateModified":"Wed, 27 Nov 2024 17:41:52 +0000","description":"In this code, 2 years are given to datetime, and handed back","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 By `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
 
 In this code, 2 years are given to datetime, and handed back. Yet, they return the same value: 2024.

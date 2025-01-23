@@ -19,6 +19,10 @@ Self In An Interface
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/self_in_interface.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_in_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_in_interface.html","name":"Self In An Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 14 Jan 2024 15:38:45 +0000","dateModified":"Sun, 14 Jan 2024 15:38:45 +0000","description":"The keyword self in an interface means that interface, not the host class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_in_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 The keyword self in an interface means that interface, not the host class. Hence, using self as return type means that the method must return an object of type ``i``, not of the host class.
 
 .. image:: ../images/self_in_interface.png

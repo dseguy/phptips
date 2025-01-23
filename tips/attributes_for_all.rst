@@ -19,6 +19,10 @@ More Attribute Usage
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/attributes_for_all.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html","name":"More Attribute Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 Nov 2024 21:47:38 +0000","dateModified":"Tue, 26 Nov 2024 21:47:38 +0000","description":"PHP attributes are for classes, but also for enums, traits and interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 PHP attributes are for classes, but also for enums, traits and interfaces. With ::TARGET_CLASS.
 
 PHP attributes are for functions, and also for closures and arrow functions (but not for methods). With ::TARGET_FUNCTION.

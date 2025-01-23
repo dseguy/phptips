@@ -19,6 +19,10 @@ array_intersect_uassoc_insensitive() ?
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/array_intersect_uassoc_insensitive.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_intersect_uassoc_insensitive.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_intersect_uassoc_insensitive.html","name":"array_intersect_uassoc_insensitive() ?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 13:27:18 +0000","dateModified":"Tue, 14 Jan 2025 13:27:18 +0000","description":"array_intersect() functions use a direct comparison between the values in the array to make the comparison","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_intersect_uassoc_insensitive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 array_intersect() functions use a direct comparison between the values in the array to make the comparison. When the comparison needs to be case insensitive, then one can use the ``u`` version of those functions, to make a case insensitive comparison.
 
 .. image:: ../images/array_intersect_uassoc_insensitive.png

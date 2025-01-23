@@ -19,6 +19,10 @@ Send An Argument To Generator
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/send_to_generator.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html","name":"Send An Argument To Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 05 Aug 2024 20:16:28 +0000","dateModified":"Mon, 05 Aug 2024 20:16:28 +0000","description":"When calling the method send() on a PHP generator, the result of the first yield keyword is the argument value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 By `Rahul Chavan <https://twitter.com/rcsofttech85>`_
 
 When calling the method send() on a PHP generator, the result of the first yield keyword is the argument value. Then, it can be used to yield a specific result.

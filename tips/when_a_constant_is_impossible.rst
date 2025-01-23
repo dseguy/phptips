@@ -19,6 +19,10 @@ Constants Can Be Impossible
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/when_a_constant_is_impossible.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_a_constant_is_impossible.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_a_constant_is_impossible.html","name":"Constants Can Be Impossible","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 23 Oct 2023 10:38:52 +0000","dateModified":"Mon, 23 Oct 2023 10:38:52 +0000","description":"In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_a_constant_is_impossible.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error.
 
 Yet, this will be determined at execution time, and only if the constant is being used.

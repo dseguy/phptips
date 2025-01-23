@@ -19,6 +19,10 @@ No Class Constant In String
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/no-constant-in-string.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html","name":"No Class Constant In String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Dec 2024 15:19:26 +0000","dateModified":"Fri, 20 Dec 2024 15:19:26 +0000","description":"Interpolation is injecting variable values inside strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Interpolation is injecting variable values inside strings. For complex variables, such as objects, it requires the curly braces to work.
 
 Yet, the simple ``$object::CONSTANT`` doesn't compile. But, the error message mentions it could do something with a square bracket, so it is still possible to access the value of strings by using the array notation.

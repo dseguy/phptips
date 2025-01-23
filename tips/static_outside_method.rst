@@ -19,6 +19,10 @@ Static Variable Outside A Method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/static_outside_method.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_outside_method.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_outside_method.html","name":"Static Variable Outside A Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Mar 2024 20:50:24 +0000","dateModified":"Thu, 14 Mar 2024 20:50:24 +0000","description":"TIL that PHP static variables can be declared out of a function, in the namespace","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_outside_method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 TIL that PHP static variables can be declared out of a function, in the namespace. 
 
 

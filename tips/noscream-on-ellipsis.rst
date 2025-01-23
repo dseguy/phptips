@@ -19,6 +19,10 @@ Noscream On Ellipsis
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/noscream-on-ellipsis.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html","name":"Noscream On Ellipsis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Sep 2024 18:58:12 +0000","dateModified":"Tue, 03 Sep 2024 18:58:12 +0000","description":"Noscream operator @ hides errors locally, in an expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Noscream operator @ hides errors locally, in an expression. Variadic ``...`` spreads the elements of an array.
 
 What happens when the two are mixed?

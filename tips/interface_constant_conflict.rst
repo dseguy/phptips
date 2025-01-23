@@ -19,6 +19,10 @@ Interfaces Constants Conflicts
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/interface_constant_conflict.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html","name":"Interfaces Constants Conflicts","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Jun 2024 20:47:30 +0000","dateModified":"Mon, 03 Jun 2024 20:47:30 +0000","description":"PHP reports duplicate constant definitions in different interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 PHP reports duplicate constant definitions in different interfaces.
 
 This is very unusual occurrence, reported at linting time. It may also lead to quite a set back when one has to untangle these definitions.

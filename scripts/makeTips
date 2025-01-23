@@ -45,6 +45,7 @@ $anchors = array();
 $images = array();
 foreach($files as $file) {
 	$tip = json_decode(file_get_contents($file));
+	$tip->file = $file;
 
 	if ($tip === null) {
 		buildlog("Warning : $file is not valid JSON");
@@ -241,6 +242,72 @@ foreach($tips as $tip) {
 	$phptip[] = '	:og:url: https://php-tips.readthedocs.io/en/latest/tips/'.$name.'.html';
 	$phptip[] = '	:og:locale: en';
 
+	$phptip[] = '';
+
+	$phptip[] = '.. raw:: html';
+	$phptip[] = '';
+	$ldjson = ['@context' => "https://schema.org",
+	    '@graph' => [
+	        ["@type" => "WebPage",
+	        "@id" => "https://php-tips.readthedocs.io/en/latest/tips/".$name.".html",
+	        "url" => "https://php-tips.readthedocs.io/en/latest/tips/".$name.".html",
+	        "name" => $title,
+	        "isPartOf" => [
+	            "@id" =>  "https://www.exakat.io/"
+	        ],
+	        "datePublished" => date('r', filectime($tip->file)),
+	        "dateModified" => date('r', filemtime($tip->file)),
+	        "description" => $first,
+	        "inLanguage" => 'en-US',
+	        "potentialAction" => [
+	            [
+	            '@type' => 'ReadAction',
+	            'target' => ["https://php-tips.readthedocs.io/en/latest/tips/".$name.".html"]
+	            ]
+	        ],
+	        
+	        ],
+	        ["@type" => "WebSite",
+	         "@id"=>  "https://www.exakat.io/",
+             "url"=>  "https://www.exakat.io/",
+             "name"=>  "Exakat",
+             "description"=>  "Smart PHP static analysis",
+             "inLanguage"=>  "en-US"
+            ],
+	    ]
+	
+	];
+	/*
+ {
+    "@context": "https://schema.org",
+    "@graph": [{
+        "@type": "WebPage",
+        "@id": "https://php-tips.readthedocs.io/en/latest/tips/method_not_property_name_must_be_string.html",
+        "url": "https://php-tips.readthedocs.io/en/latest/tips/method_not_property_name_must_be_string.html",
+        "name": "Method Not Property Name Must Be String",
+        "isPartOf": {
+            "@id": "https://www.exakat.io/"
+        },
+        "datePublished": "2015-09-26T20:14:36+00:00",
+        "dateModified": "2024-03-21T19:03:52+00:00",
+        "description": "This is fully validated Google structured data validated JSON-LD markup for the ARTICLE schema markup type free for use.",
+        "inLanguage": "en-US",
+        "potentialAction": [{
+            "@type": "ReadAction",
+            "target": ["https://php-tips.readthedocs.io/en/latest/tips/method_not_property_name_must_be_string.html"]
+        }]
+    }, {
+        "@type": "WebSite",
+        "@id": "https://www.exakat.io/",
+        "url": "https://www.exakat.io/",
+        "name": "Exakat",
+        "description": "Smart PHP static analysis",
+        "inLanguage": "en-US"
+    }]
+} < /script>
+*/
+
+	$phptip[] = '	<script type="application/ld+json">'.json_encode($ldjson).'</script>';
 	$phptip[] = '';
 
 	if (!empty($tip->author)) {

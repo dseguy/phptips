@@ -19,6 +19,10 @@ Uncallable Function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/uncallable_function.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/uncallable_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/uncallable_function.html","name":"Uncallable Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 Dec 2023 14:06:06 +0000","dateModified":"Wed, 20 Dec 2023 14:06:06 +0000","description":"The function foo() cannot be called","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/uncallable_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 The function foo() cannot be called. When the code does so, nothing happens.
 
 The trick is the inclusion of a call to yield (or yield from) in the function. It turns the function into a generator, and calling it directly does nothing. It needs to be called with foreach() or iterator_to_array().

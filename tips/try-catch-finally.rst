@@ -19,6 +19,10 @@ try, catch, finally Are All Optional
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/try-catch-finally.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/try-catch-finally.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/try-catch-finally.html","name":"try, catch, finally Are All Optional","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 02 Feb 2024 10:35:48 +0000","dateModified":"Fri, 02 Feb 2024 10:35:48 +0000","description":"The finally clause in a try-catch-finally is actually optional: it can be omitted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/try-catch-finally.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 The finally clause in a try-catch-finally is actually optional: it can be omitted.
 
 The catch clauses in a try-catch-finally are also optional: they can be omitted.

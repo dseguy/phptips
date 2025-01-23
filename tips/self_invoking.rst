@@ -19,6 +19,10 @@ Lots Of Silly Arguments
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/self_invoking.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html","name":"Lots Of Silly Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 10 Jul 2024 15:02:45 +0000","dateModified":"Wed, 10 Jul 2024 15:02:45 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 By `Greg Korba <https://twitter.com/_Codito_>`_
 
 PHP 8.4 drops the requirement of parenthesis around the new operator: it is possible to directly call a method on it.

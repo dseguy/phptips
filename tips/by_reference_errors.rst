@@ -19,6 +19,10 @@ By Reference, Error Or Notice?
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/by_reference_errors.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/by_reference_errors.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/by_reference_errors.html","name":"By Reference, Error Or Notice?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Dec 2024 13:00:10 +0000","dateModified":"Thu, 19 Dec 2024 13:00:10 +0000","description":"Passing a literal, by reference, to a method yields a Fatal error","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/by_reference_errors.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Passing a literal, by reference, to a method yields a Fatal error.
 
 Returning a literal by reference, yields a Notice.

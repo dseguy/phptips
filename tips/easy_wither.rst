@@ -19,6 +19,10 @@ Easy Wither Call
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/easy_wither.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html","name":"Easy Wither Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 14:00:09 +0000","dateModified":"Tue, 14 Jan 2025 14:00:09 +0000","description":"Can be useful to create \"with-ers\" in an immutable (value) object with a LOT of readonly properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 By `Benoit Viguier <https://phpc.social/@b_viguier>`_
 
 Can be useful to create "with-ers" in an immutable (value) object with a LOT of readonly properties.

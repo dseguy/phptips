@@ -19,6 +19,10 @@ Case Insensitive Cast
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/case_insensitive_cast.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/case_insensitive_cast.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/case_insensitive_cast.html","name":"Case Insensitive Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 27 Nov 2024 18:05:33 +0000","dateModified":"Wed, 27 Nov 2024 18:05:33 +0000","description":"PHP's cast operators are case insensitive","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/case_insensitive_cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 PHP's cast operators are case insensitive. ``(int)``, ``(INT)`` and all variations, like ``(iNt)`` are possible. The usual convention is to use the all lower case syntax for the operators, and any other usage is extremely rare.
 
 .. image:: ../images/case_insensitive_cast.png

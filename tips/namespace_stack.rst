@@ -19,6 +19,10 @@ The Namespace Stack
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/namespace_stack.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_stack.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_stack.html","name":"The Namespace Stack","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 20 Jan 2024 15:03:08 +0000","dateModified":"Sat, 20 Jan 2024 15:03:08 +0000","description":"Reminder that namespaces are not stacked, but are merely prefixes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_stack.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Reminder that namespaces are not stacked, but are merely prefixes. Hence, there is the current namespace, and the global one for the occasional fallback, but nothing in between. Namespaces are not folders, even when they are stored as such.
 
 .. image:: ../images/namespace_stack.png

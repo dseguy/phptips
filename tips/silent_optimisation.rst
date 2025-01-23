@@ -19,6 +19,10 @@ Silent Optimisation Of Variables
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/silent_optimisation.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/silent_optimisation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/silent_optimisation.html","name":"Silent Optimisation Of Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 08 Oct 2024 18:46:46 +0000","dateModified":"Tue, 08 Oct 2024 18:46:46 +0000","description":"See PHP optimisation in action : undefined variables are only reported when they are used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/silent_optimisation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 See PHP optimisation in action : undefined variables are only reported when they are used.
 
 

@@ -19,6 +19,10 @@ No Returntype But Still, Only String
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/no-type-but-string.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html","name":"No Returntype But Still, Only String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 27 Nov 2024 17:35:32 +0000","dateModified":"Wed, 27 Nov 2024 17:35:32 +0000","description":"Without a return type (or mixed), a method may return any type of data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 By `Fred Bouchery <https://bsky.app/profile/bouchery.fr>`_
 
 Without a return type (or mixed), a method may return any type of data. This is not the case for the magic method ``__toString``, as it really should return a string. So, even without a return type, it complains about the type.

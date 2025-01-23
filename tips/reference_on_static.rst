@@ -19,6 +19,10 @@ Change A Static Variable Outside Its Function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/reference_on_static.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html","name":"Change A Static Variable Outside Its Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Mar 2024 20:49:49 +0000","dateModified":"Thu, 14 Mar 2024 20:49:49 +0000","description":"Static variables are persistent between calls to the same method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Static variables are persistent between calls to the same method. They are local, unless they are returned with a reference. Then, they can be accessed in the main code, and read or even written.
 
 This is the case here, without even storing the value: it is actually updated on the fly with the array notation on the function call.

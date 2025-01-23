@@ -19,6 +19,10 @@ Undefined Variable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/undefined_variable.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html","name":"Undefined Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 22 Nov 2024 20:58:05 +0000","dateModified":"Fri, 22 Nov 2024 20:58:05 +0000","description":"The variable is undefined, and yet this is reported on the actual line where the variable is defined!","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 The variable is undefined, and yet this is reported on the actual line where the variable is defined!
 
 In fact, the assignation to ``$x`` appears to be the definition of the variable, because we, as human, encounter it first while reading.

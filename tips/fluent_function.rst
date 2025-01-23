@@ -19,6 +19,10 @@ Fluent Function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/fluent_function.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fluent_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fluent_function.html","name":"Fluent Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 13:26:09 +0000","dateModified":"Tue, 14 Jan 2025 13:26:09 +0000","description":"A fluent interface allows the chaining of method calls","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fluent_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 A fluent interface allows the chaining of method calls. It is a bit harder to do with functions, as there is no supporting object, but it is possible.
 
 Returning ``__FUNCTION__`` allows the subsequent call of the same function.

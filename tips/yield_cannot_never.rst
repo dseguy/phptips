@@ -19,6 +19,10 @@ Cannot Yield And Never
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/yield_cannot_never.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_cannot_never.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_cannot_never.html","name":"Cannot Yield And Never","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 Dec 2023 18:37:46 +0000","dateModified":"Tue, 05 Dec 2023 11:16:43 +0000","description":"Never, as a return type, mentions that the method will never return","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_cannot_never.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Never, as a return type, mentions that the method will never return. This means that it either calls exit(), throws an exception, or is an infinite loop.
 
 Infinite loop escaped my radar until I realized it is a good way to characterize the loop in an explicit way: put any explicit loop in a ``never`` method and know before hand of the implications.

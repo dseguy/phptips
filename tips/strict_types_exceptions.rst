@@ -19,6 +19,10 @@ strict_types Exceptions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/strict_types_exceptions.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strict_types_exceptions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strict_types_exceptions.html","name":"strict_types Exceptions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Mar 2024 20:50:29 +0000","dateModified":"Thu, 14 Mar 2024 20:50:29 +0000","description":"strict_types do not apply to PHP operators, only on to typed structures","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strict_types_exceptions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 strict_types do not apply to PHP operators, only on to typed structures.
 
 Here, concatenation and interpolation all call __toString(), but not foo().

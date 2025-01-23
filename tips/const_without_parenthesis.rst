@@ -19,6 +19,10 @@ Const Without Parenthesis
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/const_without_parenthesis.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/const_without_parenthesis.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/const_without_parenthesis.html","name":"Const Without Parenthesis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 Dec 2023 18:34:33 +0000","dateModified":"Mon, 11 Dec 2023 18:34:33 +0000","description":"It is possible to put a single literal inside parenthesis: that's just the literal itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/const_without_parenthesis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 It is possible to put a single literal inside parenthesis: that's just the literal itself.
 
 It is possible to put a single global constant inside parenthesis: that's just the global constant itself.

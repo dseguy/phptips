@@ -19,6 +19,10 @@ Variadic All The Yields
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/variadic_all_yield.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html","name":"Variadic All The Yields","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 Dec 2023 14:21:15 +0000","dateModified":"Wed, 20 Dec 2023 14:21:15 +0000","description":"The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array().
 
 Here, the generator produces three values, and they are used to fill the three argument positions. It makes a kind of shortcut.

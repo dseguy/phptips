@@ -19,6 +19,10 @@ Cannot Static Static Property
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/static_static_property.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_static_property.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_static_property.html","name":"Cannot Static Static Property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Nov 2023 18:38:42 +0000","dateModified":"Mon, 13 Nov 2023 18:38:42 +0000","description":"Static can be used as a keyword to mark a property as 'static' (sic)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_static_property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Static can be used as a keyword to mark a property as 'static' (sic). It could also be used as a type for that same property, leading to those confusing lines below.
 
 In fact, static would accept ``self``, but also ``parent`` and any children class: just like ``self``. So, ``self`` is sufficient to type properties, and there is no need for ``static static``.

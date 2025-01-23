@@ -19,6 +19,10 @@ Typed Array
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/typed_array.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_array.html","name":"Typed Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jan 2025 16:13:57 +0000","dateModified":"Wed, 01 Jan 2025 16:13:57 +0000","description":"It is possible to set the type of all elements in a variadic: this is equivalent of passing an argument of type ``array<User>``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 By `• Kartoffeljunge • <https://bsky.app/profile/devatreides.bsky.social>`_
 
 It is possible to set the type of all elements in a variadic: this is equivalent of passing an argument of type ``array<User>``. That way, all the elements in the array must have the expected type. Use union-type to make have several distinct types.

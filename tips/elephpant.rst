@@ -19,6 +19,10 @@ An Elephpant In The Code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/elephpant.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html","name":"An Elephpant In The Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Dec 2024 13:26:03 +0000","dateModified":"Tue, 26 Nov 2024 22:01:37 +0000","description":"When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least.
 
 The unicode for an elephant is ``128024`` or ``0x1F418``. It canbie used directly inside a string, or with the ``mb_chr()`` function, and not with the ``chr`` function, which is only handling a single byte.

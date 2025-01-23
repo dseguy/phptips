@@ -19,6 +19,10 @@ Before Or After
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/before_after.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/before_after.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/before_after.html","name":"Before Or After","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 14 Jan 2024 15:31:53 +0000","dateModified":"Sun, 14 Jan 2024 15:31:53 +0000","description":"PHP takes the opportunity to validate everything it can when it is handy, and leave the rest to execution time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/before_after.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 PHP takes the opportunity to validate everything it can when it is handy, and leave the rest to execution time. In the code below, the first class has no error reported, because it is linted before the parent class. The last class displays an error because it appears after the definition of the parent, and PHP can lazily check it.
 
 The validation of the first class will be more thorough at execution time, and yield the error then.

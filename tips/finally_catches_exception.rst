@@ -19,6 +19,10 @@ Finally Catches Exception
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/finally_catches_exception.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/finally_catches_exception.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/finally_catches_exception.html","name":"Finally Catches Exception","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 12 Jan 2024 09:50:17 +0000","dateModified":"Fri, 12 Jan 2024 09:50:17 +0000","description":"In this code, finally is executed after the throw","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/finally_catches_exception.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 In this code, finally is executed after the throw. Since it contains a return, the function is finalized before the throw is executed. The exception is then lost, and the scripts displays 1. This is why it is recommended to avoid return in a finally clause.
 
 .. image:: ../images/finally_catches_exception.png

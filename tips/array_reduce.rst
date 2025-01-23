@@ -19,6 +19,10 @@ array_reduce() To Filter And Alter
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/array_reduce.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html","name":"array_reduce() To Filter And Alter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 04 Feb 2024 14:48:33 +0000","dateModified":"Sun, 04 Feb 2024 14:48:33 +0000","description":"Using array_reduce() to create custom data structures goes beyond simple filtering","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 By `Rahul Chavan <https://twitter.com/rcsofttech85>`_
 
 Using array_reduce() to create custom data structures goes beyond simple filtering.

@@ -19,6 +19,10 @@ new On Object
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/new_on_object.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html","name":"new On Object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Feb 2024 22:22:14 +0000","dateModified":"Tue, 20 Feb 2024 22:22:14 +0000","description":"It is possible to use new on an object, to get a new object of the same class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 By `Benoit Viguier <https://phpc.social/@b_viguier>`_
 
 It is possible to use new on an object, to get a new object of the same class. This might be useful with anonymous classes, which cannot be created with their name.

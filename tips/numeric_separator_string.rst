@@ -19,6 +19,10 @@ Numeric Separators Inside A String?
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/numeric_separator_string.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html","name":"Numeric Separators Inside A String?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Mar 2024 20:40:04 +0000","dateModified":"Thu, 14 Mar 2024 20:40:04 +0000","description":"Since PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Since PHP 7.4, there are numeric separators, to make integers more readable. 
 
 They are only for hard-coded literals, so what do you do if you have stored them in a string ?

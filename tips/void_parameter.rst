@@ -19,6 +19,10 @@ Void Parameter In array_keys()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/void_parameter.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html","name":"Void Parameter In array_keys()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Mar 2024 20:40:04 +0000","dateModified":"Thu, 14 Mar 2024 20:40:04 +0000","description":"There is a 'void' parameter in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 There is a 'void' parameter in PHP. It is the second argument of array_keys().
 
 That second parameter is often omitted (and unknown). 

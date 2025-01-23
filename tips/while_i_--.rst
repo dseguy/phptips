@@ -19,6 +19,10 @@ Strange --> Operator
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/while_i_--.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html","name":"Strange --> Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jan 2025 16:16:50 +0000","dateModified":"Wed, 01 Jan 2025 16:16:50 +0000","description":"This PHP code is valid","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 By `Andrew Schmelyun <https://twitter.com/aschmelyun>`_
 
 This PHP code is valid. It works because of the way operator syntax is parsed: it's another way of writing ``while ($i-- > 0)``: the spaces are not important in this syntax. The result is a very visual way to explain what the loop is doing.

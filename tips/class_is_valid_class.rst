@@ -19,6 +19,10 @@ Class Is A Valid Type
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/class_is_valid_class.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_is_valid_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_is_valid_class.html","name":"Class Is A Valid Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 Nov 2024 21:48:52 +0000","dateModified":"Wed, 20 Nov 2024 21:48:52 +0000","description":"PHP allows to use ``\\class`` as a class name in a type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_is_valid_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 PHP allows to use ``\class`` as a class name in a type. This is also the case for interfaces, enums, traits... and it is also valid for some others keywords.
 
 On the other hand, a good number of PHP keywords are forbidden, and yield an error : ``\self`` is an invalid class name.

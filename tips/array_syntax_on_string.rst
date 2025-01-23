@@ -19,6 +19,10 @@ Modify String With Array Syntax
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/array_syntax_on_string.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html","name":"Modify String With Array Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 07 Oct 2024 19:45:39 +0000","dateModified":"Mon, 07 Oct 2024 19:45:39 +0000","description":"PHP strings allows access to individiual characters using the array syntax: ``$string[$index]``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 PHP strings allows access to individiual characters using the array syntax: ``$string[$index]``.
 
 It is also possible to modify the string with the same syntax: the index have to be integers.

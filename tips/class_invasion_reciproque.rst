@@ -19,6 +19,10 @@ Class Invasion Both Ways
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/class_invasion_reciproque.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_invasion_reciproque.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_invasion_reciproque.html","name":"Class Invasion Both Ways","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 13:45:37 +0000","dateModified":"Tue, 14 Jan 2025 13:45:37 +0000","description":"Class invasion, it when an object access anything it wants in another object of the same class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_invasion_reciproque.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Class invasion, it when an object access anything it wants in another object of the same class. Thanks to the way PHP checks each object's perimeter.
 
 The same checks allow the other object to access the current one's, as seen in that example.

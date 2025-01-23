@@ -19,6 +19,10 @@ Unicode Comments
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/unicode_comments.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unicode_comments.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unicode_comments.html","name":"Unicode Comments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 30 Nov 2024 10:25:42 +0000","dateModified":"Sat, 30 Nov 2024 10:25:42 +0000","description":"Besides ``\/\/``, ``#``, ``\/** *\/`` and ``\/* *\/``, there is another way to make a comment in PHP: unicode #\ufe0f\u20e3\ufe0f ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unicode_comments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 By `Aken Roberts <https://bsky.app/profile/akenroberts.com>`_
 
 Besides ``//``, ``#``, ``/** */`` and ``/* */``, there is another way to make a comment in PHP: unicode #️⃣️ . This is possible as this unicode character is build on top of 3 codepoints: among those, the first one is ``#``, which is an actual comment character. Then, PHP parses it as a single bytes, and interprets it as a comment: the rest of the line is omitted.

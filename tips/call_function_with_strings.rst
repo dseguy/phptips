@@ -19,6 +19,10 @@ Call Function With Strings
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/call_function_with_strings.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call_function_with_strings.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call_function_with_strings.html","name":"Call Function With Strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Dec 2024 22:05:50 +0000","dateModified":"Fri, 06 Dec 2024 22:05:50 +0000","description":"Usually, a function is called with its name as first element of the syntax","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call_function_with_strings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Usually, a function is called with its name as first element of the syntax.
 
 And it is also possible to use a string, either in a variable or directly as a literal. This means that adding single or double quotes to the name of a function is still a valid syntax.

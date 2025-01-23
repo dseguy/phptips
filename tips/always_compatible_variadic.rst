@@ -19,6 +19,10 @@ Always Compatible Variadic
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/always_compatible_variadic.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html","name":"Always Compatible Variadic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 05 Nov 2024 10:09:11 +0000","dateModified":"Tue, 05 Nov 2024 10:09:11 +0000","description":"A variadic argument is a valid and compatible signature, for methods that overwrite other methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 By `Sergii Shymko <https://twitter.com/SergiiShymko>`_
 
 A variadic argument is a valid and compatible signature, for methods that overwrite other methods.

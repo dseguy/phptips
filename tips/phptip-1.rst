@@ -19,6 +19,10 @@ Inconsistent Constructor Signatures
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/phptip-1.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/phptip-1.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/phptip-1.html","name":"Inconsistent Constructor Signatures","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 28 Aug 2023 20:40:07 +0000","dateModified":"Mon, 28 Aug 2023 20:32:19 +0000","description":"PHP enforces that methods have the same signature in a parent class and in a children class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/phptip-1.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 PHP enforces that methods have the same signature in a parent class and in a children class. It raises a Fatal Error if not.
 
 Unless for constructors, where the signatures can be different.

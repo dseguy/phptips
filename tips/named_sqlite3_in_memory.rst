@@ -19,6 +19,10 @@ Named Sqlite3 In Memory
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/named_sqlite3_in_memory.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html","name":"Named Sqlite3 In Memory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 04 Dec 2024 22:01:12 +0000","dateModified":"Wed, 04 Dec 2024 22:01:12 +0000","description":"Sqlite3 allows the creation of ``memory`` databases: the database is not stored on the disk, but in memory","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 By `archtechx <https://x.com/archtechx>`_
 
 Sqlite3 allows the creation of ``memory`` databases: the database is not stored on the disk, but in memory. This is good for temporary data, that requires some SQL features.

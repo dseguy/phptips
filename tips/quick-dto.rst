@@ -19,6 +19,10 @@ Quick DTO Or VO Copy
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/quick-dto.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html","name":"Quick DTO Or VO Copy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 26 May 2024 19:42:38 +0000","dateModified":"Sun, 26 May 2024 19:42:38 +0000","description":"A small PHP trick, combining named parameters, spread and union arrays operators to \"easily\" create a modified copy of a DTO: https:\/\/3v4l","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 By `Benoit Viguier <https://phpc.social/@b_viguier>`_
 
 A small PHP trick, combining named parameters, spread and union arrays operators to "easily" create a modified copy of a DTO: https://3v4l.org/ZWX5G#v8.2.10

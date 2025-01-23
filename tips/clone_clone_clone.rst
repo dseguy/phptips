@@ -19,6 +19,10 @@ Clone Clone Clone
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/clone_clone_clone.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html","name":"Clone Clone Clone","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Mar 2024 20:40:41 +0000","dateModified":"Thu, 14 Mar 2024 20:40:41 +0000","description":"It is possible to chain clone operators : PHP optimize this and skips any intermediate clone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 It is possible to chain clone operators : PHP optimize this and skips any intermediate clone. The resulting final object is number 2, so the inner clones were duly ignored. 
 
 On the other hand, it is possible to create a new object from an existing object, but it is not possible to chain the new calls without using parenthesis.

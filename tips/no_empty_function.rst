@@ -19,6 +19,10 @@ No Such Function As Empty
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/no_empty_function.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_empty_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_empty_function.html","name":"No Such Function As Empty","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 Nov 2024 21:32:11 +0000","dateModified":"Tue, 26 Nov 2024 21:32:11 +0000","description":"There is no function called empty(), which could be accessed using a fully qualified name, such as ``\\empty``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_empty_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 There is no function called empty(), which could be accessed using a fully qualified name, such as ``\empty``. There is also no function that can be defined as such, since empty() is already taken.
 
 When the code needs to pass around a ``empty function``, the best approach is to wrap a call to the ``empty()`` language construct, in a closure.

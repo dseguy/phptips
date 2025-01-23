@@ -19,6 +19,10 @@ Cast Are Case Insensitive
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/cast_are_case_insensitive.html
 	:og:locale: en
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_are_case_insensitive.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_are_case_insensitive.html","name":"Cast Are Case Insensitive","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Mar 2024 20:40:04 +0000","dateModified":"Thu, 14 Mar 2024 20:40:04 +0000","description":"TIL that the PHP cast operators such as (int), (array)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_are_case_insensitive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 TIL that the PHP cast operators such as (int), (array)... are case insensitive: (STRING)
 
 Also, the amount of white space (space, tabs...) is not important.
