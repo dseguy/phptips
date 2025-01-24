@@ -1,0 +1,18 @@
+{
+    "image": "method_or_property.png",
+    "date": "2025-01-24",
+    "title": "Method Or Property?",
+    "content": "The first line is a simple call to the method ``foo``, on an object whose class is not show here: if this works, there is a method foo() in that class.\nThe second line is a simple call to the property ``foo``, on an object whose class is not know (again): it has a property called ``foo``. Then, the result of that property, hopefully a string with a class name, or another object, is instantiated, without any arguments.\nThe nuance is subtle.",
+    "seeAlso": {
+    },
+    "tags": [
+        "confusing"
+    ],
+    "author": "",
+    "contact": "",
+    "features": [        "method",
+        "new",
+        "property"
+],
+    "3v4l": {"method or property?":"https://3v4l.org/b8rEC"}
+}

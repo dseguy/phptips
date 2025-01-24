@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/method_or_property.rst
    tips/no_more_class__.rst
    tips/method_not_property_name_must_be_string.rst
    tips/static_properties.rst
