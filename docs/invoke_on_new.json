@@ -1,0 +1,16 @@
+{
+    "image": "invoke_on_new.png",
+    "date": "2025-01-27",
+    "title": "__invoke() On New",
+    "content": "It is possible to create a new object by calling new on a previous object: PHP fetches the name of the class, then its constructor.\nWith the PHP 8.4 new syntax without parenthesis, it is also possible to chain the instantiation with a direct call. This calls the ``__invoke`` method.\nThis was not possible in previous versions.",
+    "seeAlso": {
+        
+    },
+    "tags": [
+        "new syntax"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["__invoke", "new"],
+    "3v4l": {"invoke on new":"https://3v4l.org/7G8C7"}
+}

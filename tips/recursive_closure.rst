@@ -21,7 +21,7 @@ Recursive Closure
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html","name":"Recursive Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jan 2025 17:33:17 +0000","dateModified":"Fri, 03 Jan 2025 17:33:17 +0000","description":"To make a recursive closure, the closure must be both stored in a variable and passed as a ``use`` parameter to the same factorial","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html","name":"Recursive Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 14:31:57 +0000","dateModified":"Tue, 28 Jan 2025 14:31:57 +0000","description":"To make a recursive closure, the closure must be both stored in a variable and passed as a ``use`` parameter to the same factorial","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 To make a recursive closure, the closure must be both stored in a variable and passed as a ``use`` parameter to the same factorial.
 
@@ -30,5 +30,6 @@ It also works for arrow functions, although there is no the use, but the variabl
 .. image:: ../images/recursive_closure.png
 
 * `Closure (PHP manual) <https://www.php.net/manual/en/class.closure.php>`_
+* `recursive closure <https://3v4l.org/3MHeR>`_
 
 
