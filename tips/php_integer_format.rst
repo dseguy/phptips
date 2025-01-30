@@ -21,7 +21,7 @@ PHP Integer Format
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/php_integer_format.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/php_integer_format.html","name":"PHP Integer Format","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 05 Nov 2024 10:05:08 +0000","dateModified":"Tue, 05 Nov 2024 10:05:08 +0000","description":"PHP has several convenient integer format to write them in a proper way: 0x12F, 0b110101, 0o12367","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/php_integer_format.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/php_integer_format.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/php_integer_format.html","name":"PHP Integer Format","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 30 Jan 2025 20:21:00 +0000","dateModified":"Thu, 30 Jan 2025 20:21:00 +0000","description":"PHP has several convenient integer format to write them in a proper way: 0x12F, 0b110101, 0o12367","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/php_integer_format.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 PHP has several convenient integer format to write them in a proper way: 0x12F, 0b110101, 0o12367. This works well as part of the code
 
@@ -38,5 +38,6 @@ For the reverse operation, the reverse functions are also useful, with an extra 
 * `dechexdec <https://www.php.net/manual/fr/function.dechex.php>`_
 * `decoctdec <https://www.php.net/manual/fr/function.decoct.php>`_
 * `decbindec <https://www.php.net/manual/fr/function.decbin.php>`_
+* `converting and back <https://3v4l.org/H5Yk3>`_
 
 

@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/named_parameter_inheritance.rst
    tips/invoke_on_new.rst
    tips/method_or_property.rst
    tips/no_more_class__.rst
