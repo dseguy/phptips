@@ -7,8 +7,10 @@ use samdark\sitemap\Index;
 
 // create sitemap
 $sitemap = new Sitemap('./sitemap.xml');
+$indexnow = [];
 
 const LEVEL_UNDERLINE = '-';
+const LEVEL_H2 = '_';
 
 if (!file_exists('tips')) {
 	mkdir('tips', 0755);
@@ -45,6 +47,7 @@ $stats = array('author' => 0,
 				);
 $errors = 0;
 $tips = array();
+$phpError = array();
 $anchors = array();
 $images = array();
 foreach($files as $file) {
@@ -130,7 +133,6 @@ foreach($files as $file) {
 	if (!in_array(substr($tip->content, -1), array('.', '?'), true)) {
 		buildlog("Warning : content doesn't finish with . in $file");;
 		++$errors;
-		continue;
 	}
 
 	if (!isset($tips[$tip->date])) {
@@ -164,8 +166,11 @@ foreach($files as $file) {
 	if (substr_count($tip->title, '_') > 1 && 
 		!preg_match('/(file_put_contents|private|array_intersect_uassoc_insensitive|file_append_contents|__invoke|array_map_assoc)/', $tip->title)) {
 		buildlog("Warning : Too many _ in title '$tip->title' in $file");;
-		++$errors;
-		continue;
+	}
+
+	if (substr_count($tip->title, ' ') === 0) {
+		buildlog("Warning : Suspicious lack of space in title '$tip->title' in $file");
+		die("Warning : Suspicious lack of space in title '$tip->title' in $file");
 	}
 
 	if (substr_count($tip->title, ' ') === 0) {
@@ -195,6 +200,26 @@ foreach($files as $file) {
 		}
 	}
 
+	if (!isset($tip->phpError)) {
+	    // error but not yet
+	} elseif (!$tip->phpError instanceof stdClass) {
+			buildlog("Warning : \$tip->phpError should be a hash in $file");
+			++$errors;
+	} else {
+	    $tip->phpError = (array) $tip->phpError;
+	    foreach($tip->phpError as $name => $id) {
+	        if (empty($name)) {
+	            unset($tip->phpError[$name]);
+	            continue;
+	        }
+	        
+	        if (!file_exists('../php-errors/errors/'.$id.'.ini')) {
+    			buildlog("Warning : phpError '$id' does not exists in $file");
+	    		++$errors;
+	        }
+	    }
+	}
+
 	$tip->content = str_replace('#PHP', 'PHP', $tip->content);
 
 	$tips[$tip->date] = $tip;
@@ -215,17 +240,18 @@ foreach($tips as $tip) {
 		continue;
 	}
 	
-	$phptip[] = '.. _'.make_anchor($tip->title).':'.PHP_EOL;
-	if (isset($anchors[make_anchor($tip->title)])) {
+	$anchor = make_anchor($tip->title);
+	
+	$phptip[] = '.. _'.$anchor.':'.PHP_EOL;
+	if (isset($anchors[$anchor])) {
 		buildlog("Duplicate entry for $tip->title in $file");;
 	}
-	$anchors[make_anchor($tip->title)] = 1;
+	$anchors[$anchor] = 1;
 	$phptip[] = $tip->title;
 	$phptip[] = str_repeat(LEVEL_UNDERLINE, strlen($tip->title));
 	$phptip[] = '';
 
-
-    $title = $tip->title;
+    $title = $tip->title;   
     $title = str_replace('`', '', $title);
 	$phptip[] = '.. meta::';
 	$phptip[] = '	:description:';
@@ -288,7 +314,7 @@ foreach($tips as $tip) {
 	if (!empty($tip->author)) {
 		$author = '`'.$tip->author.' <'.$tip->contact.'>`_';
 		$phptip[] = 'By '.$author.PHP_EOL;
-		$authors[$author][] = '    * :ref:`'.make_anchor($tip->title).'`';
+		$authors[$author][] = '    * :ref:`'.$anchor.'`';
 	}
 	
 	$phptip[] = str_replace("\n", "\n\n", $tip->content);
@@ -302,13 +328,34 @@ foreach($tips as $tip) {
 		++$errors;
 	} else {
 		$phptip[] = '';
+    	$phptip[] = 'See Also';
+	    $phptip[] = str_repeat(LEVEL_H2, strlen('See Also'));
+		$phptip[] = '';
 		foreach($links as $title => $link) {
 			$phptip[] = '* `'.$title.' <'.$link.'>`_';
 		}
 		$phptip[] = '';
 	}
 
-	$phptip[] = PHP_EOL;
+	if (!empty($tip->phpError)) {
+		$phptip[] = '';
+    	$phptip[] = 'PHP Error Messages';
+	    $phptip[] = str_repeat(LEVEL_H2, strlen('PHP Error Messages'));
+		$phptip[] = '';
+		foreach($tip->phpError as $title => $id) {
+    		$phptip []= "* `$title <https://php-errors.readthedocs.io/en/latest/messages/".urlencode($id).".html>`_\n";
+
+            if (isset($phpErrors[$title])) {
+        		$phpErrors[$title][] = '    * :ref:`'.$anchor.'`';
+            } else {
+        		$phpErrors[$title] = ['    * :ref:`'.$anchor.'`'];
+            }
+		}
+		$phptip[] = '';
+
+	}
+
+	$phptip[] = '';
 	
 	foreach(array_filter($tip->tags) as $tag) {
 		if (!isset($tags[$tag])) {
@@ -321,6 +368,7 @@ foreach($tips as $tip) {
 	file_put_contents('tips/'.$file, implode(PHP_EOL, $phptip));
 
 	$sitemap->addItem('https://php-tips.readthedocs.io/en/latest/tips/'.substr($file, 0, -4).'.html');
+	$indexnow[] = 'https://php-tips.readthedocs.io/en/latest/tips/'.substr($file, 0, -4).'.html';
 
 	$tiplist[] = '   tips/'.$file;
 }
@@ -335,6 +383,8 @@ file_put_contents('tipSection.rst', $index);
 print "processed ".count($files)." file with $errors error\n";
 
 uasort($tags, function ($a, $b) { return count($a) <=> count($b);});
+
+file_put_contents('indexnow.php', '<?php $urls = '.var_export($indexnow, true).'; ?>');
 
 if (!empty($authors)) {
 	$authorRst = <<<RST
@@ -352,6 +402,25 @@ RST;
 	}
 	file_put_contents('authorindex.rst', $authorRst);
 	print "processed ".$stats['author']." authors\n";
+}
+
+if (!empty($phpErrors)) {
+	$phpErrorRst = [<<<RST
+Error Message index
+-------------------
+
+
+RST];
+	
+	ksort($phpErrors);
+	foreach($phpErrors as $name => $links) {
+		$phpErrorRst []= "* $name\n";
+		ksort($links);
+		$phpErrorRst []= implode(PHP_EOL, $links).PHP_EOL;
+		@++$stats['phpError'];
+	}
+	file_put_contents('phperrorindex.rst', implode('', $phpErrorRst));
+	print "processed ".$stats['phpError']." error messages\n";
 }
 
 function check(stdClass $tip, string $file) : string {
