@@ -29,6 +29,8 @@ And, unlike static/self, it is not possible for the called method to know how it
 
 .. image:: ../images/multipleAliases.png
 
-* `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_
+See Also
+________
 
+* `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_
 

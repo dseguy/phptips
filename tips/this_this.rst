@@ -29,6 +29,8 @@ Since a property must be described as a string, it is possible to use the magic 
 
 .. image:: ../images/this_this.png
 
-* `$this (PHP manual) <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_
+See Also
+________
 
+* `$this (PHP manual) <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_
 

@@ -35,6 +35,8 @@ Another good reason to avoid placing constructors in interfaces.
 
 .. image:: ../images/class_implements_no_more.png
 
-* `Object Interfaces (PHP manual) <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
+See Also
+________
 
+* `Object Interfaces (PHP manual) <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
 

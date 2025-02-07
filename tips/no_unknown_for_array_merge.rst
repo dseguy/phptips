@@ -29,7 +29,9 @@ On the other hand, array_merge (and some cousins) refuse them, and emits a Fatal
 
 .. image:: ../images/no_unknown_for_array_merge.png
 
+See Also
+________
+
 * `array_merge (PHP manual) <hhttps://www.php.net/array_merge>`_
 * `Functions arguments <https://www.php.net/manual/en/functions.arguments.php>`_
-
 

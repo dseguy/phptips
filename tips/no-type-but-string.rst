@@ -31,7 +31,9 @@ That trick requires ``strict_types`` though.
 
 .. image:: ../images/no-type-but-string.png
 
+See Also
+________
+
 * `Magic methods (PHP manual) <https://www.php.net/manual/en/language.oop5.magic.php>`_
 * `Declare <https://www.php.net/manual/en/control-structures.declare.php>`_
-
 

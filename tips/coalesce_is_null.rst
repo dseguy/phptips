@@ -41,6 +41,8 @@ Is there another way to handle this issue?
 
 .. image:: ../images/coalesce_is_null.png
 
-* `Error Control Operators <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_
+See Also
+________
 
+* `Error Control Operators <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_
 

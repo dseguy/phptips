@@ -31,7 +31,9 @@ When accessing an object as an array, without ArrayAccess, PHP raises a Fatal Er
 
 .. image:: ../images/not_same_error.png
 
+See Also
+________
+
 * `Array (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
 * `Objects (PHP manual) <https://www.php.net/manual/en/language.types.object.php>`_
-
 

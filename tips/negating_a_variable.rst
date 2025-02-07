@@ -33,6 +33,8 @@ Definitely not for me, for readability reasons; same as ``!$o instanceof X``.
 
 .. image:: ../images/negating_a_variable.png
 
-* `Operator precedence (PHP manual) <https://www.php.net/manual/en/language.operators.precedence.php>`_
+See Also
+________
 
+* `Operator precedence (PHP manual) <https://www.php.net/manual/en/language.operators.precedence.php>`_
 

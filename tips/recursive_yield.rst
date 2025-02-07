@@ -27,6 +27,8 @@ Generator, using yield, may become recursive, when using the ``yield from`` keyw
 
 .. image:: ../images/recursive_yield.png
 
-* `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
+See Also
+________
 
+* `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
 

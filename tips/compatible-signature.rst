@@ -35,7 +35,9 @@ In the end, this code stays unchanged between PHP versions, although it toggles 
 
 .. image:: ../images/compatible-signature.png
 
+See Also
+________
+
 * `Attributes (PHP manual) <https://www.php.net/manual/en/language.attributes.overview.php>`_
 * `Original tweet <https://x.com/another_clue/status/1671189006162464768>`_
-
 

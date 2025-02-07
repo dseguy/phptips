@@ -31,6 +31,8 @@ On the other hand, the ``Attribute`` class cannot be extended: it is not possibl
 
 .. image:: ../images/no_child_with_attribute.png
 
-* `Attributes Overview (PHP manual) <https://www.php.net/manual/en/language.attributes.overview.php>`_
+See Also
+________
 
+* `Attributes Overview (PHP manual) <https://www.php.net/manual/en/language.attributes.overview.php>`_
 

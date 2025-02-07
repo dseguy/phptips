@@ -29,6 +29,8 @@ This is the case here, without even storing the value: it is actually updated on
 
 .. image:: ../images/reference_on_static.png
 
-* `Static variables (PHP manual) <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`_
+See Also
+________
 
+* `Static variables (PHP manual) <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`_
 

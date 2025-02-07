@@ -31,6 +31,8 @@ To compare their value, the comparison must be done with the 'value' property, n
 
 .. image:: ../images/enum_case_comparisons.png
 
-* `Backed enumeration (PHP manual) <https://www.php.net/manual/en/language.enumerations.backed.php>`_
+See Also
+________
 
+* `Backed enumeration (PHP manual) <https://www.php.net/manual/en/language.enumerations.backed.php>`_
 

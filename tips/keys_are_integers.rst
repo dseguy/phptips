@@ -29,6 +29,8 @@ In the case displayed, the keys are French zip codes, which might start with a l
 
 .. image:: ../images/keys_are_integers.png
 
-* `Array: syntax (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
+See Also
+________
 
+* `Array: syntax (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
 

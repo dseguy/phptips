@@ -29,8 +29,10 @@ When the same ``&`` is added on a generator, this now means that the yielded val
 
 .. image:: ../images/yield_not_return_by_reference.png
 
+See Also
+________
+
 * `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
 * `Returning value <https://www.php.net/manual/en/functions.returning-values.php>`_
 * `Yield, Not Return By Reference on 3v4l.org <https://3v4l.org/NdQsv>`_
-
 

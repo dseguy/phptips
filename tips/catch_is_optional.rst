@@ -27,6 +27,8 @@ In a Try Catch Finally command, only the try part is compulsory. It is possible 
 
 .. image:: ../images/catch_is_optional.png
 
-* `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
+See Also
+________
 
+* `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
 

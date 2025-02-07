@@ -29,6 +29,8 @@ Foreach() also skips silently uninitialized properties: this prevents the genera
 
 .. image:: ../images/foreach_skips_uninitialized.png
 
-* `Foreach (PHP manual) <https://www.php.net/manual/en/control-structures.foreach.php#control-structures.foreach>`_
+See Also
+________
 
+* `Foreach (PHP manual) <https://www.php.net/manual/en/control-structures.foreach.php#control-structures.foreach>`_
 

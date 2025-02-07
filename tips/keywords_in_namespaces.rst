@@ -31,6 +31,8 @@ The last keyword that one can't still use in a namespace is namespace, when used
 
 .. image:: ../images/keywords_in_namespaces.png
 
-* `Namespaces (PHP manual) <https://www.php.net/manual/en/language.namespaces.php>`_
+See Also
+________
 
+* `Namespaces (PHP manual) <https://www.php.net/manual/en/language.namespaces.php>`_
 

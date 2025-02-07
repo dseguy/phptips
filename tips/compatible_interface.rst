@@ -33,7 +33,9 @@ Note that the names of the parameters are completely free to be changed at will,
 
 .. image:: ../images/compatible_interface.png
 
+See Also
+________
+
 * `Object Interfaces (PHP manual) <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
 * `Example code on 3v4l.org (VhsoJ) <https://3v4l.org/VhsoJ>`_
-
 

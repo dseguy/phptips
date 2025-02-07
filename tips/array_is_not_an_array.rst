@@ -31,6 +31,8 @@ That error message is really hilarious.
 
 .. image:: ../images/array_is_not_an_array.png
 
-* `Type declaration ‘%s’ must be unqualified <https://php-errors.readthedocs.io/en/latest/messages/type-declaration-%27%25s%27-must-be-unqualified.html>`_
+See Also
+________
 
+* `Type declaration ‘%s’ must be unqualified <https://php-errors.readthedocs.io/en/latest/messages/type-declaration-%27%25s%27-must-be-unqualified.html>`_
 

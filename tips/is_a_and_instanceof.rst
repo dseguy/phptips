@@ -31,7 +31,9 @@ Using a name is a class name for instanceof, while it is a constant name with is
 
 .. image:: ../images/is_a_and_instanceof.png
 
+See Also
+________
+
 * `is_a (PHP manual) <https://www.php.net/manual/en/is_a.php>`_
 * `type operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php#language.operators.type>`_
-
 

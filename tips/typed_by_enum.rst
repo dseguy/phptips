@@ -29,6 +29,8 @@ Then, an enumeration (class) constant cannot be confused with a case, because th
 
 .. image:: ../images/typed_by_enum.png
 
-* `Enumeration (PHP manual) <https://www.php.net/manual/en/language.types.enumerations.php>`_
+See Also
+________
 
+* `Enumeration (PHP manual) <https://www.php.net/manual/en/language.types.enumerations.php>`_
 

@@ -30,4 +30,3 @@ On the other hand, a good number of PHP keywords are forbidden, and yield an err
 Of course, once this is typed like that, it is not possible to satisfy the type specification, and such code is actually not usable.
 
 .. image:: ../images/class_is_valid_class.png
-

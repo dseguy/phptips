@@ -29,6 +29,8 @@ On the other hand, it is allowed to extend promoted properties without the promo
 
 .. image:: ../images/promoted_compatibility.png
 
-* `Class Abstract (PHP manual) <https://www.php.net/manual/en/language.oop5.abstract.php>`_
+See Also
+________
 
+* `Class Abstract (PHP manual) <https://www.php.net/manual/en/language.oop5.abstract.php>`_
 

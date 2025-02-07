@@ -33,6 +33,8 @@ Then, it is not possible to ``int`` in parenthesis, because PHP confuses it with
 
 .. image:: ../images/const_without_parenthesis.png
 
-* `Type Operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
+See Also
+________
 
+* `Type Operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
 

@@ -29,7 +29,9 @@ The ``match`` statement, on the other hand, compiles just like the ``switch`` bu
 
 .. image:: ../images/non-empty-match.png
 
+See Also
+________
+
 * `switch (PHP manual) <https://www.php.net/manual/en/control-structures.match.php>`_
 * `match (PHP manual) <https://www.php.net/manual/en/control-structures.switch.php>`_
-
 

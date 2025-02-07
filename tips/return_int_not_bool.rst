@@ -31,7 +31,9 @@ Just trust the deprecation notice.
 
 .. image:: ../images/return_int_not_bool.png
 
+See Also
+________
+
 * `usort (PHP manual) <https://www.php.net/manual/en/function.usort.php>`_
 * `Comparison Operator <https://www.php.net/manual/en/language.operators.comparison.php>`_
-
 

@@ -31,6 +31,8 @@ Of course, it is not possible to use that class constant until the global consta
 
 .. image:: ../images/dynamic_class_constant.png
 
-* `Define() (PHP manual) <https://www.php.net/manual/en/function.define.php>`_
+See Also
+________
 
+* `Define() (PHP manual) <https://www.php.net/manual/en/function.define.php>`_
 

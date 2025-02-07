@@ -29,7 +29,9 @@ Another option is to use the ``\Q`` and ``\E`` characters inside the regex: it t
 
 .. image:: ../images/escaped_regex.png
 
+See Also
+________
+
 * `Escape sequences (PHP manual) <https://www.php.net/manual/en/regexp.reference.escape.php>`_
 * `preg_quote <https://www.php.net/manual/en/function.preg-quote.php>`_
-
 

@@ -31,8 +31,10 @@ Sadly, infinite loop work very well with Yield and yield from, but such methods 
 
 .. image:: ../images/yield_cannot_never.png
 
+See Also
+________
+
 * `Never (PHP manual) <https://www.php.net/manual/en/language.types.never.php>`_
 * `Generators overview (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
 * `this function never returns <https://3v4l.org/X3KJH>`_
-
 

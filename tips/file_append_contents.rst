@@ -29,7 +29,9 @@ file_put_contents() keeps the file opened as little as possible, and the operati
 
 .. image:: ../images/file_append_contents.png
 
+See Also
+________
+
 * `file_put_contents() <https://www.php.net/manual/en/function.file-put-contents.php>`_
 * `fopen() <https://www.php.net/manual/en/function.fopen.php>`_
-
 

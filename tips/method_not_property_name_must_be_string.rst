@@ -29,6 +29,8 @@ On the other hand, a dynamic property name is forcefully cast to a string before
 
 .. image:: ../images/method_not_property_name_must_be_string.png
 
-* `Method Not Property Name Must Be String <https://3v4l.org/aKlmO>`_
+See Also
+________
 
+* `Method Not Property Name Must Be String <https://3v4l.org/aKlmO>`_
 

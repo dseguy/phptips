@@ -29,6 +29,8 @@ This works with ``...`` and ``foreach``.
 
 .. image:: ../images/get_the_generator.png
 
-* `Generators overview (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
+See Also
+________
 
+* `Generators overview (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
 

@@ -29,7 +29,9 @@ PHP is not able to use a class before it is defined. Yet, when the second class 
 
 .. image:: ../images/unfinished_class.png
 
+See Also
+________
+
 * `Object Inheritance <https://www.php.net/manual/en/language.oop5.inheritance.php>`_
 * `Sometimes, PHP world is really weird. <https://twitter.com/janedbal/status/1758410205568643495>`_
-
 

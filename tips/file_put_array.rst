@@ -31,6 +31,8 @@ It also may be an array. PHP simply writes the elements of the array in the file
 
 .. image:: ../images/file_put_array.png
 
-* `file_put_contents (PHP manual) <https://www.php.net/manual/en/function.file-put-contents.php>`_
+See Also
+________
 
+* `file_put_contents (PHP manual) <https://www.php.net/manual/en/function.file-put-contents.php>`_
 

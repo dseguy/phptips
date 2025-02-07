@@ -29,7 +29,9 @@ Secondly, static properties are inherited and shared with the parent static prop
 
 .. image:: ../images/static_properties.png
 
+See Also
+________
+
 * `Static keywords (PHP manual) <https://www.php.net/manual/en/language.oop5.static.php>`_
 * `Static Properties on 3v4l <https://3v4l.org/78oEF>`_
-
 

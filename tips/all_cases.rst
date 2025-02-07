@@ -31,8 +31,10 @@ And it always works with the ``name`` property, to collect the names of the case
 
 .. image:: ../images/all_cases.png
 
+See Also
+________
+
 * `Enumerations (PHP manual) <https://www.php.net/manual/en/language.enumerations.php>`_
 * `Value Listing (PHP manual) <https://www.php.net/manual/en/language.enumerations.listing.php>`_
 * `Backed Enumerations (PHP manual) <https://www.php.net/manual/en/language.enumerations.backed.php>`_
-
 

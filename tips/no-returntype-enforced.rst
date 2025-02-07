@@ -27,6 +27,8 @@ A return type on a method means that the method must return something of that ty
 
 .. image:: ../images/no-returntype-enforced.png
 
-* `Generator syntax (PHP manual) <https://www.php.net/manual/en/language.generators.syntax.php>`_
+See Also
+________
 
+* `Generator syntax (PHP manual) <https://www.php.net/manual/en/language.generators.syntax.php>`_
 

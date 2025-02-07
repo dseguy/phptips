@@ -27,6 +27,8 @@ Still my favorite PHP bug : literal negative value is squared, and is ... negati
 
 .. image:: ../images/squared_negative.png
 
-* `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
+See Also
+________
 
+* `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
 

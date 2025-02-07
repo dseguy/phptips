@@ -35,6 +35,8 @@ Also, multiple same methods in different interface are OK.
 
 .. image:: ../images/interface_constant_conflict.png
 
-* `Object Interfaces (PHP manual) <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
+See Also
+________
 
+* `Object Interfaces (PHP manual) <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
 

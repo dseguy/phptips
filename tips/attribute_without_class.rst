@@ -29,7 +29,9 @@ The attribute class is not necessary, per se. As long at the attribute is not in
 
 .. image:: ../images/attribute_without_class.png
 
+See Also
+________
+
 * `Attributes overview (PHP manual) <https://www.php.net/manual/en/language.attributes.overview.php>`_
 * `Attribute Without Class on 3v4l.org <https://3v4l.org/jc7gE>`_
-
 

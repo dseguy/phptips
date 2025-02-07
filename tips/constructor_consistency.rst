@@ -29,6 +29,8 @@ The only exception are constructors, which may be completely different from thei
 
 .. image:: ../images/constructor_consistency.png
 
-* `constructors <https://www.php.net/manual/en/control-structures.declare.php>`_
+See Also
+________
 
+* `constructors <https://www.php.net/manual/en/control-structures.declare.php>`_
 

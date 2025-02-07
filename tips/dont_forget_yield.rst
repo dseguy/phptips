@@ -31,6 +31,8 @@ And don't forget the ``from`` part of the keyword, otherwise, it yields the gene
 
 .. image:: ../images/dont_forget_yield.png
 
-* `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
+See Also
+________
 
+* `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
 

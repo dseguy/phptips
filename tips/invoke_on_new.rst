@@ -31,6 +31,8 @@ This was not possible in previous versions.
 
 .. image:: ../images/invoke_on_new.png
 
-* `invoke on new <https://3v4l.org/7G8C7>`_
+See Also
+________
 
+* `invoke on new <https://3v4l.org/7G8C7>`_
 

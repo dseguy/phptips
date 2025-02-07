@@ -27,6 +27,8 @@ Sometimes, the ``throw`` keyword is forgotten, even as it is needed. It is diffi
 
 .. image:: ../images/forgotten_throw.png
 
-* `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
+See Also
+________
 
+* `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
 

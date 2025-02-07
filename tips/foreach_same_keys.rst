@@ -29,7 +29,9 @@ One need to use a generator or a Traversable class, where the same key is always
 
 .. image:: ../images/foreach_same_keys.png
 
+See Also
+________
+
 * `foreach (PHP manual) <https://www.php.net/manual/en/control-structures.foreach.php>`_
 * `yield (PHP manual) <https://www.php.net/manual/en/language.generators.syntax.php>`_
-
 

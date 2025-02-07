@@ -28,4 +28,3 @@ The closing parenthesis of the in_array() call may be misplaced, yet yield a val
 It is most probably a bug, given the number of arguments in in_array().
 
 .. image:: ../images/misplaced_parenthesis.png
-

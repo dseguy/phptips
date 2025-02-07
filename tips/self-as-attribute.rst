@@ -35,7 +35,9 @@ It is also possible to use aliases with the attributes: they will automatically 
 
 .. image:: ../images/self-as-attribute.png
 
+See Also
+________
+
 * `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
 * `Original tweet <https://twitter.com/janedbal/status/1830573580251288042>`_
-
 

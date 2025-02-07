@@ -33,8 +33,10 @@ Thanks to Andreas Heigl for the inspiration.
 
 .. image:: ../images/fluent_function.png
 
+See Also
+________
+
 * `Magic Constant (PHP manual) <https://www.php.net/manual/en/language.constants.magic.php>`_
 * `First Class Callable (PHP manual) <https://www.php.net/manual/en/functions.first_class_callable_syntax.php>`_
 * `Fluent Functions <https://3v4l.org/HAPDR>`_
-
 

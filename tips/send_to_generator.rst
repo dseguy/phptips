@@ -33,7 +33,9 @@ Generator::send() only accepts one argument.
 
 .. image:: ../images/send_to_generator.png
 
+See Also
+________
+
 * `example on 3v4l.org <https://3v4l.org/ouPhi>`_
 * `Generator::send() <https://www.php.net/manual/en/generator.send.php>`_
-
 

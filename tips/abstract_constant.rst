@@ -37,9 +37,11 @@ This makes an effective 'abstract constant', that must be defined to be usable.
 
 .. image:: ../images/abstract_constant.png
 
+See Also
+________
+
 * `Class Constants (PHP manual) <https://www.php.net/manual/en/language.oop5.constants.php>`_
 * `Class Abstraction (PHP manual) <https://www.php.net/manual/en/language.oop5.abstract.php>`_
 * `Abstract constants in PHP - Force a child class to define a constant <https://stackoverflow.com/questions/10368620/abstract-constants-in-php-force-a-child-class-to-define-a-constant>`_
 * `Abstract Class Constant on 3v4l.org <https://3v4l.org/uu0lU>`_
-
 

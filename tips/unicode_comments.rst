@@ -29,6 +29,8 @@ Besides ``//``, ``#``, ``/** */`` and ``/* */``, there is another way to make a 
 
 .. image:: ../images/unicode_comments.png
 
-* `Comments (PHP manual) <https://www.php.net/manual/en/language.basic-syntax.comments.php>`_
+See Also
+________
 
+* `Comments (PHP manual) <https://www.php.net/manual/en/language.basic-syntax.comments.php>`_
 

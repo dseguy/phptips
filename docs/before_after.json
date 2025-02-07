@@ -1,7 +1,7 @@
 {
     "image": "before_after.png",
     "date": "2024-01-15",
-    "title": "Before Or After",
+    "title": "Declared Before Or After",
     "content": "PHP takes the opportunity to validate everything it can when it is handy, and leave the rest to execution time. In the code below, the first class has no error reported, because it is linted before the parent class. The last class displays an error because it appears after the definition of the parent, and PHP can lazily check it.\nThe validation of the first class will be more thorough at execution time, and yield the error then.",
     "seeAlso": {
     },
@@ -9,5 +9,8 @@
         "lintable"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "features": ["lint", "lint-wont-execute"],
+    "3v4l":{"Order Of Declaration Is Lintable":"https://3v4l.org/mUEsK"},
+    "phpError":{"Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods":"class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods"}
 }

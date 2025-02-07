@@ -29,6 +29,8 @@ In PHP 8.4, it is now possible to initialize the readonly properties from a chil
 
 .. image:: ../images/initialize_readonly_on_child.png
 
-* `readonly (PHP manual) <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties>`_
+See Also
+________
 
+* `readonly (PHP manual) <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties>`_
 

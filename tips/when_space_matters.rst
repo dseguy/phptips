@@ -32,4 +32,3 @@ Finally, the last echo is valid, because PHP managed to build a float, so it doe
 Some edge cases of white space matters in the syntax.
 
 .. image:: ../images/when_space_matters.png
-

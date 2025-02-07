@@ -30,4 +30,3 @@ Arrays also report errors when the key type is not valid, such as another array 
 Interestingly, Null and boolean accept illegal keys, with a simple warning.
 
 .. image:: ../images/nullAsArray.png
-

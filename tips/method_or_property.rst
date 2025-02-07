@@ -31,6 +31,8 @@ The nuance is subtle.
 
 .. image:: ../images/method_or_property.png
 
-* `method or property? <https://3v4l.org/b8rEC>`_
+See Also
+________
 
+* `method or property? <https://3v4l.org/b8rEC>`_
 

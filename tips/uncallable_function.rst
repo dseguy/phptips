@@ -31,7 +31,9 @@ This trick applies to functions, arrow functions, closures and methods.
 
 .. image:: ../images/uncallable_function.png
 
+See Also
+________
+
 * `Generators (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
 * `Code on 3v4l.org <https://3v4l.org/PvCYO>`_
-
 

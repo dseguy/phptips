@@ -31,6 +31,8 @@ In terms of security, it is important to remember that a PHAR is an archive, and
 
 .. image:: ../images/run_any_phar_file.png
 
-* `Phar (PHP manual) <https://www.php.net/manual/en/book.phar.php>`_
+See Also
+________
 
+* `Phar (PHP manual) <https://www.php.net/manual/en/book.phar.php>`_
 

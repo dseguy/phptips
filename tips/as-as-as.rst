@@ -31,6 +31,8 @@ It is possible to write 'as as as ' in PHP and make sense.
 
 .. image:: ../images/as-as-as.png
 
-* `Multiple Traits (PHP manual) <https://www.php.net/manual/en/language.oop5.traits.php#language.oop5.traits.multiple>`_
+See Also
+________
 
+* `Multiple Traits (PHP manual) <https://www.php.net/manual/en/language.oop5.traits.php#language.oop5.traits.multiple>`_
 

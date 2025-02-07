@@ -26,4 +26,3 @@ Another Cast To Int
 Another way to cast a value to int, besides the obvious ``(int)`` operator and the classic ``+ 0``, is to use the unary operator ``+`` operator on a variable: it add a sign operation on the variable, and the ``+`` sign is invariant: yet, the content of the variable is turned into an integer.
 
 .. image:: ../images/cast_to_int.png
-

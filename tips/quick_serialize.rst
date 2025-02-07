@@ -31,7 +31,9 @@ PS : accessing uninitialized properties leads to a Fatal error. This trick avoid
 
 .. image:: ../images/quick_serialize.png
 
+See Also
+________
+
 * `Original <https://twitter.com/doekenorg/status/1706624773646594134>`_
 * `get_object_vars() <https://www.php.net/get_object_vars>`_
-
 

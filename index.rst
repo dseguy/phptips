@@ -14,6 +14,7 @@ Welcome to the PHP tips and trick hidden chest!
    introduction
    tipSection
    authorindex
+   phperrorindex
 
 
 ==================

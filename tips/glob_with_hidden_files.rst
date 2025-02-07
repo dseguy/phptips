@@ -29,6 +29,8 @@ With the ``GLOB_BRACE``` option, it is possible to list all files, and even filt
 
 .. image:: ../images/glob_with_hidden_files.png
 
-* `glob <https://www.php.net/manual/en/function.glob.php>`_
+See Also
+________
 
+* `glob <https://www.php.net/manual/en/function.glob.php>`_
 

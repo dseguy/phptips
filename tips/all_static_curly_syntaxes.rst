@@ -50,4 +50,3 @@ Let's review them all.
 10) This is the problematic one. $A{A} is an attempt at reading a element at position A in the variable $A. This is a removed PHP feature, since PHP 8. It should be written $A[A], though it would be too obvious for the puzzle.
 
 .. image:: ../images/all_static_curly_syntaxes.png
-

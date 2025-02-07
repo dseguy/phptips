@@ -27,6 +27,8 @@ In this code, finally is executed after the throw. Since it contains a return, t
 
 .. image:: ../images/finally_catches_exception.png
 
-* `Finally (PHP manual) <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.finally>`_
+See Also
+________
 
+* `Finally (PHP manual) <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.finally>`_
 

@@ -33,8 +33,10 @@ This sort will sort string starting with '-' first: given the ASCII table, it al
 
 .. image:: ../images/sorting_with_minus.png
 
+See Also
+________
+
 * `PHP 8.2 incompatibilities <https://www.php.net/manual/en/migration82.incompatible.php>`_
 * `ASCII table <https://www.ascii-code.com/>`_
 * `ksort() <https://www.php.net/manual/en/function.ksort.php>`_
-
 

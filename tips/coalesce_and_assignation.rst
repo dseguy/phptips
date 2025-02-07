@@ -27,7 +27,9 @@ Coalesce has lower priority than assignation, so assignation happens first. It b
 
 .. image:: ../images/coalesce_and_assignation.png
 
+See Also
+________
+
 * `Operators precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
 * `Null Coalesce Operator <https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.coalesce>`_
-
 

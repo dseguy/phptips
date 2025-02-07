@@ -29,7 +29,9 @@ The cast operator ``(object)`` creates ``stdClass`` when applied to array.
 
 .. image:: ../images/instanceof_with_variable.png
 
+See Also
+________
+
 * `Type operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
 * `instanceof With Variables <https://3v4l.org/UCoEf>`_
-
 

@@ -39,6 +39,8 @@ In the end, they all share the same name space.
 
 .. image:: ../images/class_alias_alias.png
 
-* `class_alias (PHP manual) <https://www.php.net/class_alias>`_
+See Also
+________
 
+* `class_alias (PHP manual) <https://www.php.net/class_alias>`_
 

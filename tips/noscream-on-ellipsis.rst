@@ -35,7 +35,9 @@ Finally, the syntax ``@...@`` would be definitely cool. Crazy, but cool. Don't u
 
 .. image:: ../images/noscream-on-ellipsis.png
 
+See Also
+________
+
 * `Error control operator (PHP manual) <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_
 * `Array unpacking <https://www.php.net/manual/en/language.types.array.php#language.types.array.unpacking>`_
-
 

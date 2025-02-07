@@ -29,6 +29,8 @@ Constant expressions are expressions defining constants and default values. They
 
 .. image:: ../images/no_cast_in_constant_expression.png
 
-* `Class constants (PHP manual) <https://www.php.net/manual/en/language.oop5.constants.php>`_
+See Also
+________
 
+* `Class constants (PHP manual) <https://www.php.net/manual/en/language.oop5.constants.php>`_
 

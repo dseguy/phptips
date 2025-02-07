@@ -31,6 +31,8 @@ In any case, the linting error message reports an unexpected semicolon, which is
 
 .. image:: ../images/no_semi_colon_in_sight.png
 
-* `PHP tags <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`_
+See Also
+________
 
+* `PHP tags <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`_
 

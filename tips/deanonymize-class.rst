@@ -35,6 +35,8 @@ And as usual, if that class is not under the code's own control (say, external l
 
 .. image:: ../images/deanonymize-class.png
 
-* `Anonymous Classes (PHP manual) <https://www.php.net/manual/en/language.oop5.anonymous.php>`_
+See Also
+________
 
+* `Anonymous Classes (PHP manual) <https://www.php.net/manual/en/language.oop5.anonymous.php>`_
 

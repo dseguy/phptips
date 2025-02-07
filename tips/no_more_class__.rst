@@ -31,9 +31,11 @@ There is already a PHP extension function called ``_``, which is an alias of get
 
 .. image:: ../images/no_more_class__.png
 
+See Also
+________
+
 * `The Basics (PHP manual) <https://www.php.net/manual/en/language.oop5.basic.php>`_
 * `ext/gettext <https://www.php.net/manual/en/book.gettext.php>`_
 * `gettext() <https://www.php.net/manual/en/function.gettext.php>`_
 * `no more class _ <https://3v4l.org/bfh8v>`_
-
 

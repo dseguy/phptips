@@ -29,6 +29,8 @@ There can be a type added to the argument, and, with it, element element of the 
 
 .. image:: ../images/variadic_are_typed_and_defaulted.png
 
-* `Type declarations (PHP manual) <https://www.php.net/manual/en/language.types.declarations.php>`_
+See Also
+________
 
+* `Type declarations (PHP manual) <https://www.php.net/manual/en/language.types.declarations.php>`_
 

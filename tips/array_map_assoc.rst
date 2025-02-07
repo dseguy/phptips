@@ -29,6 +29,8 @@ Beware that the order of the arguments is now value, key, not the usual ``$key =
 
 .. image:: ../images/array_map_assoc.png
 
-* `array_map (PHP manual) <https://www.php.net/manual/en/function.array_map.php>`_
+See Also
+________
 
+* `array_map (PHP manual) <https://www.php.net/manual/en/function.array_map.php>`_
 

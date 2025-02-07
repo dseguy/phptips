@@ -27,6 +27,8 @@ The keyword self in an interface means that interface, not the host class. Hence
 
 .. image:: ../images/self_in_interface.png
 
-* `Scope Resolution Operator (::) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_
+See Also
+________
 
+* `Scope Resolution Operator (::) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_
 

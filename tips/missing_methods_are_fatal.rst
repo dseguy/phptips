@@ -27,6 +27,8 @@ Calling a missing method is a fatal error. Reading a missing property is a warni
 
 .. image:: ../images/missing_methods_are_fatal.png
 
-* `Properties (PHP manual) <https://www.php.net/manual/en/language.oop5.properties.php>`_
+See Also
+________
 
+* `Properties (PHP manual) <https://www.php.net/manual/en/language.oop5.properties.php>`_
 

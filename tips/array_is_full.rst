@@ -29,7 +29,9 @@ Also, it is a fatal error to fill an array beyond its capacity.
 
 .. image:: ../images/array_is_full.png
 
+See Also
+________
+
 * `array (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
 * `PHP_INT_MAX <https://www.php.net/manual/en/reserved.constants.php>`_
-
 

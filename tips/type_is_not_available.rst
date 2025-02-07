@@ -29,6 +29,8 @@ On the other hand, a function returning 'void', aka returning nothing, should no
 
 .. image:: ../images/type_is_not_available.png
 
-* `Type Declaration (PHP manual) <https://www.php.net/manual/en/language.types.declarations.php>`_
+See Also
+________
 
+* `Type Declaration (PHP manual) <https://www.php.net/manual/en/language.types.declarations.php>`_
 

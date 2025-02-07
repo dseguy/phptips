@@ -31,6 +31,8 @@ Why is there a difference of error level between these two operations, which are
 
 .. image:: ../images/by_reference_errors.png
 
-* `Passing By Reference (PHP manual) <https://www.php.net/manual/en/language.references.pass.php>`_
+See Also
+________
 
+* `Passing By Reference (PHP manual) <https://www.php.net/manual/en/language.references.pass.php>`_
 

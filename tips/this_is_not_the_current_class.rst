@@ -31,6 +31,8 @@ In the end, this is still compatible.
 
 .. image:: ../images/this_is_not_the_current_class.png
 
-* `Class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_
+See Also
+________
 
+* `Class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_
 

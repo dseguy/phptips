@@ -37,6 +37,8 @@ Type is then : void|mixed.
 
 .. image:: ../images/void_parameter.png
 
-* `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
+See Also
+________
 
+* `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
 

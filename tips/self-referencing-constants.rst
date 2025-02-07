@@ -31,6 +31,8 @@ One fun aspect is that the is not detected at compilation time, but at execution
 
 .. image:: ../images/self-referencing-constants.png
 
-* `Cannot declare self-referencing constant <https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-self-referencing-constant.html>`_
+See Also
+________
 
+* `Cannot declare self-referencing constant <https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-self-referencing-constant.html>`_
 

@@ -33,6 +33,8 @@ To invoke the object in the property ``y``, one has to put parenthesis around th
 
 .. image:: ../images/invoke_and_properties.png
 
-* `__invoke and properties <https://3v4l.org/BtooN>`_
+See Also
+________
 
+* `__invoke and properties <https://3v4l.org/BtooN>`_
 

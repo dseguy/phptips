@@ -27,6 +27,8 @@ Reminder that namespaces are not stacked, but are merely prefixes. Hence, there 
 
 .. image:: ../images/namespace_stack.png
 
-* `Namespace (PHP manual) <https://www.php.net/manual/en/language.namespaces.php>`_
+See Also
+________
 
+* `Namespace (PHP manual) <https://www.php.net/manual/en/language.namespaces.php>`_
 

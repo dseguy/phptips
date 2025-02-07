@@ -39,6 +39,8 @@ Finally, calling statically a non-static method still defines ``$this`` in the t
 
 .. image:: ../images/static_get_this.png
 
-* `Static Keyword (PHP manual) <https://www.php.net/manual/en/language.oop5.static.php>`_
+See Also
+________
 
+* `Static Keyword (PHP manual) <https://www.php.net/manual/en/language.oop5.static.php>`_
 

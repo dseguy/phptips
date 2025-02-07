@@ -30,4 +30,3 @@ It is possible to name a method 'function'. This is part of the relaxed keywords
 Of course, it is also possible to create a function called method.
 
 .. image:: ../images/function_function.png
-

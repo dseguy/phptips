@@ -31,6 +31,8 @@ In fact, there is a way : it is the short assignation with coalesce, which will 
 
 .. image:: ../images/initialize_with_coalesce.png
 
-* `Properties <https://www.php.net/manual/en/language.oop5.properties.php>`_
+See Also
+________
 
+* `Properties <https://www.php.net/manual/en/language.oop5.properties.php>`_
 

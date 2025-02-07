@@ -31,6 +31,8 @@ This is similar to another tip, that relies on echo.
 
 .. image:: ../images/where-is-the-semicolon.png
 
-* `No Semicolon in sight <https://php-tips.readthedocs.io/en/latest/tips/no_semi_colon_in_sight.html>`_
+See Also
+________
 
+* `No Semicolon in sight <https://php-tips.readthedocs.io/en/latest/tips/no_semi_colon_in_sight.html>`_
 

@@ -27,6 +27,8 @@ It is straightforward to convert an expression strpos() === 0 to using the str_s
 
 .. image:: ../images/refactor_str_pos.png
 
-* `strpos() <https://www.php.net/manual/strpos>`_
+See Also
+________
 
+* `strpos() <https://www.php.net/manual/strpos>`_
 

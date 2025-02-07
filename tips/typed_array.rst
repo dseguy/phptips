@@ -29,6 +29,8 @@ It is possible to set the type of all elements in a variadic: this is equivalent
 
 .. image:: ../images/typed_array.png
 
-* `Original on BluSky <https://bsky.app/profile/devatreides.bsky.social/post/3l3bwchdism2s>`_
+See Also
+________
 
+* `Original on BluSky <https://bsky.app/profile/devatreides.bsky.social/post/3l3bwchdism2s>`_
 

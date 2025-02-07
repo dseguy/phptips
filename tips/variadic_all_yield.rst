@@ -29,7 +29,9 @@ Here, the generator produces three values, and they are used to fill the three a
 
 .. image:: ../images/variadic_all_yield.png
 
+See Also
+________
+
 * `Variable-length argument lists (PHP manual) <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_
 * `Generator (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
-
 

@@ -29,6 +29,8 @@ Also, PHP's stdClass's constructor ignores all its arguments, as they are not us
 
 .. image:: ../images/stdclass_tracking.png
 
-* `The stdClass class (PHP manual) <https://www.php.net/manual/en/class.stdclass.php>`_
+See Also
+________
 
+* `The stdClass class (PHP manual) <https://www.php.net/manual/en/class.stdclass.php>`_
 

@@ -29,7 +29,9 @@ The intriguing point here is that the arrow function is defined based on the cur
 
 .. image:: ../images/recursive_arrow_function.png
 
+See Also
+________
+
 * `Arrow Functions (PHP manual) <https://www.php.net/manual/en/functions.arrow.php>`_
 * `recursive arrow function <https://3v4l.org/BYubA>`_
-
 

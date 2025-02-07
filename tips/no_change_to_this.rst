@@ -29,7 +29,9 @@ Variable ``$this`` is passed and reassigned by reference is a noop, as opposed t
 
 .. image:: ../images/no_change_to_this.png
 
+See Also
+________
+
 * `Original tweet <https://twitter.com/OndrejMirtes/status/1750522433633927620>`_
 * `Running code <https://3v4l.org/2PkHO>`_
-
 

@@ -33,6 +33,8 @@ Beware of the position of the attribute with closures and arrow functions, thoug
 
 .. image:: ../images/attributes_for_all.png
 
-* `Declaring Attribute Classes <https://www.php.net/manual/en/language.attributes.classes.php>`_
+See Also
+________
 
+* `Declaring Attribute Classes <https://www.php.net/manual/en/language.attributes.classes.php>`_
 

@@ -33,6 +33,8 @@ Also, there is no reciproque function for this: turn a hash into an array of arr
 
 .. image:: ../images/array_column_to_hash.png
 
-* `array_column (PHP manual) <https://www.php.net/manual/en/function.array-column.php>`_
+See Also
+________
 
+* `array_column (PHP manual) <https://www.php.net/manual/en/function.array-column.php>`_
 

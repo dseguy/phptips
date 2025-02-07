@@ -27,6 +27,8 @@ PHP's cast operators are case insensitive. ``(int)``, ``(INT)`` and all variatio
 
 .. image:: ../images/case_insensitive_cast.png
 
-* `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
+See Also
+________
 
+* `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
 

@@ -31,6 +31,8 @@ Also, checking an unset property with property_exists() is done against the clas
 
 .. image:: ../images/unset_properties.png
 
-* `Double quoted <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`_
+See Also
+________
 
+* `Double quoted <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`_
 

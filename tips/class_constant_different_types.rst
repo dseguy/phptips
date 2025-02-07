@@ -33,6 +33,8 @@ The trick is to use union types, which allows adding new valid types without asc
 
 .. image:: ../images/class_constant_different_types.png
 
-* `Class Constants (PHP manual) <https://www.php.net/manual/en/language.oop5.constants.php>`_
+See Also
+________
 
+* `Class Constants (PHP manual) <https://www.php.net/manual/en/language.oop5.constants.php>`_
 

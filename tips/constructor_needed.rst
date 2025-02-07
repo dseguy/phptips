@@ -31,6 +31,8 @@ As a rule of thumb, it might be good to always include the constructor definitio
 
 .. image:: ../images/constructor_needed.png
 
-* `Constructors and Destructors (PHP manual) <https://www.php.net/manual/en/language.oop5.decon.php>`_
+See Also
+________
 
+* `Constructors and Destructors (PHP manual) <https://www.php.net/manual/en/language.oop5.decon.php>`_
 

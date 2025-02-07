@@ -27,6 +27,8 @@ Scalar types, such as ``int`` or ``iterable`` shall only be used without the lea
 
 .. image:: ../images/scalar_types_are_unqualified.png
 
-* `Type declaration (PHP manual) <https://www.php.net/manual/en/language.types.declarations.php>`_
+See Also
+________
 
+* `Type declaration (PHP manual) <https://www.php.net/manual/en/language.types.declarations.php>`_
 

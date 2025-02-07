@@ -29,7 +29,9 @@ There is a special case, which is a class without a parent, though implementing 
 
 .. image:: ../images/override_with_interface.png
 
+See Also
+________
+
 * `More about the Override Attribute <https://www.exakat.io/en/more-about-the-override-attribute/>`_
 * `Override <https://www.php.net/manual/en/class.override.php>`_
-
 

@@ -31,6 +31,8 @@ When the call to bar() is made with '(new d)', the 'd::foo()' works again.
 
 .. image:: ../images/internal_static_call.png
 
-* `Late Static Bindings (PHP manual) <https://www.php.net/manual/en/language.oop5.late-static-bindings.php>`_
+See Also
+________
 
+* `Late Static Bindings (PHP manual) <https://www.php.net/manual/en/language.oop5.late-static-bindings.php>`_
 

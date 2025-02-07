@@ -31,6 +31,8 @@ This code is one rare way to show how it still leaks. Depending on the context, 
 
 .. image:: ../images/unexpected_keys.png
 
-* `Arrays (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
+See Also
+________
 
+* `Arrays (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
 

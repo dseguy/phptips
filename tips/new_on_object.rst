@@ -40,4 +40,3 @@ Under the hood, PHP collects the class name from the object to produce the new o
 Lastly, the full class name is available in the x::class syntax, but PHP won't recognize ``new x::class``, and even emit a Fatal error: it recognizes ``new (x::class)``.
 
 .. image:: ../images/new_on_object.png
-

@@ -33,9 +33,11 @@ array_reduce() doesn't provide keys when processing them.
 
 .. image:: ../images/array_reduce.png
 
+See Also
+________
+
 * `Original Tweet <https://twitter.com/rcsofttech85/status/1753413840245534746>`_
 * `array_reduce <https://www.php.net/manual/en/function.array-reduce.php>`_
 * `array_filter <https://www.php.net/manual/en/function.array-filter.php>`_
 * `array_reduce is drastically slower (~1000x) <https://github.com/php/php-src/issues/8283>`_
-
 

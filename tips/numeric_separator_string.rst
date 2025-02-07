@@ -33,8 +33,10 @@ Another option is to remove the _ chars, and cast the value to int.
 
 .. image:: ../images/numeric_separator_string.png
 
+See Also
+________
+
 * `Integers: syntax (PHP manual) <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.syntax>`_
 * `Eval <https://www.php.net/manual/en/function.eval.php>`_
 * `strtr() <https://www.php.net/manual/fr/function.strtr.php>`_
-
 

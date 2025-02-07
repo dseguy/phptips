@@ -29,6 +29,8 @@ This also means that an enumeration may be called 'enum'.
 
 .. image:: ../images/enum_as_name.png
 
-* `Example (PHP manual) <https://3v4l.org/bojkm>`_
+See Also
+________
 
+* `Example (PHP manual) <https://3v4l.org/bojkm>`_
 

@@ -21,7 +21,7 @@ Playing With Integers Limits
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/playing_with_the_limit.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/playing_with_the_limit.html","name":"Playing With Integers Limits","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 22 Nov 2024 21:11:39 +0000","dateModified":"Fri, 22 Nov 2024 21:11:39 +0000","description":"Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1\/12","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/playing_with_the_limit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/playing_with_the_limit.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/playing_with_the_limit.html","name":"Playing With Integers Limits","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Feb 2025 10:03:04 +0000","dateModified":"Fri, 22 Nov 2024 21:11:39 +0000","description":"Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1\/12","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/playing_with_the_limit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1/12.
 
@@ -29,7 +29,9 @@ PHP has the integer overflow. Stay away from the PHP_INT_MAX limits. The code in
 
 .. image:: ../images/playing_with_the_limit.png
 
+See Also
+________
+
 * `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
 * `8s8q1 <https://3v4l.org/8s8q1>`_
-
 

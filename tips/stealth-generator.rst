@@ -29,6 +29,8 @@ The code below has a useless loop. The presence of the ``yield`` keyword in the 
 
 .. image:: ../images/stealth-generator.png
 
-* `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
+See Also
+________
 
+* `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
 

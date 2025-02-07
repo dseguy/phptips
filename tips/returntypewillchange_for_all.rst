@@ -27,6 +27,8 @@ ReturnTypeWillChange is an attribute that tells PHP that the return type of the 
 
 .. image:: ../images/returntypewillchange_for_all.png
 
-* `ReturnTypeWillChange (PHP manual) <https://www.php.net/manual/en/class.returntypewillchange.php>`_
+See Also
+________
 
+* `ReturnTypeWillChange (PHP manual) <https://www.php.net/manual/en/class.returntypewillchange.php>`_
 

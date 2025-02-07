@@ -27,6 +27,8 @@ $a is the largest integer in PHP. So, $b, which is one bigger than $a, is actual
 
 .. image:: ../images/int_back_to_negative.png
 
-* `Integer (PHP manual) <https://www.php.net/manual/en/language.types.integer.php>`_
+See Also
+________
 
+* `Integer (PHP manual) <https://www.php.net/manual/en/language.types.integer.php>`_
 

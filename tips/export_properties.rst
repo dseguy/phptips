@@ -31,6 +31,8 @@ This is not recommended, as it exposes data that is supposed to be protected by 
 
 .. image:: ../images/export_properties.png
 
-* `Original Tweet) <https://twitter.com/timacdonald87/status/1615886928943153153>`_
+See Also
+________
 
+* `Original Tweet) <https://twitter.com/timacdonald87/status/1615886928943153153>`_
 

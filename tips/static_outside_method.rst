@@ -39,6 +39,8 @@ In PHP 8.3, duplicate 'static' variable definitions is forbidden. Not in a loop,
 
 .. image:: ../images/static_outside_method.png
 
-* `Using static variables (PHP manual) <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`_
+See Also
+________
 
+* `Using static variables (PHP manual) <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`_
 

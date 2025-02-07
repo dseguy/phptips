@@ -31,6 +31,8 @@ Since this constant is never used, its code is never executed, and it doesn't yi
 
 .. image:: ../images/when_a_constant_is_impossible.png
 
-* `Class Constants <https://www.php.net/manual/en/language.oop5.constants.php>`_
+See Also
+________
 
+* `Class Constants <https://www.php.net/manual/en/language.oop5.constants.php>`_
 

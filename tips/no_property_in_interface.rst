@@ -31,6 +31,8 @@ It's also going to save me some sanity, as I don't have to upgrade my Static Ana
 
 .. image:: ../images/no_property_in_interface.png
 
-* `Interfaces (PHP manual) <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
+See Also
+________
 
+* `Interfaces (PHP manual) <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
 

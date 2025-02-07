@@ -27,6 +27,8 @@ Such situations always make me smile, yet I am certain several of us will loose 
 
 .. image:: ../images/object_is_not_a_type.png
 
-* `Type Operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
+See Also
+________
 
+* `Type Operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
 

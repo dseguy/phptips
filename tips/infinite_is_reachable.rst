@@ -21,7 +21,7 @@ PHP Infinity Is Reachable
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_is_reachable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_is_reachable.html","name":"PHP Infinity Is Reachable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 27 Nov 2024 18:02:17 +0000","dateModified":"Wed, 27 Nov 2024 18:02:17 +0000","description":"Infinite values are sometimes returned by PHP functions, such as ``log(0)`` or ``exp(PHP_INT_MAX)``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_is_reachable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_is_reachable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_is_reachable.html","name":"PHP Infinity Is Reachable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Feb 2025 10:03:04 +0000","dateModified":"Wed, 27 Nov 2024 18:02:17 +0000","description":"Infinite values are sometimes returned by PHP functions, such as ``log(0)`` or ``exp(PHP_INT_MAX)``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_is_reachable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
 
@@ -29,6 +29,8 @@ Infinite values are sometimes returned by PHP functions, such as ``log(0)`` or `
 
 .. image:: ../images/infinite_is_reachable.png
 
-* `is_infinite() (PHP manual) <https://www.php.net/is_infinite>`_
+See Also
+________
 
+* `is_infinite() (PHP manual) <https://www.php.net/is_infinite>`_
 

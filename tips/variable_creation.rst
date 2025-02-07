@@ -29,7 +29,9 @@ When creating an anonymous object, the constructor is immediately executed: henc
 
 .. image:: ../images/variable_creation.png
 
+See Also
+________
+
 * `The Closure class <https://www.php.net/manual/en/class.closure.php>`_
 * `Anonymous functions <https://www.php.net/manual/en/functions.anonymous.php>`_
-
 

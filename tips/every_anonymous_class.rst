@@ -33,6 +33,8 @@ Note that the syntax ``foo() instanceof $x`` is valid, but ``$x instanceof foo()
 
 .. image:: ../images/every_anonymous_class.png
 
-* `instanceof (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
+See Also
+________
 
+* `instanceof (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
 

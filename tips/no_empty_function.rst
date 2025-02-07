@@ -29,7 +29,9 @@ When the code needs to pass around a ``empty function``, the best approach is to
 
 .. image:: ../images/no_empty_function.png
 
+See Also
+________
+
 * `Empty (PHP manual) <https://www.php.net/manual/en/function.empty.php>`_
 * `Language constructs <https://www.php.net/manual/en/control-structures.intro.php>`_
-
 

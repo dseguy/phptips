@@ -35,7 +35,9 @@ It is then possible to only use one promoted property definition, and skip that 
 
 .. image:: ../images/incompatible-promoted-readonlies.png
 
+See Also
+________
+
 * `Constructor promotion (PHP manual) <https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion>`_
 * `Properties <https://www.php.net/manual/en/language.oop5.properties.php>`_
-
 

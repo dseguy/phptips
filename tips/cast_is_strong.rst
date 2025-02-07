@@ -33,7 +33,9 @@ This issue has been with PHP since PHP 4.
 
 .. image:: ../images/cast_is_strong.png
 
+See Also
+________
+
 * `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
 * `Example cast with int <https://3v4l.org/moVUK>`_
-
 

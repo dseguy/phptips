@@ -27,6 +27,8 @@ It is possible to catch exceptions based on their interfaces, instead of their a
 
 .. image:: ../images/catch_interfaces.png
 
-* `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
+See Also
+________
 
+* `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
 

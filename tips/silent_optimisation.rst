@@ -34,4 +34,3 @@ second is skipped : no need to execute 2nd term
 third is reporting a warning.
 
 .. image:: ../images/silent_optimisation.png
-

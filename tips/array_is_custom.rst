@@ -39,7 +39,9 @@ This was reported as a bug, and fixed in PHP 8.4. Thanks!.
 
 .. image:: ../images/array_is_custom.png
 
+See Also
+________
+
 * `\array should not be usable #16665 <https://github.com/php/php-src/issues/16665>`_
 * `Type declaration ‘%s’ must be unqualified <https://php-errors.readthedocs.io/en/latest/messages/type-declaration-%27%25s%27-must-be-unqualified.html>`_
-
 

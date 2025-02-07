@@ -33,6 +33,8 @@ It's a good thing that power is so little used.
 
 .. image:: ../images/cast_and_power.png
 
-* `Operator Precedence (PHP manual) <https://www.php.net/manual/en/language.operators.precedence.php>`_
+See Also
+________
 
+* `Operator Precedence (PHP manual) <https://www.php.net/manual/en/language.operators.precedence.php>`_
 

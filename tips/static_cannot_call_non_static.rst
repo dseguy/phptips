@@ -28,4 +28,3 @@ It is known that a non-static method can call a static method. It is less known 
 A non-static method needs a value for ``$this``, which a static call doesn't provide.
 
 .. image:: ../images/static_cannot_call_non_static.png
-

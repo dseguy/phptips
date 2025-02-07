@@ -28,4 +28,3 @@ This made me chuckle... welcome to PHP 8.3 !
 First ``array`` is the type, the second is the name of the constant, with the relaxed keyword, and the last one is the value of the ``array``. It is not often that three times the same token is used in a row. Could we try 4 times?
 
 .. image:: ../images/array_array_array.png
-

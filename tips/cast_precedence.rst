@@ -29,7 +29,9 @@ If $c was the first operand, it would be cast first to integer, with no impact, 
 
 .. image:: ../images/cast_precedence.png
 
+See Also
+________
+
 * `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
 * `Reverse illustration <https://3v4l.org/JIP0g>`_
-
 

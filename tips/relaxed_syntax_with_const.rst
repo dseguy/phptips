@@ -29,6 +29,8 @@ The only forbidden keyword is ``class``, as it is used to report the name of the
 
 .. image:: ../images/relaxed_syntax_with_const.png
 
-* `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
+See Also
+________
 
+* `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
 

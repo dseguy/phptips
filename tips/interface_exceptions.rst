@@ -27,6 +27,8 @@ Custom exceptions are like any other classes: they may implements interfaces. La
 
 .. image:: ../images/interface_exceptions.png
 
-* `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_
+See Also
+________
 
+* `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_
 

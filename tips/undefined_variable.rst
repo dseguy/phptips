@@ -31,6 +31,8 @@ Upon close inspection, the variable is actually used in the call to the function
 
 .. image:: ../images/undefined_variable.png
 
-* `Undefined variable <https://3v4l.org/3ifYo>`_
+See Also
+________
 
+* `Undefined variable <https://3v4l.org/3ifYo>`_
 

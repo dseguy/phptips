@@ -29,6 +29,8 @@ On the other hand, a concrete method, inside any kind of class, cannot be made a
 
 .. image:: ../images/abstract_again.png
 
-* `Class Abstraction (PHP manual) <https://www.php.net/manual/en/language.oop5.abstract.php>`_
+See Also
+________
 
+* `Class Abstraction (PHP manual) <https://www.php.net/manual/en/language.oop5.abstract.php>`_
 

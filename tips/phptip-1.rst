@@ -33,6 +33,8 @@ Yet, modern OOP recommends to synchronize those signatures, so has to allow inst
 
 .. image:: ../images/phptip-1.png
 
-* `Constructors and Destructors (PHP manual) <https://www.php.net/manual/en/language.oop5.decon.php>`_
+See Also
+________
 
+* `Constructors and Destructors (PHP manual) <https://www.php.net/manual/en/language.oop5.decon.php>`_
 

@@ -37,6 +37,8 @@ Now, this extended syntax is an easy prey to property definition order, construc
 
 .. image:: ../images/quick-dto.png
 
-* `Function arguments <https://www.php.net/manual/en/functions.arguments.php>`_
+See Also
+________
 
+* `Function arguments <https://www.php.net/manual/en/functions.arguments.php>`_
 

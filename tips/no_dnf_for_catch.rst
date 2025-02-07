@@ -31,7 +31,9 @@ Yet, this is not a normal type, because the intersectional and the DNF format ar
 
 .. image:: ../images/no_dnf_for_catch.png
 
+See Also
+________
+
 * `Catch (PHP manual) <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.catch>`_
 * `Type declarations <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.catch>`_
-
 

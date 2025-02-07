@@ -31,7 +31,9 @@ It would also be possible to make a ``match(true)``, and use boolean expressions
 
 .. image:: ../images/match_multiple_values.png
 
+See Also
+________
+
 * `Match (PHP manual) <https://www.php.net/manual/en/control-structures.match.php>`_
 * `PHP Tricks: Multi-value match() <https://peakd.com/hive-168588/@crell/php-tricks-multi-value-match>`_
-
 

@@ -31,8 +31,10 @@ Then, by default, every instantiation of a Sqlite3 memory database provides the 
 
 .. image:: ../images/named_sqlite3_in_memory.png
 
+See Also
+________
+
 * `Original Tweet <https://x.com/archtechx/status/1863623958739796116>`_
 * `SQLite3::__construct <https://www.php.net/manual/en/sqlite3.construct.php>`_
 * `PDO Sqlite3 DSN <https://www.php.net/manual/en/ref.pdo-sqlite.connection.php>`_
-
 

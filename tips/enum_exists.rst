@@ -45,7 +45,9 @@ This is displaying true. Enumerations are considered as classes, even as they ha
 
 .. image:: ../images/enum_exists.png
 
+See Also
+________
+
 * `enum_exists <https://www.php.net/manual/en/function.enum-exists.php>`_
 * `All Classes Aliases <https://php-tips.readthedocs.io/en/latest/tips/class_alias_alias.html>`_
-
 

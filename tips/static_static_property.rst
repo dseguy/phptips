@@ -29,8 +29,10 @@ In fact, static would accept ``self``, but also ``parent`` and any children clas
 
 .. image:: ../images/static_static_property.png
 
+See Also
+________
+
 * `Static properties (PHP manual) <https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties>`_
 * `Late Static Binding (PHP manual) <https://www.php.net/manual/en/language.oop5.late-static-bindings.php#language.oop5.late-static-bindings>`_
 * `5 usages of static keyword in PHP <https://www.exakat.io/en/5-usages-of-static-keyword-in-php/>`_
-
 

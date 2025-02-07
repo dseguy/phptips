@@ -29,7 +29,9 @@ On the other hand, it is possible to create a new object from an existing object
 
 .. image:: ../images/clone_clone_clone.png
 
+See Also
+________
+
 * `Cloning objects <https://www.php.net/manual/en/language.oop5.cloning.php>`_
 * `new <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.new>`_
-
 

@@ -31,8 +31,10 @@ Besides that, readonly act as usual : it is only possible to assign the property
 
 .. image:: ../images/readonly_and_private.png
 
+See Also
+________
+
 * `Readonly properties <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties>`_
 * `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php>`_
 * `Class Invasation <https://php-dictionary.readthedocs.io/en/latest/dictionary.html#class-invasion>`_
-
 

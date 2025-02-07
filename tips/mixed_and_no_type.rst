@@ -41,6 +41,8 @@ With return type, PHP does check if anything is returned with a type of ``mixed`
 
 .. image:: ../images/mixed_and_no_type.png
 
-* `Mixed (PHP manual) <https://www.php.net/manual/en/language.types.mixed.php>`_
+See Also
+________
 
+* `Mixed (PHP manual) <https://www.php.net/manual/en/language.types.mixed.php>`_
 

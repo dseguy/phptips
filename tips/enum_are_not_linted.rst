@@ -31,6 +31,8 @@ Since PHP 8.2, it is now waiting for the execution stage and the first usage of 
 
 .. image:: ../images/enum_are_not_linted.png
 
-* `Enumeration <https://www.php.net/manual/en/language.types.enumerations.php>`_
+See Also
+________
 
+* `Enumeration <https://www.php.net/manual/en/language.types.enumerations.php>`_
 

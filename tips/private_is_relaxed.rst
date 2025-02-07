@@ -30,4 +30,3 @@ PHP has the relaxed syntax since early 7.0, which allows usage of PHP keywords f
 As usual, use with caution.
 
 .. image:: ../images/private_is_relaxed.png
-

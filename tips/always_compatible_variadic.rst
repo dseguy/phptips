@@ -31,7 +31,9 @@ Method compatibility usually require the arguments to be the same, but with a va
 
 .. image:: ../images/always_compatible_variadic.png
 
+See Also
+________
+
 * `Variable-length argument lists (PHP manual) <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_
 * `Original Tweet <https://twitter.com/SergiiShymko/status/1744905838089961807>`_
-
 

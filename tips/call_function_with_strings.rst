@@ -35,6 +35,8 @@ Finally, it is not possible to use the HereDoc syntax, as parenthesis are not al
 
 .. image:: ../images/call_function_with_strings.png
 
-* `Function (PHP manual) <https://www.php.net/manual/en/language.functions.php>`_
+See Also
+________
 
+* `Function (PHP manual) <https://www.php.net/manual/en/language.functions.php>`_
 

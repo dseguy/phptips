@@ -34,4 +34,3 @@ php => Cannot declare class stdClass
 because the name is already in use.
 
 .. image:: ../images/check_for_names.png
-

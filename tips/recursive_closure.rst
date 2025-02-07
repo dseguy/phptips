@@ -29,7 +29,9 @@ It also works for arrow functions, although there is no the use, but the variabl
 
 .. image:: ../images/recursive_closure.png
 
+See Also
+________
+
 * `Closure (PHP manual) <https://www.php.net/manual/en/class.closure.php>`_
 * `recursive closure <https://3v4l.org/3MHeR>`_
-
 

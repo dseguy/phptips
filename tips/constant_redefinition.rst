@@ -33,7 +33,9 @@ Yet, it might be worth looking into leveling both errors, to avoid hard to find 
 
 .. image:: ../images/constant_redefinition.png
 
+See Also
+________
+
 * `Constants (PHP manual) <https://www.php.net/manual/en/language.constants.php>`_
 * `Redefinition of a constant <https://3v4l.org/mHLNu>`_
-
 

@@ -33,6 +33,8 @@ Here, ``$a[1]`` is just after the end of the string, ``$a[10]`` is well beyond t
 
 .. image:: ../images/array_syntax_on_string.png
 
-* `Strings (PHP manual) <https://www.php.net/manual/en/language.types.string.php>`_
+See Also
+________
 
+* `Strings (PHP manual) <https://www.php.net/manual/en/language.types.string.php>`_
 

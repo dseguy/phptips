@@ -35,6 +35,8 @@ When the numbers of elements differ, PHP runs the function for the largest array
 
 .. image:: ../images/array_map_to_the_max.png
 
-* `array_map (PHP manual) <https://www.php.net/manual/en/function.array_map.php>`_
+See Also
+________
 
+* `array_map (PHP manual) <https://www.php.net/manual/en/function.array_map.php>`_
 

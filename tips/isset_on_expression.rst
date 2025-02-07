@@ -31,7 +31,9 @@ And of course, the error message is the same when the code uses both solutions a
 
 .. image:: ../images/isset_on_expression.png
 
+See Also
+________
+
 * `Isset (PHP manual) <https://www.php.net/isset>`_
 * `Cannot use isset() on the result of an expression (you can use "null !== expression" instead) <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-isset%28%29-on-the-result-of-an-expression-%28you-can-use-%22null-%21%3D%3D-expression%22-instead%29.html>`_
-
 

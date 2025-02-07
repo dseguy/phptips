@@ -29,8 +29,10 @@ The unicode for an elephant is ``128024`` or ``0x1F418``. It canbie used directl
 
 .. image:: ../images/elephpant.png
 
+See Also
+________
+
 * `Double quoted <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`_
 * `mb_chr <https://www.php.net/mb_chr>`_
 * `chr <https://www.php.net/chr>`_
-
 

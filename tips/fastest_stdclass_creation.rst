@@ -31,6 +31,8 @@ In the end, this is a micro optimisation.
 
 .. image:: ../images/fastest_stdclass_creation.png
 
-* `Converting to an object (PHP manual) <https://www.php.net/manual/en/language.types.object.php#language.types.object.casting>`_
+See Also
+________
 
+* `Converting to an object (PHP manual) <https://www.php.net/manual/en/language.types.object.php#language.types.object.casting>`_
 

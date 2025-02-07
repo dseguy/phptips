@@ -29,7 +29,9 @@ If the classic variable with a for() loop is ``$i``, then nested loop should use
 
 .. image:: ../images/roman_loops.png
 
+See Also
+________
+
 * `Original Tweet <https://twitter.com/valorin/status/1745688764465218033>`_
 * `Original Source <https://twitter.com/trunarla/status/1745582255840649608>`_
-
 

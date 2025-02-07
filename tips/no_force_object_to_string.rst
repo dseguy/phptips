@@ -27,6 +27,8 @@ PHP forces numeric strings to integers when using them as a index, in an array. 
 
 .. image:: ../images/no_force_object_to_string.png
 
-* `Arrays (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
+See Also
+________
 
+* `Arrays (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
 

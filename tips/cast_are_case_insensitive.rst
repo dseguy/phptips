@@ -31,6 +31,8 @@ The rest is coding convention, as they say.
 
 .. image:: ../images/cast_are_case_insensitive.png
 
-* `Type Operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
+See Also
+________
 
+* `Type Operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
 

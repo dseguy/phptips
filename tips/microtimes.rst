@@ -29,8 +29,10 @@ But don't use date(): although it has the same ``u`` formating letter, it never 
 
 .. image:: ../images/microtimes.png
 
+See Also
+________
+
 * `microtime() (PHP manual) <https://www.php.net/microtime>`_
 * `date() (PHP manual) <https://www.php.net/date>`_
 * `Datetime (PHP manual) <https://www.php.net/manual/en/class.datetime.php>`_
-
 

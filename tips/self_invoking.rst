@@ -35,6 +35,8 @@ The final result is quite impressive.
 
 .. image:: ../images/self_invoking.png
 
-* `__invoke() (PHP manual) <https://www.php.net/manual/en/language.oop5.magic.php#object.invoke>`_
+See Also
+________
 
+* `__invoke() (PHP manual) <https://www.php.net/manual/en/language.oop5.magic.php#object.invoke>`_
 

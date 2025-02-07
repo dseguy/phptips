@@ -27,6 +27,8 @@ The ``...`` operator can be used to create a closure from a method. That closure
 
 .. image:: ../images/closure_to_call.png
 
-* `First Class Callable Syntax (PHP manual) <https://www.php.net/manual/en/functions.first_class_callable_syntax.php>`_
+See Also
+________
 
+* `First Class Callable Syntax (PHP manual) <https://www.php.net/manual/en/functions.first_class_callable_syntax.php>`_
 

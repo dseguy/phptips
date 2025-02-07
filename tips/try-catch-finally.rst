@@ -31,6 +31,8 @@ When the catch and finally clauses are all omitted, the try clause can also be o
 
 .. image:: ../images/try-catch-finally.png
 
-* `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
+See Also
+________
 
+* `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
 

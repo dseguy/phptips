@@ -31,7 +31,9 @@ This code needs an explicit cast to string to work.
 
 .. image:: ../images/not_all_strings.png
 
+See Also
+________
+
 * `Array: syntax (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
 * `__toString() Magic Method <https://www.php.net/manual/fr/language.oop5.magic.php#object.tostring>`_
-
 

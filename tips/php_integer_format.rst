@@ -31,6 +31,9 @@ For the reverse operation, the reverse functions are also useful, with an extra 
 
 .. image:: ../images/php_integer_format.png
 
+See Also
+________
+
 * `Integer (PHP manual) <https://www.php.net/manual/en/language.types.integer.php>`_
 * `hexdec <https://www.php.net/manual/fr/function.hexdec.php>`_
 * `octdec <https://www.php.net/manual/fr/function.octdec.php>`_
@@ -39,5 +42,4 @@ For the reverse operation, the reverse functions are also useful, with an extra 
 * `decoctdec <https://www.php.net/manual/fr/function.decoct.php>`_
 * `decbindec <https://www.php.net/manual/fr/function.decbin.php>`_
 * `converting and back <https://3v4l.org/H5Yk3>`_
-
 
