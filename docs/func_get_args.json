@@ -1,0 +1,16 @@
+{
+    "image": "func_get_args.png",
+    "date": "2025-02-11",
+    "title": "func_get_args() Skips Variadic",
+    "content": "func_get_args() does not provide the variadic argument, when there is one. It is simply omitted.\nfunc_get_args() lists only the declared parameters, with their position, rather than their name.\nfunc_get_args() is the traditional way to hand arbitrary number of arguments, and with this difference of behavior related to variadic, it provides a different set of features.\nNowadays, 23% of PHP applications use this feature.",
+    "seeAlso": {
+        "func_get_args() (PHP manual)": "https://www.php.net/manual/en/function.func-get-args.php"
+    },
+    "tags": [
+        "surprising"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["variadic", "arbitrary-argument"],
+    "3v4l": {"func_get_args() versus variadic":"https://3v4l.org/2U6E4"}
+}

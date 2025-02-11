@@ -6,10 +6,12 @@
     "seeAlso": {
         "Generators overview (PHP manual)": "https://www.php.net/manual/en/language.generators.overview.php"
     },
-    "tags": [
+    "tags":[],
+    "features": [
         "ellipsis",
         "yield"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l":{"Get The Generator":"https://3v4l.org/S24Re"}
 }

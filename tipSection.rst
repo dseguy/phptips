@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/func_get_args.rst
    tips/ellipsis_array_parameters.rst
    tips/named_parameter_inheritance.rst
    tips/invoke_on_new.rst

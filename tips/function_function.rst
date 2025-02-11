@@ -21,7 +21,7 @@ The Function Method
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/function_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/function_function.html","name":"The Function Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Nov 2024 09:23:05 +0000","dateModified":"Sun, 03 Nov 2024 09:23:05 +0000","description":"It is possible to name a method 'function'","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/function_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/function_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/function_function.html","name":"The Function Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 11 Feb 2025 16:23:04 +0000","dateModified":"Tue, 11 Feb 2025 16:23:04 +0000","description":"It is possible to name a method 'function'","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/function_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Brent Roose <https://twitter.com/brendt_gd>`_
 
@@ -30,3 +30,9 @@ It is possible to name a method 'function'. This is part of the relaxed keywords
 Of course, it is also possible to create a function called method.
 
 .. image:: ../images/function_function.png
+
+See Also
+________
+
+* `method function <https://3v4l.org/8Y6m7>`_
+
