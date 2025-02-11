@@ -43,6 +43,21 @@ if ($diff = array_diff($i, $f)) {
 	print "Missing files in docs : ".implode(', ', $diff)."\n";
 }
 
+const FIELDS = [
+"image",
+"date",
+"title",
+"content",
+"seeAlso",
+"tags",
+"features",
+"3v4l",
+"author", 
+"contact", 
+"file",
+"phpError",
+];
+
 $stats = array('author' => 0,
 				);
 $errors = 0;
@@ -54,7 +69,7 @@ foreach($files as $file) {
 	$tip = json_decode(file_get_contents($file));
 
 	if ($tip === null) {
-		print("Warning : $file is not valid JSON");
+        print("Warning : $file is not valid JSON");
 		die();
 	}
 
@@ -164,7 +179,7 @@ foreach($files as $file) {
 	}
 
 	if (substr_count($tip->title, '_') > 1 && 
-		!preg_match('/(file_put_contents|private|array_intersect_uassoc_insensitive|file_append_contents|__invoke|array_map_assoc)/', $tip->title)) {
+		!preg_match('/(file_put_contents|private|func_get_arg|array_intersect_uassoc_insensitive|file_append_contents|__invoke|array_map_assoc)/', $tip->title)) {
 		buildlog("Warning : Too many _ in title '$tip->title' in $file");;
 	}
 
@@ -218,6 +233,18 @@ foreach($files as $file) {
 	    		++$errors;
 	        }
 	    }
+	}
+	
+	$fields = array_keys((array) $tip);
+	if ($diff = array_diff($fields, FIELDS)) {
+	    buildlog("Extra ".count($diff)." fields: ".implode(', ', $diff)." in file $file");
+	    print ("Extra ".count($diff)." fields: ".implode(', ', $diff)." in file $file");
+	    ++$errors;
+	    die();
+	}
+	if ($diff = array_diff(FIELDS, $fields)) {
+	    buildlog("Missing ".count($diff)." fields: ".implode(', ', $diff)." in file $file");
+	    ++$errors;
 	}
 
 	$tip->content = str_replace('#PHP', 'PHP', $tip->content);
