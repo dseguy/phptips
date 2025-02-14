@@ -7,11 +7,12 @@
         "Goto": "https://www.php.net/manual/en/control-structures.goto.php",
         "A URL is valid PHP code?!": "https://liamhammett.com/a-url-is-valid-php-code"
     },
-    "tags":[],
+    "tags":[
+            "surprising"
+    ],
     "features": [
         "goto",
-        "comment",
-        "surprising"
+        "comment"
     ],
     "author": "",
     "contact": "",

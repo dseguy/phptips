@@ -7,11 +7,14 @@
         "Class Constants": "https://www.php.net/manual/en/language.oop5.constants.php#language.oop5.constants",
         "Constants are no longer constant in PHP":"https://dev.to/hbgl/constants-are-no-longer-constant-in-php-oco"
     },
-    "tags": [
+    "tags": ["constant"],
+    "features": [
         "constant",
-        "new initializer",
+        "new-in-initializer",
         "object"
     ],
+    "3v4l":{"How To Alter A Constant":"https://3v4l.org/Ej6t6"},
     "author": "",
-    "contact": ""
+    "contact": "",
+    "phpError": {}
 }

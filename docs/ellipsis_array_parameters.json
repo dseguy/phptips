@@ -11,6 +11,6 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["parameter", "argument", "spread"],
+    "features": ["parameter", "argument", "array-spread"],
     "3v4l": {"ellipsis with arrays":"https://3v4l.org/TbFHe"}
 }

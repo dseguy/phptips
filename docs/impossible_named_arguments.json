@@ -1,0 +1,15 @@
+{
+    "image": "impossible_named_arguments.png",
+    "date": "2025-02-14",
+    "title": "Impossible Named Arguments",
+    "content": "Named parameters use the parameter name to allocate the argument. This implies that the provided parameter names are all compatible with a the variable name format. For example, it is not possible to use a space or a ``$`` sign in a variable name.\nOn the other hand, using the spread ``...`` operator on an array turns the string keys as named parameter. Any string may be an array index, so they are transmitted to the function. There, they are not validated against the variable name format, but simply checked against the list of existing parameters.\nAn edge case is the variadic parameter. That parameter accepts any named parameter, even if it does not check the variable format, as these values are stored in an array \nAnd that's how it is possible to use impossible named parameter.",
+    "seeAlso": {
+    },
+    "tags": [
+        "edge-case"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["named-parameter", "array-spread", "variable"],
+    "3v4l": {"Using impossible parameter names":"https://3v4l.org/U88Ip"}
+}

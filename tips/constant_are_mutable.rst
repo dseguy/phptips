@@ -21,7 +21,7 @@ Constants Are Mutable
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_are_mutable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_are_mutable.html","name":"Constants Are Mutable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 02 Feb 2024 16:48:34 +0000","dateModified":"Fri, 02 Feb 2024 16:48:34 +0000","description":"Since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_are_mutable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_are_mutable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_are_mutable.html","name":"Constants Are Mutable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 14 Feb 2025 14:22:15 +0000","dateModified":"Fri, 14 Feb 2025 14:22:15 +0000","description":"Since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_are_mutable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Since PHP 8.2, it is possible to use an object with a constant: this is the new initializer feature.
 
@@ -34,4 +34,5 @@ ________
 
 * `Class Constants <https://www.php.net/manual/en/language.oop5.constants.php#language.oop5.constants>`_
 * `Constants are no longer constant in PHP <https://dev.to/hbgl/constants-are-no-longer-constant-in-php-oco>`_
+* `How To Alter A Constant <https://3v4l.org/Ej6t6>`_
 
