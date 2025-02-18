@@ -14,5 +14,8 @@
         "directive"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l":{"precision":"https://3v4l.org/N2EnC"},
+    "phpError":{},
+    "features":["integer"]
 }

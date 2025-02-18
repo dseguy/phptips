@@ -21,7 +21,7 @@ All Static Curly Syntaxes And One Wrong
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html","name":"All Static Curly Syntaxes And One Wrong","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Nov 2023 08:49:14 +0000","dateModified":"Fri, 03 Nov 2023 08:49:14 +0000","description":"What is the only invalid syntax in the following list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html","name":"All Static Curly Syntaxes And One Wrong","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 11:57:17 +0000","dateModified":"Sun, 16 Feb 2025 11:57:17 +0000","description":"What is the only invalid syntax in the following list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 What is the only invalid syntax in the following list?
 
@@ -50,3 +50,9 @@ Let's review them all.
 10) This is the problematic one. $A{A} is an attempt at reading a element at position A in the variable $A. This is a removed PHP feature, since PHP 8. It should be written $A[A], though it would be too obvious for the puzzle.
 
 .. image:: ../images/all_static_curly_syntaxes.png
+
+See Also
+________
+
+* `Lots of {} <https://3v4l.org/9ogQC>`_
+

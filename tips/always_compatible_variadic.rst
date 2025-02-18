@@ -21,7 +21,7 @@ Always Compatible Variadic
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html","name":"Always Compatible Variadic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 05 Nov 2024 10:09:11 +0000","dateModified":"Tue, 05 Nov 2024 10:09:11 +0000","description":"A variadic argument is a valid and compatible signature, for methods that overwrite other methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html","name":"Always Compatible Variadic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 18 Feb 2025 02:41:10 +0000","dateModified":"Tue, 18 Feb 2025 02:41:10 +0000","description":"A variadic argument is a valid and compatible signature, for methods that overwrite other methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Sergii Shymko <https://twitter.com/SergiiShymko>`_
 
@@ -36,4 +36,5 @@ ________
 
 * `Variable-length argument lists (PHP manual) <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_
 * `Original Tweet <https://twitter.com/SergiiShymko/status/1744905838089961807>`_
+* `always compatible variadic <https://3v4l.org/IiQhc>`_
 

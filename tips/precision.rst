@@ -21,7 +21,7 @@ Float Precision
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/precision.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/precision.html","name":"Float Precision","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 18:22:09 +0000","dateModified":"Fri, 10 Jan 2025 18:22:09 +0000","description":"PHP has a 'precision' directive that controls the number of decimals displayed by float values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/precision.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/precision.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/precision.html","name":"Float Precision","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 18 Feb 2025 02:42:47 +0000","dateModified":"Tue, 18 Feb 2025 02:42:47 +0000","description":"PHP has a 'precision' directive that controls the number of decimals displayed by float values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/precision.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 PHP has a 'precision' directive that controls the number of decimals displayed by float values. This is used with echo (and co), but also with cast to string. 
 
@@ -35,5 +35,5 @@ See Also
 ________
 
 * `precision (PHP manual) <https://www.php.net/manual/en/ini.core.php#ini.precision>`_
-* `precision <https://3v4l.org/OlpZu>`_
+* `precision <https://3v4l.org/N2EnC>`_
 

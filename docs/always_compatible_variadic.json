@@ -13,5 +13,8 @@
         "method compatibility"
     ],
     "author": "Sergii Shymko",
-    "contact": "https://twitter.com/SergiiShymko"
+    "contact": "https://twitter.com/SergiiShymko",
+    "3v4l":{"always compatible variadic":"https://3v4l.org/IiQhc"},
+    "features":["variadic"],
+    "phpError":{}
 }

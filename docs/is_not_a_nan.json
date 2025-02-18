@@ -1,0 +1,17 @@
+{
+    "image": "is_not_a_nan.png",
+    "date": "2025-02-18",
+    "title": "Is Not A NAN",
+    "content": "NAN is a special PHP constant, which represents ``not-a-number``: it is returned when a math function cannot calculate a value because it is out of its domain of application. For example, ``acos(3)`` returns ``NAN``, because ``cos()`` produces values between -1 and 1.\nOne special situation with NAN is that it is always different from anything.So, it cannot even compare to itself.\nAlso, ``NAN`` is a float.",
+    "seeAlso": {
+        "NAN (PHP manual)": "https://www.php.net/manual/en/math.constants.php#constant.nan",
+        "is_nan (PHP manual)": "https://www.php.net/manual/en/function.is-nan.php"
+    },
+    "tags": [
+        "math"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["nan"],
+    "3v4l": {"NAN !== NAN":"https://3v4l.org/Hb5EI"}
+}

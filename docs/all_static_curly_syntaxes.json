@@ -6,6 +6,12 @@
 "seeAlso":{
 },
 "tags":[
-	"dynamic syntax"
-]
+	"dynamic syntax",
+	"curly brackets"
+],
+    "author": "",
+    "contact": "",
+    "3v4l":{"Lots of {}":"https://3v4l.org/9ogQC"},
+    "phpError":{},
+    "features":["curly-bracket", "constant", "dynamic-variable"]
 }
