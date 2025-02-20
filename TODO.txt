@@ -1,0 +1,4 @@
+add a link to 3v4l.org with the presented code
+add an entry with the version of PHP
+add a link to Exakat's related analysis
+make a script to normalize all the json format

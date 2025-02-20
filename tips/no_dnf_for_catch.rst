@@ -21,7 +21,7 @@ No DNF For Catch
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_dnf_for_catch.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_dnf_for_catch.html","name":"No DNF For Catch","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Feb 2024 22:09:57 +0000","dateModified":"Tue, 20 Feb 2024 22:09:57 +0000","description":"Catch clauses accept multiple types of exceptions, since PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_dnf_for_catch.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_dnf_for_catch.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_dnf_for_catch.html","name":"No DNF For Catch","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 20 Feb 2025 15:20:40 +0000","dateModified":"Thu, 20 Feb 2025 15:20:40 +0000","description":"Catch clauses accept multiple types of exceptions, since PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_dnf_for_catch.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Catch clauses accept multiple types of exceptions, since PHP 7.1: they are listed with the '|' separator.
 
@@ -36,4 +36,5 @@ ________
 
 * `Catch (PHP manual) <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.catch>`_
 * `Type declarations <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.catch>`_
+* ` <>`_
 

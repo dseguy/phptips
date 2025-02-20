@@ -4,9 +4,9 @@
     "title": "All Enum Cases",
     "content": "One convenient aspect of enumerations is that they come with a full list of their cases. Call the ``::cases()`` on any enumeration to get the full list of elements.\nThen, convert this list into their scalar representation, if any, by calling ``array_column``, with the public property ``value``.\nAnd it always works with the ``name`` property, to collect the names of the cases.",
     "seeAlso": {
-        "Enumerations (PHP manual)": "https://www.php.net/manual/en/language.enumerations.php",
-        "Value Listing (PHP manual)": "https://www.php.net/manual/en/language.enumerations.listing.php",
-        "Backed Enumerations (PHP manual)": "https://www.php.net/manual/en/language.enumerations.backed.php"
+        "Enumerations (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.enumerations.php",
+        "Value Listing (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.enumerations.listing.php",
+        "Backed Enumerations (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.enumerations.backed.php"
     },
     "tags": [
         "enumerations",
@@ -14,5 +14,7 @@
     ],
     "author": "",
     "contact": "",
-    "3v4l":{}
+    "3v4l": {},
+    "phpError": {},
+    "features": []
 }

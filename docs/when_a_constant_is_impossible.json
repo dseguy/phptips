@@ -1,16 +1,23 @@
 {
-"image":"when_a_constant_is_impossible.png",
-"date":"2023-10-03",
-"title":"Constants Can Be Impossible",	
-"content":"In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error.\nYet, this will be determined at execution time, and only if the constant is being used.\nSince this constant is never used, its code is never executed, and it doesn't yield any error. PHP has optimized the error away.",
-"seeAlso":{
-	"Class Constants":"https://www.php.net/manual/en/language.oop5.constants.php"
-},
-"tags":[
-	"PHP",
-	"fatal error",
-	"static constant expression",
-	"optimisation",
-	"edge case"
-]
+    "image": "when_a_constant_is_impossible.png",
+    "date": "2023-10-03",
+    "title": "Constants Can Be Impossible",
+    "content": "In this code, the constant ``x2::F`` is not possible, because adding a string and an array will result in Fatal error.\nYet, this will be determined at execution time, and only if the constant is being used.\nSince this constant is never used, its code is never executed, and it doesn't yield any error. PHP has optimized the error away.",
+    "seeAlso": {
+        "Class Constants": "https:\/\/www.php.net\/manual\/en\/language.oop5.constants.php"
+    },
+    "tags": [
+        "PHP",
+        "fatal error",
+        "static constant expression",
+        "optimisation",
+        "edge case"
+    ],
+    "3v4l": {
+        "": ""
+    },
+    "phpError": {},
+    "features": [],
+    "author": "",
+    "contact": ""
 }

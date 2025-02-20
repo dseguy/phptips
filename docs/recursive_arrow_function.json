@@ -4,7 +4,7 @@
     "title": "Recursive Arrow Function",
     "content": "To make an arrow function recursive, it must include itself in the list of arguments. That way, it can call itself.\nThe intriguing point here is that the arrow function is defined based on the current variables, and the function holding variable is only defined after the arrow function.",
     "seeAlso": {
-        "Arrow Functions (PHP manual)": "https://www.php.net/manual/en/functions.arrow.php"
+        "Arrow Functions (PHP manual)": "https:\/\/www.php.net\/manual\/en\/functions.arrow.php"
     },
     "tags": [
         "arrow function",
@@ -12,5 +12,9 @@
     ],
     "author": "",
     "contact": "",
-    "3v4l":{"recursive arrow function":"https://3v4l.org/BYubA"}
+    "3v4l": {
+        "recursive arrow function": "https:\/\/3v4l.org\/BYubA"
+    },
+    "phpError": {},
+    "features": []
 }
