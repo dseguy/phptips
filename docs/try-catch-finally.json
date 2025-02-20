@@ -4,7 +4,7 @@
     "title": "try, catch, finally Are All Optional",
     "content": "The finally clause in a try-catch-finally is actually optional: it can be omitted.\nThe catch clauses in a try-catch-finally are also optional: they can be omitted.\nWhen the catch and finally clauses are all omitted, the try clause can also be omitted safely.",
     "seeAlso": {
-        "Exceptions (PHP manual)": "https://www.php.net/manual/en/language.exceptions.php"
+        "Exceptions (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.exceptions.php"
     },
     "tags": [
         "try",
@@ -14,5 +14,10 @@
         "optional"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "": ""
+    },
+    "phpError": {},
+    "features": []
 }

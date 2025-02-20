@@ -4,7 +4,7 @@
     "title": "Exporting Properties",
     "content": "With an accessor and a reference, it is possible to export a private property and manipulate it from the outside of the object.\nThis is not recommended, as it exposes data that is supposed to be protected by its visibility.",
     "seeAlso": {
-        "Original Tweet)": "https://twitter.com/timacdonald87/status/1615886928943153153"
+        "Original Tweet)": "https:\/\/twitter.com\/timacdonald87\/status\/1615886928943153153"
     },
     "tags": [
         "context",
@@ -12,5 +12,10 @@
         "visibility"
     ],
     "author": "Tim Macdonald",
-    "contact": "https://twitter.com/timacdonald87"
+    "contact": "https:\/\/twitter.com\/timacdonald87",
+    "3v4l": {
+        "": ""
+    },
+    "phpError": {},
+    "features": []
 }

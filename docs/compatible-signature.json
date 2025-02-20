@@ -2,15 +2,20 @@
     "image": "compatible-signature.png",
     "date": "2024-11-20",
     "title": "Compatible Signature",
-    "content": "This piece of code shows a signature that changes with the version of PHP.\nIndeed, in PHP 7.x, the comment starts with ``#`` and goes to the end of the line. This also covers the ``/*`` so the multi ligne comment doesn't start, and the ``__invoke`` signature is the second one.\nIn PHP 8.0, the attributes ``#[PHP8]`` ends with its closing square bracket, and the signature of ``__invoke`` starts. By the end of the line, a multi-line comments starts, and covers the whole second line.\nIn the end, this code stays unchanged between PHP versions, although it toggles different signatures.",
+    "content": "This piece of code shows a signature that changes with the version of PHP.\nIndeed, in PHP 7.x, the comment starts with ``#`` and goes to the end of the line. This also covers the ``\/*`` so the multi ligne comment doesn't start, and the ``__invoke`` signature is the second one.\nIn PHP 8.0, the attributes ``#[PHP8]`` ends with its closing square bracket, and the signature of ``__invoke`` starts. By the end of the line, a multi-line comments starts, and covers the whole second line.\nIn the end, this code stays unchanged between PHP versions, although it toggles different signatures.",
     "seeAlso": {
-        "Attributes (PHP manual)": "https://www.php.net/manual/en/language.attributes.overview.php",
-        "Original tweet": "https://x.com/another_clue/status/1671189006162464768"
+        "Attributes (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.attributes.overview.php",
+        "Original tweet": "https:\/\/x.com\/another_clue\/status\/1671189006162464768"
     },
     "tags": [
         "attributes",
         "compatible"
     ],
-    "author": "Christian Lück",
-    "contact": "https://x.com/another_clue"
+    "author": "Christian L\u00fcck",
+    "contact": "https:\/\/x.com\/another_clue",
+    "3v4l": {
+        "": ""
+    },
+    "phpError": {},
+    "features": []
 }

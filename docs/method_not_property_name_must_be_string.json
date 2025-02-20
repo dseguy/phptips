@@ -3,13 +3,19 @@
     "date": "2025-01-17",
     "title": "Method Not Property Name Must Be String",
     "content": "A dynamic property name must be a string, and it must exist. It cannot be anything else, as not casting to string happens.\nOn the other hand, a dynamic property name is forcefully cast to a string before accessing its value.",
-    "seeAlso": {
-    },
+    "seeAlso": {},
     "tags": [
         "weird"
     ],
     "author": "",
     "contact": "",
-    "features": ["dynamic", "dynamic-call", "dynamic-property"],
-    "3v4l": {"Method Not Property Name Must Be String":"https://3v4l.org/aKlmO"}
+    "features": [
+        "dynamic",
+        "dynamic-call",
+        "dynamic-property"
+    ],
+    "3v4l": {
+        "Method Not Property Name Must Be String": "https:\/\/3v4l.org\/aKlmO"
+    },
+    "phpError": {}
 }

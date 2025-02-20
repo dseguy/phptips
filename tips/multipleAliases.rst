@@ -21,7 +21,7 @@ Multiple Aliases
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multipleAliases.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multipleAliases.html","name":"Multiple Aliases","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 02 Feb 2024 10:40:00 +0000","dateModified":"Fri, 02 Feb 2024 10:40:00 +0000","description":"It is possible to rename an imported method from a trait, by using an alias name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multipleAliases.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multipleAliases.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multipleAliases.html","name":"Multiple Aliases","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 20 Feb 2025 15:38:51 +0000","dateModified":"Thu, 20 Feb 2025 15:38:51 +0000","description":"It is possible to rename an imported method from a trait, by using an alias name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multipleAliases.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 It is possible to rename an imported method from a trait, by using an alias name. It is also possible to import it several times, with different names.
 
@@ -33,4 +33,5 @@ See Also
 ________
 
 * `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_
+* ` <>`_
 

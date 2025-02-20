@@ -21,7 +21,7 @@ Numeric Separators Inside A String?
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html","name":"Numeric Separators Inside A String?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Mar 2024 20:40:04 +0000","dateModified":"Thu, 14 Mar 2024 20:40:04 +0000","description":"Since PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html","name":"Numeric Separators Inside A String?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 20 Feb 2025 15:38:51 +0000","dateModified":"Thu, 20 Feb 2025 15:38:51 +0000","description":"Since PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Since PHP 7.4, there are numeric separators, to make integers more readable. 
 
@@ -39,4 +39,5 @@ ________
 * `Integers: syntax (PHP manual) <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.syntax>`_
 * `Eval <https://www.php.net/manual/en/function.eval.php>`_
 * `strtr() <https://www.php.net/manual/fr/function.strtr.php>`_
+* ` <>`_
 

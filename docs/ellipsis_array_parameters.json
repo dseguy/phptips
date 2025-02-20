@@ -4,13 +4,20 @@
     "title": "Ellipsis With Array Parameters",
     "content": "It is possible to spread parameters from an array, when calling a function.\nWith string keys, the parameters are named and assigned their corresponding parameter.\nWith integer positions, the parameters are used depending of their position in the array, not their actual key.\nIt might require a call to ksort() or array_values() to make it clear.",
     "seeAlso": {
-        "Function parameters and arguments (PHP manual)": "https://www.php.net/manual/en/functions.arguments.php"
+        "Function parameters and arguments (PHP manual)": "https:\/\/www.php.net\/manual\/en\/functions.arguments.php"
     },
     "tags": [
         "surprising"
     ],
     "author": "",
     "contact": "",
-    "features": ["parameter", "argument", "array-spread"],
-    "3v4l": {"ellipsis with arrays":"https://3v4l.org/TbFHe"}
+    "features": [
+        "parameter",
+        "argument",
+        "array-spread"
+    ],
+    "3v4l": {
+        "ellipsis with arrays": "https:\/\/3v4l.org\/TbFHe"
+    },
+    "phpError": {}
 }

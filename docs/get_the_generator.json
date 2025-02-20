@@ -4,14 +4,17 @@
     "title": "Get The Generator",
     "content": "It is possible to catch a generator when it is called, by putting it in a variable. Once the generator has been used, it is possible to call a method such as ``getReturn`` on it.\nThis works with ``...`` and ``foreach``.",
     "seeAlso": {
-        "Generators overview (PHP manual)": "https://www.php.net/manual/en/language.generators.overview.php"
+        "Generators overview (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.generators.overview.php"
     },
-    "tags":[],
+    "tags": [],
     "features": [
         "ellipsis",
         "yield"
     ],
     "author": "",
     "contact": "",
-    "3v4l":{"Get The Generator":"https://3v4l.org/S24Re"}
+    "3v4l": {
+        "Get The Generator": "https:\/\/3v4l.org\/S24Re"
+    },
+    "phpError": {}
 }
