@@ -21,7 +21,7 @@ Variadic Are Typed And Defaulted
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_are_typed_and_defaulted.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_are_typed_and_defaulted.html","name":"Variadic Are Typed And Defaulted","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Nov 2024 21:33:12 +0000","dateModified":"Sun, 03 Nov 2024 21:33:12 +0000","description":"When using the ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_are_typed_and_defaulted.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_are_typed_and_defaulted.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_are_typed_and_defaulted.html","name":"Variadic Are Typed And Defaulted","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 24 Feb 2025 16:47:25 +0000","dateModified":"Mon, 24 Feb 2025 16:47:25 +0000","description":"When using the ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_are_typed_and_defaulted.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 When using the ``...`` operator, the argument is automatically typed and defaulted: it is typed with array, and its default value is the empty array ``[]``.
 
@@ -33,4 +33,5 @@ See Also
 ________
 
 * `Type declarations (PHP manual) <https://www.php.net/manual/en/language.types.declarations.php>`_
+* `Hidden type and default value <https://3v4l.org/8S0fa>`_
 

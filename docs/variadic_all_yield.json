@@ -4,8 +4,8 @@
     "title": "Variadic All The Yields",
     "content": "The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array().\nHere, the generator produces three values, and they are used to fill the three argument positions. It makes a kind of shortcut.",
     "seeAlso": {
-        "Variable-length argument lists (PHP manual)": "https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list",
-        "Generator (PHP manual)":"https://www.php.net/manual/en/language.generators.overview.php"
+        "Variable-length argument lists (PHP manual)": "https:\/\/www.php.net\/manual\/en\/functions.arguments.php#functions.variable-arg-list",
+        "Generator (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.generators.overview.php"
     },
     "tags": [
         "ellipsis",
@@ -13,5 +13,10 @@
         "arguments"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Generator In Function Call": "https://3v4l.org/WdGDd"
+    },
+    "phpError": {},
+    "features": []
 }

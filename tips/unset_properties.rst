@@ -21,7 +21,7 @@ Unsetting Properties Surprises
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unset_properties.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unset_properties.html","name":"Unsetting Properties Surprises","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 26 May 2024 19:40:02 +0000","dateModified":"Sun, 26 May 2024 19:40:02 +0000","description":"Unsetting properties is always a surprise","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unset_properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unset_properties.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unset_properties.html","name":"Unsetting Properties Surprises","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 24 Feb 2025 17:01:04 +0000","dateModified":"Mon, 24 Feb 2025 17:01:04 +0000","description":"Unsetting properties is always a surprise","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unset_properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Unsetting properties is always a surprise.
 
@@ -35,4 +35,14 @@ See Also
 ________
 
 * `Double quoted <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`_
+* `Unset Properties <https://3v4l.org/SU2SE>`_
+
+
+PHP Error Messages
+__________________
+
+* `Undefined property <https://php-errors.readthedocs.io/en/latest/messages/undefined-property-%25s%3A%3A%24%25s.html>`_
+
+* `Typed property %s::$%s must not be accessed before initialization <https://php-errors.readthedocs.io/en/latest/messages/typed-property-%25s%3A%3A%24%25s-must-not-be-accessed-before-initialization.html>`_
+
 

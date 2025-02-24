@@ -1,15 +1,25 @@
 {
-"image":"unset_properties.png",
-"date":"2023-10-20",
-"title":"Unsetting Properties Surprises",
-"content":"Unsetting properties is always a surprise.\nFirst, if the property was typed, it yields a Fatal Error, as the property cannot be accessed before initialization. And, the unset destroyed the property.\nAlso, checking an unset property with property_exists() is done against the class definition, not the current object state.",
-"seeAlso":{
-	"Double quoted":"https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double"
-},
-"tags":[
-	"PHP",
-	"unset",
-	"properties",
-	"type"
-]
+    "image": "unset_properties.png",
+    "date": "2023-10-20",
+    "title": "Unsetting Properties Surprises",
+    "content": "Unsetting properties is always a surprise.\nFirst, if the property was typed, it yields a Fatal Error, as the property cannot be accessed before initialization. And, the unset destroyed the property.\nAlso, checking an unset property with property_exists() is done against the class definition, not the current object state.",
+    "seeAlso": {
+        "Double quoted": "https:\/\/www.php.net\/manual\/en\/language.types.string.php#language.types.string.syntax.double"
+    },
+    "tags": [
+        "PHP",
+        "unset",
+        "properties",
+        "type"
+    ],
+    "3v4l": {
+        "Unset Properties": "https://3v4l.org/SU2SE"
+    },
+    "phpError": {
+        "Undefined property": "undefined-property-%s::$%s",
+        "Typed property %s::$%s must not be accessed before initialization": "typed-property-%s::$%s-must-not-be-accessed-before-initialization"
+    },
+    "features": ["unset", "property"],
+    "author": "",
+    "contact": ""
 }

@@ -1,0 +1,23 @@
+{
+    "image": "no-final-parameter.png",
+    "date": "2025-02-24",
+    "title": "No Final Parameter",
+    "content": "Final is reserved for class elements, such as property, methods and constants. They do not apply to a paramter, unless the parameter is a promoted property, in the constructor signature.\nIn that case, the property cannot be declared in the constructor, and must be declared independently, or without the final key word.",
+    "seeAlso": {
+        "Final (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.oop5.final.php"
+    },
+    "tags": [
+        ""
+    ],
+    "author": "",
+    "contact": "",
+    "features": [
+        "final",
+        "promoted-property",
+        "parameter"
+    ],
+    "3v4l": {
+        "Final On A Parameter": "https:\/\/3v4l.org\/HKsFL"
+    },
+    "phpError": {"Cannot use the %s modifier on a %s":"cannot-use-the-%s-modifier-on-a-%s"}
+}

@@ -4,7 +4,7 @@
     "title": "Variadic Are Typed And Defaulted",
     "content": "When using the ``...`` operator, the argument is automatically typed and defaulted: it is typed with array, and its default value is the empty array ``[]``.\nThere can be a type added to the argument, and, with it, element element of the argument will be of this type. Yet, the argument itself is actually ``array``.",
     "seeAlso": {
-        "Type declarations (PHP manual)": "https://www.php.net/manual/en/language.types.declarations.php"
+        "Type declarations (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.types.declarations.php"
     },
     "tags": [
         "array",
@@ -13,5 +13,10 @@
         "default"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Hidden type and default value": "https://3v4l.org/8S0fa"
+    },
+    "phpError": {},
+    "features": []
 }
