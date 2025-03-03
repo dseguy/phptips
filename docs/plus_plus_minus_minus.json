@@ -1,12 +1,12 @@
 {
-"image":"plus_plus_minus_minus.png",
-"date":"2023-10-06",
-"title":"Plus Plus Minus Minus",
-"content":"What does a separated list of plus and minus do to a literal? They will be merged independently in the literal. Here, two negations will make a positive, so we get a plus.\nDon't forget the space between the plus and minus, or it will be a post increment operator, and a different answer.",
-"seeAlso":{
-},
-"tags":[
+    "image":"plus_plus_minus_minus.png",
+    "date":"2023-10-06",
+    "title":"Plus Plus Minus Minus",
+    "content":"What does a separated list of plus and minus do to a literal? They will be merged independently in the literal. Here, two negations will make a positive, so we get a plus.\nDon't forget the space between the plus and minus, or it will be a post increment operator, and a different answer.",
+    "seeAlso":{},
+    "tags":[
 	"PHP",
 	"operator"
-]
+    ],
+    "3v4l": {"plus plus":"https://3v4l.org/4m7rI"}
 }

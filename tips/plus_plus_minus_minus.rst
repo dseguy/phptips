@@ -21,10 +21,16 @@ Plus Plus Minus Minus
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/plus_plus_minus_minus.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/plus_plus_minus_minus.html","name":"Plus Plus Minus Minus","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Mar 2024 20:49:39 +0000","dateModified":"Thu, 14 Mar 2024 20:49:39 +0000","description":"What does a separated list of plus and minus do to a literal","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/plus_plus_minus_minus.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/plus_plus_minus_minus.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/plus_plus_minus_minus.html","name":"Plus Plus Minus Minus","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Mar 2025 20:35:46 +0000","dateModified":"Mon, 03 Mar 2025 20:35:46 +0000","description":"What does a separated list of plus and minus do to a literal","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/plus_plus_minus_minus.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 What does a separated list of plus and minus do to a literal? They will be merged independently in the literal. Here, two negations will make a positive, so we get a plus.
 
 Don't forget the space between the plus and minus, or it will be a post increment operator, and a different answer.
 
 .. image:: ../images/plus_plus_minus_minus.png
+
+See Also
+________
+
+* `plus plus <https://3v4l.org/4m7rI>`_
+

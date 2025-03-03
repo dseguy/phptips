@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/compact_is_recursive.rst
    tips/no-final-parameter.rst
    tips/is_not_a_nan.rst
    tips/impossible_named_arguments.rst

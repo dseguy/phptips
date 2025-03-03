@@ -7,17 +7,13 @@
         "Exceptions (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.exceptions.php"
     },
     "tags": [
-        "try",
-        "catch",
-        "finally",
-        "humour",
-        "optional"
+        "humour"
     ],
     "author": "",
     "contact": "",
     "3v4l": {
-        "": ""
+        "Try-catch-finally are optional": "https://3v4l.org/jOtGX"
     },
     "phpError": {},
-    "features": []
+    "features": ["catch", "try-catch", "catch"]
 }

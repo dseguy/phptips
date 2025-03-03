@@ -8,10 +8,7 @@
         "Type declarations": "https:\/\/www.php.net\/manual\/en\/language.exceptions.php#language.exceptions.catch"
     },
     "tags": [
-        "type",
-        "catch",
-        "intersectional",
-        "lint"
+        "inconsistent"
     ],
     "author": "",
     "contact": "",
@@ -19,5 +16,8 @@
         "": ""
     },
     "phpError": {},
-    "features": []
+    "features": [
+        "catch",
+        "dnf"
+    ]
 }

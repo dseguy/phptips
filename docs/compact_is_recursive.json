@@ -1,0 +1,18 @@
+{
+    "image": "compact_is_recursive.png",
+    "date": "2025-03-03",
+    "title": "compact() Is Recursive",
+    "content": "``compact()`` accepts an array of strings... and arrays. It uses the available arguments recursively, yet produces an array with only one level: the deep nesting is lots at compacting type.\nIn fact, if the variables are indeed available at compact() time, compact flattens the array, and turns it into a simple list.\nIt also means that it is prone to recursive error.",
+    "seeAlso": {
+        "compact() (PHP manual)": "https://www.php.net/compact",
+        "extract() (PHP manual)": "https://www.php.net/extract"
+    },
+    "tags": [
+        "tip"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["compact", "extract", "recursive"],
+    "3v4l": {"Recursive compact()":"https://3v4l.org/EEAKb"},
+    "phpError": {"Recursion detected":"recursion-detected"}
+}

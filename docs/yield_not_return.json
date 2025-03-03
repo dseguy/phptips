@@ -4,7 +4,7 @@
     "title": "Yield, Not Return",
     "content": "This code displays ``1 2 3``. This is because the ``...`` operator acts as a ``foreach`` and runs the generator. It then spreads the values as arguments for the function call, and, in this case, it matches the needed arguments.\nNote that named parameters are also supported, with the good PHP version.\nThe returned value of the generator is lost, in this case. If you need to access the returned values, you must get the generator, and call the ``getReturn()`` method.",
     "seeAlso": {
-        "Generators overview (PHP manual)": "https://www.php.net/manual/en/language.generators.overview.php"
+        "Generators overview (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.generators.overview.php"
     },
     "tags": [
         "ellipsis",
@@ -12,5 +12,9 @@
     ],
     "author": "",
     "contact": "",
-    "3v4l": {"yield but not return on 3v4l.org":"https://3v4l.org/DLIiA"}
+    "3v4l": {
+        "yield but not return on 3v4l.org": "https:\/\/3v4l.org\/DLIiA"
+    },
+    "phpError": {},
+    "features": []
 }
