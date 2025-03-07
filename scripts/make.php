@@ -25,6 +25,7 @@ $phptips[] = "-------------------";
 $phptips[] = "";
 
 $files = glob('docs/*.json');
+//$files = array('docs/try-catch-finally.json');
 
 $files = array_diff($files, ['docs/skeleton.json']);
 
@@ -362,9 +363,9 @@ foreach($tips as $tip) {
 	$phptip[] = '';
 	$phptip[] = ".. image:: ../images/".$tip->image;
 
-	$links = array_merge((array) $tip->seeAlso, (array)($tip?->{'3v4l'} ?? []));
+	$links = array_merge((array) $tip->seeAlso, (array)($tip->{'3v4l'} ?? []));
 	if (empty($links)) {
-		buildlog("Warning : seeAlso & 3v4l are empty in $file");
+		buildlog("Warning : seeAlso & 3v4l are empty in $name");
 		++$errors;
 	} else {
 		$phptip[] = '';

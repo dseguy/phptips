@@ -3,12 +3,16 @@
     "date": "2024-04-30",
     "title": "Class Is A Valid Type",
     "content": "PHP allows to use ``\\class`` as a class name in a type. This is also the case for interfaces, enums, traits... and it is also valid for some others keywords.\nOn the other hand, a good number of PHP keywords are forbidden, and yield an error : ``\\self`` is an invalid class name.\nOf course, once this is typed like that, it is not possible to satisfy the type specification, and such code is actually not usable.",
-    "seeAlso": {
-    },
+    "seeAlso": {},
     "tags": [
         "type",
         "edge case"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Can type \\class, cannot type self": "https://3v4l.org/OCfhi"
+    },
+    "phpError": {},
+    "features": ["type", "class", "keyword"]
 }

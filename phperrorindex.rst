@@ -5,6 +5,8 @@ Error Message index
     * :ref:`array_append()-and-short-assignation`
 * Cannot use the %s modifier on a %s
     * :ref:`no-final-parameter`
+* Class "%s" not found
+    * :ref:`unfinished-class-doesn't-compile`
 * Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods
     * :ref:`declared-before-or-after`
 * Recursion detected

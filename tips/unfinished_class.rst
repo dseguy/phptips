@@ -21,7 +21,7 @@ Unfinished Class Doesn't Compile
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unfinished_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unfinished_class.html","name":"Unfinished Class Doesn't Compile","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 07 Oct 2024 19:51:13 +0000","dateModified":"Mon, 07 Oct 2024 19:51:13 +0000","description":"PHP is not able to use a class before it is defined","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unfinished_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unfinished_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unfinished_class.html","name":"Unfinished Class Doesn't Compile","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Mar 2025 10:19:18 +0000","dateModified":"Fri, 07 Mar 2025 10:19:18 +0000","description":"PHP is not able to use a class before it is defined","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unfinished_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Jan Nedbal <https://janedbal.cz/>`_
 
@@ -34,4 +34,12 @@ ________
 
 * `Object Inheritance <https://www.php.net/manual/en/language.oop5.inheritance.php>`_
 * `Sometimes, PHP world is really weird. <https://twitter.com/janedbal/status/1758410205568643495>`_
+* `Simple Fatal Error <https://3v4l.org/GGUVm>`_
+
+
+PHP Error Messages
+__________________
+
+* `Class "%s" not found <https://php-errors.readthedocs.io/en/latest/messages/class-%22%25s%22-not-found.html>`_
+
 

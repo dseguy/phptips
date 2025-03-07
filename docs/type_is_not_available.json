@@ -4,12 +4,17 @@
     "title": "Type Is Not Always Returned",
     "content": "A method can display a return type, and never return it actually. This happens with exceptions, errors, yield and infinite loops. May be 'never' would be a better choice, if possible.\nOn the other hand, a function returning 'void', aka returning nothing, should not have any return statement, including the hidden one at the end of the method.",
     "seeAlso": {
-        "Type Declaration (PHP manual)": "https://www.php.net/manual/en/language.types.declarations.php"
+        "Type Declaration (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.types.declarations.php"
     },
     "tags": [
         "type",
         "return"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Typed in interface, not available": "https://3v4l.org/ea7eA"
+    },
+    "phpError": {},
+    "features": ["type"]
 }
