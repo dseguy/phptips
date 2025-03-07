@@ -3,11 +3,15 @@
     "date": "2023-01-15",
     "title": "Another Cast To Int",
     "content": "Another way to cast a value to int, besides the obvious ``(int)`` operator and the classic ``+ 0``, is to use the unary operator ``+`` operator on a variable: it add a sign operation on the variable, and the ``+`` sign is invariant: yet, the content of the variable is turned into an integer.",
-    "seeAlso": {
-    },
+    "seeAlso": {},
     "tags": [
         "arcane"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Another cast to int": "https://3v4l.org/qmWik"
+    },
+    "phpError": {},
+    "features": ["integer", "cast"]
 }

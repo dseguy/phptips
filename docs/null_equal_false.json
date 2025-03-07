@@ -3,13 +3,17 @@
     "date": "2022-05-28",
     "title": "null Does Not Always Equal false",
     "content": "null equals false, so the first equality is actually true.\nOn the other hand, using null and false as keys in an array, lead them to be cast to string: they end up being different, and that allows two elements to be stored in the array.",
-    "seeAlso": {
-    },
+    "seeAlso": {},
     "tags": [
         "array",
         "cast",
         "comparison"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "null and false are in an array": "https://3v4l.org/av7e9"
+    },
+    "phpError": {},
+    "features": ["index-array", "false", "null"]
 }

@@ -1,16 +1,15 @@
 {
     "image": "class_const_confusion.png",
     "date": "2025-03-07",
-    "title": "Confusion Between Class And Const",
-    "content": "The ``::`` operator works both on class names, and constants. The later is a mix of PHP evolution: first, PHP 8.0 allowed ``::class`` on variables, and then PHP 8.2 allowed constants to hold objects.\nThis means that the left operand of ``::`` may be a class name, or a constant. And there are two different namespaces for constants and classes, so code may hold both a class ``A`` and a constant ``A``.\nIn case of ambiguity, the class has priority over the constant. ``A::class`` is the name of the class, not the name of the class of the constant's value.\nAnd, at the same time, when there is only a constant, it's value is used as a base.\nFor disambiguation purposes, parenthesis are your friends.",
+    "title": "Classes Constant Disambiguation With Parenthesis",
+    "content": "The ``::`` operator and the ``instanceof`` operators work on class names only. Even if a constant with the same name holds an object, it is not used unless being dereferenced, via usage of parenthesis.",
     "seeAlso": {
     },
     "tags": [
-        "confusion",
         "parenthesis"
     ],
     "author": "",
     "contact": "",
-    "features": ["constant", "static-scope-resolution", "class"],
-    "3v4l": {"Class Constant Confusion":"https://3v4l.org/IUG8L"}
+    "features": ["constant", "static-scope-resolution", "class", "instanceof"],
+    "3v4l": {"Classes Only":"https://3v4l.org/XsH0k"}
 }
