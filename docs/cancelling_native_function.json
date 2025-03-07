@@ -1,0 +1,16 @@
+{
+    "image": "cancelling_native_function.png",
+    "date": "2025-03-08",
+    "title": "Cancelling Native Function",
+    "content": "PHP native functions are part of the global scope. In a custom namespace, the local definition of a function has priority. And when this fails, PHP fallbacks to the global space. This is a backward compatibility process, that prevents developer from adding ALL native PHP functions as a ``use`` expression in every file. This would be long, boring and a performance boost.\nTo cancel a PHP native function, such as ``print_r`` or ``var_dump``, the trick is to create a definition of that function in the same namespace. It is then used with precedence, and may be prevented from having any impact.\nThis would be different from using the ``disable_functions``: then, the function undefined, and shall be defined again, in the global namespace, to be properly neutralized.\nThis trick does not work with classes.",
+    "seeAlso": {
+        "Namespaces (PHP manual)": "https://www.php.net/manual/en/language.namespaces.php"
+    },
+    "tags": [
+        "fallback"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["disable_functions", "fallback", "function"],
+    "3v4l": {"disable print_r() in namespace":"https://3v4l.org/nuUL6"}
+}

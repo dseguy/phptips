@@ -4,13 +4,17 @@
     "title": "Uncallable Function",
     "content": "The function foo() cannot be called. When the code does so, nothing happens.\nThe trick is the inclusion of a call to yield (or yield from) in the function. It turns the function into a generator, and calling it directly does nothing. It needs to be called with foreach() or iterator_to_array().\nThis trick applies to functions, arrow functions, closures and methods.",
     "seeAlso": {
-        "Generators (PHP manual)": "https://www.php.net/manual/en/language.generators.overview.php",
-        "Code on 3v4l.org":"https://3v4l.org/PvCYO"
+        "Generators (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.generators.overview.php"
     },
     "tags": [
         "yield",
         "function"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "The function that cannot execute": "https://3v4l.org/ZfoVL"
+    },
+    "phpError": {},
+    "features": ["function"]
 }
