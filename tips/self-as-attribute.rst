@@ -21,7 +21,7 @@ Self As Attribute
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-as-attribute.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-as-attribute.html","name":"Self As Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Sep 2024 18:59:33 +0000","dateModified":"Tue, 03 Sep 2024 18:59:33 +0000","description":"Self, parent and static cannot be used as attributes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-as-attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-as-attribute.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-as-attribute.html","name":"Self As Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 10 Mar 2025 21:11:25 +0000","dateModified":"Mon, 10 Mar 2025 21:11:25 +0000","description":"Self, parent and static cannot be used as attributes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-as-attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Jan Nedbal <https://janedbal.cz/>`_
 
@@ -40,4 +40,5 @@ ________
 
 * `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
 * `Original tweet <https://twitter.com/janedbal/status/1830573580251288042>`_
+* ` <>`_
 

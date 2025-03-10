@@ -1,0 +1,20 @@
+{
+    "image": "remove_last_item.png",
+    "date": "2025-03-10",
+    "title": "Remove Last Item In An Array",
+    "content": "Three ways to remove the last item in an array.\narray_pop() is the most adapted function, as it does actually that.\nunset() is dedicated to removing elements, though it requires the calculation of the last key before. It is still the fastest of all three.\narray_slice() works with the negative offset, just like a string. It is not too much slower, until one realize its result needs to be reassigned.\nAll in all, they need a good million iterations to see actual performances differences. It is a micro-optimisation.",
+    "seeAlso": {
+        "array_slice() (PHP manual)": "https://www.php.net/manual/en/function.array-slice.php",
+        "unset() (PHP manual)": "https://www.php.net/manual/en/function.unset.php",
+        "array_pop() (PHP manual)": "https://www.php.net/manual/en/function.array-pop.php"
+    },
+    "tags": [
+        "performances",
+        "comparison"
+    ],
+    "author": "",
+    "contact": "",
+    "features": [],
+    "phpError": {},
+    "3v4l": {"comparisons":"https://3v4l.org/bEaBT"}
+}

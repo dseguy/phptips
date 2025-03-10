@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/remove_last_item.rst
    tips/cancelling_native_function.rst
    tips/class_const_confusion.rst
    tips/compact_is_recursive.rst
