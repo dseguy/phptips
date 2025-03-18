@@ -1,18 +1,23 @@
 {
-"image":"static_static_property.png",
-"date":"2023-11-13",
-"title":"Cannot Static Static Property",	
-"content":"Static can be used as a keyword to mark a property as 'static' (sic). It could also be used as a type for that same property, leading to those confusing lines below.\nIn fact, static would accept ``self``, but also ``parent`` and any children class: just like ``self``. So, ``self`` is sufficient to type properties, and there is no need for ``static static``.",
-"seeAlso":{
-	"Static properties (PHP manual)":"https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties",
-	"Late Static Binding (PHP manual)":"https://www.php.net/manual/en/language.oop5.late-static-bindings.php#language.oop5.late-static-bindings",
-	"5 usages of static keyword in PHP":"https://www.exakat.io/en/5-usages-of-static-keyword-in-php/"
-},
-"tags":[
-	"static",
-	"syntax",
-	"type"
-],
-"author":"",
-"contact":""
+    "image": "static_static_property.png",
+    "date": "2023-11-13",
+    "title": "Cannot Static Static Property",
+    "content": "Static can be used as a keyword to mark a property as ``static`` (sic). It could also be used as a type for that same property, leading to those confusing lines below.\nIn fact, static would accept ``self``, but also ``parent`` and any children class: just like ``self``. So, ``self`` is sufficient to type properties, and there is no need for ``static static``.",
+    "seeAlso": {
+        "Static properties (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.oop5.static.php#language.oop5.static.properties",
+        "Late Static Binding (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.oop5.late-static-bindings.php#language.oop5.late-static-bindings",
+        "5 usages of static keyword in PHP": "https:\/\/www.exakat.io\/en\/5-usages-of-static-keyword-in-php\/"
+    },
+    "tags": [
+        "static",
+        "syntax",
+        "type"
+    ],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "No static static": "https://3v4l.org/C4DLP"
+    },
+    "phpError": {"Multiple static modifiers are not allowed":"multiple-static-modifiers-are-not-allowed"},
+    "features": ["static", "property", "self"]
 }

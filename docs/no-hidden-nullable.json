@@ -1,0 +1,16 @@
+{
+    "image": "no-hidden-nullable.png",
+    "date": "2025-03-18",
+    "title": "No Hidden Nullable",
+    "content": "A hidden nullable is a, now deprecated, PHP features where typed parameters with a default value of ``null`` are automatically nullable.\nWell, that is true only if PHP can spot the ``null`` at compilation time: when the ``null`` is hidden (sic) in a constant, then it is not recognized, and it leads to a Fatal Error.\nThis is due to PHP postponing the evaluation of the constant to execution phase.",
+    "seeAlso": {
+       
+    },
+    "tags": [
+        "fatal-error"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["null", "nullable", "default-value"],
+    "3v4l": {"Hidden and not so hidden":"https://3v4l.org/g846c"}
+}
