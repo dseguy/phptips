@@ -1,6 +1,8 @@
 Error Message index
 -------------------
 
+* Cannot use 'namespace' as namespace name
+    * :ref:`namespace,-but-far-in-the-name`
 * Cannot use [] for reading
     * :ref:`array_append()-and-short-assignation`
 * Cannot use the %s modifier on a %s

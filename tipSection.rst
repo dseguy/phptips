@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/namespace_namespace.rst
    tips/namespace_but_far.rst
    tips/no-hidden-nullable.rst
    tips/remove_last_item.rst

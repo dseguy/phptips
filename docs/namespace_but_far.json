@@ -1,7 +1,7 @@
 {
     "image": "namespace_but_far.png",
     "date": "2025-03-24",
-    "title": "namespace, But Far In The Name",
+    "title": "Namespace, But Far In The Name",
     "content": "Namespaces can be named anything, except ``namespace``. That keyword is used as a prefix, on a name (class, function, constant, etc.) to represent the current namespace, and allow for relative sub-namespaces.\nThen, the ``namespace`` keyword cannot be used as the first part of a namespace, as it would conflict with the ``namespace`` relative part.\nBut it is possible to use ``namespace`` later in the name.",
     "seeAlso": {
         "namespace (PHP manual)": "https://www.php.net/manual/en/language.namespaces.nsconstants.php"
@@ -12,5 +12,6 @@
     "author": "",
     "contact": "",
     "features": ["namespace"],
+    "phpError":{"Cannot use 'namespace' as namespace name":"cannot-use-'namespace'-as-namespace-name"},
     "3v4l": {"namespace in a namespace":"https://3v4l.org/gQie5"}
 }
