@@ -1,12 +1,19 @@
 {
-"image":"static_outside_method.png",
-"date":"2023-11-07",
-"title":"Static Variable Outside A Method",     
-"content":"TIL that PHP static variables can be declared out of a function, in the namespace. \n\nThen, it is a simple variable with a default value. There is no way to call the global scope again (that makes no sense). In fact, including the same file simply restarts the context and the static variable again. \n\nMay be a warning from the linter could be nice.\n\nIn PHP 8.3, duplicate 'static' variable definitions is forbidden. Not in a loop, which is a bad practice anyway.",
-"seeAlso":{
-        "Using static variables (PHP manual)":"https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static"
-},
-"tags":[
+    "image": "static_outside_method.png",
+    "date": "2023-11-07",
+    "title": "Static Variable Outside A Method",
+    "content": "TIL that PHP static variables can be declared out of a function, in the namespace.\n\nThen, it is a simple variable with a default value. There is no way to call the global scope again (that makes no sense). In fact, including the same file simply restarts the context and the static variable again. \n\nMay be a warning from the linter could be nice.\n\nIn PHP 8.3, duplicate 'static' variable definitions is forbidden. Not in a loop, which is a bad practice anyway.",
+    "seeAlso": {
+        "Using static variables (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.variables.scope.php#language.variables.scope.static"
+    },
+    "tags": [
         "static variables"
-]
+    ],
+    "3v4l": {
+        "": "https://3v4l.org/2jjV7"
+    },
+    "phpError": {},
+    "features": ["static-variable"],
+    "author": "",
+    "contact": ""
 }
