@@ -21,7 +21,7 @@ Lots Of Silly Arguments
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html","name":"Lots Of Silly Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 10 Jul 2024 15:02:45 +0000","dateModified":"Wed, 10 Jul 2024 15:02:45 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html","name":"Lots Of Silly Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 11 Apr 2025 17:54:38 +0000","dateModified":"Fri, 11 Apr 2025 17:54:38 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Greg Korba <https://twitter.com/_Codito_>`_
 
@@ -39,4 +39,5 @@ See Also
 ________
 
 * `__invoke() (PHP manual) <https://www.php.net/manual/en/language.oop5.magic.php#object.invoke>`_
+* `Lots of Silly Arguments <https://3v4l.org/Xbv66>`_
 

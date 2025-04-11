@@ -1,0 +1,16 @@
+{
+    "image": "ellipsisAndCoalesce.png",
+    "date": "2025-04-11",
+    "title": "Ellipsis And Coalesce",
+    "content": "Ellipsis, aka ``...`` three dots, applies only to arrays and Traversable objects. It also has a lower priority than the ``??`` coalesce operator, which means that ``??`` is applied before the ``...``.\nThis way, when the variable is undefined, it is still possible to unpack it, after having given a default value.",
+    "seeAlso": {
+        "Array unpacking (PHP manual)": "https://www.php.net/manual/en/language.types.array.php#language.types.array.unpackingp"
+    },
+    "tags": [
+        ""
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["unpacking"],
+    "3v4l": {"ellipsis and coalesce":"https://3v4l.org/YTEL6"}
+}

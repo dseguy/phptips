@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/ellipsisAndCoalesce.rst
    tips/namespace_namespace.rst
    tips/namespace_but_far.rst
    tips/no-hidden-nullable.rst
