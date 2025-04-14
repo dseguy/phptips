@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/cannot-initialy-modify-readonly.rst
    tips/ellipsisAndCoalesce.rst
    tips/namespace_namespace.rst
    tips/namespace_but_far.rst

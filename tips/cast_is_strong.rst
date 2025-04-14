@@ -21,7 +21,7 @@ Cast Is So Strong
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_is_strong.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_is_strong.html","name":"Cast Is So Strong","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 13:39:05 +0000","dateModified":"Tue, 14 Jan 2025 13:39:05 +0000","description":"The code below yields a Fatal Error, at linting time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_is_strong.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_is_strong.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_is_strong.html","name":"Cast Is So Strong","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 14 Apr 2025 20:37:54 +0000","dateModified":"Mon, 14 Apr 2025 20:37:54 +0000","description":"The code below yields a Fatal Error, at linting time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_is_strong.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 The code below yields a Fatal Error, at linting time. PHP identifies too early the cast operator ``(int)``, and fail to recognize the function call to ``var_dump()``. 
 
@@ -38,4 +38,11 @@ ________
 
 * `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
 * `Example cast with int <https://3v4l.org/moVUK>`_
+
+
+PHP Error Messages
+__________________
+
+* `syntax error, unexpected token "(int)" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%28int%29%22.html>`_
+
 

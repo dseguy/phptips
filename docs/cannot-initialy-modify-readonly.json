@@ -1,0 +1,17 @@
+{
+    "image": "cannot-initialy-modify-readonly.png",
+    "date": "2025-04-14",
+    "title": "Cannot indirectly modify readonly",
+    "content": "The same error message 'Cannot indirectly modify readonly property X::$property' is used when trying to sneak a reference on a readonly property, and updated it later.\nStrangely, this is also the same error message when the readonly property is initially assigned a reference, for later sneaky update.\nThe error is the same, indeed, yet may be these messages may be distinct.",
+    "seeAlso": {
+        "Properties (PHP manual)": "https://www.php.net/manual/en/language.oop5.properties.php"
+    },
+    "tags": [
+        ""
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["readonly", "references"],
+    "3v4l": {"Sneaky readonly":"https://3v4l.org/jNtaT"},
+    "phpError":{"Cannot indirectly modify readonly property %s::$%s":"cannot-indirectly-modify-readonly-property-%s::$%s"}
+}

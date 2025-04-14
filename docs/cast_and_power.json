@@ -2,7 +2,7 @@
     "image": "cast_and_power.png",
     "date": "2024-05-21",
     "title": "Casting And Power",
-    "content": "When you know that 2*2 = 4, and 2**2 = 4 (too), and 2.5 ** 2.5 = 9.8821176880262, have to ask yourself where is this 6 coming from. \nThe answer is in the precedence. Casting has higher precedence than multiplication, so cast is done first (2.5 -> 2) then multiplication. This gives the first 4. \nThen, power, ``**``, as higher precedence than casting, so the second expression gives first 2.5 ** 2, which is 6.25, and then, cast it again as an integer, hence 6.\nIt's a good thing that power is so little used.",
+    "content": "When you know that 2*2 = 4, and 2**2 = 4 (too), and 2.5 ** 2.5 = 9.8821176880262, have to ask yourself where is this 6 coming from.\nThe answer is in the precedence. Casting has higher precedence than multiplication, so cast is done first (2.5 -> 2) then multiplication. This gives the first 4. \nThen, power, ``**``, as higher precedence than casting, so the second expression gives first 2.5 ** 2, which is 6.25, and then, cast it again as an integer, hence 6.\nIt's a good thing that power is so little used.",
     "seeAlso": {
         "Operator Precedence (PHP manual)": "https://www.php.net/manual/en/language.operators.precedence.php"
     },
@@ -12,5 +12,9 @@
         "precedence"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "features": ["cast", "exponent"],
+    "3v4l": {"Cast And Power":"https://3v4l.org/ciEvM"},
+    "phpError":{}
+
 }

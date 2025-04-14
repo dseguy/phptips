@@ -15,5 +15,7 @@
         "Example cast with int":"https://3v4l.org/moVUK"
     },
     "author": "",
-    "contact": ""
+    "contact": "",
+    "features":["cast", "compilation"],
+    "phpError":{"syntax error, unexpected token \"(int)\"":"syntax-error,-unexpected-token-\"(int)\""}
 }

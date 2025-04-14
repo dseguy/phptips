@@ -1,6 +1,8 @@
 Error Message index
 -------------------
 
+* Cannot indirectly modify readonly property %s::$%s
+    * :ref:`cannot-indirectly-modify-readonly`
 * Cannot use 'namespace' as namespace name
     * :ref:`namespace,-but-far-in-the-name`
 * Cannot use [] for reading
@@ -19,3 +21,5 @@ Error Message index
     * :ref:`unsetting-properties-surprises`
 * Undefined property
     * :ref:`unsetting-properties-surprises`
+* syntax error, unexpected token "(int)"
+    * :ref:`cast-is-so-strong`
