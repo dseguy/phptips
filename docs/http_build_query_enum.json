@@ -1,0 +1,16 @@
+{
+    "image": "http_build_query_enum.png",
+    "date": "2025-04-15",
+    "title": "http_build_query() And Enumerations",
+    "content": "When using a backed enum with http_build_query(), the PHP native function uses the value of the case, and not the case itself. This is very convenient to output a compatible value, instead of an internal object. This is valid since PHP 8.4.",
+    "seeAlso": {
+       
+    },
+    "tags": [
+        "changed behavior"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["enum"],
+    "3v4l": {"http_build_query and enum":"https://3v4l.org/0mWQs"}
+}

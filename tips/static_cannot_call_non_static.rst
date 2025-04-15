@@ -21,10 +21,16 @@ A Static Method Cannot Call A Non Static Method
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_cannot_call_non_static.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_cannot_call_non_static.html","name":"A Static Method Cannot Call A Non Static Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jan 2024 20:21:38 +0000","dateModified":"Mon, 15 Jan 2024 20:21:38 +0000","description":"It is known that a non-static method can call a static method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_cannot_call_non_static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_cannot_call_non_static.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_cannot_call_non_static.html","name":"A Static Method Cannot Call A Non Static Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 15 Apr 2025 20:49:51 +0000","dateModified":"Tue, 15 Apr 2025 20:49:51 +0000","description":"It is known that a non-static method can call a static method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_cannot_call_non_static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 It is known that a non-static method can call a static method. It is less known that a static method cannot call a non-static method, even if the static syntax is possible.
 
 A non-static method needs a value for ``$this``, which a static call doesn't provide.
 
 .. image:: ../images/static_cannot_call_non_static.png
+
+See Also
+________
+
+* `cannot call static <https://3v4l.org/C8gAO>`_
+

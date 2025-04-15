@@ -6,8 +6,12 @@
     "seeAlso": {
     },
     "tags": [
-        "static"
+        "static",
+        "execution"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "features": [], 
+    "3v4l":{"cannot call static":"https://3v4l.org/C8gAO"}, 
+    "phpError": {}
 }
