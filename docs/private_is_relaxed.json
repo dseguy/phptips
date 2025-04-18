@@ -10,5 +10,8 @@
         "relaxed naming"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "features":["exponential"], 
+    "3v4l":{"private as a public constant":"https://3v4l.org/XYmck"}, 
+    "phpError":{}
 }

@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/no_const_A.rst
    tips/http_build_query_enum.rst
    tips/cannot-initialy-modify-readonly.rst
    tips/ellipsisAndCoalesce.rst

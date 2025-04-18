@@ -2,7 +2,7 @@
 "image":"squared_negative.png",
 "date":"2023-09-01",
 "title":"Negative Squares",	
-"content":"Still my favorite PHP bug : literal negative value is squared, and is ... negative. In fact, the ** operator has precedence over the minus operator, and the square is then executed before the negation. Hence, the negative results. It is useful to process, correctly, parenthesises, but not integers.",
+"content":"This is still my favorite PHP bug : literal negative value is squared, and is ... negative. In fact, the ``**`` operator has precedence over the minus operator, and the square is then executed before the negation. Hence, the negative results. It is useful to process, correctly, parentheseses, but not integers.",
 "seeAlso":{
 	"Operator Precedence":"https://www.php.net/manual/en/language.operators.precedence.php"
 },
@@ -10,5 +10,10 @@
 	"PHP",
 	"operator",
 	"literal"
-]
+],
+"features":["exponential"], 
+"3v4l":{"-3 ^ 2 == -9":"https://3v4l.org/fKHbm"}, 
+"author":"", 
+"contact":"", 
+"phpError":{}
 }
