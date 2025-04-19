@@ -21,7 +21,7 @@ Constructor Needed
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_needed.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_needed.html","name":"Constructor Needed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Oct 2024 15:43:01 +0000","dateModified":"Fri, 04 Oct 2024 15:43:01 +0000","description":"By default, classes don't need a constructor, and it may be omitted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_needed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_needed.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_needed.html","name":"Constructor Needed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 19 Apr 2025 08:22:57 +0000","dateModified":"Sat, 19 Apr 2025 08:22:57 +0000","description":"By default, classes don't need a constructor, and it may be omitted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_needed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By default, classes don't need a constructor, and it may be omitted. It is also true in the case of child classes: PHP look for a local constructor, then a parent constructor, and it is valid to have none of them.
 
@@ -35,4 +35,12 @@ See Also
 ________
 
 * `Constructors and Destructors (PHP manual) <https://www.php.net/manual/en/language.oop5.decon.php>`_
+* `What is in an identifier <https://3v4l.org/c16hv>`_
+
+
+PHP Error Messages
+__________________
+
+* `Cannot call constructor <https://php-errors.readthedocs.io/en/latest/messages/cannot-call-constructor.html>`_
+
 

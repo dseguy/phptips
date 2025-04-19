@@ -1,6 +1,8 @@
 Error Message index
 -------------------
 
+* Cannot call constructor
+    * :ref:`constructor-needed`
 * Cannot indirectly modify readonly property %s::$%s
     * :ref:`cannot-indirectly-modify-readonly`
 * Cannot use 'namespace' as namespace name

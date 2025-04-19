@@ -12,5 +12,8 @@
         "surprising"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "phpError":{},
+    "features":["constant", "identifier", "class"],
+    "3v4l":{"What is in an identifier":"https://3v4l.org/c16hv"}
 }

@@ -8,8 +8,12 @@
     },
     "tags": [
         "constructor",
-        "maintenance"
+        "maintenance",
+        "best practice"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "phpError":{"Cannot call constructor":"cannot-call-constructor"},
+    "features":["constructor", "class"],
+    "3v4l":{"What is in an identifier":"https://3v4l.org/c16hv"}
 }
