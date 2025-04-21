@@ -14,5 +14,10 @@
 	"readonly",
 	"class invasion",
 	"PHP 8.1"
-]
+],
+    "author": "",
+    "contact": "",
+    "3v4l":{"closure factorial":"https://3v4l.org/v6hH9"},
+    "phpError":{},
+    "features":["readonly", "private"]
 }

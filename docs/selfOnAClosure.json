@@ -1,0 +1,16 @@
+{
+    "image": "selfOnAClosure.png",
+    "date": "2025-04-21",
+    "title": "self Is A Valid Type On A Closure",
+    "content": "``self`` is a valid type inside a class (trait, interface, enum) to reference the current class. ``self`` may also be used with a closure, since the closure use its location of definition. The class name may be exported that way, and instantiated outside the original class.\nThis applies to ``static`` and ``parent`` too. Try it wit ``static`` for extra fun.\nThis tips also applies when the closure is made static, although it might be surprising.\nThis tip applies to arrow functions.\nThis tip does not applies to functions created in a class (ugh...).",
+    "seeAlso": {
+        "Void (PHP manual)": "https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php"
+    },
+    "tags": [
+        "rare"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["self", "closure", "static"],
+    "3v4l": {"self on a closure":"https://3v4l.org/PAjY6"}
+}

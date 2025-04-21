@@ -10,5 +10,10 @@
         "closure",
 		"repeat",
 		"funny"
-]
+],
+    "author": "",
+    "contact": "",
+    "features": ["self", "call", "ellipsis"],
+    "3v4l": {"Define and call a closure":"https://3v4l.org/mDFnh"},
+    "phpError":{}
 }

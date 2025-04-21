@@ -7,11 +7,11 @@
         "Closure (PHP manual)": "https://www.php.net/manual/en/class.closure.php"
     },
     "tags": [
-        "closure",
-        "arrow function",
-        "recursive"
+        "trick"
     ],
     "author": "",
     "contact": "",
-    "3v4l":{"recursive closure":"https://3v4l.org/3MHeR"}
+    "3v4l":{"recursive closure":"https://3v4l.org/3MHeR"},
+    "phpError":{},
+    "features":["closure", "arrow-function", "recursion"]
 }
