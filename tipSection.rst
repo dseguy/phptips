@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/named_parameter_in_an_array.rst
    tips/selfOnAClosure.rst
    tips/compatible_new_argument.rst
    tips/no_const_A.rst
