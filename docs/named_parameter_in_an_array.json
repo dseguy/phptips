@@ -1,8 +1,8 @@
 {
     "image": "named_parameter_in_an_array.png",
     "date": "2025-04-22",
-    "title": "named_parameter_in_an_array",
-    "content": "It is possible to spread the arguments from an array to a functioncall. It is also possible to use the keys to name the arguments, and have them in any order in the array, just like named parameters.",
+    "title": "Named Parameter In An Array",
+    "content": "It is possible to spread the arguments from an array to a functioncall. It is also possible to use the keys to name the arguments, and have them in any order in the array, just like named parameters.\nIt is possible since PHP 8.0, and was an unrelated error before.",
     "seeAlso": {
         "Tips for arguments in array":"https://x.com/laravelbackpack/status/1914642850970742973"
     },
@@ -12,5 +12,6 @@
     "author": "",
     "contact": "",
     "features": ["named-parameter", "ellipsis"],
-    "3v4l": {"Named parameter in array":"https://3v4l.org/pTq6T"}
+    "3v4l": {"Named parameter in array":"https://3v4l.org/pTq6T"},
+    "phpError": {"Cannot unpack array with string keys":"cannot-unpack-array-with-string-keys"}
 }

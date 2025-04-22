@@ -5,6 +5,8 @@ Error Message index
     * :ref:`constructor-needed`
 * Cannot indirectly modify readonly property %s::$%s
     * :ref:`cannot-indirectly-modify-readonly`
+* Cannot unpack array with string keys
+    * :ref:`named-parameter-in-an-array`
 * Cannot use 'namespace' as namespace name
     * :ref:`namespace,-but-far-in-the-name`
 * Cannot use [] for reading
