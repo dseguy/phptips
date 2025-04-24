@@ -2,7 +2,7 @@
     "image": "compatible_new_argument.png",
     "date": "2025-04-19",
     "title": "Keep Interface New Argument Compatible",
-    "content": "A reminder for maintainers of #PHP libraries: adding a parameter to a method of an interface causes a fatal error in all the classes that implement it. It's a BC break that should be prohibed in a minor version.\nIn Symfony, we add the parameter virtually using phpdoc, and read it using func_get_arg().",
+    "content": "A reminder for maintainers of PHP libraries: adding a parameter to a method of an interface causes a fatal error in all the classes that implement it. It's a BC break that should be prohibed in a minor version.\nIn Symfony, we add the parameter virtually using phpdoc, and read it using func_get_arg().",
     "seeAlso": {
         "Original BluSky": "https://bsky.app/profile/jerome.tamarelle.net/post/3lmweebhmxs2y",
         "func_get_arg": "https://www.php.net/manual/en/function.func-get-arg.php"
@@ -13,5 +13,6 @@
     "author": "Jerome Tamarelle",
     "contact": "https://bsky.app/profile/jerome.tamarelle.net",
     "features": ["compatibility"],
-    "3v4l": {"Example code":"https://3v4l.org/g3htG"}
+    "3v4l": {"Example code":"https://3v4l.org/g3htG"},
+    "phpError":{}
 }

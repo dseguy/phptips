@@ -21,7 +21,7 @@ Compatible Only Interface
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_interface.html","name":"Compatible Only Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 02 Aug 2024 16:10:52 +0000","dateModified":"Fri, 02 Aug 2024 16:10:52 +0000","description":"Interfaces are contracts that defines methods signatures, which implmenting class have to implements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_interface.html","name":"Compatible Only Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 24 Apr 2025 05:42:14 +0000","dateModified":"Thu, 24 Apr 2025 05:42:14 +0000","description":"Interfaces are contracts that defines methods signatures, which implmenting class have to implements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Interfaces are contracts that defines methods signatures, which implmenting class have to implements.
 
@@ -38,4 +38,5 @@ ________
 
 * `Object Interfaces (PHP manual) <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
 * `Example code on 3v4l.org (VhsoJ) <https://3v4l.org/VhsoJ>`_
+* `Extended interface <https://3v4l.org/u9kQ3>`_
 

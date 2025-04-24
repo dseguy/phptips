@@ -1,0 +1,17 @@
+{
+    "image": "quine.png",
+    "date": "2025-04-24",
+    "title": "PHP Quine",
+    "content": "A quine is a piece of code that produces itself. It takes not input, and outputs a text that is its own code. The code is run to produce itself.\nOne may consider a file without PHP tags as a Quine: PHP executes such code by outputing the raw text. It is considered valid, yet too easy to be a quine.",
+    "seeAlso": {
+        "Quine (Computing)": "https://en.wikipedia.org/wiki/Quine_(computing)",
+        "Quine Programs":"https://cs.lmu.edu/~ray/notes/quineprograms/"
+    },
+    "tags": [
+        "surprising"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["self-replicating"],
+    "3v4l": {"Quine in PHP":"https://3v4l.org/X9TuF"}
+}

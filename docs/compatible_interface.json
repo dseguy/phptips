@@ -12,5 +12,8 @@
         "compatibility"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "features": ["compatibility", "type-covariance", "type-contravariance"],
+    "3v4l": {"Extended interface":"https://3v4l.org/u9kQ3"},
+    "phpError":{}
 }
