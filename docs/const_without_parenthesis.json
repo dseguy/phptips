@@ -7,9 +7,11 @@
         "Type Operators (PHP manual)": "https://www.php.net/manual/en/language.operators.type.php"
     },
     "tags": [
-        "cast",
-        "keyword"
+        "cast"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "features": ["cast"],
+    "3v4l": {"(int) compilation error":"https://3v4l.org/1Lt2o"}
+    
 }

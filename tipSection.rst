@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/FunctionNameInAMethod.rst
    tips/quine.rst
    tips/named_parameter_in_an_array.rst
    tips/selfOnAClosure.rst

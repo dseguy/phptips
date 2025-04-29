@@ -2,7 +2,7 @@
     "image": "coalesce_is_null.png",
     "date": "2023-11-26",
     "title": "Coalesce And Null",
-    "content": "I'm still struggling to pick a PHP side.\n\n@ is too slow, because it merely hides the error.\n\n``??`` looks dumb. It looks like : if it is null, use null as default.\n\nthe if() command is long to type.\nIs there another way to handle this issue?",
+    "content": "I'm still struggling to pick a side in this debate.\n\n@ is too slow, because it merely hides the error.\n\n``??`` looks dumb. It looks like : if it is null, use null as default.\n\nthe if() command is long to type.\nIs there another way to handle this issue?",
     "seeAlso": {
         "Error Control Operators": "https://www.php.net/manual/en/language.operators.errorcontrol.php"
     },
@@ -12,5 +12,7 @@
     ],
     "author": "",
     "contact": "",
-    "3v4l":{}
+    "features":["null", "coalesce"],
+    "3v4l":{"3 ways to check on null":"https://3v4l.org/Y8IUC"},
+    "phpError":{}
 }
