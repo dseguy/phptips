@@ -21,7 +21,7 @@ Triple Plus Operator
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/triple_plus_operator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/triple_plus_operator.html","name":"Triple Plus Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 02 May 2025 17:59:49 +0000","dateModified":"Fri, 02 May 2025 17:59:49 +0000","description":"This is a white space trick, where the expression allows for ``++`` and ``+`` to follow each other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/triple_plus_operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/triple_plus_operator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/triple_plus_operator.html","name":"Triple Plus Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 02 May 2025 18:08:47 +0000","dateModified":"Fri, 02 May 2025 18:08:47 +0000","description":"This is a white space trick, where the expression allows for ``++`` and ``+`` to follow each other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/triple_plus_operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 This is a white space trick, where the expression allows for ``++`` and ``+`` to follow each other. Note that it is not possible to make a quadruple (four times) or pentuple (five times), operator, as PHP does not parse it anymore. 
 
@@ -30,5 +30,7 @@ This is a white space trick, where the expression allows for ``++`` and ``+`` to
 See Also
 ________
 
+* `Incrementing/Decrementing Operators <https://www.php.net/manual/en/language.operators.increment.php>`_
+* `Operators <https://www.php.net/manual/en/language.operators.php>`_
 * ` <>`_
 

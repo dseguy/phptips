@@ -4,6 +4,8 @@
     "title": "Triple Plus Operator",
     "content": "This is a white space trick, where the expression allows for ``++`` and ``+`` to follow each other. Note that it is not possible to make a quadruple (four times) or pentuple (five times), operator, as PHP does not parse it anymore. ",
     "seeAlso": {
+        "Incrementing/Decrementing Operators":"https://www.php.net/manual/en/language.operators.increment.php",
+        "Operators":"https://www.php.net/manual/en/language.operators.php"
     },
     "tags": [
         "fun"
