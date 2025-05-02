@@ -21,7 +21,7 @@ array_column() To Hash
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","name":"array_column() To Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Nov 2024 09:15:39 +0000","dateModified":"Sun, 03 Nov 2024 09:15:39 +0000","description":"array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","name":"array_column() To Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 02 May 2025 18:03:23 +0000","dateModified":"Fri, 02 May 2025 18:03:23 +0000","description":"array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects.
 
@@ -37,4 +37,12 @@ See Also
 ________
 
 * `array_column (PHP manual) <https://www.php.net/manual/en/function.array-column.php>`_
+* `Magic constants <https://3v4l.org/JuFfn>`_
+
+
+PHP Error Messages
+__________________
+
+* `array of arrays to hash <https://php-errors.readthedocs.io/en/latest/messages/https%3A%2F%2F3v4l.org%2FCjrif.html>`_
+
 

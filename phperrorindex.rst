@@ -25,5 +25,7 @@ Error Message index
     * :ref:`unsetting-properties-surprises`
 * Undefined property
     * :ref:`unsetting-properties-surprises`
+* array of arrays to hash
+    * :ref:`array_column()-to-hash`
 * syntax error, unexpected token "(int)"
     * :ref:`cast-is-so-strong`
