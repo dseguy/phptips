@@ -11,5 +11,8 @@
 	"loop"
 ],
 "author":"Frederic Bouchery",
-"contact":"https://bsky.app/profile/bouchery.fr"
+"contact":"https://bsky.app/profile/bouchery.fr",
+"3v4l":{"stealth generator":"https://3v4l.org/5d9JC"},
+"features":["generator", "yield"],
+"phpError":{}
 }

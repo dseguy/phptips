@@ -115,7 +115,7 @@ foreach($files as $file) {
         		++$errors;
             }
             if (empty($tip->{'3v4l'}) && !isset($tip->seeAlso->{$tip->title.' on 3v4l.org'})) {
-            	buildlog("Warning : No title to 3v4l.org in $file");;
+            	buildlog("Warning : No title to 3v4l.org in $file");
         		++$errors;
             }
 

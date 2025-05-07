@@ -11,5 +11,8 @@
         "class"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l":{"Where is my class?":"https://3v4l.org/r49jU"},
+    "features":["magic-constant", "get_class"],
+    "phpError":{}
 }

@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/list_does_not_type.rst
    tips/triple_plus_operator.rst
    tips/FunctionNameInAMethod.rst
    tips/quine.rst

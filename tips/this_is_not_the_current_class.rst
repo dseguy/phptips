@@ -21,7 +21,7 @@ $this Is Not Of The Current Class
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/this_is_not_the_current_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/this_is_not_the_current_class.html","name":"$this Is Not Of The Current Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Mar 2024 20:50:35 +0000","dateModified":"Thu, 14 Mar 2024 20:50:35 +0000","description":"$this is a pseudo-variable, that represents the current object of the calling object (dixit the manual): it is often portrayed as representing an object of the current class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/this_is_not_the_current_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/this_is_not_the_current_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/this_is_not_the_current_class.html","name":"$this Is Not Of The Current Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 07 May 2025 17:41:46 +0000","dateModified":"Wed, 07 May 2025 17:41:46 +0000","description":"$this is a pseudo-variable, that represents the current object of the calling object (dixit the manual): it is often portrayed as representing an object of the current class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/this_is_not_the_current_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 $this is a pseudo-variable, that represents the current object of the calling object (dixit the manual): it is often portrayed as representing an object of the current class. This is commonly the case.
 
@@ -35,4 +35,5 @@ See Also
 ________
 
 * `Class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_
+* `Where is my class? <https://3v4l.org/r49jU>`_
 

@@ -21,7 +21,7 @@ Stealth Generator
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html","name":"Stealth Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 27 Nov 2024 17:35:17 +0000","dateModified":"Wed, 27 Nov 2024 17:35:17 +0000","description":"The code below has a useless loop","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html","name":"Stealth Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 07 May 2025 17:38:50 +0000","dateModified":"Wed, 07 May 2025 17:38:50 +0000","description":"The code below has a useless loop","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
 
@@ -33,4 +33,5 @@ See Also
 ________
 
 * `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
+* `stealth generator <https://3v4l.org/5d9JC>`_
 

@@ -1,0 +1,16 @@
+{
+    "image": "list_does_not_type.png",
+    "date": "2025-05-07",
+    "title": "list() Does Not Type",
+    "content": "The list() command does not report that the type of the right operand is not correct. It is then possible to use ``list()`` with integers, string or boolean, and obtain ``null`` values for all variables.\nOn the other hand, ``list()`` does complain if the right hand array does not contain enough values to fit the number of variables. It also produces a Fatal error with an object, because an object cannot be used as an array.\nFinally, ``list()`` does not compile with an ellipsis ``...`` on the right side. To convert a ``Generator`` into a list of variables, one need to use ``iterator_to_array()`` first.",
+    "seeAlso": {
+        "iterator_to_array (PHP manual)": "https://www.php.net/manual/en/function.iterator-to-array.php",
+        "List (PHP manual)": "https://www.php.net/manual/en/function.list.php"
+    },
+    "tags": [
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["list", "iterator_to_array"],
+    "3v4l": {"list() with all sorts of types":"https://3v4l.org/SkKon"}
+}
