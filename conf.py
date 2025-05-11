@@ -61,6 +61,7 @@ html_extra_path = ["googlee919cb0917e4fefc.html",
                    "BingSiteAuth.xml",
                    "robots.txt",
                    "ec729cf1d44543b7bd7bdeaec0a56fef.txt",
+                   "feed.rss",
                   ]
 
 # Only displays the title of the page

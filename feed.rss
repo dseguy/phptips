@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>PHP tips and tricks, by Exakat</title>
+    <description>PHP tips and tricks, from the obvious feature hiding in plain sight to the darkest corners of the language.</description>
+    <pubDate>Sun, 11 May 2025 19:48:48 +0000</pubDate>
+    <generator>Laminas_Feed_Writer 2 (https://getlaminas.org)</generator>
+    <link>https://php-tips.readthedocs.io/en/latest/</link>
+    <author>dseguy@exakat.io (Damien Seguy)</author>
+    <dc:creator>Damien Seguy</dc:creator>
+    <atom:link rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+    <item>
+      <title>Function Name In A Method</title>
+      <description><![CDATA[The magic constants give information on the context of execution of the code. ``__METHOD__`` gives the name of the method, and its related class. ``__CLASS__`` gives the name of the current class, whatever the method. And ``__FUNCTION__`` gives the name of the curent function, or, also, the name of the method, though without the name of the class.
+Basically, ``__METHOD__ === __CLASS__ .'::'. __FUNCTION__``.
+Also, just for fun, you can also use ``__METHOD__`` in a function, and you'll get the same as ``__FUNCTION__``. The opposite, as we can see, is not true.]]></description>
+      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
+      <link>variadic_all_yield.json</link>
+      <guid isPermaLink="false">variadic_all_yield.json</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>URL As Comments</title>
+      <description><![CDATA[The code below includes a raw URL in the code. PHP understand that code as a goto label, followed by a online comment starting with //. As such, the comment is valid, but cannot be repeated, as it would make a dual goto label, and PHP would raise an error.]]></description>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      <link>variadic_all_yield.json</link>
+      <guid isPermaLink="false">variadic_all_yield.json</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Abstract Again</title>
+      <description><![CDATA[A concrete class may have an abstract child: the child class extends the parent class, and also receives the abstract option.
+On the other hand, a concrete method, inside any kind of class, cannot be made abstract in a child. The child class can be made abstract, and new methods can be made abstract. But the existing methods cannot be turned back to abstract.]]></description>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <link>variadic_all_yield.json</link>
+      <guid isPermaLink="false">variadic_all_yield.json</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Abstract Constants</title>
+      <description><![CDATA[There's a pretty common pattern to declare "abstract class constants" in PHP.
+
+PHP lazy loading will prevent the error "Fatal error: Uncaught Error: Cannot declare self-referencing constant self::NAME" if the constant is overloaded. 
+
+This makes an effective 'abstract constant', that must be defined to be usable.]]></description>
+      <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+      <link>variadic_all_yield.json</link>
+      <guid isPermaLink="false">variadic_all_yield.json</guid>
+      <author>no-email (WebSmithery)</author>
+      <dc:creator>WebSmithery</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>All Enum Cases</title>
+      <description><![CDATA[One convenient aspect of enumerations is that they come with a full list of their cases. Call the ``::cases()`` on any enumeration to get the full list of elements.
+Then, convert this list into their scalar representation, if any, by calling ``array_column``, with the public property ``value``.
+And it always works with the ``name`` property, to collect the names of the cases.]]></description>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      <link>variadic_all_yield.json</link>
+      <guid isPermaLink="false">variadic_all_yield.json</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>All Static Curly Syntaxes And One Wrong</title>
+      <description><![CDATA[What is the only invalid syntax in the following list?
+Assume that all needed definitions are available.
+Let's review them all.
+1) This is a classic class constant syntax, or an enumeration case. 
+2) This is the new PHP 8.3 variable class constant syntax. The trick is that the dynamic part is the global constant A. 
+3) This is the new PHP 8.3 variable class constant syntax. The name of the constant is in the variable $A.
+4) This is the variable static property class. The name of the property is in the global constant A.
+5) This is the variable static property class. The name of the property is in the variable $A.
+6) This is the variable static property class. The name of the property is in the global constant A, which builds the variable variable ${A}.
+7) This is the variable static property class. The name of the property is in the variable $A, which builds the variable variable ${$A}.
+8) This is the variable static property class. The name of the property is in the variable variable $$A, which builds the variable variable ${$$A}.
+9) This is the variable static property class. The name of the property is in the variable variable ${$A}. It is a composition of previous cases.
+10) This is the problematic one. $A{A} is an attempt at reading a element at position A in the variable $A. This is a removed PHP feature, since PHP 8. It should be written $A[A], though it would be too obvious for the puzzle.]]></description>
+      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      <link>variadic_all_yield.json</link>
+      <guid isPermaLink="false">variadic_all_yield.json</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Always Compatible Variadic</title>
+      <description><![CDATA[A variadic argument is a valid and compatible signature, for methods that overwrite other methods.
+Method compatibility usually require the arguments to be the same, but with a variadic argument and also some of the arguments from the parent method, the signature is still considered compatible by PHP.]]></description>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <link>variadic_all_yield.json</link>
+      <guid isPermaLink="false">variadic_all_yield.json</guid>
+      <author>no-email (Sergii Shymko)</author>
+      <dc:creator>Sergii Shymko</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>array_append() And Short Assignation</title>
+      <description><![CDATA[PHP allows using short assignation operators with the array append operators. This means that the code adds ``2`` to the array append. No error is displayed, except in the case of ``??=``, who is yield a Fatal error, with an explicit "Cannot use [] for reading".
+In any case, all of those expressions make little sense : the short assignation operators shall exist on an existing value, not a new one. Here, it looks like the default value is null.]]></description>
+      <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
+      <link>variadic_all_yield.json</link>
+      <guid isPermaLink="false">variadic_all_yield.json</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>array array = array()</title>
+      <description><![CDATA[This made me chuckle... welcome to PHP 8.3 !
+First ``array`` is the type, the second is the name of the constant, with the relaxed keyword, and the last one is the value of the ``array``. It is not often that three times the same token is used in a row. Could we try 4 times?]]></description>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+      <link>variadic_all_yield.json</link>
+      <guid isPermaLink="false">variadic_all_yield.json</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>array_column() To Hash</title>
+      <description><![CDATA[array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects.
+The third argument of array_column() is a key, which will be used to reference the value in the resulting array. It is very convenient to turn an array into a hash.
+Note that duplicate keys will be overwritten. 
+Also, there is no reciproque function for this: turn a hash into an array of arrays or objects.]]></description>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <link>variadic_all_yield.json</link>
+      <guid isPermaLink="false">variadic_all_yield.json</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+  </channel>
+</rss>
