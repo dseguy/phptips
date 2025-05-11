@@ -9,5 +9,11 @@
         "lint"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "features": ["null", "boolean", "array-syntax"],
+    "3v4l": {"Accessing index on literals":"https://3v4l.org/flQ68"},
+    "phpError":{"Trying to access array offset on null":"trying-to-access-array-offset-on-%s",
+    "Trying to access array offset on false":"trying-to-access-array-offset-on-%s",
+    "Trying to access array offset on true":"trying-to-access-array-offset-on-%s"
+    }
 }

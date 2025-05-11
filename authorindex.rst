@@ -6,7 +6,6 @@ Author index
 * `Andrew Schmelyun <https://twitter.com/aschmelyun>`_
     * :ref:`strange--->-operator`
 * `Benoit Viguier <https://phpc.social/@b_viguier>`_
-    * :ref:`new-on-object`
     * :ref:`easy-wither-call`
     * :ref:`quick-dto-or-vo-copy`
 * `Brent Roose <https://twitter.com/brendt_gd>`_
@@ -41,6 +40,8 @@ Author index
     * :ref:`array_reduce()-to-filter-and-alter`
 * `Ryan Chandler <https://twitter.com/ryangjchandler>`_
     * :ref:`no-semicolon-in-sight`
+* `Saif Eddin Gmati <https://github.com/azjezz>`_
+    * :ref:`cast-a-closure-to-array`
 * `Sergii Shymko <https://twitter.com/SergiiShymko>`_
     * :ref:`always-compatible-variadic`
 * `Stephen Rees-Carter <https://twitter.com/valorin>`_

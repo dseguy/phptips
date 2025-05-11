@@ -21,7 +21,7 @@ Negating An Assignation
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/negating_a_variable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/negating_a_variable.html","name":"Negating An Assignation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Feb 2024 22:31:49 +0000","dateModified":"Tue, 20 Feb 2024 22:31:49 +0000","description":"I always wondered why PHP allows to NOT a variable on the LEFT side of an assignation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/negating_a_variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/negating_a_variable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/negating_a_variable.html","name":"Negating An Assignation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 11 May 2025 19:56:07 +0000","dateModified":"Sun, 11 May 2025 19:56:07 +0000","description":"I always wondered why PHP allows to NOT a variable on the LEFT side of an assignation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/negating_a_variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 I always wondered why PHP allows to NOT a variable on the LEFT side of an assignation.
 
@@ -37,4 +37,5 @@ See Also
 ________
 
 * `Operator precedence (PHP manual) <https://www.php.net/manual/en/language.operators.precedence.php>`_
+* `Don't negate conditions' <https://3v4l.org/OaqKp>`_
 

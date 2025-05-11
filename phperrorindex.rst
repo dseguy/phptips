@@ -21,11 +21,15 @@ Error Message index
     * :ref:`cannot-static-static-property`
 * Recursion detected
     * :ref:`compact()-is-recursive`
+* Trying to access array offset on false
+    * :ref:`null-or-boolean-as-array`
+* Trying to access array offset on null
+    * :ref:`null-or-boolean-as-array`
+* Trying to access array offset on true
+    * :ref:`null-or-boolean-as-array`
 * Typed property %s::$%s must not be accessed before initialization
     * :ref:`unsetting-properties-surprises`
 * Undefined property
     * :ref:`unsetting-properties-surprises`
-* array of arrays to hash
-    * :ref:`array_column()-to-hash`
 * syntax error, unexpected token "(int)"
     * :ref:`cast-is-so-strong`

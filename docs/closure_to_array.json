@@ -1,0 +1,16 @@
+{
+    "image": "closure_to_array.png",
+    "date": "2025-05-11",
+    "title": "Cast A Closure To Array",
+    "content": "TIL: ``(array) $obj`` will result in ``array<string, mixed>`` ( properties key/value pairs ), with the exception if ``$obj`` is Closure, where the result would be ``[$obj]``.",
+    "seeAlso": {
+    },
+    "tags": [
+        "surprise"
+    ],
+    "author": "Saif Eddin Gmati",
+    "contact": "https://github.com/azjezz",
+    "features": ["closure", "cast", "array"],
+    "3v4l": {"Casting a closure to array":"https://3v4l.org/4FGnj"},
+    "phpError":{}
+}

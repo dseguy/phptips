@@ -10,5 +10,10 @@
         "anonymous class"
     ],
 	"author":"Benoit Viguier",
-	"contact":"https://phpc.social/@b_viguier"
+	"contact":"https://phpc.social/@b_viguier",
+    "author": "",
+    "contact": "",
+    "3v4l":{"new On Object":"https://3v4l.org/sgRhj"},
+    "features":["new", "class"],
+    "phpError":{}
 }

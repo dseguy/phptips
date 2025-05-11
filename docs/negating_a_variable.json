@@ -11,5 +11,10 @@
 	"condition",
 	"operator precedence",
 	"iffectation"
-]
+],
+    "author": "",
+    "contact": "",
+    "3v4l":{"Don't negate conditions'":"https://3v4l.org/OaqKp"},
+    "features":["negation", "assignation"],
+    "phpError":{}
 }
