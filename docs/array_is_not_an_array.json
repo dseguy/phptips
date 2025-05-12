@@ -7,9 +7,13 @@
         "Type declaration ‘%s’ must be unqualified": "https://php-errors.readthedocs.io/en/latest/messages/type-declaration-%27%25s%27-must-be-unqualified.html"
     },
     "tags": [
-        "funny"
+        "funny",
+        "bug"
     ],
     "author": "",
     "contact": "",
-    "phpError":{}
+    "features": ["array", "namespace"],
+    "3v4l": {"Array is not an array message":"https://3v4l.org/q4nrY"},
+    "phpError":{    }
 }
+

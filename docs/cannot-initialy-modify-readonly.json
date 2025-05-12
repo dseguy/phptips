@@ -7,11 +7,11 @@
         "Properties (PHP manual)": "https://www.php.net/manual/en/language.oop5.properties.php"
     },
     "tags": [
-        ""
+        "edge-case"
     ],
     "author": "",
     "contact": "",
-    "features": ["readonly", "references"],
+    "features": ["readonly", "reference"],
     "3v4l": {"Sneaky readonly":"https://3v4l.org/jNtaT"},
     "phpError":{"Cannot indirectly modify readonly property %s::$%s":"cannot-indirectly-modify-readonly-property-%s::$%s"}
 }
