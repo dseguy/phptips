@@ -3,12 +3,24 @@
   <channel>
     <title>PHP tips and tricks, by Exakat</title>
     <description>PHP tips and tricks, from the obvious feature hiding in plain sight to the darkest corners of the language.</description>
-    <pubDate>Sun, 11 May 2025 20:26:18 +0000</pubDate>
+    <pubDate>Sun, 11 May 2025 21:03:20 +0000</pubDate>
     <generator>Laminas_Feed_Writer 2 (https://getlaminas.org)</generator>
     <link>https://php-tips.readthedocs.io/en/latest/</link>
     <author>dseguy@exakat.io (Damien Seguy)</author>
     <dc:creator>Damien Seguy</dc:creator>
     <atom:link rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+    <item>
+      <title>parse_str() Edge Cases</title>
+      <description><![CDATA[parse_str() reads the variables in the URL's query string, and convert them into an array. When the variable names contain a dot ``.``, that dot is automagically converted to an underscore.
+This happens with the ``dot``, but also other characters, such as `` `` (space), ``+`` (which is a space too), and a single opening ``[`` (when completed with a closing one, that variable becomes an array).
+This is coming from previous versions of PHP, where these variables ended being converted into PHP variables. And the listed characters are actually forbidden in variable names. This is not a problem anymore, since PHP avoids creating variables that way, for security reasons. Yet, for backward compatibility reasons, these conversions are still in place.]]></description>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/parse_str_edge_cases.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/parse_str_edge_cases.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
     <item>
       <title>Cast A Closure To Array</title>
       <description><![CDATA[TIL: ``(array) $obj`` will result in ``array<string, mixed>`` ( properties key/value pairs ), with the exception if ``$obj`` is Closure, where the result would be ``[$obj]``.]]></description>

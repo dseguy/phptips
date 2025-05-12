@@ -6,11 +6,12 @@
 "seeAlso":{
 	"Constructors and Destructors (PHP manual)":"https://www.php.net/manual/en/language.oop5.decon.php"
 },
-"tags":[],
+"tags":["unexpected"],
 "features":[
 	"php",
 	"class",
 	"oop"
 ],
-"3v4l":{"Inconsistent Constructor Signatures":"https://3v4l.org/RAMIo"}
+"3v4l":{"Inconsistent Constructor Signatures":"https://3v4l.org/RAMIo"},
+"phpError":{}
 }

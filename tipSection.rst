@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/parse_str_edge_cases.rst
    tips/closure_to_array.rst
    tips/list_does_not_type.rst
    tips/triple_plus_operator.rst

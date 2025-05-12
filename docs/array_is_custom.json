@@ -12,5 +12,7 @@
     ],
     "author": "",
     "contact": "",
-    "phpError":{}
+    "phpError":{},
+    "3v4l":{},
+    "features":["array"]
 }
