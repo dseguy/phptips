@@ -12,5 +12,6 @@
     "author": "",
     "contact": "",
     "features": ["disable_functions", "fallback", "function"],
-    "3v4l": {"disable print_r() in namespace":"https://3v4l.org/nuUL6"}
+    "3v4l": {"disable print_r() in namespace":"https://3v4l.org/nuUL6"},
+    "phpError": {}
 }

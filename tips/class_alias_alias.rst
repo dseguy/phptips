@@ -21,7 +21,7 @@ All Classes Aliases
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_alias_alias.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_alias_alias.html","name":"All Classes Aliases","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Nov 2024 20:39:14 +0000","dateModified":"Thu, 14 Nov 2024 20:39:14 +0000","description":"To make a class alias, use class_alias()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_alias_alias.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_alias_alias.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_alias_alias.html","name":"All Classes Aliases","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 13 May 2025 05:08:53 +0000","dateModified":"Tue, 13 May 2025 05:08:53 +0000","description":"To make a class alias, use class_alias()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_alias_alias.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 To make a class alias, use class_alias();
 
@@ -43,4 +43,5 @@ See Also
 ________
 
 * `class_alias (PHP manual) <https://www.php.net/class_alias>`_
+* `class_alias everywhere <https://3v4l.org/0jFCr>`_
 

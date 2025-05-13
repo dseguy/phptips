@@ -21,7 +21,7 @@ Class Implement No More
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_implements_no_more.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_implements_no_more.html","name":"Class Implement No More","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 07 Nov 2024 22:18:33 +0000","dateModified":"Thu, 07 Nov 2024 22:18:33 +0000","description":"Inheritance forces children classes to have only methods that are compatible with the parent's methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_implements_no_more.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_implements_no_more.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_implements_no_more.html","name":"Class Implement No More","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 12 May 2025 18:27:56 +0000","dateModified":"Mon, 12 May 2025 18:27:56 +0000","description":"Inheritance forces children classes to have only methods that are compatible with the parent's methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_implements_no_more.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Inheritance forces children classes to have only methods that are compatible with the parent's methods.
 
@@ -39,4 +39,5 @@ See Also
 ________
 
 * `Object Interfaces (PHP manual) <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
+* `No need for catch with try <https://3v4l.org/Wh9Ie>`_
 

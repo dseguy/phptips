@@ -10,5 +10,10 @@
 "tags":[
 	"instantiation",
 	"clone"
-]
+],
+    "author":"",
+    "contact":"",
+    "3v4l":{"Cloning a clone":"https://3v4l.org/r2RsW"},
+    "phpError":{},
+    "features":["class", "clone", "instantiation"]
 }

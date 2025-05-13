@@ -12,5 +12,6 @@
     "author": "",
     "contact": "",
     "features": ["enum"],
-    "3v4l": {"http_build_query and enum":"https://3v4l.org/0mWQs"}
+    "3v4l": {"http_build_query and enum":"https://3v4l.org/0mWQs"},
+    "phpError":""
 }

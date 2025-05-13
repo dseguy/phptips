@@ -7,12 +7,11 @@
         "class_alias (PHP manual)": "https://www.php.net/class_alias"
     },
     "tags": [
-        "alias",
-        "trait",
-        "class",
-        "enum",
-        "interface"
+    "feature"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "phpError":{},
+    "features":["alias", "class_alias", "interface", "trait", "enum"],
+    "3v4l":{"class_alias everywhere":"https://3v4l.org/0jFCr"}
 }

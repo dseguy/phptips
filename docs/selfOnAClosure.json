@@ -12,5 +12,6 @@
     "author": "",
     "contact": "",
     "features": ["self", "closure", "static"],
-    "3v4l": {"self on a closure":"https://3v4l.org/PAjY6"}
+    "3v4l": {"self on a closure":"https://3v4l.org/PAjY6"},
+    "phpError":{}
 }

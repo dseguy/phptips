@@ -12,5 +12,6 @@
     "author": "",
     "contact": "",
     "features": ["list", "iterator_to_array"],
-    "3v4l": {"list() with all sorts of types":"https://3v4l.org/SkKon"}
+    "3v4l": {"list() with all sorts of types":"https://3v4l.org/SkKon"},
+    "phpError":{}
 }

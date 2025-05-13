@@ -7,10 +7,11 @@
         "Original on BluSky": "https://bsky.app/profile/devatreides.bsky.social/post/3l3bwchdism2s"
     },
     "tags": [
-        "array",
-        "typing",
-        "variadic"
+        "feature"
     ],
     "author": "• Kartoffeljunge •",
-    "contact": "https://bsky.app/profile/devatreides.bsky.social"
+    "contact": "https://bsky.app/profile/devatreides.bsky.social",
+    "phpError":{},
+    "features":["variadic", "type", "array"],
+    "3v4l":{"Typing a whole array":"https://3v4l.org/Ov9mJ"}
 }

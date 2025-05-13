@@ -21,7 +21,7 @@ array_map() Goes Full Throttle
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","name":"array_map() Goes Full Throttle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Nov 2024 09:19:38 +0000","dateModified":"Sun, 03 Nov 2024 09:19:38 +0000","description":"array_map() applies a closure (first arg) to every elements of an array (second arg)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","name":"array_map() Goes Full Throttle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 12 May 2025 18:24:15 +0000","dateModified":"Mon, 12 May 2025 18:24:15 +0000","description":"array_map() applies a closure (first arg) to every elements of an array (second arg)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 array_map() applies a closure (first arg) to every elements of an array (second arg).
 
@@ -39,4 +39,5 @@ See Also
 ________
 
 * `array_map (PHP manual) <https://www.php.net/manual/en/function.array_map.php>`_
+* `array_map() filling the void <https://3v4l.org/8VDEa>`_
 

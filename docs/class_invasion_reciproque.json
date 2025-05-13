@@ -7,10 +7,10 @@
         "Class Invasion":"https://php-dictionary.readthedocs.io/en/latest/dictionary.html#class-invasion"
     },
     "tags": [
-        "class",
-        "class invasion"
     ],
     "author": "",
     "contact": "",
-    "3v4l":{"class invasion reciproque":"https://3v4l.org/rFjoe"}
+    "3v4l":{"class invasion reciproque":"https://3v4l.org/rFjoe"},
+    "phpError":{},
+    "features":["class", "class-invasion"]
 }

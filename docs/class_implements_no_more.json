@@ -11,5 +11,8 @@
         "paradox"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "phpError":{},
+    "3v4l":{"No need for catch with try":"https://3v4l.org/Wh9Ie"},
+    "features":["catch", "try-catch"]
 }

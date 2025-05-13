@@ -21,7 +21,7 @@ Typed Array
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_array.html","name":"Typed Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jan 2025 16:13:57 +0000","dateModified":"Wed, 01 Jan 2025 16:13:57 +0000","description":"It is possible to set the type of all elements in a variadic: this is equivalent of passing an argument of type ``array<User>``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_array.html","name":"Typed Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 13 May 2025 05:13:47 +0000","dateModified":"Tue, 13 May 2025 05:13:47 +0000","description":"It is possible to set the type of all elements in a variadic: this is equivalent of passing an argument of type ``array<User>``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `• Kartoffeljunge • <https://bsky.app/profile/devatreides.bsky.social>`_
 
@@ -33,4 +33,5 @@ See Also
 ________
 
 * `Original on BluSky <https://bsky.app/profile/devatreides.bsky.social/post/3l3bwchdism2s>`_
+* `Typing a whole array <https://3v4l.org/Ov9mJ>`_
 

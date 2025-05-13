@@ -21,7 +21,7 @@ Clone Clone Clone
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html","name":"Clone Clone Clone","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Mar 2024 20:40:41 +0000","dateModified":"Thu, 14 Mar 2024 20:40:41 +0000","description":"It is possible to chain clone operators : PHP optimize this and skips any intermediate clone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html","name":"Clone Clone Clone","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 13 May 2025 04:57:39 +0000","dateModified":"Tue, 13 May 2025 04:57:39 +0000","description":"It is possible to chain clone operators : PHP optimize this and skips any intermediate clone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 It is possible to chain clone operators : PHP optimize this and skips any intermediate clone. The resulting final object is number 2, so the inner clones were duly ignored. 
 
@@ -34,4 +34,5 @@ ________
 
 * `Cloning objects <https://www.php.net/manual/en/language.oop5.cloning.php>`_
 * `new <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.new>`_
+* `Cloning a clone <https://3v4l.org/r2RsW>`_
 
