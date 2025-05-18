@@ -12,6 +12,7 @@
     ],
     "author": "",
     "contact": "",
-    "3v4l":{
-    "Redefinition of a constant":"https://3v4l.org/mHLNu"}
+    "3v4l":{"Redefinition of a constant":"https://3v4l.org/mHLNu"},
+    "phpError":{},
+    "features":["constant"]
 }

@@ -10,7 +10,7 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["lint", "lint-wont-execute"],
+    "features": ["linting", "lint-wont-execute"],
     "3v4l":{"Order Of Declaration Is Lintable":"https://3v4l.org/mUEsK"},
     "phpError":{"Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods":"class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods"}
 }

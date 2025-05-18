@@ -10,9 +10,13 @@
 },
 "tags":[
 	"PHP",
-	"elephpant",
-	"string",
-	"unicode",
-	"emoji"
-]
+	"elephpant"
+],
+	"author":"",
+	"contact":"",
+	"3v4l":{
+	    "Two ways to the elephpant":"https://3v4l.org/0jqWd"
+	},
+	"phpError":{},
+	"features":["unicode", "string", "string-sequence", "emoji"]
 }

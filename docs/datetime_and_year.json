@@ -4,13 +4,14 @@
     "title": "Datetime Object, And Years",
     "content": "In this code, 2 years are given to datetime, and handed back. Yet, they return the same value: 2024.\nUnder the hood, PHP attempts to decode the number. Instead of recognizing a year, it recongnizes an hour. And, by default, it set the rest of the date to today. Later, when the date is formatted, the year becomes 2024.\nOne piece of advice is to format the date to PHP's liking, or use the ``createFromFormat()`` method, which uses a provided format to decode the string.",
     "seeAlso": {
-        "Datetime (PHP manual)": "https://www.php.net/manual/en/class.datetime.php",
-        "How is this code running":"https://3v4l.org/6CCFl"
+        "Datetime (PHP manual)": "https://www.php.net/manual/en/class.datetime.php"
     },
     "tags": [
-        "datetime",
         "conversions"
     ],
-"author":"Frederic Bouchery",
-"contact":"https://bsky.app/profile/bouchery.fr"
+    "author":"Frederic Bouchery",
+    "contact":"https://bsky.app/profile/bouchery.fr",
+    "3v4l":{"How is this code running":"https://3v4l.org/6CCFl"},
+    "phpError":{},
+    "features":["datetime"]
 }

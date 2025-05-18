@@ -1,8 +1,8 @@
 {
     "image": "array_map_assoc.png",
     "date": "2024-10-28",
-    "title": "array_map_assoc()",
-    "content": "array_map() only provides the value of the array, not the key. To access the key, use the extra arguments, and array_keys().\nBeware that the order of the arguments is now value, key, not the usual ``$key => $value``.",
+    "title": "array_map_assoc() With Keys",
+    "content": "array_map() only provides the value of the array, not the key. To access the key, one must use the extra argument, and array_keys().\nBeware that the order of the arguments is now value first, key second, not the usual ``$key => $value``.",
     "seeAlso": {
         "array_map (PHP manual)": "https:\/\/www.php.net\/manual\/en\/function.array_map.php"
     },
@@ -11,5 +11,8 @@
         "hash"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "features": ["array"],
+    "3v4l": {"array_map_assoc() with keys":"https://3v4l.org/v72hT"},
+    "phpError":{}
 }

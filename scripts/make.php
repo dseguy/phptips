@@ -193,7 +193,7 @@ foreach($files as $file) {
 	}
 
 	if (substr_count($tip->title, '_') > 1 && 
-		!preg_match('/(file_put_contents|private|func_get_arg|array_intersect_uassoc_insensitive|file_append_contents|__invoke|array_map_assoc)/', $tip->title)) {
+		!preg_match('/(file_put_contents|parse_str|private|func_get_arg|array_intersect_uassoc_insensitive|file_append_contents|__invoke|array_map_assoc)/', $tip->title)) {
 		buildlog("Warning : Too many _ in title '$tip->title' in $file");;
 	}
 
@@ -209,7 +209,7 @@ foreach($files as $file) {
 	}
 
 	if (ucwords(strtolower($tip->title)) != $tip->title &&
-		!preg_match('/(DNF|new|URL|array|private|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents|glob|class_exists)/', $tip->title)) {
+		!preg_match('/(DNF|new|URL|array|private|NAN|parse_str|self|parent|static|namespace|list|http_build_query|compact|func_get_args|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents|glob|class_exists)/', $tip->title)) {
 		buildlog("Warning : Not First Upper Cased in $file");;
 		++$errors;
 	}

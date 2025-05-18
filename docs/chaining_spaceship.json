@@ -1,0 +1,17 @@
+{
+    "image": "chaining_spaceship.png",
+    "date": "2025-05-18",
+    "title": "Chaining Spaceship",
+    "content": "It is possible to chain several spaceship operations by using the coalesce operator ``?:``. When the first spaceship operator returns 1 or -1, its value is immediately used. On the other hand, when the operation leads to 0, the coalesce ``?:`` uses the else branch, where the second spaceship operator is used, to the same effect.\nThis expression here replaces a call to ``array_multi_sort()``.\nAnd of course, literally chaining spaceships together is a very bad idea.",
+    "seeAlso": {
+        "array_multisort (PHP manual)": "https://www.php.net/manual/en/function.array-multisort.php"
+    },
+    "tags": [
+        "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["spaceship", "coalesce"],
+    "3v4l": {"chaining spaceships":"https://3v4l.org/8C5Xd"},
+    "phpError":{}
+}

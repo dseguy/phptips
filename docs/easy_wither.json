@@ -16,5 +16,7 @@
 	"contact":"https://phpc.social/@b_viguier",
 	"3v4l":{
 	    "Easy Wither":"https://3v4l.org/XhG90"
-	}
+	},
+	"phpError":{},
+	"features":["property"]
 }

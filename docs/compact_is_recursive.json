@@ -12,7 +12,7 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["compact", "extract", "recursive"],
+    "features": ["compact", "extract", "recursion"],
     "3v4l": {"Recursive compact()":"https://3v4l.org/EEAKb"},
     "phpError": {"Recursion detected":"recursion-detected"}
 }

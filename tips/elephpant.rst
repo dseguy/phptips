@@ -21,7 +21,7 @@ An Elephpant In The Code
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html","name":"An Elephpant In The Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Dec 2024 13:26:03 +0000","dateModified":"Tue, 26 Nov 2024 22:01:37 +0000","description":"When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html","name":"An Elephpant In The Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 18 May 2025 21:05:08 +0000","dateModified":"Sun, 18 May 2025 21:05:08 +0000","description":"When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least.
 
@@ -35,4 +35,5 @@ ________
 * `Double quoted <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`_
 * `mb_chr <https://www.php.net/mb_chr>`_
 * `chr <https://www.php.net/chr>`_
+* `Two ways to the elephpant <https://3v4l.org/0jqWd>`_
 
