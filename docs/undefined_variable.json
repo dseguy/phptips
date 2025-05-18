@@ -10,5 +10,7 @@
     ],
     "author": "",
     "contact": "",
-    "3v4l":{"Undefined variable":"https://3v4l.org/3ifYo"}
+    "3v4l":{"Undefined variable":"https://3v4l.org/3ifYo"},
+    "features": ["variable"],
+    "phpError":{"Undefined variable":"undefined-variable"}
 }

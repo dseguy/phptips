@@ -10,5 +10,9 @@
         "trick"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "features": ["$this"],
+    "3v4l": {"$this->$this in the code":"https://3v4l.org/K60Kl"},
+    "phpError":{}
+
 }

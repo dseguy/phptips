@@ -7,12 +7,11 @@
 	"Exceptions (PHP manual)":"https://www.php.net/manual/en/language.exceptions.php"
 },
 "tags":[
-	"exception",
-	"catch",
-	"interface",
-	"tip",
-	"unusual"
+	"lesser-known"
 ],
 "author":"",
-"contact":""
+"contact":"",
+    "phpError":{},
+    "features":["interface", "try-catch"],
+    "3v4l":{"Catching an interface":"https://3v4l.org/JfE8M"}
 }

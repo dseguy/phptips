@@ -21,7 +21,7 @@ The Namespace Stack
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_stack.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_stack.html","name":"The Namespace Stack","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 24 Mar 2025 18:53:53 +0000","dateModified":"Mon, 24 Mar 2025 18:53:53 +0000","description":"This is a reminder that namespaces are not nested, but are merely prefixes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_stack.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_stack.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_stack.html","name":"The Namespace Stack","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 18 May 2025 14:49:06 +0000","dateModified":"Sun, 18 May 2025 14:49:06 +0000","description":"This is a reminder that namespaces are not nested, but are merely prefixes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_stack.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 This is a reminder that namespaces are not nested, but are merely prefixes. Hence, there is the current namespace, and the global one for the occasional fallback, but nothing in between. Namespaces are not folders, even when they are stored as such.
 
@@ -31,5 +31,5 @@ See Also
 ________
 
 * `Namespace (PHP manual) <https://www.php.net/manual/en/language.namespaces.php>`_
-* ` <>`_
+* `Namespace is local or global <https://3v4l.org/FekcH>`_
 

@@ -31,5 +31,7 @@ Error Message index
     * :ref:`unsetting-properties-surprises`
 * Undefined property
     * :ref:`unsetting-properties-surprises`
+* Undefined variable
+    * :ref:`undefined-variable`
 * syntax error, unexpected token "(int)"
     * :ref:`cast-is-so-strong`
