@@ -132,6 +132,13 @@ foreach($files as $file) {
     if (isset($tip->{'3v4l'}) && is_string($tip->{'3v4l'})) {
     	buildlog("Warning : 3v4l is a string in $file");
     	++$errors;
+    } elseif (isset($tip->{'3v4l'}) && is_array($tip->{'3v4l'})) {
+    	foreach($tip->{'3v4l'} as $name => $url) {
+    	    if (empty($name)) {
+    	        buildlog("Empty title on 3v4l in $file");
+            	++$errors;
+    	    }
+    	}
     }
 
 	if (str_contains($tip->content, '#PHP')) {
@@ -238,6 +245,8 @@ foreach($files as $file) {
 	    $tip->phpError = (array) $tip->phpError;
 	    foreach($tip->phpError as $name => $id) {
 	        if (empty($name)) {
+    	        buildlog("Empty title on phpError in $file");
+            	++$errors;
 	            unset($tip->phpError[$name]);
 	            continue;
 	        }

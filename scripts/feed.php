@@ -24,15 +24,17 @@ $feed->addHub('http://pubsubhubbub.appspot.com/');
 $files = glob('docs/*.json');
 $tips = array();
 foreach($files as $file) {
+    if ($file === 'docs/skeleton.json') { continue; }
     $tip = json_decode(file_get_contents($file));
     if ($tip === null) { die("$file could not be read\n"); }
     
     if (!isset($tip->author)) {
         print "Missing Author with $file\n";
     }
+    assert(!empty($tip->title), "no title in $file\n");
 
     assert(empty($tips[$tip->date]), "Duplicate date $tip->date");
-    $tips[$tip->date] = $tip;
+    $tips[strtotime($tip->date)] = $tip;
 }
 
 krsort($tips);
@@ -49,7 +51,8 @@ foreach($tips as $tip) {
 $tip->author ?: 'Damien Seguy';
 $entry = $feed->createEntry();
 $entry->setTitle($tip->title);
-$entry->setLink($tip->url);
+$entry->setLink('https://php-tips.readthedocs.io/en/latest/tips/'.basename($tip->image, '.png').'.html');
+if (!isset($tip->author)) { print "$file is missing author\n";}
 $entry->addAuthor([
     'name'  => $tip->author ?: 'Damien Seguy',
     'email' => 'no-email',
@@ -64,4 +67,6 @@ $feed->addEntry($entry);
  * Render the resulting feed to Atom 1.0 and assign to $out.
  * You can substitute "atom" with "rss" to generate an RSS 2.0 feed.
  */
-file_put_contents('feed.rss', $out = $feed->export('rss', 'feed.rss'));
+$size = file_put_contents('feed.rss', $out = $feed->export('rss', 'feed.rss'));
+
+print "Written ".count($tips)." tips in $size octets\n";

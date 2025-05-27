@@ -3,12 +3,36 @@
   <channel>
     <title>PHP tips and tricks, by Exakat</title>
     <description>PHP tips and tricks, from the obvious feature hiding in plain sight to the darkest corners of the language.</description>
-    <pubDate>Sun, 11 May 2025 21:03:20 +0000</pubDate>
+    <pubDate>Tue, 27 May 2025 05:06:02 +0000</pubDate>
     <generator>Laminas_Feed_Writer 2 (https://getlaminas.org)</generator>
     <link>https://php-tips.readthedocs.io/en/latest/</link>
     <author>dseguy@exakat.io (Damien Seguy)</author>
     <dc:creator>Damien Seguy</dc:creator>
     <atom:link rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+    <item>
+      <title>Type And Reference</title>
+      <description><![CDATA[Parameter's type is check at calling time. Later, the type of the argument is not enforced anymore, and the argument behaves like a local variable: its type may change.
+When typing a parameter and passing it by reference, the type is checked at call time, and then, never checked again. This means the variable may change its type, and, by consequence, the original value may also end up with a different type than expected.
+If you want persistent typing, use a property: its type is checked at every step of its life.]]></description>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/type_and_reference.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/type_and_reference.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Chaining Spaceship</title>
+      <description><![CDATA[It is possible to chain several spaceship operations by using the coalesce operator ``?:``. When the first spaceship operator returns 1 or -1, its value is immediately used. On the other hand, when the operation leads to 0, the coalesce ``?:`` uses the else branch, where the second spaceship operator is used, to the same effect.
+This expression here replaces a call to ``array_multi_sort()``.
+And of course, literally chaining spaceships together is a very bad idea.]]></description>
+      <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/chaining_spaceship.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/chaining_spaceship.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
     <item>
       <title>parse_str() Edge Cases</title>
       <description><![CDATA[parse_str() reads the variables in the URL's query string, and convert them into an array. When the variable names contain a dot ``.``, that dot is automagically converted to an underscore.
@@ -45,7 +69,7 @@ Finally, ``list()`` does not compile with an ellipsis ``...`` on the right side.
     </item>
     <item>
       <title>Triple Plus Operator</title>
-      <description><![CDATA[This is a white space trick, where the expression allows for ``++`` and ``+`` to follow each other. Note that it is not possible to make a quadruple (four times) or pentuple (five times), operator, as PHP does not parse it anymore. ]]></description>
+      <description><![CDATA[This is a white space trick, where the expression allows for ``++`` and ``+`` to follow each other. Note that it is not possible to make a quadruple (four times) or pentuple (five times), operator, as PHP does not parse it anymore.]]></description>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/triple_plus_operator.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/triple_plus_operator.html</guid>
@@ -685,9 +709,9 @@ That error message is really hilarious.]]></description>
       <slash:comments>0</slash:comments>
     </item>
     <item>
-      <title>array_map_assoc()</title>
-      <description><![CDATA[array_map() only provides the value of the array, not the key. To access the key, use the extra arguments, and array_keys().
-Beware that the order of the arguments is now value, key, not the usual ``$key => $value``.]]></description>
+      <title>array_map_assoc() With Keys</title>
+      <description><![CDATA[array_map() only provides the value of the array, not the key. To access the key, one must use the extra argument, and array_keys().
+Beware that the order of the arguments is now value first, key second, not the usual ``$key => $value``.]]></description>
       <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/array_map_assoc.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/array_map_assoc.html</guid>
@@ -1755,7 +1779,7 @@ Beware of the position of the attribute with closures and arrow functions, thoug
     </item>
     <item>
       <title>Run Any Script In A Phar</title>
-      <description><![CDATA[It is not possible to call directly a PHP script stored in a Phar archive: the only way to reach it, is using include('phar://$path'), where PHP understands the phar:// protocol.
+      <description><![CDATA[It is not possible to call directly a PHP script stored in a Phar archive: the only way to reach it, is using ``include 'phar://$path'``, where PHP understands the ``phar://`` protocol.
 And that makes it possible to call directly a PHP script from the shell: include it directly.
 In terms of security, it is important to remember that a PHAR is an archive, and anything may be accessed or extracted.]]></description>
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
@@ -1836,7 +1860,7 @@ When the code needs to pass around a ``empty function``, the best approach is to
       <slash:comments>0</slash:comments>
     </item>
     <item>
-      <title>Unexpected keys in array</title>
+      <title>Unexpected Keys In Array</title>
       <description><![CDATA[It is possible to put 2 elements in a PHP array, find different 5 keys with array_key_exists or isset) and yet, still count 2 distinct elements (key wise).
 The type-juggling for array keys is applied in every PHP features, to keep things easy to use.
 This code is one rare way to show how it still leaks. Depending on the context, it might be very confusing.]]></description>
@@ -2204,7 +2228,7 @@ Here, the generator produces three values, and they are used to fill the three a
     </item>
     <item>
       <title>Refactoring strpos()</title>
-      <description><![CDATA[It is straightforward to convert an expression strpos() === 0 to using the str_start_with() function. On the other hand, it is not the same to replace those functions when the comparison is a difference, not an equality.]]></description>
+      <description><![CDATA[It is straightforward to convert an expression ``strpos() === 0``` to using the ``str_starts_with()`` function. On the other hand, it is not the same to replace those functions when the comparison is a difference, not an equality.]]></description>
       <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/refactor_str_pos.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/refactor_str_pos.html</guid>
