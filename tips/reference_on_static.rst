@@ -21,7 +21,7 @@ Change A Static Variable Outside Its Function
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html","name":"Change A Static Variable Outside Its Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Mar 2024 20:49:49 +0000","dateModified":"Thu, 14 Mar 2024 20:49:49 +0000","description":"Static variables are persistent between calls to the same method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html","name":"Change A Static Variable Outside Its Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 27 May 2025 04:55:52 +0000","dateModified":"Tue, 27 May 2025 04:55:52 +0000","description":"Static variables are persistent between calls to the same method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Static variables are persistent between calls to the same method. They are local, unless they are returned with a reference. Then, they can be accessed in the main code, and read or even written.
 
@@ -33,4 +33,5 @@ See Also
 ________
 
 * `Static variables (PHP manual) <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`_
+* `reference on a static variable <https://3v4l.org/DWSkK>`_
 

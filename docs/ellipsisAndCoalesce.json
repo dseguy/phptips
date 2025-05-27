@@ -7,10 +7,11 @@
         "Array unpacking (PHP manual)": "https://www.php.net/manual/en/language.types.array.php#language.types.array.unpackingp"
     },
     "tags": [
-        ""
+        "operator priority"
     ],
     "author": "",
     "contact": "",
-    "features": ["unpacking"],
-    "3v4l": {"ellipsis and coalesce":"https://3v4l.org/YTEL6"}
+    "features": ["unpacking", "ellipsis", "coalesce"],
+    "3v4l": {"ellipsis and coalesce":"https://3v4l.org/YTEL6"},
+    "phpError": {"":""}
 }

@@ -11,5 +11,8 @@
         "reference"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "features": ["reference", "argument"],
+    "3v4l": {"reference on a static variable":"https://3v4l.org/DWSkK"},
+    "phpError":{}
 }

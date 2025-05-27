@@ -2,14 +2,17 @@
     "image": "refactor_str_pos.png",
     "date": "2023-02-24",
     "title": "Refactoring strpos()",
-    "content": "It is straightforward to convert an expression strpos() === 0 to using the str_start_with() function. On the other hand, it is not the same to replace those functions when the comparison is a difference, not an equality.",
+    "content": "It is straightforward to convert an expression ``strpos() === 0``` to using the ``str_starts_with()`` function. On the other hand, it is not the same to replace those functions when the comparison is a difference, not an equality.",
     "seeAlso": {
-        "strpos()": "https:\/\/www.php.net\/manual\/strpos"
+        "strpos()": "https:\/\/www.php.net\/manual\/strpos",
+        "str_start_with()": "https:\/\/www.php.net\/manual\/str_starts_with"
     },
     "tags": [
-        "logic",
-        "strpos"
+        "logic"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "features": ["reference", "argument"],
+    "3v4l": {"to be or not to be at the beginning of a string":"https://3v4l.org/bO6YB"},
+    "phpError":{}
 }
