@@ -31,7 +31,7 @@ See Also
 ________
 
 * `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
-* `Catching an interface <https://3v4l.org/JfE8M>`_
+* `Catching an interface <https://3v4l.org/JfE8M>`_ [Try me]
 
 
 PHP Error Messages

@@ -36,5 +36,5 @@ ________
 
 * `Variable-length argument lists (PHP manual) <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_
 * `Original Tweet <https://twitter.com/SergiiShymko/status/1744905838089961807>`_
-* `always compatible variadic <https://3v4l.org/IiQhc>`_
+* `always compatible variadic <https://3v4l.org/IiQhc>`_ [Try me]
 

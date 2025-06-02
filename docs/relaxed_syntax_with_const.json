@@ -12,5 +12,8 @@
         "funny"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l":{"Relaxed syntax with const":"https://3v4l.org/fiaHc"},
+    "phpError":{},
+    "features":["const", "relaxed-syntax"]
 }

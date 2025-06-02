@@ -34,5 +34,5 @@ The nuance is subtle.
 See Also
 ________
 
-* `method or property? <https://3v4l.org/b8rEC>`_
+* `method or property? <https://3v4l.org/b8rEC>`_ [Try me]
 

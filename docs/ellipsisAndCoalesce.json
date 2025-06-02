@@ -13,5 +13,5 @@
     "contact": "",
     "features": ["unpacking", "ellipsis", "coalesce"],
     "3v4l": {"ellipsis and coalesce":"https://3v4l.org/YTEL6"},
-    "phpError": {"":""}
+    "phpError": {}
 }

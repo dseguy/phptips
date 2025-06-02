@@ -39,5 +39,5 @@ See Also
 ________
 
 * `__invoke() (PHP manual) <https://www.php.net/manual/en/language.oop5.magic.php#object.invoke>`_
-* `Lots of Silly Arguments <https://3v4l.org/Xbv66>`_
+* `Lots of Silly Arguments <https://3v4l.org/Xbv66>`_ [Try me]
 

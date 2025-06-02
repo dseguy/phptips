@@ -32,5 +32,5 @@ A non-static method needs a value for ``$this``, which a static call doesn't pro
 See Also
 ________
 
-* `cannot call static <https://3v4l.org/C8gAO>`_
+* `cannot call static <https://3v4l.org/C8gAO>`_ [Try me]
 

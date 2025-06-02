@@ -35,5 +35,5 @@ See Also
 ________
 
 * `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
-* `Try-catch-finally are optional <https://3v4l.org/jOtGX>`_
+* `Try-catch-finally are optional <https://3v4l.org/jOtGX>`_ [Try me]
 

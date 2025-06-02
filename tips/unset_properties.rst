@@ -35,7 +35,7 @@ See Also
 ________
 
 * `Double quoted <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`_
-* `Unset Properties <https://3v4l.org/SU2SE>`_
+* `Unset Properties <https://3v4l.org/SU2SE>`_ [Try me]
 
 
 PHP Error Messages

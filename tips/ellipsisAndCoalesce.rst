@@ -21,7 +21,7 @@ Ellipsis And Coalesce
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsisAndCoalesce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsisAndCoalesce.html","name":"Ellipsis And Coalesce","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 27 May 2025 05:03:03 +0000","dateModified":"Tue, 27 May 2025 05:03:03 +0000","description":"Ellipsis, aka ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsisAndCoalesce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsisAndCoalesce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsisAndCoalesce.html","name":"Ellipsis And Coalesce","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 02 Jun 2025 18:25:50 +0000","dateModified":"Mon, 02 Jun 2025 18:25:50 +0000","description":"Ellipsis, aka ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsisAndCoalesce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Ellipsis, aka ``...`` three dots, applies only to arrays and Traversable objects. It also has a lower priority than the ``??`` coalesce operator, which means that ``??`` is applied before the ``...``.
 
@@ -33,5 +33,5 @@ See Also
 ________
 
 * `Array unpacking (PHP manual) <https://www.php.net/manual/en/language.types.array.php#language.types.array.unpackingp>`_
-* `ellipsis and coalesce <https://3v4l.org/YTEL6>`_
+* `ellipsis and coalesce <https://3v4l.org/YTEL6>`_ [Try me]
 

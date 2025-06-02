@@ -33,5 +33,5 @@ See Also
 ________
 
 * `Mastering the (array) Cast Operator in PHP <https://www.exakat.io/mastering-the-array-cast-operator-in-php-a-comprehensive-guide/>`_
-* `Casting a closure to array <https://3v4l.org/4FGnj>`_
+* `Casting a closure to array <https://3v4l.org/4FGnj>`_ [Try me]
 

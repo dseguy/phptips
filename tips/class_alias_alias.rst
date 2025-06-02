@@ -43,5 +43,5 @@ See Also
 ________
 
 * `class_alias (PHP manual) <https://www.php.net/class_alias>`_
-* `class_alias everywhere <https://3v4l.org/0jFCr>`_
+* `class_alias everywhere <https://3v4l.org/0jFCr>`_ [Try me]
 

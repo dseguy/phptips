@@ -35,5 +35,5 @@ ________
 * `array_intersect_ukey() <https://www.php.net/array_intersect_ukey>`_
 * `array_intersect_assoc() <https://www.php.net/array_intersect_assoc>`_
 * `array_intersect_uassoc() <https://www.php.net/array_intersect_uassoc>`_
-* `array_intersect_case_insensitive() <https://3v4l.org/jatEa>`_
+* `array_intersect_case_insensitive() <https://3v4l.org/jatEa>`_ [Try me]
 

@@ -34,7 +34,7 @@ Upon close inspection, the variable is actually used in the call to the function
 See Also
 ________
 
-* `Undefined variable <https://3v4l.org/3ifYo>`_
+* `Undefined variable <https://3v4l.org/3ifYo>`_ [Try me]
 
 
 PHP Error Messages

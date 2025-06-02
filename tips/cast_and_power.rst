@@ -37,5 +37,5 @@ See Also
 ________
 
 * `Operator Precedence (PHP manual) <https://www.php.net/manual/en/language.operators.precedence.php>`_
-* `Cast And Power <https://3v4l.org/ciEvM>`_
+* `Cast And Power <https://3v4l.org/ciEvM>`_ [Try me]
 

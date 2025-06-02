@@ -36,5 +36,5 @@ ________
 
 * `Function parameters and arguments (PHP manual) <https://www.php.net/manual/en/functions.arguments.php>`_
 * `References are poison <https://phpc.social/@k47@k47.cz/114556570140219356>`_
-* `int became string <https://3v4l.org/79cJH>`_
+* `int became string <https://3v4l.org/79cJH>`_ [Try me]
 

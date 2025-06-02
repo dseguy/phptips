@@ -35,5 +35,5 @@ See Also
 ________
 
 * `Type declaration ‘%s’ must be unqualified <https://php-errors.readthedocs.io/en/latest/messages/type-declaration-%27%25s%27-must-be-unqualified.html>`_
-* `Array is not an array message <https://3v4l.org/q4nrY>`_
+* `Array is not an array message <https://3v4l.org/q4nrY>`_ [Try me]
 

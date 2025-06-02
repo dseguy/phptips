@@ -37,5 +37,5 @@ See Also
 ________
 
 * `Function parameters and arguments (PHP manual) <https://www.php.net/manual/en/functions.arguments.php>`_
-* `ellipsis with arrays <https://3v4l.org/TbFHe>`_
+* `ellipsis with arrays <https://3v4l.org/TbFHe>`_ [Try me]
 

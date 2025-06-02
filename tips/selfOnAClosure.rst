@@ -39,5 +39,5 @@ See Also
 ________
 
 * `Void (PHP manual) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_
-* `self on a closure <https://3v4l.org/PAjY6>`_
+* `self on a closure <https://3v4l.org/PAjY6>`_ [Try me]
 

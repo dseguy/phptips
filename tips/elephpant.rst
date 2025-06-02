@@ -35,5 +35,5 @@ ________
 * `Double quoted <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`_
 * `mb_chr <https://www.php.net/mb_chr>`_
 * `chr <https://www.php.net/chr>`_
-* `Two ways to the elephpant <https://3v4l.org/0jqWd>`_
+* `Two ways to the elephpant <https://3v4l.org/0jqWd>`_ [Try me]
 

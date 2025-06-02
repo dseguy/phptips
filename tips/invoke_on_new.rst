@@ -34,5 +34,5 @@ This was not possible in previous versions.
 See Also
 ________
 
-* `invoke on new <https://3v4l.org/7G8C7>`_
+* `invoke on new <https://3v4l.org/7G8C7>`_ [Try me]
 

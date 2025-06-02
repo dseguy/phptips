@@ -34,5 +34,5 @@ This is due to PHP postponing the evaluation of the constant to execution phase.
 See Also
 ________
 
-* `Hidden and not so hidden <https://3v4l.org/g846c>`_
+* `Hidden and not so hidden <https://3v4l.org/g846c>`_ [Try me]
 

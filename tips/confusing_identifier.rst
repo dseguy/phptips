@@ -32,5 +32,5 @@ There is no syntax to call dynamically a function whose name is stored in a cons
 See Also
 ________
 
-* `What is in an identifier <https://3v4l.org/c16hv>`_
+* `What is in an identifier <https://3v4l.org/c16hv>`_ [Try me]
 

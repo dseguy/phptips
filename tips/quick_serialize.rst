@@ -21,7 +21,7 @@ Quick Serialize
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html","name":"Quick Serialize","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Feb 2024 22:29:01 +0000","dateModified":"Tue, 20 Feb 2024 22:29:01 +0000","description":"Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html","name":"Quick Serialize","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 02 Jun 2025 18:18:52 +0000","dateModified":"Mon, 02 Jun 2025 18:18:52 +0000","description":"Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Doeke Norg <https://twitter.com/doekenorg>`_
 
@@ -36,4 +36,5 @@ ________
 
 * `Original <https://twitter.com/doekenorg/status/1706624773646594134>`_
 * `get_object_vars() <https://www.php.net/get_object_vars>`_
+* `initialized properties <https://3v4l.org/Dr6YT>`_ [Try me]
 

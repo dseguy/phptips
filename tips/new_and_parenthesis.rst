@@ -43,5 +43,5 @@ See Also
 ________
 
 * `Basics (PHP manual) <https://www.php.net/manual/en/language.oop5.basic.php>`_
-* `new and parenthesis <https://3v4l.org/K2ZrD>`_
+* `new and parenthesis <https://3v4l.org/K2ZrD>`_ [Try me]
 

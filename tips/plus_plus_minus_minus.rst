@@ -32,5 +32,5 @@ Don't forget the space between the plus and minus, or it will be a post incremen
 See Also
 ________
 
-* `plus plus <https://3v4l.org/4m7rI>`_
+* `plus plus <https://3v4l.org/4m7rI>`_ [Try me]
 

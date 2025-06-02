@@ -6,12 +6,14 @@
     "seeAlso": {
         "Original": "https://twitter.com/doekenorg/status/1706624773646594134",
         "get_object_vars()": "https://www.php.net/get_object_vars"
-        
     },
     "tags": [
         "serialize",
         "uninitialized"
     ],
     "author": "Doeke Norg",
-    "contact": "https://twitter.com/doekenorg"
+    "contact": "https://twitter.com/doekenorg",
+    "features":["initialisation"], 
+    "3v4l":{"initialized properties":"https://3v4l.org/Dr6YT"}, 
+    "phpError":{}
 }

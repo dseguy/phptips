@@ -35,5 +35,5 @@ See Also
 ________
 
 * `Class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_
-* `Where is my class? <https://3v4l.org/r49jU>`_
+* `Where is my class? <https://3v4l.org/r49jU>`_ [Try me]
 

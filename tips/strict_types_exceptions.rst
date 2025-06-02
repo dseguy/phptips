@@ -34,6 +34,6 @@ As you can see, print() and echo() are safe too, while implode() is not: actuall
 See Also
 ________
 
-* `live code <https://3v4l.org/R6XVR>`_
+* `live code <https://3v4l.org/R6XVR>`_ [Try me]
 * `declare <https://www.php.net/manual/en/control-structures.declare.php>`_
 

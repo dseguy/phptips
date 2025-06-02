@@ -33,5 +33,5 @@ See Also
 ________
 
 * `Type declarations (PHP manual) <https://www.php.net/manual/en/language.types.declarations.php>`_
-* `Hidden type and default value <https://3v4l.org/8S0fa>`_
+* `Hidden type and default value <https://3v4l.org/8S0fa>`_ [Try me]
 

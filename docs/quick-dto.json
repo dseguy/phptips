@@ -7,10 +7,11 @@
 	"Function arguments":"https://www.php.net/manual/en/functions.arguments.php"
 },
 "tags":[
-	"variadic",
-	"ellipsis",
-	"DTO"
+	"trick"
 ],
 "author":"Benoit Viguier",
-"contact":"https://phpc.social/@b_viguier"
+"contact":"https://phpc.social/@b_viguier",
+    "features":["variadic", "ellipsis", "DTO"], 
+    "3v4l":{"initialize DTO":"https://3v4l.org/dvtO4"}, 
+    "phpError":{}
 }

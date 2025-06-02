@@ -35,5 +35,5 @@ See Also
 ________
 
 * `precision (PHP manual) <https://www.php.net/manual/en/ini.core.php#ini.precision>`_
-* `precision <https://3v4l.org/N2EnC>`_
+* `precision <https://3v4l.org/N2EnC>`_ [Try me]
 

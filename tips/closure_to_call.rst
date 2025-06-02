@@ -31,5 +31,5 @@ See Also
 ________
 
 * `First Class Callable Syntax (PHP manual) <https://www.php.net/manual/en/functions.first_class_callable_syntax.php>`_
-* `Define and call a closure <https://3v4l.org/mDFnh>`_
+* `Define and call a closure <https://3v4l.org/mDFnh>`_ [Try me]
 

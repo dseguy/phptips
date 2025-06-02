@@ -35,5 +35,5 @@ See Also
 ________
 
 * `Generators (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
-* `The function that cannot execute <https://3v4l.org/ZfoVL>`_
+* `The function that cannot execute <https://3v4l.org/ZfoVL>`_ [Try me]
 

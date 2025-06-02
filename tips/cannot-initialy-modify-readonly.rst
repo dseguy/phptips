@@ -35,7 +35,7 @@ See Also
 ________
 
 * `Properties (PHP manual) <https://www.php.net/manual/en/language.oop5.properties.php>`_
-* `Sneaky readonly <https://3v4l.org/jNtaT>`_
+* `Sneaky readonly <https://3v4l.org/jNtaT>`_ [Try me]
 
 
 PHP Error Messages

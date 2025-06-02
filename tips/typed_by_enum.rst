@@ -33,5 +33,5 @@ See Also
 ________
 
 * `Enumeration (PHP manual) <https://www.php.net/manual/en/language.types.enumerations.php>`_
-* `Typing with enum <https://3v4l.org/9LZpq>`_
+* `Typing with enum <https://3v4l.org/9LZpq>`_ [Try me]
 

@@ -33,5 +33,5 @@ See Also
 ________
 
 * `Original on BluSky <https://bsky.app/profile/devatreides.bsky.social/post/3l3bwchdism2s>`_
-* `Typing a whole array <https://3v4l.org/Ov9mJ>`_
+* `Typing a whole array <https://3v4l.org/Ov9mJ>`_ [Try me]
 

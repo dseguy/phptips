@@ -34,6 +34,6 @@ ________
 
 * `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
 * `Returning value <https://www.php.net/manual/en/functions.returning-values.php>`_
-* `Yield, Not Return By Reference on 3v4l.org <https://3v4l.org/NdQsv>`_
-* `No reference for yield <https://3v4l.org/KQ4Nq>`_
+* `Yield, Not Return By Reference on 3v4l.org <https://3v4l.org/NdQsv>`_ [Try me]
+* `No reference for yield <https://3v4l.org/KQ4Nq>`_ [Try me]
 

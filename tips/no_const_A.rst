@@ -39,5 +39,5 @@ See Also
 ________
 
 * `Void (PHP manual) <https://wiki.php.net/rfc/new_in_initializers>`_
-* `Undefined Constant A <https://3v4l.org/cAQ9P>`_
+* `Undefined Constant A <https://3v4l.org/cAQ9P>`_ [Try me]
 

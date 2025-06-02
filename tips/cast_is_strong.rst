@@ -37,7 +37,7 @@ See Also
 ________
 
 * `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
-* `Example cast with int <https://3v4l.org/moVUK>`_
+* `Example cast with int <https://3v4l.org/moVUK>`_ [Try me]
 
 
 PHP Error Messages

@@ -36,5 +36,5 @@ And that's how it is possible to use impossible named parameter.
 See Also
 ________
 
-* `Using impossible parameter names <https://3v4l.org/U88Ip>`_
+* `Using impossible parameter names <https://3v4l.org/U88Ip>`_ [Try me]
 

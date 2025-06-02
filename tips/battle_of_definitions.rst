@@ -32,6 +32,6 @@ Yet, compatibility is still enforced when the __construct definition is in an in
 See Also
 ________
 
-* `3v4l : __construct() signature enforced when in an interface <https://3v4l.org/QPaRG>`_
-* `Battle of definitions <https://3v4l.org/5qeE1>`_
+* `3v4l : __construct() signature enforced when in an interface <https://3v4l.org/QPaRG>`_ [Try me]
+* `Battle of definitions <https://3v4l.org/5qeE1>`_ [Try me]
 

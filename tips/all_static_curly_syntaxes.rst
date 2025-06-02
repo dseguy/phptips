@@ -54,5 +54,5 @@ Let's review them all.
 See Also
 ________
 
-* `Lots of {} <https://3v4l.org/9ogQC>`_
+* `Lots of {} <https://3v4l.org/9ogQC>`_ [Try me]
 

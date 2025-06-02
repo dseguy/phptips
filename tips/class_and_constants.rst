@@ -35,5 +35,5 @@ See Also
 ________
 
 * `Class Constants (PHP manual) <https://www.php.net/manual/en/language.oop5.constants.php>`_
-* `class and constants <https://3v4l.org/RQIRu>`_
+* `class and constants <https://3v4l.org/RQIRu>`_ [Try me]
 

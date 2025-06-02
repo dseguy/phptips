@@ -38,5 +38,5 @@ The third one is reporting a warning, as expected.
 See Also
 ________
 
-* `Silent PHP Optimisation <https://3v4l.org/6gQeh>`_
+* `Silent PHP Optimisation <https://3v4l.org/6gQeh>`_ [Try me]
 

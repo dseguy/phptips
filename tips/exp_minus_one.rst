@@ -31,5 +31,5 @@ See Also
 ________
 
 * `expm1() (PHP manual) <https://www.php.net/expm1>`_
-* `expm1() versus exp() - 1 <https://3v4l.org/s2Y5G>`_
+* `expm1() versus exp() - 1 <https://3v4l.org/s2Y5G>`_ [Try me]
 

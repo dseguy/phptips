@@ -37,5 +37,5 @@ See Also
 ________
 
 * `Operator precedence (PHP manual) <https://www.php.net/manual/en/language.operators.precedence.php>`_
-* `Don't negate conditions' <https://3v4l.org/OaqKp>`_
+* `Don't negate conditions' <https://3v4l.org/OaqKp>`_ [Try me]
 

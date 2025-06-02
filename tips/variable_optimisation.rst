@@ -41,5 +41,5 @@ See Also
 ________
 
 * `Variables (PHP manual) <https://www.php.net/manual/en/language.variables.php>`_
-* `Variable optimisation <https://3v4l.org/HJKbV>`_
+* `Variable optimisation <https://3v4l.org/HJKbV>`_ [Try me]
 

@@ -33,5 +33,5 @@ See Also
 ________
 
 * `Type Declaration (PHP manual) <https://www.php.net/manual/en/language.types.declarations.php>`_
-* `Typed in interface, not available <https://3v4l.org/ea7eA>`_
+* `Typed in interface, not available <https://3v4l.org/ea7eA>`_ [Try me]
 

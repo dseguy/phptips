@@ -37,5 +37,5 @@ See Also
 ________
 
 * `Type Operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
-* `(int) compilation error <https://3v4l.org/1Lt2o>`_
+* `(int) compilation error <https://3v4l.org/1Lt2o>`_ [Try me]
 

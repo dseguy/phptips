@@ -37,5 +37,5 @@ ________
 * `The Basics (PHP manual) <https://www.php.net/manual/en/language.oop5.basic.php>`_
 * `ext/gettext <https://www.php.net/manual/en/book.gettext.php>`_
 * `gettext() <https://www.php.net/manual/en/function.gettext.php>`_
-* `no more class _ <https://3v4l.org/bfh8v>`_
+* `no more class _ <https://3v4l.org/bfh8v>`_ [Try me]
 

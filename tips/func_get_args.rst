@@ -37,5 +37,5 @@ See Also
 ________
 
 * `func_get_args() (PHP manual) <https://www.php.net/manual/en/function.func-get-args.php>`_
-* `func_get_args() versus variadic <https://3v4l.org/2U6E4>`_
+* `func_get_args() versus variadic <https://3v4l.org/2U6E4>`_ [Try me]
 

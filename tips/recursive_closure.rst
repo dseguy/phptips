@@ -33,5 +33,5 @@ See Also
 ________
 
 * `Closure (PHP manual) <https://www.php.net/manual/en/class.closure.php>`_
-* `recursive closure <https://3v4l.org/3MHeR>`_
+* `recursive closure <https://3v4l.org/3MHeR>`_ [Try me]
 

@@ -30,5 +30,5 @@ Another way to cast a value to int, besides the obvious ``(int)`` operator and t
 See Also
 ________
 
-* `Another cast to int <https://3v4l.org/qmWik>`_
+* `Another cast to int <https://3v4l.org/qmWik>`_ [Try me]
 

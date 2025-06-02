@@ -33,7 +33,7 @@ See Also
 ________
 
 * `Final (PHP manual) <https://www.php.net/manual/en/language.oop5.final.php>`_
-* `Final On A Parameter <https://3v4l.org/HKsFL>`_
+* `Final On A Parameter <https://3v4l.org/HKsFL>`_ [Try me]
 
 
 PHP Error Messages

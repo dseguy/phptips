@@ -31,5 +31,5 @@ See Also
 ________
 
 * `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
-* `No need for catch with try <https://3v4l.org/Wh9Ie>`_
+* `No need for catch with try <https://3v4l.org/Wh9Ie>`_ [Try me]
 

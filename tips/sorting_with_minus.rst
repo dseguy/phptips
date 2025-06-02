@@ -39,5 +39,5 @@ ________
 * `PHP 8.2 incompatibilities <https://www.php.net/manual/en/migration82.incompatible.php>`_
 * `ASCII table <https://www.ascii-code.com/>`_
 * `ksort() <https://www.php.net/manual/en/function.ksort.php>`_
-* `Sorting with a leading minus <https://3v4l.org/Tk3C4>`_
+* `Sorting with a leading minus <https://3v4l.org/Tk3C4>`_ [Try me]
 

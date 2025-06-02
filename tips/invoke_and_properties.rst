@@ -36,5 +36,5 @@ To invoke the object in the property ``y``, one has to put parenthesis around th
 See Also
 ________
 
-* `__invoke and properties <https://3v4l.org/BtooN>`_
+* `__invoke and properties <https://3v4l.org/BtooN>`_ [Try me]
 

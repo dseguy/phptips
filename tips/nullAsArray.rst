@@ -34,7 +34,7 @@ Interestingly, Null and boolean accept illegal keys, with a simple warning.
 See Also
 ________
 
-* `Accessing index on literals <https://3v4l.org/flQ68>`_
+* `Accessing index on literals <https://3v4l.org/flQ68>`_ [Try me]
 
 
 PHP Error Messages

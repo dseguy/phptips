@@ -33,5 +33,5 @@ See Also
 ________
 
 * `Generators overview (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
-* `Get The Generator <https://3v4l.org/S24Re>`_
+* `Get The Generator <https://3v4l.org/S24Re>`_ [Try me]
 

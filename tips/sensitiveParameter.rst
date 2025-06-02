@@ -34,5 +34,5 @@ ________
 
 * `SensitiveParameter (PHP manual) <https://www.php.net/manual/en/class.sensitiveparameter.php>`_
 * `SensitiveParameterValue (PHP manual) <https://www.php.net/manual/en/class.sensitiveparametervalue.php>`_
-* `Hide Sensitive Parameter (3v4l) <https://3v4l.org/KrViH>`_
+* `Hide Sensitive Parameter (3v4l) <https://3v4l.org/KrViH>`_ [Try me]
 

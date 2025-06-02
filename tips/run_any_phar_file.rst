@@ -35,5 +35,5 @@ See Also
 ________
 
 * `Phar (PHP manual) <https://www.php.net/manual/en/book.phar.php>`_
-* `include on phar <https://3v4l.org/s9jrt>`_
+* `include on phar <https://3v4l.org/s9jrt>`_ [Try me]
 

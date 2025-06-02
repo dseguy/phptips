@@ -35,5 +35,5 @@ See Also
 ________
 
 * `array_multisort (PHP manual) <https://www.php.net/manual/en/function.array-multisort.php>`_
-* `chaining spaceships <https://3v4l.org/8C5Xd>`_
+* `chaining spaceships <https://3v4l.org/8C5Xd>`_ [Try me]
 

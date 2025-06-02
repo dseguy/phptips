@@ -34,5 +34,5 @@ Of course, once this is typed like that, it is not possible to satisfy the type 
 See Also
 ________
 
-* `Can type \class, cannot type self <https://3v4l.org/OCfhi>`_
+* `Can type \class, cannot type self <https://3v4l.org/OCfhi>`_ [Try me]
 

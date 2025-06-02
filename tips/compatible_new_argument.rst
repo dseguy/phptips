@@ -36,5 +36,5 @@ ________
 
 * `Original BluSky <https://bsky.app/profile/jerome.tamarelle.net/post/3lmweebhmxs2y>`_
 * `func_get_arg <https://www.php.net/manual/en/function.func-get-arg.php>`_
-* `Example code <https://3v4l.org/g3htG>`_
+* `Example code <https://3v4l.org/g3htG>`_ [Try me]
 

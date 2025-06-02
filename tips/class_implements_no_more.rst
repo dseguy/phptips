@@ -39,5 +39,5 @@ See Also
 ________
 
 * `Object Interfaces (PHP manual) <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
-* `No need for catch with try <https://3v4l.org/Wh9Ie>`_
+* `No need for catch with try <https://3v4l.org/Wh9Ie>`_ [Try me]
 

@@ -35,5 +35,5 @@ See Also
 ________
 
 * `Generators overview (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
-* `yield but not return on 3v4l.org <https://3v4l.org/DLIiA>`_
+* `yield but not return on 3v4l.org <https://3v4l.org/DLIiA>`_ [Try me]
 

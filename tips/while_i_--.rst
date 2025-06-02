@@ -32,5 +32,5 @@ This PHP code is valid. It works because of the way operator syntax is parsed: i
 See Also
 ________
 
-* `down to 0 <https://3v4l.org/bXlOC>`_
+* `down to 0 <https://3v4l.org/bXlOC>`_ [Try me]
 

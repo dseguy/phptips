@@ -35,7 +35,7 @@ See Also
 ________
 
 * `namespace (PHP manual) <https://www.php.net/manual/en/language.namespaces.nsconstants.php>`_
-* `namespace in a namespace <https://3v4l.org/gQie5>`_
+* `namespace in a namespace <https://3v4l.org/gQie5>`_ [Try me]
 
 
 PHP Error Messages

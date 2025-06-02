@@ -21,7 +21,7 @@ PHP Quine
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html","name":"PHP Quine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 24 Apr 2025 05:38:15 +0000","dateModified":"Thu, 24 Apr 2025 05:38:15 +0000","description":"A quine is a piece of code that produces itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html","name":"PHP Quine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 02 Jun 2025 18:22:09 +0000","dateModified":"Mon, 02 Jun 2025 18:22:09 +0000","description":"A quine is a piece of code that produces itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 A quine is a piece of code that produces itself. It takes not input, and outputs a text that is its own code. The code is run to produce itself.
 
@@ -34,5 +34,5 @@ ________
 
 * `Quine (Computing) <https://en.wikipedia.org/wiki/Quine_(computing)>`_
 * `Quine Programs <https://cs.lmu.edu/~ray/notes/quineprograms/>`_
-* `Quine in PHP <https://3v4l.org/X9TuF>`_
+* `Quine in PHP <https://3v4l.org/X9TuF>`_ [Try me]
 

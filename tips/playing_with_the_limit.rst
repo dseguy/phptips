@@ -33,5 +33,5 @@ See Also
 ________
 
 * `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
-* `8s8q1 <https://3v4l.org/8s8q1>`_
+* `8s8q1 <https://3v4l.org/8s8q1>`_ [Try me]
 

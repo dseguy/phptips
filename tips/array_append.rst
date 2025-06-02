@@ -33,7 +33,7 @@ See Also
 ________
 
 * `Array (PHP manual) <https://www.php.net/manual/en/language.types.array.php#language.types.array>`_
-* `Run this code <https://3v4l.org/0WDiL>`_
+* `Run this code <https://3v4l.org/0WDiL>`_ [Try me]
 
 
 PHP Error Messages

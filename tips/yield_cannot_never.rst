@@ -36,5 +36,5 @@ ________
 
 * `Never (PHP manual) <https://www.php.net/manual/en/language.types.never.php>`_
 * `Generators overview (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
-* `this function never returns <https://3v4l.org/X3KJH>`_
+* `this function never returns <https://3v4l.org/X3KJH>`_ [Try me]
 

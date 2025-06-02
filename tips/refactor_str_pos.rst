@@ -32,7 +32,7 @@ ________
 
 * `strpos() <https://www.php.net/manual/strpos>`_
 * `str_start_with() <https://www.php.net/manual/str_starts_with>`_
-* `to be or not to be at the beginning of a string <https://3v4l.org/bO6YB>`_
+* `to be or not to be at the beginning of a string <https://3v4l.org/bO6YB>`_ [Try me]
 
 
 PHP Error Messages

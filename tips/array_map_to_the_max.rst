@@ -39,5 +39,5 @@ See Also
 ________
 
 * `array_map (PHP manual) <https://www.php.net/manual/en/function.array_map.php>`_
-* `array_map() filling the void <https://3v4l.org/8VDEa>`_
+* `array_map() filling the void <https://3v4l.org/8VDEa>`_ [Try me]
 

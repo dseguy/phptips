@@ -41,5 +41,5 @@ ________
 * `array_slice() (PHP manual) <https://www.php.net/manual/en/function.array-slice.php>`_
 * `unset() (PHP manual) <https://www.php.net/manual/en/function.unset.php>`_
 * `array_pop() (PHP manual) <https://www.php.net/manual/en/function.array-pop.php>`_
-* `comparisons <https://3v4l.org/bEaBT>`_
+* `comparisons <https://3v4l.org/bEaBT>`_ [Try me]
 

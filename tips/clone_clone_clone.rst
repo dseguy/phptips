@@ -34,5 +34,5 @@ ________
 
 * `Cloning objects <https://www.php.net/manual/en/language.oop5.cloning.php>`_
 * `new <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.new>`_
-* `Cloning a clone <https://3v4l.org/r2RsW>`_
+* `Cloning a clone <https://3v4l.org/r2RsW>`_ [Try me]
 

@@ -30,5 +30,5 @@ When using a backed enum with http_build_query(), the PHP native function uses t
 See Also
 ________
 
-* `http_build_query and enum <https://3v4l.org/0mWQs>`_
+* `http_build_query and enum <https://3v4l.org/0mWQs>`_ [Try me]
 

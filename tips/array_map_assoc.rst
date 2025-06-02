@@ -33,5 +33,5 @@ See Also
 ________
 
 * `array_map (PHP manual) <https://www.php.net/manual/en/function.array_map.php>`_
-* `array_map_assoc() with keys <https://3v4l.org/v72hT>`_
+* `array_map_assoc() with keys <https://3v4l.org/v72hT>`_ [Try me]
 

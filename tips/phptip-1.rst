@@ -37,5 +37,5 @@ See Also
 ________
 
 * `Constructors and Destructors (PHP manual) <https://www.php.net/manual/en/language.oop5.decon.php>`_
-* `Inconsistent Constructor Signatures <https://3v4l.org/RAMIo>`_
+* `Inconsistent Constructor Signatures <https://3v4l.org/RAMIo>`_ [Try me]
 

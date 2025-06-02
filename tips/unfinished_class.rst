@@ -34,7 +34,7 @@ ________
 
 * `Object Inheritance <https://www.php.net/manual/en/language.oop5.inheritance.php>`_
 * `Sometimes, PHP world is really weird. <https://twitter.com/janedbal/status/1758410205568643495>`_
-* `Simple Fatal Error <https://3v4l.org/GGUVm>`_
+* `Simple Fatal Error <https://3v4l.org/GGUVm>`_ [Try me]
 
 
 PHP Error Messages

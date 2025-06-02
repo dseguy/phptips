@@ -43,5 +43,5 @@ See Also
 ________
 
 * `Static Keyword (PHP manual) <https://www.php.net/manual/en/language.oop5.static.php>`_
-* `internal static and external static <https://3v4l.org/hLtMb>`_
+* `internal static and external static <https://3v4l.org/hLtMb>`_ [Try me]
 

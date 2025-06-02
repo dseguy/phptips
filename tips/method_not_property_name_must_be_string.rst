@@ -32,5 +32,5 @@ On the other hand, a dynamic property name is forcefully cast to a string before
 See Also
 ________
 
-* `Method Not Property Name Must Be String <https://3v4l.org/aKlmO>`_
+* `Method Not Property Name Must Be String <https://3v4l.org/aKlmO>`_ [Try me]
 

@@ -36,5 +36,5 @@ ________
 
 * `NAN (PHP manual) <https://www.php.net/manual/en/math.constants.php#constant.nan>`_
 * `is_nan (PHP manual) <https://www.php.net/manual/en/function.is-nan.php>`_
-* `NAN !== NAN <https://3v4l.org/Hb5EI>`_
+* `NAN !== NAN <https://3v4l.org/Hb5EI>`_ [Try me]
 

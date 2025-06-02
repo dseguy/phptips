@@ -7,9 +7,11 @@
         "Class Abstract (PHP manual)": "https://www.php.net/manual/en/language.oop5.abstract.php"
     },
     "tags": [
-        "abstract",
-        "inheritance"
+        "edge case"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "features":["abstract", "property", "constructor"], 
+    "3v4l":{"Promoting and compatibility":"https://3v4l.org/KUlk3"}, 
+    "phpError":{}
 }

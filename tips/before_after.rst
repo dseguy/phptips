@@ -32,7 +32,7 @@ The validation of the first class will be more thorough at execution time, and y
 See Also
 ________
 
-* `Order Of Declaration Is Lintable <https://3v4l.org/mUEsK>`_
+* `Order Of Declaration Is Lintable <https://3v4l.org/mUEsK>`_ [Try me]
 
 
 PHP Error Messages

@@ -37,5 +37,5 @@ See Also
 ________
 
 * `Datetime (PHP manual) <https://www.php.net/manual/en/class.datetime.php>`_
-* `How is this code running <https://3v4l.org/6CCFl>`_
+* `How is this code running <https://3v4l.org/6CCFl>`_ [Try me]
 

@@ -40,5 +40,5 @@ ________
 * `array_reduce <https://www.php.net/manual/en/function.array-reduce.php>`_
 * `array_filter <https://www.php.net/manual/en/function.array-filter.php>`_
 * `array_reduce is drastically slower (~1000x) <https://github.com/php/php-src/issues/8283>`_
-* `array_reduce() as a collector <https://3v4l.org/ZViTK>`_
+* `array_reduce() as a collector <https://3v4l.org/ZViTK>`_ [Try me]
 

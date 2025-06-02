@@ -35,5 +35,5 @@ See Also
 ________
 
 * `Multiple Traits (PHP manual) <https://www.php.net/manual/en/language.oop5.traits.php#language.oop5.traits.multiple>`_
-* `As as as are in a boat... <https://3v4l.org/SN2hX>`_
+* `As as as are in a boat... <https://3v4l.org/SN2hX>`_ [Try me]
 

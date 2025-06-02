@@ -42,5 +42,5 @@ Lastly, the full class name is available in the x::class syntax, but PHP won't r
 See Also
 ________
 
-* `new On Object <https://3v4l.org/sgRhj>`_
+* `new On Object <https://3v4l.org/sgRhj>`_ [Try me]
 

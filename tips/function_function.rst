@@ -34,5 +34,5 @@ Of course, it is also possible to create a function called method.
 See Also
 ________
 
-* `method function <https://3v4l.org/8Y6m7>`_
+* `method function <https://3v4l.org/8Y6m7>`_ [Try me]
 

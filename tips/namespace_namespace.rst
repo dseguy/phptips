@@ -31,5 +31,5 @@ See Also
 ________
 
 * `namespace (PHP manual) <https://www.php.net/manual/en/language.namespaces.nsconstants.php>`_
-* `namespace namespace <https://3v4l.org/8TdKi>`_
+* `namespace namespace <https://3v4l.org/8TdKi>`_ [Try me]
 

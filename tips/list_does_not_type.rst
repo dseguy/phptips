@@ -36,5 +36,5 @@ ________
 
 * `iterator_to_array (PHP manual) <https://www.php.net/manual/en/function.iterator-to-array.php>`_
 * `List (PHP manual) <https://www.php.net/manual/en/function.list.php>`_
-* `list() with all sorts of types <https://3v4l.org/SkKon>`_
+* `list() with all sorts of types <https://3v4l.org/SkKon>`_ [Try me]
 

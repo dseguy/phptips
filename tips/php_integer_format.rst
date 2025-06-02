@@ -41,5 +41,5 @@ ________
 * `dechexdec <https://www.php.net/manual/fr/function.dechex.php>`_
 * `decoctdec <https://www.php.net/manual/fr/function.decoct.php>`_
 * `decbindec <https://www.php.net/manual/fr/function.decbin.php>`_
-* `converting and back <https://3v4l.org/H5Yk3>`_
+* `converting and back <https://3v4l.org/H5Yk3>`_ [Try me]
 

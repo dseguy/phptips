@@ -35,7 +35,7 @@ See Also
 ________
 
 * `Constructors and Destructors (PHP manual) <https://www.php.net/manual/en/language.oop5.decon.php>`_
-* `What is in an identifier <https://3v4l.org/c16hv>`_
+* `What is in an identifier <https://3v4l.org/c16hv>`_ [Try me]
 
 
 PHP Error Messages

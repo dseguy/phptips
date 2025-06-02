@@ -33,5 +33,5 @@ See Also
 ________
 
 * `Type operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
-* `instanceof With Variables <https://3v4l.org/UCoEf>`_
+* `instanceof With Variables <https://3v4l.org/UCoEf>`_ [Try me]
 

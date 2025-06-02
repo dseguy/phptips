@@ -43,5 +43,5 @@ See Also
 ________
 
 * `Using static variables (PHP manual) <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`_
-* ` <https://3v4l.org/2jjV7>`_
+* ` <https://3v4l.org/2jjV7>`_ [Try me]
 

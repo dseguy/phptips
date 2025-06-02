@@ -21,7 +21,7 @@ More Attribute Usage
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html","name":"More Attribute Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 02 May 2025 18:05:57 +0000","dateModified":"Fri, 02 May 2025 18:05:57 +0000","description":"PHP attributes are for classes, but also for enums, traits and interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html","name":"More Attribute Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 02 Jun 2025 18:25:21 +0000","dateModified":"Mon, 02 Jun 2025 18:25:21 +0000","description":"PHP attributes are for classes, but also for enums, traits and interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 PHP attributes are for classes, but also for enums, traits and interfaces. With ::TARGET_CLASS.
 
@@ -37,5 +37,5 @@ See Also
 ________
 
 * `Declaring Attribute Classes <https://www.php.net/manual/en/language.attributes.classes.php>`_
-* `Attributes for all <https://3v4l.org/pZSn7>`_
+* `Attributes for all <https://3v4l.org/pZSn7>`_ [Try me]
 

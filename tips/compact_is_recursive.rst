@@ -36,7 +36,7 @@ ________
 
 * `compact() (PHP manual) <https://www.php.net/compact>`_
 * `extract() (PHP manual) <https://www.php.net/extract>`_
-* `Recursive compact() <https://3v4l.org/EEAKb>`_
+* `Recursive compact() <https://3v4l.org/EEAKb>`_ [Try me]
 
 
 PHP Error Messages

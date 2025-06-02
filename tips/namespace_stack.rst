@@ -31,5 +31,5 @@ See Also
 ________
 
 * `Namespace (PHP manual) <https://www.php.net/manual/en/language.namespaces.php>`_
-* `Namespace is local or global <https://3v4l.org/FekcH>`_
+* `Namespace is local or global <https://3v4l.org/FekcH>`_ [Try me]
 

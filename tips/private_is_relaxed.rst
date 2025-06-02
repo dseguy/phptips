@@ -34,5 +34,5 @@ As usual, use with caution.
 See Also
 ________
 
-* `private as a public constant <https://3v4l.org/XYmck>`_
+* `private as a public constant <https://3v4l.org/XYmck>`_ [Try me]
 

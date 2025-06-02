@@ -35,7 +35,7 @@ ________
 * `Static properties (PHP manual) <https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties>`_
 * `Late Static Binding (PHP manual) <https://www.php.net/manual/en/language.oop5.late-static-bindings.php#language.oop5.late-static-bindings>`_
 * `5 usages of static keyword in PHP <https://www.exakat.io/en/5-usages-of-static-keyword-in-php/>`_
-* `No static static <https://3v4l.org/C4DLP>`_
+* `No static static <https://3v4l.org/C4DLP>`_ [Try me]
 
 
 PHP Error Messages

@@ -37,5 +37,5 @@ See Also
 ________
 
 * `Constants (PHP manual) <https://www.php.net/manual/en/language.constants.php>`_
-* `Redefinition of a constant <https://3v4l.org/mHLNu>`_
+* `Redefinition of a constant <https://3v4l.org/mHLNu>`_ [Try me]
 

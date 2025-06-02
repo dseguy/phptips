@@ -32,5 +32,5 @@ ________
 
 * `Goto <https://www.php.net/manual/en/control-structures.goto.php>`_
 * `A URL is valid PHP code?! <https://liamhammett.com/a-url-is-valid-php-code>`_
-* `URL as comments <https://3v4l.org/3ifYo>`_
+* `URL as comments <https://3v4l.org/3ifYo>`_ [Try me]
 

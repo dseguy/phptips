@@ -33,7 +33,7 @@ See Also
 ________
 
 * `Tips for arguments in array <https://x.com/laravelbackpack/status/1914642850970742973>`_
-* `Named parameter in array <https://3v4l.org/pTq6T>`_
+* `Named parameter in array <https://3v4l.org/pTq6T>`_ [Try me]
 
 
 PHP Error Messages

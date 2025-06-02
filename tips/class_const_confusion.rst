@@ -30,5 +30,5 @@ The ``::`` operator and the ``instanceof`` operators work on class names only. E
 See Also
 ________
 
-* `Classes Only <https://3v4l.org/XsH0k>`_
+* `Classes Only <https://3v4l.org/XsH0k>`_ [Try me]
 

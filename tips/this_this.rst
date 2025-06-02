@@ -33,5 +33,5 @@ See Also
 ________
 
 * `$this (PHP manual) <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_
-* `$this->$this in the code <https://3v4l.org/K60Kl>`_
+* `$this->$this in the code <https://3v4l.org/K60Kl>`_ [Try me]
 

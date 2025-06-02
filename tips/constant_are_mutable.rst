@@ -34,5 +34,5 @@ ________
 
 * `Class Constants <https://www.php.net/manual/en/language.oop5.constants.php#language.oop5.constants>`_
 * `Constants are no longer constant in PHP <https://dev.to/hbgl/constants-are-no-longer-constant-in-php-oco>`_
-* `How To Alter A Constant <https://3v4l.org/Ej6t6>`_
+* `How To Alter A Constant <https://3v4l.org/Ej6t6>`_ [Try me]
 

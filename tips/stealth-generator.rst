@@ -33,5 +33,5 @@ See Also
 ________
 
 * `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
-* `stealth generator <https://3v4l.org/5d9JC>`_
+* `stealth generator <https://3v4l.org/5d9JC>`_ [Try me]
 

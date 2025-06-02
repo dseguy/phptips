@@ -32,5 +32,5 @@ On the other hand, using null and false as keys in an array, lead them to be cas
 See Also
 ________
 
-* `null and false are in an array <https://3v4l.org/av7e9>`_
+* `null and false are in an array <https://3v4l.org/av7e9>`_ [Try me]
 

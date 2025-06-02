@@ -13,5 +13,6 @@
     "author": "",
     "contact": "",
     "features": ["self-replicating"],
-    "3v4l": {"Quine in PHP":"https://3v4l.org/X9TuF"}
+    "3v4l": {"Quine in PHP":"https://3v4l.org/X9TuF"},
+    "phpError": {}
 }

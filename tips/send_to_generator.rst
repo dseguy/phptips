@@ -36,6 +36,6 @@ Generator::send() only accepts one argument.
 See Also
 ________
 
-* `example on 3v4l.org <https://3v4l.org/ouPhi>`_
+* `example on 3v4l.org <https://3v4l.org/ouPhi>`_ [Try me]
 * `Generator::send() <https://www.php.net/manual/en/generator.send.php>`_
 

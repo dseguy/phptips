@@ -32,5 +32,5 @@ This also means that an enumeration may be called 'enum'.
 See Also
 ________
 
-* `Example (PHP manual) <https://3v4l.org/bojkm>`_
+* `Example (PHP manual) <https://3v4l.org/bojkm>`_ [Try me]
 

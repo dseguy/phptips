@@ -32,7 +32,7 @@ It is possible to use them as such by casting them to string. Later, type juggli
 See Also
 ________
 
-* `Storing float as keys <https://3v4l.org/dvHg8>`_
+* `Storing float as keys <https://3v4l.org/dvHg8>`_ [Try me]
 
 
 PHP Error Messages

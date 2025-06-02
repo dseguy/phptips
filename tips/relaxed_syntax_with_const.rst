@@ -21,7 +21,7 @@ Relaxed Syntax With Const
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html","name":"Relaxed Syntax With Const","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Nov 2024 09:26:40 +0000","dateModified":"Sun, 03 Nov 2024 09:26:40 +0000","description":"Relaxed syntax is the possibility to use PHP keywords as method or class constant names","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html","name":"Relaxed Syntax With Const","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 02 Jun 2025 18:35:09 +0000","dateModified":"Mon, 02 Jun 2025 18:35:09 +0000","description":"Relaxed syntax is the possibility to use PHP keywords as method or class constant names","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Relaxed syntax is the possibility to use PHP keywords as method or class constant names. This leads to funny expressions, that look like something else.
 
@@ -33,4 +33,5 @@ See Also
 ________
 
 * `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
+* `Relaxed syntax with const <https://3v4l.org/fiaHc>`_ [Try me]
 

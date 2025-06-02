@@ -33,5 +33,5 @@ See Also
 ________
 
 * `Original tweet <https://twitter.com/OndrejMirtes/status/1750522433633927620>`_
-* `Running code <https://3v4l.org/2PkHO>`_
+* `Running code <https://3v4l.org/2PkHO>`_ [Try me]
 

@@ -38,5 +38,5 @@ because the name is already in use``. This is a difference in processing similar
 See Also
 ________
 
-* `When to check for name <https://3v4l.org/eT5rs>`_
+* `When to check for name <https://3v4l.org/eT5rs>`_ [Try me]
 

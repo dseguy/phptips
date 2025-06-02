@@ -37,5 +37,5 @@ See Also
 ________
 
 * `array_column (PHP manual) <https://www.php.net/manual/en/function.array-column.php>`_
-* `Magic constants <https://3v4l.org/JuFfn>`_
+* `Magic constants <https://3v4l.org/JuFfn>`_ [Try me]
 

@@ -36,5 +36,5 @@ ________
 
 * `parse_str (PHP manual) <https://www.php.net/manual/en/function.parse-str.php>`_
 * `parse_str - replacing dot and space with underscore in keys <https://github.com/php/php-src/issues/8639>`_
-* `Various parse_str() replacements <https://3v4l.org/4GMFX>`_
+* `Various parse_str() replacements <https://3v4l.org/4GMFX>`_ [Try me]
 

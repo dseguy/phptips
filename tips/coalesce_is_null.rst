@@ -45,5 +45,5 @@ See Also
 ________
 
 * `Error Control Operators <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_
-* `3 ways to check on null <https://3v4l.org/Y8IUC>`_
+* `3 ways to check on null <https://3v4l.org/Y8IUC>`_ [Try me]
 
