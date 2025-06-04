@@ -382,7 +382,11 @@ foreach($tips as $tip) {
 	    $phptip[] = str_repeat(LEVEL_H2, strlen('See Also'));
 		$phptip[] = '';
 		foreach($links as $title => $link) {
-			$phptip[] = '* `'.$title.' <'.$link.'>`_';
+		    if (str_contains($link, '3v4l')) {
+    			$phptip[] = '* `'.$title.' <'.$link.'>`_ [Try me]';
+		    } else {
+    			$phptip[] = '* `'.$title.' <'.$link.'>`_';
+		    }
 		}
 		$phptip[] = '';
 	}
