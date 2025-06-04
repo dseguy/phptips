@@ -18,6 +18,6 @@
     "phpError": {},
     "features": [
         "catch",
-        "dnf"
+        "dnf-type"
     ]
 }

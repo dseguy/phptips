@@ -13,6 +13,7 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["new-initializer", "constant"],
-    "3v4l": {"Undefined Constant A":"https://3v4l.org/cAQ9P"}
+    "features": ["new-in-initializer", "constant"],
+    "3v4l": {"Undefined Constant A":"https://3v4l.org/cAQ9P"},
+    "phpError":{}
 }

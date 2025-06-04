@@ -21,7 +21,7 @@ No Returntype Enforced
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-returntype-enforced.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-returntype-enforced.html","name":"No Returntype Enforced","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 19 Mar 2024 18:43:14 +0000","dateModified":"Tue, 19 Mar 2024 18:43:14 +0000","description":"A return type on a method means that the method must return something of that type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-returntype-enforced.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-returntype-enforced.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-returntype-enforced.html","name":"No Returntype Enforced","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 04 Jun 2025 18:42:55 +0000","dateModified":"Wed, 04 Jun 2025 18:42:55 +0000","description":"A return type on a method means that the method must return something of that type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-returntype-enforced.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 A return type on a method means that the method must return something of that type. This is true, unless for generators. Such methods contains ``yield`` or ``yield from``, and must use the ``Generator`` returntype. Then, the actual return type is not checked, at all.
 
@@ -31,4 +31,5 @@ See Also
 ________
 
 * `Generator syntax (PHP manual) <https://www.php.net/manual/en/language.generators.syntax.php>`_
+* `Return is not enforced <https://3v4l.org/vRXn3>`_ [Try me]
 

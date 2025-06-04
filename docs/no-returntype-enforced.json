@@ -7,9 +7,11 @@
         "Generator syntax (PHP manual)": "https://www.php.net/manual/en/language.generators.syntax.php"
     },
     "tags": [
-        "generator",
-        "returntype"
+        "type"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "features":["return-type","generator"],
+    "phpError":{},
+    "3v4l":{"Return is not enforced":"https://3v4l.org/vRXn3"}
 }
