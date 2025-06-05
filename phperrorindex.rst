@@ -1,6 +1,8 @@
 Error Message index
 -------------------
 
+* Cannot assign %s to reference held by property %s::$%s of type %s
+    * :ref:`typed-variables`
 * Cannot call constructor
     * :ref:`constructor-needed`
 * Cannot indirectly modify readonly property %s::$%s

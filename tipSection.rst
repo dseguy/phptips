@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/typed_variables.rst
    tips/type_and_reference.rst
    tips/chaining_spaceship.rst
    tips/parse_str_edge_cases.rst

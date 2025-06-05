@@ -11,5 +11,8 @@
         "generator"
     ],
     "author": "Rahul Chavan",
-    "contact": "https://twitter.com/rcsofttech85"
+    "contact": "https://twitter.com/rcsofttech85",
+    "features": ["generator", "argument"],
+    "3v4l": {"Typed Variables":"https://3v4l.org/I7AQN"},
+    "phpError":{}
 }

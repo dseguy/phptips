@@ -21,7 +21,7 @@ Send An Argument To Generator
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html","name":"Send An Argument To Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 05 Aug 2024 20:16:28 +0000","dateModified":"Mon, 05 Aug 2024 20:16:28 +0000","description":"When calling the method send() on a PHP generator, the result of the first yield keyword is the argument value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html","name":"Send An Argument To Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 05 Jun 2025 05:40:21 +0000","dateModified":"Thu, 05 Jun 2025 05:40:21 +0000","description":"When calling the method send() on a PHP generator, the result of the first yield keyword is the argument value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Rahul Chavan <https://twitter.com/rcsofttech85>`_
 
@@ -38,4 +38,5 @@ ________
 
 * `example on 3v4l.org <https://3v4l.org/ouPhi>`_ [Try me]
 * `Generator::send() <https://www.php.net/manual/en/generator.send.php>`_
+* `Typed Variables <https://3v4l.org/I7AQN>`_ [Try me]
 
