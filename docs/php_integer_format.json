@@ -13,11 +13,15 @@
         "decbindec":"https://www.php.net/manual/fr/function.decbin.php"
     },
     "tags": [
-        "integer",
-        "format",
-        "eval"
+    "trick"
     ],
     "author": "",
     "contact": "",
-    "3v4l":{"converting and back":"https://3v4l.org/H5Yk3"}
+    "3v4l":{"converting and back":"https://3v4l.org/H5Yk3"},
+    "phpError":{},
+    "features":[        
+        "integer",
+        "format",
+        "eval"
+]
 }

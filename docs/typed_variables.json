@@ -2,7 +2,7 @@
     "image": "typed_variables.png",
     "date": "2025-06-05",
     "title": "Typed Variables",
-    "content": "A local variable cannot be typed.\nI mean, it may be typed at argument or return time, but not permanantly, like a property.\nTo create a typed variable, one may use a reference to a property. The property may be typed, and this constraint is extended to the variable, with a dedicated message.\nIt works on static and normal properties. And it looks a bit cumbersome to use. ",
+    "content": "A local variable cannot be typed.\nI mean, it may be typed at argument or return time, but not permanantly, like a property.\nTo create a typed variable, one may use a reference to a property. The property may be typed, and this constraint is extended to the variable, with a dedicated message.\nIt works on static and normal properties. And it looks a bit cumbersome to use.",
     "seeAlso": {
         "Void (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.types.void.php"
     },

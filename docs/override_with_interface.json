@@ -12,5 +12,11 @@
         "override"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+"features":[
+	"interface",
+	"override"
+],
+"3v4l":{"Override works on Interfaces":"https://3v4l.org/WaZPd"},
+"phpError":{}
 }
