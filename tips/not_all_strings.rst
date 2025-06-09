@@ -21,7 +21,7 @@ Not All Strings In Arrays
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_all_strings.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_all_strings.html","name":"Not All Strings In Arrays","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Nov 2024 09:31:43 +0000","dateModified":"Sun, 03 Nov 2024 09:31:43 +0000","description":"Array keys are coerced into strings or integers, while array values are left intact","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_all_strings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_all_strings.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_all_strings.html","name":"Not All Strings In Arrays","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 09 Jun 2025 19:56:06 +0000","dateModified":"Mon, 09 Jun 2025 19:56:06 +0000","description":"Array keys are coerced into strings or integers, while array values are left intact","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_all_strings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Array keys are coerced into strings or integers, while array values are left intact.
 
@@ -36,4 +36,5 @@ ________
 
 * `Array: syntax (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
 * `__toString() Magic Method <https://www.php.net/manual/fr/language.oop5.magic.php#object.tostring>`_
+* `string or not? <https://3v4l.org/CfEaW>`_ [Try me]
 

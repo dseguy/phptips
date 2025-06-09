@@ -7,10 +7,16 @@
         "Anonymous Classes (PHP manual)": "https://www.php.net/manual/en/language.oop5.anonymous.php"
     },
     "tags": [
-        "anonymous class",
-        "alias",
-        "names"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Give a name to a class": "https://3v4l.org/MLrBX"
+    },
+    "phpError": {},
+    "features": [        
+        "anonymous-class",
+        "alias",
+        "name"
+]
 }

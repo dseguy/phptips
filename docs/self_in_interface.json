@@ -2,14 +2,21 @@
     "image": "self_in_interface.png",
     "date": "2022-08-24",
     "title": "Self In An Interface",
-    "content": "The keyword self in an interface means that interface, not the host class. Hence, using self as return type means that the method must return an object of type ``i``, not of the host class.",
+    "content": "The keyword self in an interface represente that interface: it does not represent the host class. Hence, using self as return type means that the method must return an object that implements the type ``i``, not of the host class.",
     "seeAlso": {
         "Scope Resolution Operator (::)": "https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php"
     },
     "tags": [
-        "self",
-        "interface"
+        "surprising"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "interface, not class": "https://3v4l.org/DANG4"
+    },
+    "phpError": {},
+    "features": [
+        "self",
+        "interface"
+    ]
 }

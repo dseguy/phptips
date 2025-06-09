@@ -7,9 +7,16 @@
 	"Type Operators (PHP manual)":"https://www.php.net/manual/en/language.operators.type.php"
 },
 "tags":[
-	"scalar types",
-	"instanceof",
 	"surprising",
 	"silent"
-]
+],
+    "3v4l": {
+        "Not an instance of object": "https://3v4l.org/sAfXJ"
+    },
+    "author": "",
+    "contact": "",
+    "phpError": {},
+    "features": [	"scalar-type",
+	"instanceof"
+    ]
 }

@@ -8,9 +8,13 @@
 	"__toString() Magic Method":"https://www.php.net/manual/fr/language.oop5.magic.php#object.tostring"
 },
 "tags":[
-	"class",
-	"string",
-	"cast",
-	"type juggling"
-]
+"surprising"
+],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "string or not?": "https://3v4l.org/CfEaW"
+    },
+    "phpError": {},
+    "features": ["type-juggling", "string", "class", "cast"]
 }

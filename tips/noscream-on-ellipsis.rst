@@ -21,7 +21,7 @@ Noscream On Ellipsis
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html","name":"Noscream On Ellipsis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Sep 2024 18:58:12 +0000","dateModified":"Tue, 03 Sep 2024 18:58:12 +0000","description":"Noscream operator @ hides errors locally, in an expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html","name":"Noscream On Ellipsis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 09 Jun 2025 19:46:13 +0000","dateModified":"Mon, 09 Jun 2025 19:46:13 +0000","description":"Noscream operator @ hides errors locally, in an expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Noscream operator @ hides errors locally, in an expression. Variadic ``...`` spreads the elements of an array.
 
@@ -40,4 +40,5 @@ ________
 
 * `Error control operator (PHP manual) <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_
 * `Array unpacking <https://www.php.net/manual/en/language.types.array.php#language.types.array.unpacking>`_
+* `Noscream on Ellipsis <https://3v4l.org/T0L1k>`_ [Try me]
 

@@ -12,5 +12,10 @@
         "ellipsis"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Noscream on Ellipsis": "https://3v4l.org/T0L1k"
+    },
+    "phpError": {},
+    "features": ["noscream", "ellipsis"]
 }
