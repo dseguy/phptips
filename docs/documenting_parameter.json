@@ -7,9 +7,18 @@
         "Named Arguments (PHP manual)": "https://www.php.net/manual/en/functions.arguments.php#functions.named-arguments"
     },
     "tags": [
-        "named parameter",
-        "readability"
+        "best-practise"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "documenting parameters": "https://3v4l.org/Qr4tP"
+    },
+    "phpError": {},
+    "features": [
+        "named-parameter",
+        "readability"
+]
 }

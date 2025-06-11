@@ -7,9 +7,15 @@
         "Example (PHP manual)": "https://3v4l.org/bojkm"
     },
     "tags": [
-        "enum",
-        "names"
+        "surprising"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "name it class!": "https://3v4l.org/Ammha"
+    },
+    "phpError": {},
+    "features": [        "enum",
+        "name"
+]
 }

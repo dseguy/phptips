@@ -21,7 +21,7 @@ Enum As A Name
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_as_name.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_as_name.html","name":"Enum As A Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Feb 2024 22:21:52 +0000","dateModified":"Tue, 20 Feb 2024 22:21:52 +0000","description":"It is possible to name a class enum, but not to name an enum class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_as_name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_as_name.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_as_name.html","name":"Enum As A Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Jun 2025 19:50:46 +0000","dateModified":"Wed, 11 Jun 2025 19:50:46 +0000","description":"It is possible to name a class enum, but not to name an enum class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_as_name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 It is possible to name a class enum, but not to name an enum class. In fact, 'enum' is an authorized name for interfaces and traits, to help with backward compatibility.
 
@@ -33,4 +33,5 @@ See Also
 ________
 
 * `Example (PHP manual) <https://3v4l.org/bojkm>`_ [Try me]
+* `name it class! <https://3v4l.org/Ammha>`_ [Try me]
 

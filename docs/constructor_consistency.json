@@ -2,12 +2,19 @@
 "image":"constructor_consistency.png",
 "date":"2022-09-18",
 "title":"Signature Compatibility Exception",
-"content":"All methods must be compatible with their parent's signature: the types, reference options, variadic and number must be compatible (although, not equal).\nThe only exception are constructors, which may be completely different from their parent's. This is for backward compatibility.",
+"content":"All methods must be compatible with their parent's signature: the types, reference options, variadic and number must be compatible (although, not equal).\nThe exception are constructors, which may be completely different from their parent's. This is for backward compatibility.\nAnd this rule also has the exception that abstract constructor, in interfaces and abstract parent classes, must be compatible, and their signature are enforced. Normal constructor are free.",
 "seeAlso":{
 	"constructors":"https://www.php.net/manual/en/control-structures.declare.php"
 },
 "tags":[
 	"PHP",
 	"backward compatibility"
-]
+],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "compatible or not?": "https://3v4l.org/GAiN9"
+    },
+    "phpError": {},
+    "features": ["constructor", "abstract", "interface", "inheritance"]
 }

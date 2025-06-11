@@ -7,9 +7,14 @@
         "Strings (PHP manual)": "https://www.php.net/manual/en/language.types.string.php"
     },
     "tags": [
-        "strings",
-        "array"
+    "lesser-known"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {    },
+    "phpError": {},
+    "features": [
+        "strings",
+        "array"
+    ]
 }

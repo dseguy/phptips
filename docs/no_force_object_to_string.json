@@ -2,7 +2,7 @@
     "image": "no_force_object_to_string.png",
     "date": "2024-10-06",
     "title": "No Force Object To String",
-    "content": "PHP forces numeric strings to integers when using them as a index, in an array. On the other hand, it doesn't force objects to be strings, and it rather raise an error: ``Illegal offset type``.",
+    "content": "PHP automatically converts numeric strings to integers when used as array indices, so '123' becomes 123 (the integer). However, PHP doesn't perform similar conversions for objects, when they are used as array keys. Instead, it immediately throws a fatal ``Illegal offset type`` error because objects are not automatically converted to valid array keys.",
     "seeAlso": {
         "Arrays (PHP manual)": "https://www.php.net/manual/en/language.types.array.php"
     },

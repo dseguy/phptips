@@ -6,10 +6,19 @@
 "seeAlso":{
 	"Generator syntax":"https://www.php.net/manual/en/language.generators.syntax.php"
 },
-"tags":[
-	"lint",
-	"function",
+    "tags":[
+	    "lint",
+    	"surprising"
+    ],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "No yield, no loop": "https://3v4l.org/Znbbl"
+    },
+    "phpError": {},
+    "features": [
+    	"function",
 	"class",
-	"surprise"
+	"yield"
 ]
 }

@@ -2,15 +2,22 @@
     "image": "by_reference_errors.png",
     "date": "2024-12-11",
     "title": "By Reference, Error Or Notice?",
-    "content": "Passing a literal, by reference, to a method yields a Fatal error.\nReturning a literal by reference, yields a Notice.\nWhy is there a difference of error level between these two operations, which are very similar?",
+    "content": "Passing a literal by reference to a method causes a Fatal error, while returning a literal by reference only triggers a Notice. This difference in error level is puzzling, given how similar the operations are. It raises the question: why does one completely halt execution, while the other merely issues a warning and continues running?",
     "seeAlso": {
         "Passing By Reference (PHP manual)": "https://www.php.net/manual/en/language.references.pass.php"
     },
     "tags": [
-        "reference",
-        "return",
-        "notice"
+    "surprising"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "By reference or by value?": "https://3v4l.org/6knLV"
+    },
+    "phpError": {},
+    "features": [
+            "reference",
+        "return",
+        "notice"
+]
 }
