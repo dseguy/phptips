@@ -35,5 +35,9 @@ Error Message index
     * :ref:`unsetting-properties-surprises`
 * Undefined variable
     * :ref:`undefined-variable`
+* Unhandled case NULL
+    * :ref:`non-empty-match`
 * syntax error, unexpected token "(int)"
     * :ref:`cast-is-so-strong`
+* syntax error, unexpected token ";"
+    * :ref:`no-semicolon-in-sight`

@@ -5,8 +5,13 @@
     "content":"What does a separated list of plus and minus do to a literal? They will be merged independently in the literal. Here, two negations will make a positive, so we get a plus.\nDon't forget the space between the plus and minus, or it will be a post increment operator, and a different answer.",
     "seeAlso":{},
     "tags":[
-	"PHP",
-	"operator"
+    "surprising"
     ],
-    "3v4l": {"plus plus":"https://3v4l.org/4m7rI"}
+    "author": "",
+    "contact": "",
+    "3v4l": {"plus plus":"https://3v4l.org/4m7rI"},
+    "phpError": {},
+    "features": [
+	"operator"
+    ]
 }

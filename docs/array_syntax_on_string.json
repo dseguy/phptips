@@ -14,7 +14,7 @@
     "3v4l": {    },
     "phpError": {},
     "features": [
-        "strings",
+        "string",
         "array"
     ]
 }

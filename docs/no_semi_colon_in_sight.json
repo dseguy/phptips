@@ -7,9 +7,13 @@
         "PHP tags": "https://www.php.net/manual/en/language.basic-syntax.phptags.php"
     },
     "tags": [
-        "error message",
-        "php closing tag"
+        "surprising"
     ],
     "author": "Ryan Chandler",
-    "contact": "https://twitter.com/ryangjchandler"
+    "contact": "https://twitter.com/ryangjchandler",
+    "3v4l": {
+        "this function never returns": "https:\/\/3v4l.org\/X3KJH"
+    },
+    "phpError": {"syntax error, unexpected token \";\"":"syntax-error,-unexpected-token-\";\".ini"},
+    "features": ["closing-tag"]
 }
