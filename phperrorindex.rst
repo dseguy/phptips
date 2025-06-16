@@ -41,6 +41,8 @@ Error Message index
     * :ref:`undefined-variable`
 * Unhandled case NULL
     * :ref:`non-empty-match`
+* Unsupported operand types: int & string
+    * :ref:`bitwise-operations-on-string`
 * syntax error, unexpected token "(int)"
     * :ref:`cast-is-so-strong`
 * syntax error, unexpected token ";"
