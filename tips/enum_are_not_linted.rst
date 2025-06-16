@@ -21,7 +21,7 @@ Enum Are Not Linted
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_are_not_linted.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_are_not_linted.html","name":"Enum Are Not Linted","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Aug 2024 15:53:05 +0000","dateModified":"Thu, 22 Aug 2024 15:53:05 +0000","description":"It is possible to give two identical values to different enumeration cases, but not to execute it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_are_not_linted.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_are_not_linted.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_are_not_linted.html","name":"Enum Are Not Linted","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Jun 2025 15:55:12 +0000","dateModified":"Mon, 16 Jun 2025 15:55:12 +0000","description":"It is possible to give two identical values to different enumeration cases, but not to execute it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_are_not_linted.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 It is possible to give two identical values to different enumeration cases, but not to execute it.
 
@@ -35,4 +35,12 @@ See Also
 ________
 
 * `Enumeration <https://www.php.net/manual/en/language.types.enumerations.php>`_
+* `Check on case values, at execution time <https://3v4l.org/1bOLV>`_ [Try me]
+
+
+PHP Error Messages
+__________________
+
+* `Duplicate value in enum E for cases A and B <https://php-errors.readthedocs.io/en/latest/messages/duplicate-value-in-enum-%25s-for-cases-%25s-and-%25s.html>`_
+
 

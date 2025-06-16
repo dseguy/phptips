@@ -12,5 +12,10 @@
         "changed behavior"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Check on case values, at execution time": "https://3v4l.org/1bOLV"
+    },
+    "phpError": {"Duplicate value in enum E for cases A and B":"duplicate-value-in-enum-%s-for-cases-%s-and-%s"},
+    "features": ["backed-enum", "case"]
 }

@@ -1,6 +1,8 @@
 Error Message index
 -------------------
 
+* Cannot access offset of type A on array
+    * :ref:`no-force-object-to-string`
 * Cannot assign %s to reference held by property %s::$%s of type %s
     * :ref:`typed-variables`
 * Cannot call constructor
@@ -19,6 +21,8 @@ Error Message index
     * :ref:`unfinished-class-doesn't-compile`
 * Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods
     * :ref:`declared-before-or-after`
+* Duplicate value in enum E for cases A and B
+    * :ref:`enum-are-not-linted`
 * Multiple static modifiers are not allowed
     * :ref:`cannot-static-static-property`
 * Recursion detected

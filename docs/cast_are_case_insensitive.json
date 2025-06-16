@@ -2,7 +2,7 @@
     "image": "cast_are_case_insensitive.png",
     "date": "2023-12-11",
     "title": "Cast Are Case Insensitive",
-    "content": "Today I learnt that the PHP cast operators such as ``(int)``, ``(array)``... are case insensitive: (STRING)\nAlso, the amount of white space (space, tabs...) is not important.\nThe rest is coding convention, as they say.",
+    "content": "Today I learned that PHP cast operators like ``(int)`` and ``(array)`` are case-insensitive—so ``(STRING)`` works just as well. Additionally, the amount of whitespace (spaces, tabs, etc.) around these casts doesn’t affect functionality. These aspects are flexible in PHP, and what remains—such as casing and spacing style—is largely a matter of coding convention and personal or team preference.",
     "seeAlso": {
         "Type Operators (PHP manual)": "https://www.php.net/manual/en/language.operators.type.php"
     },
@@ -12,5 +12,10 @@
         "case insensitive"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "So much spaces...": "https://3v4l.org/P5VcS"
+    },
+    "phpError": {},
+    "features": ["case-sensitivity", "whitespace"]
 }

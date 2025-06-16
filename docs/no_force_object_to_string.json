@@ -11,5 +11,10 @@
         "silent"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Cast to object as key": "https://3v4l.org/4teSv"
+    },
+    "phpError": {"Cannot access offset of type A on array":"cannot-access-offset-of-type-%s-on-%s"},
+    "features": ["string", "object"]
 }
