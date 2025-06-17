@@ -11,5 +11,10 @@
         "surprising"
     ],
     "author": "Jan Nedbal",
-    "contact": "https://janedbal.cz/"
+    "contact": "https://janedbal.cz/",
+    "3v4l": {
+        "Does MyEnum exists?": "https://3v4l.org/iU1v46"
+    },
+    "phpError": {},
+    "features": ["enum"]
 }

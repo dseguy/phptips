@@ -2,12 +2,19 @@
 "image":"exp_minus_one.png",
 "date":"2023-09-11",
 "title":"Exponential Minus One",
-"content":"You can save typing by using expm1($x) instead of exp($x) - 1. Also, you might have to take care of differences, as both results might be slightly different depending on the OS you're running it on : Debian is OK, but MacOS says it's different.",
+"content":"You can save typing by using ``expm1($x)`` instead of ``exp($x) - 1``. Also, you might have to take care of differences, as both results might be slightly different depending on the OS you're running it on : Debian is OK, but MacOS says it's different.",
 "seeAlso":{
 	"expm1() (PHP manual)":"https://www.php.net/expm1",
 	"expm1() versus exp() - 1":"https://3v4l.org/s2Y5G"
 },
 "tags":[
 	"maths"
-]
+],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "exp() minus one?": "https://3v4l.org/JNg4p"
+    },
+    "phpError": {},
+    "features": ["math", "exponent"]
 }

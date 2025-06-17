@@ -8,8 +8,14 @@
         "preg_quote":"https://www.php.net/manual/en/function.preg-quote.php"
     },
     "tags": [
-        "hidden gem"
+        "hidden gem",
+        "trick"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Escaping for regex": "https://3v4l.org/oTFal"
+    },
+    "phpError": {},
+    "features": ["regex", "escape-data"]
 }

@@ -11,5 +11,10 @@
         "enum"
 ],
 "author":"Frederic Bouchery",
-"contact":"https://bsky.app/profile/bouchery.fr"
+"contact":"https://bsky.app/profile/bouchery.fr",
+    "3v4l": {
+        "Enum Case Comparison": "https://3v4l.org/ecLEp"
+    },
+    "phpError": {},
+    "features": ["enum", "comparison"]
 }
