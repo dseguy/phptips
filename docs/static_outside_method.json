@@ -7,10 +7,10 @@
         "Using static variables (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.variables.scope.php#language.variables.scope.static"
     },
     "tags": [
-        "static variables"
+        "tip"
     ],
     "3v4l": {
-        "": "https://3v4l.org/2jjV7"
+        "Static Variable Outside A Method": "https://3v4l.org/2jjV7"
     },
     "phpError": {},
     "features": ["static-variable"],
