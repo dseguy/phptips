@@ -43,6 +43,8 @@ Error Message index
     * :ref:`non-empty-match`
 * Unsupported operand types: int & string
     * :ref:`bitwise-operations-on-string`
+* array_merge() does not accept unknown named parameters
+    * :ref:`no-unknown-for-array_merge()`
 * syntax error, unexpected token "(int)"
     * :ref:`cast-is-so-strong`
 * syntax error, unexpected token ";"

@@ -7,8 +7,13 @@
         "instanceof (PHP manual)": "https://www.php.net/manual/en/language.operators.type.php"
     },
     "tags": [
-        "anonymous class"
+        ""
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Anonymous and different": "https://3v4l.org/C93Ug"
+    },
+    "phpError": {},
+    "features": ["anonymous-class"]
 }

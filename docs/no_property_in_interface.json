@@ -2,14 +2,21 @@
     "image": "no_property_in_interface.png",
     "date": "2023-12-23",
     "title": "No Property In Interface",
-    "content": "PHP is better than me : I thought I found a way to create properties in an interface, by declaring promoted properties in a constructor. \nSomeone coding the PHP engine was smarter than me : it feels so good! (BTW, who would that be?)\nIt's also going to save me some sanity, as I don't have to upgrade my Static Analysis Engine.",
+    "content": "PHP is better than me : I thought I found a way to create properties in an interface, by declaring promoted properties in a constructor.\nSomeone coding the PHP engine was smarter than me : it feels so good! (BTW, who would that be?)\nIt's also going to save me some sanity, as I don't have to upgrade my Static Analysis Engine.\nNote that PHP 8.4 introduced properties in interfaces, as long as they have property hooks.",
     "seeAlso": {
         "Interfaces (PHP manual)": "https://www.php.net/manual/en/language.oop5.interfaces.php"
     },
     "tags": [
-        "interface",
-        "promoted properties"
+    "tip"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "this function never returns": "https:\/\/3v4l.org\/X3KJH"
+    },
+    "phpError": {},
+    "features": [
+        "interface",
+        "promoted-property"
+]
 }

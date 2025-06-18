@@ -12,5 +12,10 @@
         "tip"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Two ways to append to files": "https://3v4l.org/Da3Op"
+    },
+    "phpError": {},
+    "features": ["append", "file"]
 }

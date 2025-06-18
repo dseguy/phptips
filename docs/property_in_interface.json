@@ -1,0 +1,18 @@
+{
+    "image": "property_in_interface.png",
+    "date": "2025-06-18",
+    "title": "Properties In Interfaces",
+    "content": "Since PHP 8.4, it is possible to have properties in an interface.\nIn fact, one must add a property to a property. Since this is an interface, that hook cannot have a body.\nHence, the hook has to be defined in every implementing class.",
+    "seeAlso": {
+        "Object Interfaces": "https://www.php.net/manual/en/language.oop5.interfaces.php",
+        "Property Hooks": "https://www.php.net/manual/en/language.oop5.property-hooks.php"
+    },
+    "tags": [
+        "tip"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["promoted-property", "interface"],
+    "3v4l": {"":""},
+    "phpError":{}
+}

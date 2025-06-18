@@ -21,7 +21,7 @@ No Unknown For array_merge()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html","name":"No Unknown For array_merge()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 18 Mar 2024 05:43:56 +0000","dateModified":"Mon, 18 Mar 2024 05:43:56 +0000","description":"A PHP variadic argument collects all the unused named parameters, along with their key","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html","name":"No Unknown For array_merge()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Jun 2025 17:09:58 +0000","dateModified":"Wed, 18 Jun 2025 17:09:58 +0000","description":"A PHP variadic argument collects all the unused named parameters, along with their key","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 A PHP variadic argument collects all the unused named parameters, along with their key.  That way, it is possible to handle them with their name inside the method.
 
@@ -34,4 +34,12 @@ ________
 
 * `array_merge (PHP manual) <hhttps://www.php.net/array_merge>`_
 * `Functions arguments <https://www.php.net/manual/en/functions.arguments.php>`_
+* `array_merge() does not accept unknown named parameters <https://3v4l.org/miPmk>`_ [Try me]
+
+
+PHP Error Messages
+__________________
+
+* `array_merge() does not accept unknown named parameters <https://php-errors.readthedocs.io/en/latest/messages/array_merge%28%29-does-not-accept-unknown-named-parameters.html>`_
+
 

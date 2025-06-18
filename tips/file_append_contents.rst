@@ -21,7 +21,7 @@ A Function Called file_append_contents()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/file_append_contents.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/file_append_contents.html","name":"A Function Called file_append_contents()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Dec 2024 22:13:42 +0000","dateModified":"Fri, 06 Dec 2024 22:13:42 +0000","description":"file_put_contents() can append data to the end of the file, with the ``FILE_APPEND`` option","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/file_append_contents.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/file_append_contents.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/file_append_contents.html","name":"A Function Called file_append_contents()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Jun 2025 16:41:35 +0000","dateModified":"Wed, 18 Jun 2025 16:41:35 +0000","description":"file_put_contents() can append data to the end of the file, with the ``FILE_APPEND`` option","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/file_append_contents.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 file_put_contents() can append data to the end of the file, with the ``FILE_APPEND`` option.
 
@@ -34,4 +34,5 @@ ________
 
 * `file_put_contents() <https://www.php.net/manual/en/function.file-put-contents.php>`_
 * `fopen() <https://www.php.net/manual/en/function.fopen.php>`_
+* `Two ways to append to files <https://3v4l.org/Da3Op>`_ [Try me]
 
