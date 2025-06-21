@@ -7,11 +7,17 @@
         "Foreach (PHP manual)": "https://www.php.net/manual/en/control-structures.foreach.php#control-structures.foreach"
     },
     "tags": [
-        "foreach",
-        "readonly",
-        "object",
         "silent"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "foreach skips the empty values": "https://3v4l.org/cAniT"
+    },
+    "phpError": {},
+    "features": [
+        "foreach",
+        "readonly",
+        "object"
+]
 }

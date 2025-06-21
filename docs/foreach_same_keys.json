@@ -8,6 +8,14 @@
 	"yield (PHP manual)":"https://www.php.net/manual/en/language.generators.syntax.php"
 },
 "tags":[
-	"PHP"
-]
+	"PHP",
+	"tips"
+],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "yielding the same key": "https://3v4l.org/KTj27"
+    },
+    "phpError": {},
+    "features": ["yield", "key", "double-arrow"]
 }

@@ -7,9 +7,13 @@
         "Exceptions (PHP manual)": "https://www.php.net/manual/en/language.exceptions.php"
     },
     "tags": [
-        "throw",
         "typo"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Forgetting something?": "https://3v4l.org/tMv3J"
+    },
+    "phpError": {},
+    "features": ["throw"]
 }

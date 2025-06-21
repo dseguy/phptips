@@ -35,6 +35,8 @@ Author index
     * :ref:`no-change-to-$this`
 * `Pascal Baljet <https://x.com/pascalbaljet>`_
     * :ref:`match()-with-multiple-values`
+* `Paul Shryock <https://phpc.social/@paulshryock>`_
+    * :ref:`cast-private-to-array`
 * `Rahul Chavan <https://twitter.com/rcsofttech85>`_
     * :ref:`send-an-argument-to-generator`
     * :ref:`array_reduce()-to-filter-and-alter`

@@ -21,7 +21,7 @@ Forgotten Throw
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html","name":"Forgotten Throw","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 02 Dec 2024 21:06:02 +0000","dateModified":"Mon, 02 Dec 2024 21:06:02 +0000","description":"Sometimes, the ``throw`` keyword is forgotten, even as it is needed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html","name":"Forgotten Throw","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 21 Jun 2025 07:44:45 +0000","dateModified":"Sat, 21 Jun 2025 07:44:45 +0000","description":"Sometimes, the ``throw`` keyword is forgotten, even as it is needed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Sometimes, the ``throw`` keyword is forgotten, even as it is needed. It is difficult to realize it is missing: PHP instantiates correctly the exception, yet it immediately ignores it, as there is no usage of that exception: no error is reported. One need to identify a situation with an error, understand that the error is missing.
 
@@ -31,4 +31,5 @@ See Also
 ________
 
 * `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
+* `Forgetting something? <https://3v4l.org/tMv3J>`_ [Try me]
 

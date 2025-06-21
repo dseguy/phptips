@@ -21,7 +21,7 @@ Foreach() Skips Uninitialized Properties
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/foreach_skips_uninitialized.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/foreach_skips_uninitialized.html","name":"Foreach() Skips Uninitialized Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 26 May 2024 19:38:02 +0000","dateModified":"Sun, 26 May 2024 19:38:02 +0000","description":"Foreach() reads naturally all public properties in an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/foreach_skips_uninitialized.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/foreach_skips_uninitialized.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/foreach_skips_uninitialized.html","name":"Foreach() Skips Uninitialized Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 21 Jun 2025 07:42:50 +0000","dateModified":"Sat, 21 Jun 2025 07:42:50 +0000","description":"Foreach() reads naturally all public properties in an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/foreach_skips_uninitialized.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Foreach() reads naturally all public properties in an object. Protected and private are omitted, unless in the right context.
 
@@ -33,4 +33,5 @@ See Also
 ________
 
 * `Foreach (PHP manual) <https://www.php.net/manual/en/control-structures.foreach.php#control-structures.foreach>`_
+* `foreach skips the empty values <https://3v4l.org/cAniT>`_ [Try me]
 

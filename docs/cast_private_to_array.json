@@ -1,0 +1,17 @@
+{
+    "image": "cast_private_to_array.png",
+    "date": "2025-06-21",
+    "title": "Cast Private To Array",
+    "content": "Today I learned that PHP exposes private properties when an object is casted to an array. 🤦",
+    "seeAlso": {
+        "Original Toot": "https://phpc.social/@paulshryock/114717288186291609"
+    },
+    "tags": [
+        "surprising"
+    ],
+    "author": "Paul Shryock",
+    "contact": "https://phpc.social/@paulshryock",
+    "features": ["cast"],
+    "3v4l": {"Casting private properties":"https://3v4l.org/AfOPT"},
+    "phpError": {}
+}
