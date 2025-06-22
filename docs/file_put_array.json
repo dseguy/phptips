@@ -7,9 +7,16 @@
         "file_put_contents (PHP manual)": "https://www.php.net/manual/en/function.file-put-contents.php"
     },
     "tags": [
-        "argument trick",
-        "read all the docs"
+        "manual",
+        "trick"
     ],
     "author": "Gina Peter Banyard",
-    "contact": "https://github.com/Girgias"
+    "contact": "https://github.com/Girgias",
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "implode, no space": "https://3v4l.org/sBflr"
+    },
+    "phpError": {},
+    "features": ["implode", "file_put_contents"]
 }

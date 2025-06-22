@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/GLOBALS_is_not_defined.rst
    tips/cast_private_to_array.rst
    tips/property_in_interface.rst
    tips/bit_operation_on_string.rst

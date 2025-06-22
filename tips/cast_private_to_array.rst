@@ -21,11 +21,11 @@ Cast Private To Array
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_private_to_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_private_to_array.html","name":"Cast Private To Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 21 Jun 2025 07:38:12 +0000","dateModified":"Sat, 21 Jun 2025 07:38:12 +0000","description":"Today I learned that PHP exposes private properties when an object is casted to an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_private_to_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_private_to_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_private_to_array.html","name":"Cast Private To Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 22 Jun 2025 19:23:33 +0000","dateModified":"Sun, 22 Jun 2025 19:23:33 +0000","description":"Today I learned that PHP exposes private properties when an object is casted to an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_private_to_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Paul Shryock <https://phpc.social/@paulshryock>`_
 
-Today I learned that PHP exposes private properties when an object is casted to an array. 🤦
+Today I learned that PHP exposes private properties when an object is casted to an array. 🤦.
 
 .. image:: ../images/cast_private_to_array.png
 

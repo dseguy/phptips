@@ -2,7 +2,7 @@
     "image": "cast_private_to_array.png",
     "date": "2025-06-21",
     "title": "Cast Private To Array",
-    "content": "Today I learned that PHP exposes private properties when an object is casted to an array. 🤦",
+    "content": "Today I learned that PHP exposes private properties when an object is casted to an array. 🤦.",
     "seeAlso": {
         "Original Toot": "https://phpc.social/@paulshryock/114717288186291609"
     },
