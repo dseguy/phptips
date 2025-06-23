@@ -21,7 +21,7 @@ No Semicolon In Sight
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_semi_colon_in_sight.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_semi_colon_in_sight.html","name":"No Semicolon In Sight","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 12 Jun 2025 04:42:28 +0000","dateModified":"Thu, 12 Jun 2025 04:42:28 +0000","description":"This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_semi_colon_in_sight.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_semi_colon_in_sight.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_semi_colon_in_sight.html","name":"No Semicolon In Sight","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 23 Jun 2025 18:14:14 +0000","dateModified":"Mon, 23 Jun 2025 18:14:14 +0000","description":"This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_semi_colon_in_sight.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Ryan Chandler <https://twitter.com/ryangjchandler>`_
 
@@ -41,6 +41,6 @@ ________
 PHP Error Messages
 __________________
 
-* `syntax error, unexpected token ";" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3B%22.ini.html>`_
+* `syntax error, unexpected token ";" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3B%22.html>`_
 
 

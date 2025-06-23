@@ -14,5 +14,7 @@
     "contact": "",
     "3v4l":{        
     "Fluent Functions":"https://3v4l.org/HAPDR"
-}
+},
+"phpError":{},
+"features":["fluent-interface", "function"]
 }

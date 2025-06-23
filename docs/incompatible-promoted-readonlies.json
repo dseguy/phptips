@@ -8,9 +8,11 @@
         "Properties":"https://www.php.net/manual/en/language.oop5.properties.php"
     },
     "tags": [
-        "promoted",
-        "readonly"
+        "edge case"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {"Cannot modify readonly property":"https://3v4l.org/RIZ8k"},
+    "phpError": {"Cannot modify readonly property":"cannot-modify-readonly-property-%s::$%s"},
+    "features": ["readonly", "property", "promoted-property"]
 }

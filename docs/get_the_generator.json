@@ -6,7 +6,7 @@
     "seeAlso": {
         "Generators overview (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.generators.overview.php"
     },
-    "tags": [],
+    "tags": ["trick"],
     "features": [
         "ellipsis",
         "yield"

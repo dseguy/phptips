@@ -2,7 +2,7 @@
 "image":"catch_interfaces.png",
 "date":"2022-04-05",
 "title":"Catch On Interfaces",	
-"content":"It is possible to catch exceptions based on their interfaces, instead of their actual name or parents. That means polymorphism for exceptions: the same exception may be caught by several means.",
+"content":"Exceptions can be caught using their interfaces rather than their specific class names or parent classes. This introduces polymorphism to exception handling, allowing the same exception to be caught in multiple ways. By targeting interfaces, developers gain flexibility in managing errors, especially when different exception types share common behavior defined by a shared interface.",
 "seeAlso":{
 	"Exceptions (PHP manual)":"https://www.php.net/manual/en/language.exceptions.php"
 },

@@ -21,7 +21,7 @@ Incompatible Promoted Readonlies
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html","name":"Incompatible Promoted Readonlies","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Sep 2024 18:26:35 +0000","dateModified":"Tue, 03 Sep 2024 18:26:35 +0000","description":"Promoted properties allows the creation of properties directly from the constructor signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html","name":"Incompatible Promoted Readonlies","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 23 Jun 2025 20:20:31 +0000","dateModified":"Mon, 23 Jun 2025 20:20:31 +0000","description":"Promoted properties allows the creation of properties directly from the constructor signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Promoted properties allows the creation of properties directly from the constructor signature.
 
@@ -40,4 +40,12 @@ ________
 
 * `Constructor promotion (PHP manual) <https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion>`_
 * `Properties <https://www.php.net/manual/en/language.oop5.properties.php>`_
+* `Cannot modify readonly property <https://3v4l.org/RIZ8k>`_ [Try me]
+
+
+PHP Error Messages
+__________________
+
+* `Cannot modify readonly property <https://php-errors.readthedocs.io/en/latest/messages/cannot-modify-readonly-property-%25s%3A%3A%24%25s.html>`_
+
 

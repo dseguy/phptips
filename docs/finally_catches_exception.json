@@ -7,9 +7,16 @@
         "Finally (PHP manual)": "https://www.php.net/manual/en/language.exceptions.php#language.exceptions.finally"
     },
     "tags": [
-        "finally",
-        "return"
+    "edge case"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Catch an exception with finally": "https://3v4l.org/uVRJ3"
+    },
+    "phpError": {},
+    "features": [        
+        "finally",
+        "return"
+]
 }

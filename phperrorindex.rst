@@ -9,6 +9,8 @@ Error Message index
     * :ref:`constructor-needed`
 * Cannot indirectly modify readonly property %s::$%s
     * :ref:`cannot-indirectly-modify-readonly`
+* Cannot modify readonly property
+    * :ref:`incompatible-promoted-readonlies`
 * Cannot unpack array with string keys
     * :ref:`named-parameter-in-an-array`
 * Cannot use 'namespace' as namespace name
