@@ -20,7 +20,6 @@ Author index
     * :ref:`datetime-object,-and-years`
     * :ref:`enumeration's-cases-comparisons`
     * :ref:`stealth-generator`
-    * :ref:`php-infinity-is-reachable`
 * `Greg Korba <https://twitter.com/_Codito_>`_
     * :ref:`lots-of-silly-arguments`
 * `Jan Nedbal <https://janedbal.cz/>`_

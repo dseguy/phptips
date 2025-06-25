@@ -9,6 +9,13 @@
 "author":"Frederic Bouchery",
 "contact":"https://bsky.app/profile/bouchery.fr",
 "tags":[
-	"integer"
-]
+	"surprising"
+],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "beyond infinity": "https://3v4l.org/lU5bg"
+    },
+    "phpError": {},
+    "features": ["math", "integer"]
 }

@@ -21,9 +21,7 @@ PHP Infinity Is Reachable
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_is_reachable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_is_reachable.html","name":"PHP Infinity Is Reachable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Feb 2025 10:03:04 +0000","dateModified":"Wed, 27 Nov 2024 18:02:17 +0000","description":"Infinite values are sometimes returned by PHP functions, such as ``log(0)`` or ``exp(PHP_INT_MAX)``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_is_reachable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-By `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_is_reachable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_is_reachable.html","name":"PHP Infinity Is Reachable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Jun 2025 18:02:49 +0000","dateModified":"Tue, 24 Jun 2025 18:02:49 +0000","description":"Infinite values are sometimes returned by PHP functions, such as ``log(0)`` or ``exp(PHP_INT_MAX)``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_is_reachable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Infinite values are sometimes returned by PHP functions, such as ``log(0)`` or ``exp(PHP_INT_MAX)``. In these cases, beware and do not compare it directly with an integer as a positive is considered bigger than infinite. It is recommended to use the function ``is_finite``.
 
@@ -33,4 +31,5 @@ See Also
 ________
 
 * `is_infinite() (PHP manual) <https://www.php.net/is_infinite>`_
+* `beyond infinity <https://3v4l.org/lU5bg>`_ [Try me]
 

@@ -21,7 +21,7 @@ Interfaces Constants Conflicts
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html","name":"Interfaces Constants Conflicts","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Jun 2024 20:47:30 +0000","dateModified":"Mon, 03 Jun 2024 20:47:30 +0000","description":"PHP reports duplicate constant definitions in different interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html","name":"Interfaces Constants Conflicts","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 25 Jun 2025 20:22:16 +0000","dateModified":"Wed, 25 Jun 2025 20:22:16 +0000","description":"PHP reports duplicate constant definitions in different interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 PHP reports duplicate constant definitions in different interfaces.
 
@@ -39,4 +39,5 @@ See Also
 ________
 
 * `Object Interfaces (PHP manual) <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
+* `interfaces conflicts <https://3v4l.org/Dpu8t>`_ [Try me]
 

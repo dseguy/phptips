@@ -7,8 +7,17 @@
 	"Type Operators (PHP manual)":"https://www.php.net/manual/en/language.operators.type.php"
 },
 "tags":[
-	"class",
-	"constants",
 	"trick"
-]
+],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "instance of a class": "https://3v4l.org/Qig0E"
+    },
+    "phpError": {},
+    "features": [
+        	"class",
+        	"constant"
+    ],
+    "phpError":{}
 }

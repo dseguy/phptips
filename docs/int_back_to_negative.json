@@ -7,10 +7,13 @@
         "Integer (PHP manual)": "https://www.php.net/manual/en/language.types.integer.php"
     },
     "tags": [
-        "overflow",
-        "integer",
-        "float"
+        "surprising"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "Larger than integers": "https://3v4l.org/g8NCp"
+    },
+    "phpError": {},
+    "features": ["integer", "comparison", "max_integer"]
 }

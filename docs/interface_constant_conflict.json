@@ -11,5 +11,10 @@
         "constants"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "interfaces conflicts": "https://3v4l.org/Dpu8t"
+    },
+    "phpError": {},
+    "features": ["interface", "naming-conflict"]
 }
