@@ -21,7 +21,7 @@ No Returntype But Still, Only String
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html","name":"No Returntype But Still, Only String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 27 Nov 2024 17:35:32 +0000","dateModified":"Wed, 27 Nov 2024 17:35:32 +0000","description":"Without a return type (or mixed), a method may return any type of data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html","name":"No Returntype But Still, Only String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 26 Jun 2025 05:35:18 +0000","dateModified":"Thu, 26 Jun 2025 05:35:18 +0000","description":"Without a return type (or mixed), a method may return any type of data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Fred Bouchery <https://bsky.app/profile/bouchery.fr>`_
 
@@ -36,4 +36,5 @@ ________
 
 * `Magic methods (PHP manual) <https://www.php.net/manual/en/language.oop5.magic.php>`_
 * `Declare <https://www.php.net/manual/en/control-structures.declare.php>`_
+* `must return string <https://3v4l.org/cDaOL>`_ [Try me]
 

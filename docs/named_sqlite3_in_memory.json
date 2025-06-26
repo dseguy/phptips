@@ -9,8 +9,13 @@
         "PDO Sqlite3 DSN": "https://www.php.net/manual/en/ref.pdo-sqlite.connection.php"
     },
     "tags": [
-        "sqlite"
+        "trick"
     ],
     "author": "archtechx",
-    "contact": "https://x.com/archtechx"
+    "contact": "https://x.com/archtechx",
+    "3v4l": {
+        "naming database in memory": "https://3v4l.org/JKF0n"
+    },
+    "phpError": {},
+    "features": ["sqlite", "memory"]
 }

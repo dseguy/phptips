@@ -21,7 +21,7 @@ Child Of Attribute Is Not An Attribute
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_child_with_attribute.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_child_with_attribute.html","name":"Child Of Attribute Is Not An Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 16 Nov 2024 14:04:23 +0000","dateModified":"Sat, 16 Nov 2024 14:04:23 +0000","description":"A class attribute must be marked with an attribute called ``Attribute``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_child_with_attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_child_with_attribute.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_child_with_attribute.html","name":"Child Of Attribute Is Not An Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 26 Jun 2025 05:33:25 +0000","dateModified":"Thu, 26 Jun 2025 05:33:25 +0000","description":"A class attribute must be marked with an attribute called ``Attribute``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_child_with_attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 A class attribute must be marked with an attribute called ``Attribute``. It is compulsory to use Reflection and obtain an instance of the attribute.
 
@@ -35,4 +35,5 @@ See Also
 ________
 
 * `Attributes Overview (PHP manual) <https://www.php.net/manual/en/language.attributes.overview.php>`_
+* `attribute is not for children <https://3v4l.org/X3KJH>`_ [Try me]
 

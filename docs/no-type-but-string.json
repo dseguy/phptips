@@ -8,10 +8,17 @@
         "Declare":"https://www.php.net/manual/en/control-structures.declare.php"
     },
     "tags": [
-        "strict_types",
-        "magic-method",
-        "__toString"
+        "trick"
     ],
     "author": "Fred Bouchery",
-    "contact":"https://bsky.app/profile/bouchery.fr"
+    "contact":"https://bsky.app/profile/bouchery.fr",
+    "3v4l": {
+        "must return string": "https://3v4l.org/cDaOL"
+    },
+    "phpError": {},
+    "features": [        
+        "strict_types",
+        "magic-method",
+        "__tostring"
+    ]
 }
