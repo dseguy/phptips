@@ -2,7 +2,7 @@
     "image": "refactor_str_pos.png",
     "date": "2023-02-24",
     "title": "Refactoring strpos()",
-    "content": "It is straightforward to convert an expression ``strpos() === 0``` to using the ``str_starts_with()`` function. On the other hand, it is not the same to replace those functions when the comparison is a difference, not an equality.",
+    "content": "Converting an expression like ``strpos() === 0`` to use ``str_starts_with()`` is simple and direct. However, caution is needed when the comparison involves a difference rather than equality. In such cases, replacing the functions isn’t a straightforward one-to-one substitution, as the logic and intent behind the original expression may change, leading to unexpected behavior if not handled carefully.",
     "seeAlso": {
         "strpos()": "https:\/\/www.php.net\/manual\/strpos",
         "str_start_with()": "https:\/\/www.php.net\/manual\/str_starts_with"

@@ -17,5 +17,5 @@
         "naming database in memory": "https://3v4l.org/JKF0n"
     },
     "phpError": {},
-    "features": ["sqlite", "memory"]
+    "features": ["sqlite3", "memory"]
 }

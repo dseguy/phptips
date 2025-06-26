@@ -7,14 +7,11 @@
 	"Operator precedence (PHP manual)":"https://www.php.net/manual/en/language.operators.precedence.php"
 },
 "tags":[
-	"PHP",
-	"condition",
-	"operator precedence",
-	"iffectation"
+	"trick"
 ],
     "author": "",
     "contact": "",
     "3v4l":{"Don't negate conditions'":"https://3v4l.org/OaqKp"},
-    "features":["negation", "assignation"],
+    "features":["negation", "assignation", 	"iffectation" ],
     "phpError":{}
 }

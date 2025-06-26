@@ -7,12 +7,13 @@
         "Basics (PHP manual)": "https://www.php.net/manual/en/language.oop5.basic.php"
     },
     "tags": [
-        "new",
-        "parenthesis"
+        "syntax"
     ],
     "3v4l":{
         "new and parenthesis": "https://3v4l.org/K2ZrD"
     },
     "author": "",
-    "contact": ""
+    "contact": "",
+    "phpError":{},
+    "features":["new", "parenthesis"]
 }

@@ -2,14 +2,23 @@
 "image":"playing_with_the_limit.png",
 "date":"2022-09-19",
 "title":"Playing With Integers Limits",	
-"content":"Mathematics have the 'Ramanujan Summation', where the infinite sum of all integers is -1/12.\nPHP has the integer overflow. Stay away from the PHP_INT_MAX limits. The code in the illustration is valid with (int) or intval(), on recent PHP versions.",
+"content":"In mathematics, there’s the famous concept known as the 'Ramanujan Summation', where the infinite sum of all positive integers surprisingly equals -1/12. In PHP, we encounter a more practical and less abstract issue called integer overflow. When working with integers near the ``PHP_INT_MAX`` limit, it's important to proceed with caution. Casting using ``(int)`` or the ``intval()`` function, as shown in the illustration, ensures correct behavior in recent PHP versions. The example demonstrates how PHP handles integer limits and type casting safely within supported boundaries.",
 "seeAlso":{
-	"Operator Precedence":"https://www.php.net/manual/en/language.operators.precedence.php",
-	"8s8q1":"https://3v4l.org/8s8q1"
+	"Operator Precedence":"https://www.php.net/manual/en/language.operators.precedence.php"
 },
 "tags":[
-	"PHP",
-	"operator",
-	"literal"
+    "edge-case"
+],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "strange sums": "https://3v4l.org/8s8q1"
+    },
+    "phpError": {},
+    "features": [	
+    "operator",
+	"literal",
+	"PHP_MAX_INT",
+	"cast"
 ]
 }
