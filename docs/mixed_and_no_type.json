@@ -7,9 +7,17 @@
 	"Mixed (PHP manual)":"https://www.php.net/manual/en/language.types.mixed.php"
 },
 "tags":[
-	"mixed",
-	"type"
+    "edge-case"
 ],
-"author":"",
-"contact":""
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "mixed or not mixed": "https://3v4l.org/biaDm"
+    },
+    "phpError": {},
+    "features": [	
+    "mixed",
+	"type",
+	"inheritance"
+    ]
 }

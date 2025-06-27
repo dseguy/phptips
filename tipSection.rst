@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/mixed_is_not_no_type.rst
    tips/array_merge_recursive.rst
    tips/GLOBALS_is_not_defined.rst
    tips/cast_private_to_array.rst

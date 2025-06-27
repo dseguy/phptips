@@ -1,0 +1,17 @@
+{
+    "image": "mixed_is_not_no_type.png",
+    "date": "2025-06-27",
+    "title": "mixed Is Not No Type",
+    "content": "When a property is not typed, nor has a default value, it still may be accessed freely: its value is ``null``. On the other hand, a ``mixed`` typed property may also hold anything, but it cannot be accessed until it was written once.\nOn development, it might be a good strategy to type properties ``mixed`` to spot any uninitialized usage and set them.",
+    "seeAlso": {
+        "mixed (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.types.mixed.php"
+    },
+    "tags": [
+        "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["mixed", "type", "initialisation"],
+    "3v4l": {"mixed is not absence of type":"https://3v4l.org/itGW9"},
+    "phpError": {"Typed property %s::$%s must not be accessed before initialization":"typed-property-%s::$%s-must-not-be-accessed-before-initialization"}
+}

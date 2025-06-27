@@ -2,14 +2,15 @@
     "image": "class_const_confusion.png",
     "date": "2025-03-07",
     "title": "Classes Constant Disambiguation With Parenthesis",
-    "content": "The ``::`` operator and the ``instanceof`` operators work on class names only. Even if a constant with the same name holds an object, it is not used unless being dereferenced, via usage of parenthesis.",
+    "content": "The ``::`` (scope resolution) operator and the instanceof operator in PHP are strictly designed to work with class names, not with variables or constants holding object instances. Even when a constant exists with a name identical to a class, PHP will not automatically treat it as an object for these operators. The constant’s value, even if it holds an object, will not be used unless it is explicitly dereferenced. To dereference and force evaluation of the constant's value as an object, you must enclose the constant in parentheses. This ensures PHP evaluates the constant and retrieves the object it contains before applying the operator.",
     "seeAlso": {
     },
     "tags": [
-        "parenthesis"
+        "edge-case"
     ],
     "author": "",
     "contact": "",
-    "features": ["constant", "static-scope-resolution", "class", "instanceof"],
-    "3v4l": {"Classes Only":"https://3v4l.org/XsH0k"}
+    "features": ["constant", "scope-resolution-operator", "class", "instanceof", "parenthesis"],
+    "3v4l": {"Classes Only":"https://3v4l.org/XsH0k"},
+    "phpError":{}
 }

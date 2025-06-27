@@ -36,6 +36,7 @@ Error Message index
 * Trying to access array offset on true
     * :ref:`null-or-boolean-as-array`
 * Typed property %s::$%s must not be accessed before initialization
+    * :ref:`mixed-is-not-no-type`
     * :ref:`unsetting-properties-surprises`
 * Undefined global variable %s
     * :ref:`$globals-is-not-defined`
