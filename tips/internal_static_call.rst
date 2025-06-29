@@ -21,7 +21,7 @@ Internal Static Call
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html","name":"Internal Static Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Mar 2024 20:41:01 +0000","dateModified":"Thu, 14 Mar 2024 20:41:00 +0000","description":"Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html","name":"Internal Static Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Jun 2025 08:23:32 +0000","dateModified":"Sat, 28 Jun 2025 08:23:32 +0000","description":"Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error. 
 
@@ -35,4 +35,5 @@ See Also
 ________
 
 * `Late Static Bindings (PHP manual) <https://www.php.net/manual/en/language.oop5.late-static-bindings.php>`_
+* `Internal Static Call <https://3v4l.org/j04vj>`_ [Try me]
 

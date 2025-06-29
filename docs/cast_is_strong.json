@@ -16,6 +16,6 @@
     },
     "author": "",
     "contact": "",
-    "features":["cast", "compilation"],
+    "features":["cast", "linting"],
     "phpError":{"syntax error, unexpected token \"(int)\"":"syntax-error,-unexpected-token-\"(int)\""}
 }

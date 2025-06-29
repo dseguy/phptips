@@ -21,7 +21,7 @@ No Cast In Constant Expressions
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html","name":"No Cast In Constant Expressions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jul 2024 19:50:05 +0000","dateModified":"Tue, 30 Jul 2024 19:50:05 +0000","description":"Constant expressions do not accept the cast operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html","name":"No Cast In Constant Expressions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Jun 2025 19:56:12 +0000","dateModified":"Fri, 27 Jun 2025 19:56:12 +0000","description":"Constant expressions do not accept the cast operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Constant expressions do not accept the cast operator.
 
@@ -33,4 +33,12 @@ See Also
 ________
 
 * `Class constants (PHP manual) <https://www.php.net/manual/en/language.oop5.constants.php>`_
+* `const cannot cast <https://3v4l.org/Rff9R>`_ [Try me]
+
+
+PHP Error Messages
+__________________
+
+* `Constant expression contains invalid operations <https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html>`_
+
 

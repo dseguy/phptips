@@ -17,7 +17,7 @@
     "phpError": {},
     "features": [
     "attribute",
-	"native-attribute",
-	"custom-code"
+	"php-attribute",
+	"custom"
     ]
 }

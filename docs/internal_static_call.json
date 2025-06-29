@@ -7,7 +7,16 @@
 	"Late Static Bindings (PHP manual)":"https://www.php.net/manual/en/language.oop5.late-static-bindings.php"
 },
 "tags":[
+"tip"
+],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "Internal Static Call": "https://3v4l.org/j04vj"
+    },
+    "phpError": {},
+    "features": [
 	"static",
 	"class"
-]
+    ]
 }

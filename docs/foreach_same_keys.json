@@ -17,5 +17,5 @@
         "yielding the same key": "https://3v4l.org/KTj27"
     },
     "phpError": {},
-    "features": ["yield", "key", "double-arrow"]
+    "features": ["yield", "index-array", "double-arrow"]
 }

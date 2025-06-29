@@ -7,8 +7,16 @@
 	"Namespaces (PHP manual)":"https://www.php.net/manual/en/language.namespaces.php"
 },
 "tags":[
-	"PHP",
-	"namespaces",
-	"keywords"
-]
+    "edge-cases"
+],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "keywords in namespaces": "https://3v4l.org/9eHvZ"
+    },
+    "phpError": {},
+    "features": [
+        "namespace",
+        "keyword"
+    ]
 }

@@ -7,8 +7,16 @@
 	"Exceptions":"https://www.php.net/manual/en/language.exceptions.php"
 },
 "tags":[
-	"exception"
+"trick"
 ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "catching interfaces": "https://3v4l.org/ffu4v"
+    },
+    "phpError": {},
+    "features": [
+	"exception",
+	"catch"
+    ]
 }

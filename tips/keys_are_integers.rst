@@ -21,7 +21,7 @@ Keys Are Integers Whenever Possible
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html","name":"Keys Are Integers Whenever Possible","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Nov 2024 18:37:24 +0000","dateModified":"Thu, 14 Nov 2024 18:37:24 +0000","description":"Array keys are only strings or integers: the later has priority","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html","name":"Keys Are Integers Whenever Possible","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Jun 2025 08:26:51 +0000","dateModified":"Sat, 28 Jun 2025 08:26:51 +0000","description":"Array keys are only strings or integers: the later has priority","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Array keys are only strings or integers: the later has priority. So, when storing a string that can be converted to an integer, PHP does the conversion automatically.
 
@@ -33,4 +33,5 @@ See Also
 ________
 
 * `Array: syntax (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
+* `integer or string? <https://3v4l.org/Xlp2g>`_ [Try me]
 

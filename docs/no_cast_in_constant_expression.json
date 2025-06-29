@@ -10,5 +10,10 @@
         "constant expressions"
     ],
     "author": "",
-    "contact": ""
+    "contact": "",
+    "3v4l": {
+        "const cannot cast": "https://3v4l.org/Rff9R"
+    },
+    "phpError": {"Constant expression contains invalid operations":"constant-expression-contains-invalid-operations"},
+    "features": ["cast", "constant-expression"]
 }

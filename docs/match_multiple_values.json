@@ -8,9 +8,16 @@
         "PHP Tricks: Multi-value match()":"https://peakd.com/hive-168588/@crell/php-tricks-multi-value-match"
     },
     "tags": [
-        "match",
-        "comparison"
+        "trick"
     ],
     "author": "Pascal Baljet",
-    "contact": "https://x.com/pascalbaljet"
+    "contact": "https://x.com/pascalbaljet",
+    "3v4l": {
+        "match multiple values": "https://3v4l.org/2UQWu"
+    },
+    "phpError": {},
+    "features": [
+        "match",
+        "comparison"
+    ]
 }

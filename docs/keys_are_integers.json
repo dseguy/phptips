@@ -7,10 +7,18 @@
 	"Array: syntax (PHP manual)":"https://www.php.net/manual/en/language.types.array.php"
 },
 "tags":[
-	"PHP",
-	"class",
-	"index",
+"edge-case"
+],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "integer or string?": "https://3v4l.org/Xlp2g"
+    },
+    "phpError": {},
+    "features": [
+	"array",
+	"index-array",
 	"cast",
-	"type juggling"
-]
+	"type-juggling"
+    ]
 }

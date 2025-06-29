@@ -8,10 +8,7 @@
         "Generators overview (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.generators.overview.php"
     },
     "tags": [
-        "inifinite",
-        "yield",
-        "never",
-        "generator"
+        "edge-case"
     ],
     "author": "",
     "contact": "",
@@ -19,5 +16,10 @@
         "this function never returns": "https:\/\/3v4l.org\/X3KJH"
     },
     "phpError": {},
-    "features": []
+    "features": [
+        "infinite",
+        "yield",
+        "never",
+        "generator"
+    ]
 }

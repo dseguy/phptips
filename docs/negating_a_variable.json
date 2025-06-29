@@ -2,7 +2,7 @@
 "image":"negating_a_variable.png",
 "date":"2023-08-25",
 "title":"Negating An Assignation",	
-"content":"I always wondered why PHP allows to NOT a variable on the LEFT side of an assignation.\nIt makes sense with an iffectation (an assignation in an if)\nI'm sure other such expressions are possible, with unary operators. \nDefinitely not for me, for readability reasons; same as ``!$o instanceof X``.",
+"content":"I always wondered why PHP allows to ``NOT`` a variable on the LEFT side of an assignation.\nIt makes sense with an iffectation (an assignation within an if)\nI'm sure other such expressions are possible, with unary operators.\nDefinitely not for me, for readability reasons; same as ``!$o instanceof X``.",
 "seeAlso":{
 	"Operator precedence (PHP manual)":"https://www.php.net/manual/en/language.operators.precedence.php"
 },
@@ -12,6 +12,6 @@
     "author": "",
     "contact": "",
     "3v4l":{"Don't negate conditions'":"https://3v4l.org/OaqKp"},
-    "features":["negation", "assignation", 	"iffectation" ],
+    "features":["not", "assignation", 	"iffectation" ],
     "phpError":{}
 }

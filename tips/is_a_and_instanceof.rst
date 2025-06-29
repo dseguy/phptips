@@ -21,7 +21,7 @@ is_a() Versus Instanceof
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_a_and_instanceof.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_a_and_instanceof.html","name":"is_a() Versus Instanceof","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 17 Dec 2023 13:07:07 +0000","dateModified":"Sun, 17 Dec 2023 13:07:07 +0000","description":"is_a() and instanceof are the same feature: check if an object is of a specific class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_a_and_instanceof.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_a_and_instanceof.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_a_and_instanceof.html","name":"is_a() Versus Instanceof","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Jun 2025 08:59:22 +0000","dateModified":"Sat, 28 Jun 2025 08:59:22 +0000","description":"is_a() and instanceof are the same feature: check if an object is of a specific class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_a_and_instanceof.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 is_a() and instanceof are the same feature: check if an object is of a specific class. Yet, they do things in different ways.
 
@@ -36,4 +36,5 @@ ________
 
 * `is_a (PHP manual) <https://www.php.net/manual/en/is_a.php>`_
 * `type operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php#language.operators.type>`_
+* `is_a and instanceof are in a boat... <https://3v4l.org/ojvjm>`_ [Try me]
 

@@ -21,7 +21,7 @@ Match() With Multiple Values
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html","name":"Match() With Multiple Values","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Nov 2024 20:42:09 +0000","dateModified":"Thu, 14 Nov 2024 20:42:09 +0000","description":"This is an example of using ``match()``, to match against two values at the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html","name":"Match() With Multiple Values","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Jun 2025 20:11:01 +0000","dateModified":"Fri, 27 Jun 2025 20:11:01 +0000","description":"This is an example of using ``match()``, to match against two values at the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Pascal Baljet <https://x.com/pascalbaljet>`_
 
@@ -36,4 +36,5 @@ ________
 
 * `Match (PHP manual) <https://www.php.net/manual/en/control-structures.match.php>`_
 * `PHP Tricks: Multi-value match() <https://peakd.com/hive-168588/@crell/php-tricks-multi-value-match>`_
+* `match multiple values <https://3v4l.org/2UQWu>`_ [Try me]
 

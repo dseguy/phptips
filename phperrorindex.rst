@@ -17,12 +17,16 @@ Error Message index
     * :ref:`namespace,-but-far-in-the-name`
 * Cannot use [] for reading
     * :ref:`array_append()-and-short-assignation`
+* Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+    * :ref:`cannot-use-isset-on-expression,-so-use-what?`
 * Cannot use the %s modifier on a %s
     * :ref:`no-final-parameter`
 * Class "%s" not found
     * :ref:`unfinished-class-doesn't-compile`
 * Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods
     * :ref:`declared-before-or-after`
+* Constant expression contains invalid operations
+    * :ref:`no-cast-in-constant-expressions`
 * Duplicate value in enum E for cases A and B
     * :ref:`enum-are-not-linted`
 * Multiple static modifiers are not allowed
@@ -38,6 +42,8 @@ Error Message index
 * Typed property %s::$%s must not be accessed before initialization
     * :ref:`mixed-is-not-no-type`
     * :ref:`unsetting-properties-surprises`
+* Typed property x::$y must not be accessed before initialization
+    * :ref:`who-modifies-this-property?`
 * Undefined global variable %s
     * :ref:`$globals-is-not-defined`
 * Undefined property
