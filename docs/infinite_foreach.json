@@ -1,0 +1,18 @@
+{
+    "image": "infinite_foreach.png",
+    "date": "2025-07-03",
+    "title": "Infinite foreach()",
+    "content": "Foreach() is built against infinite loops: it works on a finite number of elements in arrays. Using an infinite generator is possible, but cheating with a second infinite loop.\nSo, the trick is to update the source array during the loop, to keep giving new keys to PHP, that it will check. Over, and over, and over.",
+    "seeAlso": {
+        "Foreach (PHP manual)": "https://www.php.net/manual/en/control-structures.foreach.php",
+        "Infinite loops in PHP":"https://www.exakat.io/infinite-loops-in-php/"
+    },
+    "tags": [
+        "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["loop", "foreach"],
+    "3v4l": {"Infinite loop with Foreach()":"https://3v4l.org/EdqjS"},
+    "phpError": {}
+}

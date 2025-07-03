@@ -20,6 +20,8 @@ Author index
     * :ref:`datetime-object,-and-years`
     * :ref:`enumeration's-cases-comparisons`
     * :ref:`stealth-generator`
+* `Gina Peter Banyard <https://github.com/Girgias>`_
+    * :ref:`file_put_contents()-with-array-argument`
 * `Greg Korba <https://twitter.com/_Codito_>`_
     * :ref:`lots-of-silly-arguments`
 * `Jan Nedbal <https://janedbal.cz/>`_

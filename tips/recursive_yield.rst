@@ -5,30 +5,30 @@ Recursive Generator
 
 .. meta::
 	:description:
-		Recursive Generator: Generator, using yield, may become recursive, when using the ``yield from`` keyword.
+		Recursive Generator: Generators in PHP, when using the ``yield`` keyword, can become recursive through the use of the ``yield from`` construct.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Recursive Generator
-	:twitter:description: Recursive Generator: Generator, using yield, may become recursive, when using the ``yield from`` keyword
+	:twitter:description: Recursive Generator: Generators in PHP, when using the ``yield`` keyword, can become recursive through the use of the ``yield from`` construct
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/recursive_yield.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/recursive_yield.png
 	:og:title: Recursive Generator
 	:og:type: article
-	:og:description: Generator, using yield, may become recursive, when using the ``yield from`` keyword
+	:og:description: Generators in PHP, when using the ``yield`` keyword, can become recursive through the use of the ``yield from`` construct
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/recursive_yield.html
 	:og:locale: en
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_yield.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_yield.html","name":"Recursive Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Jun 2025 20:16:35 +0000","dateModified":"Fri, 27 Jun 2025 20:16:35 +0000","description":"Generator, using yield, may become recursive, when using the ``yield from`` keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_yield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_yield.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_yield.html","name":"Recursive Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 03 Jul 2025 16:51:14 +0000","dateModified":"Thu, 03 Jul 2025 16:51:14 +0000","description":"Generators in PHP, when using the ``yield`` keyword, can become recursive through the use of the ``yield from`` construct","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_yield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Generator, using yield, may become recursive, when using the ``yield from`` keyword. This recursion is only available when used with a foreach() statement, or a generator using statement such as iterator_to_array().
+Generators in PHP, when using the ``yield`` keyword, can become recursive through the use of the ``yield from`` construct. This allows a generator to delegate part of its iteration to another generator, creating a chain of generators. However, this recursive behavior is only effective when the generator is consumed by an external iteration mechanism such as a ``foreach()`` loop or a function like ``iterator_to_array()``. Without such iteration, the recursive yielding will not be triggered or evaluated.
 
 .. image:: ../images/recursive_yield.png
 
 See Also
 ________
 
-* `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
+* `recursive yielding functions <https://3v4l.org/kpOuk>`_ [Try me]
 

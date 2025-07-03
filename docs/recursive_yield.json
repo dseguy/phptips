@@ -2,12 +2,21 @@
 "image":"recursive_yield.png",
 "date":"2023-10-27",
 "title":"Recursive Generator",	
-"content":"Generator, using yield, may become recursive, when using the ``yield from`` keyword. This recursion is only available when used with a foreach() statement, or a generator using statement such as iterator_to_array().",
-"seeAlso":{
-	"Generator syntax":"https://www.php.net/manual/en/language.generators.syntax.php"
-},
+"content":"Generators in PHP, when using the ``yield`` keyword, can become recursive through the use of the ``yield from`` construct. This allows a generator to delegate part of its iteration to another generator, creating a chain of generators. However, this recursive behavior is only effective when the generator is consumed by an external iteration mechanism such as a ``foreach()`` loop or a function like ``iterator_to_array()``. Without such iteration, the recursive yielding will not be triggered or evaluated.",
+"seeAlso":{},
 "tags":[
+"trick"
+],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "recursive yielding functions": "https://3v4l.org/kpOuk"
+    },
+    "phpError": {},
+    "features": [
 	"yield",
-	"recursion"
-]
+	"yield-from",
+	"recursion",
+	"generator"
+    ]
 }
