@@ -21,7 +21,7 @@ No Class Constant In String
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html","name":"No Class Constant In String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 26 Jun 2025 20:11:56 +0000","dateModified":"Thu, 26 Jun 2025 20:11:56 +0000","description":"Interpolation is injecting variable values inside strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html","name":"No Class Constant In String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 04:41:38 +0000","dateModified":"Fri, 04 Jul 2025 04:41:38 +0000","description":"Interpolation is injecting variable values inside strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Interpolation is injecting variable values inside strings. For complex variables, such as objects, it requires the curly braces to work.
 
@@ -39,5 +39,5 @@ See Also
 ________
 
 * `String interpolation (PHP manual) <https://www.php.net/manual/en/language.types.string.php#language.types.string.parsing>`_
-* `this function never returns <https://3v4l.org/X3KJH>`_ [Try me]
+* `Class constant in a string <https://3v4l.org/NclZ3>`_ [Try me]
 

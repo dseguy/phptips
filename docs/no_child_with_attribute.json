@@ -12,8 +12,8 @@
     "author": "",
     "contact": "",
     "3v4l": {
-        "attribute is not for children": "https:\/\/3v4l.org\/X3KJH"
+        "attribute is not for children": "https://3v4l.org/tDOsd"
     },
     "phpError": {},
-    "features": ["reflection", "attribute"]
+    "features": ["reflection", "attribute", "inheritance"]
 }

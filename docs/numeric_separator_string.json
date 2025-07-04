@@ -9,17 +9,16 @@
         "strtr()": "https:\/\/www.php.net\/manual\/fr\/function.strtr.php"
     },
     "tags": [
-        "PHP",
-        "integer",
-        "numeric separator",
-        "dynamic call",
-        "dynamic syntax"
+    "tip"
     ],
     "3v4l": {
-        "": ""
     },
     "phpError": {},
-    "features": [],
+    "features": [ 
+        "integer",
+        "numeric-separator",
+        "dynamic-call"
+],
     "author": "",
     "contact": ""
 }
