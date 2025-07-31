@@ -21,7 +21,7 @@ Compatible Signature
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html","name":"Compatible Signature","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 20 Feb 2025 15:38:51 +0000","dateModified":"Thu, 20 Feb 2025 15:38:51 +0000","description":"This piece of code shows a signature that changes with the version of PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html","name":"Compatible Signature","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 12:35:07 +0000","dateModified":"Fri, 04 Jul 2025 12:35:07 +0000","description":"This piece of code shows a signature that changes with the version of PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Christian Lück <https://x.com/another_clue>`_
 
@@ -40,5 +40,5 @@ ________
 
 * `Attributes (PHP manual) <https://www.php.net/manual/en/language.attributes.overview.php>`_
 * `Original tweet <https://x.com/another_clue/status/1671189006162464768>`_
-* ` <>`_
+* `Aboard the compatibility train <https://3v4l.org/KrZlK>`_ [Try me]
 

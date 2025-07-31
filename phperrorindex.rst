@@ -7,6 +7,8 @@ Error Message index
     * :ref:`typed-variables`
 * Cannot call constructor
     * :ref:`constructor-needed`
+* Cannot declare self-referencing constant x::A
+    * :ref:`no-self-referencing-constants`
 * Cannot indirectly modify readonly property %s::$%s
     * :ref:`cannot-indirectly-modify-readonly`
 * Cannot modify readonly property
@@ -41,6 +43,7 @@ Error Message index
     * :ref:`null-or-boolean-as-array`
 * Typed property %s::$%s must not be accessed before initialization
     * :ref:`mixed-is-not-no-type`
+    * :ref:`initialize-readonly-on-child`
     * :ref:`unsetting-properties-surprises`
 * Typed property x::$y must not be accessed before initialization
     * :ref:`who-modifies-this-property?`
@@ -59,4 +62,5 @@ Error Message index
 * syntax error, unexpected token "(int)"
     * :ref:`cast-is-so-strong`
 * syntax error, unexpected token ";"
+    * :ref:`where-is-the-semicolon?`
     * :ref:`no-semicolon-in-sight`

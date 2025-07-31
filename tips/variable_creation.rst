@@ -21,7 +21,7 @@ Variable Creation
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html","name":"Variable Creation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Mar 2025 20:15:51 +0000","dateModified":"Mon, 03 Mar 2025 20:15:51 +0000","description":"When defining a closure, the lexical variables (in the ``use`` clause) are created immediately, with the default value of NULL","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html","name":"Variable Creation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 07:46:12 +0000","dateModified":"Fri, 04 Jul 2025 07:46:12 +0000","description":"When defining a closure, the lexical variables (in the ``use`` clause) are created immediately, with the default value of NULL","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 When defining a closure, the lexical variables (in the ``use`` clause) are created immediately, with the default value of NULL. The closure is executed later, and then, the value of the lexical variable is changed.
 
@@ -34,5 +34,5 @@ ________
 
 * `The Closure class <https://www.php.net/manual/en/class.closure.php>`_
 * `Anonymous functions <https://www.php.net/manual/en/functions.anonymous.php>`_
-* ` <>`_
+* `Create variables with a closure <https://3v4l.org/Z5jgo>`_ [Try me]
 

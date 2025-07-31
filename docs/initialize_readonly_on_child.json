@@ -3,19 +3,15 @@
     "date": "2024-10-16",
     "title": "Initialize Readonly On Child",
     "content": "Readonly properties could only be initialized in the same class as their definition. That holds true, whatever the visibility of the property: ``private``, ``protected``, ``private``.\nIn PHP 8.4, it is now possible to initialize the readonly properties from a child class, if the visibility allows. And the property is assigned only once.",
-    "seeAlso": {
-        "readonly (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.oop5.properties.php#language.oop5.properties.readonly-properties"
-    },
-    "tags": [
-        "readonly",
-        "inheritance",
-        "initialization"
-    ],
+    "seeAlso": { },
+    "tags": ["edge case"],
     "author": "",
     "contact": "",
     "3v4l": {
-        "": ""
+        "Initialize Readonly On Child": "https://3v4l.org/WtXbB"
     },
-    "phpError": {},
-    "features": []
+    "phpError": {
+        "Typed property %s::$%s must not be accessed before initialization":"typed-property-%s::$%s-must-not-be-accessed-before-initialization"
+    },
+    "features": ["property", "initialization", "readonly", "inheritence"]
 }

@@ -14,8 +14,8 @@
     "author": "",
     "contact": "",
     "3v4l": {
-        "": ""
+        "Create variables with a closure": "https://3v4l.org/Z5jgo"
     },
     "phpError": {},
-    "features": []
+    "features": ["variable", "closure"]
 }

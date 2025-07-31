@@ -39,8 +39,6 @@ Author index
 * `Rahul Chavan <https://twitter.com/rcsofttech85>`_
     * :ref:`send-an-argument-to-generator`
     * :ref:`array_reduce()-to-filter-and-alter`
-* `Ryan Chandler <https://twitter.com/ryangjchandler>`_
-    * :ref:`no-semicolon-in-sight`
 * `Saif Eddin Gmati <https://github.com/azjezz>`_
     * :ref:`cast-a-closure-to-array`
 * `Sergii Shymko <https://twitter.com/SergiiShymko>`_

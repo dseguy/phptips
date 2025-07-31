@@ -7,11 +7,12 @@
         "Function parameters and arguments (PHP manual)": "https:\/\/www.php.net\/manual\/en\/functions.arguments.php"
     },
     "tags": [
-        "consistence"
+        "bug",
+        "tip"
     ],
     "author": "",
     "contact": "",
-    "features": [],
+    "features": ["bug", "parameter", "named-parameter", "inheritance"],
     "3v4l": {
         "named parameter changes": "https:\/\/3v4l.org\/k3Rhl"
     },
