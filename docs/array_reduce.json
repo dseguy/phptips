@@ -18,5 +18,5 @@
         "array_reduce() as a collector": "https://3v4l.org/ZViTK"
     },
     "phpError": {},
-    "features": []
+    "features": ["array", "filter"]
 }

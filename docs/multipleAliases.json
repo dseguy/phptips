@@ -7,15 +7,16 @@
         "Traits": "https:\/\/www.php.net\/manual\/en\/language.oop5.traits.php"
     },
     "tags": [
-        "PHP",
-        "trait",
-        "method"
+        "rare"
     ],
     "3v4l": {
-        "": ""
+        "Multiple same alias": "https://3v4l.org/Is251"
     },
     "phpError": {},
-    "features": [],
+    "features": [
+        "trait",
+        "method"
+],
     "author": "",
     "contact": ""
 }

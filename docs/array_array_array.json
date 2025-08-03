@@ -5,16 +5,17 @@
     "content": "This made me chuckle... welcome to PHP 8.3 !\nFirst ``array`` is the type, the second is the name of the constant, with the relaxed keyword, and the last one is the value of the ``array``. It is not often that three times the same token is used in a row. Could we try 4 times?",
     "seeAlso": {},
     "tags": [
-        "array",
-        "typed constants",
-        "funny",
-        "semantics"
+        "funny"
     ],
     "author": "",
     "contact": "",
     "3v4l": {
-        "": ""
+        "Too many arrays": "https://3v4l.org/Ovasb#veol"
     },
     "phpError": {},
-    "features": []
+    "features": [
+        "array",
+        "typed-constant",
+        "semantics"
+    ]
 }

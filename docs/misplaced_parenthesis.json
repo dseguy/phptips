@@ -5,15 +5,16 @@
     "content": "The closing parenthesis of the in_array() call may be misplaced, yet yield a valid PHP code, and even, a valid business case. This all depends on the actual value given to the $c variable.\nIt is most probably a bug, given the number of arguments in in_array().",
     "seeAlso": {},
     "tags": [
-        "PHP",
-        "wild syntax",
-        "typo"
+        "classic bug"
     ],
     "3v4l": {
-        "": ""
+        "When placing the parenthesis is ambiguous": "https://3v4l.org/YN2FK#veol"
     },
     "phpError": {},
-    "features": [],
+    "features": [
+        "PHP",
+        "typo"
+    ],
     "author": "",
     "contact": ""
 }

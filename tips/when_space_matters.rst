@@ -21,7 +21,7 @@ When Space Matters
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html","name":"When Space Matters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 20 Feb 2025 15:21:27 +0000","dateModified":"Thu, 20 Feb 2025 15:21:27 +0000","description":"The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html","name":"When Space Matters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 19:08:13 +0000","dateModified":"Sun, 03 Aug 2025 19:08:13 +0000","description":"The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation.
 
@@ -36,5 +36,5 @@ Some edge cases of white space matters in the syntax.
 See Also
 ________
 
-* ` <>`_
+* `When space matters <https://3v4l.org/EvDBu#veol>`_ [Try me]
 

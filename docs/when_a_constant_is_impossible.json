@@ -7,17 +7,17 @@
         "Class Constants": "https:\/\/www.php.net\/manual\/en\/language.oop5.constants.php"
     },
     "tags": [
-        "PHP",
-        "fatal error",
-        "static constant expression",
-        "optimisation",
-        "edge case"
+        "trick"
     ],
     "3v4l": {
-        "": ""
+        "Almost impossible constant": "https://3v4l.org/J1JpE#veol"
     },
     "phpError": {},
-    "features": [],
+    "features": [
+        "static-expression",
+        "optimisation",
+        "edge-case"
+    ],
     "author": "",
     "contact": ""
 }

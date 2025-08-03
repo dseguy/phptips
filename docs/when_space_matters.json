@@ -5,14 +5,16 @@
     "content": "The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation.\nThe third and fourth ones are a syntax error, because PHP starts interpreting a float, but fail to get the decimal part.\nFinally, the last echo is valid, because PHP managed to build a float, so it doesn't mistake the second point with another float, and use it as a concatenation.\nSome edge cases of white space matters in the syntax.",
     "seeAlso": {},
     "tags": [
-        "space",
-        "syntax error"
+        "trick"
     ],
     "author": "",
     "contact": "",
     "3v4l": {
-        "": ""
+        "When space matters": "https://3v4l.org/EvDBu#veol"
     },
     "phpError": {},
-    "features": []
+    "features": [
+        "space",
+        "syntax-error"
+    ]
 }

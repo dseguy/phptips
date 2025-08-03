@@ -21,7 +21,7 @@ Redefine Native Functions
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html","name":"Redefine Native Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 20 Feb 2025 15:38:51 +0000","dateModified":"Thu, 20 Feb 2025 15:38:51 +0000","description":"It is possible to redefine PHP functions or constants, or even any defined of such, by using the ``use`` command","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html","name":"Redefine Native Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 19:20:42 +0000","dateModified":"Sun, 03 Aug 2025 19:20:42 +0000","description":"It is possible to redefine PHP functions or constants, or even any defined of such, by using the ``use`` command","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 It is possible to redefine PHP functions or constants, or even any defined of such, by using the ``use`` command.
 
@@ -34,5 +34,5 @@ It is not possible to do this twice in the same file, nor to redefine classes.
 See Also
 ________
 
-* ` <>`_
+* `Redefining native PHP functions <https://3v4l.org/BM9C8>`_ [Try me]
 

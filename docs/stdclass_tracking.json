@@ -7,15 +7,17 @@
         "The stdClass class (PHP manual)": "https:\/\/www.php.net\/manual\/en\/class.stdclass.php"
     },
     "tags": [
+        "internals"
+    ],
+    "3v4l": {
+        "Recycling stdclass": "https://3v4l.org/Pnkll#veol"
+    },
+    "phpError": {},
+    "features": [        
         "class",
         "argument",
         "optimisation"
-    ],
-    "3v4l": {
-        "": ""
-    },
-    "phpError": {},
-    "features": [],
+],
     "author": "",
     "contact": ""
 }

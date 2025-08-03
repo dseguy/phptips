@@ -7,8 +7,7 @@
         "Arrow Functions (PHP manual)": "https:\/\/www.php.net\/manual\/en\/functions.arrow.php"
     },
     "tags": [
-        "arrow function",
-        "recursive"
+        "tip"
     ],
     "author": "",
     "contact": "",
@@ -16,5 +15,5 @@
         "recursive arrow function": "https:\/\/3v4l.org\/BYubA"
     },
     "phpError": {},
-    "features": []
+    "features": ["arrow-function", "recursion"]
 }

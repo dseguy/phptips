@@ -5,14 +5,17 @@
     "content": "It is possible to redefine PHP functions or constants, or even any defined of such, by using the ``use`` command.\nThis feature is interesting for testing purposes: it allows the replacement of a defined function with an alternative.\nIt is not possible to do this twice in the same file, nor to redefine classes.",
     "seeAlso": {},
     "tags": [
-        "use",
-        "native"
+        "surprising"
     ],
     "author": "",
     "contact": "",
     "3v4l": {
-        "": ""
+        "Redefining native PHP functions": "https://3v4l.org/BM9C8"
     },
     "phpError": {},
-    "features": []
+    "features": [
+        "fallback-function",         
+        "use",
+        "native"
+]
 }
