@@ -13,5 +13,5 @@
     "phpError": {
         "Typed property %s::$%s must not be accessed before initialization":"typed-property-%s::$%s-must-not-be-accessed-before-initialization"
     },
-    "features": ["property", "initialization", "readonly", "inheritence"]
+    "features": ["property", "initialisation", "readonly", "inheritance"]
 }

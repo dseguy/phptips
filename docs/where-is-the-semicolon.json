@@ -15,5 +15,5 @@
         "Unexpected token ;": "https://3v4l.org/jDYd7#veol"
     },
     "phpError": {"syntax error, unexpected token \";\"":"syntax-error,-unexpected-token-\";\""},
-    "features": ["semi-colon", "closing-tag"]
+    "features": ["semicolon", "close-tag"]
 }
