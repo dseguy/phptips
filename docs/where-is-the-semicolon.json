@@ -12,7 +12,7 @@
     "author": "",
     "contact": "",
     "3v4l": {
-        "Unexpected token ;": "https://3v4l.org/jDYd7#veol"
+        "Unexpected token ;": "https://3v4l.org/jDYd7"
     },
     "phpError": {"syntax error, unexpected token \";\"":"syntax-error,-unexpected-token-\";\""},
     "features": ["semicolon", "close-tag"]

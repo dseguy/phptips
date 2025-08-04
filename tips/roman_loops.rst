@@ -21,7 +21,7 @@ Roman Loops
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/roman_loops.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/roman_loops.html","name":"Roman Loops","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 06:22:37 +0000","dateModified":"Sun, 03 Aug 2025 06:22:37 +0000","description":"If the classic variable with a for() loop is ``$i``, then nested loop should use ``$ii``, then ``$iii``, ``$iv``, ``$v``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/roman_loops.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/roman_loops.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/roman_loops.html","name":"Roman Loops","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 20:13:08 +0000","dateModified":"Sun, 03 Aug 2025 20:13:08 +0000","description":"If the classic variable with a for() loop is ``$i``, then nested loop should use ``$ii``, then ``$iii``, ``$iv``, ``$v``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/roman_loops.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Stephen Rees-Carter <https://twitter.com/valorin>`_
 
@@ -34,5 +34,5 @@ ________
 
 * `Original Tweet <https://twitter.com/valorin/status/1745688764465218033>`_
 * `Original Source <https://twitter.com/trunarla/status/1745582255840649608>`_
-* `i to v <https://3v4l.org/S0qBH#veol>`_ [Try me]
+* `i to v <https://3v4l.org/S0qBH>`_ [Try me]
 

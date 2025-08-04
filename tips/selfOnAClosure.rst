@@ -21,7 +21,7 @@ self Is A Valid Type On A Closure
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html","name":"self Is A Valid Type On A Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 13 May 2025 05:02:19 +0000","dateModified":"Tue, 13 May 2025 05:02:19 +0000","description":"``self`` is a valid type inside a class (trait, interface, enum) to reference the current class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html","name":"self Is A Valid Type On A Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 20:17:03 +0000","dateModified":"Sun, 03 Aug 2025 20:17:03 +0000","description":"``self`` is a valid type inside a class (trait, interface, enum) to reference the current class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 ``self`` is a valid type inside a class (trait, interface, enum) to reference the current class. ``self`` may also be used with a closure, since the closure use its location of definition. The class name may be exported that way, and instantiated outside the original class.
 
@@ -38,6 +38,6 @@ This tip does not applies to functions created in a class (ugh...).
 See Also
 ________
 
-* `Void (PHP manual) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_
+* `Scope Resolution Operator (::) (PHP manual) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_
 * `self on a closure <https://3v4l.org/PAjY6>`_ [Try me]
 

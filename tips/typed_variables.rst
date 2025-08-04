@@ -21,7 +21,7 @@ Typed Variables
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html","name":"Typed Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 07 Jun 2025 06:23:43 +0000","dateModified":"Sat, 07 Jun 2025 06:23:43 +0000","description":"A local variable cannot be typed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html","name":"Typed Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 20:17:20 +0000","dateModified":"Sun, 03 Aug 2025 20:17:20 +0000","description":"A local variable cannot be typed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 A local variable cannot be typed.
 
@@ -36,7 +36,6 @@ It works on static and normal properties. And it looks a bit cumbersome to use.
 See Also
 ________
 
-* `Void (PHP manual) <https://www.php.net/manual/en/language.types.void.php>`_
 * `Typed Variables <https://3v4l.org/H1uAS>`_ [Try me]
 
 

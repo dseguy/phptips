@@ -13,6 +13,8 @@ Error Message index
     * :ref:`cannot-indirectly-modify-readonly`
 * Cannot modify readonly property
     * :ref:`incompatible-promoted-readonlies`
+* Cannot rebind scope of closure created from method
+    * :ref:`no-binding-but-with-original`
 * Cannot unpack array with string keys
     * :ref:`named-parameter-in-an-array`
 * Cannot use 'namespace' as namespace name

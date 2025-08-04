@@ -21,7 +21,7 @@ Undefined Constant A On Its Line Of Definition
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_const_A.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_const_A.html","name":"Undefined Constant A On Its Line Of Definition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 04 Jun 2025 18:48:31 +0000","dateModified":"Wed, 04 Jun 2025 18:48:31 +0000","description":"This piece of code returns a puzzling error: 'Undefined constant A', on the line 9","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_const_A.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_const_A.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_const_A.html","name":"Undefined Constant A On Its Line Of Definition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 20:16:36 +0000","dateModified":"Sun, 03 Aug 2025 20:16:36 +0000","description":"This piece of code returns a puzzling error: 'Undefined constant A', on the line 9","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_const_A.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 This piece of code returns a puzzling error: 'Undefined constant A', on the line 9. This is the line where the constant is defined. And it is not the case of a recursively defined constant (aka, ``const A = A + 1;``).
 
@@ -38,6 +38,6 @@ In the end, the error message on line 9 is just very misleading.
 See Also
 ________
 
-* `Void (PHP manual) <https://wiki.php.net/rfc/new_in_initializers>`_
+* `New In Initializer (PHP manual) <https://wiki.php.net/rfc/new_in_initializers>`_
 * `Undefined Constant A <https://3v4l.org/cAQ9P>`_ [Try me]
 
