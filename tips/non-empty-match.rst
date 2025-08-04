@@ -21,7 +21,7 @@ Non Empty Match
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-empty-match.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-empty-match.html","name":"Non Empty Match","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 12 Jun 2025 04:44:45 +0000","dateModified":"Thu, 12 Jun 2025 04:44:45 +0000","description":"PHP allows the empty ``switch``: that is, a switch command with an empty block of cases","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-empty-match.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-empty-match.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-empty-match.html","name":"Non Empty Match","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 04 Aug 2025 19:55:40 +0000","dateModified":"Mon, 04 Aug 2025 19:55:40 +0000","description":"PHP allows the empty ``switch``: that is, a switch command with an empty block of cases","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-empty-match.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 PHP allows the empty ``switch``: that is, a switch command with an empty block of cases. The whole expression does nothing, and it is as useless as an if statement with an empty block.
 
@@ -34,7 +34,7 @@ ________
 
 * `switch (PHP manual) <https://www.php.net/manual/en/control-structures.match.php>`_
 * `match (PHP manual) <https://www.php.net/manual/en/control-structures.switch.php>`_
-* `unhandled case NULL <https://3v4l.org/OHMUb>`_ [Try me]
+* `unhandled case with NULL <https://3v4l.org/OHMUb>`_ [Try me]
 
 
 PHP Error Messages

@@ -3,9 +3,10 @@
     "date": "2025-01-27",
     "title": "__invoke() On New",
     "content": "It is possible to create a new object by calling new on a previous object: PHP fetches the name of the class, then its constructor.\nWith the PHP 8.4 new syntax without parenthesis, it is also possible to chain the instantiation with a direct call. This calls the ``__invoke`` method.\nThis was not possible in previous versions.",
-    "seeAlso": {},
+    "seeAlso": {"PHP __invoke":"https://www.phptutorial.net/php-oop/php-__invoke/"},
     "tags": [
-        "new syntax"
+        "new syntax",
+        "edge case"
     ],
     "author": "",
     "contact": "",

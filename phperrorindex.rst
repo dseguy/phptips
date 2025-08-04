@@ -11,8 +11,6 @@ Error Message index
     * :ref:`no-self-referencing-constants`
 * Cannot indirectly modify readonly property %s::$%s
     * :ref:`cannot-indirectly-modify-readonly`
-* Cannot modify readonly property
-    * :ref:`incompatible-promoted-readonlies`
 * Cannot rebind scope of closure created from method
     * :ref:`no-binding-but-with-original`
 * Cannot unpack array with string keys
@@ -33,6 +31,8 @@ Error Message index
     * :ref:`no-cast-in-constant-expressions`
 * Duplicate value in enum E for cases A and B
     * :ref:`enum-are-not-linted`
+* Incompatible readonly
+    * :ref:`incompatible-promoted-readonlies`
 * Multiple static modifiers are not allowed
     * :ref:`cannot-static-static-property`
 * Recursion detected

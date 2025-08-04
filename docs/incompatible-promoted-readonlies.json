@@ -13,6 +13,6 @@
     "author": "",
     "contact": "",
     "3v4l": {"Cannot modify readonly property":"https://3v4l.org/RIZ8k"},
-    "phpError": {"Cannot modify readonly property":"cannot-modify-readonly-property-%s::$%s"},
+    "phpError": {"Incompatible readonly":"cannot-modify-readonly-property-%s::$%s"},
     "features": ["readonly", "property", "promoted-property"]
 }

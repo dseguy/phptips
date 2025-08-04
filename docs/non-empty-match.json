@@ -13,7 +13,7 @@
     "author": "",
     "contact": "",
     "3v4l": {
-        "unhandled case NULL": "https://3v4l.org/OHMUb"
+        "unhandled case with NULL": "https://3v4l.org/OHMUb"
     },
     "phpError": {"Unhandled case NULL":"unhandled-match-case-%s"},
     "features": ["switch", "match"]

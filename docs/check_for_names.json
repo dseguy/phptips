@@ -2,18 +2,14 @@
 "image":"check_for_names.png",
 "date":"2022-07-31",
 "title":"Checking For Names At Different Times",
-"content":"PHP lint detects early to avoid 'redeclared functions', based on the local PHP executable.\n``php -l => Cannot redeclare mb_substr()``.\nThat detection doesn't apply to CITE until execution.\n``php => Cannot declare class stdClass\nbecause the name is already in use``. This is a difference in processing similar information, which may cause late surprises.",
-"seeAlso":{
-	
-},
+"content":"PHP lint detects early to avoid ``redeclared functions``, based on the local PHP executable.\n``php -l => Cannot redeclare mb_substr()``.\nThat detection doesn't apply to CITE until execution.\n``php => Cannot declare class stdClass``\nbecause the name is already in use``. This is a difference in processing similar information, which may cause late surprises.",
+"seeAlso":{},
 "tags":[
-	"lint",
-	"function",
-	"class"
-],
+	"lint"
+	],
     "author": "",
     "contact": "",
-    "features": ["class", "function"],
+    "features": ["class", "function", "cite"],
     "3v4l": {"When to check for name":"https://3v4l.org/eT5rs"},
     "phpError":{}
 }

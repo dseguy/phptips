@@ -21,7 +21,7 @@ Undefined Variable
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html","name":"Undefined Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 18 May 2025 14:44:07 +0000","dateModified":"Sun, 18 May 2025 14:44:07 +0000","description":"The variable is undefined, and yet this is reported on the actual line where the variable is defined!","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html","name":"Undefined Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 04 Aug 2025 19:55:22 +0000","dateModified":"Mon, 04 Aug 2025 19:55:22 +0000","description":"The variable is undefined, and yet this is reported on the actual line where the variable is defined!","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 The variable is undefined, and yet this is reported on the actual line where the variable is defined!
 
@@ -34,7 +34,7 @@ Upon close inspection, the variable is actually used in the call to the function
 See Also
 ________
 
-* `Undefined variable <https://3v4l.org/3ifYo>`_ [Try me]
+* `Undefined variable in action <https://3v4l.org/3ifYo>`_ [Try me]
 
 
 PHP Error Messages

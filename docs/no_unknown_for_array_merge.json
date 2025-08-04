@@ -13,7 +13,7 @@
     "author": "",
     "contact": "",
     "3v4l": {
-        "array_merge() does not accept unknown named parameters": "https://3v4l.org/miPmk"
+        "array_merge() doesn't accept unknown named parameters": "https://3v4l.org/miPmk"
     },
     "phpError": {"array_merge() does not accept unknown named parameters":"array_merge()-does-not-accept-unknown-named-parameters"},
     "features": ["ellipsis", "named-parameter"]
