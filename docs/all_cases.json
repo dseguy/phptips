@@ -9,12 +9,14 @@
         "Backed Enumerations (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.enumerations.backed.php"
     },
     "tags": [
-        "enumerations",
-        "cases"
+        "tip"
     ],
     "author": "",
     "contact": "",
-    "3v4l": {},
+    "3v4l": {"All the enum cases":"https://3v4l.org/JATi0"},
     "phpError": {},
-    "features": []
+    "features": [
+            "enum",
+        "enum-case"
+]
 }

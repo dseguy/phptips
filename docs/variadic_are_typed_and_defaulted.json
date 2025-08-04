@@ -7,10 +7,7 @@
         "Type declarations (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.types.declarations.php"
     },
     "tags": [
-        "array",
-        "variadic",
-        "type",
-        "default"
+        "tip"
     ],
     "author": "",
     "contact": "",
@@ -18,5 +15,9 @@
         "Hidden type and default value": "https://3v4l.org/8S0fa"
     },
     "phpError": {},
-    "features": []
+    "features": [        "array",
+        "variadic",
+        "type",
+        "default"
+]
 }

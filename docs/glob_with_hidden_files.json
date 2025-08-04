@@ -15,5 +15,5 @@
         "Removed unwanted files": "https://3v4l.org/SFD97"
     },
     "phpError": {},
-    "features": []
+    "features": ["file"]
 }

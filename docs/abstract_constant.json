@@ -9,10 +9,7 @@
         "Abstract constants in PHP - Force a child class to define a constant": "https:\/\/stackoverflow.com\/questions\/10368620\/abstract-constants-in-php-force-a-child-class-to-define-a-constant"
     },
     "tags": [
-        "abstract",
-        "class constant",
-        "dirty",
-        "lazy loading"
+        "trick"
     ],
     "author": "WebSmithery",
     "contact": "https:\/\/stackoverflow.com\/users\/2519523\/websmithery",
@@ -20,5 +17,8 @@
         "Abstract Class Constant on 3v4l.org": "https:\/\/3v4l.org\/uu0lU"
     },
     "phpError": {},
-    "features": []
+    "features": [
+            "abstract",
+        "class-constant"
+]
 }

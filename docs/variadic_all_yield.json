@@ -8,9 +8,7 @@
         "Generator (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.generators.overview.php"
     },
     "tags": [
-        "ellipsis",
-        "generator",
-        "arguments"
+    "trick"
     ],
     "author": "",
     "contact": "",
@@ -18,5 +16,9 @@
         "Generator In Function Call": "https://3v4l.org/WdGDd"
     },
     "phpError": {},
-    "features": []
+    "features": [
+        "ellipsis",
+        "generator",
+        "argument"
+]
 }

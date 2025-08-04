@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/get_class_or_class.rst
    tips/noBindingButOriginal.rst
    tips/infinite_foreach.rst
    tips/who_modifies_this.rst

@@ -10,7 +10,7 @@
     ],
     "author": "",
     "contact": "",
-    "features": [],
+    "features": ["type", "variable"],
     "3v4l": {"Typed Variables":"https://3v4l.org/H1uAS"},
     "phpError":{"Cannot assign %s to reference held by property %s::$%s of type %s":"cannot-assign-%s-to-reference-held-by-property-%s::$%s-of-type-%s"}
 }

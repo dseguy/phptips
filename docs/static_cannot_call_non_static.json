@@ -11,7 +11,7 @@
     ],
     "author": "",
     "contact": "",
-    "features": [], 
+    "features": ["static", "method"], 
     "3v4l":{"cannot call static":"https://3v4l.org/C8gAO"}, 
     "phpError": {}
 }
