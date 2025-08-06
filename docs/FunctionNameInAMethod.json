@@ -2,7 +2,7 @@
     "image": "FunctionNameInAMethod.png",
     "date": "2025-04-29",
     "title": "Function Name In A Method",
-    "content": "The magic constants give information on the context of execution of the code. ``__METHOD__`` gives the name of the method, and its related class. ``__CLASS__`` gives the name of the current class, whatever the method. And ``__FUNCTION__`` gives the name of the curent function, or, also, the name of the method, though without the name of the class.\nBasically, ``__METHOD__ === __CLASS__ .'::'. __FUNCTION__``.\nAlso, just for fun, you can also use ``__METHOD__`` in a function, and you'll get the same as ``__FUNCTION__``. The opposite, as we can see, is not true.",
+    "content": "The magic constants give information on the context of execution of the code. ``__METHOD__`` gives the name of the method, and its related class. ``__CLASS__`` gives the name of the current class, whatever the method. And ``__FUNCTION__`` gives the name of the current function, or, also, the name of the method, though without the name of the class.\nBasically, ``__METHOD__ === __CLASS__ .'::'. __FUNCTION__``.\nAlso, just for fun, you can also use ``__METHOD__`` in a function, and you'll get the same as ``__FUNCTION__``. The opposite, as we can see, is not true.",
     "seeAlso": {
     },
     "tags": [

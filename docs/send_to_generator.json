@@ -4,7 +4,6 @@
     "title": "Send An Argument To Generator",
     "content": "When calling the method send() on a PHP generator, the result of the first yield keyword is the argument value. Then, it can be used to yield a specific result.\nUpon usage on a foreach(), that generator will generate 2 values.\nGenerator::send() only accepts one argument.",
     "seeAlso": {
-        "example on 3v4l.org":"https://3v4l.org/ouPhi",
         "Generator::send()":"https://www.php.net/manual/en/generator.send.php"
     },
     "tags": [

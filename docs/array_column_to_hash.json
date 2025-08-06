@@ -2,7 +2,7 @@
     "image": "array_column_to_hash.png",
     "date": "2024-11-03",
     "title": "array_column() To Hash",
-    "content": "array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects.\nThe third argument of array_column() is a key, which will be used to reference the value in the resulting array. It is very convenient to turn an array into a hash.\nNote that duplicate keys will be overwritten. \nAlso, there is no reciproque function for this: turn a hash into an array of arrays or objects.",
+    "content": "array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects.\nThe third argument of array_column() is a key, which will be used to reference the value in the resulting array. It is very convenient to turn an array into a hash.\nNote that duplicate keys will be overwritten. \nAlso, there is no reciprocal function for this: turn a hash into an array of arrays or objects.",
     "seeAlso": {
         "array_column (PHP manual)": "https://www.php.net/manual/en/function.array-column.php"
     },

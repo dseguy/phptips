@@ -2,7 +2,7 @@
     "image": "sensitiveParameter.png",
     "date": "2024-01-02",
     "title": "Hide Sensitive Parameter",
-    "content": "PHP 8.2 introduces the ``#[SensitiveParameter]`` attribute to hide sensitive values from debug messages when used on function parameters. Additionally, the SensitiveParameterValue class allows you to mark data as sensitive at the caller level, ensuring it won’t appear in stack traces. To retrieve the original value when needed, simply call the ``$object->getValue()`` method.",
+    "content": "PHP 8.2 introduces the ``#[SensitiveParameter]`` attribute to hide sensitive values from debug messages when used on function parameters. Additionally, the ``SensitiveParameterValue`` class allows you to mark data as sensitive at the caller level, ensuring it won’t appear in stack traces. To retrieve the original value when needed, simply call the ``$object->getValue()`` method.",
     "seeAlso": {
         "SensitiveParameter (PHP manual)": "https://www.php.net/manual/en/class.sensitiveparameter.php",
         "SensitiveParameterValue (PHP manual)": "https://www.php.net/manual/en/class.sensitiveparametervalue.php",

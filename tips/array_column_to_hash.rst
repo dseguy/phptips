@@ -21,7 +21,7 @@ array_column() To Hash
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","name":"array_column() To Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 11 May 2025 20:07:50 +0000","dateModified":"Sun, 11 May 2025 20:07:50 +0000","description":"array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","name":"array_column() To Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 Aug 2025 16:25:20 +0000","dateModified":"Wed, 06 Aug 2025 16:25:20 +0000","description":"array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects.
 
@@ -29,7 +29,7 @@ The third argument of array_column() is a key, which will be used to reference t
 
 Note that duplicate keys will be overwritten. 
 
-Also, there is no reciproque function for this: turn a hash into an array of arrays or objects.
+Also, there is no reciprocal function for this: turn a hash into an array of arrays or objects.
 
 .. image:: ../images/array_column_to_hash.png
 
