@@ -21,17 +21,17 @@ Battle Of Definition
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/battle_of_definitions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/battle_of_definitions.html","name":"Battle Of Definition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 20 Feb 2025 15:38:10 +0000","dateModified":"Thu, 20 Feb 2025 15:38:10 +0000","description":"Methods signatures must be compatible with the parent class's definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/battle_of_definitions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/battle_of_definitions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/battle_of_definitions.html","name":"Battle Of Definition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 Aug 2025 17:04:16 +0000","dateModified":"Wed, 06 Aug 2025 17:04:16 +0000","description":"Methods signatures must be compatible with the parent class's definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/battle_of_definitions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Methods signatures must be compatible with the parent class's definition. This is true, except for __construct(), for which the compatibility is never checked.
+Methods signatures must be compatible with the parent class's definition. This is true, except for ``__construct()``, for which the compatibility is never checked.
 
-Yet, compatibility is still enforced when the __construct definition is in an interface. Then, both the implementing table and all its children must have the interface's compatibility.
+Yet, compatibility is still enforced when the ``__construct()`` definition is in an interface. Then, both the implementing table and all its children must have the interface's compatibility.
 
 .. image:: ../images/battle_of_definitions.png
 
 See Also
 ________
 
-* `3v4l : __construct() signature enforced when in an interface <https://3v4l.org/QPaRG>`_ [Try me]
 * `Battle of definitions <https://3v4l.org/5qeE1>`_ [Try me]
+* `3v4l : __construct() signature enforced when in an interface <https://3v4l.org/QPaRG>`_ [Try me]
 

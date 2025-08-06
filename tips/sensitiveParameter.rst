@@ -21,7 +21,7 @@ Hide Sensitive Parameter
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sensitiveParameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sensitiveParameter.html","name":"Hide Sensitive Parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 Aug 2025 16:27:24 +0000","dateModified":"Wed, 06 Aug 2025 16:27:24 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sensitiveParameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sensitiveParameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sensitiveParameter.html","name":"Hide Sensitive Parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 Aug 2025 17:35:59 +0000","dateModified":"Wed, 06 Aug 2025 17:35:59 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sensitiveParameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 PHP 8.2 introduces the ``#[SensitiveParameter]`` attribute to hide sensitive values from debug messages when used on function parameters. Additionally, the ``SensitiveParameterValue`` class allows you to mark data as sensitive at the caller level, ensuring it won’t appear in stack traces. To retrieve the original value when needed, simply call the ``$object->getValue()`` method.
 
@@ -32,6 +32,5 @@ ________
 
 * `SensitiveParameter (PHP manual) <https://www.php.net/manual/en/class.sensitiveparameter.php>`_
 * `SensitiveParameterValue (PHP manual) <https://www.php.net/manual/en/class.sensitiveparametervalue.php>`_
-* `Hide Sensitive Parameter (3v4l) <https://3v4l.org/KrViH>`_ [Try me]
 * `Hide sensitive parameters <https://3v4l.org/dEPeZ>`_ [Try me]
 

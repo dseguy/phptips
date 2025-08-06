@@ -21,7 +21,7 @@ strict_types Exceptions
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strict_types_exceptions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strict_types_exceptions.html","name":"strict_types Exceptions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 14 Feb 2025 14:28:02 +0000","dateModified":"Fri, 14 Feb 2025 14:28:02 +0000","description":"strict_types do not apply to PHP operators, only on to typed structures","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strict_types_exceptions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strict_types_exceptions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strict_types_exceptions.html","name":"strict_types Exceptions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 Aug 2025 17:36:25 +0000","dateModified":"Wed, 06 Aug 2025 17:36:25 +0000","description":"strict_types do not apply to PHP operators, only on to typed structures","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strict_types_exceptions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 strict_types do not apply to PHP operators, only on to typed structures.
 
@@ -34,6 +34,6 @@ As you can see, print() and echo() are safe too, while implode() is not: actuall
 See Also
 ________
 
-* `live code <https://3v4l.org/R6XVR>`_ [Try me]
 * `declare <https://www.php.net/manual/en/control-structures.declare.php>`_
+* `strict types exceptions <https://3v4l.org/R6XVR>`_ [Try me]
 

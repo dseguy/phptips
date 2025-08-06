@@ -21,7 +21,7 @@ Exponential Minus One
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/exp_minus_one.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/exp_minus_one.html","name":"Exponential Minus One","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Jun 2025 18:41:06 +0000","dateModified":"Tue, 17 Jun 2025 18:41:06 +0000","description":"You can save typing by using ``expm1($x)`` instead of ``exp($x) - 1``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/exp_minus_one.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/exp_minus_one.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/exp_minus_one.html","name":"Exponential Minus One","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 Aug 2025 17:34:55 +0000","dateModified":"Wed, 06 Aug 2025 17:34:55 +0000","description":"You can save typing by using ``expm1($x)`` instead of ``exp($x) - 1``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/exp_minus_one.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 You can save typing by using ``expm1($x)`` instead of ``exp($x) - 1``. Also, you might have to take care of differences, as both results might be slightly different depending on the OS you're running it on : Debian is OK, but MacOS says it's different.
 
@@ -31,6 +31,6 @@ See Also
 ________
 
 * `expm1() (PHP manual) <https://www.php.net/expm1>`_
-* `expm1() versus exp() - 1 <https://3v4l.org/s2Y5G>`_ [Try me]
 * `exp() minus one? <https://3v4l.org/JNg4p>`_ [Try me]
+* `expm1() versus exp() - 1 <https://3v4l.org/s2Y5G>`_ [Try me]
 

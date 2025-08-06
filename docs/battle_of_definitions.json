@@ -2,9 +2,8 @@
     "image": "battle_of_definitions.png",
     "date": "2023-03-13",
     "title": "Battle Of Definition",
-    "content": "Methods signatures must be compatible with the parent class's definition. This is true, except for __construct(), for which the compatibility is never checked.\nYet, compatibility is still enforced when the __construct definition is in an interface. Then, both the implementing table and all its children must have the interface's compatibility.",
+    "content": "Methods signatures must be compatible with the parent class's definition. This is true, except for ``__construct()``, for which the compatibility is never checked.\nYet, compatibility is still enforced when the ``__construct()`` definition is in an interface. Then, both the implementing table and all its children must have the interface's compatibility.",
     "seeAlso": {
-        "3v4l : __construct() signature enforced when in an interface": "https:\/\/3v4l.org\/QPaRG"
     },
     "tags": [
         "name conflict",
@@ -14,10 +13,14 @@
     "contact": "",
     "features": [
         "constructor",
-        "compatibility"
+        "compatibility",
+        "interface",
+        "signature"
     ],
     "3v4l": {
-        "Battle of definitions": "https:\/\/3v4l.org\/5qeE1"
+        "Battle of definitions": "https:\/\/3v4l.org\/5qeE1",
+        "3v4l : __construct() signature enforced when in an interface": "https:\/\/3v4l.org\/QPaRG"
+
     },
     "phpError": {}
 }
