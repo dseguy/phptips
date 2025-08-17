@@ -33,6 +33,8 @@ Error Message index
     * :ref:`enum-are-not-linted`
 * Incompatible readonly
     * :ref:`incompatible-promoted-readonlies`
+* Increment on non-alphanumeric string is deprecated 
+    * :ref:`not-all-incremented-strings-are-deprecated`
 * Multiple static modifiers are not allowed
     * :ref:`cannot-static-static-property`
 * Recursion detected
