@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/noExitRewrite.rst
    tips/aliasConflicts.rst
    tips/notAllIncrementStrings.rst
    tips/get_class_or_class.rst

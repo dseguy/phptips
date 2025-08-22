@@ -68,3 +68,5 @@ Error Message index
 * syntax error, unexpected token ";"
     * :ref:`where-is-the-semicolon?`
     * :ref:`no-semicolon-in-sight`
+* syntax error, unexpected token "exit", expecting identifier
+    * :ref:`no-rewrite-for-exit`

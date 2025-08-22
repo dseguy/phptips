@@ -1,0 +1,17 @@
+{
+    "image": "noExitRewrite.png",
+    "date": "2025-08-23",
+    "title": "No Rewrite For Exit",
+    "content": "Since PHP 8.4, ``exit()`` is also a function, and may be called as such.\nYet, it is still a PHP keyword, so it cannot be used as a function name: this would allow creating functions with that name in namespaces. On the other hand, it is possible to use that name as a method name.\nAnd it is also not possible to use ``exit`` in a ``use`` command: that would allow rewriting exit with another function.",
+    "seeAlso": {
+        "exit (PHP manual)": "https://www.php.net/manual/en/function.exit.php"
+    },
+    "tags": [
+        "edge-case"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["exit", "use", "relaxed-syntax"],
+    "3v4l": {"No use for exit":"https://3v4l.org/QukZb"},
+    "phpError": {"syntax error, unexpected token \"exit\", expecting identifier":"syntax-error,-unexpected-token-\"exit\""}
+}
