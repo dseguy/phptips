@@ -1,0 +1,17 @@
+{
+    "image": "aliasConflicts.png",
+    "date": "2025-08-22",
+    "title": "Alias Conflicts",
+    "content": "When the class is defined before the alias, the alias fails as the class already uses the name. When the class is defined after the alias, the class fails, although only if the class is in the same physical namespace block as the use.\nThis illustration is good to show and tell, but in real life, it never happens. On the contrary, the classes and uses are in different files, and the order of loading is controller by code execution, via autoloading.\nThis means that reusing a namespace's class name as an alias is prone to random failures, depending on the inclusions.\nAs a side note, the use command does not need the definition of the orginal, until actual usage.",
+    "seeAlso": {
+        
+    },
+    "tags": [
+        "execution"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["class", "namespace", "use", "alias"],
+    "3v4l": {"Possible name conflicts":"https://3v4l.org/A6YOX"},
+    "phpError": {}
+}
