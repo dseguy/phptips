@@ -63,6 +63,8 @@ Error Message index
     * :ref:`bitwise-operations-on-string`
 * array_merge() does not accept unknown named parameters
     * :ref:`no-unknown-for-array_merge()`
+* never-returning function must not implicitly return
+    * :ref:`the-never-function-arrow`
 * syntax error, unexpected token "(int)"
     * :ref:`cast-is-so-strong`
 * syntax error, unexpected token ";"

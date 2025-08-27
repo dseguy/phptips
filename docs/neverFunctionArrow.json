@@ -1,0 +1,17 @@
+{
+    "image": "neverFunctionArrow.png",
+    "date": "2025-08-27",
+    "title": "The Never Function Arrow",
+    "content": "This is a rare occurence: that syntax is not valid in PHP 8.1, but valid before and after.\nIn PHP 7.4 and 8.0, the syntax is valid, because ``never`` was not a reserved type. PHP considered it as a class name, but since ``die`` would prevent any return, it is not actually used.\nStarting PHP 8.2, PHP recognizes the absence of return, due to the ``die``, and accepts it.\nAlso, great edge case of a closure with a (implicit) return, but typed ``never``. Actually, it doesn't work with a regular ``return``.",
+    "seeAlso": {
+    },
+    "tags": [
+        "funny",
+        "edge-case"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["never", "arrow-function"],
+    "3v4l": {"never arrow function":"https://3v4l.org/Kmq3Q"},
+    "phpError": {"never-returning function must not implicitly return":"never-returning-function-must-not-implicitly-return"}
+}
