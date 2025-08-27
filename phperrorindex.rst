@@ -29,6 +29,8 @@ Error Message index
     * :ref:`declared-before-or-after`
 * Constant expression contains invalid operations
     * :ref:`no-cast-in-constant-expressions`
+* Declaration of %s must be compatible with %s
+    * :ref:`never-is-the-lowest-ranking-type`
 * Duplicate value in enum E for cases A and B
     * :ref:`enum-are-not-linted`
 * Incompatible readonly
