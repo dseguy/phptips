@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/arrowFunctionsImportVariables.rst
    tips/neverIsAlwaysCovariant.rst
    tips/neverFunctionArrow.rst
    tips/noExitRewrite.rst

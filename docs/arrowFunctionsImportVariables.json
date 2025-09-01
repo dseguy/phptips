@@ -1,0 +1,16 @@
+{
+    "image": "arrowFunctionsImportVariables.png",
+    "date": "2025-09-01",
+    "title": "Arrow Functions Import Variables By Values",
+    "content": "Arrow functions automatically import the variables from the current context, to be used in its returned expression. It is still possible to assign a variable in such situation, by using an assignation in the return statemeent.\nYet, this does nothing, as the variable is imported by value, even when it is a reference in the first place. Hence, reading it access its value, but modifying it has no impact on the original context.\nIf the reference is important, the alternative is to use a closure, with a reference in the ``use(&$a)`` clause.",
+    "seeAlso": {
+    },
+    "tags": [
+        "silent"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["arrow-function", "closure", "reference"],
+    "3v4l": {"arrow-functions with references":"https://3v4l.org/SZdGS"},
+    "phpError": {}
+}
