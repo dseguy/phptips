@@ -5,6 +5,8 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/noPropertyBelowMininum.rst
+   tips/cantBeBackCompatible.rst
    tips/arrowFunctionsImportVariables.rst
    tips/neverIsAlwaysCovariant.rst
    tips/neverFunctionArrow.rst

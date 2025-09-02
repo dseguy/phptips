@@ -1,0 +1,20 @@
+{
+    "image": "noPropertyBelowMininum.png",
+    "date": "2025-09-03",
+    "title": "No Property Beyond Limits",
+    "content": "TIL that PHP reports attempts to go beyond the limits (upper and lower) of integer properties. Indeed, beyond these limits, the property is converted to a float, which violate the typing.\nThis error goes away by dropping the type: the property simply changes type.\nThis also means that no error is reported when doing the same on a variable.",
+    "seeAlso": {
+    },
+    "tags": [
+        "edge case"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["property", "php_int_max", "php_int_min"],
+    "3v4l": {"No decrement":"https://3v4l.org/b6JKa"},
+    "phpError": {
+        "Cannot decrement property %s::$%s of type int past its minimal value":"cannot-decrement-property-%s::$%s-of-type-int-past-its-minimal-value",
+        "Cannot increment property %s::$%s of type int past its maximal value":"cannot-increment-property-%s::$%s-of-type-int-past-its-maximal-value",
+        "Cannot assign %s to property %s::$%s of type %s":"cannot-assign-%s-to-property-%s::$%s-of-type-%s"
+    }
+}

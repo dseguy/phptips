@@ -3,12 +3,18 @@ Error Message index
 
 * Cannot access offset of type A on array
     * :ref:`no-force-object-to-string`
+* Cannot assign %s to property %s::$%s of type %s
+    * :ref:`no-property-beyond-limits`
 * Cannot assign %s to reference held by property %s::$%s of type %s
     * :ref:`typed-variables`
 * Cannot call constructor
     * :ref:`constructor-needed`
 * Cannot declare self-referencing constant x::A
     * :ref:`no-self-referencing-constants`
+* Cannot decrement property %s::$%s of type int past its minimal value
+    * :ref:`no-property-beyond-limits`
+* Cannot increment property %s::$%s of type int past its maximal value
+    * :ref:`no-property-beyond-limits`
 * Cannot indirectly modify readonly property %s::$%s
     * :ref:`cannot-indirectly-modify-readonly`
 * Cannot rebind scope of closure created from method
@@ -31,6 +37,8 @@ Error Message index
     * :ref:`no-cast-in-constant-expressions`
 * Declaration of %s must be compatible with %s
     * :ref:`never-is-the-lowest-ranking-type`
+* Declaration of %s::%s() must be compatible with %s::%s
+    * :ref:`can't-be-compatible-with-less-arguments`
 * Duplicate value in enum E for cases A and B
     * :ref:`enum-are-not-linted`
 * Incompatible readonly

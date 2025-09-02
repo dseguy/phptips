@@ -15,5 +15,5 @@
         "Larger than integers": "https://3v4l.org/g8NCp"
     },
     "phpError": {},
-    "features": ["integer", "comparison", "php_max_int", "php_min_int"]
+    "features": ["integer", "comparison", "php_int_max", "php_int_min"]
 }
