@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/allDereferencements.rst
    tips/noPropertyBelowMininum.rst
    tips/cantBeBackCompatible.rst
    tips/arrowFunctionsImportVariables.rst
