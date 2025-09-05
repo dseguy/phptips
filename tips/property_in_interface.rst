@@ -38,3 +38,12 @@ ________
 * `Property Hooks <https://www.php.net/manual/en/language.oop5.property-hooks.php>`_
 * `Properties In Interfaces <https://3v4l.org/U4AZH>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `promoted-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html>`_
+
+* `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
+

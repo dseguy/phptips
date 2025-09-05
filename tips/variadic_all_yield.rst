@@ -36,3 +36,14 @@ ________
 * `Generator (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
 * `Generator In Function Call <https://3v4l.org/WdGDd>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
+
+* `generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
+
+* `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+
+

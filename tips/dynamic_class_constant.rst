@@ -37,3 +37,14 @@ ________
 * `Define() (PHP manual) <https://www.php.net/manual/en/function.define.php>`_
 * `Define a dynamic class constant value <https://3v4l.org/MigJ2>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
+* `dynamic <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic.ini.html>`_
+
+* `class-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
+
+

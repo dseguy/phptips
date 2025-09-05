@@ -41,3 +41,14 @@ ________
 * `String interpolation (PHP manual) <https://www.php.net/manual/en/language.types.string.php#language.types.string.parsing>`_
 * `Class constant in a string <https://3v4l.org/NclZ3>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
+* `interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/interpolation.ini.html>`_
+
+* `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+
+

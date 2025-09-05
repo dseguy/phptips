@@ -34,3 +34,12 @@ ________
 
 * `When placing the parenthesis is ambiguous <https://3v4l.org/YN2FK>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `PHP <https://php-dictionary.readthedocs.io/en/latest/dictionary/PHP.ini.html>`_
+
+* `typo <https://php-dictionary.readthedocs.io/en/latest/dictionary/typo.ini.html>`_
+
+

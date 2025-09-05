@@ -42,3 +42,12 @@ __________________
 * `Cannot use [] for reading <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%5B%5D-for-reading.html>`_
 
 
+
+PHP Features
+____________
+
+* `append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
+
+* `short-assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-assignation.ini.html>`_
+
+

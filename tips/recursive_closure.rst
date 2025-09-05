@@ -36,3 +36,14 @@ ________
 * `All the recursive Functions in PHP <https://www.exakat.io/all-the-recursive-functions-in-php/>`_
 * `recursive closure <https://3v4l.org/3MHeR>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+
+* `arrow-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
+
+* `recursion <https://php-dictionary.readthedocs.io/en/latest/dictionary/recursion.ini.html>`_
+
+

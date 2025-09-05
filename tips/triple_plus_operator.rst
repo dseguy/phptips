@@ -34,3 +34,10 @@ ________
 * `Operators <https://www.php.net/manual/en/language.operators.php>`_
 * `Triple plus operator in action <https://3v4l.org/Kku5h>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `plus <https://php-dictionary.readthedocs.io/en/latest/dictionary/plus.ini.html>`_
+
+

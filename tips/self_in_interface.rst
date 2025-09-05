@@ -33,3 +33,12 @@ ________
 * `Scope Resolution Operator (::) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_
 * `interface, not class <https://3v4l.org/DANG4>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+
+* `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
+

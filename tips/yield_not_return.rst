@@ -37,3 +37,14 @@ ________
 * `Generators overview (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
 * `yield but not return on 3v4l.org <https://3v4l.org/DLIiA>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
+
+* `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+
+* `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+
+

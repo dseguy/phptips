@@ -44,3 +44,14 @@ __________________
 * `syntax error, unexpected token "exit", expecting identifier <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22exit%22.html>`_
 
 
+
+PHP Features
+____________
+
+* `exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/exit.ini.html>`_
+
+* `use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
+
+* `relaxed-syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/relaxed-syntax.ini.html>`_
+
+

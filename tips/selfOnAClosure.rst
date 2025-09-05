@@ -41,3 +41,14 @@ ________
 * `Scope Resolution Operator (::) (PHP manual) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_
 * `self on a closure <https://3v4l.org/PAjY6>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+
+* `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+
+* `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+
+

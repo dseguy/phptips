@@ -36,3 +36,14 @@ ________
 * `Returning value <https://www.php.net/manual/en/functions.returning-values.php>`_
 * `No reference for yield <https://3v4l.org/KQ4Nq>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+
+* `generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
+
+* `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+
+

@@ -37,3 +37,12 @@ ________
 * `Type Operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
 * `instance of a class <https://3v4l.org/Qig0E>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
+

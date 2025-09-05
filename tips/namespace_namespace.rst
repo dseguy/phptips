@@ -33,3 +33,10 @@ ________
 * `namespace (PHP manual) <https://www.php.net/manual/en/language.namespaces.nsconstants.php>`_
 * `namespace namespace <https://3v4l.org/8TdKi>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+
+

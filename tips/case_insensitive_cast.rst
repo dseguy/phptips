@@ -33,3 +33,12 @@ ________
 * `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
 * `cast or CAST <https://3v4l.org/FUbgY>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
+* `syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/syntax.ini.html>`_
+
+

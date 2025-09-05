@@ -40,3 +40,14 @@ ________
 * `Eval <https://www.php.net/manual/en/function.eval.php>`_
 * `strtr() <https://www.php.net/manual/fr/function.strtr.php>`_
 
+
+PHP Features
+____________
+
+* `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
+
+* `numeric-separator <https://php-dictionary.readthedocs.io/en/latest/dictionary/numeric-separator.ini.html>`_
+
+* `dynamic-call <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-call.ini.html>`_
+
+

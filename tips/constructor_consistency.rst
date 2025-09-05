@@ -37,3 +37,16 @@ ________
 * `constructors <https://www.php.net/manual/en/control-structures.declare.php>`_
 * `compatible or not? <https://3v4l.org/GAiN9>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `constructor <https://php-dictionary.readthedocs.io/en/latest/dictionary/constructor.ini.html>`_
+
+* `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+
+* `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
+* `inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
+
+

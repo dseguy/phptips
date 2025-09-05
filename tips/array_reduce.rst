@@ -42,3 +42,12 @@ ________
 * `array_reduce is drastically slower (~1000x) <https://github.com/php/php-src/issues/8283>`_
 * `array_reduce() as a collector <https://3v4l.org/ZViTK>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+* `filter <https://php-dictionary.readthedocs.io/en/latest/dictionary/filter.ini.html>`_
+
+

@@ -47,3 +47,14 @@ ________
 * `Mixed (PHP manual) <https://www.php.net/manual/en/language.types.mixed.php>`_
 * `mixed or not mixed <https://3v4l.org/biaDm>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `mixed <https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html>`_
+
+* `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+
+* `inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
+
+

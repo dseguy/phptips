@@ -37,3 +37,10 @@ ________
 * `declare <https://www.php.net/manual/en/control-structures.declare.php>`_
 * `strict types exceptions <https://3v4l.org/R6XVR>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `strict_types <https://php-dictionary.readthedocs.io/en/latest/dictionary/strict_types.ini.html>`_
+
+

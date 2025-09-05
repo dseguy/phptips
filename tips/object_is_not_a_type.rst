@@ -33,3 +33,12 @@ ________
 * `Type Operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
 * `Not an instance of object <https://3v4l.org/sAfXJ>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `scalar-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-type.ini.html>`_
+
+* `instanceof <https://php-dictionary.readthedocs.io/en/latest/dictionary/instanceof.ini.html>`_
+
+

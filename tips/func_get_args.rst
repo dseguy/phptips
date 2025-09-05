@@ -39,3 +39,12 @@ ________
 * `func_get_args() (PHP manual) <https://www.php.net/manual/en/function.func-get-args.php>`_
 * `func_get_args() versus variadic <https://3v4l.org/2U6E4>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `variadic <https://php-dictionary.readthedocs.io/en/latest/dictionary/variadic.ini.html>`_
+
+* `arbitrary-argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/arbitrary-argument.ini.html>`_
+
+

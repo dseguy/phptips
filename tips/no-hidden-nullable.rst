@@ -36,3 +36,14 @@ ________
 
 * `Hidden and not so hidden <https://3v4l.org/g846c>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+
+* `nullable <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullable.ini.html>`_
+
+* `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+
+

@@ -44,3 +44,14 @@ __________________
 * `Undefined global variable %s <https://php-errors.readthedocs.io/en/latest/messages/undefined-global-variable-%25s.html>`_
 
 
+
+PHP Features
+____________
+
+* `superglobal <https://php-dictionary.readthedocs.io/en/latest/dictionary/superglobal.ini.html>`_
+
+* `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+
+* `$GLOBALS <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24GLOBALS.ini.html>`_
+
+

@@ -41,3 +41,12 @@ ________
 * `New In Initializer (PHP manual) <https://wiki.php.net/rfc/new_in_initializers>`_
 * `Undefined Constant A <https://3v4l.org/cAQ9P>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `new-in-initializer <https://php-dictionary.readthedocs.io/en/latest/dictionary/new-in-initializer.ini.html>`_
+
+* `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
+

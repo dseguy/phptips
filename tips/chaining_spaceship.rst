@@ -37,3 +37,12 @@ ________
 * `array_multisort (PHP manual) <https://www.php.net/manual/en/function.array-multisort.php>`_
 * `chaining spaceships <https://3v4l.org/8C5Xd>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `spaceship <https://php-dictionary.readthedocs.io/en/latest/dictionary/spaceship.ini.html>`_
+
+* `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+
+

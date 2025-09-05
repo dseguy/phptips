@@ -36,3 +36,10 @@ ________
 
 * `private as a public constant <https://3v4l.org/XYmck>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `exponential <https://php-dictionary.readthedocs.io/en/latest/dictionary/exponential.ini.html>`_
+
+

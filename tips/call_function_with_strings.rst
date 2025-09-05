@@ -40,3 +40,12 @@ ________
 
 * `Function (PHP manual) <https://www.php.net/manual/en/language.functions.php>`_
 
+
+PHP Features
+____________
+
+* `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+
+* `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+
+

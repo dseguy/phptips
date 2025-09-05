@@ -33,3 +33,10 @@ ________
 * `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
 * `-3 ^ 2 == -9 <https://3v4l.org/fKHbm>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `exponential <https://php-dictionary.readthedocs.io/en/latest/dictionary/exponential.ini.html>`_
+
+

@@ -38,3 +38,14 @@ ________
 * `type operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php#language.operators.type>`_
 * `is_a and instanceof are in a boat... <https://3v4l.org/ojvjm>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+
+* `instanceof <https://php-dictionary.readthedocs.io/en/latest/dictionary/instanceof.ini.html>`_
+
+* `is_a <https://php-dictionary.readthedocs.io/en/latest/dictionary/is_a.ini.html>`_
+
+

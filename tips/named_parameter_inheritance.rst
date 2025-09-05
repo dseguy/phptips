@@ -35,3 +35,16 @@ ________
 * `Function parameters and arguments (PHP manual) <https://www.php.net/manual/en/functions.arguments.php>`_
 * `named parameter changes <https://3v4l.org/k3Rhl>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `bug <https://php-dictionary.readthedocs.io/en/latest/dictionary/bug.ini.html>`_
+
+* `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+
+* `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
+
+* `inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
+
+

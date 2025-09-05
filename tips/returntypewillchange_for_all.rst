@@ -33,3 +33,14 @@ ________
 * `ReturnTypeWillChange (PHP manual) <https://www.php.net/manual/en/class.returntypewillchange.php>`_
 * `this function never returns <https://3v4l.org/X3KJH>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+
+* `php-attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/php-attribute.ini.html>`_
+
+* `custom <https://php-dictionary.readthedocs.io/en/latest/dictionary/custom.ini.html>`_
+
+

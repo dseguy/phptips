@@ -43,3 +43,12 @@ __________________
 * `Unhandled case NULL <https://php-errors.readthedocs.io/en/latest/messages/unhandled-match-case-%25s.html>`_
 
 
+
+PHP Features
+____________
+
+* `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+
+* `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+
+

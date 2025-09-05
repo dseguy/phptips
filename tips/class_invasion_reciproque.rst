@@ -35,3 +35,12 @@ ________
 * `Class Invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary.html#class-invasion>`_
 * `class invasion reciproque <https://3v4l.org/rFjoe>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `class-invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-invasion.ini.html>`_
+
+

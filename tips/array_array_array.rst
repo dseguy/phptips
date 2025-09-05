@@ -34,3 +34,14 @@ ________
 
 * `Too many arrays <https://3v4l.org/Ovasb>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+* `typed-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/typed-constant.ini.html>`_
+
+* `semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
+
+

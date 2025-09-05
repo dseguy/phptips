@@ -34,3 +34,12 @@ ________
 
 * `down to 0 <https://3v4l.org/bXlOC>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `while <https://php-dictionary.readthedocs.io/en/latest/dictionary/while.ini.html>`_
+
+* `increment <https://php-dictionary.readthedocs.io/en/latest/dictionary/increment.ini.html>`_
+
+

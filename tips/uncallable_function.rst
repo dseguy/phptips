@@ -37,3 +37,10 @@ ________
 * `Generators (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
 * `The function that cannot execute <https://3v4l.org/ZfoVL>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+
+

@@ -42,3 +42,10 @@ __________________
 * `syntax error, unexpected token ";" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3B%22.html>`_
 
 
+
+PHP Features
+____________
+
+* `close-tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/close-tag.ini.html>`_
+
+

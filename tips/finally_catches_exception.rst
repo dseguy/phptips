@@ -33,3 +33,12 @@ ________
 * `Finally (PHP manual) <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.finally>`_
 * `Catch an exception with finally <https://3v4l.org/uVRJ3>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `finally <https://php-dictionary.readthedocs.io/en/latest/dictionary/finally.ini.html>`_
+
+* `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+
+

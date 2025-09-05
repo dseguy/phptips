@@ -35,3 +35,14 @@ ________
 * `Type operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
 * `instanceof With Variables <https://3v4l.org/UCoEf>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `instanceof <https://php-dictionary.readthedocs.io/en/latest/dictionary/instanceof.ini.html>`_
+
+* `stdclass <https://php-dictionary.readthedocs.io/en/latest/dictionary/stdclass.ini.html>`_
+
+* `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
+

@@ -40,3 +40,14 @@ ________
 
 * `When to check for name <https://3v4l.org/eT5rs>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+
+* `cite <https://php-dictionary.readthedocs.io/en/latest/dictionary/cite.ini.html>`_
+
+

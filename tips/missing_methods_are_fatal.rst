@@ -33,3 +33,14 @@ ________
 * `Properties (PHP manual) <https://www.php.net/manual/en/language.oop5.properties.php>`_
 * `Don't miss the method' <https://3v4l.org/Sd9sr>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `void <https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html>`_
+
+* `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
+* `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+
+

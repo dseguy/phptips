@@ -42,3 +42,12 @@ ________
 * `Original tweet <https://x.com/another_clue/status/1671189006162464768>`_
 * `Aboard the compatibility train <https://3v4l.org/KrZlK>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `signature <https://php-dictionary.readthedocs.io/en/latest/dictionary/signature.ini.html>`_
+
+* `compatibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/compatibility.ini.html>`_
+
+

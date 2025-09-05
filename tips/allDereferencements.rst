@@ -52,3 +52,14 @@ ________
 
 * `Can you understand this? <https://3v4l.org/0bOpD>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `enum <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `backedenum <https://php-dictionary.readthedocs.io/en/latest/dictionary/backedenum.ini.html>`_
+
+

@@ -36,3 +36,12 @@ ________
 * `fopen() <https://www.php.net/manual/en/function.fopen.php>`_
 * `Two ways to append to files <https://3v4l.org/Da3Op>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
+
+* `file <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
+
+

@@ -37,3 +37,14 @@ ________
 * `Arrays (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
 * `More keys than count <https://3v4l.org/ITVEd>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+* `index-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
+
+* `type-juggling <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-juggling.ini.html>`_
+
+

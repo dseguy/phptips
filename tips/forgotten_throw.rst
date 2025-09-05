@@ -33,3 +33,10 @@ ________
 * `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
 * `Forgetting something? <https://3v4l.org/tMv3J>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `throw <https://php-dictionary.readthedocs.io/en/latest/dictionary/throw.ini.html>`_
+
+

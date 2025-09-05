@@ -39,3 +39,12 @@ ________
 * `Interfaces (PHP manual) <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
 * `this function never returns <https://3v4l.org/X3KJH>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
+* `promoted-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html>`_
+
+

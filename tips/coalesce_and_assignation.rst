@@ -34,3 +34,16 @@ ________
 * `Null Coalesce Operator <https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.coalesce>`_
 * `Coalesce and assignation <https://3v4l.org/X84C1>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `precedence <https://php-dictionary.readthedocs.io/en/latest/dictionary/precedence.ini.html>`_
+
+* `operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
+
+* `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+
+* `assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html>`_
+
+

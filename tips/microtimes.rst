@@ -37,3 +37,10 @@ ________
 * `Datetime (PHP manual) <https://www.php.net/manual/en/class.datetime.php>`_
 * `some micro times <https://3v4l.org/JvH2H>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `micro-second <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-second.ini.html>`_
+
+

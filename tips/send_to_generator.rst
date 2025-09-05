@@ -39,3 +39,12 @@ ________
 * `Generator::send() <https://www.php.net/manual/en/generator.send.php>`_
 * `Typed Variables <https://3v4l.org/I7AQN>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
+
+* `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+
+

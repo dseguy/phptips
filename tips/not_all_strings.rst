@@ -38,3 +38,16 @@ ________
 * `__toString() Magic Method <https://www.php.net/manual/fr/language.oop5.magic.php#object.tostring>`_
 * `string or not? <https://3v4l.org/CfEaW>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `type-juggling <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-juggling.ini.html>`_
+
+* `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
+

@@ -39,3 +39,14 @@ ________
 * `Operator precedence (PHP manual) <https://www.php.net/manual/en/language.operators.precedence.php>`_
 * `Don't negate conditions' <https://3v4l.org/OaqKp>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `not <https://php-dictionary.readthedocs.io/en/latest/dictionary/not.ini.html>`_
+
+* `assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html>`_
+
+* `iffectation <https://php-dictionary.readthedocs.io/en/latest/dictionary/iffectation.ini.html>`_
+
+

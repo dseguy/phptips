@@ -45,3 +45,12 @@ __________________
 * `Cannot assign %s to reference held by property %s::$%s of type %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-%25s-to-reference-held-by-property-%25s%3A%3A%24%25s-of-type-%25s.html>`_
 
 
+
+PHP Features
+____________
+
+* `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+
+* `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+
+

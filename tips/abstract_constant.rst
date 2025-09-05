@@ -45,3 +45,12 @@ ________
 * `Abstract constants in PHP - Force a child class to define a constant <https://stackoverflow.com/questions/10368620/abstract-constants-in-php-force-a-child-class-to-define-a-constant>`_
 * `Abstract Class Constant on 3v4l.org <https://3v4l.org/uu0lU>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+
+* `class-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
+
+

@@ -35,3 +35,10 @@ ________
 * `Comments (PHP manual) <https://www.php.net/manual/en/language.basic-syntax.comments.php>`_
 * `Unicode comment <https://3v4l.org/QYFD0>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `comment <https://php-dictionary.readthedocs.io/en/latest/dictionary/comment.ini.html>`_
+
+

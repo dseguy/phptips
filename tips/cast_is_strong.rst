@@ -46,3 +46,12 @@ __________________
 * `syntax error, unexpected token "(int)" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%28int%29%22.html>`_
 
 
+
+PHP Features
+____________
+
+* `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
+* `linting <https://php-dictionary.readthedocs.io/en/latest/dictionary/linting.ini.html>`_
+
+

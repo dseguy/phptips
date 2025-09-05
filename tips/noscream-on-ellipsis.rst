@@ -42,3 +42,12 @@ ________
 * `Array unpacking <https://www.php.net/manual/en/language.types.array.php#language.types.array.unpacking>`_
 * `Noscream on Ellipsis <https://3v4l.org/T0L1k>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `noscream <https://php-dictionary.readthedocs.io/en/latest/dictionary/noscream.ini.html>`_
+
+* `ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
+
+

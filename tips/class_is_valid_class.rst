@@ -36,3 +36,14 @@ ________
 
 * `Can type \class, cannot type self <https://3v4l.org/OCfhi>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/keyword.ini.html>`_
+
+

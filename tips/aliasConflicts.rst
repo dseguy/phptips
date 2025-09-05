@@ -38,3 +38,16 @@ ________
 
 * `Possible name conflicts <https://3v4l.org/A6YOX>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+
+* `use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
+
+* `alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/alias.ini.html>`_
+
+

@@ -35,3 +35,10 @@ ________
 * `Attributes overview (PHP manual) <https://www.php.net/manual/en/language.attributes.overview.php>`_
 * `Attribute Without Class on 3v4l.org <https://3v4l.org/jc7gE>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+
+

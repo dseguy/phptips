@@ -39,3 +39,10 @@ ________
 * `instanceof (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
 * `Anonymous and different <https://3v4l.org/C93Ug>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `anonymous-class <https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous-class.ini.html>`_
+
+

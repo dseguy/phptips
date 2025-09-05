@@ -38,3 +38,12 @@ ________
 * `Type declarations <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.catch>`_
 * `No DNF <https://3v4l.org/G3LWB>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+
+* `dnf-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/dnf-type.ini.html>`_
+
+

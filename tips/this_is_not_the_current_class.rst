@@ -37,3 +37,12 @@ ________
 * `Class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_
 * `Where is my class? <https://3v4l.org/r49jU>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `magic-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-constant.ini.html>`_
+
+* `get_class <https://php-dictionary.readthedocs.io/en/latest/dictionary/get_class.ini.html>`_
+
+

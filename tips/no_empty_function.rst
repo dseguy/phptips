@@ -36,3 +36,14 @@ ________
 * `Language constructs <https://www.php.net/manual/en/control-structures.intro.php>`_
 * `it's here but not here' <https://3v4l.org/eAtIL>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `empty <https://php-dictionary.readthedocs.io/en/latest/dictionary/empty.ini.html>`_
+
+* `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+
+* `language-construct <https://php-dictionary.readthedocs.io/en/latest/dictionary/language-construct.ini.html>`_
+
+

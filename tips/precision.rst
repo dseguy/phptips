@@ -37,3 +37,10 @@ ________
 * `precision (PHP manual) <https://www.php.net/manual/en/ini.core.php#ini.precision>`_
 * `precision <https://3v4l.org/N2EnC>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
+
+

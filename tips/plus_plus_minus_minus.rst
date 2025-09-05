@@ -34,3 +34,10 @@ ________
 
 * `plus plus <https://3v4l.org/4m7rI>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
+
+

@@ -39,3 +39,14 @@ ________
 * `gettext() <https://www.php.net/manual/en/function.gettext.php>`_
 * `no more class _ <https://3v4l.org/bfh8v>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `name <https://php-dictionary.readthedocs.io/en/latest/dictionary/name.ini.html>`_
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
+
+

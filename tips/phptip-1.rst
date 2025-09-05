@@ -39,3 +39,14 @@ ________
 * `Constructors and Destructors (PHP manual) <https://www.php.net/manual/en/language.oop5.decon.php>`_
 * `Inconsistent Constructor Signatures <https://3v4l.org/RAMIo>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `php <https://php-dictionary.readthedocs.io/en/latest/dictionary/php.ini.html>`_
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `oop <https://php-dictionary.readthedocs.io/en/latest/dictionary/oop.ini.html>`_
+
+

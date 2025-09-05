@@ -44,3 +44,12 @@ ________
 
 * `new On Object <https://3v4l.org/sgRhj>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `new <https://php-dictionary.readthedocs.io/en/latest/dictionary/new.ini.html>`_
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+

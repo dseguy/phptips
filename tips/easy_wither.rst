@@ -43,3 +43,10 @@ ________
 * `func_get_args <https://www.php.net/manual/en/function.func-get-args.php>`_
 * `Easy Wither <https://3v4l.org/XhG90>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
+

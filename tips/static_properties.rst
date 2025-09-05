@@ -35,3 +35,12 @@ ________
 * `Static keywords (PHP manual) <https://www.php.net/manual/en/language.oop5.static.php>`_
 * `Static Properties on 3v4l <https://3v4l.org/78oEF>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `static-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-property.ini.html>`_
+
+* `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
+

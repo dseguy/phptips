@@ -44,3 +44,14 @@ __________________
 * `Multiple static modifiers are not allowed <https://php-errors.readthedocs.io/en/latest/messages/multiple-static-modifiers-are-not-allowed.html>`_
 
 
+
+PHP Features
+____________
+
+* `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+
+* `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
+* `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+
+

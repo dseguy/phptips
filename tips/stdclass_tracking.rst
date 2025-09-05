@@ -35,3 +35,14 @@ ________
 * `The stdClass class (PHP manual) <https://www.php.net/manual/en/class.stdclass.php>`_
 * `Recycling stdclass <https://3v4l.org/Pnkll>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+
+* `optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/optimisation.ini.html>`_
+
+

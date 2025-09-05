@@ -34,3 +34,14 @@ ________
 
 * `Method Not Property Name Must Be String <https://3v4l.org/aKlmO>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `dynamic <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic.ini.html>`_
+
+* `dynamic-call <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-call.ini.html>`_
+
+* `dynamic-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-property.ini.html>`_
+
+

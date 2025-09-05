@@ -37,3 +37,14 @@ ________
 * `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
 * `Try-catch-finally are optional <https://3v4l.org/jOtGX>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+
+* `try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
+
+* `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+
+

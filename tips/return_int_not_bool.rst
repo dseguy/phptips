@@ -38,3 +38,24 @@ ________
 * `Comparison Operator <https://www.php.net/manual/en/language.operators.comparison.php>`_
 * `Return an int <https://3v4l.org/BATHJ>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+
+* `sort <https://php-dictionary.readthedocs.io/en/latest/dictionary/sort.ini.html>`_
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+* `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+
+* `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+
+* `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+
+* `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
+
+* `boolean <https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html>`_
+
+

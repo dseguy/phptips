@@ -37,3 +37,12 @@ ________
 * `PHP __invoke <https://www.phptutorial.net/php-oop/php-__invoke/>`_
 * `invoke on new <https://3v4l.org/7G8C7>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `__invoke <https://php-dictionary.readthedocs.io/en/latest/dictionary/__invoke.ini.html>`_
+
+* `new <https://php-dictionary.readthedocs.io/en/latest/dictionary/new.ini.html>`_
+
+

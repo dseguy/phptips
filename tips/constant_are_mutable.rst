@@ -36,3 +36,14 @@ ________
 * `Constants are no longer constant in PHP <https://dev.to/hbgl/constants-are-no-longer-constant-in-php-oco>`_
 * `How To Alter A Constant <https://3v4l.org/Ej6t6>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
+* `new-in-initializer <https://php-dictionary.readthedocs.io/en/latest/dictionary/new-in-initializer.ini.html>`_
+
+* `object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
+
+

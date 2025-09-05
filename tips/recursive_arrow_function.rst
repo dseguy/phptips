@@ -35,3 +35,12 @@ ________
 * `Arrow Functions (PHP manual) <https://www.php.net/manual/en/functions.arrow.php>`_
 * `recursive arrow function <https://3v4l.org/BYubA>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `arrow-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
+
+* `recursion <https://php-dictionary.readthedocs.io/en/latest/dictionary/recursion.ini.html>`_
+
+

@@ -32,3 +32,12 @@ ________
 
 * `Storing float as keys <https://3v4l.org/dvHg8>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `index-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
+
+* `float <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
+
+

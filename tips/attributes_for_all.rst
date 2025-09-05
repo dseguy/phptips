@@ -39,3 +39,10 @@ ________
 * `Declaring Attribute Classes <https://www.php.net/manual/en/language.attributes.classes.php>`_
 * `Attributes for all <https://3v4l.org/pZSn7>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+
+

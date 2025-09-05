@@ -35,3 +35,14 @@ ________
 * `Original on BluSky <https://bsky.app/profile/devatreides.bsky.social/post/3l3bwchdism2s>`_
 * `Typing a whole array <https://3v4l.org/Ov9mJ>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `variadic <https://php-dictionary.readthedocs.io/en/latest/dictionary/variadic.ini.html>`_
+
+* `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+

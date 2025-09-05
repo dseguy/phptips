@@ -37,3 +37,14 @@ ________
 * `Original Tweet) <https://twitter.com/timacdonald87/status/1615886928943153153>`_
 * `Export properties <https://3v4l.org/PXVQh>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+
+* `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+
+* `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
+

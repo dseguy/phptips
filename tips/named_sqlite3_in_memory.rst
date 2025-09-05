@@ -39,3 +39,12 @@ ________
 * `PDO Sqlite3 DSN <https://www.php.net/manual/en/ref.pdo-sqlite.connection.php>`_
 * `naming database in memory <https://3v4l.org/JKF0n>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `sqlite3 <https://php-dictionary.readthedocs.io/en/latest/dictionary/sqlite3.ini.html>`_
+
+* `memory <https://php-dictionary.readthedocs.io/en/latest/dictionary/memory.ini.html>`_
+
+

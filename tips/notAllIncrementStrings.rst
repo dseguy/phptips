@@ -42,3 +42,10 @@ __________________
 * `Increment on non-alphanumeric string is deprecated  <https://php-errors.readthedocs.io/en/latest/messages/increment-on-non-alphanumeric-string-is-deprecated.html>`_
 
 
+
+PHP Features
+____________
+
+* `string-increment <https://php-dictionary.readthedocs.io/en/latest/dictionary/string-increment.ini.html>`_
+
+

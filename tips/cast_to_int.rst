@@ -32,3 +32,12 @@ ________
 
 * `Another cast to int <https://3v4l.org/qmWik>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
+
+* `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
+

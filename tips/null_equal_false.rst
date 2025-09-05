@@ -34,3 +34,14 @@ ________
 
 * `null and false are in an array <https://3v4l.org/av7e9>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `index-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
+
+* `false <https://php-dictionary.readthedocs.io/en/latest/dictionary/false.ini.html>`_
+
+* `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+
+

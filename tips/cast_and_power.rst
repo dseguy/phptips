@@ -39,3 +39,12 @@ ________
 * `Operator Precedence (PHP manual) <https://www.php.net/manual/en/language.operators.precedence.php>`_
 * `Cast And Power <https://3v4l.org/ciEvM>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
+* `exponent <https://php-dictionary.readthedocs.io/en/latest/dictionary/exponent.ini.html>`_
+
+

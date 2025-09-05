@@ -33,3 +33,12 @@ ________
 * `Namespace (PHP manual) <https://www.php.net/manual/en/language.namespaces.php>`_
 * `Namespace is local or global <https://3v4l.org/FekcH>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+
+* `subnamespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/subnamespace.ini.html>`_
+
+

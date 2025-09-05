@@ -34,3 +34,12 @@ ________
 
 * `name it class! <https://3v4l.org/Ammha>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `enum <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
+
+* `name <https://php-dictionary.readthedocs.io/en/latest/dictionary/name.ini.html>`_
+
+

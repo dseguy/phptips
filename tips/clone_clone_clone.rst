@@ -36,3 +36,14 @@ ________
 * `new <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.new>`_
 * `Cloning a clone <https://3v4l.org/r2RsW>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `clone <https://php-dictionary.readthedocs.io/en/latest/dictionary/clone.ini.html>`_
+
+* `instance <https://php-dictionary.readthedocs.io/en/latest/dictionary/instance.ini.html>`_
+
+

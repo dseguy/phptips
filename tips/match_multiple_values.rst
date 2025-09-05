@@ -38,3 +38,12 @@ ________
 * `PHP Tricks: Multi-value match() <https://peakd.com/hive-168588/@crell/php-tricks-multi-value-match>`_
 * `match multiple values <https://3v4l.org/2UQWu>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+
+* `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+
+

@@ -42,3 +42,14 @@ ________
 
 * `null as a parameter <https://3v4l.org/3JsR4>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+
+* `void <https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html>`_
+
+* `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+
+

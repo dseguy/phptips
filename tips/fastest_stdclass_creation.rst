@@ -37,3 +37,16 @@ ________
 * `Converting to an object (PHP manual) <https://www.php.net/manual/en/language.types.object.php#language.types.object.casting>`_
 * `4 ways to create a stdClass object <https://3v4l.org/8n1Uh>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `performance <https://php-dictionary.readthedocs.io/en/latest/dictionary/performance.ini.html>`_
+
+* `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
+* `stdclass <https://php-dictionary.readthedocs.io/en/latest/dictionary/stdclass.ini.html>`_
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+

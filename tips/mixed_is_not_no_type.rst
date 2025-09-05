@@ -42,3 +42,14 @@ __________________
 * `Typed property %s::$%s must not be accessed before initialization <https://php-errors.readthedocs.io/en/latest/messages/typed-property-%25s%3A%3A%24%25s-must-not-be-accessed-before-initialization.html>`_
 
 
+
+PHP Features
+____________
+
+* `mixed <https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html>`_
+
+* `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+
+* `initialisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/initialisation.ini.html>`_
+
+

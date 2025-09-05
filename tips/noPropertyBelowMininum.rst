@@ -47,3 +47,14 @@ __________________
 * `Cannot assign %s to property %s::$%s of type %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-%25s-to-property-%25s%3A%3A%24%25s-of-type-%25s.html>`_
 
 
+
+PHP Features
+____________
+
+* `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
+* `php_int_max <https://php-dictionary.readthedocs.io/en/latest/dictionary/php_int_max.ini.html>`_
+
+* `php_int_min <https://php-dictionary.readthedocs.io/en/latest/dictionary/php_int_min.ini.html>`_
+
+

@@ -44,3 +44,12 @@ __________________
 * `Duplicate value in enum E for cases A and B <https://php-errors.readthedocs.io/en/latest/messages/duplicate-value-in-enum-%25s-for-cases-%25s-and-%25s.html>`_
 
 
+
+PHP Features
+____________
+
+* `backed-enum <https://php-dictionary.readthedocs.io/en/latest/dictionary/backed-enum.ini.html>`_
+
+* `case <https://php-dictionary.readthedocs.io/en/latest/dictionary/case.ini.html>`_
+
+

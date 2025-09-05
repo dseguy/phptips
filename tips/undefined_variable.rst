@@ -43,3 +43,10 @@ __________________
 * `Undefined variable <https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html>`_
 
 
+
+PHP Features
+____________
+
+* `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+
+

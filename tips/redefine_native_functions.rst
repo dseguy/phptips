@@ -36,3 +36,14 @@ ________
 
 * `Redefining native PHP functions <https://3v4l.org/BM9C8>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `fallback-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/fallback-function.ini.html>`_
+
+* `use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
+
+* `native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native.ini.html>`_
+
+

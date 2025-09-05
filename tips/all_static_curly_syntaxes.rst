@@ -56,3 +56,14 @@ ________
 
 * `Lots of {} <https://3v4l.org/9ogQC>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `curly-bracket <https://php-dictionary.readthedocs.io/en/latest/dictionary/curly-bracket.ini.html>`_
+
+* `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
+* `dynamic-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-variable.ini.html>`_
+
+

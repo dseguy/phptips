@@ -38,3 +38,14 @@ ________
 
 * `Using impossible parameter names <https://3v4l.org/U88Ip>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
+
+* `array-spread <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-spread.ini.html>`_
+
+* `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+
+

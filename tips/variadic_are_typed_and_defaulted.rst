@@ -35,3 +35,16 @@ ________
 * `Type declarations (PHP manual) <https://www.php.net/manual/en/language.types.declarations.php>`_
 * `Hidden type and default value <https://3v4l.org/8S0fa>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+* `variadic <https://php-dictionary.readthedocs.io/en/latest/dictionary/variadic.ini.html>`_
+
+* `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+
+* `default <https://php-dictionary.readthedocs.io/en/latest/dictionary/default.ini.html>`_
+
+

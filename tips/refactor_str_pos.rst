@@ -34,3 +34,12 @@ ________
 * `str_start_with() <https://www.php.net/manual/str_starts_with>`_
 * `to be or not to be at the beginning of a string <https://3v4l.org/bO6YB>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+
+* `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+
+

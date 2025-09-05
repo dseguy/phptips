@@ -37,3 +37,12 @@ ________
 * `array_merge_recursive() (PHP manual) <https://www.php.net/manual/en/function.array-merge-recursive.php>`_
 * `array_merge_recursive() in action <https://3v4l.org/OMqOc>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+* `merge <https://php-dictionary.readthedocs.io/en/latest/dictionary/merge.ini.html>`_
+
+

@@ -39,3 +39,10 @@ ________
 * `Type Operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
 * `(int) compilation error <https://3v4l.org/1Lt2o>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
+

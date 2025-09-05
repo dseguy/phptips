@@ -43,3 +43,14 @@ ________
 * `Function arguments <https://www.php.net/manual/en/functions.arguments.php>`_
 * `initialize DTO <https://3v4l.org/dvtO4>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `variadic <https://php-dictionary.readthedocs.io/en/latest/dictionary/variadic.ini.html>`_
+
+* `ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
+
+* `DTO <https://php-dictionary.readthedocs.io/en/latest/dictionary/DTO.ini.html>`_
+
+

@@ -42,3 +42,12 @@ __________________
 * `Cannot rebind scope of closure created from method <https://php-errors.readthedocs.io/en/latest/messages/cannot-rebind-scope-of-closure-created-from-method.html>`_
 
 
+
+PHP Features
+____________
+
+* `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+
+* `bind <https://php-dictionary.readthedocs.io/en/latest/dictionary/bind.ini.html>`_
+
+

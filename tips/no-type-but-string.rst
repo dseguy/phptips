@@ -38,3 +38,14 @@ ________
 * `Declare <https://www.php.net/manual/en/control-structures.declare.php>`_
 * `must return string <https://3v4l.org/cDaOL>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `strict_types <https://php-dictionary.readthedocs.io/en/latest/dictionary/strict_types.ini.html>`_
+
+* `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+
+* `__tostring <https://php-dictionary.readthedocs.io/en/latest/dictionary/__tostring.ini.html>`_
+
+

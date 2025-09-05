@@ -47,3 +47,12 @@ ________
 * `Error Control Operators <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_
 * `3 ways to check on null <https://3v4l.org/Y8IUC>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+
+* `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+
+

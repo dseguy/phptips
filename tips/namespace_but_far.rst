@@ -44,3 +44,10 @@ __________________
 * `Cannot use 'namespace' as namespace name <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27namespace%27-as-namespace-name.html>`_
 
 
+
+PHP Features
+____________
+
+* `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+
+

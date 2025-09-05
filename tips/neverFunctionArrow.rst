@@ -45,3 +45,12 @@ __________________
 * `never-returning function must not implicitly return <https://php-errors.readthedocs.io/en/latest/messages/never-returning-function-must-not-implicitly-return.html>`_
 
 
+
+PHP Features
+____________
+
+* `never <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
+
+* `arrow-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
+
+

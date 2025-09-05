@@ -37,3 +37,10 @@ ________
 * `Phar (PHP manual) <https://www.php.net/manual/en/book.phar.php>`_
 * `include on phar <https://3v4l.org/s9jrt>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `phar <https://php-dictionary.readthedocs.io/en/latest/dictionary/phar.ini.html>`_
+
+

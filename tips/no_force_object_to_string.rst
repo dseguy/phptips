@@ -40,3 +40,12 @@ __________________
 * `Cannot access offset of type A on array <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-offset-of-type-%25s-on-%25s.html>`_
 
 
+
+PHP Features
+____________
+
+* `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+
+* `object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
+
+

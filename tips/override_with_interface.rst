@@ -36,3 +36,12 @@ ________
 * `Override <https://www.php.net/manual/en/class.override.php>`_
 * `Override works on Interfaces <https://3v4l.org/WaZPd>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
+* `override <https://php-dictionary.readthedocs.io/en/latest/dictionary/override.ini.html>`_
+
+

@@ -38,3 +38,12 @@ ________
 * `References are poison <https://phpc.social/@k47@k47.cz/114556570140219356>`_
 * `int became string <https://3v4l.org/79cJH>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+
+* `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+
+

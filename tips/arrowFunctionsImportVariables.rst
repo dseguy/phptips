@@ -36,3 +36,14 @@ ________
 
 * `arrow-functions with references <https://3v4l.org/SZdGS>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `arrow-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
+
+* `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+
+* `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+
+

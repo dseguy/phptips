@@ -36,3 +36,12 @@ ________
 * `Infinite loops in PHP <https://www.exakat.io/infinite-loops-in-php/>`_
 * `Infinite loop with Foreach() <https://3v4l.org/EdqjS>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+
+* `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+
+

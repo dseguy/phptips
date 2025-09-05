@@ -45,3 +45,10 @@ ________
 * `Static Keyword (PHP manual) <https://www.php.net/manual/en/language.oop5.static.php>`_
 * `internal static and external static <https://3v4l.org/hLtMb>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+
+

@@ -38,3 +38,12 @@ ________
 
 * `When space matters <https://3v4l.org/EvDBu>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `space <https://php-dictionary.readthedocs.io/en/latest/dictionary/space.ini.html>`_
+
+* `syntax-error <https://php-dictionary.readthedocs.io/en/latest/dictionary/syntax-error.ini.html>`_
+
+

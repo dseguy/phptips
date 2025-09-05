@@ -33,3 +33,12 @@ ________
 * `Generator syntax (PHP manual) <https://www.php.net/manual/en/language.generators.syntax.php>`_
 * `Return is not enforced <https://3v4l.org/vRXn3>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `return-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/return-type.ini.html>`_
+
+* `generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
+
+

@@ -39,3 +39,14 @@ ________
 * `Function parameters and arguments (PHP manual) <https://www.php.net/manual/en/functions.arguments.php>`_
 * `ellipsis with arrays <https://3v4l.org/TbFHe>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+
+* `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+
+* `array-spread <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-spread.ini.html>`_
+
+

@@ -45,3 +45,10 @@ ________
 * `Using static variables (PHP manual) <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`_
 * `Static Variable Outside A Method <https://3v4l.org/2jjV7>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `static-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
+
+

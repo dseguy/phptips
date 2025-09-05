@@ -38,3 +38,12 @@ ________
 * `Objects (PHP manual) <https://www.php.net/manual/en/language.types.object.php>`_
 * `yield but not return on 3v4l.org <https://3v4l.org/DLIiA>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+* `arrayaccess <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrayaccess.ini.html>`_
+
+

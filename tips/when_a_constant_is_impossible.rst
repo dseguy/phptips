@@ -37,3 +37,16 @@ ________
 * `Class Constants <https:\/\/www.php.net\/manual\/en\/language.oop5.constants.php>`_
 * `Almost impossible constant <https://3v4l.org/J1JpE>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `static-expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-expression.ini.html>`_
+
+* `optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/optimisation.ini.html>`_
+
+* `edge-case <https://php-dictionary.readthedocs.io/en/latest/dictionary/edge-case.ini.html>`_
+
+* `error <https://php-dictionary.readthedocs.io/en/latest/dictionary/error.ini.html>`_
+
+

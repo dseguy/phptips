@@ -35,3 +35,14 @@ ________
 * `Mastering the (array) Cast Operator in PHP <https://www.exakat.io/mastering-the-array-cast-operator-in-php-a-comprehensive-guide/>`_
 * `Casting a closure to array <https://3v4l.org/4FGnj>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+
+* `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+

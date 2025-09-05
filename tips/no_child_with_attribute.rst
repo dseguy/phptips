@@ -37,3 +37,14 @@ ________
 * `Attributes Overview (PHP manual) <https://www.php.net/manual/en/language.attributes.overview.php>`_
 * `attribute is not for children <https://3v4l.org/tDOsd>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `reflection <https://php-dictionary.readthedocs.io/en/latest/dictionary/reflection.ini.html>`_
+
+* `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+
+* `inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
+
+

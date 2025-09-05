@@ -38,3 +38,10 @@ ________
 * `func_get_arg <https://www.php.net/manual/en/function.func-get-arg.php>`_
 * `Example code <https://3v4l.org/g3htG>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `compatibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/compatibility.ini.html>`_
+
+

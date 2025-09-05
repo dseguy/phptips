@@ -35,3 +35,10 @@ ________
 * `Class Abstraction (PHP manual) <https://www.php.net/manual/en/language.oop5.abstract.php>`_
 * `abstract again <https://3v4l.org/Rs5JZ>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+
+

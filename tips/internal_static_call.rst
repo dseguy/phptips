@@ -37,3 +37,12 @@ ________
 * `Late Static Bindings (PHP manual) <https://www.php.net/manual/en/language.oop5.late-static-bindings.php>`_
 * `Internal Static Call <https://3v4l.org/j04vj>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+

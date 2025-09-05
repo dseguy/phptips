@@ -41,3 +41,12 @@ ________
 * `Object Interfaces (PHP manual) <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
 * `No need for catch with try <https://3v4l.org/Wh9Ie>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+
+* `try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
+
+

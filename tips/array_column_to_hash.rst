@@ -39,3 +39,12 @@ ________
 * `array_column (PHP manual) <https://www.php.net/manual/en/function.array-column.php>`_
 * `Magic constants <https://3v4l.org/JuFfn>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+* `hash <https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html>`_
+
+

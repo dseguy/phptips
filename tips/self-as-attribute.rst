@@ -41,3 +41,12 @@ ________
 * `Original tweet <https://twitter.com/janedbal/status/1830573580251288042>`_
 * `self is not supported <https://3v4l.org/RTTed>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+
+* `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+
+

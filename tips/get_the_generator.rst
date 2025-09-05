@@ -35,3 +35,12 @@ ________
 * `Generators overview (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
 * `Get The Generator <https://3v4l.org/S24Re>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
+
+* `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+
+

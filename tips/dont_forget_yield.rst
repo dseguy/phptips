@@ -37,3 +37,14 @@ ________
 * `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
 * `No yield, no loop <https://3v4l.org/Znbbl>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+
+

@@ -45,3 +45,18 @@ ________
 * `class_alias (PHP manual) <https://www.php.net/class_alias>`_
 * `class_alias everywhere <https://3v4l.org/0jFCr>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/alias.ini.html>`_
+
+* `class_alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/class_alias.ini.html>`_
+
+* `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
+* `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+
+* `enum <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
+
+

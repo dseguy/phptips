@@ -39,3 +39,12 @@ ________
 * `Backed Enumerations (PHP manual) <https://www.php.net/manual/en/language.enumerations.backed.php>`_
 * `All the enum cases <https://3v4l.org/JATi0>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `enum <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
+
+* `enum-case <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum-case.ini.html>`_
+
+

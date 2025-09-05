@@ -34,3 +34,12 @@ ________
 * `SensitiveParameterValue (PHP manual) <https://www.php.net/manual/en/class.sensitiveparametervalue.php>`_
 * `Hide sensitive parameters <https://3v4l.org/dEPeZ>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+
+* `secret <https://php-dictionary.readthedocs.io/en/latest/dictionary/secret.ini.html>`_
+
+

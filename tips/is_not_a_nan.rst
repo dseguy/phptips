@@ -38,3 +38,10 @@ ________
 * `is_nan (PHP manual) <https://www.php.net/manual/en/function.is-nan.php>`_
 * `NAN !== NAN <https://3v4l.org/Hb5EI>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `nan <https://php-dictionary.readthedocs.io/en/latest/dictionary/nan.ini.html>`_
+
+

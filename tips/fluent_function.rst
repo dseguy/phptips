@@ -40,3 +40,12 @@ ________
 * `First Class Callable (PHP manual) <https://www.php.net/manual/en/functions.first_class_callable_syntax.php>`_
 * `Fluent Functions <https://3v4l.org/HAPDR>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `fluent-interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/fluent-interface.ini.html>`_
+
+* `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+
+

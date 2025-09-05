@@ -34,3 +34,12 @@ ________
 * `exp() minus one? <https://3v4l.org/JNg4p>`_ [Try me]
 * `expm1() versus exp() - 1 <https://3v4l.org/s2Y5G>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `math <https://php-dictionary.readthedocs.io/en/latest/dictionary/math.ini.html>`_
+
+* `exponent <https://php-dictionary.readthedocs.io/en/latest/dictionary/exponent.ini.html>`_
+
+

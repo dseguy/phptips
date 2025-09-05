@@ -36,3 +36,12 @@ ________
 * `PHP_INT_MAX <https://www.php.net/manual/en/reserved.constants.php>`_
 * `array is full <https://3v4l.org/aN7pP>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+* `index-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
+
+

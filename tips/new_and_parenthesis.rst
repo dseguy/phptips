@@ -45,3 +45,12 @@ ________
 * `Basics (PHP manual) <https://www.php.net/manual/en/language.oop5.basic.php>`_
 * `new and parenthesis <https://3v4l.org/K2ZrD>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `new <https://php-dictionary.readthedocs.io/en/latest/dictionary/new.ini.html>`_
+
+* `parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
+
+

@@ -52,3 +52,10 @@ ________
 * `All Classes Aliases <https://php-tips.readthedocs.io/en/latest/tips/class_alias_alias.html>`_
 * `Does MyEnum exists? <https://3v4l.org/iU1v46>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `enum <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
+
+

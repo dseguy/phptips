@@ -35,3 +35,10 @@ ________
 * `Original Toot <https://phpc.social/@paulshryock/114717288186291609>`_
 * `Casting private properties <https://3v4l.org/AfOPT>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
+

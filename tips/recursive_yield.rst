@@ -32,3 +32,16 @@ ________
 
 * `recursive yielding functions <https://3v4l.org/kpOuk>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+
+* `yield-from <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield-from.ini.html>`_
+
+* `recursion <https://php-dictionary.readthedocs.io/en/latest/dictionary/recursion.ini.html>`_
+
+* `generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
+
+

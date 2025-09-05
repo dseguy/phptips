@@ -38,3 +38,12 @@ ________
 
 * `Strings (PHP manual) <https://www.php.net/manual/en/language.types.string.php>`_
 
+
+PHP Features
+____________
+
+* `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+

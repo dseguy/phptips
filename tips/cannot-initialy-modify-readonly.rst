@@ -44,3 +44,12 @@ __________________
 * `Cannot indirectly modify readonly property %s::$%s <https://php-errors.readthedocs.io/en/latest/messages/cannot-indirectly-modify-readonly-property-%25s%3A%3A%24%25s.html>`_
 
 
+
+PHP Features
+____________
+
+* `readonly <https://php-dictionary.readthedocs.io/en/latest/dictionary/readonly.ini.html>`_
+
+* `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+
+

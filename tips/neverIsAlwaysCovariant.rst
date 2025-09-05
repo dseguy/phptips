@@ -41,3 +41,12 @@ __________________
 * `Declaration of %s must be compatible with %s <https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s-must-be-compatible-with-%25s.html>`_
 
 
+
+PHP Features
+____________
+
+* `never <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
+
+* `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+
+

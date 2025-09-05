@@ -33,3 +33,12 @@ ________
 * `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
 * `Catching an interface <https://3v4l.org/JfE8M>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
+* `try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
+
+

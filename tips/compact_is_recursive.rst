@@ -45,3 +45,14 @@ __________________
 * `Recursion detected <https://php-errors.readthedocs.io/en/latest/messages/recursion-detected.html>`_
 
 
+
+PHP Features
+____________
+
+* `compact <https://php-dictionary.readthedocs.io/en/latest/dictionary/compact.ini.html>`_
+
+* `extract <https://php-dictionary.readthedocs.io/en/latest/dictionary/extract.ini.html>`_
+
+* `recursion <https://php-dictionary.readthedocs.io/en/latest/dictionary/recursion.ini.html>`_
+
+

@@ -33,3 +33,16 @@ ________
 * `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
 * `strange sums <https://3v4l.org/8s8q1>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
+
+* `literal <https://php-dictionary.readthedocs.io/en/latest/dictionary/literal.ini.html>`_
+
+* `php_int_max <https://php-dictionary.readthedocs.io/en/latest/dictionary/php_int_max.ini.html>`_
+
+* `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
+

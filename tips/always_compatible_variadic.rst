@@ -38,3 +38,10 @@ ________
 * `Original Tweet <https://twitter.com/SergiiShymko/status/1744905838089961807>`_
 * `always compatible variadic <https://3v4l.org/IiQhc>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `variadic <https://php-dictionary.readthedocs.io/en/latest/dictionary/variadic.ini.html>`_
+
+

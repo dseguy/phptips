@@ -35,3 +35,14 @@ ________
 * `Foreach (PHP manual) <https://www.php.net/manual/en/control-structures.foreach.php#control-structures.foreach>`_
 * `foreach skips the empty values <https://3v4l.org/cAniT>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+
+* `readonly <https://php-dictionary.readthedocs.io/en/latest/dictionary/readonly.ini.html>`_
+
+* `object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
+
+

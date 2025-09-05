@@ -32,3 +32,12 @@ ________
 
 * `http_build_query and enum <https://3v4l.org/0mWQs>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `enum <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
+
+* `http_build_query <https://php-dictionary.readthedocs.io/en/latest/dictionary/http_build_query.ini.html>`_
+
+

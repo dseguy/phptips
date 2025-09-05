@@ -38,3 +38,10 @@ ________
 * `get_object_vars() <https://www.php.net/get_object_vars>`_
 * `initialized properties <https://3v4l.org/Dr6YT>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `initialisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/initialisation.ini.html>`_
+
+

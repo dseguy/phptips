@@ -37,3 +37,14 @@ ________
 * `Properties <https://www.php.net/manual/en/language.oop5.properties.php>`_
 * `this function never returns <https://3v4l.org/ZmVk4>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
+* `short-assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-assignation.ini.html>`_
+
+* `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+
+

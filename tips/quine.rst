@@ -36,3 +36,10 @@ ________
 * `Quine Programs <https://cs.lmu.edu/~ray/notes/quineprograms/>`_
 * `Quine in PHP <https://3v4l.org/X9TuF>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `php <https://php-dictionary.readthedocs.io/en/latest/dictionary/php.ini.html>`_
+
+

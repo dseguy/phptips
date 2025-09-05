@@ -34,3 +34,12 @@ ________
 * `A URL is valid PHP code?! <https://liamhammett.com/a-url-is-valid-php-code>`_
 * `URL as comments <https://3v4l.org/3ifYo>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `goto <https://php-dictionary.readthedocs.io/en/latest/dictionary/goto.ini.html>`_
+
+* `comment <https://php-dictionary.readthedocs.io/en/latest/dictionary/comment.ini.html>`_
+
+

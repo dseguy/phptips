@@ -40,3 +40,10 @@ ________
 
 * `Silent PHP Optimisation <https://3v4l.org/6gQeh>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `silent <https://php-dictionary.readthedocs.io/en/latest/dictionary/silent.ini.html>`_
+
+

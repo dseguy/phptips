@@ -37,3 +37,12 @@ ________
 * `file_put_contents (PHP manual) <https://www.php.net/manual/en/function.file-put-contents.php>`_
 * `implode, no space <https://3v4l.org/sBflr>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `implode <https://php-dictionary.readthedocs.io/en/latest/dictionary/implode.ini.html>`_
+
+* `file_put_contents <https://php-dictionary.readthedocs.io/en/latest/dictionary/file_put_contents.ini.html>`_
+
+

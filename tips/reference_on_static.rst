@@ -35,3 +35,12 @@ ________
 * `Static variables (PHP manual) <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`_
 * `reference on a static variable <https://3v4l.org/DWSkK>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+
+* `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+
+

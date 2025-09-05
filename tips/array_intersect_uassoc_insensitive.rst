@@ -37,3 +37,10 @@ ________
 * `array_intersect_uassoc() <https://www.php.net/array_intersect_uassoc>`_
 * `array_intersect_case_insensitive() <https://3v4l.org/jatEa>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+

@@ -33,3 +33,16 @@ ________
 * `Integer (PHP manual) <https://www.php.net/manual/en/language.types.integer.php>`_
 * `Larger than integers <https://3v4l.org/g8NCp>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
+
+* `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+
+* `php_int_max <https://php-dictionary.readthedocs.io/en/latest/dictionary/php_int_max.ini.html>`_
+
+* `php_int_min <https://php-dictionary.readthedocs.io/en/latest/dictionary/php_int_min.ini.html>`_
+
+

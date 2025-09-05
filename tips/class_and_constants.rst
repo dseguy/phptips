@@ -37,3 +37,14 @@ ________
 * `Class Constants (PHP manual) <https://www.php.net/manual/en/language.oop5.constants.php>`_
 * `class and constants <https://3v4l.org/RQIRu>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
+* `name <https://php-dictionary.readthedocs.io/en/latest/dictionary/name.ini.html>`_
+
+

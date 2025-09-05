@@ -33,3 +33,14 @@ ________
 * `Passing By Reference (PHP manual) <https://www.php.net/manual/en/language.references.pass.php>`_
 * `By reference or by value? <https://3v4l.org/6knLV>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+
+* `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+
+* `notice <https://php-dictionary.readthedocs.io/en/latest/dictionary/notice.ini.html>`_
+
+

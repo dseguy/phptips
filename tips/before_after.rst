@@ -41,3 +41,12 @@ __________________
 * `Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods <https://php-errors.readthedocs.io/en/latest/messages/class-%25s-contains-%25d-abstract-method%25s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.html>`_
 
 
+
+PHP Features
+____________
+
+* `linting <https://php-dictionary.readthedocs.io/en/latest/dictionary/linting.ini.html>`_
+
+* `lint-wont-execute <https://php-dictionary.readthedocs.io/en/latest/dictionary/lint-wont-execute.ini.html>`_
+
+

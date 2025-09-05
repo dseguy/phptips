@@ -35,3 +35,12 @@ ________
 * `Generator syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
 * `stealth generator <https://3v4l.org/5d9JC>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
+
+* `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+
+

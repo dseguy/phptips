@@ -33,3 +33,12 @@ ________
 * `is_infinite() (PHP manual) <https://www.php.net/is_infinite>`_
 * `beyond infinity <https://3v4l.org/lU5bg>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `math <https://php-dictionary.readthedocs.io/en/latest/dictionary/math.ini.html>`_
+
+* `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
+
+

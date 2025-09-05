@@ -36,3 +36,12 @@ ________
 
 * `method function <https://3v4l.org/8Y6m7>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+
+* `name <https://php-dictionary.readthedocs.io/en/latest/dictionary/name.ini.html>`_
+
+

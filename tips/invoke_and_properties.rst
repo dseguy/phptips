@@ -39,3 +39,14 @@ ________
 * `Calling an invokable in an instance variable <https://freek.dev/1208-calling-an-invokable-in-an-instance-variable>`_
 * `__invoke and properties <https://3v4l.org/BtooN>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `__invoke <https://php-dictionary.readthedocs.io/en/latest/dictionary/__invoke.ini.html>`_
+
+* `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
+* `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+
+

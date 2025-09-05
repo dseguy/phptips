@@ -47,3 +47,14 @@ __________________
 * `Trying to access array offset on true <https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%25s.html>`_
 
 
+
+PHP Features
+____________
+
+* `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+
+* `boolean <https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html>`_
+
+* `array-syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-syntax.ini.html>`_
+
+

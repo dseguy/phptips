@@ -36,3 +36,14 @@ ________
 * `yield (PHP manual) <https://www.php.net/manual/en/language.generators.syntax.php>`_
 * `yielding the same key <https://3v4l.org/KTj27>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+
+* `index-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
+
+* `double-arrow <https://php-dictionary.readthedocs.io/en/latest/dictionary/double-arrow.ini.html>`_
+
+

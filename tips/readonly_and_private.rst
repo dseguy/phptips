@@ -39,3 +39,12 @@ ________
 * `Class Invasation <https://php-dictionary.readthedocs.io/en/latest/dictionary.html#class-invasion>`_
 * `closure factorial <https://3v4l.org/v6hH9>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `readonly <https://php-dictionary.readthedocs.io/en/latest/dictionary/readonly.ini.html>`_
+
+* `private <https://php-dictionary.readthedocs.io/en/latest/dictionary/private.ini.html>`_
+
+

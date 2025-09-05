@@ -35,3 +35,16 @@ ________
 * `Battle of definitions <https://3v4l.org/5qeE1>`_ [Try me]
 * `3v4l : __construct() signature enforced when in an interface <https://3v4l.org/QPaRG>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `constructor <https://php-dictionary.readthedocs.io/en/latest/dictionary/constructor.ini.html>`_
+
+* `compatibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/compatibility.ini.html>`_
+
+* `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
+* `signature <https://php-dictionary.readthedocs.io/en/latest/dictionary/signature.ini.html>`_
+
+

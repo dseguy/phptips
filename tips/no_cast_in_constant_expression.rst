@@ -42,3 +42,12 @@ __________________
 * `Constant expression contains invalid operations <https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html>`_
 
 
+
+PHP Features
+____________
+
+* `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
+* `constant-expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant-expression.ini.html>`_
+
+

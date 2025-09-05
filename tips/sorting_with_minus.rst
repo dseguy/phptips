@@ -41,3 +41,10 @@ ________
 * `ksort() <https://www.php.net/manual/en/function.ksort.php>`_
 * `Sorting with a leading minus <https://3v4l.org/Tk3C4>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `sort <https://php-dictionary.readthedocs.io/en/latest/dictionary/sort.ini.html>`_
+
+

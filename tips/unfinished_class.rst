@@ -43,3 +43,12 @@ __________________
 * `Class "%s" not found <https://php-errors.readthedocs.io/en/latest/messages/class-%22%25s%22-not-found.html>`_
 
 
+
+PHP Features
+____________
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `definition <https://php-dictionary.readthedocs.io/en/latest/dictionary/definition.ini.html>`_
+
+

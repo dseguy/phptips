@@ -46,3 +46,12 @@ __________________
 * `Typed property %s::$%s must not be accessed before initialization <https://php-errors.readthedocs.io/en/latest/messages/typed-property-%25s%3A%3A%24%25s-must-not-be-accessed-before-initialization.html>`_
 
 
+
+PHP Features
+____________
+
+* `unset <https://php-dictionary.readthedocs.io/en/latest/dictionary/unset.ini.html>`_
+
+* `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
+

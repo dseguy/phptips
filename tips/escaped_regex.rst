@@ -36,3 +36,12 @@ ________
 * `preg_quote <https://www.php.net/manual/en/function.preg-quote.php>`_
 * `Escaping for regex <https://3v4l.org/oTFal>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+
+* `escape-data <https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-data.ini.html>`_
+
+

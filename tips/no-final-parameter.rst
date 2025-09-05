@@ -42,3 +42,14 @@ __________________
 * `Cannot use the %s modifier on a %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-%25s-modifier-on-a-%25s.html>`_
 
 
+
+PHP Features
+____________
+
+* `final <https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html>`_
+
+* `promoted-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html>`_
+
+* `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+
+

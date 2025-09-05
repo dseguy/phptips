@@ -36,3 +36,10 @@ ________
 * `Can't change this' <https://3v4l.org/a5cXC>`_ [Try me]
 * `Running code <https://3v4l.org/2PkHO>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `$this <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24this.ini.html>`_
+
+

@@ -37,3 +37,12 @@ ________
 * `Backed enumeration (PHP manual) <https://www.php.net/manual/en/language.enumerations.backed.php>`_
 * `Enum Case Comparison <https://3v4l.org/ecLEp>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `enum <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
+
+* `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+
+

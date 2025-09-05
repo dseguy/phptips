@@ -37,3 +37,12 @@ ________
 * `Namespaces (PHP manual) <https://www.php.net/manual/en/language.namespaces.php>`_
 * `keywords in namespaces <https://3v4l.org/9eHvZ>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+
+* `keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/keyword.ini.html>`_
+
+

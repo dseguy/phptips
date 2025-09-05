@@ -36,3 +36,14 @@ ________
 
 * `method or property? <https://3v4l.org/b8rEC>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+
+* `new <https://php-dictionary.readthedocs.io/en/latest/dictionary/new.ini.html>`_
+
+* `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
+

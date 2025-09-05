@@ -35,3 +35,10 @@ ________
 * `glob <https://www.php.net/manual/en/function.glob.php>`_
 * `Removed unwanted files <https://3v4l.org/SFD97>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `file <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
+
+

@@ -35,3 +35,10 @@ ________
 * `array_map (PHP manual) <https://www.php.net/manual/en/function.array_map.php>`_
 * `array_map_assoc() with keys <https://3v4l.org/v72hT>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+

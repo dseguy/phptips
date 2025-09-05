@@ -35,3 +35,12 @@ ________
 * `Enumeration (PHP manual) <https://www.php.net/manual/en/language.types.enumerations.php>`_
 * `Typing with enum <https://3v4l.org/9LZpq>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `enum <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
+
+* `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+
+

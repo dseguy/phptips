@@ -43,3 +43,12 @@ ________
 * `Variables (PHP manual) <https://www.php.net/manual/en/language.variables.php>`_
 * `Variable optimisation <https://3v4l.org/HJKbV>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+
+* `optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/optimisation.ini.html>`_
+
+

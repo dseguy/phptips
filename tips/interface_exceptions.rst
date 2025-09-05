@@ -33,3 +33,12 @@ ________
 * `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_
 * `catching interfaces <https://3v4l.org/ffu4v>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+
+* `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+
+

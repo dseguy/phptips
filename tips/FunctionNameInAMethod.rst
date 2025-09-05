@@ -36,3 +36,10 @@ ________
 
 * `Magic constants <https://3v4l.org/JuFfn>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `magic-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-constant.ini.html>`_
+
+

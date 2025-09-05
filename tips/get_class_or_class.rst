@@ -40,3 +40,12 @@ ________
 * `::class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class.class>`_
 * `get_class() or ::class? <https://3v4l.org/OaCZ5>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `class-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-operator.ini.html>`_
+
+

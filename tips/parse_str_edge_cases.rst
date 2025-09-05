@@ -38,3 +38,12 @@ ________
 * `parse_str - replacing dot and space with underscore in keys <https://github.com/php/php-src/issues/8639>`_
 * `Various parse_str() replacements <https://3v4l.org/4GMFX>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `parse_str <https://php-dictionary.readthedocs.io/en/latest/dictionary/parse_str.ini.html>`_
+
+* `query-string <https://php-dictionary.readthedocs.io/en/latest/dictionary/query-string.ini.html>`_
+
+

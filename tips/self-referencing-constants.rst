@@ -46,3 +46,10 @@ __________________
 * `Cannot declare self-referencing constant x::A <https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-self-referencing-constant.html>`_
 
 
+
+PHP Features
+____________
+
+* `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
+

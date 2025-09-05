@@ -34,3 +34,12 @@ ________
 
 * `Relaxed syntax with const <https://3v4l.org/fiaHc>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `const <https://php-dictionary.readthedocs.io/en/latest/dictionary/const.ini.html>`_
+
+* `relaxed-syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/relaxed-syntax.ini.html>`_
+
+

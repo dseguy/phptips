@@ -39,3 +39,14 @@ ________
 * `Namespaces (PHP manual) <https://www.php.net/manual/en/language.namespaces.php>`_
 * `disable print_r() in namespace <https://3v4l.org/nuUL6>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `disable-functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/disable-functions.ini.html>`_
+
+* `fallback-to-global <https://php-dictionary.readthedocs.io/en/latest/dictionary/fallback-to-global.ini.html>`_
+
+* `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+
+

@@ -34,3 +34,12 @@ ________
 
 * `cannot call static <https://3v4l.org/C8gAO>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+
+* `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+
+

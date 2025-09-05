@@ -36,3 +36,12 @@ ________
 * `Original Source <https://twitter.com/trunarla/status/1745582255840649608>`_
 * `i to v <https://3v4l.org/S0qBH>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `for <https://php-dictionary.readthedocs.io/en/latest/dictionary/for.ini.html>`_
+
+* `syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/syntax.ini.html>`_
+
+

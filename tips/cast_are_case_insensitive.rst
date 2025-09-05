@@ -33,3 +33,12 @@ ________
 * `Type Operators (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
 * `So much spaces... <https://3v4l.org/P5VcS>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `case-sensitivity <https://php-dictionary.readthedocs.io/en/latest/dictionary/case-sensitivity.ini.html>`_
+
+* `whitespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/whitespace.ini.html>`_
+
+

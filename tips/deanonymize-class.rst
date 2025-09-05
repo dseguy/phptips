@@ -41,3 +41,14 @@ ________
 * `Anonymous Classes (PHP manual) <https://www.php.net/manual/en/language.oop5.anonymous.php>`_
 * `Give a name to a class <https://3v4l.org/MLrBX>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `anonymous-class <https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous-class.ini.html>`_
+
+* `alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/alias.ini.html>`_
+
+* `name <https://php-dictionary.readthedocs.io/en/latest/dictionary/name.ini.html>`_
+
+

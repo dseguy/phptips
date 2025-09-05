@@ -35,3 +35,14 @@ ________
 * `Class Abstract (PHP manual) <https://www.php.net/manual/en/language.oop5.abstract.php>`_
 * `Promoting and compatibility <https://3v4l.org/KUlk3>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+
+* `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
+* `constructor <https://php-dictionary.readthedocs.io/en/latest/dictionary/constructor.ini.html>`_
+
+

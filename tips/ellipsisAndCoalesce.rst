@@ -35,3 +35,14 @@ ________
 * `Array unpacking (PHP manual) <https://www.php.net/manual/en/language.types.array.php#language.types.array.unpackingp>`_
 * `ellipsis and coalesce <https://3v4l.org/YTEL6>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `unpacking <https://php-dictionary.readthedocs.io/en/latest/dictionary/unpacking.ini.html>`_
+
+* `ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
+
+* `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+
+

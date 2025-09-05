@@ -43,3 +43,10 @@ ________
 * `array_pop() (PHP manual) <https://www.php.net/manual/en/function.array-pop.php>`_
 * `comparisons <https://3v4l.org/bEaBT>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+

@@ -35,3 +35,12 @@ ________
 * `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
 * `Reverse illustration <https://3v4l.org/JIP0g>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
+* `precedence <https://php-dictionary.readthedocs.io/en/latest/dictionary/precedence.ini.html>`_
+
+

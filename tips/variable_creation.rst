@@ -36,3 +36,12 @@ ________
 * `Anonymous functions <https://www.php.net/manual/en/functions.anonymous.php>`_
 * `Create variables with a closure <https://3v4l.org/Z5jgo>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+
+* `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+
+

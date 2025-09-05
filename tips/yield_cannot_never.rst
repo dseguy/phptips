@@ -38,3 +38,16 @@ ________
 * `Generators overview (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
 * `this function never returns <https://3v4l.org/X3KJH>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `infinite <https://php-dictionary.readthedocs.io/en/latest/dictionary/infinite.ini.html>`_
+
+* `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+
+* `never <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
+
+* `generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
+
+

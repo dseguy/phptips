@@ -34,3 +34,14 @@ ________
 
 * `What is in an identifier <https://3v4l.org/c16hv>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
+* `identifier <https://php-dictionary.readthedocs.io/en/latest/dictionary/identifier.ini.html>`_
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+

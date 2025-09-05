@@ -41,3 +41,12 @@ ________
 * `__invoke() (PHP manual) <https://www.php.net/manual/en/language.oop5.magic.php#object.invoke>`_
 * `Lots of Silly Arguments <https://3v4l.org/Xbv66>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `invoke <https://php-dictionary.readthedocs.io/en/latest/dictionary/invoke.ini.html>`_
+
+* `new <https://php-dictionary.readthedocs.io/en/latest/dictionary/new.ini.html>`_
+
+

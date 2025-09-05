@@ -41,3 +41,12 @@ ________
 * `Object Interfaces (PHP manual) <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
 * `interfaces conflicts <https://3v4l.org/Dpu8t>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
+* `naming-conflict <https://php-dictionary.readthedocs.io/en/latest/dictionary/naming-conflict.ini.html>`_
+
+

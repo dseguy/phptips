@@ -35,3 +35,12 @@ ________
 * `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_
 * `Multiple same alias <https://3v4l.org/Is251>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+
+* `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+
+

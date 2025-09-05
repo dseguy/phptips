@@ -35,3 +35,12 @@ ________
 * `Named Arguments (PHP manual) <https://www.php.net/manual/en/functions.arguments.php#functions.named-arguments>`_
 * `documenting parameters <https://3v4l.org/Qr4tP>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
+
+* `readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
+
+

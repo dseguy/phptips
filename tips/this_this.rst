@@ -35,3 +35,10 @@ ________
 * `$this (PHP manual) <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_
 * `$this->$this in the code <https://3v4l.org/K60Kl>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `$this <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24this.ini.html>`_
+
+

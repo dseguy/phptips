@@ -38,3 +38,12 @@ ________
 * `List (PHP manual) <https://www.php.net/manual/en/function.list.php>`_
 * `list() with all sorts of types <https://3v4l.org/SkKon>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `list <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
+
+* `iterator_to_array <https://php-dictionary.readthedocs.io/en/latest/dictionary/iterator_to_array.ini.html>`_
+
+

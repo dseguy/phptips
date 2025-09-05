@@ -33,3 +33,14 @@ ________
 * `Type declaration (PHP manual) <https://www.php.net/manual/en/language.types.declarations.php>`_
 * `strange error messages <https://3v4l.org/YRE3Q>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+
+* `bug <https://php-dictionary.readthedocs.io/en/latest/dictionary/bug.ini.html>`_
+
+* `scalar-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-type.ini.html>`_
+
+

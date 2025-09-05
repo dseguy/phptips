@@ -38,3 +38,14 @@ ________
 
 * `Class Constants (PHP manual) <https://www.php.net/manual/en/language.oop5.constants.php>`_
 
+
+PHP Features
+____________
+
+* `union-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/union-type.ini.html>`_
+
+* `class-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
+
+* `inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
+
+

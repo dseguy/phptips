@@ -43,3 +43,14 @@ ________
 * `decbindec <https://www.php.net/manual/fr/function.decbin.php>`_
 * `converting and back <https://3v4l.org/H5Yk3>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
+
+* `format <https://php-dictionary.readthedocs.io/en/latest/dictionary/format.ini.html>`_
+
+* `eval <https://php-dictionary.readthedocs.io/en/latest/dictionary/eval.ini.html>`_
+
+

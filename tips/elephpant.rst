@@ -37,3 +37,16 @@ ________
 * `chr <https://www.php.net/chr>`_
 * `Two ways to the elephpant <https://3v4l.org/0jqWd>`_ [Try me]
 
+
+PHP Features
+____________
+
+* `unicode <https://php-dictionary.readthedocs.io/en/latest/dictionary/unicode.ini.html>`_
+
+* `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+
+* `escape-sequence <https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-sequence.ini.html>`_
+
+* `emoji <https://php-dictionary.readthedocs.io/en/latest/dictionary/emoji.ini.html>`_
+
+
