@@ -21,6 +21,8 @@ Error Message index
     * :ref:`no-binding-but-with-original`
 * Cannot unpack array with string keys
     * :ref:`named-parameter-in-an-array`
+* Cannot use "parent" when no class scope is active
+    * :ref:`parent-in-function`
 * Cannot use 'namespace' as namespace name
     * :ref:`namespace,-but-far-in-the-name`
 * Cannot use [] for reading
