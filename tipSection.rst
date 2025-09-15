@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/isset_and_the_fatal_error.rst
    tips/allDereferencements.rst
    tips/noPropertyBelowMininum.rst
    tips/cantBeBackCompatible.rst

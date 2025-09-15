@@ -27,6 +27,8 @@ Error Message index
     * :ref:`array_append()-and-short-assignation`
 * Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
     * :ref:`cannot-use-isset-on-expression,-so-use-what?`
+* Cannot use object of type stdClass as array
+    * :ref:`isset()-and-the-fatal-error`
 * Cannot use the %s modifier on a %s
     * :ref:`no-final-parameter`
 * Class "%s" not found
