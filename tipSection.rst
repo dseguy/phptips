@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/weakmap.rst
    tips/parent_in_function.rst
    tips/isset_and_the_fatal_error.rst
    tips/allDereferencements.rst

@@ -12,6 +12,8 @@ Author index
     * :ref:`the-function-method`
 * `Christian Lück <https://x.com/another_clue>`_
     * :ref:`compatible-signature`
+* `Dmitri Goosens <https://phpc.social/@dgoosens>`_
+    * :ref:`weakmap-and-enums`
 * `Doeke Norg <https://twitter.com/doekenorg>`_
     * :ref:`quick-serialize`
 * `Fred Bouchery <https://bsky.app/profile/bouchery.fr>`_

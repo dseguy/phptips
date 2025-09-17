@@ -1,0 +1,18 @@
+{
+    "image": "weakmap.png",
+    "date": "2025-09-17",
+    "title": "Weakmap And Enums",
+    "content": "Have been reminded by a fellow PHP dev that, instead of a simple array, one could also use WeakMap...\nNice thing with this is that it is a real dictionary... and that it accepts objects as keys... and this includes ``Enum::case``.",
+    "seeAlso": {
+        "Original toot":"https://phpc.social/@dgoosens/115218594712012421",
+        "Weakmap":"https://www.php.net/manual/en/class.weakmap.php"
+    },
+    "tags": [
+        "tip"
+    ],
+    "author": "Dmitri Goosens",
+    "contact": "https://phpc.social/@dgoosens",
+    "features": ["weakmap", "enum", "array"],
+    "3v4l": {"Weakmap in action":"https://3v4l.org/cji28"},
+    "phpError": {}
+}
