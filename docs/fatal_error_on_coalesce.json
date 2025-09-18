@@ -1,0 +1,18 @@
+{
+    "image": "fatal_error_on_coalesce.png",
+    "date": "2025-09-18",
+    "title": "Coalesce And The Fatal Error",
+    "content": "The coalesce operator is based on the ``isset()`` feature of PHP. As such, it is prone to the same issues. This is the case with a sneaky fatal error.\nUsually, coalesce hide any existence check on the left operand: that way, the default value may be used without a noisy warning. This does not apply when trying to check an array index on an object: it actually yields a fatal error.\nSuch situation is usually rare, as the structure of the variable is usually known to some extend. On the other hand, using ``??`` on the result of an unstructure dataset, such as from a ``JSON`` or ``YAML`` (or else), it becomes far more hazardous.\nNote that ``json_decode()`` has an option to generate an object or an array. In such situation, it is safer to generate an array, which does not yield fatal errors. It might also be faster to run.",
+    "seeAlso": {
+        "isset() And The Fatal Error":"https://php-tips.readthedocs.io/en/latest/tips/isset_and_the_fatal_error.html",
+        "json_decode":"https://www.php.net/manual/en/function.json-decode.php"
+    },
+    "tags": [
+        "bug"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["array", "isset", "json_decode", "object"],
+    "3v4l": {"Fatal error on coalesce":"https://3v4l.org/piqCB"},
+    "phpError": {"Cannot use object of type stdClass as array":"cannot-use-object-of-type-%s-as-array"}
+}

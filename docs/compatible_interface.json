@@ -2,7 +2,7 @@
   "image": "compatible_interface.png",
   "date": "2024-08-02",
   "title": "Compatible Only Interface",
-  "content": "Interfaces are contracts that defines methods signatures, which the derived classes have to implements.\nOne lesser known fact is that the implementation only has to be compatible with the interface, there is no need to be identical. It is the same behavior than with class inheritence.\nThis explains that the following code is valid, both with argument contra-variance and return type variance.\nNote that the names of the parameters are completely free to be changed at will, yet it is not recommended.",
+  "content": "Interfaces are contracts that defines methods signatures, which the derived classes have to implements.\nOne lesser known fact is that the implementation only has to be compatible with the interface, there is no need to be identical. It is the same behavior than with class inheritance.\nThis explains that the following code is valid, both with argument contra-variance and return type variance.\nNote that the names of the parameters are completely free to be changed at will, yet it is not recommended.",
   "seeAlso": {
     "Object Interfaces (PHP manual)": "https://www.php.net/manual/en/language.oop5.interfaces.php"
   },

@@ -5,25 +5,25 @@ The Never Function Arrow
 
 .. meta::
 	:description:
-		The Never Function Arrow: This is a rare occurence: that syntax is not valid in PHP 8.
+		The Never Function Arrow: This is a rare occurrence: that syntax is not valid in PHP 8.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: The Never Function Arrow
-	:twitter:description: The Never Function Arrow: This is a rare occurence: that syntax is not valid in PHP 8
+	:twitter:description: The Never Function Arrow: This is a rare occurrence: that syntax is not valid in PHP 8
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/neverFunctionArrow.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/neverFunctionArrow.png
 	:og:title: The Never Function Arrow
 	:og:type: article
-	:og:description: This is a rare occurence: that syntax is not valid in PHP 8
+	:og:description: This is a rare occurrence: that syntax is not valid in PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/neverFunctionArrow.html
 	:og:locale: en
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html","name":"The Never Function Arrow","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 27 Aug 2025 15:14:14 +0000","dateModified":"Wed, 27 Aug 2025 15:14:14 +0000","description":"This is a rare occurence: that syntax is not valid in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html","name":"The Never Function Arrow","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 20:06:44 +0000","dateModified":"Thu, 18 Sep 2025 20:06:44 +0000","description":"This is a rare occurrence: that syntax is not valid in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-This is a rare occurence: that syntax is not valid in PHP 8.1, but valid before and after.
+This is a rare occurrence: that syntax is not valid in PHP 8.1, but valid before and after.
 
 In PHP 7.4 and 8.0, the syntax is valid, because ``never`` was not a reserved type. PHP considered it as a class name, but since ``die`` would prevent any return, it is not actually used.
 

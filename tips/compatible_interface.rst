@@ -21,11 +21,11 @@ Compatible Only Interface
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_interface.html","name":"Compatible Only Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 Aug 2025 16:57:47 +0000","dateModified":"Wed, 06 Aug 2025 16:57:47 +0000","description":"Interfaces are contracts that defines methods signatures, which the derived classes have to implements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_interface.html","name":"Compatible Only Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 20:05:59 +0000","dateModified":"Thu, 18 Sep 2025 20:05:59 +0000","description":"Interfaces are contracts that defines methods signatures, which the derived classes have to implements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Interfaces are contracts that defines methods signatures, which the derived classes have to implements.
 
-One lesser known fact is that the implementation only has to be compatible with the interface, there is no need to be identical. It is the same behavior than with class inheritence.
+One lesser known fact is that the implementation only has to be compatible with the interface, there is no need to be identical. It is the same behavior than with class inheritance.
 
 This explains that the following code is valid, both with argument contra-variance and return type variance.
 

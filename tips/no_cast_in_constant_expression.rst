@@ -21,11 +21,11 @@ No Cast In Constant Expressions
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html","name":"No Cast In Constant Expressions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Jun 2025 19:56:12 +0000","dateModified":"Fri, 27 Jun 2025 19:56:12 +0000","description":"Constant expressions do not accept the cast operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html","name":"No Cast In Constant Expressions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 20:06:31 +0000","dateModified":"Thu, 18 Sep 2025 20:06:31 +0000","description":"Constant expressions do not accept the cast operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Constant expressions do not accept the cast operator.
 
-Constant expressions are expressions defining constants and default values. They allow a subset of PHP features, as they are avaiable before the execution phase. For example, they accept operators, such as addition and concatenation. Yet, they do not accept the cast operators, even though they might be emulated in another way. Here, the + operator creates the integer, from another string.
+Constant expressions are expressions defining constants and default values. They allow a subset of PHP features, as they are available before the execution phase. For example, they accept operators, such as addition and concatenation. Yet, they do not accept the cast operators, even though they might be emulated in another way. Here, the + operator creates the integer, from another string.
 
 .. image:: ../images/no_cast_in_constant_expression.png
 

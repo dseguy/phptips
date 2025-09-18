@@ -21,7 +21,7 @@ All PHP Dereferencements
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html","name":"All PHP Dereferencements","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Sep 2025 19:59:19 +0000","dateModified":"Fri, 05 Sep 2025 19:59:19 +0000","description":"This ugly expression holds a long list of operators to move from one value to the other and produces the simple letter 'c'","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html","name":"All PHP Dereferencements","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 20:04:03 +0000","dateModified":"Thu, 18 Sep 2025 20:04:03 +0000","description":"This ugly expression holds a long list of operators to move from one value to the other and produces the simple letter 'c'","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 This ugly expression holds a long list of operators to move from one value to the other and produces the simple letter 'c'. Can you recognize them all?
 
@@ -39,11 +39,11 @@ There, there is a second dynamic property, build on top of the first ``$p`` and 
 
 Since the ``p2`` property exists on the object of class ``D``, the expression uses the static ``::`` operator again. This time, it is not a constant, but a ``case`` from an enumeration. There is no way to distinguish cases and constant at call time. 
 
-The enumeration ``F`` is backed by a string, so this automatically introduces properties to the enumeration objects, ``name`` and ``value``. Here, the second ``->`` operator reaches to this implicityly declared property. 
+The enumeration ``F`` is backed by a string, so this automatically introduces properties to the enumeration objects, ``name`` and ``value``. Here, the second ``->`` operator reaches to this implicitly declared property. 
 
-Finally, ``value`` produces a string, and strings accept the array syntax. ``[$c]`` is actually ``[2]``, as ``$c`` was assigned the value ``2``, and this was done at bit earlier in the expression. 
+Finally, ``value`` produces a string, and strings accept the array syntax. ``[$c]`` is actually ``[2]``, as ``$c`` was assigned the value ``2``, and this was done at bit earlier in the expression.
 
-At the end, there is one of the most convulted literal ``c`` character.
+At the end, there is one of the most convoluted literal ``c`` character.
 
 .. image:: ../images/allDereferencements.png
 

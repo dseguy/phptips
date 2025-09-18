@@ -2,7 +2,7 @@
     "image": "cantBeBackCompatible.png",
     "date": "2025-09-02",
     "title": "Can't Be Compatible With Less Arguments",
-    "content": "A method is compatible with its parent's version when it has at least the same number of arguments. This is valid with classes, but also with interfaces.\nA child method is compatible with its parent when adding a new argument, as long as the argument as a default value.\nAnother child may also be compatible by adding a default value to the existing argument. At that point, callin the method without any argument is now a valid call.\nYet, it is not possible to rewrite the method without arguments because it would be incompatible with the method definition of the parent, even though it is always possible to call both versions the same way.",
+    "content": "A method is compatible with its parent's version when it has at least the same number of arguments. This is valid with classes, but also with interfaces.\nA child method is compatible with its parent when adding a new argument, as long as the argument as a default value.\nAnother child may also be compatible by adding a default value to the existing argument. At that point, calling the method without any argument is now a valid call.\nYet, it is not possible to rewrite the method without arguments because it would be incompatible with the method definition of the parent, even though it is always possible to call both versions the same way.",
     "seeAlso": {
     },
     "tags": [
