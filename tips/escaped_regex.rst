@@ -23,11 +23,11 @@ Escaping A Regex
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/escaped_regex.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/escaped_regex.html","name":"Escaping A Regex","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Jun 2025 18:33:59 +0000","dateModified":"Tue, 17 Jun 2025 18:33:59 +0000","description":"To use literal characters inside a regex, it is possible to use preg_quote(): it adds a backslash before every special character in the string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/escaped_regex.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/escaped_regex.png
+
 To use literal characters inside a regex, it is possible to use preg_quote(): it adds a backslash before every special character in the string. Don't forget to use the second argument, which can hold any arbitrary delimiter.
 
 Another option is to use the ``\Q`` and ``\E`` characters inside the regex: it turns all the special characters into a literal value.
-
-.. image:: ../images/escaped_regex.png
 
 See Also
 ________

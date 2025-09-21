@@ -23,11 +23,11 @@ Constants Are Mutable
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_are_mutable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_are_mutable.html","name":"Constants Are Mutable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 14 Feb 2025 14:22:15 +0000","dateModified":"Fri, 14 Feb 2025 14:22:15 +0000","description":"Since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_are_mutable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/constant_are_mutable.png
+
 Since PHP 8.2, it is possible to use an object with a constant: this is the new initializer feature.
 
 With a object in a constant, it is still possible to call methods or properties, and mutate the constants. Indeed, the constant is still representing the same object, but the properties in the objects are not constants.
-
-.. image:: ../images/constant_are_mutable.png
 
 See Also
 ________

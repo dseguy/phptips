@@ -25,9 +25,9 @@ Strange --> Operator
 
 By `Andrew Schmelyun <https://twitter.com/aschmelyun>`_
 
-This PHP code is valid. It works because of the way operator syntax is parsed: it's another way of writing ``while ($i-- > 0)``: the spaces are not important in this syntax. The result is a very visual way to explain what the loop is doing.
-
 .. image:: ../images/while_i_--.png
+
+This PHP code is valid. It works because of the way operator syntax is parsed: it's another way of writing ``while ($i-- > 0)``: the spaces are not important in this syntax. The result is a very visual way to explain what the loop is doing.
 
 See Also
 ________

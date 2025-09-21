@@ -23,9 +23,9 @@ By Reference, Error Or Notice?
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/by_reference_errors.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/by_reference_errors.html","name":"By Reference, Error Or Notice?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Jun 2025 20:19:01 +0000","dateModified":"Wed, 11 Jun 2025 20:19:01 +0000","description":"Passing a literal by reference to a method causes a Fatal error, while returning a literal by reference only triggers a Notice","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/by_reference_errors.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Passing a literal by reference to a method causes a Fatal error, while returning a literal by reference only triggers a Notice. This difference in error level is puzzling, given how similar the operations are. It raises the question: why does one completely halt execution, while the other merely issues a warning and continues running?
-
 .. image:: ../images/by_reference_errors.png
+
+Passing a literal by reference to a method causes a Fatal error, while returning a literal by reference only triggers a Notice. This difference in error level is puzzling, given how similar the operations are. It raises the question: why does one completely halt execution, while the other merely issues a warning and continues running?
 
 See Also
 ________

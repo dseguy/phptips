@@ -25,6 +25,8 @@ Easy Wither Call
 
 By `Benoit Viguier <https://phpc.social/@b_viguier>`_
 
+.. image:: ../images/easy_wither.png
+
 Can be useful to create "with-ers" in an immutable (value) object with a LOT of readonly properties.
 
 '+' is the addition of arrays, the first values have priority.
@@ -32,8 +34,6 @@ Can be useful to create "with-ers" in an immutable (value) object with a LOT of 
 get_defined_vars() gets the local variables, with their name, unlike func_get_args().
 
 Valid in PHP 8.1, with support for variadic and named keys.
-
-.. image:: ../images/easy_wither.png
 
 See Also
 ________

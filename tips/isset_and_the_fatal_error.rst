@@ -23,6 +23,8 @@ isset() And The Fatal Error
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html","name":"isset() And The Fatal Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Sep 2025 18:13:08 +0000","dateModified":"Mon, 15 Sep 2025 18:13:08 +0000","description":"isset() checks if a variable exists","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/isset_and_the_fatal_error.png
+
 isset() checks if a variable exists. By extension, it also checks array elements, object properties etc. As the check is performed, any attempt to access an undefined part of the expression is muted: this makes total sense. 
 
 For example, if one of the intermediate expression is an integer, it is not possible to access it with an array syntax, unlike an array or a string. Such access is a warning when used outside isset(), but is silent inside the isset(). 
@@ -36,8 +38,6 @@ The reverse is not true: accessing an array with a object syntax yields a null a
 All this also applies to empty().
 
 A change of behavior was suggested for PHP 8.5, but was down voted. May be in PHP 8.6?
-
-.. image:: ../images/isset_and_the_fatal_error.png
 
 See Also
 ________

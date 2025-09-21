@@ -23,11 +23,11 @@ Variable Creation
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html","name":"Variable Creation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 07:46:12 +0000","dateModified":"Fri, 04 Jul 2025 07:46:12 +0000","description":"When defining a closure, the lexical variables (in the ``use`` clause) are created immediately, with the default value of NULL","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/variable_creation.png
+
 When defining a closure, the lexical variables (in the ``use`` clause) are created immediately, with the default value of NULL. The closure is executed later, and then, the value of the lexical variable is changed.
 
 When creating an anonymous object, the constructor is immediately executed: hence, the argument with reference is created, then inited with ``[]`` and immediately available.
-
-.. image:: ../images/variable_creation.png
 
 See Also
 ________

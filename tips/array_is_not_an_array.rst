@@ -23,13 +23,13 @@ array Is Not An Array
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_not_an_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_not_an_array.html","name":"array Is Not An Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 12 May 2025 04:35:47 +0000","dateModified":"Mon, 12 May 2025 04:35:47 +0000","description":"PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\\``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_not_an_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/array_is_not_an_array.png
+
 PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\``. Such code get hit with a ``Type declaration ‘\int’ must be unqualified``.
 
 This is the case for all of the PHP native types, except for ``array``, and ``iterable``.
 
 That error message is really hilarious.
-
-.. image:: ../images/array_is_not_an_array.png
 
 See Also
 ________

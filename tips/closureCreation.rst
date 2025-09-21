@@ -23,6 +23,8 @@ Time Of Closure Creation
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closureCreation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closureCreation.html","name":"Time Of Closure Creation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Sep 2025 17:27:17 +0000","dateModified":"Fri, 19 Sep 2025 17:27:17 +0000","description":"Here are four ways to create a closure : a callable array, an arrow function, a first class callable, and a static method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closureCreation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/closureCreation.png
+
 Here are four ways to create a closure : a callable array, an arrow function, a first class callable, and a static method. All of them produce the same feature. Here, we focus on the time of checks.
 
 The callable array only collect the variables: the check on these values happen at call time.
@@ -34,8 +36,6 @@ The first class callable checks for the values, reports a failing call to the no
 The static method ``Closure::fromCallable()`` also checks the values at its execution time (not the resulting closure's), and yield a more sensible error message: ``ailed to create closure from callable: class stdClass does not have a method "foo"``.
 
 Which one is your favorite?
-
-.. image:: ../images/closureCreation.png
 
 See Also
 ________

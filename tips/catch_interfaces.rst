@@ -23,9 +23,9 @@ Catch On Interfaces
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/catch_interfaces.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/catch_interfaces.html","name":"Catch On Interfaces","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 23 Jun 2025 20:21:19 +0000","dateModified":"Mon, 23 Jun 2025 20:21:19 +0000","description":"Exceptions can be caught using their interfaces rather than their specific class names or parent classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/catch_interfaces.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Exceptions can be caught using their interfaces rather than their specific class names or parent classes. This introduces polymorphism to exception handling, allowing the same exception to be caught in multiple ways. By targeting interfaces, developers gain flexibility in managing errors, especially when different exception types share common behavior defined by a shared interface.
-
 .. image:: ../images/catch_interfaces.png
+
+Exceptions can be caught using their interfaces rather than their specific class names or parent classes. This introduces polymorphism to exception handling, allowing the same exception to be caught in multiple ways. By targeting interfaces, developers gain flexibility in managing errors, especially when different exception types share common behavior defined by a shared interface.
 
 See Also
 ________

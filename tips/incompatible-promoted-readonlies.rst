@@ -23,6 +23,8 @@ Incompatible Promoted Readonlies
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html","name":"Incompatible Promoted Readonlies","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 04 Aug 2025 19:50:50 +0000","dateModified":"Mon, 04 Aug 2025 19:50:50 +0000","description":"Promoted properties allows the creation of properties directly from the constructor signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/incompatible-promoted-readonlies.png
+
 Promoted properties allows the creation of properties directly from the constructor signature.
 
 readonly properties are only written once, and cannot be written again.
@@ -32,8 +34,6 @@ When a promoted property is public or protected, it cannot be used in two constr
 This doesn't happen with private, which keeps the properties distinct in the class and its parent. This still may produce confusion.
 
 It is then possible to only use one promoted property definition, and skip that parameter in the other constructor; or make the second a simple parameter, rather than a promoted property.
-
-.. image:: ../images/incompatible-promoted-readonlies.png
 
 See Also
 ________

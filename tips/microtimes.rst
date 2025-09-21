@@ -23,11 +23,11 @@ Reading Micro-seconds
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/microtimes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/microtimes.html","name":"Reading Micro-seconds","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 26 Jun 2025 20:31:05 +0000","dateModified":"Thu, 26 Jun 2025 20:31:05 +0000","description":"There are different ways to access micro seconds in PHP : use the Datetime format of ``u``, which works with Datetime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/microtimes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/microtimes.png
+
 There are different ways to access micro seconds in PHP : use the Datetime format of ``u``, which works with Datetime. Or call the microtime() or hrtime() functions, with the true parameter.
 
 But don't use date(): although it has the same ``u`` formating letter, it never provides it.
-
-.. image:: ../images/microtimes.png
 
 See Also
 ________

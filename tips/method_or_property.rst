@@ -23,13 +23,13 @@ Method Or Property?
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/method_or_property.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/method_or_property.html","name":"Method Or Property?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 20 Feb 2025 15:38:11 +0000","dateModified":"Thu, 20 Feb 2025 15:38:11 +0000","description":"The first line is a simple call to the method ``foo``, on an object whose class is not show here: if this works, there is a method foo() in that class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/method_or_property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/method_or_property.png
+
 The first line is a simple call to the method ``foo``, on an object whose class is not show here: if this works, there is a method foo() in that class.
 
 The second line is a simple call to the property ``foo``, on an object whose class is not know (again): it has a property called ``foo``. Then, the result of that property, hopefully a string with a class name, or another object, is instantiated, without any arguments.
 
 The nuance is subtle.
-
-.. image:: ../images/method_or_property.png
 
 See Also
 ________

@@ -25,13 +25,13 @@ Datetime Object, And Years
 
 By `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
 
+.. image:: ../images/datetime_and_year.png
+
 In this code, 2 years are given to datetime, and handed back. Yet, they return the same value: 2024.
 
 Under the hood, PHP attempts to decode the number. Instead of recognizing a year, it recongnizes an hour. And, by default, it set the rest of the date to today. Later, when the date is formatted, the year becomes 2024.
 
 One piece of advice is to format the date to PHP's liking, or use the ``createFromFormat()`` method, which uses a provided format to decode the string.
-
-.. image:: ../images/datetime_and_year.png
 
 See Also
 ________

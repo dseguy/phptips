@@ -25,9 +25,9 @@ Cast A Closure To Array
 
 By `Saif Eddin Gmati <https://github.com/azjezz>`_
 
-TIL: ``(array) $obj`` will result in ``array<string, mixed>`` ( properties key/value pairs ), with the exception if ``$obj`` is Closure, where the result would be ``[$obj]``.
-
 .. image:: ../images/closure_to_array.png
+
+TIL: ``(array) $obj`` will result in ``array<string, mixed>`` ( properties key/value pairs ), with the exception if ``$obj`` is Closure, where the result would be ``[$obj]``.
 
 See Also
 ________

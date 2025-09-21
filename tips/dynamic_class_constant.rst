@@ -23,13 +23,13 @@ Dynamic Class Constant
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dynamic_class_constant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dynamic_class_constant.html","name":"Dynamic Class Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 04 Jun 2025 18:52:08 +0000","dateModified":"Wed, 04 Jun 2025 18:52:08 +0000","description":"It is not allowed to create dynamically a class constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dynamic_class_constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/dynamic_class_constant.png
+
 It is not allowed to create dynamically a class constant. The only way is to create a global constant, using the define() function.
 
 So, when there is a need for a dynamically created constant, the trick is to assign the class constant a global constant's value, and then, create the global constant.
 
 Of course, it is not possible to use that class constant until the global constant has been actually created.
-
-.. image:: ../images/dynamic_class_constant.png
 
 See Also
 ________

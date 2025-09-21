@@ -23,11 +23,11 @@ Recursive Closure
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html","name":"Recursive Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 07 Jun 2025 06:23:27 +0000","dateModified":"Sat, 07 Jun 2025 06:23:27 +0000","description":"To make a recursive closure, the closure must be both stored in a variable and passed as a ``use`` parameter to the same factorial","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/recursive_closure.png
+
 To make a recursive closure, the closure must be both stored in a variable and passed as a ``use`` parameter to the same factorial.
 
 It also works for arrow functions, although there is no the use, but the variable must be defined first, so it can be used in context later.
-
-.. image:: ../images/recursive_closure.png
 
 See Also
 ________

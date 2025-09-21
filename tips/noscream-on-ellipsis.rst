@@ -23,6 +23,8 @@ Noscream On Ellipsis
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html","name":"Noscream On Ellipsis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 09 Jun 2025 19:46:13 +0000","dateModified":"Mon, 09 Jun 2025 19:46:13 +0000","description":"Noscream operator @ hides errors locally, in an expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/noscream-on-ellipsis.png
+
 Noscream operator @ hides errors locally, in an expression. Variadic ``...`` spreads the elements of an array.
 
 What happens when the two are mixed?
@@ -32,8 +34,6 @@ What happens when the two are mixed?
 @ doesn't work on operators, so it is not possible to put it before the ellipsis, without a compilation error.
 
 Finally, the syntax ``@...@`` would be definitely cool. Crazy, but cool. Don't use it.
-
-.. image:: ../images/noscream-on-ellipsis.png
 
 See Also
 ________

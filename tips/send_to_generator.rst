@@ -25,13 +25,13 @@ Send An Argument To Generator
 
 By `Rahul Chavan <https://twitter.com/rcsofttech85>`_
 
+.. image:: ../images/send_to_generator.png
+
 When calling the method send() on a PHP generator, the result of the first yield keyword is the argument value. Then, it can be used to yield a specific result.
 
 Upon usage on a foreach(), that generator will generate 2 values.
 
 Generator::send() only accepts one argument.
-
-.. image:: ../images/send_to_generator.png
 
 See Also
 ________

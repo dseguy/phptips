@@ -23,6 +23,8 @@ When Space Matters
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html","name":"When Space Matters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 20:13:54 +0000","dateModified":"Sun, 03 Aug 2025 20:13:54 +0000","description":"The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/when_space_matters.png
+
 The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation.
 
 The third and fourth ones are a syntax error, because PHP starts interpreting a float, but fail to get the decimal part.
@@ -30,8 +32,6 @@ The third and fourth ones are a syntax error, because PHP starts interpreting a 
 Finally, the last echo is valid, because PHP managed to build a float, so it doesn't mistake the second point with another float, and use it as a concatenation.
 
 Some edge cases of white space matters in the syntax.
-
-.. image:: ../images/when_space_matters.png
 
 See Also
 ________

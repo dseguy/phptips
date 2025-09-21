@@ -23,13 +23,13 @@ list() Does Not Type
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/list_does_not_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/list_does_not_type.html","name":"list() Does Not Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Jun 2025 20:11:33 +0000","dateModified":"Fri, 27 Jun 2025 20:11:33 +0000","description":"The list() command does not report that the type of the right operand is not correct","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/list_does_not_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/list_does_not_type.png
+
 The list() command does not report that the type of the right operand is not correct. It is then possible to use ``list()`` with integers, string or boolean, and obtain ``null`` values for all variables.
 
 On the other hand, ``list()`` does complain if the right hand array does not contain enough values to fit the number of variables. It also produces a Fatal error with an object, because an object cannot be used as an array.
 
 Finally, ``list()`` does not compile with an ellipsis ``...`` on the right side. To convert a ``Generator`` into a list of variables, one need to use ``iterator_to_array()`` first.
-
-.. image:: ../images/list_does_not_type.png
 
 See Also
 ________

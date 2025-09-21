@@ -25,6 +25,8 @@ Abstract Constants
 
 By `WebSmithery <https://stackoverflow.com/users/2519523/websmithery>`_
 
+.. image:: ../images/abstract_constant.png
+
 There's a pretty common pattern to declare "abstract class constants" in PHP.
 
 
@@ -34,8 +36,6 @@ PHP lazy loading will prevent the error "Fatal error: Uncaught Error: Cannot dec
 
 
 This makes an effective 'abstract constant', that must be defined to be usable.
-
-.. image:: ../images/abstract_constant.png
 
 See Also
 ________

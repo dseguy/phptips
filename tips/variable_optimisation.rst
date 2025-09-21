@@ -23,6 +23,8 @@ No Warning For Unused Variables
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html","name":"No Warning For Unused Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 04 Aug 2025 18:16:23 +0000","dateModified":"Mon, 04 Aug 2025 18:16:23 +0000","description":"PHP variable optimisation in action: the undefined variables are only reported when they are used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/variable_optimisation.png
+
 PHP variable optimisation in action: the undefined variables are only reported when they are used.
 
 
@@ -34,8 +36,6 @@ The second is skipped : no need to execute the second term of the ``or``.
 The third is reporting a warning.
 
 Of course, an assignation is not reported with an undefined variable, as it will be set. Although, may be reusage of a variable could be reported.
-
-.. image:: ../images/variable_optimisation.png
 
 See Also
 ________

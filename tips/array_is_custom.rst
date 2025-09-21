@@ -23,6 +23,8 @@
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_custom.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_custom.html","name":"\\\\array Was Customizable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 04 Aug 2025 18:22:34 +0000","dateModified":"Mon, 04 Aug 2025 18:22:34 +0000","description":"This code gathers several PHP hacks together","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_custom.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/array_is_custom.png
+
 This code gathers several PHP hacks together.
 
 First, the naming of an anonymous class, and this time, it is renamed as ``\array``.
@@ -36,8 +38,6 @@ Now, there is something that looks like an array, but is actually a random objec
 This is a bug, since other PHP native types, like ``int`` disallow usage of their absolute name.
 
 This was reported as a bug, and fixed in PHP 8.4. Thanks!.
-
-.. image:: ../images/array_is_custom.png
 
 See Also
 ________

@@ -23,9 +23,9 @@ Coalesce And Assignation
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/coalesce_and_assignation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/coalesce_and_assignation.html","name":"Coalesce And Assignation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 23 Jun 2025 20:13:08 +0000","dateModified":"Mon, 23 Jun 2025 20:13:08 +0000","description":"The coalesce operator has lower precedence than assignment, meaning the assignment occurs first","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/coalesce_and_assignation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-The coalesce operator has lower precedence than assignment, meaning the assignment occurs first. Essentially, it behaves like parentheses: the right-hand expression is evaluated and stored in the variable, and then that stored value is used in the coalesce operation. This order of execution ensures the variable holds the evaluated result before it's processed by the coalesce logic.
-
 .. image:: ../images/coalesce_and_assignation.png
+
+The coalesce operator has lower precedence than assignment, meaning the assignment occurs first. Essentially, it behaves like parentheses: the right-hand expression is evaluated and stored in the variable, and then that stored value is used in the coalesce operation. This order of execution ensures the variable holds the evaluated result before it's processed by the coalesce logic.
 
 See Also
 ________

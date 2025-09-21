@@ -23,11 +23,11 @@ Static Properties
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_properties.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_properties.html","name":"Static Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 20 Feb 2025 15:38:11 +0000","dateModified":"Thu, 20 Feb 2025 15:38:11 +0000","description":"It is easy to read that the property ``$x`` is of type ``Test`` (via static), with an impossible default value of 0","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/static_properties.png
+
 It is easy to read that the property ``$x`` is of type ``Test`` (via static), with an impossible default value of 0. In fact, this property is not typed, as using ``static`` is not a possible type for properties.
 
 Secondly, static properties are inherited and shared with the parent static properties, unless they are declared again. In that case, they are distinct.
-
-.. image:: ../images/static_properties.png
 
 See Also
 ________

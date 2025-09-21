@@ -23,13 +23,13 @@ Run Any Script In A Phar
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/run_any_phar_file.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/run_any_phar_file.html","name":"Run Any Script In A Phar","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 18 May 2025 14:52:19 +0000","dateModified":"Sun, 18 May 2025 14:52:19 +0000","description":"It is not possible to call directly a PHP script stored in a Phar archive: the only way to reach it, is using ``include 'phar:\/\/$path'``, where PHP understands the ``phar:\/\/`` protocol","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/run_any_phar_file.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/run_any_phar_file.png
+
 It is not possible to call directly a PHP script stored in a Phar archive: the only way to reach it, is using ``include 'phar://$path'``, where PHP understands the ``phar://`` protocol.
 
 And that makes it possible to call directly a PHP script from the shell: include it directly.
 
 In terms of security, it is important to remember that a PHAR is an archive, and anything may be accessed or extracted.
-
-.. image:: ../images/run_any_phar_file.png
 
 See Also
 ________

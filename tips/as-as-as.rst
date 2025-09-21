@@ -23,13 +23,13 @@ As As As
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/as-as-as.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/as-as-as.html","name":"As As As","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 11 May 2025 20:11:04 +0000","dateModified":"Sun, 11 May 2025 20:11:04 +0000","description":"1) it is possible to call a method 'as', because relaxed keywords PHP methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/as-as-as.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/as-as-as.png
+
 1) it is possible to call a method 'as', because relaxed keywords PHP methods
 
 2) it is possible to import a method from a trait, and alias it to itself.
 
 It is possible to write 'as as as ' in PHP and make sense.
-
-.. image:: ../images/as-as-as.png
 
 See Also
 ________

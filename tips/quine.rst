@@ -23,11 +23,11 @@ PHP Quine
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html","name":"PHP Quine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 04 Aug 2025 19:47:33 +0000","dateModified":"Mon, 04 Aug 2025 19:47:33 +0000","description":"A quine is a piece of code that produces itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/quine.png
+
 A quine is a piece of code that produces itself. It takes not input, and outputs a text that is its own code. The code is run to produce itself.
 
 One may consider a file without PHP tags as a Quine: PHP executes such code by outputing the raw text. It is considered valid, yet too easy to be a quine.
-
-.. image:: ../images/quine.png
 
 See Also
 ________

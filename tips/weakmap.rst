@@ -25,11 +25,11 @@ Weakmap And Enums
 
 By `Dmitri Goosens <https://phpc.social/@dgoosens>`_
 
+.. image:: ../images/weakmap.png
+
 Have been reminded by a fellow PHP dev that, instead of a simple array, one could also use ``WeakMap``...
 
 Nice thing with this is that it is a real dictionary... and that it accepts objects as keys... and this includes ``Enum::case``.
-
-.. image:: ../images/weakmap.png
 
 See Also
 ________

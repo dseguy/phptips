@@ -23,11 +23,11 @@ Keys Are Integers Whenever Possible
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html","name":"Keys Are Integers Whenever Possible","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Jun 2025 08:26:51 +0000","dateModified":"Sat, 28 Jun 2025 08:26:51 +0000","description":"Array keys are only strings or integers: the later has priority","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/keys_are_integers.png
+
 Array keys are only strings or integers: the later has priority. So, when storing a string that can be converted to an integer, PHP does the conversion automatically.
 
 In the case displayed, the keys are French zip codes, which might start with a leading ``0``. But PHP converts it into integer, and drops that leading ``0``. The value is still correctly indexed, but now, the string representation has changed.
-
-.. image:: ../images/keys_are_integers.png
 
 See Also
 ________

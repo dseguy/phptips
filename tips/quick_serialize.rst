@@ -25,11 +25,11 @@ Quick Serialize
 
 By `Doeke Norg <https://twitter.com/doekenorg>`_
 
+.. image:: ../images/quick_serialize.png
+
 Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects? This can be very useful when (un)serializing objects.
 
 PS : accessing uninitialized properties leads to a Fatal error. This trick avoids it.
-
-.. image:: ../images/quick_serialize.png
 
 See Also
 ________

@@ -23,6 +23,8 @@ Call Function With Strings
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call_function_with_strings.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call_function_with_strings.html","name":"Call Function With Strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 10 Jun 2025 12:04:19 +0000","dateModified":"Tue, 10 Jun 2025 12:04:19 +0000","description":"Usually, a function is called with its name as first element of the syntax","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call_function_with_strings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/call_function_with_strings.png
+
 Usually, a function is called with its name as first element of the syntax.
 
 And it is also possible to use a string, either in a variable or directly as a literal. This means that adding single or double quotes to the name of a function is still a valid syntax.
@@ -32,8 +34,6 @@ Of course, there is still the left over binary string of PHP 6, so it is also po
 Then, the double quoted strings accepts interpolated variables, to make the call dynamic.
 
 Finally, it is not possible to use the HereDoc syntax, as parenthesis are not allowed directly after the closing tag.
-
-.. image:: ../images/call_function_with_strings.png
 
 See Also
 ________

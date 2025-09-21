@@ -23,6 +23,8 @@ Checking For Names At Different Times
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/check_for_names.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/check_for_names.html","name":"Checking For Names At Different Times","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 04 Aug 2025 19:49:49 +0000","dateModified":"Mon, 04 Aug 2025 19:49:49 +0000","description":"PHP lint detects early to avoid ``redeclared functions``, based on the local PHP executable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/check_for_names.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/check_for_names.png
+
 PHP lint detects early to avoid ``redeclared functions``, based on the local PHP executable.
 
 ``php -l => Cannot redeclare mb_substr()``.
@@ -32,8 +34,6 @@ That detection doesn't apply to CITE until execution.
 ``php => Cannot declare class stdClass``
 
 because the name is already in use``. This is a difference in processing similar information, which may cause late surprises.
-
-.. image:: ../images/check_for_names.png
 
 See Also
 ________

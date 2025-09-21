@@ -23,6 +23,8 @@ self Is A Valid Type On A Closure
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html","name":"self Is A Valid Type On A Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 20:17:03 +0000","dateModified":"Sun, 03 Aug 2025 20:17:03 +0000","description":"``self`` is a valid type inside a class (trait, interface, enum) to reference the current class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/selfOnAClosure.png
+
 ``self`` is a valid type inside a class (trait, interface, enum) to reference the current class. ``self`` may also be used with a closure, since the closure use its location of definition. The class name may be exported that way, and instantiated outside the original class.
 
 This applies to ``static`` and ``parent`` too. Try it wit ``static`` for extra fun.
@@ -32,8 +34,6 @@ This tips also applies when the closure is made static, although it might be sur
 This tip applies to arrow functions.
 
 This tip does not applies to functions created in a class (ugh...).
-
-.. image:: ../images/selfOnAClosure.png
 
 See Also
 ________

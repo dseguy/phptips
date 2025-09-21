@@ -25,6 +25,8 @@ Lots Of Silly Arguments
 
 By `Greg Korba <https://twitter.com/_Codito_>`_
 
+.. image:: ../images/self_invoking.png
+
 PHP 8.4 drops the requirement of parenthesis around the new operator: it is possible to directly call a method on it.
 
 Then, it is also possible to use an object as a method, by creating the __invoke() magic method. In this case, it returns a new instance of the class.
@@ -32,8 +34,6 @@ Then, it is also possible to use an object as a method, by creating the __invoke
 Finally, it is possible to call a function whose name is the result of a previous call.
 
 The final result is quite impressive.
-
-.. image:: ../images/self_invoking.png
 
 See Also
 ________

@@ -23,11 +23,11 @@ An Elephpant In The Code
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html","name":"An Elephpant In The Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 10 Jun 2025 14:35:22 +0000","dateModified":"Tue, 10 Jun 2025 14:35:22 +0000","description":"When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/elephpant.png
+
 When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least.
 
 The unicode for an elephant is ``128024`` or ``0x1F418``. It canbie used directly inside a string, or with the ``mb_chr()`` function, and not with the ``chr`` function, which is only handling a single byte.
-
-.. image:: ../images/elephpant.png
 
 See Also
 ________

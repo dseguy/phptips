@@ -23,11 +23,11 @@ Relaxed Syntax With Const
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html","name":"Relaxed Syntax With Const","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 20:17:40 +0000","dateModified":"Sun, 03 Aug 2025 20:17:40 +0000","description":"Relaxed syntax is the possibility to use PHP keywords as method or class constant names","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/relaxed_syntax_with_const.png
+
 Relaxed syntax is the possibility to use PHP keywords as method or class constant names. This leads to funny expressions, that look like something else.
 
 The only forbidden keyword is ``class``, as it is used to report the name of the current class.
-
-.. image:: ../images/relaxed_syntax_with_const.png
 
 See Also
 ________

@@ -23,6 +23,8 @@ Coalesce And The Fatal Error
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html","name":"Coalesce And The Fatal Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 20:00:20 +0000","dateModified":"Thu, 18 Sep 2025 20:00:20 +0000","description":"The coalesce operator is based on the ``isset()`` feature of PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/fatal_error_on_coalesce.png
+
 The coalesce operator is based on the ``isset()`` feature of PHP. As such, it is prone to the same issues. This is the case with a sneaky fatal error.
 
 Usually, coalesce hide any existence check on the left operand: that way, the default value may be used without a noisy warning. This does not apply when trying to check an array index on an object: it actually yields a fatal error.
@@ -30,8 +32,6 @@ Usually, coalesce hide any existence check on the left operand: that way, the de
 Such situation is usually rare, as the structure of the variable is usually known to some extend. On the other hand, using ``??`` on the result of an unstructure dataset, such as from a ``JSON`` or ``YAML`` (or else), it becomes far more hazardous.
 
 Note that ``json_decode()`` has an option to generate an object or an array. In such situation, it is safer to generate an array, which does not yield fatal errors. It might also be faster to run.
-
-.. image:: ../images/fatal_error_on_coalesce.png
 
 See Also
 ________

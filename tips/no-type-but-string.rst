@@ -25,11 +25,11 @@ No Returntype But Still, Only String
 
 By `Fred Bouchery <https://bsky.app/profile/bouchery.fr>`_
 
+.. image:: ../images/no-type-but-string.png
+
 Without a return type (or mixed), a method may return any type of data. This is not the case for the magic method ``__toString``, as it really should return a string. So, even without a return type, it complains about the type.
 
 That trick requires ``strict_types`` though.
-
-.. image:: ../images/no-type-but-string.png
 
 See Also
 ________

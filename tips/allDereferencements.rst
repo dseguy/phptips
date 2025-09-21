@@ -23,6 +23,8 @@ All PHP Dereferencements
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html","name":"All PHP Dereferencements","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 20:04:03 +0000","dateModified":"Thu, 18 Sep 2025 20:04:03 +0000","description":"This ugly expression holds a long list of operators to move from one value to the other and produces the simple letter 'c'","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/allDereferencements.png
+
 This ugly expression holds a long list of operators to move from one value to the other and produces the simple letter 'c'. Can you recognize them all?
 
 First ``::`` is a static constant, with its class on the left, and constant on the right.
@@ -44,8 +46,6 @@ The enumeration ``F`` is backed by a string, so this automatically introduces pr
 Finally, ``value`` produces a string, and strings accept the array syntax. ``[$c]`` is actually ``[2]``, as ``$c`` was assigned the value ``2``, and this was done at bit earlier in the expression.
 
 At the end, there is one of the most convoluted literal ``c`` character.
-
-.. image:: ../images/allDereferencements.png
 
 See Also
 ________

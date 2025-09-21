@@ -23,13 +23,13 @@ Class And Constant Confusion
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_and_constants.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_and_constants.html","name":"Class And Constant Confusion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 12 May 2025 04:37:54 +0000","dateModified":"Mon, 12 May 2025 04:37:54 +0000","description":"Class names and global constant names are two distinct name spaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_and_constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/class_and_constants.png
+
 Class names and global constant names are two distinct name spaces. It is possible to use the name of a class as a constant.
 
 It is also possible to instanciate a class with a constant notation: that is, by omitting the parenthesis in the new call, when no arguments are needed.
 
 This allows for very confusing lines like these ones.
-
-.. image:: ../images/class_and_constants.png
 
 See Also
 ________

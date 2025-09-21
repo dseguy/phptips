@@ -23,11 +23,11 @@ Yield, Not Return By Reference
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return_by_reference.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return_by_reference.html","name":"Yield, Not Return By Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 Aug 2025 17:36:45 +0000","dateModified":"Wed, 06 Aug 2025 17:36:45 +0000","description":"When a method returns a reference, there is a ``&`` before its name, in the signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return_by_reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/yield_not_return_by_reference.png
+
 When a method returns a reference, there is a ``&`` before its name, in the signature. This means that the function must return a variable, or a property, and not a literal value.
 
 When the same ``&`` is added on a generator, this now means that the yielded values are by reference. On the other hand, the returned value mat be a literal value, without generating a warning.
-
-.. image:: ../images/yield_not_return_by_reference.png
 
 See Also
 ________

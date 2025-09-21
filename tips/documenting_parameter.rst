@@ -23,11 +23,11 @@ Documenting Parameters
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/documenting_parameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/documenting_parameter.html","name":"Documenting Parameters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Jun 2025 19:51:11 +0000","dateModified":"Wed, 11 Jun 2025 19:51:11 +0000","description":"Sometimes, even a literal value used as parameter is not readable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/documenting_parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/documenting_parameter.png
+
 Sometimes, even a literal value used as parameter is not readable. An easy way to document the literal values is to provide the name of the paramter. Since the parameters need a smart name to be used in the method, using it in the method call provides more context to the parameter.
 
 Another option is to make that literal value a constant, and use that constant to provide a readable name.
-
-.. image:: ../images/documenting_parameter.png
 
 See Also
 ________

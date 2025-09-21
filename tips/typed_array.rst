@@ -25,9 +25,9 @@ Typed Array
 
 By `• Kartoffeljunge • <https://bsky.app/profile/devatreides.bsky.social>`_
 
-It is possible to set the type of all elements in a variadic: this is equivalent of passing an argument of type ``array<User>``. That way, all the elements in the array must have the expected type. Use union-type to make have several distinct types.
-
 .. image:: ../images/typed_array.png
+
+It is possible to set the type of all elements in a variadic: this is equivalent of passing an argument of type ``array<User>``. That way, all the elements in the array must have the expected type. Use union-type to make have several distinct types.
 
 See Also
 ________

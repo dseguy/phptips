@@ -23,6 +23,8 @@ Cancelling Native Function
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cancelling_native_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cancelling_native_function.html","name":"Cancelling Native Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 02 Jun 2025 18:27:22 +0000","dateModified":"Mon, 02 Jun 2025 18:27:22 +0000","description":"PHP native functions are part of the global scope","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cancelling_native_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/cancelling_native_function.png
+
 PHP native functions are part of the global scope. In a custom namespace, the local definition of a function has priority. And when this fails, PHP fallbacks to the global space. This is a backward compatibility process, that prevents developer from adding ALL native PHP functions as a ``use`` expression in every file. This would be long, boring and a performance boost.
 
 To cancel a PHP native function, such as ``print_r`` or ``var_dump``, the trick is to create a definition of that function in the same namespace. It is then used with precedence, and may be prevented from having any impact.
@@ -30,8 +32,6 @@ To cancel a PHP native function, such as ``print_r`` or ``var_dump``, the trick 
 This would be different from using the ``disable_functions``: then, the function undefined, and shall be defined again, in the global namespace, to be properly neutralized.
 
 This trick does not work with classes.
-
-.. image:: ../images/cancelling_native_function.png
 
 See Also
 ________

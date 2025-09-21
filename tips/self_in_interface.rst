@@ -23,9 +23,9 @@ Self In An Interface
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_in_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_in_interface.html","name":"Self In An Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 09 Jun 2025 20:02:13 +0000","dateModified":"Mon, 09 Jun 2025 20:02:13 +0000","description":"The keyword self in an interface represente that interface: it does not represent the host class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_in_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-The keyword self in an interface represente that interface: it does not represent the host class. Hence, using self as return type means that the method must return an object that implements the type ``i``, not of the host class.
-
 .. image:: ../images/self_in_interface.png
+
+The keyword self in an interface represente that interface: it does not represent the host class. Hence, using self as return type means that the method must return an object that implements the type ``i``, not of the host class.
 
 See Also
 ________

@@ -23,11 +23,11 @@ Abstract Again
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_again.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_again.html","name":"Abstract Again","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 04 Aug 2025 19:47:16 +0000","dateModified":"Mon, 04 Aug 2025 19:47:16 +0000","description":"A concrete class may have an abstract child: the child class extends the parent class, and also receives the abstract option","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_again.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/abstract_again.png
+
 A concrete class may have an abstract child: the child class extends the parent class, and also receives the abstract option.
 
 On the other hand, a concrete method, inside any kind of class, cannot be made abstract in a child. The child class can be made abstract, and new methods can be made abstract. But the existing methods cannot be turned back to abstract.
-
-.. image:: ../images/abstract_again.png
 
 See Also
 ________

@@ -1,6 +1,10 @@
 Error Message index
 -------------------
 
+* Array callback has to contain indices 0 and 1
+    * :ref:`array-callaback-index`
+* Array callback must have exactly two elements
+    * :ref:`array-callaback-index`
 * Cannot access offset of type A on array
     * :ref:`no-force-object-to-string`
 * Cannot assign %s to property %s::$%s of type %s

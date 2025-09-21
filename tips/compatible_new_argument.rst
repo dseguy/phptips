@@ -25,11 +25,11 @@ Keep Interface New Argument Compatible
 
 By `Jerome Tamarelle <https://bsky.app/profile/jerome.tamarelle.net>`_
 
+.. image:: ../images/compatible_new_argument.png
+
 A reminder for maintainers of PHP libraries: adding a parameter to a method of an interface causes a fatal error in all the classes that implement it. It's a BC break that should be prohibed in a minor version.
 
 In Symfony, we add the parameter virtually using phpdoc, and read it using func_get_arg().
-
-.. image:: ../images/compatible_new_argument.png
 
 See Also
 ________

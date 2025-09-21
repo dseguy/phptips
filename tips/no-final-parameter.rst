@@ -23,11 +23,11 @@ No Final Parameter
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-final-parameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-final-parameter.html","name":"No Final Parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 20:03:16 +0000","dateModified":"Thu, 18 Sep 2025 20:03:16 +0000","description":"Final is reserved for class elements, such as property, methods and constants","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-final-parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/no-final-parameter.png
+
 Final is reserved for class elements, such as property, methods and constants. They do not apply to parameters, unless the parameter is a promoted property, in the constructor signature.
 
 In that case, the property cannot be declared in the constructor, and must be declared independently, or without the final key word.
-
-.. image:: ../images/no-final-parameter.png
 
 See Also
 ________

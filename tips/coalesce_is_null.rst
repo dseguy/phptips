@@ -23,6 +23,8 @@ Coalesce And Null
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/coalesce_is_null.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/coalesce_is_null.html","name":"Coalesce And Null","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 29 Apr 2025 20:55:15 +0000","dateModified":"Tue, 29 Apr 2025 20:55:15 +0000","description":"I'm still struggling to pick a side in this debate","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/coalesce_is_null.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/coalesce_is_null.png
+
 I'm still struggling to pick a side in this debate.
 
 
@@ -38,8 +40,6 @@ I'm still struggling to pick a side in this debate.
 the if() command is long to type.
 
 Is there another way to handle this issue?
-
-.. image:: ../images/coalesce_is_null.png
 
 See Also
 ________

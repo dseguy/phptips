@@ -23,6 +23,8 @@ Negating An Assignation
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/negating_a_variable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/negating_a_variable.html","name":"Negating An Assignation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Jun 2025 14:16:26 +0000","dateModified":"Sat, 28 Jun 2025 14:16:26 +0000","description":"I always wondered why PHP allows to ``NOT`` a variable on the LEFT side of an assignation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/negating_a_variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/negating_a_variable.png
+
 I always wondered why PHP allows to ``NOT`` a variable on the LEFT side of an assignation.
 
 It makes sense with an iffectation (an assignation within an if)
@@ -30,8 +32,6 @@ It makes sense with an iffectation (an assignation within an if)
 I'm sure other such expressions are possible, with unary operators.
 
 Definitely not for me, for readability reasons; same as ``!$o instanceof X``.
-
-.. image:: ../images/negating_a_variable.png
 
 See Also
 ________

@@ -23,6 +23,8 @@ Get $this In A Static
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html","name":"Get $this In A Static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 24 Mar 2025 18:40:03 +0000","dateModified":"Mon, 24 Mar 2025 18:40:03 +0000","description":"A static method does not have access to the current object, by definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/static_get_this.png
+
 A static method does not have access to the current object, by definition.
 
 
@@ -36,8 +38,6 @@ But when a static method calls a non-static method, an error is produced:  Non-s
 
 
 Finally, calling statically a non-static method still defines ``$this`` in the target method. Static is the nature of the method, not the call.
-
-.. image:: ../images/static_get_this.png
 
 See Also
 ________

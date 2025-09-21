@@ -25,6 +25,8 @@ class_exists() With Enums
 
 By `Jan Nedbal <https://janedbal.cz/>`_
 
+.. image:: ../images/enum_exists.png
+
 In PHP, there is:
 
 - ``class_exists()``
@@ -42,8 +44,6 @@ What would the code here produce?
 
 
 This is displaying true. Enumerations are considered as classes, even as they have some limitations compared to normal classes.
-
-.. image:: ../images/enum_exists.png
 
 See Also
 ________

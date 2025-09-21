@@ -25,6 +25,8 @@ Compatible Signature
 
 By `Christian Lück <https://x.com/another_clue>`_
 
+.. image:: ../images/compatible-signature.png
+
 This piece of code shows a signature that changes with the version of PHP.
 
 Indeed, in PHP 7.x, the comment starts with ``#`` and goes to the end of the line. This also covers the ``/*`` so the multilign comment doesn't start, and the ``__invoke`` signature is the second one.
@@ -32,8 +34,6 @@ Indeed, in PHP 7.x, the comment starts with ``#`` and goes to the end of the lin
 In PHP 8.0, the attributes ``#[PHP8]`` ends with its closing square bracket, and the signature of ``__invoke`` starts. By the end of the line, a multi-line comments starts, and covers the whole second line.
 
 In the end, this code stays unchanged between PHP versions, although it toggles different signatures.
-
-.. image:: ../images/compatible-signature.png
 
 See Also
 ________

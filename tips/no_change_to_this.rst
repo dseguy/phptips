@@ -25,9 +25,9 @@ No Change To $this
 
 By `Ondrej Mirtes <https://twitter.com/OndrejMirtes>`_
 
-Variable ``$this`` is passed and reassigned by reference is a noop, as opposed to all other variables. I'd expect an error to be honest.
-
 .. image:: ../images/no_change_to_this.png
+
+Variable ``$this`` is passed and reassigned by reference is a noop, as opposed to all other variables. I'd expect an error to be honest.
 
 See Also
 ________

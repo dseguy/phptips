@@ -23,11 +23,11 @@ foreach() With All The Same Keys
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/foreach_same_keys.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/foreach_same_keys.html","name":"foreach() With All The Same Keys","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Jun 2025 20:06:38 +0000","dateModified":"Fri, 27 Jun 2025 20:06:38 +0000","description":"It is possible for a foreach() loop to produce multiple times the same key","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/foreach_same_keys.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/foreach_same_keys.png
+
 It is possible for a foreach() loop to produce multiple times the same key. To do so, avoid using arrays, which enforce the unique key.
 
 One need to use a generator or a Traversable class, where the same key is always yielded.
-
-.. image:: ../images/foreach_same_keys.png
 
 See Also
 ________

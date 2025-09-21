@@ -23,6 +23,8 @@ Alias Conflicts
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/aliasConflicts.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/aliasConflicts.html","name":"Alias Conflicts","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 20:04:31 +0000","dateModified":"Thu, 18 Sep 2025 20:04:31 +0000","description":"When the class is defined before the alias, the alias fails as the class already uses the name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/aliasConflicts.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/aliasConflicts.png
+
 When the class is defined before the alias, the alias fails as the class already uses the name. When the class is defined after the alias, the class fails, although only if the class is in the same physical namespace block as the use.
 
 This illustration is good to show and tell, but in real life, it never happens. On the contrary, the classes and uses are in different files, and the order of loading is controller by code execution, via autoloading.
@@ -30,8 +32,6 @@ This illustration is good to show and tell, but in real life, it never happens. 
 This means that reusing a namespace's class name as an alias is prone to random failures, depending on the inclusions.
 
 As a side note, the use command does not need the definition of the original, until actual usage.
-
-.. image:: ../images/aliasConflicts.png
 
 See Also
 ________

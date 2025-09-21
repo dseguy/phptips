@@ -23,6 +23,8 @@ Fluent Function
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fluent_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fluent_function.html","name":"Fluent Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 23 Jun 2025 20:10:22 +0000","dateModified":"Mon, 23 Jun 2025 20:10:22 +0000","description":"A fluent interface allows the chaining of method calls","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fluent_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/fluent_function.png
+
 A fluent interface allows the chaining of method calls. It is a bit harder to do with functions, as there is no supporting object, but it is possible.
 
 Returning ``__FUNCTION__`` allows the subsequent call of the same function.
@@ -30,8 +32,6 @@ Returning ``__FUNCTION__`` allows the subsequent call of the same function.
 Returning a closure of itself is also possible, yet a bit more cumbersome, as ``__FUNCTION__`` is not recognized as a string for a function call.
 
 Thanks to Andreas Heigl for the inspiration.
-
-.. image:: ../images/fluent_function.png
 
 See Also
 ________

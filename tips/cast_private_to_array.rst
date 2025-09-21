@@ -25,9 +25,9 @@ Cast Private To Array
 
 By `Paul Shryock <https://phpc.social/@paulshryock>`_
 
-Today I learned that PHP exposes private properties when an object is cast to an array. 🤦.
-
 .. image:: ../images/cast_private_to_array.png
+
+Today I learned that PHP exposes private properties when an object is cast to an array. 🤦.
 
 See Also
 ________

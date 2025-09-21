@@ -23,13 +23,13 @@ Enum Are Not Linted
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_are_not_linted.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_are_not_linted.html","name":"Enum Are Not Linted","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Jun 2025 15:55:12 +0000","dateModified":"Mon, 16 Jun 2025 15:55:12 +0000","description":"It is possible to give two identical values to different enumeration cases, but not to execute it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_are_not_linted.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/enum_are_not_linted.png
+
 It is possible to give two identical values to different enumeration cases, but not to execute it.
 
 In PHP 8.1, duplicate case values generated a compilation error.
 
 Since PHP 8.2, it is now waiting for the execution stage and the first usage of the enumeration, to raise a fatal error.
-
-.. image:: ../images/enum_are_not_linted.png
 
 See Also
 ________

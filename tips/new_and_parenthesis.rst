@@ -23,6 +23,8 @@ The New And The Parenthesis
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_and_parenthesis.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_and_parenthesis.html","name":"The New And The Parenthesis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 26 Jun 2025 20:11:41 +0000","dateModified":"Thu, 26 Jun 2025 20:11:41 +0000","description":"Where does PHP accept parenthesis in a ``new`` call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_and_parenthesis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/new_and_parenthesis.png
+
 Where does PHP accept parenthesis in a ``new`` call?
 
 First, no parenthesis is possible, as long as the constructor has no parameter.
@@ -36,8 +38,6 @@ After that, there is a dynamic call, where the full name of the class is build, 
 And the last one is the constant version, with an explicit ``::class`` operator.
 
 Now, it would be great to have a syntax where the parenthesis are before the class name: no other language has that! So, for PHP 9, but more importantly: what for?
-
-.. image:: ../images/new_and_parenthesis.png
 
 See Also
 ________

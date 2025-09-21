@@ -23,9 +23,9 @@ namespace namespace
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_namespace.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_namespace.html","name":"namespace namespace","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 24 Mar 2025 18:55:40 +0000","dateModified":"Mon, 24 Mar 2025 18:55:40 +0000","description":"The only forbidden name for a namespace is ``namespace``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_namespace.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-The only forbidden name for a namespace is ``namespace``. Not only is it confusing, but also, that keyword is used later for prefixing names. The correct names follow the usual PHP regex, with a leading letter or underscore, followed by a list of alpha-numeric characters; unicode beyond 255 are also used.
-
 .. image:: ../images/namespace_namespace.png
+
+The only forbidden name for a namespace is ``namespace``. Not only is it confusing, but also, that keyword is used later for prefixing names. The correct names follow the usual PHP regex, with a leading letter or underscore, followed by a list of alpha-numeric characters; unicode beyond 255 are also used.
 
 See Also
 ________

@@ -23,13 +23,13 @@ compact() Is Recursive
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compact_is_recursive.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compact_is_recursive.html","name":"compact() Is Recursive","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 18 May 2025 21:01:57 +0000","dateModified":"Sun, 18 May 2025 21:01:57 +0000","description":"``compact()`` accepts an array of strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compact_is_recursive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/compact_is_recursive.png
+
 ``compact()`` accepts an array of strings... and arrays. It uses the available arguments recursively, yet produces an array with only one level: the deep nesting is lots at compacting type.
 
 In fact, if the variables are indeed available at compact() time, compact flattens the array, and turns it into a simple list.
 
 It also means that it is prone to recursive error.
-
-.. image:: ../images/compact_is_recursive.png
 
 See Also
 ________

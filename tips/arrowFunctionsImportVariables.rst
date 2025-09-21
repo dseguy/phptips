@@ -23,13 +23,13 @@ Arrow Functions Import Variables By Values
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html","name":"Arrow Functions Import Variables By Values","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 20:04:52 +0000","dateModified":"Thu, 18 Sep 2025 20:04:52 +0000","description":"Arrow functions automatically import the variables from the current context, to be used in its returned expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/arrowFunctionsImportVariables.png
+
 Arrow functions automatically import the variables from the current context, to be used in its returned expression. It is still possible to assign a variable in such situation, by using an assignation in the return statement.
 
 Yet, this does nothing, as the variable is imported by value, even when it is a reference in the first place. Hence, reading it access its value, but modifying it has no impact on the original context.
 
 If the reference is important, the alternative is to use a closure, with a reference in the ``use(&$a)`` clause.
-
-.. image:: ../images/arrowFunctionsImportVariables.png
 
 See Also
 ________

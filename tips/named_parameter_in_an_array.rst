@@ -23,11 +23,11 @@ Named Parameter In An Array
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_parameter_in_an_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_parameter_in_an_array.html","name":"Named Parameter In An Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 22 Apr 2025 17:50:38 +0000","dateModified":"Tue, 22 Apr 2025 17:50:38 +0000","description":"It is possible to spread the arguments from an array to a functioncall","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_parameter_in_an_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/named_parameter_in_an_array.png
+
 It is possible to spread the arguments from an array to a functioncall. It is also possible to use the keys to name the arguments, and have them in any order in the array, just like named parameters.
 
 It is possible since PHP 8.0, and was an unrelated error before.
-
-.. image:: ../images/named_parameter_in_an_array.png
 
 See Also
 ________

@@ -25,11 +25,11 @@ Named Sqlite3 In Memory
 
 By `archtechx <https://x.com/archtechx>`_
 
+.. image:: ../images/named_sqlite3_in_memory.png
+
 Sqlite3 allows the creation of ``memory`` databases: the database is not stored on the disk, but in memory. This is good for temporary data, that requires some SQL features.
 
 Then, by default, every instantiation of a Sqlite3 memory database provides the same database. Then, when using the command ``sqlite:file:foo:?mode=memory&cache=shared``, the memory database gets a name, and it is now possible to have distinct sqlite3 instances.
-
-.. image:: ../images/named_sqlite3_in_memory.png
 
 See Also
 ________

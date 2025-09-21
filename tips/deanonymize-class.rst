@@ -23,6 +23,8 @@ Deanonymize Class
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/deanonymize-class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/deanonymize-class.html","name":"Deanonymize Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Jun 2025 19:51:23 +0000","dateModified":"Wed, 11 Jun 2025 19:51:23 +0000","description":"Anonymize class are classes without a name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/deanonymize-class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/deanonymize-class.png
+
 Anonymize class are classes without a name. That way, it provides directly an object, but doesn't litter the namespace with an extra class name. 
 
 Later, if the code needs a second object of the same 'class', it has to go through the same code. 
@@ -32,8 +34,6 @@ Or, it is possible to get access to the 'hidden' definition of the class within 
 The sane alternative might be to simply give a name to the class, or make a direct clone of the object.
 
 And as usual, if that class is not under the code's own control (say, external lib), it might be useful though hackish.
-
-.. image:: ../images/deanonymize-class.png
 
 See Also
 ________

@@ -23,6 +23,8 @@ Typed Variables
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html","name":"Typed Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 20:01:35 +0000","dateModified":"Thu, 18 Sep 2025 20:01:35 +0000","description":"A local variable cannot be typed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/typed_variables.png
+
 A local variable cannot be typed.
 
 I mean, it may be typed at argument or return time, but not permanently, like a property.
@@ -30,8 +32,6 @@ I mean, it may be typed at argument or return time, but not permanently, like a 
 To create a typed variable, one may use a reference to a property. The property may be typed, and this constraint is extended to the variable, with a dedicated message.
 
 It works on static and normal properties. And it looks a bit cumbersome to use.
-
-.. image:: ../images/typed_variables.png
 
 See Also
 ________

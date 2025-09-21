@@ -23,6 +23,8 @@ Who Modifies This Property?
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/who_modifies_this.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/who_modifies_this.html","name":"Who Modifies This Property?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 29 Jun 2025 10:24:17 +0000","dateModified":"Sun, 29 Jun 2025 10:24:17 +0000","description":"Several observations in this code:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/who_modifies_this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/who_modifies_this.png
+
 Several observations in this code:
 
 it is possible to define a property without visibility: the property hook makes it a promoted property.
@@ -30,8 +32,6 @@ it is possible to define a property without visibility: the property hook makes 
 It is also possible possible to create a reference on a property, as promoted properties are also an argument.
 
 When all these features are together, it yields an error about accessing an uninitialized property.
-
-.. image:: ../images/who_modifies_this.png
 
 See Also
 ________

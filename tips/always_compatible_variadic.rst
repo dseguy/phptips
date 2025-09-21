@@ -25,11 +25,11 @@ Always Compatible Variadic
 
 By `Sergii Shymko <https://twitter.com/SergiiShymko>`_
 
+.. image:: ../images/always_compatible_variadic.png
+
 A variadic argument is a valid and compatible signature, for methods that overwrite other methods.
 
 Method compatibility usually require the arguments to be the same, but with a variadic argument and also some of the arguments from the parent method, the signature is still considered compatible by PHP.
-
-.. image:: ../images/always_compatible_variadic.png
 
 See Also
 ________

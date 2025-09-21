@@ -23,6 +23,8 @@ Class Constants With Different Types
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_constant_different_types.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_constant_different_types.html","name":"Class Constants With Different Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 10 Jun 2025 12:05:08 +0000","dateModified":"Tue, 10 Jun 2025 12:05:08 +0000","description":"With PHP, it is possible to have a class constant with different values, between a parent class, and its child class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_constant_different_types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/class_constant_different_types.png
+
 With PHP, it is possible to have a class constant with different values, between a parent class, and its child class.
 
 Quizz of the day : can you make a class constant with different types ? Optionally different values.
@@ -30,8 +32,6 @@ Quizz of the day : can you make a class constant with different types ? Optional
 Works on PHP 8.3. Application unknown.
 
 The trick is to use union types, which allows adding new valid types without ascendant compatibility.
-
-.. image:: ../images/class_constant_different_types.png
 
 See Also
 ________

@@ -23,13 +23,13 @@ No Property Beyond Limits
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noPropertyBelowMininum.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noPropertyBelowMininum.html","name":"No Property Beyond Limits","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Sep 2025 05:25:42 +0000","dateModified":"Tue, 02 Sep 2025 05:25:42 +0000","description":"TIL that PHP reports attempts to go beyond the limits (upper and lower) of integer properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noPropertyBelowMininum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/noPropertyBelowMininum.png
+
 TIL that PHP reports attempts to go beyond the limits (upper and lower) of integer properties. Indeed, beyond these limits, the property is converted to a float, which violate the typing.
 
 This error goes away by dropping the type: the property simply changes type.
 
 This also means that no error is reported when doing the same on a variable.
-
-.. image:: ../images/noPropertyBelowMininum.png
 
 See Also
 ________

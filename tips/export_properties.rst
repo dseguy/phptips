@@ -25,11 +25,11 @@ Exporting Properties
 
 By `Tim Macdonald <https://twitter.com/timacdonald87>`_
 
+.. image:: ../images/export_properties.png
+
 With an accessor and a reference, it is possible to export a private property and manipulate it from the outside of the object.
 
 This is not recommended, as it exposes data that is supposed to be protected by its visibility.
-
-.. image:: ../images/export_properties.png
 
 See Also
 ________

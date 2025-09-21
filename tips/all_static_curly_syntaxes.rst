@@ -23,6 +23,8 @@ All Static Curly Syntaxes And One Wrong
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html","name":"All Static Curly Syntaxes And One Wrong","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 11:57:17 +0000","dateModified":"Sun, 16 Feb 2025 11:57:17 +0000","description":"What is the only invalid syntax in the following list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/all_static_curly_syntaxes.png
+
 What is the only invalid syntax in the following list?
 
 Assume that all needed definitions are available.
@@ -48,8 +50,6 @@ Let's review them all.
 9) This is the variable static property class. The name of the property is in the variable variable ${$A}. It is a composition of previous cases.
 
 10) This is the problematic one. $A{A} is an attempt at reading a element at position A in the variable $A. This is a removed PHP feature, since PHP 8. It should be written $A[A], though it would be too obvious for the puzzle.
-
-.. image:: ../images/all_static_curly_syntaxes.png
 
 See Also
 ________

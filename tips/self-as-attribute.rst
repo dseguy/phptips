@@ -25,6 +25,8 @@ Self As Attribute
 
 By `Jan Nedbal <https://janedbal.cz/>`_
 
+.. image:: ../images/self-as-attribute.png
+
 Self, parent and static cannot be used as attributes. They are not recognized, and PHP will search for a class called ``\self`` instead, in vain.
 
 On the other hand, it is possible to use an attribute onto its own methods, simply by using its regular name.
@@ -32,8 +34,6 @@ On the other hand, it is possible to use an attribute onto its own methods, simp
 It is possible to use these names as attributes, as long as they are not instanciated.
 
 It is also possible to use aliases with the attributes: they will automatically resolve to the original class, not the aliased name.
-
-.. image:: ../images/self-as-attribute.png
 
 See Also
 ________

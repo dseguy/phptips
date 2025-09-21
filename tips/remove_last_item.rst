@@ -23,6 +23,8 @@ Remove Last Item In An Array
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html","name":"Remove Last Item In An Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 04 Aug 2025 18:16:58 +0000","dateModified":"Mon, 04 Aug 2025 18:16:58 +0000","description":"Three ways to remove the last item in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/remove_last_item.png
+
 Three ways to remove the last item in an array.
 
 array_pop() is the most adapted function, as it does actually that.
@@ -32,8 +34,6 @@ unset() is dedicated to removing elements, though it requires the calculation of
 array_slice() works with the negative offset, just like a string. It is not too much slower, until one realize its result needs to be reassigned.
 
 All in all, they need a good million iterations to see actual performances differences. It is a micro-optimisation.
-
-.. image:: ../images/remove_last_item.png
 
 See Also
 ________

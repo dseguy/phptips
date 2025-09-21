@@ -23,13 +23,13 @@ Class Is A Valid Type
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_is_valid_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_is_valid_class.html","name":"Class Is A Valid Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Mar 2025 10:45:34 +0000","dateModified":"Fri, 07 Mar 2025 10:45:34 +0000","description":"PHP allows to use ``\\class`` as a class name in a type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_is_valid_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/class_is_valid_class.png
+
 PHP allows to use ``\class`` as a class name in a type. This is also the case for interfaces, enums, traits... and it is also valid for some others keywords.
 
 On the other hand, a good number of PHP keywords are forbidden, and yield an error : ``\self`` is an invalid class name.
 
 Of course, once this is typed like that, it is not possible to satisfy the type specification, and such code is actually not usable.
-
-.. image:: ../images/class_is_valid_class.png
 
 See Also
 ________

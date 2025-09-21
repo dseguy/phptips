@@ -23,11 +23,11 @@ Infinite foreach()
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_foreach.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_foreach.html","name":"Infinite foreach()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 03 Jul 2025 18:05:39 +0000","dateModified":"Thu, 03 Jul 2025 18:05:39 +0000","description":"Foreach() is built against infinite loops: it works on a finite number of elements in arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_foreach.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/infinite_foreach.png
+
 Foreach() is built against infinite loops: it works on a finite number of elements in arrays. Using an infinite generator is possible, but cheating with a second infinite loop.
 
 So, the trick is to update the source array during the loop, to keep giving new keys to PHP, that it will check. Over, and over, and over.
-
-.. image:: ../images/infinite_foreach.png
 
 See Also
 ________

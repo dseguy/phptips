@@ -25,13 +25,13 @@ array_reduce() To Filter And Alter
 
 By `Rahul Chavan <https://twitter.com/rcsofttech85>`_
 
+.. image:: ../images/array_reduce.png
+
 Using array_reduce() to create custom data structures goes beyond simple filtering.
 
 array_reduce() might save a second loop. Although, it might also be quite slow, in particular for large arrays (10 millions+).
 
 array_reduce() doesn't provide keys when processing them.
-
-.. image:: ../images/array_reduce.png
 
 See Also
 ________

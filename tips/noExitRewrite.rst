@@ -23,13 +23,13 @@ No Rewrite For Exit
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noExitRewrite.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noExitRewrite.html","name":"No Rewrite For Exit","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 22 Aug 2025 21:08:19 +0000","dateModified":"Fri, 22 Aug 2025 21:08:19 +0000","description":"Since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noExitRewrite.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/noExitRewrite.png
+
 Since PHP 8.4, ``exit()`` is also a function, and may be called as such.
 
 Yet, it is still a PHP keyword, so it cannot be used as a function name: this would allow creating functions with that name in namespaces. On the other hand, it is possible to use that name as a method name.
 
 And it is also not possible to use ``exit`` in a ``use`` command: that would allow rewriting exit with another function.
-
-.. image:: ../images/noExitRewrite.png
 
 See Also
 ________

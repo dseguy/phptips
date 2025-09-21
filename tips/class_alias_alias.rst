@@ -23,6 +23,8 @@ All Classes Aliases
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_alias_alias.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_alias_alias.html","name":"All Classes Aliases","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 13 May 2025 05:08:53 +0000","dateModified":"Tue, 13 May 2025 05:08:53 +0000","description":"To make a class alias, use class_alias()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_alias_alias.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/class_alias_alias.png
+
 To make a class alias, use class_alias();
 
 To make an interface alias, use class_alias();
@@ -36,8 +38,6 @@ To make a trait alias, use class_alias();
 Also, there is no ``::enum`` operator, ``::trait`` operator or ``::interface`` operator, so you can just just ``::class``
 
 In the end, they all share the same name space.
-
-.. image:: ../images/class_alias_alias.png
 
 See Also
 ________

@@ -23,6 +23,8 @@ The Never Function Arrow
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html","name":"The Never Function Arrow","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 20:06:44 +0000","dateModified":"Thu, 18 Sep 2025 20:06:44 +0000","description":"This is a rare occurrence: that syntax is not valid in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/neverFunctionArrow.png
+
 This is a rare occurrence: that syntax is not valid in PHP 8.1, but valid before and after.
 
 In PHP 7.4 and 8.0, the syntax is valid, because ``never`` was not a reserved type. PHP considered it as a class name, but since ``die`` would prevent any return, it is not actually used.
@@ -30,8 +32,6 @@ In PHP 7.4 and 8.0, the syntax is valid, because ``never`` was not a reserved ty
 Starting PHP 8.2, PHP recognizes the absence of return, due to the ``die``, and accepts it.
 
 Also, great edge case of a closure with a (implicit) return, but typed ``never``. Actually, it doesn't work with a regular ``return``.
-
-.. image:: ../images/neverFunctionArrow.png
 
 See Also
 ________

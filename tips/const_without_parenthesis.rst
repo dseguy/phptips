@@ -23,6 +23,8 @@ Const Without Parenthesis
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/const_without_parenthesis.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/const_without_parenthesis.html","name":"Const Without Parenthesis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 18 May 2025 20:58:13 +0000","dateModified":"Sun, 18 May 2025 20:58:13 +0000","description":"It is possible to put a single literal inside parenthesis: that's just the literal itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/const_without_parenthesis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/const_without_parenthesis.png
+
 It is possible to put a single literal inside parenthesis: that's just the literal itself.
 
 It is possible to put a single global constant inside parenthesis: that's just the global constant itself.
@@ -30,8 +32,6 @@ It is possible to put a single global constant inside parenthesis: that's just t
 It is possible to create a constant called ``int``, because the name is not protected against usage, even if it is reserved for type and casting.
 
 Then, it is not possible to ``int`` in parenthesis, because PHP confuses it with a cast.
-
-.. image:: ../images/const_without_parenthesis.png
 
 See Also
 ________

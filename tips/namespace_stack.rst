@@ -23,9 +23,9 @@ The Namespace Stack
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_stack.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_stack.html","name":"The Namespace Stack","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 18 May 2025 14:49:06 +0000","dateModified":"Sun, 18 May 2025 14:49:06 +0000","description":"This is a reminder that namespaces are not nested, but are merely prefixes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_stack.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-This is a reminder that namespaces are not nested, but are merely prefixes. Hence, there is the current namespace, and the global one for the occasional fallback, but nothing in between. Namespaces are not folders, even when they are stored as such.
-
 .. image:: ../images/namespace_stack.png
+
+This is a reminder that namespaces are not nested, but are merely prefixes. Hence, there is the current namespace, and the global one for the occasional fallback, but nothing in between. Namespaces are not folders, even when they are stored as such.
 
 See Also
 ________

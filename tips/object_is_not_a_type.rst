@@ -23,9 +23,9 @@ Object Is Not A Type
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/object_is_not_a_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/object_is_not_a_type.html","name":"Object Is Not A Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 09 Jun 2025 19:55:35 +0000","dateModified":"Mon, 09 Jun 2025 19:55:35 +0000","description":"Such situations always make me smile, yet I am certain several of us will loose time on such a mistake","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/object_is_not_a_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Such situations always make me smile, yet I am certain several of us will loose time on such a mistake. ``object`` is a type that can be used with argument, returntypes and properties, but not with ``instanceof``. It is a bit more obvious with integer or string in the ``instanceof``.
-
 .. image:: ../images/object_is_not_a_type.png
+
+Such situations always make me smile, yet I am certain several of us will loose time on such a mistake. ``object`` is a type that can be used with argument, returntypes and properties, but not with ``instanceof``. It is a bit more obvious with integer or string in the ``instanceof``.
 
 See Also
 ________

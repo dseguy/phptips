@@ -23,13 +23,13 @@ Where Is The Semicolon?
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/where-is-the-semicolon.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/where-is-the-semicolon.html","name":"Where Is The Semicolon?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 20:14:12 +0000","dateModified":"Sun, 03 Aug 2025 20:14:12 +0000","description":"This code is an attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/where-is-the-semicolon.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/where-is-the-semicolon.png
+
 This code is an attribute. A attribute always expects to be followed by a structure that it will characterize. Here, without anything else to parse, the parser displays a mysterious error about a semi colon, while none is in sight.
 
 In fact, the closing PHP tag has a built-in semi colon, to end any expression that was still open.
 
 This is similar to another tip, that relies on echo.
-
-.. image:: ../images/where-is-the-semicolon.png
 
 See Also
 ________

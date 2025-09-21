@@ -23,9 +23,9 @@ Missing Methods Are Fatal
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/missing_methods_are_fatal.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/missing_methods_are_fatal.html","name":"Missing Methods Are Fatal","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 19:29:30 +0000","dateModified":"Sun, 03 Aug 2025 19:29:30 +0000","description":"Calling a missing method is a fatal error","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/missing_methods_are_fatal.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Calling a missing method is a fatal error. Reading a missing property is a warning, and defaults to NULL. Writing to an undefined property is deprecated in PHP 8.3, and will become a fatal error in PHP 9.0. This means that both errors will have the same impact in the code.
-
 .. image:: ../images/missing_methods_are_fatal.png
+
+Calling a missing method is a fatal error. Reading a missing property is a warning, and defaults to NULL. Writing to an undefined property is deprecated in PHP 8.3, and will become a fatal error in PHP 9.0. This means that both errors will have the same impact in the code.
 
 See Also
 ________

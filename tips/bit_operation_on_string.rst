@@ -23,6 +23,8 @@ Bitwise Operations On String
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/bit_operation_on_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/bit_operation_on_string.html","name":"Bitwise Operations On String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Jun 2025 19:51:40 +0000","dateModified":"Mon, 16 Jun 2025 19:51:40 +0000","description":"The bit operators ``&``, ``|`` and ``^`` work on integers, and use the numbers as a bitfield: each bit in the numbers are compared with the operator, and set accordingly in the result","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/bit_operation_on_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/bit_operation_on_string.png
+
 The bit operators ``&``, ``|`` and ``^`` work on integers, and use the numbers as a bitfield: each bit in the numbers are compared with the operator, and set accordingly in the result.
 
 The same operators works on strings, where the string is treated as a binary data.
@@ -30,8 +32,6 @@ The same operators works on strings, where the string is treated as a binary dat
 Since PHP 8.0, it is an error to have different types on both sides of the bit operators. Other types are also yielding an error, like with arrays, objects, etc.
 
 When in doubt, consider using the logical operators.
-
-.. image:: ../images/bit_operation_on_string.png
 
 See Also
 ________

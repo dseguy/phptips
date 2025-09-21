@@ -23,13 +23,13 @@ parent In Function
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_in_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_in_function.html","name":"parent In Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Sep 2025 19:30:25 +0000","dateModified":"Mon, 15 Sep 2025 19:30:25 +0000","description":"``parent`` shall only be inside a class, as it refers to the parent class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_in_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/parent_in_function.png
+
 ``parent`` shall only be inside a class, as it refers to the parent class. This does not happen with a function, so the second line in this example produces a Fatal Error.
 
 It does not produce the same error with a Closure, or Arrow function. This is valid code because it is possible to change the underlying object of the closure, and give it a valid class to run it with. This is done with the ``Closure::call()`` and ``Closure::bindTo()`` methods.
 
 The main problem, in this situation, is that such code is invalid a writing location, and becomes valid later, after some reconfiguration. Sometimes, static analysis finds it hard to track.
-
-.. image:: ../images/parent_in_function.png
 
 See Also
 ________

@@ -23,13 +23,13 @@ Chaining Spaceship
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chaining_spaceship.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chaining_spaceship.html","name":"Chaining Spaceship","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 18 May 2025 20:55:30 +0000","dateModified":"Sun, 18 May 2025 20:55:30 +0000","description":"It is possible to chain several spaceship operations by using the coalesce operator ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chaining_spaceship.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/chaining_spaceship.png
+
 It is possible to chain several spaceship operations by using the coalesce operator ``?:``. When the first spaceship operator returns 1 or -1, its value is immediately used. On the other hand, when the operation leads to 0, the coalesce ``?:`` uses the else branch, where the second spaceship operator is used, to the same effect.
 
 This expression here replaces a call to ``array_multi_sort()``.
 
 And of course, literally chaining spaceships together is a very bad idea.
-
-.. image:: ../images/chaining_spaceship.png
 
 See Also
 ________

@@ -23,13 +23,13 @@ __invoke() On New
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invoke_on_new.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invoke_on_new.html","name":"__invoke() On New","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 04 Aug 2025 19:54:50 +0000","dateModified":"Mon, 04 Aug 2025 19:54:50 +0000","description":"It is possible to create a new object by calling new on a previous object: PHP fetches the name of the class, then its constructor","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invoke_on_new.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/invoke_on_new.png
+
 It is possible to create a new object by calling new on a previous object: PHP fetches the name of the class, then its constructor.
 
 With the PHP 8.4 new syntax without parenthesis, it is also possible to chain the instantiation with a direct call. This calls the ``__invoke`` method.
 
 This was not possible in previous versions.
-
-.. image:: ../images/invoke_on_new.png
 
 See Also
 ________

@@ -23,11 +23,11 @@ array array = array()
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_array_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_array_array.html","name":"array array = array()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 20:14:21 +0000","dateModified":"Sun, 03 Aug 2025 20:14:21 +0000","description":"This made me chuckle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_array_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/array_array_array.png
+
 This made me chuckle... welcome to PHP 8.3 !
 
 First ``array`` is the type, the second is the name of the constant, with the relaxed keyword, and the last one is the value of the ``array``. It is not often that three times the same token is used in a row. Could we try 4 times?
-
-.. image:: ../images/array_array_array.png
 
 See Also
 ________

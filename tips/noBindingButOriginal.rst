@@ -23,11 +23,11 @@ No Binding But With Original
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noBindingButOriginal.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noBindingButOriginal.html","name":"No Binding But With Original","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 20:22:07 +0000","dateModified":"Sun, 03 Aug 2025 20:22:07 +0000","description":"It is possible to change the underlying object of a closure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noBindingButOriginal.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/noBindingButOriginal.png
+
 It is possible to change the underlying object of a closure. The new closure will be executed with the new object, with the same method.
 
 On the other hand, it is not possible to call that closure on another class, even if that class has the same method, nor even if the class is a child of the original one. It must be the same original class.
-
-.. image:: ../images/noBindingButOriginal.png
 
 See Also
 ________

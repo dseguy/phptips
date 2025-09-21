@@ -23,13 +23,13 @@ Cannot Yield And Never
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_cannot_never.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_cannot_never.html","name":"Cannot Yield And Never","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Jun 2025 20:00:34 +0000","dateModified":"Fri, 27 Jun 2025 20:00:34 +0000","description":"Never, as a return type, mentions that the method will never return","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_cannot_never.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/yield_cannot_never.png
+
 Never, as a return type, mentions that the method will never return. This means that it either calls exit(), throws an exception, or is an infinite loop.
 
 Infinite loop escaped my radar until I realized it is a good way to characterize the loop in an explicit way: put any explicit loop in a ``never`` method and know before hand of the implications.
 
 Sadly, infinite loop work very well with Yield and yield from, but such methods must be typed with ``Generator``. Too bad.
-
-.. image:: ../images/yield_cannot_never.png
 
 See Also
 ________

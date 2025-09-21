@@ -23,13 +23,13 @@ Internal Static Call
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html","name":"Internal Static Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Jun 2025 08:23:32 +0000","dateModified":"Sat, 28 Jun 2025 08:23:32 +0000","description":"Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/internal_static_call.png
+
 Trap of the day : one of the calls in bar() will generate a 'Non-static method a::foo() cannot be called statically' error. 
 
 Which one? It is the d::foo(). All other calls are made within the C class : internal calls may use static or normal syntax, while external calls must use the correct call syntax. This allows calls like 'parent::__construct()'. 
 
 When the call to bar() is made with '(new d)', the 'd::foo()' works again.
-
-.. image:: ../images/internal_static_call.png
 
 See Also
 ________

@@ -23,11 +23,11 @@ Enum As A Name
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_as_name.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_as_name.html","name":"Enum As A Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 Aug 2025 17:34:36 +0000","dateModified":"Wed, 06 Aug 2025 17:34:36 +0000","description":"It is possible to name a class enum, but not to name an enum class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_as_name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/enum_as_name.png
+
 It is possible to name a class enum, but not to name an enum class. In fact, 'enum' is an authorized name for interfaces and traits, to help with backward compatibility.
 
 This also means that an enumeration may be called 'enum'.
-
-.. image:: ../images/enum_as_name.png
 
 See Also
 ________

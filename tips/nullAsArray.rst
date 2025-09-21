@@ -23,13 +23,13 @@ null Or Boolean As Array
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/nullAsArray.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/nullAsArray.html","name":"null Or Boolean As Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 11 May 2025 20:06:59 +0000","dateModified":"Sun, 11 May 2025 20:06:59 +0000","description":"Null and booleans support the array syntax, but always return NULL as value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/nullAsArray.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/nullAsArray.png
+
 Null and booleans support the array syntax, but always return NULL as value. Since PHP 7.4, they also report a warning, as this is not good code.
 
 Arrays also report errors when the key type is not valid, such as another array or an object.
 
 Interestingly, Null and boolean accept illegal keys, with a simple warning.
-
-.. image:: ../images/nullAsArray.png
 
 See Also
 ________

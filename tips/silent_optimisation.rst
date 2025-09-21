@@ -23,6 +23,8 @@ Silent Optimisation Of Variables
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/silent_optimisation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/silent_optimisation.html","name":"Silent Optimisation Of Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Mar 2025 16:18:52 +0000","dateModified":"Fri, 07 Mar 2025 16:18:52 +0000","description":"See PHP optimisation in action : undefined variables are only reported when they are used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/silent_optimisation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/silent_optimisation.png
+
 See PHP optimisation in action : undefined variables are only reported when they are used.
 
 
@@ -32,8 +34,6 @@ The first one is omitted : there are no operation with it.
 The second one is skipped : no need to execute 2nd term when the first one is already true.
 
 The third one is reporting a warning, as expected.
-
-.. image:: ../images/silent_optimisation.png
 
 See Also
 ________

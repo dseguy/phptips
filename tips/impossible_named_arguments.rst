@@ -23,6 +23,8 @@ Impossible Named Arguments
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/impossible_named_arguments.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/impossible_named_arguments.html","name":"Impossible Named Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 20 Feb 2025 15:38:10 +0000","dateModified":"Thu, 20 Feb 2025 15:38:10 +0000","description":"Named parameters use the parameter name to allocate the argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/impossible_named_arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/impossible_named_arguments.png
+
 Named parameters use the parameter name to allocate the argument. This implies that the provided parameter names are all compatible with a the variable name format. For example, it is not possible to use a space or a ``$`` sign in a variable name.
 
 On the other hand, using the spread ``...`` operator on an array turns the string keys as named parameter. Any string may be an array index, so they are transmitted to the function. There, they are not validated against the variable name format, but simply checked against the list of existing parameters.
@@ -30,8 +32,6 @@ On the other hand, using the spread ``...`` operator on an array turns the strin
 An edge case is the variadic parameter. That parameter accepts any named parameter, even if it does not check the variable format, as these values are stored in an array 
 
 And that's how it is possible to use impossible named parameter.
-
-.. image:: ../images/impossible_named_arguments.png
 
 See Also
 ________

@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/array-callaback-index.rst
    tips/closureCreation.rst
    tips/fatal_error_on_coalesce.rst
    tips/weakmap.rst

@@ -23,6 +23,8 @@ Constant Redefinition
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_redefinition.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_redefinition.html","name":"Constant Redefinition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 18 May 2025 20:58:43 +0000","dateModified":"Sun, 18 May 2025 20:58:43 +0000","description":"It is possible to specify several identical global constant definition: PHP reports a warning, and ignores the second definitions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_redefinition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
+.. image:: ../images/constant_redefinition.png
+
 It is possible to specify several identical global constant definition: PHP reports a warning, and ignores the second definitions.
 
 On the other hand, a duplicate class constant definition is a fatal error, and fails the compilation phase.
@@ -30,8 +32,6 @@ On the other hand, a duplicate class constant definition is a fatal error, and f
 The difference of behavior may be linked to the level of consistence that PHP can achieve: global constants needs an application wide check for name unicity, while class constants can be checked while compiling a class.
 
 Yet, it might be worth looking into leveling both errors, to avoid hard to find bugs.
-
-.. image:: ../images/constant_redefinition.png
 
 See Also
 ________
