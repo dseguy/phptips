@@ -21,7 +21,7 @@ All Static Curly Syntaxes And One Wrong
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html","name":"All Static Curly Syntaxes And One Wrong","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 11:57:17 +0000","dateModified":"Sun, 16 Feb 2025 11:57:17 +0000","description":"What is the only invalid syntax in the following list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html","name":"All Static Curly Syntaxes And One Wrong","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 22 Sep 2025 19:11:54 +0000","dateModified":"Mon, 22 Sep 2025 19:11:54 +0000","description":"What is the only invalid syntax in the following list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_static_curly_syntaxes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/all_static_curly_syntaxes.png
 
@@ -31,9 +31,9 @@ Assume that all needed definitions are available.
 
 Let's review them all.
 
-1) This is a classic class constant syntax, or an enumeration case. 
+1) This is a classic class constant syntax, or an enumeration case.
 
-2) This is the new PHP 8.3 variable class constant syntax. The trick is that the dynamic part is the global constant A. 
+2) This is the new PHP 8.3 variable class constant syntax. The trick is that the dynamic part is the global constant A.
 
 3) This is the new PHP 8.3 variable class constant syntax. The name of the constant is in the variable $A.
 

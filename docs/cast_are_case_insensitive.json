@@ -7,9 +7,7 @@
         "Type Operators (PHP manual)": "https://www.php.net/manual/en/language.operators.type.php"
     },
     "tags": [
-        "cast",
-        "space",
-        "case insensitive"
+        "tip"
     ],
     "author": "",
     "contact": "",
@@ -17,5 +15,5 @@
         "So much spaces...": "https://3v4l.org/P5VcS"
     },
     "phpError": {},
-    "features": ["case-sensitivity", "whitespace"]
+    "features": ["case-sensitivity", "whitespace", "cast", "space"]
 }

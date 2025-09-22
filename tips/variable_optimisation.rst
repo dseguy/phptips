@@ -21,7 +21,7 @@ No Warning For Unused Variables
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html","name":"No Warning For Unused Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 04 Aug 2025 18:16:23 +0000","dateModified":"Mon, 04 Aug 2025 18:16:23 +0000","description":"PHP variable optimisation in action: the undefined variables are only reported when they are used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html","name":"No Warning For Unused Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 22 Sep 2025 19:02:16 +0000","dateModified":"Mon, 22 Sep 2025 19:02:16 +0000","description":"PHP variable optimisation in action: the undefined variables are only reported when they are used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/variable_optimisation.png
 
@@ -40,8 +40,12 @@ Of course, an assignation is not reported with an undefined variable, as it will
 See Also
 ________
 
-* `Variables (PHP manual) <https://www.php.net/manual/en/language.variables.php>`_
 * `Variable optimisation <https://3v4l.org/HJKbV>`_ [Try me]
+
+
+PHP Error Messages
+__________________
+
 
 
 PHP Features

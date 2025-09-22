@@ -2,7 +2,7 @@
     "image": "override_with_interface.png",
     "date": "2024-08-15",
     "title": "Override With Interface",
-    "content": "The override attribute checks that a method is actually overriding a parent definition of the same method: this implides that a class must have a parent to use the Override attribute.\nThere is a special case, which is a class without a parent, though implementing an interface. The Override attribute may be used on any of the interface method, though the class has no parent.",
+    "content": "The override attribute checks that a method is actually overriding a parent definition of the same method: this implies that a class must have a parent to use the Override attribute.\nThere is a special case, which is a class without a parent, though implementing an interface. The Override attribute may be used on any of the interface method, though the class has no parent.",
     "seeAlso": {
         "More about the Override Attribute": "https://www.exakat.io/en/more-about-the-override-attribute/",
         "Override": "https://www.php.net/manual/en/class.override.php"

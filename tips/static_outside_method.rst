@@ -46,6 +46,11 @@ ________
 * `Static Variable Outside A Method <https://3v4l.org/2jjV7>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

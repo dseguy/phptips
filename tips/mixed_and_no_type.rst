@@ -48,6 +48,11 @@ ________
 * `mixed or not mixed <https://3v4l.org/biaDm>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

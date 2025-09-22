@@ -46,6 +46,11 @@ ________
 * `Abstract Class Constant on 3v4l.org <https://3v4l.org/uu0lU>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

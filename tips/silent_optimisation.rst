@@ -41,6 +41,11 @@ ________
 * `Silent PHP Optimisation <https://3v4l.org/6gQeh>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

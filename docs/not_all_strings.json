@@ -2,9 +2,8 @@
 "image":"not_all_strings.png",
 "date":"2022-07-24",
 "title":"Not All Strings In Arrays",	
-"content":"Array keys are coerced into strings or integers, while array values are left intact.\nYet, this doesn't apply to array keys, so this code will display an 'Uncaught TypeError: Illegal offset type', even without strict_types.\nThis code needs an explicit cast to string to work.",
+"content":"Array keys are coerced into strings or integers, while array values are left intact.\nYet, this doesn't apply to array keys, so this code will display an ``Uncaught TypeError: Illegal offset type``, even without ``strict_types``.\nThis code needs an explicit cast to string to work.",
 "seeAlso":{
-	"Array: syntax (PHP manual)":"https://www.php.net/manual/en/language.types.array.php",
 	"__toString() Magic Method":"https://www.php.net/manual/fr/language.oop5.magic.php#object.tostring"
 },
 "tags":[
@@ -16,5 +15,5 @@
         "string or not?": "https://3v4l.org/CfEaW"
     },
     "phpError": {},
-    "features": ["type-juggling", "string", "class", "cast"]
+    "features": ["type-juggling", "string", "class", "cast", "array"]
 }

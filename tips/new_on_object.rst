@@ -21,21 +21,15 @@ new On Object
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html","name":"new On Object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 11 May 2025 19:56:27 +0000","dateModified":"Sun, 11 May 2025 19:56:27 +0000","description":"It is possible to use new on an object, to get a new object of the same class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html","name":"new On Object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 22 Sep 2025 19:20:22 +0000","dateModified":"Mon, 22 Sep 2025 19:20:22 +0000","description":"It is possible to use new on an object, to get a new object of the same class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/new_on_object.png
 
 It is possible to use new on an object, to get a new object of the same class. This might be useful with anonymous classes, which cannot be created with their name.
 
-
-
 When using the parenthesis after the variable, the __invoke() magic method won't be called, as those parenthesis are used to call the constructor. To get that result, it must be called outside the new command or within parenthesis, as ``new ($a())``.
 
-
-
 Under the hood, PHP collects the class name from the object to produce the new one. It is akin to using the class name in a string.
-
-
 
 Lastly, the full class name is available in the x::class syntax, but PHP won't recognize ``new x::class``, and even emit a Fatal error: it recognizes ``new (x::class)``.
 

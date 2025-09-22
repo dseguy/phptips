@@ -48,6 +48,11 @@ ________
 * `3 ways to check on null <https://3v4l.org/Y8IUC>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

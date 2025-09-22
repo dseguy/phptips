@@ -21,7 +21,7 @@ array_map() Goes Full Throttle
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","name":"array_map() Goes Full Throttle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 12 May 2025 18:24:15 +0000","dateModified":"Mon, 12 May 2025 18:24:15 +0000","description":"array_map() applies a closure (first arg) to every elements of an array (second arg)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","name":"array_map() Goes Full Throttle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 22 Sep 2025 19:12:27 +0000","dateModified":"Mon, 22 Sep 2025 19:12:27 +0000","description":"array_map() applies a closure (first arg) to every elements of an array (second arg)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/array_map_to_the_max.png
 
@@ -31,7 +31,7 @@ When the closure needs more parameters, they may be passed as third (and n-th) p
 
 When there are too many extra parameters, PHP just omits them, silently.
 
-A call to array_map() makes sense when all the provided arrays have the same number of elements. 
+A call to array_map() makes sense when all the provided arrays have the same number of elements.
 
 When the numbers of elements differ, PHP runs the function for the largest array possible. It provides ``null``, anytime an element is missing. This is also the case when the array is superfluous: here, the last array has 100 elements, and is not used in the closure, but forces the results to have 100 entries.
 

@@ -36,6 +36,11 @@ ________
 * `named parameter changes <https://3v4l.org/k3Rhl>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

@@ -38,6 +38,11 @@ ________
 * `precision <https://3v4l.org/N2EnC>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

@@ -31,6 +31,7 @@ Author index
     * :ref:`unfinished-class-doesn't-compile`
     * :ref:`class_exists()-with-enums`
 * `Jerome Tamarelle <https://bsky.app/profile/jerome.tamarelle.net>`_
+    * :ref:`yield-and-keys`
     * :ref:`keep-interface-new-argument-compatible`
 * `Ondrej Mirtes <https://twitter.com/OndrejMirtes>`_
     * :ref:`no-change-to-$this`

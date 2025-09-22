@@ -40,6 +40,11 @@ ________
 * `Attributes for all <https://3v4l.org/pZSn7>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

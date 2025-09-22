@@ -21,7 +21,7 @@ Modify String With Array Syntax
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html","name":"Modify String With Array Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 20:04:44 +0000","dateModified":"Thu, 18 Sep 2025 20:04:44 +0000","description":"PHP strings allows access to individual characters using the array syntax: ``$string[$index]``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html","name":"Modify String With Array Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 22 Sep 2025 19:07:05 +0000","dateModified":"Mon, 22 Sep 2025 19:07:05 +0000","description":"PHP strings allows access to individual characters using the array syntax: ``$string[$index]``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/array_syntax_on_string.png
 
@@ -36,7 +36,7 @@ Here, ``$a[1]`` is just after the end of the string, ``$a[10]`` is well beyond t
 See Also
 ________
 
-* `Strings (PHP manual) <https://www.php.net/manual/en/language.types.string.php>`_
+* `strings and magic <https://3v4l.org/O8SYj>`_ [Try me]
 
 
 PHP Features

@@ -40,6 +40,11 @@ ________
 * `closure factorial <https://3v4l.org/v6hH9>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

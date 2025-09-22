@@ -38,6 +38,11 @@ ________
 * `Internal Static Call <https://3v4l.org/j04vj>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

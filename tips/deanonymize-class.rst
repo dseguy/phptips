@@ -42,6 +42,11 @@ ________
 * `Give a name to a class <https://3v4l.org/MLrBX>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

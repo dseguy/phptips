@@ -38,6 +38,11 @@ ________
 * `instance of a class <https://3v4l.org/Qig0E>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

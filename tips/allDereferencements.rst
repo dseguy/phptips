@@ -53,6 +53,11 @@ ________
 * `Can you understand this? <https://3v4l.org/0bOpD>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

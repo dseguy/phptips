@@ -43,6 +43,11 @@ ________
 * `null as a parameter <https://3v4l.org/3JsR4>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

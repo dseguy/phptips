@@ -41,6 +41,11 @@ ________
 * `get_class() or ::class? <https://3v4l.org/OaCZ5>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

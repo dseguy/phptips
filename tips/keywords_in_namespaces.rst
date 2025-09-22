@@ -38,6 +38,11 @@ ________
 * `keywords in namespaces <https://3v4l.org/9eHvZ>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+
+
 PHP Features
 ____________
 

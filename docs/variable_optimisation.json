@@ -4,19 +4,19 @@
     "title": "No Warning For Unused Variables",
     "content": "PHP variable optimisation in action: the undefined variables are only reported when they are used.\n\nThe first is omitted : there are no operations.\nThe second is skipped : no need to execute the second term of the ``or``.\nThe third is reporting a warning.\nOf course, an assignation is not reported with an undefined variable, as it will be set. Although, may be reusage of a variable could be reported.",
     "seeAlso": {
-        "Variables (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.variables.php"
+        
     },
     "3v4l": {
         "Variable optimisation": "https:\/\/3v4l.org\/HJKbV"
     },
     "tags": [
-    "tip"
+    "tip",
+    "silent"
     ],
     "phpError": {},
     "features": [
             "variable",
-        "optimisation"
-],
+        "optimisation"],
     "author": "",
     "contact": ""
 }
