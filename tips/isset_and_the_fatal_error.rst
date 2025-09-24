@@ -21,17 +21,17 @@ isset() And The Fatal Error
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html","name":"isset() And The Fatal Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Sep 2025 18:13:08 +0000","dateModified":"Mon, 15 Sep 2025 18:13:08 +0000","description":"isset() checks if a variable exists","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html","name":"isset() And The Fatal Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Sep 2025 17:48:14 +0000","dateModified":"Wed, 24 Sep 2025 17:48:14 +0000","description":"isset() checks if a variable exists","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/isset_and_the_fatal_error.png
 
-isset() checks if a variable exists. By extension, it also checks array elements, object properties etc. As the check is performed, any attempt to access an undefined part of the expression is muted: this makes total sense. 
+isset() checks if a variable exists. By extension, it also checks array elements, object properties etc. As the check is performed, any attempt to access an undefined part of the expression is muted: this makes total sense.
 
-For example, if one of the intermediate expression is an integer, it is not possible to access it with an array syntax, unlike an array or a string. Such access is a warning when used outside isset(), but is silent inside the isset(). 
+For example, if one of the intermediate expression is an integer, it is not possible to access it with an array syntax, unlike an array or a string. Such access is a warning when used outside isset(), but is silent inside the isset().
 
-This leads to a nice optimisation, where checking ``isset($a[1][2][3][4])`` is sufficient to check ``isset($a)``, then ``isset($a[1])``, ``isset($a[1][2])``, ``isset($a[1][2][3])``, and ``isset($a[1][2][3][4])``. Nice. 
+This leads to a nice optimisation, where checking ``isset($a[1][2][3][4])`` is sufficient to check ``isset($a)``, then ``isset($a[1])``, ``isset($a[1][2])``, ``isset($a[1][2][3])``, and ``isset($a[1][2][3][4])``. Nice.
 
-The catch is when of the element inside the actual array is an object. PHP reports a fatal error when using an object with an array syntax (except may be for ArrayAccess objects). Then, isset() stops. 
+The catch is when of the element inside the actual array is an object. PHP reports a fatal error when using an object with an array syntax (except may be for ArrayAccess objects). Then, isset() stops.
 
 The reverse is not true: accessing an array with a object syntax yields a null and no warning. As it should be.
 

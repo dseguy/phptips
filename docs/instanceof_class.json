@@ -2,7 +2,7 @@
 "image":"instanceof_class.png",
 "date":"2022-08-10",
 "title":"instanceof Object",
-"content":"object is a type, but it can also be used as a constant name. Then, instanceof accepts it for testing a variable. \nThere are some other cases around instanceof, which are surprising upon first read.\nIt is possible to use a string or an object in a variable, but not a direct string, a constant nor a ``::class``.",
+"content":"object is a type, but it can also be used as a constant name. Then, instanceof accepts it for testing a variable.\nThere are some other cases around instanceof, which are surprising upon first read.\nIt is possible to use a string or an object in a variable, but not a direct string, a constant nor a ``::class``.",
 "seeAlso":{
 	"Type Operators (PHP manual)":"https://www.php.net/manual/en/language.operators.type.php"
 },

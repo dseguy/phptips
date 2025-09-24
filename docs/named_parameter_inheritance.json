@@ -2,7 +2,7 @@
     "image": "named_parameter_inheritance.png",
     "date": "2025-01-30",
     "title": "Named Parameter Inheritance",
-    "content": "PHP enforces the methods compatibility with their types, names, and various options, but not with the parameter names. This means the parameter name existence is enforced, but the name might change. It might change between the parent and the child, but also, between the class and the interface. \nIt is recommended to keep all these parameter's name identical, so as to keep consistence in the code, and simplify the usage of the method, with named parameters.",
+    "content": "PHP enforces the methods compatibility with their types, names, and various options, but not with the parameter names. This means the parameter name existence is enforced, but the name might change. It might change between the parent and the child, but also, between the class and the interface.\nIt is recommended to keep all these parameter's name identical, so as to keep consistence in the code, and simplify the usage of the method, with named parameters.",
     "seeAlso": {
         "Function parameters and arguments (PHP manual)": "https:\/\/www.php.net\/manual\/en\/functions.arguments.php"
     },

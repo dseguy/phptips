@@ -21,13 +21,13 @@ Float Precision
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/precision.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/precision.html","name":"Float Precision","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 20 Feb 2025 15:38:51 +0000","dateModified":"Thu, 20 Feb 2025 15:38:51 +0000","description":"PHP has a 'precision' directive that controls the number of decimals displayed by float values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/precision.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/precision.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/precision.html","name":"Float Precision","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Sep 2025 17:49:01 +0000","dateModified":"Wed, 24 Sep 2025 17:49:01 +0000","description":"PHP has a 'precision' directive that controls the number of decimals displayed by float values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/precision.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/precision.png
 
-PHP has a 'precision' directive that controls the number of decimals displayed by float values. This is used with echo (and co), but also with cast to string. 
+PHP has a 'precision' directive that controls the number of decimals displayed by float values. This is used with echo (and co), but also with cast to string.
 
-It default to 14, and peaks at 18, and gives up at 54. Use gmp for large numbers. 
+It default to 14, and peaks at 18, and gives up at 54. Use gmp for large numbers.
 
 When changing it, don't forget to reset it to default, unless you like to puzzle people.
 
@@ -36,11 +36,6 @@ ________
 
 * `precision (PHP manual) <https://www.php.net/manual/en/ini.core.php#ini.precision>`_
 * `precision <https://3v4l.org/N2EnC>`_ [Try me]
-
-
-PHP Error Messages
-__________________
-
 
 
 PHP Features

@@ -2,7 +2,7 @@
     "image": "precision.png",
     "date": "2024-04-29",
     "title": "Float Precision",
-    "content": "PHP has a 'precision' directive that controls the number of decimals displayed by float values. This is used with echo (and co), but also with cast to string. \nIt default to 14, and peaks at 18, and gives up at 54. Use gmp for large numbers. \nWhen changing it, don't forget to reset it to default, unless you like to puzzle people.",
+    "content": "PHP has a 'precision' directive that controls the number of decimals displayed by float values. This is used with echo (and co), but also with cast to string.\nIt default to 14, and peaks at 18, and gives up at 54. Use gmp for large numbers.\nWhen changing it, don't forget to reset it to default, unless you like to puzzle people.",
     "seeAlso": {
         "precision (PHP manual)": "https:\/\/www.php.net\/manual\/en\/ini.core.php#ini.precision"
     },
