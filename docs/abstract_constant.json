@@ -2,7 +2,7 @@
     "image": "abstract_constant.png",
     "date": "2023-11-19",
     "title": "Abstract Constants",
-    "content": "There's a pretty common pattern to declare \"abstract class constants\" in PHP.\n\nPHP lazy loading will prevent the error \"Fatal error: Uncaught Error: Cannot declare self-referencing constant self::NAME\" if the constant is overloaded. \n\nThis makes an effective 'abstract constant', that must be defined to be usable.",
+    "content": "There's a pretty common pattern to declare \"abstract class constants\" in PHP.\nPHP lazy loading will prevent the error \"Fatal error: Uncaught Error: Cannot declare self-referencing constant self::NAME\" if the constant is overloaded.\nThis makes an effective 'abstract constant', that must be defined to be usable.",
     "seeAlso": {
         "Class Constants (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.oop5.constants.php",
         "Class Abstraction (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.oop5.abstract.php",

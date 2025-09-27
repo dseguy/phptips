@@ -2,7 +2,7 @@
     "image": "constructor_needed.png",
     "date": "2024-10-04",
     "title": "Constructor Needed",
-    "content": "By default, classes don't need a constructor, and it may be omitted. It is also true in the case of child classes: PHP look for a local constructor, then a parent constructor, and it is valid to have none of them.\nOn the other hand, if any of the child makes an explicit call to ``parent::__construct``, then, there must be at least an explicit constructor in the family. Or, PHP generates ``Cannot call constructor`` error message. \nAs a rule of thumb, it might be good to always include the constructor definition, to avoid adding it later, down the road.",
+    "content": "By default, classes don't need a constructor, and it may be omitted. It is also true in the case of child classes: PHP look for a local constructor, then a parent constructor, and it is valid to have none of them.\nOn the other hand, if any of the child makes an explicit call to ``parent::__construct``, then, there must be at least an explicit constructor in the family. Or, PHP generates ``Cannot call constructor`` error message.\nAs a rule of thumb, it might be good to always include the constructor definition, to avoid adding it later, down the road.",
     "seeAlso": {
         "Constructors and Destructors (PHP manual)": "https://www.php.net/manual/en/language.oop5.decon.php"
     },

@@ -21,23 +21,17 @@ Coalesce And Null
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/coalesce_is_null.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/coalesce_is_null.html","name":"Coalesce And Null","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 29 Apr 2025 20:55:15 +0000","dateModified":"Tue, 29 Apr 2025 20:55:15 +0000","description":"I'm still struggling to pick a side in this debate","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/coalesce_is_null.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/coalesce_is_null.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/coalesce_is_null.html","name":"Coalesce And Null","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 27 Sep 2025 07:15:32 +0000","dateModified":"Sat, 27 Sep 2025 07:15:32 +0000","description":"I'm still struggling to pick a side in this debate","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/coalesce_is_null.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/coalesce_is_null.png
 
 I'm still struggling to pick a side in this debate.
 
-
-
 @ is too slow, because it merely hides the error.
-
-
 
 ``??`` looks dumb. It looks like : if it is null, use null as default.
 
-
-
-the if() command is long to type.
+The if() command is long to type.
 
 Is there another way to handle this issue?
 
@@ -46,11 +40,6 @@ ________
 
 * `Error Control Operators <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_
 * `3 ways to check on null <https://3v4l.org/Y8IUC>`_ [Try me]
-
-
-PHP Error Messages
-__________________
-
 
 
 PHP Features

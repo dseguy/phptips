@@ -2,7 +2,7 @@
 "image":"attributes_for_all.png",
 "date":"2023-11-10",
 "title":"More Attribute Usage",	
-"content":"PHP attributes are for classes, but also for enums, traits and interfaces. With ::TARGET_CLASS.\nPHP attributes are for functions, and also for closures and arrow functions (but not for methods). With ::TARGET_FUNCTION.\n\nBeware of the position of the attribute with closures and arrow functions, though.",
+"content":"PHP attributes are for classes, but also for enums, traits and interfaces. With ::TARGET_CLASS.\nPHP attributes are for functions, and also for closures and arrow functions (but not for methods). With ::TARGET_FUNCTION.\nBeware of the position of the attribute with closures and arrow functions, though.",
 "seeAlso":{
 	"Declaring Attribute Classes":"https://www.php.net/manual/en/language.attributes.classes.php"
 },

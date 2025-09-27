@@ -21,11 +21,11 @@ Clone Clone Clone
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html","name":"Clone Clone Clone","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 09 Jun 2025 19:53:14 +0000","dateModified":"Mon, 09 Jun 2025 19:53:14 +0000","description":"It is possible to chain clone operators : PHP optimize this and skips any intermediate clone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html","name":"Clone Clone Clone","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 27 Sep 2025 07:14:53 +0000","dateModified":"Sat, 27 Sep 2025 07:14:53 +0000","description":"It is possible to chain clone operators : PHP optimize this and skips any intermediate clone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/clone_clone_clone.png
 
-It is possible to chain clone operators : PHP optimize this and skips any intermediate clone. The resulting final object is number 2, so the inner clones were duly ignored. 
+It is possible to chain clone operators : PHP optimize this and skips any intermediate clone. The resulting final object is number 2, so the inner clones were duly ignored.
 
 On the other hand, it is possible to create a new object from an existing object, but it is not possible to chain the new calls without using parenthesis.
 
@@ -35,11 +35,6 @@ ________
 * `Cloning objects <https://www.php.net/manual/en/language.oop5.cloning.php>`_
 * `new <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.new>`_
 * `Cloning a clone <https://3v4l.org/r2RsW>`_ [Try me]
-
-
-PHP Error Messages
-__________________
-
 
 
 PHP Features
