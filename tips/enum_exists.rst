@@ -21,7 +21,7 @@ class_exists() With Enums
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_exists.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_exists.html","name":"class_exists() With Enums","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Jun 2025 18:35:32 +0000","dateModified":"Tue, 17 Jun 2025 18:35:32 +0000","description":"In PHP, there is:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_exists.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_exists.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_exists.html","name":"class_exists() With Enums","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Oct 2025 17:20:50 +0000","dateModified":"Wed, 01 Oct 2025 17:20:50 +0000","description":"In PHP, there is:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum_exists.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Jan Nedbal <https://janedbal.cz/>`_
 
@@ -37,11 +37,7 @@ In PHP, there is:
 
 - ``enum_exists()``
 
-
-
 What would the code here produce?
-
-
 
 This is displaying true. Enumerations are considered as classes, even as they have some limitations compared to normal classes.
 
@@ -51,11 +47,6 @@ ________
 * `enum_exists <https://www.php.net/manual/en/function.enum-exists.php>`_
 * `All Classes Aliases <https://php-tips.readthedocs.io/en/latest/tips/class_alias_alias.html>`_
 * `Does MyEnum exists? <https://3v4l.org/iU1v46>`_ [Try me]
-
-
-PHP Error Messages
-__________________
-
 
 
 PHP Features

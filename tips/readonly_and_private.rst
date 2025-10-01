@@ -21,11 +21,11 @@ Set readonly Properties Outside The Class
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/readonly_and_private.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/readonly_and_private.html","name":"Set readonly Properties Outside The Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 21 Apr 2025 17:59:10 +0000","dateModified":"Mon, 21 Apr 2025 17:59:10 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/readonly_and_private.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/readonly_and_private.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/readonly_and_private.html","name":"Set readonly Properties Outside The Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Oct 2025 17:21:04 +0000","dateModified":"Wed, 01 Oct 2025 17:21:04 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/readonly_and_private.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/readonly_and_private.png
 
-PHP 8.1 readonly properties cannot be set from global space, but they can be forced from the host class, just like accessing private properties. 
+PHP 8.1 readonly properties cannot be set from global space, but they can be forced from the host class, just like accessing private properties.
 
 It doesn't work outside the host class : not in global space, not in a derived class.
 
@@ -38,11 +38,6 @@ ________
 * `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php>`_
 * `Class Invasation <https://php-dictionary.readthedocs.io/en/latest/dictionary.html#class-invasion>`_
 * `closure factorial <https://3v4l.org/v6hH9>`_ [Try me]
-
-
-PHP Error Messages
-__________________
-
 
 
 PHP Features

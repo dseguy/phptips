@@ -21,31 +21,24 @@ Void Parameter In array_keys()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html","name":"Void Parameter In array_keys()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 06:20:38 +0000","dateModified":"Sun, 03 Aug 2025 06:20:38 +0000","description":"There is a 'void' parameter in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html","name":"Void Parameter In array_keys()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Oct 2025 17:22:23 +0000","dateModified":"Wed, 01 Oct 2025 17:22:23 +0000","description":"There is a 'void' parameter in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/void_parameter.png
 
 There is a 'void' parameter in PHP. It is the second argument of array_keys().
 
-That second parameter is often omitted (and unknown). 
+That second parameter is often omitted (and unknown).
 
-If present, it is typed 'mixed' to allow any value to be searched (here, null). 
+If present, it is typed 'mixed' to allow any value to be searched (here, null).
 
+If absent, array_keys() returns ALL keys. When absent, it is not null, nor any other type. The last one possible is 'void'.
 
-
-If absent, array_keys() returns ALL keys. When absent, it is not null, nor any other type. The last one possible is 'void' 
-
-Type is then : void|mixed.
+Type is then : ``void|mixed``.
 
 See Also
 ________
 
 * `null as a parameter <https://3v4l.org/3JsR4>`_ [Try me]
-
-
-PHP Error Messages
-__________________
-
 
 
 PHP Features

@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/dynamic_enum_cases.rst
    tips/yield_and_keys.rst
    tips/array-callaback-index.rst
    tips/closureCreation.rst

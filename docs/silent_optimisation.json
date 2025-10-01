@@ -2,7 +2,7 @@
     "image": "silent_optimisation.png",
     "date": "2024-10-08",
     "title": "Silent Optimisation Of Variables",
-    "content": "See PHP optimisation in action : undefined variables are only reported when they are used.\n\nThe first one is omitted : there are no operation with it.\nThe second one is skipped : no need to execute 2nd term when the first one is already true.\nThe third one is reporting a warning, as expected.",
+    "content": "See PHP optimisation in action : undefined variables are only reported when they are used.\nThe first one is omitted : there are no operation with it.\nThe second one is skipped : no need to execute 2nd term when the first one is already true.\nThe third one is reporting a warning, as expected.",
     "seeAlso": {},
     "tags": [
         "silent",
