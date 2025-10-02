@@ -56,6 +56,8 @@ Error Message index
     * :ref:`not-all-incremented-strings-are-deprecated`
 * Multiple static modifiers are not allowed
     * :ref:`cannot-static-static-property`
+* Object of class E could not be converted to string
+    * :ref:`casting-an-enum-case`
 * Recursion detected
     * :ref:`compact()-is-recursive`
 * Trying to access array offset on false
