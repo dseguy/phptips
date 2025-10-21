@@ -1,6 +1,8 @@
 Error Message index
 -------------------
 
+* A void function must not return a value (did you mean "return;" instead of "return null;"?)
+    * :ref:`returning-void`
 * Array callback has to contain indices 0 and 1
     * :ref:`array-callaback-index`
 * Array callback must have exactly two elements

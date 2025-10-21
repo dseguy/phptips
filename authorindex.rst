@@ -19,6 +19,7 @@ Author index
 * `Fred Bouchery <https://bsky.app/profile/bouchery.fr>`_
     * :ref:`no-returntype-but-still,-only-string`
 * `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
+    * :ref:`returning-void`
     * :ref:`datetime-object,-and-years`
     * :ref:`enumeration's-cases-comparisons`
     * :ref:`stealth-generator`
