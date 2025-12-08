@@ -1,0 +1,19 @@
+{
+    "image": "intval.png",
+    "date": "2025-12-08",
+    "title": "intval",
+    "content": "What is happening here? Multiple things to unfold, actually.\nThe first line is a classic ``intval()`` call, which tries to convert a string (or almost anything else), into its decimal equivalent. Here, the conversion stops at ``A``, because it is not a number.\nThe second line is a less classic ``intval``: the second argument is the numeric base for conversion. Here, with ``11``, it means that the next number is ``A``, or ``a``. So, the result is ``10 + 1 * 11 = 21``.\nThe third line raise the numeric base. While ``A`` is still 10, the ``1`` is now 21, so total is ``10 + 1 * 21 = 31``. Of course, hexadecimal is supported, with the base ``16``.\nWe can raise the numeric base until the last letter, ``Z`` : the second argument maxes out at ``10 + 26 = 36``. There, the string is converted to ``1691``.\nBeyond 36, there is no more available letters in the alphabet, so PHP just silently stops.\n\nFinally, note that providing an integer to ``intval()`` has the same value returned as a result, whatever the numeric base. As a string, it is converted.",
+    "seeAlso": {
+        "Intval (PHP manual)": "https://www.php.net/intval",
+        "Type Casting (PHP manual)": "https://www.php.net/manual/en/language.types.type-juggling.php#language.types.typecasting"
+    },
+    "tags": [
+        "surprising",
+        "unusual"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["int", "conversion", "cast", "numeric-base"],
+    "3v4l": {"intval() and usages":"https://3v4l.org/UaCpt#veol"},
+    "phpError": {}
+}
