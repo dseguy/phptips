@@ -1,19 +1,19 @@
-.. _intval:
+.. _intval()-and-its-arguments:
 
-intval
-------
+intval() And Its Arguments
+--------------------------
 
 .. meta::
 	:description:
-		intval: What is happening here.
+		intval() And Its Arguments: What is happening here.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: intval
-	:twitter:description: intval: What is happening here
+	:twitter:title: intval() And Its Arguments
+	:twitter:description: intval() And Its Arguments: What is happening here
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/intval.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/intval.png
-	:og:title: intval
+	:og:title: intval() And Its Arguments
 	:og:type: article
 	:og:description: What is happening here
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/intval.html
@@ -21,7 +21,7 @@ intval
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/intval.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/intval.html","name":"intval","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 08 Dec 2025 20:19:51 +0000","dateModified":"Mon, 08 Dec 2025 20:19:51 +0000","description":"What is happening here","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/intval.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/intval.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/intval.html","name":"intval() And Its Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 09 Dec 2025 05:37:23 +0000","dateModified":"Tue, 09 Dec 2025 05:37:23 +0000","description":"What is happening here","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/intval.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/intval.png
 
@@ -37,8 +37,6 @@ We can raise the numeric base until the last letter, ``Z`` : the second argument
 
 Beyond 36, there is no more available letters in the alphabet, so PHP just silently stops.
 
-
-
 Finally, note that providing an integer to ``intval()`` has the same value returned as a result, whatever the numeric base. As a string, it is converted.
 
 See Also
@@ -49,17 +47,10 @@ ________
 * `intval() and usages <https://3v4l.org/UaCpt#veol>`_ [Try me]
 
 
-PHP Error Messages
-__________________
-
-
-
 PHP Features
 ____________
 
-* `int <https://php-dictionary.readthedocs.io/en/latest/dictionary/int.ini.html>`_
-
-* `conversion <https://php-dictionary.readthedocs.io/en/latest/dictionary/conversion.ini.html>`_
+* `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
 
 * `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
 
