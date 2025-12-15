@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/static_and_not_static.rst
    tips/intval.rst
    tips/easy_map.rst
    tips/returningVoid.rst

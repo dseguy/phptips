@@ -84,7 +84,12 @@ foreach($files as $file) {
 	$tips[$tip->date] = $tip;
 
 	if (preg_match('/\\n /', $tip->content)) {
-		buildlog("Warning : some new lines are followed by spaces in $file");;
+		buildlog("Warning : some new lines are followed by spaces in $file");
+		++$errors;
+	}
+
+	if (preg_match('/[?!.]\s+\\n/', $tip->content)) {
+		buildlog("Warning : some new sentences are followed by spaces in $file");
 		++$errors;
 		continue;
 	}
@@ -114,22 +119,18 @@ foreach($files as $file) {
             	buildlog("Warning : No link in seeAlso in $file");;
         		++$errors;
             }
-            if (empty($tip->{'3v4l'}) && !isset($tip->seeAlso->{$tip->title.' on 3v4l.org'})) {
-            	buildlog("Warning : No title to 3v4l.org in $file");
-        		++$errors;
-            }
 
             if (str_contains($link, '3v4l.org')) {
-	    	    $sandbox = true;
+            	buildlog("Warning : 3v4l is in seeAlso in $file");
+        		++$errors;
 		    }
         }
     }
-    if ($sandbox === false && empty($tip->{'3v4l'})) {
-    	buildlog("Warning : No 3v4l link in $file");
-    	++$errors;
-    }
 
-    if (isset($tip->{'3v4l'}) && is_string($tip->{'3v4l'})) {
+    if (isset($tip->{'3v4l'}) && empty($tip->{'3v4l'})) {
+    	buildlog("Warning : 3v4l is empty in $file");
+    	++$errors;
+    } elseif (isset($tip->{'3v4l'}) && is_string($tip->{'3v4l'})) {
     	buildlog("Warning : 3v4l is a string in $file");
     	++$errors;
     } elseif (isset($tip->{'3v4l'}) && is_array($tip->{'3v4l'})) {
@@ -153,7 +154,7 @@ foreach($files as $file) {
 //		continue;
 	}
 
-	if (!in_array(substr($tip->content, -1), array('.', '?'), true)) {
+	if (!in_array(substr($tip->content, -1), array('.', '?', '!'), true)) {
 		buildlog("Warning : content doesn't finish with . in $file");;
 		++$errors;
 	}
@@ -187,9 +188,12 @@ foreach($files as $file) {
 	}
 
     if (!isset($tip->features)) {
-        // silent omission
+		buildlog("Warning : missing features in $file");
     } elseif (!is_array($tip->features)) {
 		buildlog("Warning : features is not an array in $file");
+    } elseif (empty($tip->features)) {
+		buildlog("Warning : no features in $file");
+        ++$errors;
 	} else {
 	    foreach($tip->features as $feature) {
 	        if (!file_exists('../analyzeG3/human/en/Features/'.$feature.'.ini')) {
@@ -200,7 +204,7 @@ foreach($files as $file) {
 	}
 
 	if (substr_count($tip->title, '_') > 1 && 
-		!preg_match('/(file_put_contents|parse_str|private|func_get_arg|array_intersect_uassoc_insensitive|file_append_contents|__invoke|array_map_assoc)/', $tip->title)) {
+		!preg_match('/(file_put_contents|http_build_query|array_merge_recursive|parse_str|private|func_get_arg|array_intersect_uassoc_insensitive|file_append_contents|empty|isset|__invoke|array_map_assoc)/', $tip->title)) {
 		buildlog("Warning : Too many _ in title '$tip->title' in $file");;
 	}
 
@@ -216,7 +220,7 @@ foreach($files as $file) {
 	}
 
 	if (ucwords(strtolower($tip->title)) != $tip->title &&
-		!preg_match('/(DNF|new|URL|array|private|NAN|parse_str|self|parent|static|namespace|list|http_build_query|compact|func_get_args|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents|glob|class_exists)/', $tip->title)) {
+		!preg_match('/(DNF|isset|empty|new|mixed|get_class|URL|GLOBALS|array|intval|private|NAN|parse_str|self|parent|static|namespace|list|http_build_query|compact|func_get_args|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents|glob|class_exists)/', $tip->title)) {
 		buildlog("Warning : Not First Upper Cased in $file");;
 		++$errors;
 	}
@@ -294,7 +298,7 @@ foreach($tips as $tip) {
 	
 	$phptip[] = '.. _'.$anchor.':'.PHP_EOL;
 	if (isset($anchors[$anchor])) {
-		buildlog("Duplicate entry for $tip->title in $file");;
+		buildlog("Duplicate entry for $tip->title in $file");
 	}
 	$anchors[$anchor] = 1;
 	$phptip[] = $tip->title;
@@ -367,11 +371,16 @@ foreach($tips as $tip) {
 		$authors[$author][] = '    * :ref:`'.$anchor.'`';
 	}
 	
-	$phptip[] = str_replace("\n", "\n\n", $tip->content);
+	$phptip[] = ".. image:: ../images/".$tip->image;
 	
 	$phptip[] = '';
-	$phptip[] = ".. image:: ../images/".$tip->image;
+	$phptip[] = str_replace("\n", "\n\n", $tip->content);
 
+    if (isset($tip->{'3v4l'}->{''})) {
+		buildlog("Warning : 3v4l is empty in $name");
+		die('Error with 3v4l in '. $name);
+		++$errors;
+    }
 	$links = array_merge((array) $tip->seeAlso, (array)($tip->{'3v4l'} ?? []));
 	if (empty($links)) {
 		buildlog("Warning : seeAlso & 3v4l are empty in $name");
@@ -404,6 +413,18 @@ foreach($tips as $tip) {
             } else {
         		$phpErrors[$title] = ['    * :ref:`'.$anchor.'`'];
             }
+		}
+		$phptip[] = '';
+
+	}
+
+	if (!empty($tip->features)) {
+		$phptip[] = '';
+    	$phptip[] = 'PHP Features';
+	    $phptip[] = str_repeat(LEVEL_H2, strlen('PHP Features'));
+		$phptip[] = '';
+		foreach($tip->features as $id) {
+    		$phptip []= "* `$id <https://php-dictionary.readthedocs.io/en/latest/dictionary/".urlencode($id).".ini.html>`_\n";
 		}
 		$phptip[] = '';
 
@@ -490,7 +511,7 @@ function check(stdClass $tip, string $file) : string {
 }
 
 function make_anchor(string $title) : string {
-	$title = strtr(strtolower($title), ' ', '-');
+	$title = strtr(strtolower(ltrim($title, '_')), ' ', '-');
 	return $title;
 }
 

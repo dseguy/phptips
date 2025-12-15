@@ -1,0 +1,21 @@
+{
+    "image": "static_and_not_static.png",
+    "date": "2025-12-15",
+    "title": "Static And Not Static Method",
+    "content": "Could PHP have both a static and a non-static method, with the same name?\nPHP accepts to have several signatures for the same method, yet this has to be handled with different tools, in the body of the function.\nOn the other hand, since methods must have a unique name, it must be either static or non-static.\nTo support both static and non-static method calls, the first step is to... remove the methods with the target name: PHP always uses the available method first.\nThen, replace them with two calls to magic methods: ``__call`` and ``__callStatic``. These two magic methods are called depending on the style of the call: static or not static.\nWhile this is a rather academic question, it might be a useful feature when migrating from a static class to a normal one, while keeping backward compatible syntax.",
+    "seeAlso": {
+    },
+    "tags": [
+    "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": [
+            "static",
+        "non-static",
+        "backward-incompatible",
+        "method"
+    ],
+    "3v4l": {"Same method, different static":"https://3v4l.org/qCGKn0"},
+    "phpError": {}
+}
