@@ -28,6 +28,7 @@ Author index
 * `Greg Korba <https://twitter.com/_Codito_>`_
     * :ref:`lots-of-silly-arguments`
 * `Jan Nedbal <https://janedbal.cz/>`_
+    * :ref:`property-hooks-and-default-values`
     * :ref:`self-as-attribute`
     * :ref:`unfinished-class-doesn't-compile`
     * :ref:`class_exists()-with-enums`

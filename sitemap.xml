@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/global_overwrite.html</loc>
+ </url>
+ <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/property_hook_default_values.html</loc>
+ </url>
+ <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/static_and_not_static.html</loc>
  </url>
  <url>

@@ -21,7 +21,7 @@ Strange --> Operator
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html","name":"Strange --> Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 19:09:40 +0000","dateModified":"Sun, 03 Aug 2025 19:09:40 +0000","description":"This PHP code is valid","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html","name":"Strange --> Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 13 Jan 2026 10:15:21 +0000","dateModified":"Sun, 03 Aug 2025 19:09:40 +0000","description":"This PHP code is valid","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Andrew Schmelyun <https://twitter.com/aschmelyun>`_
 

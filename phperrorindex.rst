@@ -23,6 +23,8 @@ Error Message index
     * :ref:`no-property-beyond-limits`
 * Cannot indirectly modify readonly property %s::$%s
     * :ref:`cannot-indirectly-modify-readonly`
+* Cannot re-assign auto-global variable %s
+    * :ref:`global-overwrites`
 * Cannot rebind scope of closure created from method
     * :ref:`no-binding-but-with-original`
 * Cannot unpack array with string keys

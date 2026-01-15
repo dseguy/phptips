@@ -1,0 +1,17 @@
+{
+    "image": "global_overwrite.png",
+    "date": "2026-01-15",
+    "title": "global Overwrites",
+    "content": "The ``global`` keyword is actually enough to overwrite a local variable.\nIn this illustration, the default value is used to trigger fetching the global variable ``$argv``. The instruction is alone in the block, but it actually replaces the current variable, aka the parameter, by the global one. No assignation in sight, mererly a surprise.\nThis won't work with superglobal, such as ``$_POST``, which can't be overwritten by a parameter.",
+    "seeAlso": {
+    },
+    "tags": [
+        "suprising",
+        "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["global", "default"],
+    "3v4l": {"global Overwrites":"https://3v4l.org/NnFSv"},
+    "phpError": {"Cannot re-assign auto-global variable %s":"cannot-use-auto-global-as-lexical-variable"}
+}

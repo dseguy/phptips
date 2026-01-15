@@ -1,0 +1,19 @@
+{
+    "image": "property_hook_default_values.png",
+    "date": "2025-12-19",
+    "title": "Property Hooks And Default Values",
+    "content": "PHP property hooks\nWould you expect equal behaviour?\n[Added answer] The default value on the property hook is used when the hook is called. At creation time, no hook is called to initialize the property. So, there is no default value for properties with a property hook, unless the ``set`` hook is configured to return something.",
+    "seeAlso": {
+        "Original tweet about property hooks":"https://x.com/janedbal"
+    },
+    "tags": [
+        "surprising"
+    ],
+    "author": "Jan Nedbal",
+    "contact": "https:\/\/janedbal.cz\/",
+    "3v4l": {
+        "Default values on Property Hooks":"https://3v4l.org/t80RS#v8.4.15"
+    },
+    "phpError": {},
+    "features": ["property-hook", "default"]
+}
