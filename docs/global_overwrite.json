@@ -12,6 +12,6 @@
     "author": "",
     "contact": "",
     "features": ["global", "default"],
-    "3v4l": {"global Overwrites":"https://3v4l.org/NnFSv"},
+    "3v4l": {"global Overwrites":"https://3v4l.org/UBSoD"},
     "phpError": {"Cannot re-assign auto-global variable %s":"cannot-use-auto-global-as-lexical-variable"}
 }
