@@ -1,0 +1,17 @@
+{
+    "image": "cast_in_const.png",
+    "date": "2026-01-19",
+    "title": "Cast In Const",
+    "content": "TIL that constant values accepts casting since PHP 8.5. It is possible to cast a value to another type when defining the global or class constant.\nThis might be most useful when a constant must be available in several flavor, rather than with literal values.\nThe only cast that is not supported is ``(object)``.",
+    "seeAlso": {
+        "Void (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.types.void.php"
+    },
+    "tags": [
+        "changed behavior"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["cast", "constant", "class-constant", "static-expression"],
+    "3v4l": {"cast in constant":"https://3v4l.org/QnIDl"},
+    "phpError": {"Object casts are not supported in this context":"object-casts-are-not-supported-in-this-context"}
+}
