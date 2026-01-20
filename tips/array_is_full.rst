@@ -21,11 +21,11 @@ Array Is Full
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html","name":"Array Is Full","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 12 May 2025 18:21:17 +0000","dateModified":"Mon, 12 May 2025 18:21:17 +0000","description":"When using append, the next id is calculated based on the largest integer key ever used in that array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html","name":"Array Is Full","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 17:45:06 +0000","dateModified":"Tue, 20 Jan 2026 17:45:06 +0000","description":"When using append, the next id is calculated based on the largest integer key ever used in that array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/array_is_full.png
 
-When using append, the next id is calculated based on the largest integer key ever used in that array. When the array has reached the biggest integer possible, aka PHP_INT_MAX, then the next-array-key generator fails, and this error is displayed.
+When using append, the next id is calculated based on the largest integer key ever used in that array. When the array has reached the biggest integer possible, a.k.a. ``PHP_INT_MAX``, then the next-array-key generator fails, and this error is displayed.
 
 Also, it is a fatal error to fill an array beyond its capacity.
 
@@ -43,5 +43,7 @@ ____________
 * `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 * `index-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
+
+* `PHP_INT_MAX <https://php-dictionary.readthedocs.io/en/latest/dictionary/PHP_INT_MAX.ini.html>`_
 
 

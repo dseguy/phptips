@@ -1,7 +1,7 @@
 {
     "image": "array-callaback-index.png",
     "date": "2025-09-21",
-    "title": "Array Callaback Index",
+    "title": "Array Callback Index",
     "content": "An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name. PHP enforces the number of elements in the array, and the actual used index.\nOn the other hand, one may build the array in the wrong order but the correct index, and get the expected result. Nice!",
     "seeAlso": {
         "Callbacks / Callables (PHP manual)": "https://www.php.net/manual/en/language.types.callable.php"

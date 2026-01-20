@@ -21,13 +21,13 @@ glob() With Hidden Files
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html","name":"glob() With Hidden Files","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 04 Aug 2025 18:16:42 +0000","dateModified":"Mon, 04 Aug 2025 18:16:42 +0000","description":"By default, the ``glob()`` function lists only files that don't start with a dot ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html","name":"glob() With Hidden Files","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 17:54:46 +0000","dateModified":"Tue, 20 Jan 2026 17:54:46 +0000","description":"By default, the ``glob()`` function lists only files that don't start with a dot ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/glob_with_hidden_files.png
 
 By default, the ``glob()`` function lists only files that don't start with a dot ``.``. This means that the hidden files, on Linux, are not listed.
 
-With the ``GLOB_BRACE``` option, it is possible to list all files, and even filter out the ever present '.' and '..'.
+With the ``GLOB_BRACE`` option, it is possible to list all files, and even filter out the ever present '.' and '..'.
 
 See Also
 ________

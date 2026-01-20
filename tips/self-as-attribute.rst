@@ -21,7 +21,7 @@ Self As Attribute
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-as-attribute.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-as-attribute.html","name":"Self As Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 06:17:53 +0000","dateModified":"Sun, 03 Aug 2025 06:17:53 +0000","description":"Self, parent and static cannot be used as attributes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-as-attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-as-attribute.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-as-attribute.html","name":"Self As Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 16:59:56 +0000","dateModified":"Tue, 20 Jan 2026 16:59:56 +0000","description":"Self, parent and static cannot be used as attributes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-as-attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Jan Nedbal <https://janedbal.cz/>`_
 
@@ -31,7 +31,7 @@ Self, parent and static cannot be used as attributes. They are not recognized, a
 
 On the other hand, it is possible to use an attribute onto its own methods, simply by using its regular name.
 
-It is possible to use these names as attributes, as long as they are not instanciated.
+It is possible to use these names as attributes, as long as they are not instantiated.
 
 It is also possible to use aliases with the attributes: they will automatically resolve to the original class, not the aliased name.
 

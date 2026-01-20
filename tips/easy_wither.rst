@@ -21,7 +21,7 @@ Easy Wither Call
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html","name":"Easy Wither Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 18 May 2025 21:02:43 +0000","dateModified":"Sun, 18 May 2025 21:02:43 +0000","description":"Can be useful to create \"with-ers\" in an immutable (value) object with a LOT of readonly properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html","name":"Easy Wither Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 17:48:17 +0000","dateModified":"Tue, 20 Jan 2026 17:48:17 +0000","description":"Can be useful to create \"with-ers\" in an immutable (value) object with a LOT of readonly properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Benoit Viguier <https://phpc.social/@b_viguier>`_
 
@@ -31,7 +31,7 @@ Can be useful to create "with-ers" in an immutable (value) object with a LOT of 
 
 '+' is the addition of arrays, the first values have priority.
 
-get_defined_vars() gets the local variables, with their name, unlike func_get_args().
+get_defined_vars() gets the local variables, with their name, unlike ``func_get_args()``.
 
 Valid in PHP 8.1, with support for variadic and named keys.
 

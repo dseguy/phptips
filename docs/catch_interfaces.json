@@ -12,6 +12,6 @@
 "author":"",
 "contact":"",
     "phpError":{},
-    "features":["interface", "try-catch"],
+    "features":["interface", "try-catch", "exception"],
     "3v4l":{"Catching an interface":"https://3v4l.org/JfE8M"}
 }

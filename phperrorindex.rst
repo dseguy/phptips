@@ -4,9 +4,9 @@ Error Message index
 * A void function must not return a value (did you mean "return;" instead of "return null;"?)
     * :ref:`returning-void`
 * Array callback has to contain indices 0 and 1
-    * :ref:`array-callaback-index`
+    * :ref:`array-callback-index`
 * Array callback must have exactly two elements
-    * :ref:`array-callaback-index`
+    * :ref:`array-callback-index`
 * Cannot access offset of type A on array
     * :ref:`no-force-object-to-string`
 * Cannot assign %s to property %s::$%s of type %s

@@ -21,7 +21,7 @@ global Overwrites
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/global_overwrite.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/global_overwrite.html","name":"global Overwrites","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 15 Jan 2026 17:51:52 +0000","dateModified":"Thu, 15 Jan 2026 17:51:52 +0000","description":"The ``global`` keyword is actually enough to overwrite a local variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/global_overwrite.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/global_overwrite.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/global_overwrite.html","name":"global Overwrites","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 17:48:40 +0000","dateModified":"Tue, 20 Jan 2026 17:48:40 +0000","description":"The ``global`` keyword is actually enough to overwrite a local variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/global_overwrite.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/global_overwrite.png
 
@@ -50,5 +50,7 @@ ____________
 * `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
 
 * `default <https://php-dictionary.readthedocs.io/en/latest/dictionary/default.ini.html>`_
+
+* `$argv <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24argv.ini.html>`_
 
 

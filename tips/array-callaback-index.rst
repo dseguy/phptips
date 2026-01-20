@@ -1,19 +1,19 @@
-.. _array-callaback-index:
+.. _array-callback-index:
 
-Array Callaback Index
----------------------
+Array Callback Index
+--------------------
 
 .. meta::
 	:description:
-		Array Callaback Index: An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name.
+		Array Callback Index: An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Array Callaback Index
-	:twitter:description: Array Callaback Index: An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name
+	:twitter:title: Array Callback Index
+	:twitter:description: Array Callback Index: An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array-callaback-index.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array-callaback-index.png
-	:og:title: Array Callaback Index
+	:og:title: Array Callback Index
 	:og:type: article
 	:og:description: An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/array-callaback-index.html
@@ -21,7 +21,7 @@ Array Callaback Index
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html","name":"Array Callaback Index","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 21 Sep 2025 16:35:38 +0000","dateModified":"Sun, 21 Sep 2025 16:35:38 +0000","description":"An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html","name":"Array Callback Index","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 17:44:05 +0000","dateModified":"Tue, 20 Jan 2026 17:44:05 +0000","description":"An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/array-callaback-index.png
 

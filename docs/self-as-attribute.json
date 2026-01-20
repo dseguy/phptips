@@ -2,7 +2,7 @@
     "image": "self-as-attribute.png",
     "date": "2024-09-01",
     "title": "Self As Attribute",
-    "content": "Self, parent and static cannot be used as attributes. They are not recognized, and PHP will search for a class called ``\\self`` instead, in vain.\nOn the other hand, it is possible to use an attribute onto its own methods, simply by using its regular name.\nIt is possible to use these names as attributes, as long as they are not instanciated.\nIt is also possible to use aliases with the attributes: they will automatically resolve to the original class, not the aliased name.",
+    "content": "Self, parent and static cannot be used as attributes. They are not recognized, and PHP will search for a class called ``\\self`` instead, in vain.\nOn the other hand, it is possible to use an attribute onto its own methods, simply by using its regular name.\nIt is possible to use these names as attributes, as long as they are not instantiated.\nIt is also possible to use aliases with the attributes: they will automatically resolve to the original class, not the aliased name.",
     "seeAlso": {
         "Original tweet": "https:\/\/twitter.com\/janedbal\/status\/1830573580251288042"
     },

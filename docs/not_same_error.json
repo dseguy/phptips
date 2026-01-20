@@ -2,7 +2,7 @@
     "image": "not_same_error.png",
     "date": "2023-12-08",
     "title": "Array And Object Syntax, Not The Same Error",
-    "content": "When accessing an array as an object, PHP raises a Warning and continues with NULL.\nWhen accessing an object as an array, without ArrayAccess, PHP raises a Fatal Error and stops.\nIt is critical to check the syntax used to access an object.",
+    "content": "When accessing an array as an object, PHP raises a Warning and continues with NULL.\nWhen accessing an object as an array, without ``ArrayAccess``, PHP raises a Fatal Error and stops.\nIt is critical to check the syntax used to access an object.",
     "seeAlso": {
         "Array (PHP manual)": "https://www.php.net/manual/en/language.types.array.php",
         "Objects (PHP manual)": "https://www.php.net/manual/en/language.types.object.php"
@@ -17,7 +17,8 @@
         "yield but not return on 3v4l.org": "https:\/\/3v4l.org\/DLIiA"
     },
     "phpError": {},
-    "features": [        "array",
+    "features": [        
+        "array",
         "arrayaccess"
 ]
 }

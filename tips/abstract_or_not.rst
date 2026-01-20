@@ -21,7 +21,7 @@ Abstract Or Not
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_or_not.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_or_not.html","name":"Abstract Or Not","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 16:58:20 +0000","dateModified":"Tue, 20 Jan 2026 16:58:20 +0000","description":"A parent method must have a compatible signature with the same method in any child","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_or_not.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_or_not.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_or_not.html","name":"Abstract Or Not","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 17:45:46 +0000","dateModified":"Tue, 20 Jan 2026 17:45:46 +0000","description":"A parent method must have a compatible signature with the same method in any child","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_or_not.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/abstract_or_not.png
 
@@ -29,7 +29,7 @@ A parent method must have a compatible signature with the same method in any chi
 
 The only exception are constructor, ``__construct``, which are not required to keep the signature compatible between parent and child.
 
-This exception to the rule may be explicitely enforced by making the constructor ``abstract``, or by setting the constructor in an interface: in fact, methods in an interface are considered ``abstract`` by default.
+This exception to the rule may be explicitly enforced by making the constructor ``abstract``, or by setting the constructor in an interface: in fact, methods in an interface are considered ``abstract`` by default.
 
 See Also
 ________

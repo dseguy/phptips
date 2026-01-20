@@ -2,7 +2,7 @@
     "image": "array_merge_recursive.png",
     "date": "2025-06-25",
     "title": "The Recursive array_merge()",
-    "content": "array_merge_recursive() merges several arrays together, like its cousin array_merge(). The important difference here is where the recursive applies.\nThe operation is recursive because the string keys will be merged together into an array, whenever the same key is found multiple times. A new array is created: scalar values are added to this array, and arrays are merged with it. Single keys are kept intact and integer keys are reindexed, starting at 0.\nNote that to avoid the merge of sub-arrays, one need to put it inside yet another array (see array4).",
+    "content": "array_merge_recursive() merges several arrays together, like its cousin array_merge(). The important difference here is where the recursive applies.\nThe operation is recursive because the string keys will be merged together into an array, whenever the same key is found multiple times. A new array is created: scalar values are added to this array, and arrays are merged with it. Single keys are kept intact and integer keys are reindexed, starting at 0.\nNote that to avoid the merge of sub-arrays, one need to put it inside yet another array (see array).",
     "seeAlso": {
         "array_merge_recursive() (PHP manual)": "https://www.php.net/manual/en/function.array-merge-recursive.php"
     },

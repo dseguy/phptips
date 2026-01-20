@@ -2,7 +2,7 @@
     "image": "easy_wither.png",
     "date": "2023-12-17",
     "title": "Easy Wither Call",
-    "content": "Can be useful to create \"with-ers\" in an immutable (value) object with a LOT of readonly properties.\n'+' is the addition of arrays, the first values have priority.\nget_defined_vars() gets the local variables, with their name, unlike func_get_args().\nValid in PHP 8.1, with support for variadic and named keys.",
+    "content": "Can be useful to create \"with-ers\" in an immutable (value) object with a LOT of readonly properties.\n'+' is the addition of arrays, the first values have priority.\nget_defined_vars() gets the local variables, with their name, unlike ``func_get_args()``.\nValid in PHP 8.1, with support for variadic and named keys.",
     "seeAlso": {
         "Original Tweet": "https://twitter.com/b_viguier/status/1736328787741065295",
         "get_defined_vars": "https://www.php.net/manual/en/function.get-defined-vars.php",

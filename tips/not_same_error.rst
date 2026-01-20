@@ -21,13 +21,13 @@ Array And Object Syntax, Not The Same Error
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_same_error.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_same_error.html","name":"Array And Object Syntax, Not The Same Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 09 Jun 2025 19:47:07 +0000","dateModified":"Mon, 09 Jun 2025 19:47:07 +0000","description":"When accessing an array as an object, PHP raises a Warning and continues with NULL","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_same_error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_same_error.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_same_error.html","name":"Array And Object Syntax, Not The Same Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 17:49:28 +0000","dateModified":"Tue, 20 Jan 2026 17:49:28 +0000","description":"When accessing an array as an object, PHP raises a Warning and continues with NULL","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_same_error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/not_same_error.png
 
 When accessing an array as an object, PHP raises a Warning and continues with NULL.
 
-When accessing an object as an array, without ArrayAccess, PHP raises a Fatal Error and stops.
+When accessing an object as an array, without ``ArrayAccess``, PHP raises a Fatal Error and stops.
 
 It is critical to check the syntax used to access an object.
 
