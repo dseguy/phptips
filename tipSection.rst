@@ -5,6 +5,8 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/abstract_or_not.rst
+   tips/int_and_ant.rst
    tips/cast_in_const.rst
    tips/global_overwrite.rst
    tips/property_hook_default_values.rst

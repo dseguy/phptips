@@ -47,11 +47,14 @@ Error Message index
 * Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods
     * :ref:`declared-before-or-after`
 * Constant expression contains invalid operations
+    * :ref:`(int)-and-(ant)`
     * :ref:`no-cast-in-constant-expressions`
 * Declaration of %s must be compatible with %s
     * :ref:`never-is-the-lowest-ranking-type`
 * Declaration of %s::%s() must be compatible with %s::%s
     * :ref:`can't-be-compatible-with-less-arguments`
+* Declaration of b::__construct() must be compatible with a::__construct($a)
+    * :ref:`abstract-or-not`
 * Duplicate value in enum E for cases A and B
     * :ref:`enum-are-not-linted`
 * Incompatible readonly
