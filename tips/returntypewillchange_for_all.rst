@@ -1,4 +1,4 @@
-.. _``returntypewillchange``-is-for-all:
+.. _returntypewillchange-is-for-all:
 
 ``ReturnTypeWillChange`` Is For All
 -----------------------------------

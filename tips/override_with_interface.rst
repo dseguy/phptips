@@ -21,7 +21,7 @@ Override With Interface
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/override_with_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/override_with_interface.html","name":"Override With Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 22 Sep 2025 19:14:45 +0000","dateModified":"Mon, 22 Sep 2025 19:14:45 +0000","description":"The override attribute checks that a method is actually overriding a parent definition of the same method: this implies that a class must have a parent to use the Override attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/override_with_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/override_with_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/override_with_interface.html","name":"Override With Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 10:20:06 +0000","dateModified":"Thu, 22 Jan 2026 10:20:06 +0000","description":"The override attribute checks that a method is actually overriding a parent definition of the same method: this implies that a class must have a parent to use the Override attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/override_with_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/override_with_interface.png
 
@@ -33,7 +33,7 @@ See Also
 ________
 
 * `More about the Override Attribute <https://www.exakat.io/en/more-about-the-override-attribute/>`_
-* `Override <https://www.php.net/manual/en/class.override.php>`_
+* `Override (PHP manual) <https://www.php.net/manual/en/class.override.php>`_
 * `Override works on Interfaces <https://3v4l.org/WaZPd>`_ [Try me]
 
 

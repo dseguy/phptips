@@ -21,7 +21,7 @@ Weakmap And Enums
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/weakmap.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/weakmap.html","name":"Weakmap And Enums","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 20:01:04 +0000","dateModified":"Thu, 18 Sep 2025 20:01:04 +0000","description":"Have been reminded by a fellow PHP dev that, instead of a simple array, one could also use ``WeakMap``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/weakmap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/weakmap.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/weakmap.html","name":"Weakmap And Enums","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 10:20:21 +0000","dateModified":"Thu, 22 Jan 2026 10:20:21 +0000","description":"Have been reminded by a fellow PHP dev that, instead of a simple array, one could also use ``WeakMap``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/weakmap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Dmitri Goosens <https://phpc.social/@dgoosens>`_
 
@@ -35,7 +35,7 @@ See Also
 ________
 
 * `Original toot <https://phpc.social/@dgoosens/115218594712012421>`_
-* `Weakmap <https://www.php.net/manual/en/class.weakmap.php>`_
+* `Weakmap (PHP manual) <https://www.php.net/manual/en/class.weakmap.php>`_
 * `Weakmap in action <https://3v4l.org/cji28>`_ [Try me]
 
 

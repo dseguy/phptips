@@ -21,7 +21,7 @@ Coalesce And The Fatal Error
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html","name":"Coalesce And The Fatal Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 20:00:20 +0000","dateModified":"Thu, 18 Sep 2025 20:00:20 +0000","description":"The coalesce operator is based on the ``isset()`` feature of PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html","name":"Coalesce And The Fatal Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 10:19:48 +0000","dateModified":"Thu, 22 Jan 2026 10:19:48 +0000","description":"The coalesce operator is based on the ``isset()`` feature of PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/fatal_error_on_coalesce.png
 
@@ -37,7 +37,7 @@ See Also
 ________
 
 * `isset() And The Fatal Error <https://php-tips.readthedocs.io/en/latest/tips/isset_and_the_fatal_error.html>`_
-* `json_decode <https://www.php.net/manual/en/function.json-decode.php>`_
+* `json_decode (PHP manual) <https://www.php.net/manual/en/function.json-decode.php>`_
 * `Fatal error on coalesce <https://3v4l.org/piqCB>`_ [Try me]
 
 

@@ -5,7 +5,7 @@
     "content": "Have been reminded by a fellow PHP dev that, instead of a simple array, one could also use ``WeakMap``...\nNice thing with this is that it is a real dictionary... and that it accepts objects as keys... and this includes ``Enum::case``.",
     "seeAlso": {
         "Original toot":"https://phpc.social/@dgoosens/115218594712012421",
-        "Weakmap":"https://www.php.net/manual/en/class.weakmap.php"
+        "Weakmap (PHP manual)":"https://www.php.net/manual/en/class.weakmap.php"
     },
     "tags": [
         "tip"

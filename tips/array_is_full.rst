@@ -21,7 +21,7 @@ Array Is Full
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html","name":"Array Is Full","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 17:45:06 +0000","dateModified":"Tue, 20 Jan 2026 17:45:06 +0000","description":"When using append, the next id is calculated based on the largest integer key ever used in that array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html","name":"Array Is Full","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 10:19:19 +0000","dateModified":"Thu, 22 Jan 2026 10:19:19 +0000","description":"When using append, the next id is calculated based on the largest integer key ever used in that array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/array_is_full.png
 
@@ -33,7 +33,7 @@ See Also
 ________
 
 * `array (PHP manual) <https://www.php.net/manual/en/language.types.array.php>`_
-* `PHP_INT_MAX <https://www.php.net/manual/en/reserved.constants.php>`_
+* `PHP_INT_MAX (PHP manual) <https://www.php.net/manual/en/reserved.constants.php>`_
 * `array is full <https://3v4l.org/aN7pP>`_ [Try me]
 
 
