@@ -40,6 +40,8 @@ Error Message index
 * Cannot use object of type stdClass as array
     * :ref:`coalesce-and-the-fatal-error`
     * :ref:`isset()-and-the-fatal-error`
+* Cannot use positional argument after argument unpacking
+    * :ref:`unpacking-a-single-element-array`
 * Cannot use the %s modifier on a %s
     * :ref:`no-final-parameter`
 * Class "%s" not found
