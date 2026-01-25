@@ -1,6 +1,8 @@
 Error Message index
 -------------------
 
+* A non-numeric value encountered
+    * :ref:`where-to-put-the-cast?`
 * A void function must not return a value (did you mean "return;" instead of "return null;"?)
     * :ref:`returning-void`
 * Array callback has to contain indices 0 and 1

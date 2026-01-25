@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/put_the_cast_where.rst
    tips/unpacking_single_array.rst
    tips/abstract_or_not.rst
    tips/int_and_ant.rst

@@ -1,0 +1,17 @@
+{
+    "image": "put_the_cast_where.png",
+    "date": "2026-01-25",
+    "title": "Where To Put The Cast?",
+    "content": "Start from a string, and turn it into a negative number. It is actually as simple as adding the ``-`` sign in front of the string.\nBut that might generate a warning, upon non-numeric string. So, the safe way is to cast the string to ``(int)``, and then, take the opposite.\nNow, this is safe, but too long. In fact, this can be shortened by adding the ``(int)`` between the string and the sign, to cast first, then negate.\nAnd, of course, one may also add the noscream operator.",
+    "seeAlso": {
+    },
+    "tags": [
+        "suprising",
+        "ugly"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["minus","cast","sign","non-numeric"],
+    "3v4l": {"cast and sign":"https://3v4l.org/m6F8G"},
+    "phpError": {"A non-numeric value encountered":"a-non-numeric-value-encountered"}
+}
