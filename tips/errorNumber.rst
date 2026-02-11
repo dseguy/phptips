@@ -21,13 +21,13 @@ Reusing Decimals For Bananas
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/errorNumber.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/errorNumber.html","name":"Reusing Decimals For Bananas","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Feb 2026 10:25:31 +0000","dateModified":"Wed, 11 Feb 2026 10:25:31 +0000","description":"Besides decimal numbers such as ``8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/errorNumber.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/errorNumber.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/errorNumber.html","name":"Reusing Decimals For Bananas","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Feb 2026 17:55:12 +0000","dateModified":"Wed, 11 Feb 2026 17:55:12 +0000","description":"Besides decimal numbers such as ``8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/errorNumber.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/errorNumber.png
 
-Besides decimal numbers such as ``8.53`` or ``3.141592654``, PHP has 2 extra decimal numbers: ``INF``, for infinity. Both of them default to a eponymous string, when displayed. This might be useful.
+Besides decimal numbers such as ``8.53`` or ``3.141592654``, PHP has 2 extra decimal numbers: ``INF``, for infinity and ``NAN`` for not a number. Both of them default to the eponymous string, when displayed. This might be useful.
 
-It also works for ``Array``, with some error suppression, or not-too-recent PHP version. ``Object`` would generate a Fatal error, and ``Resource`` displays something that can't be reused to build another human readable word: ``Resource id #1`` (too bad...).
+This trick also works for ``Array``, with some error suppression, or not-too-recent PHP version. ``Object`` generates a Fatal error, and ``Resource`` displays something that can't be reused to build another human readable word: ``Resource id #1``: bummer.
 
 See Also
 ________
