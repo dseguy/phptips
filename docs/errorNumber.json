@@ -1,0 +1,17 @@
+{
+    "image": "errorNumber.png",
+    "date": "2026-02-11",
+    "title": "Reusing Decimals For Bananas",
+    "content": "Besides decimal numbers such as ``8.53`` or ``3.141592654``, PHP has 2 extra decimal numbers: ``INF``, for infinity. Both of them default to a eponymous string, when displayed. This might be useful.\nIt also works for ``Array``, with some error suppression, or not-too-recent PHP version. ``Object`` would generate a Fatal error, and ``Resource`` displays something that can't be reused to build another human readable word: ``Resource id #1`` (too bad...).",
+    "seeAlso": {
+        "Original trigger":"https://bsky.app/profile/lecodeestdanslepre.fr/post/3mel4s5kmws2u"
+    },
+    "tags": [
+        "fun"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["float", "nan", "inf"],
+    "3v4l": {"NAN and INF for BANANA":"https://3v4l.org/nFSZj"},
+    "phpError": {"Object of class stdClass could not be converted to string":"object-of-class-%s-could-not-be-converted-to-string"}
+}

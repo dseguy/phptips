@@ -2,7 +2,7 @@
 "image":"elephpant.png",
 "date":"2022-10-04",
 "title":"An Elephpant In The Code",	
-"content":"When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least.\nThe unicode for an elephant is ``128024`` or ``0x1F418``. It canbie used directly inside a string, or with the ``mb_chr()`` function, and not with the ``chr`` function, which is only handling a single byte.",
+"content":"When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least.\nThe unicode for an elephant is ``128024`` or ``0x1F418``. It may be used directly inside a string, or with the ``mb_chr()`` function, and not with the ``chr`` function, which is only handling a single byte.",
 "seeAlso":{
 	"Double quoted":"https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double",
 	"mb_chr":"https://www.php.net/mb_chr",
@@ -18,5 +18,5 @@
 	    "Two ways to the elephpant":"https://3v4l.org/0jqWd"
 	},
 	"phpError":{},
-	"features":["unicode", "string", "escape-sequence", "emoji"]
+	"features":["unicode", "string", "escape-sequence", "emoji", "elephpant"]
 }

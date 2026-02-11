@@ -21,7 +21,7 @@ parse_str() Edge Cases
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parse_str_edge_cases.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parse_str_edge_cases.html","name":"parse_str() Edge Cases","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 11 May 2025 20:58:12 +0000","dateModified":"Sun, 11 May 2025 20:58:12 +0000","description":"parse_str() reads the variables in the URL's query string, and convert them into an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parse_str_edge_cases.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parse_str_edge_cases.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parse_str_edge_cases.html","name":"parse_str() Edge Cases","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Feb 2026 10:27:19 +0000","dateModified":"Wed, 11 Feb 2026 10:27:19 +0000","description":"parse_str() reads the variables in the URL's query string, and convert them into an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parse_str_edge_cases.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/parse_str_edge_cases.png
 
@@ -45,5 +45,9 @@ ____________
 * `parse_str <https://php-dictionary.readthedocs.io/en/latest/dictionary/parse_str.ini.html>`_
 
 * `query-string <https://php-dictionary.readthedocs.io/en/latest/dictionary/query-string.ini.html>`_
+
+* `concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concatenation.ini.html>`_
+
+* `underscore <https://php-dictionary.readthedocs.io/en/latest/dictionary/underscore.ini.html>`_
 
 

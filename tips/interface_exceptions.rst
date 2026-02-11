@@ -1,19 +1,19 @@
-.. _exception-polyphormism:
+.. _exception-polymorphism:
 
-Exception Polyphormism
+Exception Polymorphism
 ----------------------
 
 .. meta::
 	:description:
-		Exception Polyphormism: Custom exceptions are like any other classes: they may implements interfaces.
+		Exception Polymorphism: Custom exceptions are like any other classes: they may implements interfaces.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Exception Polyphormism
-	:twitter:description: Exception Polyphormism: Custom exceptions are like any other classes: they may implements interfaces
+	:twitter:title: Exception Polymorphism
+	:twitter:description: Exception Polymorphism: Custom exceptions are like any other classes: they may implements interfaces
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/interface_exceptions.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/interface_exceptions.png
-	:og:title: Exception Polyphormism
+	:og:title: Exception Polymorphism
 	:og:type: article
 	:og:description: Custom exceptions are like any other classes: they may implements interfaces
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/interface_exceptions.html
@@ -21,7 +21,7 @@ Exception Polyphormism
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_exceptions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_exceptions.html","name":"Exception Polyphormism","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Jun 2025 08:26:33 +0000","dateModified":"Sat, 28 Jun 2025 08:26:33 +0000","description":"Custom exceptions are like any other classes: they may implements interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_exceptions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_exceptions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_exceptions.html","name":"Exception Polymorphism","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Feb 2026 17:47:25 +0000","dateModified":"Wed, 11 Feb 2026 17:47:25 +0000","description":"Custom exceptions are like any other classes: they may implements interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_exceptions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/interface_exceptions.png
 
@@ -40,5 +40,7 @@ ____________
 * `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
 
 * `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+
+* `polymorphism <https://php-dictionary.readthedocs.io/en/latest/dictionary/polymorphism.ini.html>`_
 
 

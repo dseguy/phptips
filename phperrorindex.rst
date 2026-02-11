@@ -71,6 +71,8 @@ Error Message index
     * :ref:`cast-in-const`
 * Object of class E could not be converted to string
     * :ref:`casting-an-enum-case`
+* Object of class stdClass could not be converted to string
+    * :ref:`reusing-decimals-for-bananas`
 * Recursion detected
     * :ref:`compact()-is-recursive`
 * Trying to access array offset on false

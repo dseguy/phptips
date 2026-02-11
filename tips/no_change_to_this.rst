@@ -21,7 +21,7 @@ No Change To $this
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_change_to_this.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_change_to_this.html","name":"No Change To $this","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 Aug 2025 17:35:40 +0000","dateModified":"Wed, 06 Aug 2025 17:35:40 +0000","description":"Variable ``$this`` is passed and reassigned by reference is a noop, as opposed to all other variables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_change_to_this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_change_to_this.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_change_to_this.html","name":"No Change To $this","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Feb 2026 10:47:20 +0000","dateModified":"Wed, 11 Feb 2026 10:47:20 +0000","description":"Variable ``$this`` is passed and reassigned by reference is a noop, as opposed to all other variables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_change_to_this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Ondrej Mirtes <https://twitter.com/OndrejMirtes>`_
 
@@ -41,5 +41,7 @@ PHP Features
 ____________
 
 * `$this <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24this.ini.html>`_
+
+* `noop <https://php-dictionary.readthedocs.io/en/latest/dictionary/noop.ini.html>`_
 
 

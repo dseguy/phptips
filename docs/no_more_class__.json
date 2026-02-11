@@ -2,7 +2,7 @@
     "image": "no_more_class__.png",
     "date": "2025-01-23",
     "title": "No More Class _",
-    "content": "Naming a class ``_`` has been deprecated in PHP 8.4.\nLuckily, that name is still available for functions and constants, which gives this beauty.\nThere is already a PHP extension function called ``_``, which is an alias of gettext(), from the gettext extension (sic). If you try this at home, avoid loading that extension, disable the ``_()`` with disable_function, or call it ``__()``.",
+    "content": "Naming a class ``_`` has been deprecated in PHP 8.4.\nLuckily, that name is still available for functions and constants, which gives this beauty.\nThere is already a PHP extension function called ``_``, which is an alias of ``gettext()``, from the ``gettext`` extension. If you try this at home, avoid loading that extension, disable the ``_()`` with disable_function, or call it ``__()``.",
     "seeAlso": {
         "The Basics (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.oop5.basic.php",
         "ext\/gettext": "https:\/\/www.php.net\/manual\/en\/book.gettext.php",

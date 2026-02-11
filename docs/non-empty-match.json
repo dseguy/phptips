@@ -2,7 +2,7 @@
     "image": "non-empty-match.png",
     "date": "2024-12-06",
     "title": "Non Empty Match",
-    "content": "PHP allows the empty ``switch``: that is, a switch command with an empty block of cases. The whole expression does nothing, and it is as useless as an if statement with an empty block.\nThe ``match`` statement, on the other hand, compiles just like the ``switch`` but it also enforces the default case, with an ``Uncaught UnhandledMatchError: Unhandled match case NULL`` exception. This one must be cautght, or one must add a ``default`` case, with a value, to the ``match`` to keep it useless.",
+    "content": "PHP allows the empty ``switch``: that is, a switch command with an empty block of cases. The whole expression does nothing, and it is as useless as an if statement with an empty block.\nThe ``match`` statement, on the other hand, compiles just like the ``switch`` but it also enforces the default case, with an ``Uncaught UnhandledMatchError: Unhandled match case NULL`` exception. This one must be caught, or one must add a ``default`` case, with a value, to the ``match`` to keep it useless.",
     "seeAlso": {
         "switch (PHP manual)": "https://www.php.net/manual/en/control-structures.match.php",
         "match (PHP manual)": "https://www.php.net/manual/en/control-structures.switch.php"

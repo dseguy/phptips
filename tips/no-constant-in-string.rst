@@ -21,7 +21,7 @@ No Class Constant In String
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html","name":"No Class Constant In String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 04:41:38 +0000","dateModified":"Fri, 04 Jul 2025 04:41:38 +0000","description":"Interpolation is injecting variable values inside strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html","name":"No Class Constant In String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Feb 2026 17:40:26 +0000","dateModified":"Wed, 11 Feb 2026 17:40:26 +0000","description":"Interpolation is injecting variable values inside strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/no-constant-in-string.png
 
@@ -31,9 +31,9 @@ Yet, the simple ``$object::CONSTANT`` doesn't compile. But, the error message me
 
 I wish there was a better way to inject that class name in the string, or, any class constant.
 
-Also, note that the reported class name is the definition one, not the name that was used at instanciation.
+Also, note that the reported class name is the definition one, not the name that was used at instantiation.
 
-So many suprises.
+So many surprises.
 
 See Also
 ________

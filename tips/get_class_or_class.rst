@@ -21,17 +21,17 @@ get_class() Or ::class?
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_class_or_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_class_or_class.html","name":"get_class() Or ::class?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Sep 2025 17:47:43 +0000","dateModified":"Wed, 24 Sep 2025 17:47:43 +0000","description":"Both ``get_class()`` and ``::class`` do the same: they report the name of the class of the provided object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_class_or_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_class_or_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_class_or_class.html","name":"get_class() Or ::class?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Feb 2026 17:47:48 +0000","dateModified":"Wed, 11 Feb 2026 17:47:48 +0000","description":"Both ``get_class()`` and ``::class`` do the same: they report the name of the class of the provided object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_class_or_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/get_class_or_class.png
 
 Both ``get_class()`` and ``::class`` do the same: they report the name of the class of the provided object. The nuances are in the details.
 
-``get_class()`` needs an object as argument, and emits a TypeError if not. ``::class`` works both on objects and class names. The latters are, basically, strings, so ``::class`` work on strings.
+``get_class()`` needs an object as argument, and emits a ``TypeError`` if not provided one. ``::class`` works both on objects and class names. The laters are, basically, strings, so ``::class`` work on strings.
 
 ``get_class()`` needs the class to be available, while ``::class`` merely formats the name of the class with the internal case: this works on an object, but not if the class name is hardcoded.
 
-And who hard code its class names with strings?
+And who hardcodes its class names with strings?
 
 See Also
 ________
@@ -47,5 +47,9 @@ ____________
 * `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 * `class-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-operator.ini.html>`_
+
+* `typeerror <https://php-dictionary.readthedocs.io/en/latest/dictionary/typeerror.ini.html>`_
+
+* `get_class <https://php-dictionary.readthedocs.io/en/latest/dictionary/get_class.ini.html>`_
 
 

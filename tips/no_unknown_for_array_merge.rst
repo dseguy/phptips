@@ -21,13 +21,13 @@ No Unknown For array_merge()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html","name":"No Unknown For array_merge()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 04 Aug 2025 19:56:12 +0000","dateModified":"Mon, 04 Aug 2025 19:56:12 +0000","description":"A PHP variadic argument collects all the unused named parameters, along with their key","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html","name":"No Unknown For array_merge()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Feb 2026 10:46:04 +0000","dateModified":"Wed, 11 Feb 2026 10:46:04 +0000","description":"A PHP variadic argument collects all the unused named parameters, along with their key","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/no_unknown_for_array_merge.png
 
 A PHP variadic argument collects all the unused named parameters, along with their key.  That way, it is possible to handle them with their name inside the method.
 
-On the other hand, array_merge (and some cousins) refuse them, and emits a Fatal error. There, it is important to use array_values() to avoid named parameters.
+On the other hand, ``array_merge()``, and some cousins, refuse them, and emits a Fatal error. There, it is important to use array_values() to avoid named parameters.
 
 See Also
 ________

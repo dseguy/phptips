@@ -9,11 +9,11 @@
     },
     "tags": [
         "surprising",
-        "backward-compatibility"
+        "backward compatibility"
     ],
     "author": "",
     "contact": "",
-    "features": ["parse_str", "query-string"],
+    "features": ["parse_str", "query-string", "concatenation", "underscore"],
     "3v4l": {"Various parse_str() replacements":"https://3v4l.org/4GMFX"},
     "phpError":{}
 }

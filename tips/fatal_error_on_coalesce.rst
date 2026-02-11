@@ -21,7 +21,7 @@ Coalesce And The Fatal Error
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html","name":"Coalesce And The Fatal Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 10:19:48 +0000","dateModified":"Thu, 22 Jan 2026 10:19:48 +0000","description":"The coalesce operator is based on the ``isset()`` feature of PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html","name":"Coalesce And The Fatal Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Feb 2026 17:44:52 +0000","dateModified":"Wed, 11 Feb 2026 17:44:52 +0000","description":"The coalesce operator is based on the ``isset()`` feature of PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/fatal_error_on_coalesce.png
 
@@ -29,7 +29,7 @@ The coalesce operator is based on the ``isset()`` feature of PHP. As such, it is
 
 Usually, coalesce hide any existence check on the left operand: that way, the default value may be used without a noisy warning. This does not apply when trying to check an array index on an object: it actually yields a fatal error.
 
-Such situation is usually rare, as the structure of the variable is usually known to some extend. On the other hand, using ``??`` on the result of an unstructure dataset, such as from a ``JSON`` or ``YAML`` (or else), it becomes far more hazardous.
+Such situation is usually rare, as the structure of the variable is usually known to some extend. On the other hand, using ``??`` on the result of an unstructured dataset, such as from a ``JSON`` or ``YAML`` (or else), it becomes far more hazardous.
 
 Note that ``json_decode()`` has an option to generate an object or an array. In such situation, it is safer to generate an array, which does not yield fatal errors. It might also be faster to run.
 
@@ -58,5 +58,9 @@ ____________
 * `json_decode <https://php-dictionary.readthedocs.io/en/latest/dictionary/json_decode.ini.html>`_
 
 * `object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
+
+* `yaml <https://php-dictionary.readthedocs.io/en/latest/dictionary/yaml.ini.html>`_
+
+* `json <https://php-dictionary.readthedocs.io/en/latest/dictionary/json.ini.html>`_
 
 

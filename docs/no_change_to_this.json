@@ -18,5 +18,5 @@
         "Running code": "https://3v4l.org/2PkHO"
     },
     "phpError": {},
-    "features": ["$this"]
+    "features": ["$this", "noop"]
 }

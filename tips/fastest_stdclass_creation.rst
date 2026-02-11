@@ -21,13 +21,13 @@ Fast Creation Of stdClass Objects
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fastest_stdclass_creation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fastest_stdclass_creation.html","name":"Fast Creation Of stdClass Objects","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 Aug 2025 17:35:18 +0000","dateModified":"Wed, 06 Aug 2025 17:35:18 +0000","description":"The fastest way to create a ``stdClass`` object is to create an array, and then cast it to stdClass with the ``(array)`` cast operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fastest_stdclass_creation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fastest_stdclass_creation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fastest_stdclass_creation.html","name":"Fast Creation Of stdClass Objects","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Feb 2026 17:44:19 +0000","dateModified":"Wed, 11 Feb 2026 17:44:19 +0000","description":"The fastest way to create a ``stdClass`` object is to create an array, and then cast it to stdClass with the ``(array)`` cast operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fastest_stdclass_creation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/fastest_stdclass_creation.png
 
-The fastest way to create a ``stdClass`` object is to create an array, and then cast it to stdClass with the ``(array)`` cast operator. It is still faster even if the array is build peacemal (2 times slower).
+The fastest way to create a ``stdClass`` object is to create an array, and then cast it to stdClass with the ``(array)`` cast operator. It is still faster even if the array is build piece-meal: two times slower.
 
-Setting directly properties on the stdClass object is then about 3 times slower, and creating a class extension with an adapted __construc method is then 4 times slower.
+Setting directly properties on the stdClass object is then about three times slower, and creating a class extension with an adapted ``__construct`` method is then four times slower.
 
 In the end, this is a micro optimisation.
 

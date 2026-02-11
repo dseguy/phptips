@@ -5,7 +5,7 @@
     "content": "A dynamic property name must be a string, and it must exist. It cannot be anything else, as not casting to string happens.\nOn the other hand, a dynamic property name is forcefully cast to a string before accessing its value.",
     "seeAlso": {},
     "tags": [
-        "weird"
+        "strange"
     ],
     "author": "",
     "contact": "",

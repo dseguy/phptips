@@ -1,7 +1,7 @@
 {
 "image":"interface_exceptions.png",
 "date":"2023-09-23",
-"title":"Exception Polyphormism",
+"title":"Exception Polymorphism",
 "content":"Custom exceptions are like any other classes: they may implements interfaces. Later, that interface may be used to catch the exception, even if the interface has nothing to do with exceptions. And with several interfaces on the same exception, it is possible to catch them in different ways.",
 "seeAlso":{
 	"Exceptions":"https://www.php.net/manual/en/language.exceptions.php"
@@ -17,6 +17,7 @@
     "phpError": {},
     "features": [
 	"exception",
-	"catch"
+	"catch",
+	"polymorphism"
     ]
 }
