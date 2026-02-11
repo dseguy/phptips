@@ -21,7 +21,7 @@ Every Anonymous Class Is Different
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/every_anonymous_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/every_anonymous_class.html","name":"Every Anonymous Class Is Different","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 22 Jun 2025 19:23:50 +0000","dateModified":"Sun, 22 Jun 2025 19:23:50 +0000","description":"Anonymous classes don't have an explicit name, yet PHP uses one internally","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/every_anonymous_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/every_anonymous_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/every_anonymous_class.html","name":"Every Anonymous Class Is Different","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Feb 2026 17:51:34 +0000","dateModified":"Wed, 11 Feb 2026 17:51:34 +0000","description":"Anonymous classes don't have an explicit name, yet PHP uses one internally","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/every_anonymous_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/every_anonymous_class.png
 
@@ -36,13 +36,42 @@ Note that the syntax ``foo() instanceof $x`` is valid, but ``$x instanceof foo()
 See Also
 ________
 
-* `instanceof (PHP manual) <https://www.php.net/manual/en/language.operators.type.php>`_
 * `Anonymous and different <https://3v4l.org/C93Ug>`_ [Try me]
 
 
 PHP Features
 ____________
 
+* `instanceof <https://php-dictionary.readthedocs.io/en/latest/dictionary/instanceof.ini.html>`_
+
+* `anonymous <https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous.ini.html>`_
+
+* `explicit <https://php-dictionary.readthedocs.io/en/latest/dictionary/explicit.ini.html>`_
+
+* `name <https://php-dictionary.readthedocs.io/en/latest/dictionary/name.ini.html>`_
+
+* `php <https://php-dictionary.readthedocs.io/en/latest/dictionary/php.ini.html>`_
+
+* `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
+* `definition <https://php-dictionary.readthedocs.io/en/latest/dictionary/definition.ini.html>`_
+
 * `anonymous-class <https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous-class.ini.html>`_
+
+* `object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
+
+* `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+
+* `syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/syntax.ini.html>`_
+
+* `not <https://php-dictionary.readthedocs.io/en/latest/dictionary/not.ini.html>`_
+
+* `operand <https://php-dictionary.readthedocs.io/en/latest/dictionary/operand.ini.html>`_
+
+* `expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/expression.ini.html>`_
+
+* `case <https://php-dictionary.readthedocs.io/en/latest/dictionary/case.ini.html>`_
+
+* `assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html>`_
 
 

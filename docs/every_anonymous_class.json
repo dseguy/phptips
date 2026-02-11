@@ -4,7 +4,6 @@
     "title": "Every Anonymous Class Is Different",
     "content": "Anonymous classes don't have an explicit name, yet PHP uses one internally. That name is build on top of the localisation of the class definition in the code.\nThis means that two anonymous class objects (sic), created with the same code, but at different places in the code, are considered of a different type by PHP.\nOn the other hand, when the same piece of code produces the anonymous class object, it is considered of the same class.\nNote that the syntax ``foo() instanceof $x`` is valid, but ``$x instanceof foo()`` is not. The second operand of ``instanceof`` is a bit precious, and forbid many expressions: this is the case of a simple assignation.",
     "seeAlso": {
-        "instanceof (PHP manual)": "https://www.php.net/manual/en/language.operators.type.php"
     },
     "tags": [
         "surprising"
@@ -15,5 +14,22 @@
         "Anonymous and different": "https://3v4l.org/C93Ug"
     },
     "phpError": {},
-    "features": ["anonymous-class"]
+    "features": [
+        "instanceof",
+        "anonymous",
+        "explicit",
+        "name",
+        "php",
+        "class",
+        "definition",
+        "anonymous-class",
+        "object",
+        "type",
+        "syntax",
+        "not",
+        "operand",
+        "expression",
+        "case",
+        "assignation"
+    ]
 }

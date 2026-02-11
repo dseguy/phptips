@@ -14,5 +14,22 @@
     "contact": "",
     "3v4l":{"Run this code":"https://3v4l.org/0WDiL"},
     "phpError":{"Cannot use [] for reading":"cannot-use-[]-for-reading"},
-    "features":["append", "short-assignation"]
+    "features":[
+        "operator",
+        "array",
+        "append",
+        "error",
+        "case",
+        "yield",
+        "explicit",
+        "reading",
+        "expression",
+        "value",
+        "not",
+        "new",
+        "default-value",
+        "null",
+        "append", 
+        "short-assignation"
+        ]
 }

@@ -21,7 +21,7 @@ array_append() And Short Assignation
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html","name":"array_append() And Short Assignation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Feb 2025 11:40:58 +0000","dateModified":"Fri, 07 Feb 2025 11:40:58 +0000","description":"PHP allows using short assignation operators with the array append operators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html","name":"array_append() And Short Assignation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Feb 2026 17:53:16 +0000","dateModified":"Wed, 11 Feb 2026 17:53:16 +0000","description":"PHP allows using short assignation operators with the array append operators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/array_append.png
 
@@ -45,6 +45,34 @@ __________________
 
 PHP Features
 ____________
+
+* `operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
+
+* `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+* `append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
+
+* `error <https://php-dictionary.readthedocs.io/en/latest/dictionary/error.ini.html>`_
+
+* `case <https://php-dictionary.readthedocs.io/en/latest/dictionary/case.ini.html>`_
+
+* `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+
+* `explicit <https://php-dictionary.readthedocs.io/en/latest/dictionary/explicit.ini.html>`_
+
+* `reading <https://php-dictionary.readthedocs.io/en/latest/dictionary/reading.ini.html>`_
+
+* `expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/expression.ini.html>`_
+
+* `value <https://php-dictionary.readthedocs.io/en/latest/dictionary/value.ini.html>`_
+
+* `not <https://php-dictionary.readthedocs.io/en/latest/dictionary/not.ini.html>`_
+
+* `new <https://php-dictionary.readthedocs.io/en/latest/dictionary/new.ini.html>`_
+
+* `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+
+* `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
 
 * `append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
 
