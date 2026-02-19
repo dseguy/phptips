@@ -65,6 +65,8 @@ Error Message index
     * :ref:`incompatible-promoted-readonlies`
 * Increment on non-alphanumeric string is deprecated 
     * :ref:`not-all-incremented-strings-are-deprecated`
+* Invalid UTF-8 codepoint escape
+    * :ref:`hexadecimal-separator`
 * Multiple static modifiers are not allowed
     * :ref:`cannot-static-static-property`
 * Object casts are not supported in this context

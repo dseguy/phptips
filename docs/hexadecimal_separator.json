@@ -1,0 +1,17 @@
+{
+    "image": "hexadecimal_separator.png",
+    "date": "2026-02-19",
+    "title": "Hexadecimal Separator",
+    "content": "PHP offers a number separator since PHP 8.0: ``_``. It may be added inside any integer or float, to make long list of digits more readable.\nIn fact, this also applies to the other integer notations: hexadecimal, octal, binary, etc. Just don't put it inside the header, like ``0_x_1``, but in the body of the integer.\nInterestingly, the separator does not work in string sequences, like inside an hexadecimal unicode representation.",
+    "seeAlso": {
+    },
+    "tags": [
+        "integer",
+        "extended case"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["numeric-separator", "underscore", "hexadecimal-integer", "octal-integer", "binary-integer", "unicode", "escape-sequence"],
+    "3v4l": {"Hexadecimal separated":"https://3v4l.org/AQRE2"},
+    "phpError": {"Invalid UTF-8 codepoint escape":"invalid-utf-8-codepoint-escape"}
+}
