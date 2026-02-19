@@ -1,0 +1,17 @@
+{
+    "image": "echo-comma.png",
+    "date": "2026-02-18",
+    "title": "Call echo With Commas",
+    "content": "The most efficient way to call echo is to use commas. Each argument of echo is then sed to the output. Echo is not a function, but a language construct, with this special ability.\necho is sometimes used with parenthesis: it makes it look like an actual function call. Yet, it also reduces the number of arguments from arbitrary to one: there can be only one element inside a parenthesis.\nHence, any list of several arguments passed to echo is concatenated into one. This is a useless concatenation, as it is immediately discarded. And echoing the arguments one after the other does the same job.\nIn the end, it is a micro-optimisation anyway.",
+    "seeAlso": {
+    },
+    "tags": [
+        "micro-optimisation",
+        "surprising"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["echo", "concatenation", "print", "micro-optimisation", "language-construct"],
+    "3v4l": {"echo and print":"https://3v4l.org/qi4pp#veol"},
+    "phpError": {}
+}
