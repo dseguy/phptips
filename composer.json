@@ -1,5 +1,6 @@
 {
     "require": {
-        "samdark/sitemap": "^2.4"
+        "samdark/sitemap": "^2.4",
+        "laminas/laminas-feed": "^2.23"
     }
 }

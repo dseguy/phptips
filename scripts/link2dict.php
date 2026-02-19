@@ -27,11 +27,13 @@ $doc = json_decode(file_get_contents($file));
 $content = $doc->content;
 preg_match_all('/\b(?<!`)('.implode('|', $words).')s?(?!`)\b/', mb_strtolower($content), $r);
 $spotted = array_unique($r[1]);
-$spotted = array_diff($spotted, array('and', 'or', 'as', 'use', 'for'));
+$spotted = array_diff($spotted, array('and', 'or', 'as', 'use', 'for', 'php', 'not'));
 
 preg_match_all('/\b(?<=`)('.implode('|', $words).')(?=`)\b/', $content, $r);
 //print_r(array_unique($r[0]));
 $specials = array_unique($r[0]);
+
+print_r($doc->features);
 
 $all = array_merge($specials, $spotted);
 $all = array_unique($all);
