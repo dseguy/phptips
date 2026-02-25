@@ -6,6 +6,7 @@ PHP tips and tricks
    :caption: Contents:
 
    tips/crazy_const_type.rst
+   tips/http_wrapper.rst
    tips/cast_but_not_cast.rst
    tips/hexadecimal_separator.rst
    tips/echo-comma.rst

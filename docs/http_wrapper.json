@@ -1,0 +1,17 @@
+{
+    "image": "http_wrapper.png",
+    "date": "2026-02-24",
+    "title": "Replacing PHP http Wrapper",
+    "content": "Did you know you can override built-in protocols such as https://?\nYou can create mocks! I'd advise to use dedicated tools such as #Symfony MockHttpClient. But in the case of vanilla PHP...\nI'll let you tell me if it's a good or a terrible idea 😉.",
+    "seeAlso": {
+        "original tweet":"https://x.com/alexdaubois/status/2026210142677598565"
+    },
+    "tags": [
+        "trick"
+    ],
+    "author": "Alexandre Daubois",
+    "contact": "",
+    "features": ["wrapper", "php-wrapper"],
+    "3v4l": {"http wrapper renewed":"https://3v4l.org/RH2uq#veol"},
+    "phpError": {}
+}
