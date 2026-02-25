@@ -38,6 +38,8 @@ Error Message index
     * :ref:`namespace,-but-far-in-the-name`
 * Cannot use [] for reading
     * :ref:`array_append()-and-short-assignation`
+* Cannot use int as value for class constant x::A of type string
+    * :ref:`multiple-const-types`
 * Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
     * :ref:`cannot-use-isset-on-expression,-so-use-what?`
 * Cannot use object of type stdClass as array

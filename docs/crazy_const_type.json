@@ -1,0 +1,16 @@
+{
+    "image": "crazy_const_type.png",
+    "date": "2026-02-25",
+    "title": "Multiple Const Types",
+    "content": "Class constants may be typed since PHP 8.3. Union types are possible, and they are valid with class constants.\nIn the first case, two constants are declared with different types. PHP complains if any of the types does not apply to the values, so the union type is needed to ensure that both constant are well declared. Obviously, they should be declared on distinct ``const`` expressions.\nIn the second case, the constant is defined with a condition. Now, ``rand()`` cannot be called in that part of the code, but using other constants, native such as ``PHP_OS``, ``__FILE__``, custom, global or ``define()``d may impact the expression, and lead to different results and types. This is a theoretical case, and it has never been seen in the wild.",
+    "seeAlso": {
+    },
+    "tags": [
+        "bad code"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["constant", "class-constant", "typed-constant", "union-type", "condition"],
+    "3v4l": {"Multiple Const Types":"https://3v4l.org/ElUNU"},
+    "phpError": {"Cannot use int as value for class constant x::A of type string":"cannot-use-%s-as-value-for-class-constant-%s::%s-of-type-%s"}
+}

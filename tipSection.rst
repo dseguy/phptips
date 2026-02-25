@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/crazy_const_type.rst
    tips/cast_but_not_cast.rst
    tips/hexadecimal_separator.rst
    tips/echo-comma.rst
