@@ -62,6 +62,8 @@ Error Message index
     * :ref:`can't-be-compatible-with-less-arguments`
 * Declaration of b::__construct() must be compatible with a::__construct($a)
     * :ref:`abstract-or-not`
+* Declaration of x::foo() must be compatible with i::foo(): int
+    * :ref:`returntypewillchange-is-for-all`
 * Duplicate value in enum E for cases A and B
     * :ref:`enum-are-not-linted`
 * Incompatible readonly

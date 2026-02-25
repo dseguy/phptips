@@ -21,17 +21,26 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/returntypewillchange_for_all.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/returntypewillchange_for_all.html","name":"ReturnTypeWillChange Is For All","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 17:54:16 +0000","dateModified":"Tue, 20 Jan 2026 17:54:16 +0000","description":"``ReturnTypeWillChange`` is an attribute that tells PHP that the return type of the related method is different from the defined by the PHP native methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/returntypewillchange_for_all.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/returntypewillchange_for_all.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/returntypewillchange_for_all.html","name":"ReturnTypeWillChange Is For All","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 25 Feb 2026 17:52:02 +0000","dateModified":"Wed, 25 Feb 2026 17:52:02 +0000","description":"``ReturnTypeWillChange`` is an attribute that tells PHP that the return type of the related method is different from the defined by the PHP native methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/returntypewillchange_for_all.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/returntypewillchange_for_all.png
 
 ``ReturnTypeWillChange`` is an attribute that tells PHP that the return type of the related method is different from the defined by the PHP native methods. In fact, this attribute may also be used on custom interfaces, to skip the type checks.
 
+The method signature must be compatible with the interface definition, but, with the attribute, it may actually return anything else. This also means that types may only be trusted after checking for attributes.
+
 See Also
 ________
 
 * `ReturnTypeWillChange (PHP manual) <https://www.php.net/manual/en/class.returntypewillchange.php>`_
-* `this function never returns <https://3v4l.org/X3KJH>`_ [Try me]
+* `this function never returns <https://3v4l.org/AtbW9>`_ [Try me]
+
+
+PHP Error Messages
+__________________
+
+* `Declaration of x::foo() must be compatible with i::foo(): int <https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s%3A%3A%25s%28%29-must-be-compatible-with-%25s%3A%3A%25s%28%29.html>`_
+
 
 
 PHP Features

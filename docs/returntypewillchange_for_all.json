@@ -2,19 +2,20 @@
 "image":"returntypewillchange_for_all.png",
 "date":"2022-12-23",
 "title":"``ReturnTypeWillChange`` Is For All",
-"content":"``ReturnTypeWillChange`` is an attribute that tells PHP that the return type of the related method is different from the defined by the PHP native methods. In fact, this attribute may also be used on custom interfaces, to skip the type checks.",
+"content":"``ReturnTypeWillChange`` is an attribute that tells PHP that the return type of the related method is different from the defined by the PHP native methods. In fact, this attribute may also be used on custom interfaces, to skip the type checks.\nThe method signature must be compatible with the interface definition, but, with the attribute, it may actually return anything else. This also means that types may only be trusted after checking for attributes.",
 "seeAlso":{
 	"ReturnTypeWillChange (PHP manual)":"https://www.php.net/manual/en/class.returntypewillchange.php"
 },
 "tags":[
-"tip"
+"tip",
+"trap"
 ],
     "author": "",
     "contact": "",
     "3v4l": {
-        "this function never returns": "https:\/\/3v4l.org\/X3KJH"
+        "this function never returns": "https://3v4l.org/AtbW9"
     },
-    "phpError": {},
+    "phpError": {"Declaration of x::foo() must be compatible with i::foo(): int":"declaration-of-%s::%s()-must-be-compatible-with-%s::%s()"},
     "features": [
     "attribute",
 	"php-attribute",
