@@ -21,9 +21,9 @@ Replacing PHP http Wrapper
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html","name":"Replacing PHP http Wrapper","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 25 Feb 2026 16:43:52 +0000","dateModified":"Wed, 25 Feb 2026 16:43:52 +0000","description":"Did you know you can override built-in protocols such as https:\/\/","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html","name":"Replacing PHP http Wrapper","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 26 Feb 2026 15:43:51 +0000","dateModified":"Thu, 26 Feb 2026 15:43:51 +0000","description":"Did you know you can override built-in protocols such as https:\/\/","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-By `Alexandre Daubois <>`_
+By `Alexandre Daubois <https://x.com/alexdaubois>`_
 
 .. image:: ../images/http_wrapper.png
 

@@ -3,7 +3,7 @@ Author index
 
 * `Aken Roberts <https://bsky.app/profile/akenroberts.com>`_
     * :ref:`unicode-comments`
-* `Alexandre Daubois <>`_
+* `Alexandre Daubois <https://x.com/alexdaubois>`_
     * :ref:`replacing-php-http-wrapper`
 * `Andrew Schmelyun <https://twitter.com/aschmelyun>`_
     * :ref:`strange--->-operator`
