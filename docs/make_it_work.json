@@ -1,0 +1,17 @@
+{
+    "image": "make_it_work.png",
+    "date": "2026-02-26",
+    "title": "make_it_work",
+    "content": "Can you make this code work?\nThe challenge is to only add more code to this snippet, not less.\n\n\nThis syntax is valid PHP code, but one may expect ``$this->code``, instead of ``$this<-code``. Now, PHP is able to parse such syntax, and it then understands it as ``$this < -code``. For this to run, we need ``code`` to be a global constant. This can be defined before the class itself, as ``const code = 2;``. Constants may use lowercase, but this is not usual nor tradition.\nThen, comparing to ``$this`` is not possible, although the left side of the operation is ``(string) $this``. One only needs to turn ``$this`` to a string, and then compare it to a number. So, we can add the magic method ``__toString()``, which returns a number in a string.\nThe final result is ``true`` or ``false``, depending on the return of ``__toString()``.\nIn the end, the private property ``$code`` is unused. It was a bait.",
+    "seeAlso": {
+    },
+    "tags": [
+        "riddle"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["constant", "$this", "comparison", "sign", "__toString"],
+    "3v4l": {"Original Riddle":"https://3v4l.org/W4NL5",
+             "Solution":"https://3v4l.org/cogKD"},
+    "phpError": {}
+}
