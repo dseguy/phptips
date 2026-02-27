@@ -6,8 +6,9 @@
     "seeAlso": {
     "Claude":"https://claude.ai/share/4a79b21f-373d-41c5-8555-72e8165316a5",
     "ChatGPT":"https://chatgpt.com/share/69a0427a-782c-800e-83b6-dc50809ba20d",
-    "DeepSeek":"https://chat.mistral.ai/chat/c9dd237c-f43d-4a9f-ab92-901fa7c28f2a",
-    "Mistral (Failed task)":"https://chat.mistral.ai/chat/c9dd237c-f43d-4a9f-ab92-901fa7c28f2a"
+    "DeepSeek (Failed task)":"https://chat.mistral.ai/chat/c9dd237c-f43d-4a9f-ab92-901fa7c28f2a",
+    "Mistral (Failed task)":"https://chat.mistral.ai/chat/c9dd237c-f43d-4a9f-ab92-901fa7c28f2a",
+    "Gemini (Failed task)":"https://gemini.google.com/share/b112994f5657"
     },
     "tags": [
         "riddle"
