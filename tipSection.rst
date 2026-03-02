@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/stuttering.rst
    tips/make_it_work.rst
    tips/crazy_const_type.rst
    tips/http_wrapper.rst

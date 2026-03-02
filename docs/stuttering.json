@@ -1,0 +1,16 @@
+{
+    "image": "stuttering.png",
+    "date": "2026-03-02",
+    "title": "Stuttering PHP",
+    "content": "Not a great joke, but it made me chuckle.\nKeep in mind that the first ``yield`` actually produces a ``null``, which is displayed as empty string, hence it is not visible.\nMay be, some PHP words may be forbidden, or, at least, avoided.",
+    "seeAlso": {
+    },
+    "tags": [
+        "funny"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["yield", "yield-from", "reserved-name"],
+    "3v4l": {"Stuttering PHP":"https://3v4l.org/KiQGo"},
+    "phpError": {}
+}
