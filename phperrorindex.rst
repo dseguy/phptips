@@ -1,6 +1,8 @@
 Error Message index
 -------------------
 
+* (expression)::class cannot be used in constant expressions
+    * :ref:`::parent-operator`
 * A non-numeric value encountered
     * :ref:`cast-but-not-a-cast`
     * :ref:`where-to-put-the-cast?`
