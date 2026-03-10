@@ -104,6 +104,8 @@ Error Message index
     * :ref:`undefined-variable`
 * Unhandled case NULL
     * :ref:`non-empty-match`
+* Unknown named parameter $%s
+    * :ref:`named-parameter-inheritance`
 * Unsupported operand types: int & string
     * :ref:`bitwise-operations-on-string`
 * array_merge() does not accept unknown named parameters

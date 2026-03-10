@@ -5,6 +5,8 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/speed_up_write_to_disk.rst
+   tips/maxmemory.rst
    tips/parent_operator.rst
    tips/stuttering.rst
    tips/make_it_work.rst

@@ -16,5 +16,5 @@
     "3v4l": {
         "named parameter changes": "https:\/\/3v4l.org\/k3Rhl"
     },
-    "phpError": {}
+    "phpError": {"Unknown named parameter $%s":"unknown-named-parameter-$%s"}
 }
