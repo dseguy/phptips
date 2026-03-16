@@ -1,0 +1,17 @@
+{
+    "image": "array_unique_and_enum.png",
+    "date": "2026-03-16",
+    "title": "array_unique() And Enum",
+    "content": "Enumerations works like normal values, most of the time. They may be used as values in arrays, but not as keys, may it be directly, or with casting.\nAn array of enumerations can be used with in_array(), and it works the same way, with or without the third ``strict`` parameter of the function.\nOn the other hand, array_unique() defaults to comparing values as strings, and enumerations can't be converted silently to strings, even when backed as strings. To make that PHP native function work, it is necessary to use the ``SORT_REGULAR`` option as third argument, which acts as ``$strict`` in in_array().",
+    "seeAlso": {
+        "http_build_query() And Enumerations": "https://php-tips.readthedocs.io/en/latest/tips/http_build_query_enum.html"
+    },
+    "tags": [
+        "tip", "trick", "suprise"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["enum", "array", "in_array", "array_unique"],
+    "3v4l": {"in_array, array_unique and enums":"https://3v4l.org/q9iGl"},
+    "phpError": {"Object of class E could not be converted to string":"object-of-class-%s-could-not-be-converted-to-string"}
+}

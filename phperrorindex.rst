@@ -79,6 +79,7 @@ Error Message index
 * Object casts are not supported in this context
     * :ref:`cast-in-const`
 * Object of class E could not be converted to string
+    * :ref:`array_unique()-and-enum`
     * :ref:`casting-an-enum-case`
 * Object of class stdClass could not be converted to string
     * :ref:`reusing-decimals-for-bananas`

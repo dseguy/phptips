@@ -4,6 +4,7 @@ Author index
 * `Aken Roberts <https://bsky.app/profile/akenroberts.com>`_
     * :ref:`unicode-comments`
 * `Alexandre Daubois <https://x.com/alexdaubois>`_
+    * :ref:`dispaly-a-tree-natively`
     * :ref:`php://memory-and-maxmemory`
     * :ref:`replacing-php-http-wrapper`
 * `Andrew Schmelyun <https://twitter.com/aschmelyun>`_
