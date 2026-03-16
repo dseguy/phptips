@@ -1,19 +1,19 @@
-.. _dispaly-a-tree-natively:
+.. _display-a-tree-natively:
 
-Dispaly A Tree Natively
+Display A Tree Natively
 -----------------------
 
 .. meta::
 	:description:
-		Dispaly A Tree Natively: PHP has a built-in ASCII tree renderer.
+		Display A Tree Natively: PHP has a built-in ASCII tree renderer.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Dispaly A Tree Natively
-	:twitter:description: Dispaly A Tree Natively: PHP has a built-in ASCII tree renderer
+	:twitter:title: Display A Tree Natively
+	:twitter:description: Display A Tree Natively: PHP has a built-in ASCII tree renderer
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/tree-iterator.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/tree-iterator.png
-	:og:title: Dispaly A Tree Natively
+	:og:title: Display A Tree Natively
 	:og:type: article
 	:og:description: PHP has a built-in ASCII tree renderer
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/tree-iterator.html
@@ -21,7 +21,7 @@ Dispaly A Tree Natively
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/tree-iterator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/tree-iterator.html","name":"Dispaly A Tree Natively","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 10:19:57 +0000","dateModified":"Mon, 16 Mar 2026 10:19:57 +0000","description":"PHP has a built-in ASCII tree renderer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/tree-iterator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/tree-iterator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/tree-iterator.html","name":"Display A Tree Natively","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 15:33:38 +0000","dateModified":"Mon, 16 Mar 2026 15:33:38 +0000","description":"PHP has a built-in ASCII tree renderer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/tree-iterator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Alexandre Daubois <https://x.com/alexdaubois>`_
 
@@ -29,7 +29,7 @@ By `Alexandre Daubois <https://x.com/alexdaubois>`_
 
 PHP has a built-in ASCII tree renderer. In the SPL.
 
-RecursiveTreeIterator takes any recursive structure (arrays, directories, XML...) and outputs a formatted indented tree.
+``RecursiveTreeIterator`` takes any recursive structure (arrays, directories, XML...) and outputs a formatted indented tree.
 
 ``tree`` command behavior. In PHP. Since 5.3.
 

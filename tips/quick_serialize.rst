@@ -21,13 +21,13 @@ Quick Serialize
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html","name":"Quick Serialize","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 22 Sep 2025 19:19:50 +0000","dateModified":"Mon, 22 Sep 2025 19:19:50 +0000","description":"Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html","name":"Quick Serialize","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 15:34:14 +0000","dateModified":"Mon, 16 Mar 2026 15:34:14 +0000","description":"Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Doeke Norg <https://twitter.com/doekenorg>`_
 
 .. image:: ../images/quick_serialize.png
 
-Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects? This can be very useful when (un)serializing objects.
+Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects? This can be very useful when un-serializing objects.
 
 PS : accessing uninitialized properties leads to a ``Fatal error``. This trick avoids it.
 

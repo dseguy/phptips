@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_operator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_operator.html","name":"::parent Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 10 Mar 2026 20:30:12 +0000","dateModified":"Tue, 10 Mar 2026 20:30:12 +0000","description":"PHP provides the ``X::class`` operator to access a class's fully qualified name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_operator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_operator.html","name":"::parent Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 15:34:53 +0000","dateModified":"Mon, 16 Mar 2026 15:34:53 +0000","description":"PHP provides the ``X::class`` operator to access a class's fully qualified name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/parent_operator.png
 
@@ -31,7 +31,7 @@ To build that operator, we'll use a special trait ``t``: it defines a constant, 
 
 Note also that recent PHP versions do not accept a direct call to a trait, so it is not possible to call ``t::parent``, which has no parent.
 
-The ``::parent`` will be case sensitive. The case insensivite versions of this operator is left as an exercice for the reader.
+The ``::parent`` will be case sensitive. The case insensivite versions of this operator is left as an exercise for the reader.
 
 From there, any class that needs to use the ``::parent`` needs to ``use t;``. It is possible to ``use`` that trait in any class, but avoid calling the ``::parent`` operator on classes that have no parents.
 

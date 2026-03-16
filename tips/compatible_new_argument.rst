@@ -21,13 +21,13 @@ Keep Interface New Argument Compatible
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_new_argument.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_new_argument.html","name":"Keep Interface New Argument Compatible","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 24 Apr 2025 05:42:54 +0000","dateModified":"Thu, 24 Apr 2025 05:42:54 +0000","description":"A reminder for maintainers of PHP libraries: adding a parameter to a method of an interface causes a fatal error in all the classes that implement it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_new_argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_new_argument.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_new_argument.html","name":"Keep Interface New Argument Compatible","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 15:35:48 +0000","dateModified":"Mon, 16 Mar 2026 15:35:48 +0000","description":"A reminder for maintainers of PHP libraries: adding a parameter to a method of an interface causes a fatal error in all the classes that implement it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible_new_argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Jerome Tamarelle <https://bsky.app/profile/jerome.tamarelle.net>`_
 
 .. image:: ../images/compatible_new_argument.png
 
-A reminder for maintainers of PHP libraries: adding a parameter to a method of an interface causes a fatal error in all the classes that implement it. It's a BC break that should be prohibed in a minor version.
+A reminder for maintainers of PHP libraries: adding a parameter to a method of an interface causes a fatal error in all the classes that implement it. It's a BC break that should be prohibited in a minor version.
 
 In Symfony, we add the parameter virtually using phpdoc, and read it using func_get_arg().
 

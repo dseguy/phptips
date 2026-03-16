@@ -5,27 +5,27 @@ array_map() Goes Full Throttle
 
 .. meta::
 	:description:
-		array_map() Goes Full Throttle: array_map() applies a closure (first arg) to every elements of an array (second arg).
+		array_map() Goes Full Throttle: array_map() applies a closure, its first argument, to every elements of an array, its second argument.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: array_map() Goes Full Throttle
-	:twitter:description: array_map() Goes Full Throttle: array_map() applies a closure (first arg) to every elements of an array (second arg)
+	:twitter:description: array_map() Goes Full Throttle: array_map() applies a closure, its first argument, to every elements of an array, its second argument
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/array_map_to_the_max.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/array_map_to_the_max.png
 	:og:title: array_map() Goes Full Throttle
 	:og:type: article
-	:og:description: array_map() applies a closure (first arg) to every elements of an array (second arg)
+	:og:description: array_map() applies a closure, its first argument, to every elements of an array, its second argument
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/array_map_to_the_max.html
 	:og:locale: en
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","name":"array_map() Goes Full Throttle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 22 Sep 2025 19:12:27 +0000","dateModified":"Mon, 22 Sep 2025 19:12:27 +0000","description":"array_map() applies a closure (first arg) to every elements of an array (second arg)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","name":"array_map() Goes Full Throttle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 15:40:02 +0000","dateModified":"Mon, 16 Mar 2026 15:40:02 +0000","description":"array_map() applies a closure, its first argument, to every elements of an array, its second argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/array_map_to_the_max.png
 
-array_map() applies a closure (first arg) to every elements of an array (second arg).
+array_map() applies a closure, its first argument, to every elements of an array, its second argument.
 
 When the closure needs more parameters, they may be passed as third (and n-th) parameter, as an array. When there are less extra parameters than the closure needs, PHP emits a ArgumentCountError exception.
 

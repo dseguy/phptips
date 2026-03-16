@@ -1,8 +1,8 @@
 {
     "image": "tree-iterator.png",
     "date": "2026-03-15",
-    "title": "Dispaly A Tree Natively",
-    "content": "PHP has a built-in ASCII tree renderer. In the SPL.\nRecursiveTreeIterator takes any recursive structure (arrays, directories, XML...) and outputs a formatted indented tree.\n``tree`` command behavior. In PHP. Since 5.3.\nPretty sure I would have use it a few times if I knew it existed 😅.",
+    "title": "Display A Tree Natively",
+    "content": "PHP has a built-in ASCII tree renderer. In the SPL.\n``RecursiveTreeIterator`` takes any recursive structure (arrays, directories, XML...) and outputs a formatted indented tree.\n``tree`` command behavior. In PHP. Since 5.3.\nPretty sure I would have use it a few times if I knew it existed 😅.",
     "seeAlso": {
         "RecursiveTreeIterator (PHP manual)": "https://www.php.net/manual/en/class.recursivetreeiterator.php",
         "RecursiveIterator (PHP manual)": "https://www.php.net/manual/en/class.recursiveiterator.php"

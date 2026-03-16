@@ -21,7 +21,7 @@ Where To Put The Cast?
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/put_the_cast_where.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/put_the_cast_where.html","name":"Where To Put The Cast?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 15:21:17 +0000","dateModified":"Sun, 25 Jan 2026 15:21:17 +0000","description":"Start from a string, and turn it into a negative number","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/put_the_cast_where.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/put_the_cast_where.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/put_the_cast_where.html","name":"Where To Put The Cast?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 15:34:35 +0000","dateModified":"Mon, 16 Mar 2026 15:34:35 +0000","description":"Start from a string, and turn it into a negative number","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/put_the_cast_where.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/put_the_cast_where.png
 
@@ -31,7 +31,7 @@ But that might generate a warning, upon non-numeric string. So, the safe way is 
 
 Now, this is safe, but too long. In fact, this can be shortened by adding the ``(int)`` between the string and the sign, to cast first, then negate.
 
-And, of course, one may also add the noscream operator.
+And, of course, one may also add the ``noscream`` operator ``@``.
 
 See Also
 ________
