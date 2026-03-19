@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/compare_nan.rst
    tips/array_unique_and_enum.rst
    tips/tree-iterator.rst
    tips/speed_up_write_to_disk.rst
