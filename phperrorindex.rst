@@ -45,6 +45,7 @@ Error Message index
 * Cannot use int as value for class constant x::A of type string
     * :ref:`multiple-const-types`
 * Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+    * :ref:`is-a-class-constant-set?`
     * :ref:`cannot-use-isset-on-expression,-so-use-what?`
 * Cannot use object of type stdClass as array
     * :ref:`coalesce-and-the-fatal-error`

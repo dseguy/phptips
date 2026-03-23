@@ -1,0 +1,17 @@
+{
+    "image": "isset_class_constant.png",
+    "date": "2026-03-24",
+    "title": "Is A Class Constant Set?",
+    "content": "When using a dynamic class constant, it is important to check if the constant is actually defined.\nIt is not possible to use the coalesce ``??`` operator, as a non-existent class constant yields a fatal error.\nThen, it is not possible to use ``isset()``, because a dynamic class constant is actually an expression. The error message is actually misleading, as the offered solution is not available.\nThe only solution is to use the ``defined()`` method, which is made to check constants. In the case of a class constant, one need to use the string syntax, and should not use the class constant syntax.",
+    "seeAlso": {
+        "defined (PHP manual)": "https://www.php.net/manual/en/function.defined.php"
+    },
+    "tags": [
+        "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["isset", "coalesce", "class-constant", "dynamic-class-constant"],
+    "3v4l": {"Class Constant Check":"https://3v4l.org/pNPQG"},
+    "phpError": {"Cannot use isset() on the result of an expression (you can use \"null !== expression\" instead)":"cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-\"null-!==-expression\"-instead)"}
+}
