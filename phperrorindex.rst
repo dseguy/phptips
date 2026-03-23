@@ -8,6 +8,8 @@ Error Message index
     * :ref:`where-to-put-the-cast?`
 * A void function must not return a value (did you mean "return;" instead of "return null;"?)
     * :ref:`returning-void`
+* Argument #1 must not be empty
+    * :ref:`preg_split()-magic`
 * Array callback has to contain indices 0 and 1
     * :ref:`array-callback-index`
 * Array callback must have exactly two elements
