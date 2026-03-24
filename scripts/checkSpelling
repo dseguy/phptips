@@ -57,7 +57,7 @@ function processFile($file, $pspell) {
         if (preg_match('/^[0-9\.]+$/', $word)) { continue; }
         
         if (!pspell_check($pspell, $word)) {
-            if (in_array($word, $myWords)) {
+            if (in_array($word, $myWords, true)) {
                 ++$tolerated;
             } elseif (in_array(mb_strtolower($word), $myWords)) {
                 ++$tolerated;
