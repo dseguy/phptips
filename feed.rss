@@ -3,16 +3,301 @@
   <channel>
     <title>PHP tips and tricks, by Exakat</title>
     <description>PHP tips and tricks, from the obvious feature hiding in plain sight to the darkest corners of the language.</description>
-    <pubDate>Thu, 15 Jan 2026 16:30:37 +0000</pubDate>
+    <pubDate>Tue, 24 Mar 2026 14:01:53 +0000</pubDate>
     <generator>Laminas_Feed_Writer 2 (https://getlaminas.org)</generator>
     <link>https://php-tips.readthedocs.io/en/latest/</link>
     <author>dseguy@exakat.io (Damien Seguy)</author>
     <dc:creator>Damien Seguy</dc:creator>
     <atom:link rel="hub" href="http://pubsubhubbub.appspot.com/"/>
     <item>
+      <title>expm1() And log1p()</title>
+      <description><![CDATA[In PHP, expm1() computes exp(x) - 1.
+log1p() computes log(1 + x).
+"Why not just write exp($x) - 1" you may ask...
+Because when x is close to 0, floating point eats your precision alive. Think about it if you deal with finance!
+These two functions exist solely to save your math from IEEE 754.]]></description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/expm1.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/expm1.html</guid>
+      <author>no-email (Alexandre Daubois)</author>
+      <dc:creator>Alexandre Daubois</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Is A Class Constant Set?</title>
+      <description><![CDATA[When using a dynamic class constant, it is important to check if the constant is actually defined.
+It is not possible to use the coalesce ``??`` operator, as a non-existent class constant yields a fatal error.
+Then, it is not possible to use ``isset()``, because a dynamic class constant is actually an expression. The error message is actually misleading, as the offered solution is not available.
+The only solution is to use the ``defined()`` method, which is made to check constants. In the case of a class constant, one need to use the string syntax, and should not use the class constant syntax.]]></description>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/isset_class_constant.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/isset_class_constant.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>preg_split() Magic</title>
+      <description><![CDATA[Most of the time, explode() is sufficient to split a string with a static separator. Otherwise, there is preg_split().
+preg_split() uses a regex to split the string. This allows for multiple and complex separators to be used in the same call.
+preg_split() accepts empty regex, to split strings with nothing: it turns a string into an array. It might require the PREG_SPLIT_NO_EMPTY option, to avoid trailing elements.
+preg_split() has a PREG_SPLIT_DELIM_CAPTURE option, to collect the separators along the parsing. Since it might be complex, it is important to get them for further processing.
+preg_split(), just like explode(), has a limit parameter, to stop processing the string, once a number of string has been found. This is perfect to prevent PHP from processing too much, as long as a number of substring may be predicted.
+explode() is faster the preg_split(), so use it for the simple and most common cases.]]></description>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/preg_split.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/preg_split.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Comparing NAN</title>
+      <description><![CDATA[PHP does not compare ``NAN`` values: it always fails, even if the source is the same.
+Depending on the context, ``NAN`` becomes the string ``'NAN'``, or the integer ``0``.
+Since PHP 8.1, the engine emits a warning to signal it: this is good, and helps spotting such mistakes.
+And, in the end, no one uses ``NAN`` anway.]]></description>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/compare_nan.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/compare_nan.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>array_unique() And Enum</title>
+      <description><![CDATA[Enumerations works like normal values, most of the time. They may be used as values in arrays, but not as keys, may it be directly, or with casting.
+An array of enumerations can be used with in_array(), and it works the same way, with or without the third ``strict`` parameter of the function.
+On the other hand, array_unique() defaults to comparing values as strings, and enumerations can't be converted silently to strings, even when backed as strings. To make that PHP native function work, it is necessary to use the ``SORT_REGULAR`` option as third argument, which acts as ``$strict`` in in_array().]]></description>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/array_unique_and_enum.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/array_unique_and_enum.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Display A Tree Natively</title>
+      <description><![CDATA[PHP has a built-in ASCII tree renderer. In the SPL.
+``RecursiveTreeIterator`` takes any recursive structure (arrays, directories, XML...) and outputs a formatted indented tree.
+``tree`` command behavior. In PHP. Since 5.3.
+Pretty sure I would have use it a few times if I knew it existed 😅.]]></description>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/tree-iterator.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/tree-iterator.html</guid>
+      <author>no-email (Alexandre Daubois)</author>
+      <dc:creator>Alexandre Daubois</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Speed Up CSV Write To Disk</title>
+      <description><![CDATA[When writing CSV files with fputcsv() function, PHP flushes each row to the disk. To speed up the process, it is possible to open a file in memory, with the ``php://memory`` wrapper, and write the CSV there. Then, it is possible to write down from memory down to the disk in one batch, saving a lot of disks flushes.
+The same trick may be used to write any kind of files: write it quickly, in memory, and then, down to the disk in one batch.]]></description>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/speed_up_write_to_disk.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/speed_up_write_to_disk.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>php://memory And Maxmemory</title>
+      <description><![CDATA[php://memory is a stream that lives in RAM.
+php://temp starts in RAM, spills to disk after 2MB (configurable, see below!).
+No tmpfile(). No temp directory. No cleanup.
+Perfect for building files in memory before sending in PHP!
+Did you know the ``maxmemory: `` trick?]]></description>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/maxmemory.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/maxmemory.html</guid>
+      <author>no-email (Alexandre Daubois)</author>
+      <dc:creator>Alexandre Daubois</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>::parent Operator</title>
+      <description><![CDATA[PHP provides the ``X::class`` operator to access a class's fully qualified name. To get the parent's class, one must use the ``get_parent_class()`` native function. Wouldn't it be cool to have the same operator?
+To build that operator, we'll use a special trait ``t``: it defines a constant, build with ``parent::class``. This operator is the contrary to what we need, but it is the only situation where we use it. Note that ``parent`` is a valid constant, or method, name.
+Note also that recent PHP versions do not accept a direct call to a trait, so it is not possible to call ``t::parent``, which has no parent.
+The ``::parent`` will be case sensitive. The case insensivite versions of this operator is left as an exercise for the reader.
+From there, any class that needs to use the ``::parent`` needs to ``use t;``. It is possible to ``use`` that trait in any class, but avoid calling the ``::parent`` operator on classes that have no parents.
+The trick here is that ``z::parent`` actually calls the trait class, which, in turns, uses the ``parent`` relative class. Even ``parent::parent`` works, as the first one is the keyword, and the second one is the constant.
+Make sure that each class ``use t``, as any unconfigured class will defer execution to its own parent, and return... a wrong value.
+After ``::parent``, the ``::grandparent`` operator, based on the same strategy was tempting, and ... tried! Sadly, ``const grandparent = self::parent::parent;`` yields a ``(expression)::class cannot be used in constant expressions``, even when not used.]]></description>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/parent_operator.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/parent_operator.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Stuttering PHP</title>
+      <description><![CDATA[Not a great joke, but it made me chuckle.
+Keep in mind that the first ``yield`` actually produces a ``null``, which is displayed as empty string, hence it is not visible.
+May be, some PHP words may be forbidden, or, at least, avoided.]]></description>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/stuttering.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/stuttering.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Riddle: ``$this&lt;-code``</title>
+      <description><![CDATA[Can you make this code work?
+The challenge is to only add more code to this snippet, not less.
+This syntax is valid PHP code, but one may expect ``$this->code``, instead of ``$this<-code``. Now, PHP is able to parse such syntax, and it then understands it as ``$this < -code``. For this to run, we need ``code`` to be a global constant. This can be defined before the class itself, as ``const code = 2;``. Constants may use lowercase, but this is not usual nor tradition.
+Then, comparing to ``$this`` is not possible, although the left side of the operation is ``(string) $this``. One only needs to turn ``$this`` to a string, and then compare it to a number. So, we can add the magic method ``__toString()``, which returns a number in a string.
+The final result is ``true`` or ``false``, depending on the return of ``__toString()``.
+In the end, the private property ``$code`` is unused. It was a bait.
+4 AI were tested on this riddle: three managed to pass, one to fail. Can you?]]></description>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/make_it_work.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/make_it_work.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Multiple Const Types</title>
+      <description><![CDATA[Class constants may be typed since PHP 8.3. Union types are possible, and they are valid with class constants.
+In the first case, two constants are declared with different types. PHP complains if any of the types does not apply to the values, so the union type is needed to ensure that both constant are well declared. Obviously, they should be declared on distinct ``const`` expressions.
+In the second case, the constant is defined with a condition. Now, ``rand()`` cannot be called in that part of the code, but using other constants, native such as ``PHP_OS``, ``__FILE__``, custom, global or ``define()``d may impact the expression, and lead to different results and types. This is a theoretical case, and it has never been seen in the wild.]]></description>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/crazy_const_type.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/crazy_const_type.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Replacing PHP http Wrapper</title>
+      <description><![CDATA[Did you know you can override built-in protocols such as https://?
+You can create mocks! I'd advise to use dedicated tools such as #Symfony MockHttpClient. But in the case of vanilla PHP...
+I'll let you tell me if it's a good or a terrible idea 😉.]]></description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/http_wrapper.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/http_wrapper.html</guid>
+      <author>no-email (Alexandre Daubois)</author>
+      <dc:creator>Alexandre Daubois</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Cast But Not A Cast</title>
+      <description><![CDATA[One frequent way to convert a string to an integer is to ``+ 0`` it. And, similarly, a frequent way to convert an integer into a string is to ``. ''``, aka concatenate the empty string.
+The operators often proceed with a silent cast before running the actual operation. Hence, when using the neutral element of that operator, only the cast remains.
+Note also that the silent cast is actually not silent when there is an issue with the conversion, while an actual cast silences these warnings: it is always better to use the cast.
+Here are the other cases.]]></description>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/cast_but_not_cast.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/cast_but_not_cast.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Hexadecimal Separator</title>
+      <description><![CDATA[PHP offers a number separator since PHP 8.0: ``_``. It may be added inside any integer or float, to make long list of digits more readable.
+In fact, this also applies to the other integer notations: hexadecimal, octal, binary, etc. Just don't put it inside the header, like ``0_x_1``, but in the body of the integer.
+Interestingly, the separator does not work in string sequences, like inside an hexadecimal unicode representation.]]></description>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/hexadecimal_separator.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/hexadecimal_separator.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Call echo With Commas</title>
+      <description><![CDATA[The most efficient way to call echo is to use commas. Each argument of echo is then sent to the output. Echo is not a function, but a language construct, with this special ability.
+echo is sometimes used with parenthesis: it makes it look like an actual function call. Yet, it also reduces the number of arguments from arbitrary to one: there can be only one element inside a parenthesis.
+Hence, any list of several arguments passed to echo is concatenated into one. This is a useless concatenation, as it is immediately discarded. And echoing the arguments one after the other does the same job.
+In the end, it is a micro-optimisation anyway.]]></description>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/echo-comma.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/echo-comma.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Reusing Decimals For Bananas</title>
+      <description><![CDATA[Besides decimal numbers such as ``8.53`` or ``3.141592654``, PHP has 2 extra decimal numbers: ``INF``, for infinity and ``NAN`` for not a number. Both of them default to the eponymous string, when displayed. This might be useful.
+This trick also works for ``Array``, with some error suppression, or not-too-recent PHP version. ``Object`` generates a Fatal error, and ``Resource`` displays something that can't be reused to build another human readable word: ``Resource id #1``: bummer.]]></description>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/errorNumber.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/errorNumber.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Where To Put The Cast?</title>
+      <description><![CDATA[Start from a string, and turn it into a negative number. It is actually as simple as adding the ``-`` sign in front of the string.
+But that might generate a warning, upon non-numeric string. So, the safe way is to cast the string to ``(int)``, and then, take the opposite.
+Now, this is safe, but too long. In fact, this can be shortened by adding the ``(int)`` between the string and the sign, to cast first, then negate.
+And, of course, one may also add the ``noscream`` operator ``@``.]]></description>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/put_the_cast_where.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/put_the_cast_where.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Unpacking A Single Element Array</title>
+      <description><![CDATA[The ellipsis operator ``...`` is used to unpack arrays as individual arguments in a method call. Its opposite is the ``[]`` array, which holds a random number of values.
+Using both together is useless, as ellipsis neutralize the array.
+Yet, when unpacking several arrays as arguments, it is not possible to use literal values after the unpacked arguments.
+The solution is to put these arguments in another literal array, and unpack them, as the previous ones.]]></description>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/unpacking_single_array.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/unpacking_single_array.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Abstract Or Not</title>
+      <description><![CDATA[A parent method must have a compatible signature with the same method in any child.
+The only exception are constructor, ``__construct``, which are not required to keep the signature compatible between parent and child.
+This exception to the rule may be explicitly enforced by making the constructor ``abstract``, or by setting the constructor in an interface: in fact, methods in an interface are considered ``abstract`` by default.]]></description>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/abstract_or_not.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/abstract_or_not.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>(int) And (ant)</title>
+      <description><![CDATA[It is possible to store a Closure in a constant, since PHP 8.5. This means that the closure has to be called by storing the constant in parenthesis: this way, PHP first extracts the value of the constant, then, calls the closure.
+There is something else that is between parenthesis: a cast. And ``cast`` has a very high priority. So, when a ``int`` constant is created, it still calls the cast, and ignores the constant.
+May be constants should not be called as casts?]]></description>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/int_and_ant.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/int_and_ant.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Cast In Const</title>
+      <description><![CDATA[TIL that constant values accepts casting since PHP 8.5. It is possible to cast a value to another type when defining the global or class constant.
+This might be most useful when a constant must be available in several flavor, rather than with literal values.
+The only cast that is not supported is ``(object)``.]]></description>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <link>https://php-tips.readthedocs.io/en/latest/tips/cast_in_const.html</link>
+      <guid>https://php-tips.readthedocs.io/en/latest/tips/cast_in_const.html</guid>
+      <author>no-email (Damien Seguy)</author>
+      <dc:creator>Damien Seguy</dc:creator>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
       <title>global Overwrites</title>
       <description><![CDATA[The ``global`` keyword is actually enough to overwrite a local variable.
-In this illustration, the default value is used to trigger fetching the global variable ``$argv``. The instruction is alone in the block, but it actually replaces the current variable, aka the parameter, by the global one. No assignation in sight, mererly a surprise.
+In this illustration, the default value is used to trigger fetching the global variable ``$argv``. The instruction is alone in the block, but it actually replaces the current variable, aka the parameter, by the global one. No assignation in sight, merely a surprise.
 This won't work with superglobal, such as ``$_POST``, which can't be overwritten by a parameter.]]></description>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/global_overwrite.html</link>
@@ -133,7 +418,7 @@ And the ``constant()`` call also works on enumeration cases, which are, eventual
       <slash:comments>0</slash:comments>
     </item>
     <item>
-      <title>Array Callaback Index</title>
+      <title>Array Callback Index</title>
       <description><![CDATA[An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name. PHP enforces the number of elements in the array, and the actual used index.
 On the other hand, one may build the array in the wrong order but the correct index, and get the expected result. Nice!]]></description>
       <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
@@ -162,7 +447,7 @@ Which one is your favorite?]]></description>
       <title>Coalesce And The Fatal Error</title>
       <description><![CDATA[The coalesce operator is based on the ``isset()`` feature of PHP. As such, it is prone to the same issues. This is the case with a sneaky fatal error.
 Usually, coalesce hide any existence check on the left operand: that way, the default value may be used without a noisy warning. This does not apply when trying to check an array index on an object: it actually yields a fatal error.
-Such situation is usually rare, as the structure of the variable is usually known to some extend. On the other hand, using ``??`` on the result of an unstructure dataset, such as from a ``JSON`` or ``YAML`` (or else), it becomes far more hazardous.
+Such situation is usually rare, as the structure of the variable is usually known to some extend. On the other hand, using ``??`` on the result of an unstructured dataset, such as from a ``JSON`` or ``YAML`` (or else), it becomes far more hazardous.
 Note that ``json_decode()`` has an option to generate an object or an array. In such situation, it is safer to generate an array, which does not yield fatal errors. It might also be faster to run.]]></description>
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/fatal_error_on_coalesce.html</link>
@@ -199,7 +484,7 @@ The main problem, in this situation, is that such code is invalid a writing loca
       <description><![CDATA[isset() checks if a variable exists. By extension, it also checks array elements, object properties etc. As the check is performed, any attempt to access an undefined part of the expression is muted: this makes total sense.
 For example, if one of the intermediate expression is an integer, it is not possible to access it with an array syntax, unlike an array or a string. Such access is a warning when used outside isset(), but is silent inside the isset().
 This leads to a nice optimisation, where checking ``isset($a[1][2][3][4])`` is sufficient to check ``isset($a)``, then ``isset($a[1])``, ``isset($a[1][2])``, ``isset($a[1][2][3])``, and ``isset($a[1][2][3][4])``. Nice.
-The catch is when of the element inside the actual array is an object. PHP reports a fatal error when using an object with an array syntax (except may be for ArrayAccess objects). Then, isset() stops.
+The catch is when of the element inside the actual array is an object. PHP reports a fatal error when using an object with an array syntax (except may be for ``ArrayAccess`` objects). Then, isset() stops.
 The reverse is not true: accessing an array with a object syntax yields a null and no warning. As it should be.
 All this also applies to empty().
 A change of behavior was suggested for PHP 8.5, but was down voted. May be in PHP 8.6?]]></description>
@@ -330,9 +615,9 @@ Truth is, this will be corrected in PHP 8.5, so better start using str_increment
     <item>
       <title>get_class() Or ::class?</title>
       <description><![CDATA[Both ``get_class()`` and ``::class`` do the same: they report the name of the class of the provided object. The nuances are in the details.
-``get_class()`` needs an object as argument, and emits a TypeError if not. ``::class`` works both on objects and class names. The latters are, basically, strings, so ``::class`` work on strings.
+``get_class()`` needs an object as argument, and emits a ``TypeError`` if not provided one. ``::class`` works both on objects and class names. The latter are, basically, strings, so ``::class`` work on strings.
 ``get_class()`` needs the class to be available, while ``::class`` merely formats the name of the class with the internal case: this works on an object, but not if the class name is hardcoded.
-And who hard code its class names with strings?]]></description>
+And who hardcodes its class names with strings?]]></description>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/get_class_or_class.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/get_class_or_class.html</guid>
@@ -390,7 +675,7 @@ On development, it might be a good strategy to type properties ``mixed`` to spot
       <title>The Recursive array_merge()</title>
       <description><![CDATA[array_merge_recursive() merges several arrays together, like its cousin array_merge(). The important difference here is where the recursive applies.
 The operation is recursive because the string keys will be merged together into an array, whenever the same key is found multiple times. A new array is created: scalar values are added to this array, and arrays are merged with it. Single keys are kept intact and integer keys are reindexed, starting at 0.
-Note that to avoid the merge of sub-arrays, one need to put it inside yet another array (see array4).]]></description>
+Note that to avoid the merge of sub-arrays, one need to put it inside yet another array (see array).]]></description>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/array_merge_recursive.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/array_merge_recursive.html</guid>
@@ -541,7 +826,7 @@ Also, just for fun, you can also use ``__METHOD__`` in a function, and you'll ge
     <item>
       <title>PHP Quine</title>
       <description><![CDATA[A quine is a piece of code that produces itself. It takes not input, and outputs a text that is its own code. The code is run to produce itself.
-One may consider a file without PHP tags as a Quine: PHP executes such code by outputing the raw text. It is considered valid, yet too easy to be a quine.]]></description>
+One may consider a file without PHP tags as a Quine: PHP executes such code by outputting the raw text. It is considered valid, yet too easy to be a quine.]]></description>
       <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/quine.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/quine.html</guid>
@@ -576,7 +861,7 @@ This tip does not applies to functions created in a class (ugh...).]]></descript
     </item>
     <item>
       <title>Keep Interface New Argument Compatible</title>
-      <description><![CDATA[A reminder for maintainers of PHP libraries: adding a parameter to a method of an interface causes a fatal error in all the classes that implement it. It's a BC break that should be prohibed in a minor version.
+      <description><![CDATA[A reminder for maintainers of PHP libraries: adding a parameter to a method of an interface causes a fatal error in all the classes that implement it. It's a BC break that should be prohibited in a minor version.
 In Symfony, we add the parameter virtually using phpdoc, and read it using func_get_arg().]]></description>
       <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/compatible_new_argument.html</link>
@@ -729,7 +1014,7 @@ In that case, the property cannot be declared in the constructor, and must be de
     <item>
       <title>Is Not A NAN</title>
       <description><![CDATA[NAN is a special PHP constant, which represents ``not-a-number``: it is returned when a math function cannot calculate a value because it is out of its domain of application. For example, ``acos(3)`` returns ``NAN``, because ``cos()`` produces values between -1 and 1.
-One special situation with NAN is that it is always different from anything.So, it cannot even compare to itself.
+One special situation with NAN is that it is always different from anything. So, it cannot even compare to itself.
 Also, ``NAN`` is a float.]]></description>
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/is_not_a_nan.html</link>
@@ -816,7 +1101,7 @@ The nuance is subtle.]]></description>
       <title>No More Class _</title>
       <description><![CDATA[Naming a class ``_`` has been deprecated in PHP 8.4.
 Luckily, that name is still available for functions and constants, which gives this beauty.
-There is already a PHP extension function called ``_``, which is an alias of gettext(), from the gettext extension (sic). If you try this at home, avoid loading that extension, disable the ``_()`` with disable_function, or call it ``__()``.]]></description>
+There is already a PHP extension function called ``_``, which is an alias of ``gettext()``, from the ``gettext`` extension. If you try this at home, avoid loading that extension, disable the ``_()`` with disable_function, or call it ``__()``.]]></description>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/no_more_class__.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/no_more_class__.html</guid>
@@ -867,7 +1152,7 @@ Now, it would be great to have a syntax where the parenthesis are before the cla
       <description><![CDATA[A fluent interface allows the chaining of method calls. It is a bit harder to do with functions, as there is no supporting object, but it is possible.
 Returning ``__FUNCTION__`` allows the subsequent call of the same function.
 Returning a closure of itself is also possible, yet a bit more cumbersome, as ``__FUNCTION__`` is not recognized as a string for a function call.
-Thanks to Andreas Heigl for the inspiration.]]></description>
+Thanks to ``Andreas Heigl`` for the inspiration.]]></description>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/fluent_function.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/fluent_function.html</guid>
@@ -905,8 +1190,8 @@ Yet, it might be worth looking into leveling both errors, to avoid hard to find 
       <description><![CDATA[Interpolation is injecting variable values inside strings. For complex variables, such as objects, it requires the curly braces to work.
 Yet, the simple ``$object::CONSTANT`` doesn't compile. But, the error message mentions it could do something with a square bracket, so it is still possible to access the value of strings by using the array notation.
 I wish there was a better way to inject that class name in the string, or, any class constant.
-Also, note that the reported class name is the definition one, not the name that was used at instanciation.
-So many suprises.]]></description>
+Also, note that the reported class name is the definition one, not the name that was used at instantiation.
+So many surprises.]]></description>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/no-constant-in-string.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/no-constant-in-string.html</guid>
@@ -953,7 +1238,7 @@ Finally, it is not possible to use the HereDoc syntax, as parenthesis are not al
     <item>
       <title>Non Empty Match</title>
       <description><![CDATA[PHP allows the empty ``switch``: that is, a switch command with an empty block of cases. The whole expression does nothing, and it is as useless as an if statement with an empty block.
-The ``match`` statement, on the other hand, compiles just like the ``switch`` but it also enforces the default case, with an ``Uncaught UnhandledMatchError: Unhandled match case NULL`` exception. This one must be cautght, or one must add a ``default`` case, with a value, to the ``match`` to keep it useless.]]></description>
+The ``match`` statement, on the other hand, compiles just like the ``switch`` but it also enforces the default case, with an ``Uncaught UnhandledMatchError: Unhandled match case NULL`` exception. This one must be caught, or one must add a ``default`` case, with a value, to the ``match`` to keep it useless.]]></description>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/non-empty-match.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/non-empty-match.html</guid>
@@ -963,8 +1248,8 @@ The ``match`` statement, on the other hand, compiles just like the ``switch`` bu
     </item>
     <item>
       <title>Named Sqlite3 In Memory</title>
-      <description><![CDATA[Sqlite3 allows the creation of ``memory`` databases: the database is not stored on the disk, but in memory. This is good for temporary data, that requires some SQL features.
-Then, by default, every instantiation of a Sqlite3 memory database provides the same database. Then, when using the command ``sqlite:file:foo:?mode=memory&cache=shared``, the memory database gets a name, and it is now possible to have distinct sqlite3 instances.]]></description>
+      <description><![CDATA[``Sqlite3`` allows the creation of ``memory`` databases: the database is not stored on the disk, but in memory. This is good for temporary data, that requires some SQL features.
+Then, by default, every instantiation of a ``Sqlite3`` memory database provides the same database. Then, when using the command ``sqlite:file:foo:?mode=memory&cache=shared``, the memory database gets a name, and it is now possible to have distinct sqlite3 instances.]]></description>
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/named_sqlite3_in_memory.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/named_sqlite3_in_memory.html</guid>
@@ -974,8 +1259,8 @@ Then, by default, every instantiation of a Sqlite3 memory database provides the 
     </item>
     <item>
       <title>Variable Creation</title>
-      <description><![CDATA[When defining a closure, the lexical variables (in the ``use`` clause) are created immediately, with the default value of NULL. The closure is executed later, and then, the value of the lexical variable is changed.
-When creating an anonymous object, the constructor is immediately executed: hence, the argument with reference is created, then inited with ``[]`` and immediately available.]]></description>
+      <description><![CDATA[When defining a closure, the lexical variables (in the ``use`` clause) are created immediately, with the default value of ``null``. The closure is executed later, and then, the values of the lexical variables are changed.
+When creating an anonymous object, the constructor is immediately executed: hence, the argument with reference is created, then initialized with ``[]`` and immediately available.]]></description>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/variable_creation.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/variable_creation.html</guid>
@@ -997,7 +1282,7 @@ And it always works with the ``name`` property, to collect the names of the case
     </item>
     <item>
       <title>Unicode Comments</title>
-      <description><![CDATA[Besides ``//``, ``#``, ``/** */`` and ``/* */``, there is another way to make a comment in PHP: unicode #️⃣️ . This is possible as this unicode character is build on top of 3 codepoints: among those, the first one is ``#``, which is an actual comment character. Then, PHP parses it as a single bytes, and interprets it as a comment: the rest of the line is omitted.]]></description>
+      <description><![CDATA[Besides ``//``, ``#``, ``/** */`` and ``/* */``, there is another way to make a comment in PHP: unicode ``#️⃣️`` . This is possible as this unicode character is build on top of 3 codepoints: among those, the first one is ``#``, which is an actual comment character. Then, PHP parses it as a single bytes, and interprets it as a comment: the rest of the line is omitted.]]></description>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/unicode_comments.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/unicode_comments.html</guid>
@@ -1007,8 +1292,8 @@ And it always works with the ``name`` property, to collect the names of the case
     </item>
     <item>
       <title>Datetime Object, And Years</title>
-      <description><![CDATA[In this code, 2 years are given to datetime, and handed back. Yet, they return the same value: 2024.
-Under the hood, PHP attempts to decode the number. Instead of recognizing a year, it recongnizes an hour. And, by default, it set the rest of the date to today. Later, when the date is formatted, the year becomes 2024.
+      <description><![CDATA[In this code, 2 years are given to ``Datetime``, and handed back. Yet, they return the same value: 2024.
+Under the hood, PHP attempts to decode the number. Instead of recognizing a year, it recognizes an hour. And, by default, it set the rest of the date to today. Later, when the date is formatted, the year becomes 2024.
 One piece of advice is to format the date to PHP's liking, or use the ``createFromFormat()`` method, which uses a provided format to decode the string.]]></description>
       <pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/datetime_and_year.html</link>
@@ -1168,7 +1453,7 @@ Beware that the order of the arguments is now value first, key second, not the u
     </item>
     <item>
       <title>array_map() Goes Full Throttle</title>
-      <description><![CDATA[array_map() applies a closure (first arg) to every elements of an array (second arg).
+      <description><![CDATA[array_map() applies a closure, its first argument, to every elements of an array, its second argument.
 When the closure needs more parameters, they may be passed as third (and n-th) parameter, as an array. When there are less extra parameters than the closure needs, PHP emits a ArgumentCountError exception.
 When there are too many extra parameters, PHP just omits them, silently.
 A call to array_map() makes sense when all the provided arrays have the same number of elements.
@@ -1333,7 +1618,7 @@ This is similar to another tip, that relies on echo.]]></description>
       <title>Self As Attribute</title>
       <description><![CDATA[Self, parent and static cannot be used as attributes. They are not recognized, and PHP will search for a class called ``\self`` instead, in vain.
 On the other hand, it is possible to use an attribute onto its own methods, simply by using its regular name.
-It is possible to use these names as attributes, as long as they are not instanciated.
+It is possible to use these names as attributes, as long as they are not instantiated.
 It is also possible to use aliases with the attributes: they will automatically resolve to the original class, not the aliased name.]]></description>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/self-as-attribute.html</link>
@@ -1570,8 +1855,8 @@ Of course, once this is typed like that, it is not possible to satisfy the type 
     </item>
     <item>
       <title>Float Precision</title>
-      <description><![CDATA[PHP has a 'precision' directive that controls the number of decimals displayed by float values. This is used with echo (and co), but also with cast to string.
-It default to 14, and peaks at 18, and gives up at 54. Use gmp for large numbers.
+      <description><![CDATA[PHP has a ``precision`` directive that controls the number of decimals displayed by float values. This is used with echo (and co), but also with cast to string.
+It default to 14, and peaks at 18, and gives up at 54. Use ``gmp`` or ``bcmath`` for large numbers.
 When changing it, don't forget to reset it to default, unless you like to puzzle people.]]></description>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/precision.html</link>
@@ -1625,7 +1910,7 @@ That trick requires ``strict_types`` though.]]></description>
     <item>
       <title>No Unknown For array_merge()</title>
       <description><![CDATA[A PHP variadic argument collects all the unused named parameters, along with their key.  That way, it is possible to handle them with their name inside the method.
-On the other hand, array_merge (and some cousins) refuse them, and emits a Fatal error. There, it is important to use array_values() to avoid named parameters.]]></description>
+On the other hand, ``array_merge()``, and some cousins, refuse them, and emits a Fatal error. There, it is important to use array_values() to avoid named parameters.]]></description>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/no_unknown_for_array_merge.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/no_unknown_for_array_merge.html</guid>
@@ -1731,7 +2016,7 @@ In any case, the linting error message reports an unexpected semicolon, which is
     <item>
       <title>glob() With Hidden Files</title>
       <description><![CDATA[By default, the ``glob()`` function lists only files that don't start with a dot ``.``. This means that the hidden files, on Linux, are not listed.
-With the ``GLOB_BRACE``` option, it is possible to list all files, and even filter out the ever present '.' and '..'.]]></description>
+With the ``GLOB_BRACE`` option, it is possible to list all files, and even filter out the ever present '.' and '..'.]]></description>
       <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/glob_with_hidden_files.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/glob_with_hidden_files.html</guid>
@@ -1983,7 +2268,7 @@ This trick applies to functions, arrow functions, closures and methods.]]></desc
       <title>Easy Wither Call</title>
       <description><![CDATA[Can be useful to create "with-ers" in an immutable (value) object with a LOT of readonly properties.
 '+' is the addition of arrays, the first values have priority.
-get_defined_vars() gets the local variables, with their name, unlike func_get_args().
+get_defined_vars() gets the local variables, with their name, unlike ``func_get_args()``.
 Valid in PHP 8.1, with support for variadic and named keys.]]></description>
       <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/easy_wither.html</link>
@@ -1994,7 +2279,7 @@ Valid in PHP 8.1, with support for variadic and named keys.]]></description>
     </item>
     <item>
       <title>Array Is Full</title>
-      <description><![CDATA[When using append, the next id is calculated based on the largest integer key ever used in that array. When the array has reached the biggest integer possible, aka PHP_INT_MAX, then the next-array-key generator fails, and this error is displayed.
+      <description><![CDATA[When using append, the next id is calculated based on the largest integer key ever used in that array. When the array has reached the biggest integer possible, a.k.a. ``PHP_INT_MAX``, then the next-array-key generator fails, and this error is displayed.
 Also, it is a fatal error to fill an array beyond its capacity.]]></description>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/array_is_full.html</link>
@@ -2029,7 +2314,7 @@ Then, it is not possible to ``int`` in parenthesis, because PHP confuses it with
     <item>
       <title>Array And Object Syntax, Not The Same Error</title>
       <description><![CDATA[When accessing an array as an object, PHP raises a Warning and continues with NULL.
-When accessing an object as an array, without ArrayAccess, PHP raises a Fatal Error and stops.
+When accessing an object as an array, without ``ArrayAccess``, PHP raises a Fatal Error and stops.
 It is critical to check the syntax used to access an object.]]></description>
       <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/not_same_error.html</link>
@@ -2310,7 +2595,7 @@ This code is one rare way to show how it still leaks. Depending on the context, 
     </item>
     <item>
       <title>Documenting Parameters</title>
-      <description><![CDATA[Sometimes, even a literal value used as parameter is not readable. An easy way to document the literal values is to provide the name of the paramter. Since the parameters need a smart name to be used in the method, using it in the method call provides more context to the parameter.
+      <description><![CDATA[Sometimes, even a literal value used as parameter is not readable. An easy way to document the literal values is to provide the name of the parameter. Since the parameters need a smart name to be used in the method, using it in the method call provides more context to the parameter.
 Another option is to make that literal value a constant, and use that constant to provide a readable name.]]></description>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/documenting_parameter.html</link>
@@ -2426,7 +2711,7 @@ Now, this extended syntax is an easy prey to property definition order, construc
     </item>
     <item>
       <title>Quick Serialize</title>
-      <description><![CDATA[Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects? This can be very useful when (un)serializing objects.
+      <description><![CDATA[Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects? This can be very useful when un-serializing objects.
 PS : accessing uninitialized properties leads to a ``Fatal error``. This trick avoids it.]]></description>
       <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/quick_serialize.html</link>
@@ -2459,7 +2744,7 @@ Besides that, readonly act as usual : it is only possible to assign the property
       <slash:comments>0</slash:comments>
     </item>
     <item>
-      <title>Exception Polyphormism</title>
+      <title>Exception Polymorphism</title>
       <description><![CDATA[Custom exceptions are like any other classes: they may implements interfaces. Later, that interface may be used to catch the exception, even if the interface has nothing to do with exceptions. And with several interfaces on the same exception, it is possible to catch them in different ways.]]></description>
       <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/interface_exceptions.html</link>
@@ -2490,7 +2775,7 @@ Besides that, readonly act as usual : it is only possible to assign the property
     </item>
     <item>
       <title>Negative Squares</title>
-      <description><![CDATA[This is still my favorite PHP bug : literal negative value is squared, and is ... negative. In fact, the ``**`` operator has precedence over the minus operator, and the square is then executed before the negation. Hence, the negative results. It is useful to process, correctly, parentheseses, but not integers.]]></description>
+      <description><![CDATA[This is still my favorite PHP bug : literal negative value is squared, and is ... negative. In fact, the ``**`` operator has precedence over the minus operator, and the square is then executed before the negation. Hence, the negative results. It is useful to process, correctly, parenthesises, but not integers.]]></description>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/squared_negative.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/squared_negative.html</guid>
@@ -2516,7 +2801,7 @@ Definitely not for me, for readability reasons; same as ``!$o instanceof X``.]]>
       <description><![CDATA[Since PHP 7.4, there are numeric separators, to make integers more readable.
 They are only for hard-coded literals, so what do you do if you have stored them in a string ?
 The solution is to rely on eval(), with a trick : ``$int = eval('return '.$a.';');``. ``return`` is important to return the value that was generated by the code.
-Another option is to remove the underscore ``_``` chars, and cast the value to int.]]></description>
+Another option is to remove the underscore ``_`` chars, and cast the value to int.]]></description>
       <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/numeric_separator_string.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/numeric_separator_string.html</guid>
@@ -2582,7 +2867,7 @@ Finally, calling statically a non-static method still defines ``$this`` in the t
     <item>
       <title>Class And Constant Confusion</title>
       <description><![CDATA[Class names and global constant names are two distinct name spaces. It is possible to use the name of a class as a constant.
-It is also possible to instanciate a class with a constant notation: that is, by omitting the parenthesis in the new call, when no arguments are needed.
+It is also possible to instantiate a class with a constant notation: that is, by omitting the parenthesis in the new call, when no arguments are needed.
 This allows for very confusing lines like these ones.]]></description>
       <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/class_and_constants.html</link>
@@ -2693,8 +2978,9 @@ This is not recommended, as it exposes data that is supposed to be protected by 
       <slash:comments>0</slash:comments>
     </item>
     <item>
-      <title>ReturnTypeWillChange Is For All</title>
-      <description><![CDATA[``ReturnTypeWillChange`` is an attribute that tells PHP that the return type of the related method is different from the defined by the PHP native methods. In fact, this attribute may also be used on custom interfaces, to skip the type checks.]]></description>
+      <title>``ReturnTypeWillChange`` Is For All</title>
+      <description><![CDATA[``ReturnTypeWillChange`` is an attribute that tells PHP that the return type of the related method is different from the defined by the PHP native methods. In fact, this attribute may also be used on custom interfaces, to skip the type checks.
+The method signature must be compatible with the interface definition, but, with the attribute, it may actually return anything else. This also means that types may only be trusted after checking for attributes.]]></description>
       <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/returntypewillchange_for_all.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/returntypewillchange_for_all.html</guid>
@@ -2757,8 +3043,8 @@ In the case displayed, the keys are French zip codes, which might start with a l
     </item>
     <item>
       <title>Fast Creation Of stdClass Objects</title>
-      <description><![CDATA[The fastest way to create a ``stdClass`` object is to create an array, and then cast it to stdClass with the ``(array)`` cast operator. It is still faster even if the array is build peacemal (2 times slower).
-Setting directly properties on the stdClass object is then about 3 times slower, and creating a class extension with an adapted __construc method is then 4 times slower.
+      <description><![CDATA[The fastest way to create a ``stdClass`` object is to create an array, and then cast it to stdClass with the ``(array)`` cast operator. It is still faster even if the array is build piece-meal: two times slower.
+Setting directly properties on the stdClass object is then about three times slower, and creating a class extension with an adapted ``__construct`` method is then four times slower.
 In the end, this is a micro optimisation.]]></description>
       <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/fastest_stdclass_creation.html</link>
@@ -2770,7 +3056,7 @@ In the end, this is a micro optimisation.]]></description>
     <item>
       <title>An Elephpant In The Code</title>
       <description><![CDATA[When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least.
-The unicode for an elephant is ``128024`` or ``0x1F418``. It canbie used directly inside a string, or with the ``mb_chr()`` function, and not with the ``chr`` function, which is only handling a single byte.]]></description>
+The unicode for an elephant is ``128024`` or ``0x1F418``. It may be used directly inside a string, or with the ``mb_chr()`` function, and not with the ``chr`` function, which is only handling a single byte.]]></description>
       <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
       <link>https://php-tips.readthedocs.io/en/latest/tips/elephpant.html</link>
       <guid>https://php-tips.readthedocs.io/en/latest/tips/elephpant.html</guid>

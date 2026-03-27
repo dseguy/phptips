@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/defined.rst
    tips/expm1.rst
    tips/isset_class_constant.rst
    tips/preg_split.rst
