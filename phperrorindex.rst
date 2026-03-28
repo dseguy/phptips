@@ -88,6 +88,8 @@ Error Message index
     * :ref:`reusing-decimals-for-bananas`
 * Recursion detected
     * :ref:`compact()-is-recursive`
+* Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero
+    * :ref:`return-int-not-bool`
 * Trying to access array offset on false
     * :ref:`null-or-boolean-as-array`
 * Trying to access array offset on null
