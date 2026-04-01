@@ -114,6 +114,8 @@ Error Message index
     * :ref:`named-parameter-inheritance`
 * Unsupported operand types: int & string
     * :ref:`bitwise-operations-on-string`
+* Using $this when not in object context
+    * :ref:`static-arrow-function`
 * array_merge() does not accept unknown named parameters
     * :ref:`no-unknown-for-array_merge()`
 * never-returning function must not implicitly return

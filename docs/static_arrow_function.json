@@ -1,0 +1,16 @@
+{
+    "image": "static_arrow_function.png",
+    "date": "2026-04-01",
+    "title": "Static Arrow Function",
+    "content": "It is possible to add the ``static`` option to an arrow function. In that case, PHP doesn't allow usage of the local object context, via ``$this``.\nOn the other hand, it is still possible to access all the local variables of the context, and, if ever, ``$this`` was assigned to a local variable, it may be imported in the arrow function context.\nAlso, note that PHP accepts the presence of ``$this`` in the static arrow function, as long as... it is not executed! Since there is no way to modify the static status of the arrow function, it is a zombie function: it may be passed around, but not executed.",
+    "seeAlso": {
+    },
+    "tags": [
+        "trick", "tip"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["static", "arrow-function", "closure", "$this"],
+    "3v4l": {"Static closure, or not":"https://3v4l.org/aXec4#veol"},
+    "phpError": {"Using $this when not in object context":"using-$this-when-not-in-object-context"}
+}
