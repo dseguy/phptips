@@ -21,7 +21,7 @@ glob() With Hidden Files
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html","name":"glob() With Hidden Files","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:36 +0000","dateModified":"Thu, 02 Apr 2026 05:33:36 +0000","description":"By default, the ``glob()`` function lists only files that don't start with a dot ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html","name":"glob() With Hidden Files","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 12:36:15 +0000","dateModified":"Thu, 02 Apr 2026 12:36:15 +0000","description":"By default, the ``glob()`` function lists only files that don't start with a dot ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/glob_with_hidden_files.png
 
@@ -40,5 +40,9 @@ PHP Features
 ____________
 
 * `file <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
+
+* `glob <https://php-dictionary.readthedocs.io/en/latest/dictionary/glob.ini.html>`_
+
+* `dot-file <https://php-dictionary.readthedocs.io/en/latest/dictionary/dot-file.ini.html>`_
 
 

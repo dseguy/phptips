@@ -21,7 +21,7 @@ Easy Wither Call
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html","name":"Easy Wither Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:36 +0000","dateModified":"Thu, 02 Apr 2026 05:33:36 +0000","description":"Can be useful to create \"with-ers\" in an immutable (value) object with a LOT of readonly properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html","name":"Easy Wither Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 12:42:55 +0000","dateModified":"Thu, 02 Apr 2026 12:42:55 +0000","description":"Can be useful to create \"with-ers\" in an immutable (value) object with a LOT of readonly properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_wither.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Benoit Viguier <https://phpc.social/@b_viguier>`_
 
@@ -48,5 +48,9 @@ PHP Features
 ____________
 
 * `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
+* `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+
+* `wither <https://php-dictionary.readthedocs.io/en/latest/dictionary/wither.ini.html>`_
 
 

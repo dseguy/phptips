@@ -18,5 +18,5 @@
 	    "Easy Wither":"https://3v4l.org/XhG90"
 	},
 	"phpError":{},
-	"features":["property"]
+	"features":["property", "method", "wither"]
 }

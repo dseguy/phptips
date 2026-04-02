@@ -21,7 +21,7 @@ Constant Redefinition
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_redefinition.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_redefinition.html","name":"Constant Redefinition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"It is possible to specify several identical global constant definition: PHP reports a warning, and ignores the second definitions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_redefinition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_redefinition.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_redefinition.html","name":"Constant Redefinition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 12:34:26 +0000","dateModified":"Thu, 02 Apr 2026 12:34:26 +0000","description":"It is possible to specify several identical global constant definition: PHP reports a warning, and ignores the second definitions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant_redefinition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/constant_redefinition.png
 
@@ -40,9 +40,20 @@ ________
 * `Redefinition of a constant <https://3v4l.org/mHLNu>`_ [Try me]
 
 
+PHP Error Messages
+__________________
+
+* `Cannot redefine class constant X::B  <https://php-errors.readthedocs.io/en/latest/messages/cannot-redefine-class-constant.html>`_
+
+
+
 PHP Features
 ____________
 
 * `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
+* `definition <https://php-dictionary.readthedocs.io/en/latest/dictionary/definition.ini.html>`_
+
+* `class-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
 
 

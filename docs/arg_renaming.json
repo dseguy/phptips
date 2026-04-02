@@ -11,6 +11,6 @@
     "author": "",
     "contact": "",
     "features": ["argument", "method-compatibility"],
-    "3v4l": {"Argument switcheroo":""},
+    "3v4l": {"Argument switcheroo":"https://3v4l.org/qKEbO"},
     "phpError": {"Declaration of y4::foo($b, $c, $d) must be compatible with x4::foo($a, $b)":"declaration-of-%s::%s()-must-be-compatible-with-%s::%s()"}
 }

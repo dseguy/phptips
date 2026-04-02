@@ -21,7 +21,7 @@ Namespace, But Far In The Name
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_but_far.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_but_far.html","name":"Namespace, But Far In The Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"Namespaces can be named anything, except ``namespace``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_but_far.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_but_far.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_but_far.html","name":"Namespace, But Far In The Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 12:36:46 +0000","dateModified":"Thu, 02 Apr 2026 12:36:46 +0000","description":"Namespaces can be named anything, except ``namespace``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_but_far.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/namespace_but_far.png
 
@@ -49,5 +49,7 @@ PHP Features
 ____________
 
 * `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+
+* `keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/keyword.ini.html>`_
 
 

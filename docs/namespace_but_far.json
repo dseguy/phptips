@@ -7,11 +7,11 @@
         "namespace (PHP manual)": "https://www.php.net/manual/en/language.namespaces.nsconstants.php"
     },
     "tags": [
-        "silly"
+        "surprising"
     ],
     "author": "",
     "contact": "",
-    "features": ["namespace"],
+    "features": ["namespace", "keyword"],
     "phpError":{"Cannot use 'namespace' as namespace name":"cannot-use-'namespace'-as-namespace-name"},
     "3v4l": {"namespace in a namespace":"https://3v4l.org/gQie5"}
 }

@@ -34,6 +34,8 @@ Error Message index
     * :ref:`global-overwrites`
 * Cannot rebind scope of closure created from method
     * :ref:`no-binding-but-with-original`
+* Cannot redefine class constant X::B 
+    * :ref:`constant-redefinition`
 * Cannot unpack array with string keys
     * :ref:`named-parameter-in-an-array`
 * Cannot use "parent" when no class scope is active
@@ -111,6 +113,8 @@ Error Message index
     * :ref:`unsetting-properties-surprises`
 * Undefined variable
     * :ref:`undefined-variable`
+* Undefined variable %s
+    * :ref:`silent-optimisation-of-variables`
 * Unhandled case NULL
     * :ref:`non-empty-match`
 * Unknown named parameter $%s
