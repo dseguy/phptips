@@ -21,7 +21,7 @@ Comparing NAN
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compare_nan.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compare_nan.html","name":"Comparing NAN","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Mar 2026 11:01:46 +0000","dateModified":"Thu, 19 Mar 2026 11:01:46 +0000","description":"PHP does not compare ``NAN`` values: it always fails, even if the source is the same","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compare_nan.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compare_nan.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compare_nan.html","name":"Comparing NAN","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:11:49 +0000","dateModified":"Thu, 02 Apr 2026 05:11:49 +0000","description":"PHP does not compare ``NAN`` values: it always fails, even if the source is the same","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compare_nan.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/compare_nan.png
 
@@ -31,7 +31,7 @@ Depending on the context, ``NAN`` becomes the string ``'NAN'``, or the integer `
 
 Since PHP 8.1, the engine emits a warning to signal it: this is good, and helps spotting such mistakes.
 
-And, in the end, no one uses ``NAN`` anway.
+And, in the end, no one uses ``NAN`` anyway.
 
 See Also
 ________

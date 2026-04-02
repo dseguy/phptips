@@ -21,7 +21,7 @@ Compatible Signature
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html","name":"Compatible Signature","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Feb 2026 10:36:27 +0000","dateModified":"Wed, 11 Feb 2026 10:36:27 +0000","description":"This piece of code shows a signature that changes with the version of PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html","name":"Compatible Signature","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:22:50 +0000","dateModified":"Thu, 02 Apr 2026 05:22:50 +0000","description":"This piece of code shows a signature that changes with the version of PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Christian Lück <https://x.com/another_clue>`_
 
@@ -29,7 +29,7 @@ By `Christian Lück <https://x.com/another_clue>`_
 
 This piece of code shows a signature that changes with the version of PHP.
 
-Indeed, in PHP 7.x, the comment starts with ``#`` and goes to the end of the line. This also covers the ``/*`` so the multilign comment doesn't start, and the ``__invoke`` signature is the second one.
+Indeed, in PHP 7.x, the comment starts with ``#`` and goes to the end of the line. This also covers the ``/*`` so the multiline comment doesn't start, and the ``__invoke`` signature is the second one.
 
 In PHP 8.0, the attributes ``#[PHP8]`` ends with its closing square bracket, and the signature of ``__invoke`` starts. By the end of the line, a multi-line comments starts, and covers the whole second line.
 
