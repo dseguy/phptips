@@ -16,7 +16,7 @@
   "features": [
     "static-expression",
     "optimisation",
-    "edge-case",
+    "edge case",
     "error"
   ],
   "author": "",
