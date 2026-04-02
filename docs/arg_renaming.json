@@ -1,0 +1,16 @@
+{
+    "image": "arg_renaming.png",
+    "date": "2026-04-03",
+    "title": "Argument Renaming",
+    "content": "Method compatibility does not allow adding or removing arguments between a parent and a child, and types must be compatible.\nYet, it is possible to rename arguments. When the argument types are distinct, method compatibility emits an error, but when both types are identical, this typo may go undetected.",
+    "seeAlso": {
+    },
+    "tags": [
+        "surprising", "typo"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["argument", "method-compatibility"],
+    "3v4l": {"Argument switcheroo":""},
+    "phpError": {"Declaration of y4::foo($b, $c, $d) must be compatible with x4::foo($a, $b)":"declaration-of-%s::%s()-must-be-compatible-with-%s::%s()"}
+}

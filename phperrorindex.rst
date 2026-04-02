@@ -70,6 +70,7 @@ Error Message index
 * Declaration of x::foo() must be compatible with i::foo(): int
     * :ref:`returntypewillchange-is-for-all`
 * Declaration of y4::foo($b, $c, $d) must be compatible with x4::foo($a, $b)
+    * :ref:`argument-renaming`
     * :ref:`mixed-compatibility`
 * Duplicate value in enum E for cases A and B
     * :ref:`enum-are-not-linted`

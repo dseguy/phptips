@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/arg_renaming.rst
    tips/mixed_compatibility.rst
    tips/static_arrow_function.rst
    tips/defined.rst
