@@ -64,6 +64,7 @@ $stats = array('author' => 0,
 $errors = 0;
 $tips = array();
 $phpError = array();
+$features = array();
 $anchors = array();
 $images = array();
 foreach($files as $file) {
@@ -195,12 +196,27 @@ foreach($files as $file) {
 		buildlog("Warning : no features in $file");
         ++$errors;
 	} else {
+	    $tip->features = array_map(strtolower(...), $tip->features);
+
 	    foreach($tip->features as $feature) {
 	        if (!file_exists('../analyzeG3/human/en/Features/'.$feature.'.ini')) {
         		buildlog("Warning : feature '$feature' does not exist in $file");
         		++$errors;
+        		continue;
 	        }
 	    }
+
+        if (count($tip->features) <= 1) {
+		    buildlog("Warning : only one features in $file");
+            ++$errors;
+        }
+
+        if (count($tip->features) !== count(array_unique($tip->features))) {
+		    buildlog("Warning : duplicate entries in features in $file");
+            ++$errors;
+        }
+
+        $features[] = $tip->features;
 	}
 
 	if (substr_count($tip->title, '_') > 1 && 
@@ -502,6 +518,12 @@ RST];
 	file_put_contents('phperrorindex.rst', implode('', $phpErrorRst));
 	print "processed ".$stats['phpError']." error messages\n";
 }
+
+$features = array_merge(...$features);
+$features = array_count_values($features);
+arsort($features);
+$featureMax = array_key_first($features);
+print "processed ".count($features)." features (".array_sum($features)." distinct, ".$featureMax." => ".$features[$featureMax].")\n";
 
 function check(stdClass $tip, string $file) : string {
 	if (!isset($tip->date)) {
