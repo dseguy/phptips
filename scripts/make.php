@@ -220,7 +220,7 @@ foreach($files as $file) {
 	}
 
 	if (ucwords(strtolower($tip->title)) != $tip->title &&
-		!preg_match('/(php:\/\/|CSV|DNF|expm1|log1p|preg_split|isset|empty|echo|new|mixed|get_class|URL|GLOBALS|array|intval|private|NAN|parse_str|self|parent|static|namespace|list|http_build_query|compact|func_get_args|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents|glob|class_exists)/', $tip->title)) {
+		!preg_match('/(php:\/\/|CSV|DNF|expm1|log1p|defined|preg_split|isset|empty|echo|new|mixed|get_class|URL|GLOBALS|array|intval|private|NAN|parse_str|self|parent|static|namespace|list|http_build_query|compact|func_get_args|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents|glob|class_exists)/', $tip->title)) {
 		buildlog("Warning : Not First Upper Cased in $file");;
 		++$errors;
 	}
@@ -238,6 +238,11 @@ foreach($files as $file) {
 		} else {
 			$authorContact[$tip->author] = $tip->contact;
 		}
+	}
+
+	if (count($tip->tags) != count(array_unique($tip->tags))) {
+		buildlog("Duplicate entries in tags in $file");
+		++$errors;
 	}
 
 	if (!isset($tip->phpError)) {
