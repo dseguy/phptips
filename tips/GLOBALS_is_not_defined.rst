@@ -52,6 +52,6 @@ ____________
 
 * `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
 
-* `$GLOBALS <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24GLOBALS.ini.html>`_
+* `$globals <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24globals.ini.html>`_
 
 

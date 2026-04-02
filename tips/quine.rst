@@ -21,7 +21,7 @@ PHP Quine
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html","name":"PHP Quine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:39 +0000","dateModified":"Thu, 02 Apr 2026 05:33:39 +0000","description":"A quine is a piece of code that produces itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html","name":"PHP Quine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 10:24:55 +0000","dateModified":"Thu, 02 Apr 2026 10:24:55 +0000","description":"A quine is a piece of code that produces itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/quine.png
 
@@ -41,5 +41,9 @@ PHP Features
 ____________
 
 * `php <https://php-dictionary.readthedocs.io/en/latest/dictionary/php.ini.html>`_
+
+* `quine <https://php-dictionary.readthedocs.io/en/latest/dictionary/quine.ini.html>`_
+
+* `folklore <https://php-dictionary.readthedocs.io/en/latest/dictionary/folklore.ini.html>`_
 
 

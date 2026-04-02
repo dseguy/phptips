@@ -44,6 +44,6 @@ ____________
 
 * `index-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
 
-* `PHP_INT_MAX <https://php-dictionary.readthedocs.io/en/latest/dictionary/PHP_INT_MAX.ini.html>`_
+* `php_int_max <https://php-dictionary.readthedocs.io/en/latest/dictionary/php_int_max.ini.html>`_
 
 

@@ -13,7 +13,7 @@
     "author": "",
     "contact": "",
     "features": [
-        "nan"
+        "nan", "php-constant", "float"
     ],
     "3v4l": {
         "NAN !== NAN": "https:\/\/3v4l.org\/Hb5EI"

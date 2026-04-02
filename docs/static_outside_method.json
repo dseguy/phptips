@@ -13,7 +13,7 @@
         "Static Variable Outside A Method": "https://3v4l.org/2jjV7"
     },
     "phpError": {},
-    "features": ["static-variable"],
+    "features": ["static-variable", "method", "scope"],
     "author": "",
     "contact": ""
 }

@@ -21,7 +21,7 @@ Is Not A NAN
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_not_a_nan.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_not_a_nan.html","name":"Is Not A NAN","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:33 +0000","dateModified":"Thu, 02 Apr 2026 05:33:33 +0000","description":"NAN is a special PHP constant, which represents ``not-a-number``: it is returned when a math function cannot calculate a value because it is out of its domain of application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_not_a_nan.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_not_a_nan.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_not_a_nan.html","name":"Is Not A NAN","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 10:37:06 +0000","dateModified":"Thu, 02 Apr 2026 10:37:06 +0000","description":"NAN is a special PHP constant, which represents ``not-a-number``: it is returned when a math function cannot calculate a value because it is out of its domain of application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_not_a_nan.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/is_not_a_nan.png
 
@@ -43,5 +43,9 @@ PHP Features
 ____________
 
 * `nan <https://php-dictionary.readthedocs.io/en/latest/dictionary/nan.ini.html>`_
+
+* `php-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/php-constant.ini.html>`_
+
+* `float <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
 
 

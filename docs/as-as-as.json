@@ -9,11 +9,12 @@
     "tags": [
         "method",
         "trait-alias",
-        "relaxed-names"
+        "relaxed-names",
+        "funny"
     ],
     "author": "",
     "contact": "",
-    "features": ["as"],
+    "features": ["as", "relaxed-syntax", "import", "trait"],
     "3v4l": {"As as as are in a boat...":"https://3v4l.org/SN2hX"},
     "phpError":{}
 }

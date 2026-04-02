@@ -7,11 +7,11 @@
         "Saner Increment/Decrement operators":"https://www.php.net/manual/en/migration83.deprecated.php#migration83.deprecated.core.saner-inc-dec-operators"
     },
     "tags": [
-        "bug"
+        "bug", "feature", "native function"
     ],
     "author": "",
     "contact": "",
-    "features": ["string-increment"],
+    "features": ["string-increment", "php-function"],
     "3v4l": {"Increment me!":"https://3v4l.org/hj3ac"},
     "phpError": {"Increment on non-alphanumeric string is deprecated ":"increment-on-non-alphanumeric-string-is-deprecated"}
 }

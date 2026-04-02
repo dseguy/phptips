@@ -21,7 +21,7 @@ Forgotten Throw
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html","name":"Forgotten Throw","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:31 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"Sometimes, the ``throw`` keyword is forgotten, even as it is needed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html","name":"Forgotten Throw","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 10:36:28 +0000","dateModified":"Thu, 02 Apr 2026 10:36:28 +0000","description":"Sometimes, the ``throw`` keyword is forgotten, even as it is needed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/forgotten_throw.png
 
@@ -38,5 +38,9 @@ PHP Features
 ____________
 
 * `throw <https://php-dictionary.readthedocs.io/en/latest/dictionary/throw.ini.html>`_
+
+* `useless <https://php-dictionary.readthedocs.io/en/latest/dictionary/useless.ini.html>`_
+
+* `silent <https://php-dictionary.readthedocs.io/en/latest/dictionary/silent.ini.html>`_
 
 

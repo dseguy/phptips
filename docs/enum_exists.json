@@ -10,11 +10,11 @@
     "tags": [
         "surprising"
     ],
-    "author": "Jan Nedbal",
-    "contact": "https://janedbal.cz/",
+    "author": "",
+    "contact": "s",
     "3v4l": {
         "Does MyEnum exists?": "https://3v4l.org/iU1v46"
     },
     "phpError": {},
-    "features": ["enum"]
+    "features": ["enum", "class", "trait", "interface"]
 }

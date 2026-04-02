@@ -21,7 +21,7 @@ Static Variable Outside A Method
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_outside_method.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_outside_method.html","name":"Static Variable Outside A Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:41 +0000","dateModified":"Thu, 02 Apr 2026 05:33:41 +0000","description":"TIL that PHP static variables can be declared out of a function, in the namespace","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_outside_method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_outside_method.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_outside_method.html","name":"Static Variable Outside A Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 11:29:25 +0000","dateModified":"Thu, 02 Apr 2026 11:29:25 +0000","description":"TIL that PHP static variables can be declared out of a function, in the namespace","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_outside_method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/static_outside_method.png
 
@@ -44,5 +44,9 @@ PHP Features
 ____________
 
 * `static-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
+
+* `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+
+* `scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/scope.ini.html>`_
 
 

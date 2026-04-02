@@ -21,7 +21,7 @@ try, catch, finally Are All Optional
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/try-catch-finally.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/try-catch-finally.html","name":"try, catch, finally Are All Optional","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:35 +0000","dateModified":"Thu, 02 Apr 2026 05:33:35 +0000","description":"The finally clause in a try-catch-finally is actually optional: it can be omitted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/try-catch-finally.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/try-catch-finally.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/try-catch-finally.html","name":"try, catch, finally Are All Optional","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 10:34:00 +0000","dateModified":"Thu, 02 Apr 2026 10:34:00 +0000","description":"The finally clause in a try-catch-finally is actually optional: it can be omitted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/try-catch-finally.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/try-catch-finally.png
 
@@ -34,7 +34,6 @@ When the catch and finally clauses are all omitted, the try clause can also be o
 See Also
 ________
 
-* `Exceptions (PHP manual) <https://www.php.net/manual/en/language.exceptions.php>`_
 * `Try-catch-finally are optional <https://3v4l.org/jOtGX>`_ [Try me]
 
 
@@ -45,6 +44,8 @@ ____________
 
 * `try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
 
-* `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+* `finally <https://php-dictionary.readthedocs.io/en/latest/dictionary/finally.ini.html>`_
+
+* `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
 
 

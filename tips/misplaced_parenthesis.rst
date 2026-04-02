@@ -38,7 +38,7 @@ ________
 PHP Features
 ____________
 
-* `PHP <https://php-dictionary.readthedocs.io/en/latest/dictionary/PHP.ini.html>`_
+* `php <https://php-dictionary.readthedocs.io/en/latest/dictionary/php.ini.html>`_
 
 * `typo <https://php-dictionary.readthedocs.io/en/latest/dictionary/typo.ini.html>`_
 

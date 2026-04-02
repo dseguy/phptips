@@ -15,5 +15,5 @@
         "non existent token": "https://3v4l.org/92VL2"
     },
     "phpError": {"syntax error, unexpected token \";\"":"syntax-error,-unexpected-token-\";\""},
-    "features": ["close-tag"]
+    "features": ["close-tag", "semicolon"]
 }

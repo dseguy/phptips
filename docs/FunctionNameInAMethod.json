@@ -10,7 +10,7 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["magic-constant"],
+    "features": ["magic-constant", "method", "function"],
     "3v4l": {"Magic constants":"https://3v4l.org/JuFfn"},
     "phpError":{}
 }

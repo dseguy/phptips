@@ -1,0 +1,16 @@
+{
+    "image": "comma_in_number.png",
+    "date": "2026-04-04",
+    "title": "Where Did The Comma Go?",
+    "content": "It took me way too long to figure out this one. In certain cultures, the comma ``,`` is the decimal separator. And here, it looks all good, in particular since there is a dot ``.`` afterwards.\n``echo`` does not need the parenthesis, as it is a language construct. In fact, the parenthesis would have prevented the error here, since there cannot be commas inside them.",
+    "seeAlso": {
+    },
+    "tags": [
+        "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["echo", "numeric-separator", "language-construct", "parenthesis"],
+    "3v4l": {"1,34":"https://3v4l.org/6QLph"},
+    "phpError": {}
+}

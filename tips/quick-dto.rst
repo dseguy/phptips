@@ -51,6 +51,6 @@ ____________
 
 * `ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
 
-* `DTO <https://php-dictionary.readthedocs.io/en/latest/dictionary/DTO.ini.html>`_
+* `dto <https://php-dictionary.readthedocs.io/en/latest/dictionary/dto.ini.html>`_
 
 

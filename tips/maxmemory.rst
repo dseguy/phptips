@@ -21,7 +21,7 @@ php://memory And Maxmemory
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/maxmemory.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/maxmemory.html","name":"php:\/\/memory And Maxmemory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:39 +0000","dateModified":"Thu, 02 Apr 2026 05:33:39 +0000","description":"php:\/\/memory is a stream that lives in RAM","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/maxmemory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/maxmemory.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/maxmemory.html","name":"php:\/\/memory And Maxmemory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 10:37:20 +0000","dateModified":"Thu, 02 Apr 2026 10:37:20 +0000","description":"php:\/\/memory is a stream that lives in RAM","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/maxmemory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Alexandre Daubois <https://x.com/alexdaubois>`_
 
@@ -50,5 +50,7 @@ PHP Features
 ____________
 
 * `wrapper <https://php-dictionary.readthedocs.io/en/latest/dictionary/wrapper.ini.html>`_
+
+* `stream <https://php-dictionary.readthedocs.io/en/latest/dictionary/stream.ini.html>`_
 
 

@@ -36,7 +36,6 @@ Author index
     * :ref:`property-hooks-and-default-values`
     * :ref:`self-as-attribute`
     * :ref:`unfinished-class-doesn't-compile`
-    * :ref:`class_exists()-with-enums`
 * `Jerome Tamarelle <https://bsky.app/profile/jerome.tamarelle.net>`_
     * :ref:`yield-and-keys`
     * :ref:`keep-interface-new-argument-compatible`

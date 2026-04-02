@@ -14,5 +14,5 @@
     "contact": "",
     "phpError":{},
     "3v4l":{"array is not array":"https://3v4l.org/M4jeA"},
-    "features":["array"]
+    "features":["array", "type", "scalar-type"]
 }

@@ -7,7 +7,7 @@
         "Exceptions (PHP manual)": "https://www.php.net/manual/en/language.exceptions.php"
     },
     "tags": [
-        "typo"
+        "typo", "silent"
     ],
     "author": "",
     "contact": "",
@@ -15,5 +15,5 @@
         "Forgetting something?": "https://3v4l.org/tMv3J"
     },
     "phpError": {},
-    "features": ["throw"]
+    "features": ["throw", "useless", "silent"]
 }

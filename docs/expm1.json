@@ -15,7 +15,7 @@
     ],
     "author": "Alexandre Daubois",
     "contact": "https://x.com/alexdaubois",
-    "features": ["exponential"],
+    "features": ["exponential", "logarithm"],
     "3v4l": {"expm1() And log1p() In A boat":"https://3v4l.org/dm1Bh"},
     "phpError": {}
 }

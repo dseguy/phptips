@@ -62,6 +62,6 @@ ____________
 
 * `sign <https://php-dictionary.readthedocs.io/en/latest/dictionary/sign.ini.html>`_
 
-* `__toString <https://php-dictionary.readthedocs.io/en/latest/dictionary/__toString.ini.html>`_
+* `__tostring <https://php-dictionary.readthedocs.io/en/latest/dictionary/__tostring.ini.html>`_
 
 

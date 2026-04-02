@@ -17,7 +17,6 @@
         "numeric-separator",
         "dynamic-call",
         "eval",
-        "integer",
         "cast",
         "underscore"
     ],

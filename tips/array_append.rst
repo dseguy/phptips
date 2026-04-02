@@ -21,7 +21,7 @@ array_append() And Short Assignation
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html","name":"array_append() And Short Assignation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:43 +0000","dateModified":"Thu, 02 Apr 2026 05:33:43 +0000","description":"PHP allows using short assignation operators with the array append operators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html","name":"array_append() And Short Assignation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 10:37:51 +0000","dateModified":"Thu, 02 Apr 2026 10:37:51 +0000","description":"PHP allows using short assignation operators with the array append operators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/array_append.png
 
@@ -73,8 +73,6 @@ ____________
 * `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
 
 * `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
-
-* `append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
 
 * `short-assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-assignation.ini.html>`_
 
