@@ -1,0 +1,16 @@
+{
+    "image": "mixed_compatibility.png",
+    "date": "2026-04-02",
+    "title": "Mixed Compatibility",
+    "content": "Method compatibility means that eponymous methods must have the same number of arguments, and compatible types.\nOne special case is using variadic: with it, it is allowed to remove arguments, as long as they are the same type, and next to the variadic.\nWith mixed variadic, it is also possible to go from no arguments to one argument. The opposite is not possible: one cannot drop a ``mixed ...$args`` once it was added.",
+    "seeAlso": {
+    },
+    "tags": [
+        "edge case"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["method-compatibility", "variadic", "mixed"],
+    "3v4l": {"mixed variadic magic":"https://3v4l.org/6kQRu"},
+    "phpError": {"Declaration of y4::foo($b, $c, $d) must be compatible with x4::foo($a, $b)":"declaration-of-%s::%s()-must-be-compatible-with-%s::%s()"}
+}

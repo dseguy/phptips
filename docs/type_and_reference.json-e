@@ -1,0 +1,18 @@
+{
+    "image": "type_and_reference.png",
+    "date": "2025-05-27",
+    "title": "Type And Reference",
+    "content": "Parameter's type is check at calling time. Later, the type of the argument is not enforced anymore, and the argument behaves like a local variable: its type may change.\nWhen typing a parameter and passing it by reference, the type is checked at call time, and then, never checked again. This means the variable may change its type, and, by consequence, the original value may also end up with a different type than expected.\nIf you want persistent typing, use a property: its type is checked at every step of its life.",
+    "seeAlso": {
+        "Function parameters and arguments (PHP manual)": "https://www.php.net/manual/en/functions.arguments.php",
+        "References are poison":"https://phpc.social/@k47@k47.cz/114556570140219356"
+    },
+    "tags": [
+        "surprise"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["reference", "argument"],
+    "3v4l": {"int became string":"https://3v4l.org/79cJH"},
+    "phpError":{}
+}

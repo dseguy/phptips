@@ -1,0 +1,16 @@
+{
+    "image": "defined.png",
+    "date": "2026-03-27",
+    "title": "defined() In Action",
+    "content": "The defined() function checks if a constant is defined or not.\nIt is possible to check the constant with its name, and with its namespace.\nBeware of quotes: most often, when checking for the constant's value, the result is false.\nOn the other hand, it is not possible to check a constant with its aliased name: extra names, created with ``use`` are not validated.\nTo check for a class constant, it is possible to use a string, with the class name and the ``::`` separator. Then, the visibility of the class constant is taken into account: it might be defined, but not accessible from that part of the code.",
+    "seeAlso": {
+    },
+    "tags": [
+        "surprise", "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["constant", "class-constant"],
+    "3v4l": {"defined() in action":"https://3v4l.org/Z3Yv9"},
+    "phpError": {}
+}

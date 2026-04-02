@@ -1,0 +1,18 @@
+{
+    "image": "parent_in_function.png",
+    "date": "2025-09-16",
+    "title": "parent In Function",
+    "content": "``parent`` shall only be inside a class, as it refers to the parent class. This does not happen with a function, so the second line in this example produces a Fatal Error.\nIt does not produce the same error with a Closure, or Arrow function. This is valid code because it is possible to change the underlying object of the closure, and give it a valid class to run it with. This is done with the ``Closure::call()`` and ``Closure::bindTo()`` methods.\nThe main problem, in this situation, is that such code is invalid a writing location, and becomes valid later, after some reconfiguration. Sometimes, static analysis finds it hard to track.",
+    "seeAlso": {
+        "The Closure class (PHP manual)": "https://www.php.net/manual/en/class.closure.php"
+    },
+    "tags": [
+        "edge case",
+        "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["class", "closure", "function", "parent"],
+    "3v4l": {"Calling parent on a closure":"https://3v4l.org/QWeN7"},
+    "phpError": {"Cannot use \"parent\" when no class scope is active":"cannot-use-\"parent\"-when-no-class-scope-is-active"}
+}

@@ -1,0 +1,16 @@
+{
+    "image": "casting_enum.png",
+    "date": "2025-10-03",
+    "title": "Casting An Enum Case",
+    "content": "TIL that enumeration cases cannot be cast. They can't be to a boolean, because they are an object.\nThey can't be cast to their scalar value (``int`` or ``string``), even though it looks reasonable to do.\nOf course, they can be cast to array (they are simply put inside an array), or to an object (nothing happens).",
+    "seeAlso": {
+    },
+    "tags": [
+        "surprising"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["enum", "enum-case", "cast"],
+    "3v4l": {"Cannot Cast Enum":"https://3v4l.org/G5aLS"},
+    "phpError": {"Object of class E could not be converted to string":"object-of-class-%s-could-not-be-converted-to-string"}
+}

@@ -1,0 +1,18 @@
+{
+    "image": "noBindingButOriginal.png",
+    "date": "2025-08-03",
+    "title": "No Binding But With Original",
+    "content": "It is possible to change the underlying object of a closure. The new closure will be executed with the new object, with the same method.\nOn the other hand, it is not possible to call that closure on another class, even if that class has the same method, nor even if the class is a child of the original one. It must be the same original class.",
+    "seeAlso": {
+        "The Closure class (PHP manual)": "https://www.php.net/manual/en/class.closure.php"
+    },
+    "tags": [
+        "rare",
+        "tip"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["closure", "bind"],
+    "3v4l": {"Rebind to object":"https://3v4l.org/stFK6"},
+    "phpError": {"Cannot rebind scope of closure created from method":"cannot-rebind-scope-of-closure-created-from-method"}
+}

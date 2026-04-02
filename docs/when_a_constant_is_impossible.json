@@ -4,10 +4,9 @@
   "title": "Constants Can Be Impossible",
   "content": "In this code, the constant ``x2::F`` is not possible, because adding a string and an array results in a fatal error.\nYet, this is determined at execution time, and only when the constant is used.\nSince this constant is never used, its code is never executed, and it doesn't yield any error. PHP has optimized the error away.",
   "seeAlso": {
-    "Class Constants": "https:\\/\\/www.php.net\\/manual\\/en\\/language.oop5.constants.php"
   },
   "tags": [
-    "trick"
+    "trick", "edge case"
   ],
   "3v4l": {
     "Almost impossible constant": "https://3v4l.org/J1JpE"
@@ -16,8 +15,8 @@
   "features": [
     "static-expression",
     "optimisation",
-    "edge case",
-    "error"
+    "error",
+    "class-constant"
   ],
   "author": "",
   "contact": ""

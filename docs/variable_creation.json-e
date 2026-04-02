@@ -1,0 +1,19 @@
+{
+    "image": "variable_creation.png",
+    "date": "2024-12-03",
+    "title": "Variable Creation",
+    "content": "When defining a closure, the lexical variables (in the ``use`` clause) are created immediately, with the default value of ``null``. The closure is executed later, and then, the values of the lexical variables are changed.\nWhen creating an anonymous object, the constructor is immediately executed: hence, the argument with reference is created, then initialized with ``[]`` and immediately available.",
+    "seeAlso": {
+    },
+    "tags": [
+        "closure",
+        "anonymous-class"
+    ],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "Create variables with a closure": "https://3v4l.org/Z5jgo"
+    },
+    "phpError": {},
+    "features": ["variable", "closure"]
+}

@@ -1,0 +1,17 @@
+{
+    "image": "notAllIncrementStrings.png",
+    "date": "2025-08-17",
+    "title": "Not All Incremented Strings Are Deprecated",
+    "content": "News are that the famous PHP feature to increment strings is deprecated. This is not entirely true, as only the strings that can't be incremented emit the warning since PHP 8.3.\nTruth is, this will be corrected in PHP 8.5, so better start using str_increment() and str_decrement() anyway.",
+    "seeAlso": {
+        "Saner Increment/Decrement operators":"https://www.php.net/manual/en/migration83.deprecated.php#migration83.deprecated.core.saner-inc-dec-operators"
+    },
+    "tags": [
+        "bug"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["string-increment"],
+    "3v4l": {"Increment me!":"https://3v4l.org/hj3ac"},
+    "phpError": {"Increment on non-alphanumeric string is deprecated ":"increment-on-non-alphanumeric-string-is-deprecated"}
+}

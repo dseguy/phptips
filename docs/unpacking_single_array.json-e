@@ -1,0 +1,16 @@
+{
+    "image": "unpacking_single_array.png",
+    "date": "2026-01-22",
+    "title": "Unpacking A Single Element Array",
+    "content": "The ellipsis operator ``...`` is used to unpack arrays as individual arguments in a method call. Its opposite is the ``[]`` array, which holds a random number of values.\nUsing both together is useless, as ellipsis neutralize the array.\nYet, when unpacking several arrays as arguments, it is not possible to use literal values after the unpacked arguments.\nThe solution is to put these arguments in another literal array, and unpack them, as the previous ones.",
+    "seeAlso": {
+    },
+    "tags": [
+        "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["ellipsis", "unpacking"],
+    "3v4l": {"Unpacking single element arrays":"https://3v4l.org/n1pq9"},
+    "phpError": {"Cannot use positional argument after argument unpacking":"cannot-use-positional-argument-after-argument-unpacking"}
+}

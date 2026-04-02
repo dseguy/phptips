@@ -1,0 +1,17 @@
+{
+    "image": "bit_operation_on_string.png",
+    "date": "2025-06-16",
+    "title": "Bitwise Operations On String",
+    "content": "The bit operators ``&``, ``|`` and ``^`` work on integers, and use the numbers as a bitfield: each bit in the numbers are compared with the operator, and set accordingly in the result.\nThe same operators works on strings, where the string is treated as a binary data.\nSince PHP 8.0, it is an error to have different types on both sides of the bit operators. Other types are also yielding an error, like with arrays, objects, etc.\nWhen in doubt, consider using the logical operators.",
+    "seeAlso": {
+        "Bitwise Operators": "https://www.php.net/manual/en/language.operators.bitwise.php"
+    },
+    "tags": [
+        "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["bitwise-operator", "string", "integer"],
+    "3v4l": {"& on integers and strings":"https://3v4l.org/Kkepg"},
+    "phpError":{"Unsupported operand types: int & string":"unsupported-operand-types:-%s-%s-%s"}
+}

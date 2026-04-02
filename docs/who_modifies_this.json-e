@@ -1,0 +1,16 @@
+{
+    "image": "who_modifies_this.png",
+    "date": "2025-06-29",
+    "title": "Who Modifies This Property?",
+    "content": "Several observations in this code:\nit is possible to define a property without visibility: the property hook makes it a promoted property.\nIt is also possible possible to create a reference on a property, as promoted properties are also an argument.\nWhen all these features are together, it yields an error about accessing an uninitialized property.",
+    "seeAlso": {
+    },
+    "tags": [
+        "bug"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["promoted-property", "property-hook", "reference", "property"],
+    "3v4l": {"Uninitialized property":"https://3v4l.org/RH1V7"},
+    "phpError": {"Typed property x::$y must not be accessed before initialization":"typed-property-%s::$%s-must-not-be-accessed-before-initialization"}
+}

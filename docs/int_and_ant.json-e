@@ -1,0 +1,17 @@
+{
+    "image": "int_and_ant.png",
+    "date": "2026-01-20",
+    "title": "(int) And (ant)",
+    "content": "It is possible to store a Closure in a constant, since PHP 8.5. This means that the closure has to be called by storing the constant in parenthesis: this way, PHP first extracts the value of the constant, then, calls the closure.\nThere is something else that is between parenthesis: a cast. And ``cast`` has a very high priority. So, when a ``int`` constant is created, it still calls the cast, and ignores the constant.\nMay be constants should not be called as casts?",
+    "seeAlso": {
+        "Cast is so strong": "https://php-tips.readthedocs.io/en/latest/tips/cast_is_strong.html"
+    },
+    "tags": [
+        "surprising"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["cast", "constant"],
+    "3v4l": {"Of int and ant":"https://3v4l.org/nQXAL"},
+    "phpError": {"Constant expression contains invalid operations":"constant-expression-contains-invalid-operations"}
+}

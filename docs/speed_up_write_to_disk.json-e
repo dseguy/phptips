@@ -1,0 +1,18 @@
+{
+    "image": "speed_up_write_to_disk.png",
+    "date": "2026-03-10",
+    "title": "Speed Up CSV Write To Disk",
+    "content": "When writing CSV files with fputcsv() function, PHP flushes each row to the disk. To speed up the process, it is possible to open a file in memory, with the ``php://memory`` wrapper, and write the CSV there. Then, it is possible to write down from memory down to the disk in one batch, saving a lot of disks flushes.\nThe same trick may be used to write any kind of files: write it quickly, in memory, and then, down to the disk in one batch.",
+    "seeAlso": {
+        "fputcsv": "https://www.php.net/manual/en/function.fputcsv.php",
+        "fputcsv() in loops":"https://exakat.readthedocs.io/en/latest/Reference/Rules/Performances/CsvInLoops.html#fputcsv-in-loops"
+    },
+    "tags": [
+        "tip", "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["memory", "optimisation", "csv", "file"],
+    "3v4l": {"fputcsv in loops":"https://3v4l.org/8ei2U"},
+    "phpError": {}
+}

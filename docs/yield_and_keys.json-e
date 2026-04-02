@@ -1,0 +1,16 @@
+{
+    "image": "yield_and_keys.png",
+    "date": "2025-09-22",
+    "title": "Yield And Keys",
+    "content": "Guess the output.",
+    "seeAlso": {
+    },
+    "tags": [
+        "surprising"
+    ],
+    "author": "Jerome Tamarelle",
+    "contact": "https://bsky.app/profile/jerome.tamarelle.net",
+    "features": ["yield", "yield-from", "iterator_to_array"],
+    "3v4l": {"Guess the output":"https://3v4l.org/Oflt2"},
+    "phpError": {}
+}

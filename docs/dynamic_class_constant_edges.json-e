@@ -1,0 +1,16 @@
+{
+    "image": "dynamic_class_constant_edges.png",
+    "date": "2025-10-02",
+    "title": "Dynamic Class Constant Edge Cases",
+    "content": "PHP 8.3 introduces a new syntax to access dynamically class constants: ``class::{constant-name}``.\nClass constants works with the ``??`` coalesce operator, as long as the class constant itself has the value ``null``. On the other hand, the ``??`` does not work with the dynamic class constant, and yields a parse error.\nThe dynamic class constant syntax works with unquoted constant names, but then, it requires the related global constant to be existing, and holding the actual name of the constant.\nFinally, the no scream operator ``@`` does not continue execution in case of a non existing class constant: it masks the error message, and dies.",
+    "seeAlso": {
+    },
+    "tags": [
+        "bug"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["null", "noscream", "class-constant", "dynamic-class-constant"],
+    "3v4l": {"Dynamic Class Constant Edge Cases":"https://3v4l.org/QKvnA"},
+    "phpError": {}
+}

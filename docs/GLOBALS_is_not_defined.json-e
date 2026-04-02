@@ -1,0 +1,17 @@
+{
+    "image": "GLOBALS_is_not_defined.png",
+    "date": "2025-06-22",
+    "title": "$GLOBALS Is Not Defined",
+    "content": "$GLOBALS is a PHP superglobal, which is always available, no matter the context. It is also not possible to write it, not to unset it.\nYet, it is possible to get that cryptic error message that it is not available.\nThis happens when trying to reach the context ``$GLOBALS`` via the variable that holds all globals: ``$GLOBALS``. That particular entry is unreachable, as it may lead to circular references. Yet, the error message is the same as for any other global.",
+    "seeAlso": {
+        "$GLOBALS (PHP manual)": "https://www.php.net/manual/en/reserved.variables.globals.php"
+    },
+    "tags": [
+        "edge case"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["superglobal", "global", "$GLOBALS"],
+    "3v4l": {"No $GLOBALS here":"https://3v4l.org/dLrij"},
+    "phpError": {"Undefined global variable %s":"undefined-global-variable-%s"}
+}

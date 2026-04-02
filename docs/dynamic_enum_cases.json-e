@@ -1,0 +1,16 @@
+{
+    "image": "dynamic_enum_cases.png",
+    "date": "2025-10-01",
+    "title": "Dynamic Enum Cases",
+    "content": "PHP offers the ``constant()`` function to reach the value of a constant, when knowing its name.\nThis also works for class constant, using the ``class::constant`` name. This is an alternative to the ``class::{$name}`` syntax, that was introduced in PHP 8.3.\nAnd the ``constant()`` call also works on enumeration cases, which are, eventually, also class constants.",
+    "seeAlso": {
+    },
+    "tags": [
+        "tip"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["enum", "enum-case", "constant","constant-function","class-constant-syntax"],
+    "3v4l": {"Dynamic Enum Cases":"https://3v4l.org/lQY9A"},
+    "phpError": {}
+}

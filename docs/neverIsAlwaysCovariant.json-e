@@ -1,0 +1,16 @@
+{
+    "image": "neverIsAlwaysCovariant.png",
+    "date": "2025-08-28",
+    "title": "Never Is The Lowest Ranking Type",
+    "content": "It is always possible to use ``never`` as a compatible type in a return type. It is the lowest ranking type, and is compatible with anything else.\nOf course, to finish implementing it, the method would also have to never return.",
+    "seeAlso": {
+    },
+    "tags": [
+        "edge-case"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["never", "type"],
+    "3v4l": {"Always Compatible Returntype":"https://3v4l.org/2YXVq6"},
+    "phpError": {"Declaration of %s must be compatible with %s":"declaration-of-%s-must-be-compatible-with-%s"}
+}

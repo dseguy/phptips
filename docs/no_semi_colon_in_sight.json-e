@@ -1,0 +1,19 @@
+{
+    "image": "no_semi_colon_in_sight.png",
+    "date": "2024-02-11",
+    "title": "No Semicolon In Sight",
+    "content": "This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag. Either the comma should be a semicolon, or an extra argument should be present.\nIn any case, the linting error message reports an unexpected semicolon, which is not visible in the code. Indeed, it is hidden in the PHP closing tag.",
+    "seeAlso": {
+        "PHP tags": "https://www.php.net/manual/en/language.basic-syntax.phptags.php"
+    },
+    "tags": [
+        "surprising"
+    ],
+    "author": "",
+    "contact": "",
+    "3v4l": {
+        "non existent token": "https://3v4l.org/92VL2"
+    },
+    "phpError": {"syntax error, unexpected token \";\"":"syntax-error,-unexpected-token-\";\""},
+    "features": ["close-tag"]
+}
