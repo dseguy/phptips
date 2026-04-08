@@ -12,7 +12,7 @@
     ],
     "author": "Jerome Tamarelle",
     "contact": "https://bsky.app/profile/jerome.tamarelle.net",
-    "features": ["compatibility"],
+    "features": ["compatibility", "method-compatibility", "version"],
     "3v4l": {"Example code":"https://3v4l.org/g3htG"},
     "phpError":{}
 }

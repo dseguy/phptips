@@ -18,5 +18,5 @@
         "Sorting with a leading minus": "https://3v4l.org/Tk3C4"
     },
     "phpError": {},
-    "features": ["sort"]
+    "features": ["sort", "comparison"]
 }

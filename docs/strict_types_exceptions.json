@@ -5,12 +5,11 @@
 "content":"strict_types do not apply to PHP operators, only on to typed structures.\nHere, concatenation and interpolation all call __toString(), but not foo().\nAs you can see, print() and echo() are safe too, while implode() is not: actually, it is not safe for the first argument, but still OK with the elements of the array, in the second argument.",
 "seeAlso":{
 	"declare":"https://www.php.net/manual/en/control-structures.declare.php"
-	
 },
 "tags":[
 	"PHP"
 ],
-"features":[	"strict_types"
+"features":["strict_types", "exception", "operator"
 ],
     "author": "",
     "contact": "",

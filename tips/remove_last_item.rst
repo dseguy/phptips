@@ -21,7 +21,7 @@ Remove Last Item In An Array
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html","name":"Remove Last Item In An Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:32 +0000","dateModified":"Thu, 02 Apr 2026 05:33:32 +0000","description":"Three ways to remove the last item in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html","name":"Remove Last Item In An Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Apr 2026 05:05:18 +0000","dateModified":"Tue, 07 Apr 2026 05:05:18 +0000","description":"Three ways to remove the last item in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/remove_last_item.png
 
@@ -48,5 +48,13 @@ PHP Features
 ____________
 
 * `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+* `array_pop <https://php-dictionary.readthedocs.io/en/latest/dictionary/array_pop.ini.html>`_
+
+* `array_push <https://php-dictionary.readthedocs.io/en/latest/dictionary/array_push.ini.html>`_
+
+* `unset <https://php-dictionary.readthedocs.io/en/latest/dictionary/unset.ini.html>`_
+
+* `array_slice <https://php-dictionary.readthedocs.io/en/latest/dictionary/array_slice.ini.html>`_
 
 

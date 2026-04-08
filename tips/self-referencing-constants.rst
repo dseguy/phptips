@@ -21,7 +21,7 @@ No Self Referencing Constants
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-referencing-constants.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-referencing-constants.html","name":"No Self Referencing Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:35 +0000","dateModified":"Thu, 02 Apr 2026 05:33:35 +0000","description":"It is not possible to define a recursive PHP class constant, although it is possible to write it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-referencing-constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-referencing-constants.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-referencing-constants.html","name":"No Self Referencing Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 10:26:34 +0000","dateModified":"Wed, 08 Apr 2026 10:26:34 +0000","description":"It is not possible to define a recursive PHP class constant, although it is possible to write it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-referencing-constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/self-referencing-constants.png
 
@@ -51,5 +51,9 @@ PHP Features
 ____________
 
 * `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
+* `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+
+* `static-expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-expression.ini.html>`_
 
 

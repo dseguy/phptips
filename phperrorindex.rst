@@ -73,7 +73,6 @@ Error Message index
     * :ref:`returntypewillchange-is-for-all`
 * Declaration of y4::foo($b, $c, $d) must be compatible with x4::foo($a, $b)
     * :ref:`argument-renaming`
-    * :ref:`mixed-compatibility`
 * Duplicate value in enum E for cases A and B
     * :ref:`enum-are-not-linted`
 * Incompatible readonly
@@ -84,6 +83,8 @@ Error Message index
     * :ref:`hexadecimal-separator`
 * Multiple static modifiers are not allowed
     * :ref:`cannot-static-static-property`
+* Non-static method %s::%s() cannot be called statically
+    * :ref:`get-$this-in-a-static`
 * Object casts are not supported in this context
     * :ref:`cast-in-const`
 * Object of class E could not be converted to string
@@ -91,6 +92,8 @@ Error Message index
     * :ref:`casting-an-enum-case`
 * Object of class stdClass could not be converted to string
     * :ref:`reusing-decimals-for-bananas`
+* Only basic entities substitution is supported for multi-byte encodings other than UTF-8; functionality is equivalent to htmlspecialchars
+    * :ref:`when-htmlemtities()-is-failing`
 * Recursion detected
     * :ref:`compact()-is-recursive`
 * Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero

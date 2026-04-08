@@ -21,7 +21,7 @@ Sorting With Minus
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sorting_with_minus.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sorting_with_minus.html","name":"Sorting With Minus","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:41 +0000","dateModified":"Thu, 02 Apr 2026 05:33:41 +0000","description":"Did you know that sorting ``f``, ``0`` and ``-f`` actually ends up with ``-f`` first, then ``0``, then ``f``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sorting_with_minus.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sorting_with_minus.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sorting_with_minus.html","name":"Sorting With Minus","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 10:26:50 +0000","dateModified":"Wed, 08 Apr 2026 10:26:50 +0000","description":"Did you know that sorting ``f``, ``0`` and ``-f`` actually ends up with ``-f`` first, then ``0``, then ``f``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sorting_with_minus.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/sorting_with_minus.png
 
@@ -46,5 +46,7 @@ PHP Features
 ____________
 
 * `sort <https://php-dictionary.readthedocs.io/en/latest/dictionary/sort.ini.html>`_
+
+* `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
 
 

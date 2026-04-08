@@ -12,7 +12,7 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["plus"],
+    "features": ["plus", "post-increment"],
     "3v4l": {"Triple plus operator in action":"https://3v4l.org/Kku5h"},
     "phpError":{}
 }

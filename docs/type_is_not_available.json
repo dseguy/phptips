@@ -16,5 +16,5 @@
         "Typed in interface, not available": "https://3v4l.org/ea7eA"
     },
     "phpError": {},
-    "features": ["type"]
+    "features": ["type", "returntype", "never"]
 }

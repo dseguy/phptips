@@ -15,5 +15,5 @@
         "Self Referencing Constants": "https://3v4l.org/QjKnC"
     },
     "phpError": {"Cannot declare self-referencing constant x::A":"cannot-declare-self-referencing-constant"},
-    "features": ["constant"]
+    "features": ["constant", "self", "static-expression"]
 }

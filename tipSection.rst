@@ -5,9 +5,10 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/comparing-arrays.rst
    tips/comma_in_number.rst
    tips/arg_renaming.rst
-   tips/mixed_compatibility.rst
+   tips/htmlemtities_failing.rst
    tips/static_arrow_function.rst
    tips/defined.rst
    tips/expm1.rst

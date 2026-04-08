@@ -12,6 +12,6 @@
     "3v4l": {"plus plus":"https://3v4l.org/4m7rI"},
     "phpError": {},
     "features": [
-	"operator"
+	"operator", "plus", "minus"
     ]
 }

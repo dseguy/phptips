@@ -21,7 +21,7 @@ Get $this In A Static
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html","name":"Get $this In A Static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:36 +0000","dateModified":"Thu, 02 Apr 2026 05:33:36 +0000","description":"A static method does not have access to the current object, by definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html","name":"Get $this In A Static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 10:30:57 +0000","dateModified":"Wed, 08 Apr 2026 10:30:57 +0000","description":"A static method does not have access to the current object, by definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/static_get_this.png
 
@@ -36,13 +36,23 @@ Finally, calling statically a non-static method still defines ``$this`` in the t
 See Also
 ________
 
-* `Static Keyword (PHP manual) <https://www.php.net/manual/en/language.oop5.static.php>`_
 * `internal static and external static <https://3v4l.org/hLtMb>`_ [Try me]
+
+
+PHP Error Messages
+__________________
+
+* `Non-static method %s::%s() cannot be called statically <https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%3A%3A%25s%28%29-cannot-be-called-statically.html>`_
+
 
 
 PHP Features
 ____________
 
 * `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+
+* `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+
+* `static-call <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-call.ini.html>`_
 
 

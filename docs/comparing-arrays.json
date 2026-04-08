@@ -1,0 +1,16 @@
+{
+    "image": "comparing-arrays.png",
+    "date": "2026-04-08",
+    "title": "Comparing Arrays And Object",
+    "content": "``==`` and ``===`` apply different algorithms to compare arrays.\n``==`` compares keys without taking order in account, while ``===`` also takes into account the order.\n``==`` applies type juggling to values, and then compare them loosely, while ``===`` makes a identity comparison, with value and type. ``==`` and ``===`` compare keys the same way, as they can only be ``int`` or ``string``, and no type-juggling is applied.\nThe same rules apply when comparing objects: the order of assignations of the properties is used by ``==`` but not by ``===``.\nFinally, comparing an array and an object always fails: one of them has to be cast.",
+    "seeAlso": {
+    },
+    "tags": [
+        "comparison", "tip", "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["comparison", "array", "property", "cast"],
+    "3v4l": {"Comparing arrays":"https://3v4l.org/Zqkng", "Comparing object":"https://3v4l.org/isKLn"},
+    "phpError": {}
+}

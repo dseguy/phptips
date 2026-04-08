@@ -21,7 +21,7 @@ Negative Squares
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/squared_negative.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/squared_negative.html","name":"Negative Squares","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:36 +0000","dateModified":"Thu, 02 Apr 2026 05:33:36 +0000","description":"This is still my favorite PHP bug : literal negative value is squared, and is ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/squared_negative.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/squared_negative.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/squared_negative.html","name":"Negative Squares","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 10:27:09 +0000","dateModified":"Wed, 08 Apr 2026 10:27:09 +0000","description":"This is still my favorite PHP bug : literal negative value is squared, and is ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/squared_negative.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/squared_negative.png
 
@@ -38,5 +38,9 @@ PHP Features
 ____________
 
 * `exponential <https://php-dictionary.readthedocs.io/en/latest/dictionary/exponential.ini.html>`_
+
+* `sign <https://php-dictionary.readthedocs.io/en/latest/dictionary/sign.ini.html>`_
+
+* `minus <https://php-dictionary.readthedocs.io/en/latest/dictionary/minus.ini.html>`_
 
 

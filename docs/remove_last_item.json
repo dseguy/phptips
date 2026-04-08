@@ -14,7 +14,7 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["array"],
+    "features": ["array", "array_pop", "array_push", "unset", "array_slice"],
     "phpError": {},
     "3v4l": {"comparisons":"https://3v4l.org/bEaBT"}
 }

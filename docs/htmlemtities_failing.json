@@ -1,0 +1,16 @@
+{
+    "image": "htmlemtities_failing.png",
+    "date": "2026-04-02",
+    "title": "When htmlemtities() Is Failing",
+    "content": "By default, htmlemtities() uses UTF-8. The third argument of that function is the actual encoding, so it is parametrable. When using a non-existing encoding, such as ``xxx``, PHP detects it, and default to UTF8 (here it works well).\nOn the other hand, when using a valid encoding, but that is not supported, PHP default to returning an empty string.",
+    "seeAlso": {
+    },
+    "tags": [
+        "surprising"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["htmlentities", "encoding"],
+    "3v4l": {},
+    "phpError": {"Only basic entities substitution is supported for multi-byte encodings other than UTF-8; functionality is equivalent to htmlspecialchars":""}
+}

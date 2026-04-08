@@ -7,8 +7,7 @@
         "Comments (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.basic-syntax.comments.php"
     },
     "tags": [
-        "comment",
-        "unicode"
+        "unicode", "tip"
     ],
     "author": "Aken Roberts",
     "contact": "https:\/\/bsky.app\/profile\/akenroberts.com",
@@ -16,5 +15,5 @@
         "Unicode comment": "https://3v4l.org/QYFD0"
     },
     "phpError": {},
-    "features": ["comment"]
+    "features": ["comment", "unicode"]
 }
