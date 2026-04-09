@@ -37,6 +37,7 @@ Author index
     * :ref:`self-as-attribute`
     * :ref:`unfinished-class-doesn't-compile`
 * `Jerome Tamarelle <https://bsky.app/profile/jerome.tamarelle.net>`_
+    * :ref:`spaceship-always-false`
     * :ref:`yield-and-keys`
     * :ref:`keep-interface-new-argument-compatible`
 * `Ondrej Mirtes <https://twitter.com/OndrejMirtes>`_

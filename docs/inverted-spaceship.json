@@ -1,0 +1,19 @@
+{
+    "image": "inverted-spaceship.png",
+    "date": "2026-04-10",
+    "title": "Inverted Spaceship Results",
+    "content": "In the first class, the properties are declared $a, then $b. Comparing the values with spaceship leads to 1, -1.\nIn the first class, the properties are declared $b, then $a. The rest of the code is the same. Comparing the values with spaceship leads to -1, 1.\nThis phenomenon disappears when using promoted properties.",
+    "seeAlso": {
+    },
+    "tags": [
+        "surprising", "silent"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["promoted-properties", "spaceship", "declaration", "order-of-execution"],
+    "3v4l": {
+        "Order of properties matter":"https://3v4l.org/2nPL6#veol",
+        "Order of promoted properties doesn't matter'":"https://3v4l.org/E6G8f#veol"
+    },
+    "phpError": {}
+}

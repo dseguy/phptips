@@ -1,0 +1,16 @@
+{
+    "image": "spaceship_always_false.png",
+    "date": "2026-04-11",
+    "title": "Spaceship Always False",
+    "content": "Compare A to B, and A is bigger than B.\nCompare B to A, and B is bigger than A.\nAnd, in the end, they are still different.",
+    "seeAlso": {
+    },
+    "tags": [
+        "surprising"
+    ],
+    "author": "Jerome Tamarelle",
+    "contact": "https://bsky.app/profile/jerome.tamarelle.net",
+    "features": ["spaceship", "object", "comparison"],
+    "3v4l": {"Comparing two objects":"https://3v4l.org/gBecg#veol"},
+    "phpError": {}
+}
