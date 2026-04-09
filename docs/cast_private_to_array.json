@@ -7,11 +7,11 @@
         "Original Toot": "https://phpc.social/@paulshryock/114717288186291609"
     },
     "tags": [
-        "surprising"
+        "surprising", "silent"
     ],
     "author": "Paul Shryock",
     "contact": "https://phpc.social/@paulshryock",
-    "features": ["cast"],
+    "features": ["cast", "visibility", "private", "debug"],
     "3v4l": {"Casting private properties":"https://3v4l.org/AfOPT"},
     "phpError": {}
 }

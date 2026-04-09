@@ -6,11 +6,11 @@
     "seeAlso": {
     },
     "tags": [
-        "conversions"
+        "conversions", "silent"
     ],
     "author":"Frederic Bouchery",
     "contact":"https://bsky.app/profile/bouchery.fr",
     "3v4l":{"How is this code running":"https://3v4l.org/6CCFl"},
     "phpError":{},
-    "features":["datetime"]
+    "features":["datetime", "intdiv", "integer"]
 }

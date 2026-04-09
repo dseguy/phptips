@@ -21,7 +21,7 @@ Const Without Parenthesis
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/const_without_parenthesis.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/const_without_parenthesis.html","name":"Const Without Parenthesis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:35 +0000","dateModified":"Thu, 02 Apr 2026 05:33:35 +0000","description":"It is possible to put a single literal inside parenthesis: that's just the literal itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/const_without_parenthesis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/const_without_parenthesis.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/const_without_parenthesis.html","name":"Const Without Parenthesis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 14:44:48 +0000","dateModified":"Thu, 09 Apr 2026 14:44:48 +0000","description":"It is possible to put a single literal inside parenthesis: that's just the literal itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/const_without_parenthesis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/const_without_parenthesis.png
 
@@ -44,5 +44,9 @@ PHP Features
 ____________
 
 * `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
+* `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
+
+* `keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/keyword.ini.html>`_
 
 

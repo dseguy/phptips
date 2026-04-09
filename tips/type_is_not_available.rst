@@ -21,7 +21,7 @@ Type Is Not Always Returned
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type_is_not_available.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type_is_not_available.html","name":"Type Is Not Always Returned","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 10:28:55 +0000","dateModified":"Wed, 08 Apr 2026 10:28:55 +0000","description":"A method can display a return type, and never return it actually","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type_is_not_available.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type_is_not_available.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type_is_not_available.html","name":"Type Is Not Always Returned","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 14:46:22 +0000","dateModified":"Thu, 09 Apr 2026 14:46:22 +0000","description":"A method can display a return type, and never return it actually","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type_is_not_available.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/type_is_not_available.png
 
@@ -41,7 +41,7 @@ ____________
 
 * `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
-* `returntype <https://php-dictionary.readthedocs.io/en/latest/dictionary/returntype.ini.html>`_
+* `return-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/return-type.ini.html>`_
 
 * `never <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
 

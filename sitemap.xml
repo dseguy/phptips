@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/isset-empty-valued.html</loc>
+ </url>
+ <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/comparing-arrays.html</loc>
+ </url>
+ <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/mixed_compatibility.html</loc>
  </url>
  <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/comma_in_number.html</loc>

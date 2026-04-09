@@ -5,7 +5,9 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/isset-empty-valued.rst
    tips/comparing-arrays.rst
+   tips/mixed_compatibility.rst
    tips/comma_in_number.rst
    tips/arg_renaming.rst
    tips/htmlemtities_failing.rst

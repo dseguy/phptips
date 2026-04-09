@@ -1,6 +1,6 @@
 {
     "image": "mixed_compatibility.png",
-    "date": "2026-04-02",
+    "date": "2026-04-05",
     "title": "Mixed Compatibility",
     "content": "Method compatibility means that eponymous methods must have the same number of arguments, and compatible types.\nOne special case is using variadic: with it, it is allowed to remove arguments, as long as they are the same type, and next to the variadic.\nWith mixed variadic, it is also possible to go from no arguments to one argument. The opposite is not possible: one cannot drop a ``mixed ...$args`` once it was added.",
     "seeAlso": {

@@ -11,6 +11,6 @@
     "author": "",
     "contact": "",
     "features": ["htmlentities", "encoding"],
-    "3v4l": {},
-    "phpError": {"Only basic entities substitution is supported for multi-byte encodings other than UTF-8; functionality is equivalent to htmlspecialchars":""}
+    "3v4l": {"utf8, big5 and xxx":"https://3v4l.org/1vaRr#veol"},
+    "phpError": {"Only basic entities substitution is supported for multi-byte encodings other than UTF-8; functionality is equivalent to htmlspecialchars":"only-basic-entities-substitution-is-supported-for-multi-byte-encodings-other-than-utf-8;-functionality-is-equivalent-to-htmlspecialchars"}
 }

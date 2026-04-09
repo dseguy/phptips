@@ -21,7 +21,7 @@ How To array_intersect_uassoc_insensitive()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_intersect_uassoc_insensitive.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_intersect_uassoc_insensitive.html","name":"How To array_intersect_uassoc_insensitive()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:37 +0000","dateModified":"Thu, 02 Apr 2026 05:33:37 +0000","description":"array_intersect() functions use a direct comparison between the values in the array to make the comparison","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_intersect_uassoc_insensitive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_intersect_uassoc_insensitive.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_intersect_uassoc_insensitive.html","name":"How To array_intersect_uassoc_insensitive()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 14:46:55 +0000","dateModified":"Thu, 09 Apr 2026 14:46:55 +0000","description":"array_intersect() functions use a direct comparison between the values in the array to make the comparison","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_intersect_uassoc_insensitive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/array_intersect_uassoc_insensitive.png
 
@@ -42,5 +42,9 @@ PHP Features
 ____________
 
 * `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
+* `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+
+* `index-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
 
 

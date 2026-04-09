@@ -1,0 +1,16 @@
+{
+    "image": "isset-empty-valued.png",
+    "date": "2026-04-09",
+    "title": "isset(), empty() And the Magic Methods",
+    "content": "The ``__isset()`` and ``__get()`` methods must go hand in hand. One checks that a property, virtual or not, is available, and the other one returns the actual value. Yet, both may be inconsistent one with the other.\nIn particular, ``__isset()`` is called when dealing with ``isset()`` and ``empty()``.\nBut ``__get()`` may be called directly, and return something, even if ``__isset()`` is saying it's not set.\nThis might come as a surprise to pieces of code that compare a property with ``== ''`` (or equivalent), compared to using ``isset()``.\nBeyond the strange illustration, it is probably a good practice to always provide ``__isset()`` on a class that has the magic method ``__get``.",
+    "seeAlso": {
+    },
+    "tags": [
+        "inconsistent", "silent"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["__get", "__isset", "empty", "isset"],
+    "3v4l": {"isset, empty and get are on a boat":"https://3v4l.org/Eiumt"},
+    "phpError": {}
+}

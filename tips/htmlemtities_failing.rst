@@ -21,7 +21,7 @@ When htmlemtities() Is Failing
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html","name":"When htmlemtities() Is Failing","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 20:14:52 +0000","dateModified":"Thu, 02 Apr 2026 20:14:52 +0000","description":"By default, htmlemtities() uses UTF-8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html","name":"When htmlemtities() Is Failing","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 14:42:44 +0000","dateModified":"Thu, 09 Apr 2026 14:42:44 +0000","description":"By default, htmlemtities() uses UTF-8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/htmlemtities_failing.png
 
@@ -29,10 +29,16 @@ By default, htmlemtities() uses UTF-8. The third argument of that function is th
 
 On the other hand, when using a valid encoding, but that is not supported, PHP default to returning an empty string.
 
+See Also
+________
+
+* `utf8, big5 and xxx <https://3v4l.org/1vaRr#veol>`_ [Try me]
+
+
 PHP Error Messages
 __________________
 
-* `Only basic entities substitution is supported for multi-byte encodings other than UTF-8; functionality is equivalent to htmlspecialchars <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+* `Only basic entities substitution is supported for multi-byte encodings other than UTF-8; functionality is equivalent to htmlspecialchars <https://php-errors.readthedocs.io/en/latest/messages/only-basic-entities-substitution-is-supported-for-multi-byte-encodings-other-than-utf-8%3B-functionality-is-equivalent-to-htmlspecialchars.html>`_
 
 
 

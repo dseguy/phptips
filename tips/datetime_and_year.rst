@@ -21,7 +21,7 @@ Datetime Object, And Years
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html","name":"Datetime Object, And Years","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"In this code, 2 years are given to ``Datetime``, and handed back","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html","name":"Datetime Object, And Years","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 14:44:12 +0000","dateModified":"Thu, 09 Apr 2026 14:44:12 +0000","description":"In this code, 2 years are given to ``Datetime``, and handed back","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
 
@@ -43,5 +43,9 @@ PHP Features
 ____________
 
 * `datetime <https://php-dictionary.readthedocs.io/en/latest/dictionary/datetime.ini.html>`_
+
+* `intdiv <https://php-dictionary.readthedocs.io/en/latest/dictionary/intdiv.ini.html>`_
+
+* `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
 
 

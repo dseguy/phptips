@@ -13,5 +13,5 @@
     "contact": "",
     "3v4l":{"abstract again":"https://3v4l.org/Rs5JZ"},
     "phpError":{},
-    "features":["abstract"]
+    "features":["abstract", "class", "method"]
 }
