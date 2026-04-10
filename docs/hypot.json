@@ -1,0 +1,18 @@
+{
+    "image": "hypot.png",
+    "date": "2026-04-12",
+    "title": "Hypothenus In Action",
+    "content": "PHP has a built-in Euclidean distance function, if you need to calculate a distance!\nSounds complex, but it's just the hypothenuse! Without the overflow risk of doing it manually.\nIf you ONLY need to *compare* distances, don't miss the tip at the end of the code snippet!",
+    "seeAlso": {
+        "hypot (PHP manual)": "https://www.php.net/manual/en/function.hypot.php",
+        "Original Tweet":"https://x.com/alexdaubois/status/2035990120688476239"
+    },
+    "tags": [
+        "tip", "trick"
+    ],
+    "author": "Alexandre Daubois",
+    "contact": "https://x.com/alexdaubois",
+    "features": ["hypot", "math", "sqrt"],
+    "3v4l": {"hypot in action":"https://3v4l.org/Aacol#veol"},
+    "phpError": {}
+}

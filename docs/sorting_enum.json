@@ -1,0 +1,17 @@
+{
+    "image": "sorting_enum.png",
+    "date": "2026-04-13",
+    "title": "Sorting Enum",
+    "content": "Enum cases are sorted, by default, with their definition order. The name of the case does not matter, just the position of definition within the enumeration.\nWhen the order of definition cannot be changed, as per coding convention, the cases may be backed, and then, sorted at the last moment. Just know that the cases must be in a variable first.",
+    "seeAlso": {
+        "When your enum case order actually matters": "https://masteringlaravel.io/daily/2026-04-09-when-your-enum-case-order-actually-matters"
+    },
+    "tags": [
+        "trick", "tip"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["enum", "case", "sort"],
+    "3v4l": {"Sorting Enums":"https://3v4l.org/R1pFL"},
+    "phpError": {"Only variables should be passed by reference":"only-variables-should-be-passed-by-reference"}
+}

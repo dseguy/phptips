@@ -95,6 +95,8 @@ Error Message index
     * :ref:`reusing-decimals-for-bananas`
 * Only basic entities substitution is supported for multi-byte encodings other than UTF-8; functionality is equivalent to htmlspecialchars
     * :ref:`when-htmlemtities()-is-failing`
+* Only variables should be passed by reference
+    * :ref:`sorting-enum`
 * Recursion detected
     * :ref:`compact()-is-recursive`
 * Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero
