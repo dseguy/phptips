@@ -1,0 +1,16 @@
+{
+    "image": "not_set_but_exists.png",
+    "date": "2026-04-15",
+    "title": "Not Set But Exists",
+    "content": "In this code, a custom class X is created. When checking the presence of a property ``a``, ``isset()`` and ``empty()`` both say ``false``. This is consistent with the definition of the class.\nOn the other hand, doing a comparison between the property and empty string, or ``null`` is also false: this looks paradoxical.\nIn fact, ``isset()`` and ``empty()`` both rely on the ``__isset()`` magic method. Since it is not created in the class, the default answer is ``false``. Yet, the ``__get()`` method exists, and returns a non-empty value, so when reaching for the property directly with ``$x->a``, a non-empty value is returned and compared to a falsy literal.\nAs a conclusion, it is important to provide ``__isset()``, alongside the ``__get()`` method to be consistent when an object of the class is used.\nThis bug may also bite any code that relies on the convention to compare properties by value, instead of checking existence as a separate attribute.",
+    "seeAlso": {
+    },
+    "tags": [
+        "surprise", "quality"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["comparison", "isset", "empty", "__isset", "__get", "existence"],
+    "3v4l": {"Not set but exists?":"https://3v4l.org/WEI12"},
+    "phpError": {}
+}

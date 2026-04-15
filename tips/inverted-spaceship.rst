@@ -21,7 +21,7 @@ Inverted Spaceship Results
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/inverted-spaceship.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/inverted-spaceship.html","name":"Inverted Spaceship Results","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 15:45:02 +0000","dateModified":"Thu, 09 Apr 2026 15:45:02 +0000","description":"In the first class, the properties are declared $a, then $b","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/inverted-spaceship.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/inverted-spaceship.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/inverted-spaceship.html","name":"Inverted Spaceship Results","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 14:03:26 +0000","dateModified":"Wed, 15 Apr 2026 14:03:26 +0000","description":"In the first class, the properties are declared $a, then $b","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/inverted-spaceship.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/inverted-spaceship.png
 
@@ -41,7 +41,7 @@ ________
 PHP Features
 ____________
 
-* `promoted-properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-properties.ini.html>`_
+* `promoted-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html>`_
 
 * `spaceship <https://php-dictionary.readthedocs.io/en/latest/dictionary/spaceship.ini.html>`_
 

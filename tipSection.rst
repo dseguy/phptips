@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/not_set_but_exists.rst
    tips/sorting_enum.rst
    tips/hypot.rst
    tips/spaceship_always_false.rst

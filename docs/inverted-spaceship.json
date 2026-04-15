@@ -10,7 +10,7 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["promoted-properties", "spaceship", "declaration", "order-of-execution"],
+    "features": ["promoted-property", "spaceship", "declaration", "order-of-execution"],
     "3v4l": {
         "Order of properties matter":"https://3v4l.org/2nPL6#veol",
         "Order of promoted properties doesn't matter'":"https://3v4l.org/E6G8f#veol"
