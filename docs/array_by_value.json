@@ -1,0 +1,17 @@
+{
+    "image": "array_by_value.png",
+    "date": "2026-05-01",
+    "title": "Array Items By Value",
+    "content": "In this code, an array is built with objects. The array is passed by value to the function. The function updates both the array and one of the elements. When the function is finished, the array in the calling context is still the same, but the object #2 has changed.\nIn this case, PHP applies copy on write, or COW: the array is passed by value, and duplicated only when it is updated. But the copy applies to the objects, which are always passed by reference!\nHere, the elements in the array are references, and their update is applied to the original object, in the calling context.\nThis is a similar situation than with ``readonly`` properties, and ``array_fill()``: the reference to the object is unchanged, but the object itself may be updated.\nIn general, objects may be considered as global values.",
+    "seeAlso": {
+    },
+    "tags": [
+        "edge case",
+        "silent"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["reference", "copy-on-write", "readonly", "array_fill"],
+    "3v4l": {"Passing array of object by value":"https://3v4l.org/neuVu"},
+    "phpError": {}
+}

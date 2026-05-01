@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/array_by_value.rst
    tips/not_set_but_exists.rst
    tips/sorting_enum.rst
    tips/hypot.rst
