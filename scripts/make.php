@@ -140,6 +140,10 @@ foreach($files as $file) {
     	        buildlog("Empty title on 3v4l in $file");
             	++$errors;
     	    }
+    	    if (empty($url)) {
+    	        buildlog("Empty link on 3v4l in $file");
+            	++$errors;
+    	    }
     	}
     }
 
@@ -236,7 +240,7 @@ foreach($files as $file) {
 	}
 
 	if (ucwords(strtolower($tip->title)) != $tip->title &&
-		!preg_match('/(php:\/\/|CSV|DNF|expm1|log1p|defined|preg_split|isset|empty|echo|new|mixed|get_class|URL|GLOBALS|array|intval|private|NAN|parse_str|self|parent|static|namespace|list|http_build_query|compact|func_get_args|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents|glob|class_exists)/', $tip->title)) {
+		!preg_match('/(php:\/\/|CSV|DNF|expm1|htmlemtities|log1p|defined|preg_split|isset|empty|echo|new|mixed|get_class|URL|GLOBALS|array|intval|private|NAN|parse_str|self|parent|static|namespace|list|http_build_query|compact|func_get_args|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents|glob|class_exists)/', $tip->title)) {
 		buildlog("Warning : Not First Upper Cased in $file");;
 		++$errors;
 	}
@@ -524,6 +528,10 @@ $features = array_count_values($features);
 arsort($features);
 $featureMax = array_key_first($features);
 print "processed ".count($features)." features (".array_sum($features)." distinct, ".$featureMax." => ".$features[$featureMax].")\n";
+
+$confpy = file_get_contents('conf.py');
+$confpy = preg_replace("/release = '1.\d+'/", "release = '1.".count($files)."'", $confpy);
+file_put_contents('conf.py', $confpy);
 
 function check(stdClass $tip, string $file) : string {
 	if (!isset($tip->date)) {

@@ -15,7 +15,7 @@ This encyclopedia is for the advanced PHP users. Do not go there without a solid
 Contributions
 -------------
 
-Contributions are welcomed, by submitting PR to the `repository <https://github.com/exakat/php-tips.git>`_. 
+Contributions are welcomed, by submitting PR to the `repository <https://codeberg.org/exakat/PHP-tips>`_. 
 
 + code images are made with `carbon <https://carbon.now.sh/>`_. They shall be in the 'images' folder and be in png format. 
 + id is the name of the file, and by convention, the name of the image. 
