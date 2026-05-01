@@ -4,7 +4,7 @@ Author index
 * `Aken Roberts <https://bsky.app/profile/akenroberts.com>`_
     * :ref:`unicode-comments`
 * `Alexandre Daubois <https://x.com/alexdaubois>`_
-    * :ref:`hypothenus-in-action`
+    * :ref:`hypotenuse-in-action`
     * :ref:`expm1()-and-log1p()`
     * :ref:`display-a-tree-natively`
     * :ref:`php://memory-and-maxmemory`

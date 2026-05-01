@@ -21,11 +21,11 @@ When htmlemtities() Is Failing
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html","name":"When htmlemtities() Is Failing","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 14:42:44 +0000","dateModified":"Thu, 09 Apr 2026 14:42:44 +0000","description":"By default, htmlemtities() uses UTF-8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html","name":"When htmlemtities() Is Failing","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 17:56:15 +0000","dateModified":"Fri, 01 May 2026 17:56:15 +0000","description":"By default, htmlemtities() uses UTF-8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/htmlemtities_failing.png
 
-By default, htmlemtities() uses UTF-8. The third argument of that function is the actual encoding, so it is parametrable. When using a non-existing encoding, such as ``xxx``, PHP detects it, and default to UTF8 (here it works well).
+By default, htmlemtities() uses UTF-8. The third argument of that function is the actual encoding, so it is a parameter. When using a non-existing encoding, such as ``xxx``, PHP detects it, and default to UTF-8 (here it works well).
 
 On the other hand, when using a valid encoding, but that is not supported, PHP default to returning an empty string.
 

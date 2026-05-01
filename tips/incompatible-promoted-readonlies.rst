@@ -1,19 +1,19 @@
-.. _incompatible-promoted-readonlies:
+.. _incompatible-promoted-readonly:
 
-Incompatible Promoted Readonlies
---------------------------------
+Incompatible Promoted Readonly
+------------------------------
 
 .. meta::
 	:description:
-		Incompatible Promoted Readonlies: Promoted properties allows the creation of properties directly from the constructor signature.
+		Incompatible Promoted Readonly: Promoted properties allows the creation of properties directly from the constructor signature.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Incompatible Promoted Readonlies
-	:twitter:description: Incompatible Promoted Readonlies: Promoted properties allows the creation of properties directly from the constructor signature
+	:twitter:title: Incompatible Promoted Readonly
+	:twitter:description: Incompatible Promoted Readonly: Promoted properties allows the creation of properties directly from the constructor signature
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/incompatible-promoted-readonlies.png
 	:og:image: https://php-tips.readthedocs.io/en/latest/_images/incompatible-promoted-readonlies.png
-	:og:title: Incompatible Promoted Readonlies
+	:og:title: Incompatible Promoted Readonly
 	:og:type: article
 	:og:description: Promoted properties allows the creation of properties directly from the constructor signature
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/incompatible-promoted-readonlies.html
@@ -21,7 +21,7 @@ Incompatible Promoted Readonlies
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html","name":"Incompatible Promoted Readonlies","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:39 +0000","dateModified":"Thu, 02 Apr 2026 05:33:39 +0000","description":"Promoted properties allows the creation of properties directly from the constructor signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html","name":"Incompatible Promoted Readonly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 17:54:25 +0000","dateModified":"Fri, 01 May 2026 17:54:25 +0000","description":"Promoted properties allows the creation of properties directly from the constructor signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/incompatible-promoted-readonlies.png
 

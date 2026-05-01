@@ -77,7 +77,7 @@ Error Message index
 * Duplicate value in enum E for cases A and B
     * :ref:`enum-are-not-linted`
 * Incompatible readonly
-    * :ref:`incompatible-promoted-readonlies`
+    * :ref:`incompatible-promoted-readonly`
 * Increment on non-alphanumeric string is deprecated 
     * :ref:`not-all-incremented-strings-are-deprecated`
 * Invalid UTF-8 codepoint escape
