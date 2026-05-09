@@ -1,0 +1,16 @@
+{
+    "image": "local-variable-cost.png",
+    "date": "2026-05-09",
+    "title": "Local Variable Cost",
+    "content": "Local variables in PHP methods cost something. Not much, but a bit. And, more importantly, they cost memory even when not used.\nCheck this simplistic proof of concept: a recursive function, with one local variable. Not, let's run this script until it dies of memory exhaustion. For that to be a reasonable even, the ``memory_limit`` must be set as low as possible: 2.1Mb.\n0 local variable: 10918\n1 local variable: 8932\n2 local variables: 7559\n3 local variables: 6550\n4 local variables: 5777\n5 local variables: 5170\n6 local variables: 4678\n7 local variables: 4271\n21 local variables: 2651\nThese values do not change with PHP versions: middle versions from 8.0 to 8.6 were tested (and 8.5 did seg fault on OSX)\nAlso, the numbers of iteration do not change with the default value, except when using an object as initial value.\nThe number of iteration did not change when a variable was initialized several times: ``$a = 1; $a = 1; $a = 1`` counted as three distinct variable allocation, as if they were distinct.\nIn the end, it is a micro-optimisation, as it needs thousands of calls to eat up 2M of RAM. But it might be interesting to monitor the number of local variables in a methods, as the worst offenders use up to 350 of them... That must count.",
+    "seeAlso": {
+    },
+    "tags": [
+        "tip", "trick", "micro-optimisation"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["method", "micro-optimisation", "memory"],
+    "3v4l": {"local variable cost": "https://3v4l.org/bPXW4#v8.1.33"},
+    "phpError": {}
+}
