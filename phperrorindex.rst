@@ -127,6 +127,8 @@ Error Message index
     * :ref:`named-parameter-inheritance`
 * Unsupported operand types: int & string
     * :ref:`bitwise-operations-on-string`
+* Unsupported operand types: string + int
+    * :ref:`oversigned-integers`
 * Using "_" as a class name is deprecated since 8.4
     * :ref:`no-more-class-_`
 * Using $this when not in object context

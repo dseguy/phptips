@@ -1,0 +1,17 @@
+{
+    "image": "plusplus_riddle.png",
+    "date": "2026-05-16",
+    "title": "++ Riddle",
+    "content": "PHP has no operator ``++-++``. This has to be read with spaces, as ``++ - ++``: there is one post increment operator, a substraction then a pre-increment operator.\nIn this case, the first operator increment ``$a`` from 5 to 6, but returns the original 5. The next operator is the substraction, which works on the result of the pre-increment operator: this one turns the 6 to 7. The result is then -2.\nPHP cannot compile ``+++++``, as it confuses addition and increment operators. Adding spaces makes the code valid, and the same order of operation applies as above, leading to 12.\nThe original post dates from 2011, and was tested in different languages: the result may surprise you. At least, PHP has been consisten with this since then.",
+    "seeAlso": {
+        "(original) int a = 5; a = a++ + ++a; a = ?": "https://gynvael.coldwind.pl/?id=372"
+    },
+    "tags": [
+        "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["post-increment", "pre-increment", "addition"],
+    "3v4l": {"Lots of +":"https://3v4l.org/lrZe3#v8.5.3"},
+    "phpError": {}
+}

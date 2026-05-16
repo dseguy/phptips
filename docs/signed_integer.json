@@ -1,0 +1,16 @@
+{
+    "image": "signed_integer.png",
+    "date": "2026-05-13",
+    "title": "Oversigned Integers",
+    "content": "PHP has signed integers. They may be positive or negative, with ``+`` or ``-``.\nAt parsing time, integers and their sign are separate entities. This means that ``-`` and ``3`` are process in two steps, and PHP allows the chaining of the sign operators. This means that ``+`` and ``-`` may be added as much as we want, in front of integers, as long as they alternate.\nNote that is_numeric() is not fooled by the trick, and returns false on such strings, while the cast operator ``(int)`` turns the string into 0, as if there was an error.\nFinally, there is one integer which is equal to itself when positive or negative: zero.",
+    "seeAlso": {
+    },
+    "tags": [
+        "tips", "edge case", "surprise"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["integer", "sign", "cast"],
+    "3v4l": {"Over-signed integers":"https://3v4l.org/HU2ub#v8.5.3"},
+    "phpError": {"Unsupported operand types: string + int":"unsupported-operand-types:-%s-%s-%s"}
+}

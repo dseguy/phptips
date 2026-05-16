@@ -5,6 +5,8 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/plusplus_riddle.rst
+   tips/signed_integer.rst
    tips/local-variable-cost.rst
    tips/array_by_value.rst
    tips/not_set_but_exists.rst
