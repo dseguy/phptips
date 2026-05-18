@@ -1,0 +1,16 @@
+{
+    "image": "closure_on_constructor.png",
+    "date": "2026-05-18",
+    "title": "Closure On Constructor",
+    "content": "PHP 8.1 introduced first class callable, a syntax to build a closure by using the ellipris operator ``...`` as argument. This works on all sorts of calls, methods, closure, functions.\nThe only call where it doesn't work is the instantiation: PHP generates an error from that syntax.\nOn the other hand, it is possible to create a closure on the constructor method, like any other method. And there, it just calls again the constructor, on the object that was already created.",
+    "seeAlso": {
+    },
+    "tags": [
+        "edge case"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["constructor", "first-class-callable", "method"],
+    "3v4l": {"Calling the constructor":"https://3v4l.org/k57Tp#v8.5.3"},
+    "phpError": {}
+}

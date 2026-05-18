@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/closure_on_constructor.rst
    tips/plusplus_riddle.rst
    tips/signed_integer.rst
    tips/local-variable-cost.rst
