@@ -21,11 +21,11 @@ Closure On Constructor
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_on_constructor.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_on_constructor.html","name":"Closure On Constructor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 18 May 2026 10:00:35 +0000","dateModified":"Mon, 18 May 2026 10:00:35 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_on_constructor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_on_constructor.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_on_constructor.html","name":"Closure On Constructor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 May 2026 09:35:05 +0000","dateModified":"Tue, 26 May 2026 09:35:05 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_on_constructor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/closure_on_constructor.png
 
-PHP 8.1 introduced first class callable, a syntax to build a closure by using the ellipris operator ``...`` as argument. This works on all sorts of calls, methods, closure, functions.
+PHP 8.1 introduced first class callable, a syntax to build a closure by using the ellipis operator ``...`` as argument. This works on all sorts of calls, methods, closure, functions.
 
 The only call where it doesn't work is the instantiation: PHP generates an error from that syntax.
 
@@ -35,6 +35,13 @@ See Also
 ________
 
 * `Calling the constructor <https://3v4l.org/k57Tp#v8.5.3>`_ [Try me]
+
+
+PHP Error Messages
+__________________
+
+* `Cannot create Closure for new expression <https://php-errors.readthedocs.io/en/latest/messages/cannot-create-closure-for-new-expression.html>`_
+
 
 
 PHP Features

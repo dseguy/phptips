@@ -1,0 +1,18 @@
+{
+    "image": "recycle_generator.png",
+    "date": "2026-05-27",
+    "title": "Recycle Generator",
+    "content": "After creating a generator, it is possible to nest it and run the same geenrator twice. It is the role of the functioncall ``$g()``, which actually creates the data source for the loop. Hence, here, the generator is always fresh at the start of the nested loop.\nIt would be possible to create the datasource before the loop and nest it, though it breaks at the second loop.",
+    "seeAlso": {
+    },
+    "tags": [
+        "tips", "trick", "generator"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["generator", "nesting", "foreach"],
+    "3v4l": {"nesting generators":"https://3v4l.org/cF28h#v8.5.6",
+             "Not nesting generators":"https://3v4l.org/J6iLN#v8.5.6"
+    },
+    "phpError": {"Cannot rewind a generator that was already run":"cannot-rewind-a-generator-that-was-already-run"}
+}

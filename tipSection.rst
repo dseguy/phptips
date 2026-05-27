@@ -5,6 +5,10 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/recycle_generator.rst
+   tips/int_and_float.rst
+   tips/max_on_string.rst
+   tips/e_and_euler.rst
    tips/closure_on_constructor.rst
    tips/plusplus_riddle.rst
    tips/signed_integer.rst

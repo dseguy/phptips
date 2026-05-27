@@ -1,0 +1,18 @@
+{
+    "image": "e_and_euler.png",
+    "date": "2026-05-23",
+    "title": "e And Euler",
+    "content": "PHP has two distinct constants: ``M_E``, which stands for the mathematical ``e`` exponential constant, and with a value of ``2.718281828459``.\nAnd the lesser known ``M_EULER``, which stand for the Euler constant. It is used to estimate the number of tests runs to execute when randomly running one of the tests. It is the classic ``coupon collector`` problem: ``E(n) ≈ n * ln(n) + γ * n``.",
+    "seeAlso": {
+        "The emperor has three thousand beauties in his harem.": "https://www.zhihu.com/en/answer/162346894",
+        "Euler's constant":"https://en.wikipedia.org/wiki/Euler%27s_constant"
+    },
+    "tags": [
+        "tips", "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["math", "constant"],
+    "3v4l": {"M_E and M_EULER":"https://3v4l.org/covqi#veol"},
+    "phpError": {}
+}

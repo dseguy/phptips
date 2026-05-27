@@ -22,6 +22,8 @@ Error Message index
     * :ref:`typed-variables`
 * Cannot call constructor
     * :ref:`constructor-needed`
+* Cannot create Closure for new expression
+    * :ref:`closure-on-constructor`
 * Cannot declare self-referencing constant x::A
     * :ref:`no-self-referencing-constants`
 * Cannot decrement property %s::$%s of type int past its minimal value
@@ -36,6 +38,8 @@ Error Message index
     * :ref:`no-binding-but-with-original`
 * Cannot redefine class constant X::B 
     * :ref:`constant-redefinition`
+* Cannot rewind a generator that was already run
+    * :ref:`recycle-generator`
 * Cannot unpack array with string keys
     * :ref:`named-parameter-in-an-array`
 * Cannot use "parent" when no class scope is active

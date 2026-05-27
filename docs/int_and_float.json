@@ -1,0 +1,16 @@
+{
+    "image": "int_and_float.png",
+    "date": "2026-05-26",
+    "title": "Of Integers And Floats",
+    "content": "First thing to unpack in this post: PHP accepts any number of decimals when it is hardcoded in the source. It will stop at 14, which is the ``precision`` level in the php.ini file. The rest is ignored, so it may be as long as you want, it does not matter, except for the time to read the file.\nThen, such a number ends up being a decimal. It means that when multiplied by its inverse, it might end up as ``1``, but it is still a float, so thre is not way to compare it to the integer 1, nor to any other decimal 1, as there might be some tiny difference.\nFinally, the other of division is important: when the intermediate result is a decimal, the final result is also a decimal. But when PHP can keep the division within the integer values, like `` 3 / 3`` or ``6 / 3``, then the final result is also an integer.",
+    "seeAlso": {
+    },
+    "tags": [
+        "tips", "trick", "suprising"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["integer", "float", "division", "precision"],
+    "3v4l": {"Integers and Floats":"https://3v4l.org/2b5ZR#v8.5.6"},
+    "phpError": {}
+}
