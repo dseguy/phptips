@@ -21,7 +21,7 @@ Multiple Const Types
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/crazy_const_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/crazy_const_type.html","name":"Multiple Const Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"Class constants may be typed since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/crazy_const_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/crazy_const_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/crazy_const_type.html","name":"Multiple Const Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 16:31:02 +0000","dateModified":"Fri, 29 May 2026 16:31:02 +0000","description":"Class constants may be typed since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/crazy_const_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/crazy_const_type.png
 
@@ -29,7 +29,7 @@ Class constants may be typed since PHP 8.3. Union types are possible, and they a
 
 In the first case, two constants are declared with different types. PHP complains if any of the types does not apply to the values, so the union type is needed to ensure that both constant are well declared. Obviously, they should be declared on distinct ``const`` expressions.
 
-In the second case, the constant is defined with a condition. Now, ``rand()`` cannot be called in that part of the code, but using other constants, native such as ``PHP_OS``, ``__FILE__``, custom, global or ``define()``d may impact the expression, and lead to different results and types. This is a theoretical case, and it has never been seen in the wild.
+In the second case, the constant is defined with a condition. Now, ``rand()`` cannot be called in that part of the code, but using other constants, native such as ``PHP_OS``, ``__FILE__``, custom, global or ``define()`` -d may impact the expression, and lead to different results and types. This is a theoretical case, and it has never been seen in the wild.
 
 See Also
 ________
