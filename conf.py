@@ -70,7 +70,7 @@ html_title = '';
 html_theme_options = {
     'light_logo': 'logo.png',
     'dark_logo': 'logo.png',
-    'source_repository': 'https://github.com/dseguy/phptips/',
+    'source_repository': 'https://codeberg.org/exakat/PHP-tips/',
     'source_branch': 'main',
     'source_directory': '',
 }
