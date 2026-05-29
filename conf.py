@@ -68,12 +68,11 @@ html_extra_path = ["googlee919cb0917e4fefc.html",
 html_title = '';
 
 html_theme_options = {
-    'logo': 'logo.png',
-#    'analytics_id': 'G-29LCZ34CDW',
-    'github_button': True,
-    'github_repo':'phptips',
-    'github_user':'dseguy',
-    'description': 'An evolving PHP tips and tricks library, designed to amaze developers.',
+    'light_logo': 'logo.png',
+    'dark_logo': 'logo.png',
+    'source_repository': 'https://github.com/dseguy/phptips/',
+    'source_branch': 'main',
+    'source_directory': '',
 }
 
 html_js_files = [
