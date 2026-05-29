@@ -1,4 +1,4 @@
-.. _compact()-is-recursive:
+.. _compact-is-recursive:
 
 compact() Is Recursive
 ----------------------

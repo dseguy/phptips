@@ -1,4 +1,4 @@
-.. _method-or-property?:
+.. _method-or-property:
 
 Method Or Property?
 -------------------

@@ -1,4 +1,4 @@
-.. _array_column()-to-hash:
+.. _array_column-to-hash:
 
 array_column() To Hash
 ----------------------

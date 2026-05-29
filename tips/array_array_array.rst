@@ -1,4 +1,4 @@
-.. _array-array-=-array():
+.. _array-array--array:
 
 array array = array()
 ---------------------

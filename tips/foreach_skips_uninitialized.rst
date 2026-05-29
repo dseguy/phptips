@@ -1,4 +1,4 @@
-.. _foreach()-skips-uninitialized-properties:
+.. _foreach-skips-uninitialized-properties:
 
 Foreach() Skips Uninitialized Properties
 ----------------------------------------

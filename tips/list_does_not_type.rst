@@ -1,4 +1,4 @@
-.. _list()-does-not-type:
+.. _list-does-not-type:
 
 list() Does Not Type
 --------------------

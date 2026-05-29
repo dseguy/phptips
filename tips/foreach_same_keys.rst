@@ -1,4 +1,4 @@
-.. _foreach()-with-all-the-same-keys:
+.. _foreach-with-all-the-same-keys:
 
 foreach() With All The Same Keys
 --------------------------------

@@ -1,4 +1,4 @@
-.. _++-riddle:
+.. _-riddle:
 
 ++ Riddle
 ---------

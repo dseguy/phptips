@@ -1,4 +1,4 @@
-.. _is_a()-versus-instanceof:
+.. _is_a-versus-instanceof:
 
 is_a() Versus Instanceof
 ------------------------

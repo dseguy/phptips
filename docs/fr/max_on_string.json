@@ -1,0 +1,16 @@
+{
+    "image": "max_on_string.png",
+    "date": "2026-05-24",
+    "title": "max() Sur des Chaînes de Caractères",
+    "content": "Les fonctions min() et max() retournent la valeur minimale ou maximale des éléments d'un tableau. Cela fonctionne avec les entiers, mais aussi avec les chaînes de caractères.\nDans le cas des chaînes, la comparaison est effectuée avec l'opérateur spaceship, donc les lettres sont traitées par ordre alphabétique.\nLa comparaison est sensible à la casse : les lettres majuscules ont la priorité sur les lettres minuscules. C'est généralement le comportement attendu.\nEn dehors de la plage alphabétique, l'ordre des chaînes est basé sur le numéro ASCII des caractères : les chiffres ont un rang inférieur aux lettres et apparaissent donc toujours en premier. Et encore plus bas dans la table ASCII, des caractères comme ``%`` apparaîtront avant les autres. Cela signifie également qu'il est recommandé d'appliquer ``trim()`` aux chaînes pour éviter qu'une chaîne commençant par un espace soit considérée comme le minimum.\nCela implique aussi que les caractères multi-octets sont triés selon le code ASCII de leurs octets, et non comme un tout. Les langues comme le chinois ne trient généralement pas le texte de cette façon, aussi cette fonctionnalité ne sera probablement pas utilisée pour ces cas.",
+    "seeAlso": {
+    },
+    "tags": [
+        "tips", "trick", "silent"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["sort", "spaceship", "ascii", "multi-byte"],
+    "3v4l": {"min-max sur des chaînes":"https://3v4l.org/CkVhSL#v8.5.6"},
+    "phpError": {}
+}

@@ -1,4 +1,4 @@
-.. _by-reference,-error-or-notice?:
+.. _by-reference-error-or-notice:
 
 By Reference, Error Or Notice?
 ------------------------------

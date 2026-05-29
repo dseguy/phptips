@@ -1,4 +1,4 @@
-.. _intval()-and-its-arguments:
+.. _intval-and-its-arguments:
 
 intval() And Its Arguments
 --------------------------

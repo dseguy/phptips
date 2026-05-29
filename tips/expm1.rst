@@ -1,4 +1,4 @@
-.. _expm1()-and-log1p():
+.. _expm1-and-log1p:
 
 expm1() And log1p()
 -------------------

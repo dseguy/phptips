@@ -1,4 +1,4 @@
-.. _yield,-not-return:
+.. _yield-not-return:
 
 Yield, Not Return
 -----------------

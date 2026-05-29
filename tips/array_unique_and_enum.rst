@@ -1,4 +1,4 @@
-.. _array_unique()-and-enum:
+.. _array_unique-and-enum:
 
 array_unique() And Enum
 -----------------------

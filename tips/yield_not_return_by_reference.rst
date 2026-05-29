@@ -1,4 +1,4 @@
-.. _yield,-not-return-by-reference:
+.. _yield-not-return-by-reference:
 
 Yield, Not Return By Reference
 ------------------------------

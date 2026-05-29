@@ -1,4 +1,4 @@
-.. _::parent-operator:
+.. _parent-operator:
 
 ::parent Operator
 -----------------

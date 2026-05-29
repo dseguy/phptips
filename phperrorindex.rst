@@ -2,14 +2,14 @@ Error Message index
 -------------------
 
 * (expression)::class cannot be used in constant expressions
-    * :ref:`::parent-operator`
+    * :ref:`parent-operator`
 * A non-numeric value encountered
     * :ref:`cast-but-not-a-cast`
-    * :ref:`where-to-put-the-cast?`
+    * :ref:`where-to-put-the-cast`
 * A void function must not return a value (did you mean "return;" instead of "return null;"?)
     * :ref:`returning-void`
 * Argument #1 must not be empty
-    * :ref:`preg_split()-magic`
+    * :ref:`preg_split-magic`
 * Array callback has to contain indices 0 and 1
     * :ref:`array-callback-index`
 * Array callback must have exactly two elements
@@ -45,32 +45,32 @@ Error Message index
 * Cannot use "parent" when no class scope is active
     * :ref:`parent-in-function`
 * Cannot use 'namespace' as namespace name
-    * :ref:`namespace,-but-far-in-the-name`
+    * :ref:`namespace-but-far-in-the-name`
 * Cannot use [] for reading
-    * :ref:`array_append()-and-short-assignation`
+    * :ref:`array_append-and-short-assignation`
 * Cannot use int as value for class constant x::A of type string
     * :ref:`multiple-const-types`
 * Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
-    * :ref:`is-a-class-constant-set?`
-    * :ref:`cannot-use-isset-on-expression,-so-use-what?`
+    * :ref:`is-a-class-constant-set`
+    * :ref:`cannot-use-isset-on-expression-so-use-what`
 * Cannot use object of type stdClass as array
     * :ref:`coalesce-and-the-fatal-error`
-    * :ref:`isset()-and-the-fatal-error`
+    * :ref:`isset-and-the-fatal-error`
 * Cannot use positional argument after argument unpacking
     * :ref:`unpacking-a-single-element-array`
 * Cannot use the %s modifier on a %s
     * :ref:`no-final-parameter`
 * Class "%s" not found
-    * :ref:`unfinished-class-doesn't-compile`
+    * :ref:`unfinished-class-doesnt-compile`
 * Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods
     * :ref:`declared-before-or-after`
 * Constant expression contains invalid operations
-    * :ref:`(int)-and-(ant)`
+    * :ref:`int-and-ant`
     * :ref:`no-cast-in-constant-expressions`
 * Declaration of %s must be compatible with %s
     * :ref:`never-is-the-lowest-ranking-type`
 * Declaration of %s::%s() must be compatible with %s::%s
-    * :ref:`can't-be-compatible-with-less-arguments`
+    * :ref:`cant-be-compatible-with-less-arguments`
 * Declaration of b::__construct() must be compatible with a::__construct($a)
     * :ref:`abstract-or-not`
 * Declaration of x::foo() must be compatible with i::foo(): int
@@ -80,6 +80,8 @@ Error Message index
     * :ref:`argument-renaming`
 * Duplicate value in enum E for cases A and B
     * :ref:`enum-are-not-linted`
+* Implicit conversion from float 1.1 to int loses precision
+    * :ref:`silent-type-cast`
 * Incompatible readonly
     * :ref:`incompatible-promoted-readonly`
 * Increment on non-alphanumeric string is deprecated 
@@ -89,20 +91,26 @@ Error Message index
 * Multiple static modifiers are not allowed
     * :ref:`cannot-static-static-property`
 * Non-static method %s::%s() cannot be called statically
-    * :ref:`get-$this-in-a-static`
+    * :ref:`get-this-in-a-static`
+* Non-static method a::foo() cannot be called statically
+    * :ref:`internal-static-call`
 * Object casts are not supported in this context
     * :ref:`cast-in-const`
+* Object of class %s could not be converted to string
+    * :ref:`objects-as-keys-in-foreach`
 * Object of class E could not be converted to string
-    * :ref:`array_unique()-and-enum`
+    * :ref:`array_unique-and-enum`
     * :ref:`casting-an-enum-case`
 * Object of class stdClass could not be converted to string
     * :ref:`reusing-decimals-for-bananas`
 * Only basic entities substitution is supported for multi-byte encodings other than UTF-8; functionality is equivalent to htmlspecialchars
-    * :ref:`when-htmlemtities()-is-failing`
+    * :ref:`when-htmlemtities-is-failing`
 * Only variables should be passed by reference
     * :ref:`sorting-enum`
 * Recursion detected
-    * :ref:`compact()-is-recursive`
+    * :ref:`compact-is-recursive`
+* Return value must be of type int, float returned
+    * :ref:`silent-type-cast`
 * Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero
     * :ref:`return-int-not-bool`
 * Trying to access array offset on false
@@ -115,10 +123,12 @@ Error Message index
     * :ref:`mixed-is-not-no-type`
     * :ref:`initialize-readonly-on-child`
     * :ref:`unsetting-properties-surprises`
+* Typed property X::$x must not be accessed before initialization
+    * :ref:`isset-on-uninitialized-properties`
 * Typed property x::$y must not be accessed before initialization
-    * :ref:`who-modifies-this-property?`
+    * :ref:`who-modifies-this-property`
 * Undefined global variable %s
-    * :ref:`$globals-is-not-defined`
+    * :ref:`globals-is-not-defined`
 * Undefined property
     * :ref:`unsetting-properties-surprises`
 * Undefined variable
@@ -138,13 +148,13 @@ Error Message index
 * Using $this when not in object context
     * :ref:`static-arrow-function`
 * array_merge() does not accept unknown named parameters
-    * :ref:`no-unknown-for-array_merge()`
+    * :ref:`no-unknown-for-array_merge`
 * never-returning function must not implicitly return
     * :ref:`the-never-function-arrow`
 * syntax error, unexpected token "(int)"
     * :ref:`cast-is-so-strong`
 * syntax error, unexpected token ";"
-    * :ref:`where-is-the-semicolon?`
+    * :ref:`where-is-the-semicolon`
     * :ref:`no-semicolon-in-sight`
 * syntax error, unexpected token "exit", expecting identifier
     * :ref:`no-rewrite-for-exit`

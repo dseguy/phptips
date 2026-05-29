@@ -1,4 +1,4 @@
-.. _where-did-the-comma-go?:
+.. _where-did-the-comma-go:
 
 Where Did The Comma Go?
 -----------------------

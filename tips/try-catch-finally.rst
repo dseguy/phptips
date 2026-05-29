@@ -1,4 +1,4 @@
-.. _try,-catch,-finally-are-all-optional:
+.. _try-catch-finally-are-all-optional:
 
 try, catch, finally Are All Optional
 ------------------------------------

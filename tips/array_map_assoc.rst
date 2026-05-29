@@ -1,4 +1,4 @@
-.. _array_map_assoc()-with-keys:
+.. _array_map_assoc-with-keys:
 
 array_map_assoc() With Keys
 ---------------------------

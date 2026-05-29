@@ -5,12 +5,12 @@ Author index
     * :ref:`unicode-comments`
 * `Alexandre Daubois <https://x.com/alexdaubois>`_
     * :ref:`hypotenuse-in-action`
-    * :ref:`expm1()-and-log1p()`
+    * :ref:`expm1-and-log1p`
     * :ref:`display-a-tree-natively`
-    * :ref:`php://memory-and-maxmemory`
+    * :ref:`phpmemory-and-maxmemory`
     * :ref:`replacing-php-http-wrapper`
 * `Andrew Schmelyun <https://twitter.com/aschmelyun>`_
-    * :ref:`strange--->-operator`
+    * :ref:`strange----operator`
 * `Benoit Viguier <https://phpc.social/@b_viguier>`_
     * :ref:`easy-wither-call`
     * :ref:`quick-dto-or-vo-copy`
@@ -23,33 +23,33 @@ Author index
 * `Doeke Norg <https://twitter.com/doekenorg>`_
     * :ref:`quick-serialize`
 * `Fred Bouchery <https://bsky.app/profile/bouchery.fr>`_
-    * :ref:`no-returntype-but-still,-only-string`
+    * :ref:`no-returntype-but-still-only-string`
 * `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
     * :ref:`returning-void`
-    * :ref:`datetime-object,-and-years`
-    * :ref:`enumeration's-cases-comparisons`
+    * :ref:`datetime-object-and-years`
+    * :ref:`enumerations-cases-comparisons`
     * :ref:`stealth-generator`
 * `Gina Peter Banyard <https://github.com/Girgias>`_
-    * :ref:`file_put_contents()-with-array-argument`
+    * :ref:`file_put_contents-with-array-argument`
 * `Greg Korba <https://twitter.com/_Codito_>`_
     * :ref:`lots-of-silly-arguments`
 * `Jan Nedbal <https://janedbal.cz/>`_
     * :ref:`property-hooks-and-default-values`
     * :ref:`self-as-attribute`
-    * :ref:`unfinished-class-doesn't-compile`
+    * :ref:`unfinished-class-doesnt-compile`
 * `Jerome Tamarelle <https://bsky.app/profile/jerome.tamarelle.net>`_
     * :ref:`spaceship-always-false`
     * :ref:`yield-and-keys`
     * :ref:`keep-interface-new-argument-compatible`
 * `Ondrej Mirtes <https://twitter.com/OndrejMirtes>`_
-    * :ref:`no-change-to-$this`
+    * :ref:`no-change-to-this`
 * `Pascal Baljet <https://x.com/pascalbaljet>`_
-    * :ref:`match()-with-multiple-values`
+    * :ref:`match-with-multiple-values`
 * `Paul Shryock <https://phpc.social/@paulshryock>`_
     * :ref:`cast-private-to-array`
 * `Rahul Chavan <https://twitter.com/rcsofttech85>`_
     * :ref:`send-an-argument-to-generator`
-    * :ref:`array_reduce()-to-filter-and-alter`
+    * :ref:`array_reduce-to-filter-and-alter`
 * `Saif Eddin Gmati <https://github.com/azjezz>`_
     * :ref:`cast-a-closure-to-array`
 * `Sergii Shymko <https://twitter.com/SergiiShymko>`_

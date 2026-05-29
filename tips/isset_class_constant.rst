@@ -1,4 +1,4 @@
-.. _is-a-class-constant-set?:
+.. _is-a-class-constant-set:
 
 Is A Class Constant Set?
 ------------------------

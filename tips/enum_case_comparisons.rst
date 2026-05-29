@@ -1,4 +1,4 @@
-.. _enumeration's-cases-comparisons:
+.. _enumerations-cases-comparisons:
 
 Enumeration's Cases Comparisons
 -------------------------------

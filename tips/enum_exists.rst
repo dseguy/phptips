@@ -1,4 +1,4 @@
-.. _class_exists()-with-enums:
+.. _class_exists-with-enums:
 
 class_exists() With Enums
 -------------------------

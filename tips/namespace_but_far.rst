@@ -1,4 +1,4 @@
-.. _namespace,-but-far-in-the-name:
+.. _namespace-but-far-in-the-name:
 
 Namespace, But Far In The Name
 ------------------------------

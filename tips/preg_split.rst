@@ -1,4 +1,4 @@
-.. _preg_split()-magic:
+.. _preg_split-magic:
 
 preg_split() Magic
 ------------------

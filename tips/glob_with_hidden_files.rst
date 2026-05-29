@@ -1,4 +1,4 @@
-.. _glob()-with-hidden-files:
+.. _glob-with-hidden-files:
 
 glob() With Hidden Files
 ------------------------

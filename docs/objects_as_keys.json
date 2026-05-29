@@ -1,0 +1,18 @@
+{
+    "image": "objects_as_keys.png",
+    "date": "2026-05-29",
+    "title": "Objects As Keys In Foreach",
+    "content": "foreach() usually works on arrays, where the keys are either integer or strings. Not null, boolean anymore, but, more importantly, no array or objects. Yet, there are three solutions to make an object appear as the key, instead of the value (or also as the value).\nThe first option is to use a Weakmap object, which uses the array syntax, and accepts anything as keys.\nThen, you can use a generator, ``yield``ing any type on the ``=>`` operators, left and right. Note that it won't work with ``yield from`` which requires an array.\nFinally, you can use an interator, which has a dedicated method ``key``, with a return type of ``mixed``.\nWhile it is not common in PHP, there are other languages which accepts such structures, and may hand it to PHP for further processing.",
+    "seeAlso": {
+        "WeakMap (PHP manual)": "https:\/\/www.php.net\/manual\/en\/class.weakmap.php"
+    },
+    "tags": [
+        "trick",
+        "array"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["object", "yield", "weakmap", "array"],
+    "3v4l": {},
+    "phpError": {"Object of class %s could not be converted to string": "object-of-class-%s-could-not-be-converted-to-string"}
+}

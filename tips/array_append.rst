@@ -1,4 +1,4 @@
-.. _array_append()-and-short-assignation:
+.. _array_append-and-short-assignation:
 
 array_append() And Short Assignation
 ------------------------------------

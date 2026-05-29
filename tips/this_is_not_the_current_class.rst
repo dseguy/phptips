@@ -1,4 +1,4 @@
-.. _$this-is-not-of-the-current-class:
+.. _this-is-not-of-the-current-class:
 
 $this Is Not Of The Current Class
 ---------------------------------

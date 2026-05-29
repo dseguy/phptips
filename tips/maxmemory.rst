@@ -1,4 +1,4 @@
-.. _php://memory-and-maxmemory:
+.. _phpmemory-and-maxmemory:
 
 php://memory And Maxmemory
 --------------------------

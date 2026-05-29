@@ -1,4 +1,4 @@
-.. _infinite-foreach():
+.. _infinite-foreach:
 
 Infinite foreach()
 ------------------

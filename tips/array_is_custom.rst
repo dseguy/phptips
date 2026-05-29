@@ -1,4 +1,4 @@
-.. _\\array-was-customizable:
+.. _array-was-customizable:
 
 \\array Was Customizable
 ------------------------

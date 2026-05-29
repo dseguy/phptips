@@ -1,4 +1,4 @@
-.. _the-recursive-array_merge():
+.. _the-recursive-array_merge:
 
 The Recursive array_merge()
 ---------------------------

@@ -1,4 +1,4 @@
-.. _can't-be-compatible-with-less-arguments:
+.. _cant-be-compatible-with-less-arguments:
 
 Can't Be Compatible With Less Arguments
 ---------------------------------------

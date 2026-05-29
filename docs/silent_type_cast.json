@@ -1,0 +1,19 @@
+{
+    "image": "silent_type_cast.png",
+    "date": "2026-05-30",
+    "title": "Silent Type Cast",
+    "content": "An integer is a float, but the opposite is not always true. For PHP, pushing an integer in a function that types ``float`` its argument, makes that integer an float. The reverse conversion from float to integer is also possible, at return time. This happens when strict_types is not activated, and when the float has no decimal part, as is the case here.\nOtherwise, it is a Type error, or an warning about loss of precision.",
+    "seeAlso": {
+    },
+    "tags": [
+        "type", "silent"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["cast", "type-juggling", "implicit", "null", "integer", "silent"],
+    "3v4l": {"Integers to floats, and back":"https://3v4l.org/F6jts#v8.5.6"},
+    "phpError": {
+        "Return value must be of type int, float returned":"return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned",
+        "Implicit conversion from float 1.1 to int loses precision":"implicit-conversion-from-float-%.*h-to-int-loses-precision"
+    }
+}

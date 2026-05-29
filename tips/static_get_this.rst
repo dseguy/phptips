@@ -1,4 +1,4 @@
-.. _get-$this-in-a-static:
+.. _get-this-in-a-static:
 
 Get $this In A Static
 ---------------------

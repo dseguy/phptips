@@ -1,4 +1,4 @@
-.. _invoke()-on-new:
+.. _invoke-on-new:
 
 __invoke() On New
 -----------------

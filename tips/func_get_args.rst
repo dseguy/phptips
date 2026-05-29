@@ -1,4 +1,4 @@
-.. _func_get_args()-skips-variadic:
+.. _func_get_args-skips-variadic:
 
 func_get_args() Skips Variadic
 ------------------------------

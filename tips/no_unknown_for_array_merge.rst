@@ -1,4 +1,4 @@
-.. _no-unknown-for-array_merge():
+.. _no-unknown-for-array_merge:
 
 No Unknown For array_merge()
 ----------------------------

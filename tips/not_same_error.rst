@@ -1,4 +1,4 @@
-.. _array-and-object-syntax,-not-the-same-error:
+.. _array-and-object-syntax-not-the-same-error:
 
 Array And Object Syntax, Not The Same Error
 -------------------------------------------

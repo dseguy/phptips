@@ -1,4 +1,4 @@
-.. _where-to-put-the-cast?:
+.. _where-to-put-the-cast:
 
 Where To Put The Cast?
 ----------------------

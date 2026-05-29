@@ -1,4 +1,4 @@
-.. _how-to-array_intersect_uassoc_insensitive():
+.. _how-to-array_intersect_uassoc_insensitive:
 
 How To array_intersect_uassoc_insensitive()
 -------------------------------------------

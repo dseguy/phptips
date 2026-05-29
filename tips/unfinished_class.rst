@@ -1,4 +1,4 @@
-.. _unfinished-class-doesn't-compile:
+.. _unfinished-class-doesnt-compile:
 
 Unfinished Class Doesn't Compile
 --------------------------------

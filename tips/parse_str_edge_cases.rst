@@ -1,4 +1,4 @@
-.. _parse_str()-edge-cases:
+.. _parse_str-edge-cases:
 
 parse_str() Edge Cases
 ----------------------

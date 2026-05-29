@@ -1,4 +1,4 @@
-.. _void-parameter-in-array_keys():
+.. _void-parameter-in-array_keys:
 
 Void Parameter In array_keys()
 ------------------------------

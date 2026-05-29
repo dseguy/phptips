@@ -1,4 +1,4 @@
-.. _http_build_query()-and-enumerations:
+.. _http_build_query-and-enumerations:
 
 http_build_query() And Enumerations
 -----------------------------------

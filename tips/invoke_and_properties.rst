@@ -1,4 +1,4 @@
-.. _invoke()-method-and-properties:
+.. _invoke-method-and-properties:
 
 __invoke() Method And Properties
 --------------------------------

@@ -1,4 +1,4 @@
-.. _array_map()-goes-full-throttle:
+.. _array_map-goes-full-throttle:
 
 array_map() Goes Full Throttle
 ------------------------------

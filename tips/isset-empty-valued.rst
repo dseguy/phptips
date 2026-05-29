@@ -1,4 +1,4 @@
-.. _isset(),-empty()-and-the-magic-methods:
+.. _isset-empty-and-the-magic-methods:
 
 isset(), empty() And the Magic Methods
 --------------------------------------

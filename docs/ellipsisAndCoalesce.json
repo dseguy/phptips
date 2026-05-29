@@ -7,7 +7,7 @@
         "Array unpacking (PHP manual)": "https://www.php.net/manual/en/language.types.array.php#language.types.array.unpackingp"
     },
     "tags": [
-        "operator priority"
+        "precedence"
     ],
     "author": "",
     "contact": "",

@@ -1,4 +1,4 @@
-.. _a-function-called-file_append_contents():
+.. _a-function-called-file_append_contents:
 
 A Function Called file_append_contents()
 ----------------------------------------

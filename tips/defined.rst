@@ -1,4 +1,4 @@
-.. _defined()-in-action:
+.. _defined-in-action:
 
 defined() In Action
 -------------------

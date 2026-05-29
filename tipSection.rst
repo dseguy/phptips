@@ -5,6 +5,9 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/silent_type_cast.rst
+   tips/objects_as_keys.rst
+   tips/isset_usage.rst
    tips/recycle_generator.rst
    tips/int_and_float.rst
    tips/max_on_string.rst

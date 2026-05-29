@@ -1,4 +1,4 @@
-.. _cannot-use-isset-on-expression,-so-use-what?:
+.. _cannot-use-isset-on-expression-so-use-what:
 
 Cannot Use Isset On Expression, So Use What?
 --------------------------------------------

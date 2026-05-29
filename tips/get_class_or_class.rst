@@ -1,4 +1,4 @@
-.. _get_class()-or-::class?:
+.. _get_class-or-class:
 
 get_class() Or ::class?
 -----------------------

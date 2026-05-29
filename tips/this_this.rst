@@ -1,4 +1,4 @@
-.. _$this-$this:
+.. _this-this:
 
 $this $this
 -----------

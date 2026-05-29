@@ -15,7 +15,7 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["constant", "$this", "comparison", "sign", "__toString"],
+    "features": ["constant", "$this", "comparison", "sign", "__tostring"],
     "3v4l": {"Original Riddle":"https://3v4l.org/W4NL5",
              "Solution":"https://3v4l.org/cogKD"},
     "phpError": {}

@@ -1,4 +1,4 @@
-.. _match()-with-multiple-values:
+.. _match-with-multiple-values:
 
 Match() With Multiple Values
 ----------------------------

@@ -1,4 +1,4 @@
-.. _max()-on-strings:
+.. _max-on-strings:
 
 max() On Strings
 ----------------
@@ -21,11 +21,11 @@ max() On Strings
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/max_on_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/max_on_string.html","name":"max() On Strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 May 2026 21:21:48 +0000","dateModified":"Tue, 26 May 2026 21:21:48 +0000","description":"The min() and max() functions return the minimum or the maximum value of items in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/max_on_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/max_on_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/max_on_string.html","name":"max() On Strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 07:43:42 +0000","dateModified":"Fri, 29 May 2026 07:43:42 +0000","description":"The min() and max() functions return the minimum or the maximum value of items in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/max_on_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/max_on_string.png
 
-The min() and max() functions return the minimum or the maximum value of items in an array. This works on intgers, but it also works on strings.
+The min() and max() functions return the minimum or the maximum value of items in an array. This works on integers, but it also works on strings.
 
 In the case of string, the comparison is made with the spaceship operator, so the letters are processed in alphabetical order.
 

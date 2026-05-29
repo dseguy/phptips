@@ -1,4 +1,4 @@
-.. _array_reduce()-to-filter-and-alter:
+.. _array_reduce-to-filter-and-alter:
 
 array_reduce() To Filter And Alter
 ----------------------------------

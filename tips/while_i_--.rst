@@ -1,4 +1,4 @@
-.. _strange--->-operator:
+.. _strange----operator:
 
 Strange --> Operator
 --------------------

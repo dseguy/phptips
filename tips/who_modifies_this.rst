@@ -1,4 +1,4 @@
-.. _who-modifies-this-property?:
+.. _who-modifies-this-property:
 
 Who Modifies This Property?
 ---------------------------

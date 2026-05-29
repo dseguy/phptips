@@ -1,4 +1,4 @@
-.. _no-change-to-$this:
+.. _no-change-to-this:
 
 No Change To $this
 ------------------

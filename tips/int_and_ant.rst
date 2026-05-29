@@ -1,4 +1,4 @@
-.. _(int)-and-(ant):
+.. _int-and-ant:
 
 (int) And (ant)
 ---------------

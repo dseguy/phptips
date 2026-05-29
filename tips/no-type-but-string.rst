@@ -1,4 +1,4 @@
-.. _no-returntype-but-still,-only-string:
+.. _no-returntype-but-still-only-string:
 
 No Returntype But Still, Only String
 ------------------------------------

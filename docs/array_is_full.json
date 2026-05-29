@@ -16,5 +16,5 @@
     "contact": "",
     "phpError":{},
     "3v4l":{"array is full":"https://3v4l.org/aN7pP"},
-    "features":["array", "index-array", "PHP_INT_MAX"]
+    "features":["array", "index-array", "php_int_max"]
 }

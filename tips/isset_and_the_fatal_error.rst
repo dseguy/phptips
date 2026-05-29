@@ -1,4 +1,4 @@
-.. _isset()-and-the-fatal-error:
+.. _isset-and-the-fatal-error:
 
 isset() And The Fatal Error
 ---------------------------

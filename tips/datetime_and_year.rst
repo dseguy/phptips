@@ -1,4 +1,4 @@
-.. _datetime-object,-and-years:
+.. _datetime-object-and-years:
 
 Datetime Object, And Years
 --------------------------

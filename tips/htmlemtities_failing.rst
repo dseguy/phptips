@@ -1,4 +1,4 @@
-.. _when-htmlemtities()-is-failing:
+.. _when-htmlemtities-is-failing:
 
 When htmlemtities() Is Failing
 ------------------------------

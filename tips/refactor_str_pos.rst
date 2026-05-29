@@ -1,4 +1,4 @@
-.. _refactoring-strpos():
+.. _refactoring-strpos:
 
 Refactoring strpos()
 --------------------

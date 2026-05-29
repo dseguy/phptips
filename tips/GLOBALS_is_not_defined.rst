@@ -1,4 +1,4 @@
-.. _$globals-is-not-defined:
+.. _globals-is-not-defined:
 
 $GLOBALS Is Not Defined
 -----------------------
@@ -21,7 +21,7 @@ $GLOBALS Is Not Defined
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/GLOBALS_is_not_defined.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/GLOBALS_is_not_defined.html","name":"$GLOBALS Is Not Defined","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:41 +0000","dateModified":"Thu, 02 Apr 2026 05:33:41 +0000","description":"$GLOBALS is a PHP superglobal, which is always available, no matter the context","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/GLOBALS_is_not_defined.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/GLOBALS_is_not_defined.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/GLOBALS_is_not_defined.html","name":"$GLOBALS Is Not Defined","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 07:43:26 +0000","dateModified":"Fri, 29 May 2026 07:43:26 +0000","description":"$GLOBALS is a PHP superglobal, which is always available, no matter the context","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/GLOBALS_is_not_defined.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/GLOBALS_is_not_defined.png
 

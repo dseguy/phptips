@@ -1,4 +1,4 @@
-.. _don't-forget-to-yield:
+.. _dont-forget-to-yield:
 
 Don't Forget To Yield
 ---------------------

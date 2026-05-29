@@ -1,4 +1,4 @@
-.. _numeric-separators-inside-a-string?:
+.. _numeric-separators-inside-a-string:
 
 Numeric Separators Inside A String?
 -----------------------------------

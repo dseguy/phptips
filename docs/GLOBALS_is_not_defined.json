@@ -11,7 +11,7 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["superglobal", "global", "$GLOBALS"],
+    "features": ["superglobal", "global", "$globals"],
     "3v4l": {"No $GLOBALS here":"https://3v4l.org/dLrij"},
     "phpError": {"Undefined global variable %s":"undefined-global-variable-%s"}
 }

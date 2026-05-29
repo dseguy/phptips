@@ -1,4 +1,4 @@
-.. _where-is-the-semicolon?:
+.. _where-is-the-semicolon:
 
 Where Is The Semicolon?
 -----------------------
