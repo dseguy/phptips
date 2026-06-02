@@ -1,0 +1,17 @@
+{
+    "image": "beyond_datetime.png",
+    "date": "2026-05-31",
+    "title": "Datetime And Leap Second",
+    "content": "The last leap second was added on 2016, Dec 31rst. On that day, 23:59:60 existed, and was followed by 00:00:00 on the first of January. The date time do not handle this, rand rather convert the ``60`` seconds into the next day, silently.\nIn fact, hours, minuts, seconds and day of the month, all support 2 digits, and accept values up to 99: they are all converted silently to their equivalent date, as if time of that duration passed.\nLeap years, on the other hand, are all well supported.",
+    "seeAlso": {
+        "Leap Second": "https://en.wikipedia.org/wiki/Leap_second"
+    },
+    "tags": [
+        "silent", "surprise"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["silent", "datetime", "edge-case"],
+    "3v4l": {"99s after midnight":"https://3v4l.org/pXq0Q#veol"},
+    "phpError": {}
+}

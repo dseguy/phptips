@@ -1,0 +1,18 @@
+{
+    "image": "array_unique_is_slow.png",
+    "date": "2026-06-02",
+    "title": "array_unique() Is Slow",
+    "content": "Why is array_unique() still slower than using a combinaison of array_count_values() and array_keys? And by an order of magnitude.\nLimitations includes that the array can only use integers and strings, so no objects or other arrays (no one should anyway), or floats, boolean and nulls (harder to weed out).\nAnd, of course, the alternative is not actually readable.",
+    "seeAlso": {
+        "array_unique()": "https://www.php.net/manual/en/function.array-unique.php",
+        "array_count_values()": "https://www.php.net/manual/en/function.array-count-values.php"
+    },
+    "tags": [
+        "performance", "trick", "readable"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["array_unique", "integer", "string"],
+    "3v4l": {"array_unique(), but faster":"https://3v4l.org/mCTDV#v"},
+    "phpError": {}
+}
