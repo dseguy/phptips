@@ -1,0 +1,19 @@
+{
+    "image": "operator_overloading.png",
+    "date": "2026-06-04",
+    "title": "Operator Overloading",
+    "content": "PHP has no operator overloading in the userland, but it may be achieved by using an extension.\nBcmath has taken advantage of it since PHP 8.3, where it introduced the ``Number`` class.\nWith feature, it is possible to go beyond the 14 decimal digits of standard PHP configuration.\nOn the other hand, the underlying library's limitation are also applied, so using the ``**`` operator on decimal ``Number`` yield a ``exponent cannot have a fractional part``, which does not appear in the standard PHP operation.",
+    "seeAlso": {
+    },
+    "tags": [
+        "tip"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["bcmath", "operator-overloading", "multiplication", "exponent"],
+    "3v4l": {
+    "Overloading Multiplication":"https://3v4l.org/jCCU2#v",
+    "Overloading Exponent":"https://3v4l.org/9i85S#v"
+    },
+    "phpError": {"exponent cannot have a fractional part":"exponent-cannot-have-a-fractional-part"}
+}

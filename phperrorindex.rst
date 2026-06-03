@@ -153,6 +153,8 @@ Error Message index
     * :ref:`static-arrow-function`
 * array_merge() does not accept unknown named parameters
     * :ref:`no-unknown-for-array_merge`
+* exponent cannot have a fractional part
+    * :ref:`operator-overloading`
 * never-returning function must not implicitly return
     * :ref:`the-never-function-arrow`
 * syntax error, unexpected token "(int)"

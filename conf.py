@@ -23,7 +23,7 @@ author = 'Damien Seguy'
 html_favicon = '_static/logo.png'
 
 # The full version, including alpha/beta/rc tags
-release = '1.306'
+release = '1.307'
 
 
 # -- General configuration ---------------------------------------------------
@@ -79,3 +79,5 @@ html_js_files = [
     'js/custom.js',
     'https://www.googletagmanager.com/gtag/js?id=G-29LCZ34CDW'
 ]
+
+source_view_link = 'https://codeberg.org/exakat/PHP-tips';
