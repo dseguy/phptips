@@ -3,6 +3,10 @@ Error Message index
 
 * (expression)::class cannot be used in constant expressions
     * :ref:`parent-operator`
+* A function with return type must return a value
+    * :ref:`three-return-errors`
+* A never-returning method must not return
+    * :ref:`three-return-errors`
 * A non-numeric value encountered
     * :ref:`cast-but-not-a-cast`
     * :ref:`where-to-put-the-cast`

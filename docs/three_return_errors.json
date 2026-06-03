@@ -1,0 +1,18 @@
+{
+    "image": "three_return_errors.png",
+    "date": "2026-06-03",
+    "title": "Three Return Errors",
+    "content": "There are three errors in this code.\nThe first is the first return: PHP linter complains that ``A function with return type must return a value``. That is true, but with the initial ``throw``, the returns won't be ever reached. And removing empty returns is sufficient to appease the linter.\nIndeed, the second return pass linting phase, and it is bound to fail at execution time. It is obvious that returning ``1`` instead of ``A`` will fail, but the code could have been returning a variable, whose type could not have been checked. So, PHP left all the checks aside.\nFinally, the last wrong part of this code is the return type: the exception makes it irrelevant, and, even in the case of a method, it could have been replaced by the ``never`` type, which is covariant with every other type. At that point, PHP complains that the method cannot return.\nDefinitely, this code doesn't want to work.",
+    "seeAlso": {
+    },
+    "tags": [
+        "trick", "tips"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["throw", "return", "never"],
+    "3v4l": {"Three Errors in One Method":"https://3v4l.org/Ic9jV#v8.5.6"},
+    "phpError": {
+        "A function with return type must return a value":"a-function-with-return-type-must-return-a-value",
+        "A never-returning method must not return":"a-never-returning-method-must-not-return"}
+}

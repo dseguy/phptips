@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/three_return_errors.rst
    tips/array_unique_is_slow.rst
    tips/beyond_datetime.rst
    tips/silent_type_cast.rst

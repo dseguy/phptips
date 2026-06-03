@@ -1,0 +1,62 @@
+.. _three-return-errors:
+
+Three Return Errors
+-------------------
+
+.. meta::
+	:description:
+		Three Return Errors: There are three errors in this code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Three Return Errors
+	:twitter:description: Three Return Errors: There are three errors in this code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-tips.readthedocs.io/en/latest/_images/three_return_errors.png
+	:og:image: https://php-tips.readthedocs.io/en/latest/_images/three_return_errors.png
+	:og:title: Three Return Errors
+	:og:type: article
+	:og:description: There are three errors in this code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/three_return_errors.html
+	:og:locale: en
+
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/three_return_errors.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/three_return_errors.html","name":"Three Return Errors","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 03 Jun 2026 15:06:24 +0000","dateModified":"Wed, 03 Jun 2026 15:06:24 +0000","description":"There are three errors in this code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/three_return_errors.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+.. image:: ../images/three_return_errors.png
+
+There are three errors in this code.
+
+The first is the first return: PHP linter complains that ``A function with return type must return a value``. That is true, but with the initial ``throw``, the returns won't be ever reached. And removing empty returns is sufficient to appease the linter.
+
+Indeed, the second return pass linting phase, and it is bound to fail at execution time. It is obvious that returning ``1`` instead of ``A`` will fail, but the code could have been returning a variable, whose type could not have been checked. So, PHP left all the checks aside.
+
+Finally, the last wrong part of this code is the return type: the exception makes it irrelevant, and, even in the case of a method, it could have been replaced by the ``never`` type, which is covariant with every other type. At that point, PHP complains that the method cannot return.
+
+Definitely, this code doesn't want to work.
+
+See Also
+________
+
+* `Three Errors in One Method <https://3v4l.org/Ic9jV#v8.5.6>`_ [Try me]
+
+
+PHP Error Messages
+__________________
+
+* `A function with return type must return a value <https://php-errors.readthedocs.io/en/latest/messages/a-function-with-return-type-must-return-a-value.html>`_
+
+* `A never-returning method must not return <https://php-errors.readthedocs.io/en/latest/messages/a-never-returning-method-must-not-return.html>`_
+
+
+
+PHP Features
+____________
+
+* `throw <https://php-dictionary.readthedocs.io/en/latest/dictionary/throw.ini.html>`_
+
+* `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+
+* `never <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
+
+
