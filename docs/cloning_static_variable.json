@@ -1,0 +1,16 @@
+{
+    "image": "cloning_static_variable.png",
+    "date": "2026-06-01",
+    "title": "Cloning Static Variable",
+    "content": "It is not possible to clone a static variable, but it is well possible to duplicate a closure which contains a static variable. Then, the variable is duplicated with its content at the time of cloning. So, it might be the default value, or it might be an subsequent value if the closure has already been used.\nWhen the original closure is a first class callable, the moment of cloning does not matter.",
+    "seeAlso": {
+    },
+    "tags": [
+        "edge case", "tip"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["first-class-callable", "closure", "clone", "static-variable", "order-of-execution"],
+    "3v4l": {"Cloning Static variable":"https://3v4l.org/UmHpO#v8.5.7"},
+    "phpError": {}
+}

@@ -1,0 +1,16 @@
+{
+    "image": "duplicate_type.png",
+    "date": "2026-06-07",
+    "title": "Duplicate Type",
+    "content": "Union types check for duplicate types, so ``array|array`` is not possible, nor if a class is aliased with a use expression: on the other hand, it is valid with a class alias, created with ``class_alias()``.\nThe last case is the union type that actually hides the type: here, iterable includes array, so PHP complains about a duplicate, which is not visible at first sight.\nNote that intersectional types also check for duplicate types.",
+    "seeAlso": {
+    },
+    "tags": [
+        "type", "edge case"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["type", "iterable", "array", "class_alias", "use-alias"],
+    "3v4l": {"Duplicate types":"https://3v4l.org/SvDIP#v8.5.7"},
+    "phpError": {"Duplicate type array is redundant":"duplicate-type-%s-is-redundant"}
+}

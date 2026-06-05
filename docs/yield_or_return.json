@@ -1,0 +1,16 @@
+{
+    "image": "yield_or_return.png",
+    "date": "2026-06-06",
+    "title": "Yield Or Return",
+    "content": "It is possible to spread an array as dynamic arguments: this applies to returned arrays, after a function call.\nThe function call may be actually of two types: function or a generator.\nThe first type is a generator: then, the yielded values are used as argument and the returned array is ignored.\nIn the second case, the array is returned and used.",
+    "seeAlso": {
+    },
+    "tags": [
+        "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["generator", "array-spread", "array", "argument"],
+    "3v4l": {"Array or yield?":"https://3v4l.org/lS3WS#v"},
+    "phpError": {}
+}

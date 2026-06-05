@@ -1,0 +1,18 @@
+{
+    "image": "multiple_method_in_interface.png",
+    "date": "2026-06-05",
+    "title": "Multiple Method In Interface",
+    "content": "It is possible for a class to implements two interfaces that are defining the same method. The main condition is to have the same signature for these methods.\nWhen the methods have different signature, with different argument counts, types or return types..., there is no conflict resolution: PHP checks the class's method signature with the interfaces in order of definition, and it will stop at the first one that fails. This means that fixing the signature for the first interface leads to an error in the second one, but fixing the signature for the second interface leads to an errors for the first one. You'll have to figure the cycle yourself to solve this.",
+    "seeAlso": {
+    },
+    "tags": [
+        "surprise"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["interface", "method", "signature", "compatibility"],
+    "3v4l": {"Implementing twice the same method":"https://3v4l.org/rKRb4#veol"},
+    "phpError": {
+        "Declaration of x::foo() must be compatible with i::foo($k, $j, $l)":"declaration-of-%s-must-be-compatible-with-%s"
+    }
+}

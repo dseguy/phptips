@@ -21,7 +21,7 @@ Variadic All The Yields
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html","name":"Variadic All The Yields","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:32 +0000","dateModified":"Thu, 02 Apr 2026 05:33:32 +0000","description":"The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html","name":"Variadic All The Yields","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 11:27:07 +0000","dateModified":"Fri, 05 Jun 2026 11:27:07 +0000","description":"The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/variadic_all_yield.png
 
@@ -33,7 +33,6 @@ See Also
 ________
 
 * `Variable-length argument lists (PHP manual) <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_
-* `Generator (PHP manual) <https://www.php.net/manual/en/language.generators.overview.php>`_
 * `Generator In Function Call <https://3v4l.org/WdGDd>`_ [Try me]
 
 

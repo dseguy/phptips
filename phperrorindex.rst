@@ -77,11 +77,15 @@ Error Message index
     * :ref:`cant-be-compatible-with-less-arguments`
 * Declaration of b::__construct() must be compatible with a::__construct($a)
     * :ref:`abstract-or-not`
+* Declaration of x::foo() must be compatible with i::foo($k, $j, $l)
+    * :ref:`multiple-method-in-interface`
 * Declaration of x::foo() must be compatible with i::foo(): int
     * :ref:`returntypewillchange-is-for-all`
 * Declaration of y4::foo($b, $c, $d) must be compatible with x4::foo($a, $b)
     * :ref:`mixed-compatibility`
     * :ref:`argument-renaming`
+* Duplicate type array is redundant
+    * :ref:`duplicate-type`
 * Duplicate value in enum E for cases A and B
     * :ref:`enum-are-not-linted`
 * Implicit conversion from float 1.1 to int loses precision
