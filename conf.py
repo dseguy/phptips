@@ -78,7 +78,7 @@ html_theme_options = {
 html_js_files = [
     'js/custom.js',
     'https://www.googletagmanager.com/gtag/js?id=G-29LCZ34CDW',
-    '<!-- 100% privacy-first analytics --><script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>'
+    'https://scripts.simpleanalyticscdn.com/latest.js'
 ]
 
 source_view_link = 'https://codeberg.org/exakat/PHP-tips';
