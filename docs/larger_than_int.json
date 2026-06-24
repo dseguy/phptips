@@ -1,0 +1,17 @@
+{
+    "image": "larger_than_int.png",
+    "date": "2026-06-23",
+    "title": "Larger Than Int",
+    "content": "printf() displays an integer as a string. The %u format treats the integer as an unsigned integer, while PHP only process signed integer. Here, -1 is actually 0xffffffffffffff, and the resulting string is actually twice as large as the largest PHP integer PHP_INT_MAX.\nSince it is returned as a string, it looks like it is larger, but PHP converts its to float as soon as it needs to process it.",
+    "seeAlso": {
+        "Original Toot":"https://phpc.social/@ramsey/116789708212135539"
+    },
+    "tags": [
+        "tip", "trick", "surprise"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["php_int_max", "printf", "signed-integer"],
+    "3v4l": {"Larger then PHP_INT_MAX":"https://3v4l.org/GZtNq#v8.5.7"},
+    "phpError": {}
+}

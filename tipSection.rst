@@ -6,6 +6,7 @@ PHP tips and tricks
    :caption: Contents:
 
    tips/other_type_for_property.rst
+   tips/larger_than_int.rst
    tips/duplicate_type.rst
    tips/yield_or_return.rst
    tips/multiple_method_in_interface.rst
