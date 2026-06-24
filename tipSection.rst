@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/other_type_for_property.rst
    tips/duplicate_type.rst
    tips/yield_or_return.rst
    tips/multiple_method_in_interface.rst

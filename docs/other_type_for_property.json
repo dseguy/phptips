@@ -1,0 +1,17 @@
+{
+    "image": "other_type_for_property.png",
+    "date": "2026-06-24",
+    "title": "Other Types For A Property",
+    "content": "It is possible to make a typed property accept more than its definition type.\nThanks to hooked property, the type of the incoming value may be different from the final type: indeed, the property hook has to convert that value to the actual type.\nOne constraint is that the supported type must be wider than the underlying property type. It is easily achieved by using a union type of the property type and all other needed types.\nOn the other hand, the ``get`` hook can only return its exact type: no covariance, no contravariance.",
+    "seeAlso": {
+        "A property's writable type can now differ from its readable type": "https://x.com/alexdaubois/status/2069322570831163788"
+    },
+    "tags": [
+        "tip", "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["property-hook", "type", "type-contravariance", "union-type"],
+    "3v4l": {"Setting a value to a property":"https://3v4l.org/vuKfQ#v8.5.7"},
+    "phpError": {}
+}
