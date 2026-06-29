@@ -1,0 +1,19 @@
+{
+    "image": "min-max.png",
+    "date": "2026-06-29",
+    "title": "min() And max() For Interval",
+    "content": "PHP trick: min-max a number in one line.\nNeed a value inside a range between 0 and 1?\nJust nest ``min()`` and ``max()``: ``max(0, min($value, 1))``.\nIt pins all below 0 up to 0 and all above 1 down to 1.\nOf course, if-else statement may look more readable, if you prefer :)\nAddendum: future PHP 8.6 will have clamp() function for that purpose.\nAddendum 2: min and max may be swapped, along with their literal, with the same effect.\nAddendum 3: it also works on strings.",
+    "seeAlso": {
+    },
+    "tags": [
+        "tip", "trick"
+    ],
+    "author": "Povilas Korop",
+    "contact": "https://www.youtube.com/c/LaravelDaily",
+    "features": ["if-then", "integer"],
+    "3v4l": {"min-max swapped": "https://3v4l.org/FM5ZC#v8.5.7",
+        "min-max":"https://3v4l.org/shWEL#v8.5.7",
+        "min-max with strings":"https://3v4l.org/HHLkD#v8.5.7"
+    },
+    "phpError": {}
+}

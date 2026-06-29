@@ -19,6 +19,9 @@
     "phpError": {},
     "features": [
             "abstract",
-        "class-constant"
+        "class-constant",
+        "self",
+        "inheritance",
+        "lazy-loading"
 ]
 }

@@ -5,6 +5,8 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/min-max.rst
+   tips/extra_class.rst
    tips/other_type_for_property.rst
    tips/larger_than_int.rst
    tips/duplicate_type.rst

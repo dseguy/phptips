@@ -11,7 +11,7 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["array", "array-callable"],
+    "features": ["array", "array-callable", "callable", "index-array", "method"],
     "3v4l": {"Which array is callable? ":"https://3v4l.org/49TcN"},
     "phpError": {"Array callback has to contain indices 0 and 1":"array-callback-has-to-contain-indices-0-and-1",
                  "Array callback must have exactly two elements":"array-callback-must-have-exactly-two-elements"}

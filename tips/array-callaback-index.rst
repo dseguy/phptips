@@ -21,7 +21,7 @@ Array Callback Index
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html","name":"Array Callback Index","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:31 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html","name":"Array Callback Index","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:22:39 +0000","dateModified":"Mon, 29 Jun 2026 09:22:39 +0000","description":"An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/array-callaback-index.png
 
@@ -51,5 +51,11 @@ ____________
 * `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 * `array-callable <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-callable.ini.html>`_
+
+* `callable <https://php-dictionary.readthedocs.io/en/latest/dictionary/callable.ini.html>`_
+
+* `index-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
+
+* `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
 
 

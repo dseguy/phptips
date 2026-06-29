@@ -47,6 +47,8 @@ Author index
     * :ref:`match-with-multiple-values`
 * `Paul Shryock <https://phpc.social/@paulshryock>`_
     * :ref:`cast-private-to-array`
+* `Povilas Korop <https://www.youtube.com/c/LaravelDaily>`_
+    * :ref:`min-and-max-for-interval`
 * `Rahul Chavan <https://twitter.com/rcsofttech85>`_
     * :ref:`send-an-argument-to-generator`
     * :ref:`array_reduce-to-filter-and-alter`

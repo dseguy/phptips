@@ -21,7 +21,7 @@ Argument Renaming
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arg_renaming.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arg_renaming.html","name":"Argument Renaming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 12:32:19 +0000","dateModified":"Thu, 02 Apr 2026 12:32:19 +0000","description":"Method compatibility does not allow adding or removing arguments between a parent and a child, and types must be compatible","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arg_renaming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arg_renaming.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arg_renaming.html","name":"Argument Renaming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:22:39 +0000","dateModified":"Mon, 29 Jun 2026 09:22:39 +0000","description":"Method compatibility does not allow adding or removing arguments between a parent and a child, and types must be compatible","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arg_renaming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/arg_renaming.png
 
@@ -48,5 +48,11 @@ ____________
 * `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
 
 * `method-compatibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/method-compatibility.ini.html>`_
+
+* `inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
+
+* `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
+
+* `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 

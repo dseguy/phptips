@@ -17,6 +17,9 @@
     "phpError": {},
     "features": [
             "enum",
-        "enum-case"
+        "enum-case",
+        "backed-enum",
+        "array_column",
+        "array"
 ]
 }

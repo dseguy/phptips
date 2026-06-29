@@ -1,0 +1,17 @@
+{
+    "image": "extra_class.png",
+    "date": "2026-06-28",
+    "title": "Extra ::class",
+    "content": "It is possible to use ``::class`` when reaching for static elements with the ``::`` operator: the ``::class`` returns the full name of the class, which is later used to look for the static. In the end, it does not add anything to the syntax and may be dropped.\nMake sure to differentiate the initial name of in the syntax, which is a identifier: it is not confused by PHP with a constant of the same name. On the other hand, after a ``::`` operator, ``::class`` cannot be used on a string and it must be used on another object.",
+    "seeAlso": {
+        "Some code structures are... very creative!":"https://x.com/rectorphp/status/2071247626238853603"
+    },
+    "tags": [
+        "tip", "trick", "useless"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["class", "scope-resolution-operator"],
+    "3v4l": {"A::class":"https://3v4l.org/QdZ5J#v8.5.7"},
+    "phpError": {}
+}

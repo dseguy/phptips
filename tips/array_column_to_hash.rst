@@ -21,7 +21,7 @@ array_column() To Hash
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","name":"array_column() To Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:32 +0000","dateModified":"Thu, 02 Apr 2026 05:33:32 +0000","description":"array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","name":"array_column() To Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:22:40 +0000","dateModified":"Mon, 29 Jun 2026 09:22:40 +0000","description":"array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/array_column_to_hash.png
 
@@ -46,5 +46,11 @@ ____________
 * `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 * `hash <https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html>`_
+
+* `array_column <https://php-dictionary.readthedocs.io/en/latest/dictionary/array_column.ini.html>`_
+
+* `index-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
+
+* `object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
 
 
