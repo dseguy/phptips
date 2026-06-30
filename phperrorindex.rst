@@ -68,6 +68,8 @@ Error Message index
     * :ref:`unfinished-class-doesnt-compile`
 * Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods
     * :ref:`declared-before-or-after`
+* Class test inherits both A::FOO and b::FOO, which is ambiguous
+    * :ref:`interfaces-constants-conflicts`
 * Constant expression contains invalid operations
     * :ref:`int-and-ant`
     * :ref:`no-cast-in-constant-expressions`

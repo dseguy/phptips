@@ -1,0 +1,16 @@
+{
+    "image": "unreachable_method.png",
+    "date": "2026-06-30",
+    "title": "The Unreachable Method",
+    "content": "How can one call the A::foo() method? A::foo() is public, but it is also part of an abstract class. It is not possible to call it directly, as no such object may be created.\nIt is also the case for B, so we have to call C. Now, between A and C, there is B::foo(), which intercepts the call to A::foo(): it has priority. So C::goo() can reach B::foo() but not A::foo().\nThe solution is not to use parent but to directly use the name of the class, and the static operator. Even as the target method is not static, it may be called as such from within a child class, and the $this variable will be provided.\nThis trick works on public and protected methods, but not on private: this is the visibility talking.",
+    "seeAlso": {
+    },
+    "tags": [
+        "tips", "trick", "surprise", "quizz"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["class", "parent", "class-invasion"],
+    "3v4l": {"The unreachable method":"https://3v4l.org/pXCpG#v8.5.7"},
+    "phpError": {}
+}

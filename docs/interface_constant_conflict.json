@@ -7,14 +7,14 @@
         "Object Interfaces (PHP manual)": "https://www.php.net/manual/en/language.oop5.interfaces.php"
     },
     "tags": [
-        "interfaces",
-        "constants"
+        "interface",
+        "constant"
     ],
     "author": "",
     "contact": "",
     "3v4l": {
         "interfaces conflicts": "https://3v4l.org/Dpu8t"
     },
-    "phpError": {},
+    "phpError": {"Class test inherits both A::FOO and b::FOO, which is ambiguous":"%s-%s-inherits-both-%s::%s-and-%s::%s"},
     "features": ["interface", "naming-conflict"]
 }
