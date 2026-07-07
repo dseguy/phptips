@@ -1,0 +1,16 @@
+{
+    "image": "sql_memory.png",
+    "date": "2026-07-03",
+    "title": "SQL In Memory",
+    "content": "There is no need to set up a whole SQL server to run queries. When the dataset is small enough, but the processing is complex enough, it may be worth starting a SQLITE database in PHP memory, and run the queries there.\nThere is also a temporary database, which is created with no filename: PHP create a file for this, and removes it at the end of the execution.\nPerformances are usually much lower than using arrays, but complexity and standard usage may be worth the extra work.",
+    "seeAlso": {
+    },
+    "tags": [
+        "tips", "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["sqlite3", "temporary", "memory"],
+    "3v4l": {"sqlite3 in memory":"https://3v4l.org/VkfuV#v8.5.7"},
+    "phpError": {}
+}

@@ -18,12 +18,12 @@
 # -- Project information -----------------------------------------------------
 
 project = 'PHP tips and tricks'
-copyright = '2023-2026, Damien Seguy - <a href="https://www.exakat.io/">Exakat</a>'
+copyright = '2023-2026, Damien Seguy - [Exakat](https://www.exakat.io/)'
 author = 'Damien Seguy'
 html_favicon = '_static/logo.png'
 
 # The full version, including alpha/beta/rc tags
-release = '1.316'
+release = '1.318'
 
 
 # -- General configuration ---------------------------------------------------

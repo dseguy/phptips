@@ -22,17 +22,18 @@ Author index
     * :ref:`weakmap-and-enums`
 * `Doeke Norg <https://twitter.com/doekenorg>`_
     * :ref:`quick-serialize`
-* `Fred Bouchery <https://bsky.app/profile/bouchery.fr>`_
-    * :ref:`no-returntype-but-still-only-string`
 * `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
     * :ref:`returning-void`
     * :ref:`datetime-object-and-years`
+    * :ref:`no-returntype-but-still-only-string`
     * :ref:`enumerations-cases-comparisons`
     * :ref:`stealth-generator`
 * `Gina Peter Banyard <https://github.com/Girgias>`_
     * :ref:`file_put_contents-with-array-argument`
 * `Greg Korba <https://twitter.com/_Codito_>`_
     * :ref:`lots-of-silly-arguments`
+* `Hammed Oyedele <https://x.com/devhammed>`_
+    * :ref:`the-undefined-keyword`
 * `Jan Nedbal <https://janedbal.cz/>`_
     * :ref:`property-hooks-and-default-values`
     * :ref:`self-as-attribute`

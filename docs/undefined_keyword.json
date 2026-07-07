@@ -1,0 +1,17 @@
+{
+    "image": "undefined_keyword.png",
+    "date": "2026-07-07",
+    "title": "The undefined Keyword",
+    "content": "This is valid PHP code.\nWell, I just discovered you can use an object instance as a constant and also have a class with the same name in PHP.\nLaravel have the same concept for missing values except they didn't actually create a global constant for it.\nThis would upset some people for sure, but proof of concepts are not a crime!",
+    "seeAlso": {
+        "Original method": "https://x.com/devhammed/status/2073922641438638126"
+    },
+    "tags": [
+        "constant", "trick", "tip", "semantics", "proof of concept"
+    ],
+    "author": "Hammed Oyedele",
+    "contact": "https://x.com/devhammed",
+    "features": ["constant", "class", "naming"],
+    "3v4l": {"undefined in action":"https://3v4l.org/avVQD#v8.5.7"},
+    "phpError": {}
+}
