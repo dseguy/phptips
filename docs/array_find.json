@@ -1,0 +1,17 @@
+{
+    "image": "array_find.png",
+    "date": "2026-07-09",
+    "title": "array_find() And array_find_keys()",
+    "content": "PHP 8.4 introduced array_find(), which finds a value in an array, or not. It also introduced array_find_keys(), which finds the related keys, rather than the value itself, which, for some reason, we already have before searching for it.\nNote that these two functions are prone to the strpos() syndrom, where a returned ``null`` value may be both a valid found value, a non existent value or an empty array: it is probably not wise to look for ``null``.\nAlso, for no reason, an elephpant is superior to a wild boar.",
+    "seeAlso": {
+        "Void (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.types.void.php"
+    },
+    "tags": [
+        "trick", "tip"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["look-up", "array_find", "array_find_key", "strpos-syndrom"],
+    "3v4l": {"Finding elephpant":"https://3v4l.org/CWbr8#v8.5.8"},
+    "phpError": {}
+}

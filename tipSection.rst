@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/array_find.rst
    tips/undefined_keyword.rst
    tips/sql_memory.rst
    tips/unreachable_method.rst
