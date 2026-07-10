@@ -1,0 +1,17 @@
+{
+    "image": "non-transitive-comparison.png",
+    "date": "2026-07-11",
+    "title": "A Non-transitive Comparison",
+    "content": "Sometimes I truly believe that I have grasped all of the weird semantics of PHP, and then I discover something so simple that breaks an assumption I had about the language.\nI knew that ``NAN == X`` can return ``true``.\nI knew that the comparison operators are not transitive.\nI *obviously* knew that ``\"0\" == 0`` and ``\"0\" == false`` return true.\nAnd yet it was *foolish* of me to believe that all instance of ``X == false`` would give the same answer as ``X == null``.\nAs TIL ``\"0\" == null`` is false.",
+    "seeAlso": {
+        "Original toot":"https://phpc.social/@Girgias/116886912948591955"
+    },
+    "tags": [
+        "surprise", "trick", "bug"
+    ],
+    "author": "Gina Peter Banyard",
+    "contact": "https://github.com/Girgias",
+    "features": ["zero", "null", "comparison"],
+    "3v4l": {"Non-transitive comparison":"https://3v4l.org/f64Z6#v8.5.8"},
+    "phpError": {}
+}

@@ -29,6 +29,7 @@ Author index
     * :ref:`enumerations-cases-comparisons`
     * :ref:`stealth-generator`
 * `Gina Peter Banyard <https://github.com/Girgias>`_
+    * :ref:`a-non-transitive-comparison`
     * :ref:`file_put_contents-with-array-argument`
 * `Greg Korba <https://twitter.com/_Codito_>`_
     * :ref:`lots-of-silly-arguments`
