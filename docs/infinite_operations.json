@@ -1,0 +1,16 @@
+{
+    "image": "infinite_operations.png",
+    "date": "2026-07-10",
+    "title": "Infinite Operations",
+    "content": "Here are some border line calculations with large numbers in PHP: calculating beyond PHP_INT_MAX is possible, as long as the resulting number is still... a number: here, it is a float. The same calculation is not possible with floats, because they are capped by infinite. Infinite is around 1E308.\nIn particular, adding extra elements to PHP_FLOAT_MAX yields strange comparaisons: if the addition is small enough, it is rounded to 0, and ignored. This is not the case with multiplication, where the numbers are all going beyond PHP_FLOAT_MAX, and are turned into INF, which, by the way, is an float type.\nFinally, using power ``**`` on INF is still capped by INF, so it is valid calculation, without overflow.",
+    "seeAlso": {
+    },
+    "tags": [
+        "tip", "trick","infinite"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["float", "power", "addition"],
+    "3v4l": {"Really Large Numbers":"https://3v4l.org/KHkJl#v8.5.7"},
+    "phpError": {}
+}
