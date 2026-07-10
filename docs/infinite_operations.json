@@ -10,7 +10,7 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["float", "power", "addition"],
+    "features": ["float", "exponent", "addition"],
     "3v4l": {"Really Large Numbers":"https://3v4l.org/KHkJl#v8.5.7"},
     "phpError": {}
 }

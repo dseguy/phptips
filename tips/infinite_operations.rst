@@ -21,7 +21,7 @@ Infinite Operations
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_operations.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_operations.html","name":"Infinite Operations","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 08:53:31 +0000","dateModified":"Fri, 10 Jul 2026 08:53:31 +0000","description":"Here are some border line calculations with large numbers in PHP: calculating beyond PHP_INT_MAX is possible, as long as the resulting number is still","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_operations.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_operations.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_operations.html","name":"Infinite Operations","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 08:54:30 +0000","dateModified":"Fri, 10 Jul 2026 08:54:30 +0000","description":"Here are some border line calculations with large numbers in PHP: calculating beyond PHP_INT_MAX is possible, as long as the resulting number is still","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/infinite_operations.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. image:: ../images/infinite_operations.png
 
@@ -42,7 +42,7 @@ ____________
 
 * `float <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
 
-* `power <https://php-dictionary.readthedocs.io/en/latest/dictionary/power.ini.html>`_
+* `exponent <https://php-dictionary.readthedocs.io/en/latest/dictionary/exponent.ini.html>`_
 
 * `addition <https://php-dictionary.readthedocs.io/en/latest/dictionary/addition.ini.html>`_
 
