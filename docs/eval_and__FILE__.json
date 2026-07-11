@@ -1,0 +1,16 @@
+{
+    "image": "eval_and__FILE__.png",
+    "date": "2026-07-12",
+    "title": "eval() And __FILE__",
+    "content": "__FILE__ is a magic constant that holds the current file full path. This is not true when using it inside eval(), which comes with an extra suffix that tell it is executed in eval(). In fact, eval() has its own __FILE__, since it is executed in a sandboxed and temporary area.",
+    "seeAlso": {
+    },
+    "tags": [
+        "edge case", "tip"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["eval", "magic-constant", "__FILE__"],
+    "3v4l": {"__FILE__ in eval()":"https://3v4l.org/TTNvC#v8.5.8"},
+    "phpError": {}
+}

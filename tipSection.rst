@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/eval_and__FILE__.rst
    tips/non-transitive-comparison.rst
    tips/infinite_operations.rst
    tips/array_find.rst
