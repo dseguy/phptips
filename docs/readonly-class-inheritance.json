@@ -1,0 +1,23 @@
+{
+    "image": "readonly-class-inheritance.png",
+    "date": "2026-07-08",
+    "title": "Readonly Class Must Match Its Parent",
+    "content": "PHP 8.2's ``readonly class`` looks like sugar for marking every property readonly at once, but it comes with the same strict rule than plain readonly properties: the whole inheritance chain must agree.\nThis is true even if there are no properties in any class.\nA non-readonly class cannot extend a readonly class, since that would let the child sneak in a mutable property.\nThe reverse also fails: a readonly class cannot extend a non-readonly one, since the parent might already have a mutable property.\nIt is not possible to mix and match: making all properties readonly does not prevent the engine to ask for the class to be also readonly because of the parent.\nThere is no partial opt-in: readonly-ness is a property of the whole class hierarchy, not of one class in it.\nThe most flexible way is to keep the class mutable, and make properties readonly piecemeal.",
+    "seeAlso": {
+        "Readonly properties (PHP manual)": "https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties",
+        "PHP 8.2 migration guide": "https://www.php.net/manual/en/migration82.new-features.php"
+    },
+    "tags": [
+        "surprising",
+        "edge case",
+        "readonly"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["readonly", "property", "class", "inheritance"],
+    "3v4l": {"readonly, classes and properties":"https://3v4l.org/6TpEk#v8.5.7"},
+    "phpError": {
+        "Non-readonly class X cannot extend readonly class Y":"non-readonly-class-%s-cannot-extend-readonly-class-%s",
+        "Readonly class X cannot extend non-readonly class Y":"readonly-class-%s-cannot-extend-non-readonly-class-%s"
+        }
+}

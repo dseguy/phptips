@@ -5,10 +5,14 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
-   tips/eval_and__FILE__.rst
+   tips/what_array_list.rst
    tips/non-transitive-comparison.rst
+   tips/chained_assignation.rst
+   tips/eval_and__FILE__.rst
+   tips/fiber-throw-suspension.rst
    tips/infinite_operations.rst
    tips/array_find.rst
+   tips/readonly-class-inheritance.rst
    tips/undefined_keyword.rst
    tips/sql_memory.rst
    tips/unreachable_method.rst

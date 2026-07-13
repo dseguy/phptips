@@ -100,6 +100,8 @@ Error Message index
     * :ref:`hexadecimal-separator`
 * Multiple static modifiers are not allowed
     * :ref:`cannot-static-static-property`
+* Non-readonly class X cannot extend readonly class Y
+    * :ref:`readonly-class-must-match-its-parent`
 * Non-static method %s::%s() cannot be called statically
     * :ref:`get-this-in-a-static`
 * Non-static method a::foo() cannot be called statically
@@ -117,6 +119,8 @@ Error Message index
     * :ref:`when-htmlemtities-is-failing`
 * Only variables should be passed by reference
     * :ref:`sorting-enum`
+* Readonly class X cannot extend non-readonly class Y
+    * :ref:`readonly-class-must-match-its-parent`
 * Recursion detected
     * :ref:`compact-is-recursive`
 * Return value must be of type int, float returned

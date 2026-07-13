@@ -1,0 +1,20 @@
+{
+    "image": "fiber-throw-suspension.png",
+    "date": "2026-07-11",
+    "title": "Fiber Throws Where The Fiber Is",
+    "content": "``Fiber`` is the generator's sibling that nobody writes tips about, so here is one.\n``$fiber->throw($exception)`` does not throw in the caller's own scope. It resumes the suspended fiber and raises the exception exactly at the ``Fiber::suspend()`` call that paused it, as if that call itself had thrown.\nThat means an ordinary ``try``/``catch`` written around the ``suspend()`` call inside the fiber's body will catch it, with no special API needed on the fiber's side.\nAlso note that ``Fiber::getCurrent()`` returns ``null`` outside of any fiber, and that starting an already-started fiber throws a ``FiberError``, not a silent no-op.",
+    "seeAlso": {
+        "Fiber (PHP manual)": "https://www.php.net/manual/en/class.fiber.php",
+        "Fiber::throw (PHP manual)": "https://www.php.net/manual/en/fiber.throw.php"
+    },
+    "tags": [
+        "surprising",
+        "feature",
+        "fibers"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["fibers", "generator", "exception"],
+    "3v4l": {"Throwing from fibers":"https://3v4l.org/tLEP5#v8.5.7"},
+    "phpError": {}
+}

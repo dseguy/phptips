@@ -1,0 +1,19 @@
+{
+    "image": "chained_assignation.png",
+    "date": "2026-07-13",
+    "title": "Chained Assignation Skips __get()",
+    "content": "Chained assignation skip the ``get`` part and assign the same value to all elements in the chain.\nWhen chained assignations are done with variables, the value in the variable is the same as the value out of it: the engine might optimise the work and use the same rightmost value everywhere.\nYet, PHP has dynamic properties, since... a long time ago, and again, with property hooks in PHP 8.4: there, the incoming value may be changed between the ``set`` function and the ``get`` one. Here, the ``get`` is skipped.\nIn the end, it might be logical, but may also surprise the coder too.",
+    "seeAlso": {
+        "Hidden Traps with Chained Assignments":"https://www.exakat.io/hidden-traps-with-chained-assignments/"
+    },
+    "tags": [
+        "silent",
+        "classic bug",
+        "surprise"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["magic-method", "property-hook", "chaining-assignation"],
+    "3v4l": {"Chained surprises":"https://3v4l.org/bD8OB#v8.5.7"},
+    "phpError": {}
+}
