@@ -65,6 +65,10 @@ const LEVEL_H2 = '_';
 
 // create sitemap
 $sitemap = new Sitemap($sitemapFile);
+$sitemap->addItem($baseUrl . 'index.html');
+$sitemap->addItem($baseUrl . 'introduction.html');
+$sitemap->addItem($baseUrl . 'authorindex.html');
+$sitemap->addItem($baseUrl . 'phperrorindex.html');
 $indexnow = [];
 
 if (!file_exists($tipsDir)) {

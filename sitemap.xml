@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
+  <loc>https://php-tips.readthedocs.io/en/latestindex.html</loc>
+ </url>
+ <url>
+  <loc>https://php-tips.readthedocs.io/en/latestintroduction.html</loc>
+ </url>
+ <url>
+  <loc>https://php-tips.readthedocs.io/en/latestauthorindex.html</loc>
+ </url>
+ <url>
+  <loc>https://php-tips.readthedocs.io/en/latestphperrorindex.html</loc>
+ </url>
+ <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/what_array_list.html</loc>
  </url>
  <url>
