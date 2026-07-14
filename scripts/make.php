@@ -70,6 +70,11 @@ $sitemap->addItem($baseUrl . 'introduction.html');
 $sitemap->addItem($baseUrl . 'authorindex.html');
 $sitemap->addItem($baseUrl . 'phperrorindex.html');
 $indexnow = [];
+$llmtxt = ['#PHP Tips and tricks',
+'PHP tips and tricks is a treasure trove of PHP pieces of code. It collects all those quick one-liners, unexpected behaviors, hidden features and strange things that are concealed in the dark corners of PHP.',
+'',
+'##Entries',
+];
 
 if (!file_exists($tipsDir)) {
     mkdir($tipsDir, 0755, true);
@@ -408,6 +413,32 @@ foreach ($tips as $tip) {
     $phptip[] = '.. raw:: html';
     $phptip[] = '';
 
+    $authorName = !empty($tip->author) ? $tip->author : 'Damien Seguy';
+    $authorId   = !empty($tip->contact) && filter_var($tip->contact, FILTER_VALIDATE_URL)
+        ? $tip->contact
+        : 'https://www.exakat.io/#' . preg_replace('/\s+/', '-', strtolower($authorName));
+
+    $person = [
+        '@type' => 'Person',
+        '@id'   => $authorId,
+        'name'  => $authorName,
+        'url'   => $authorId,
+    ];
+
+    if (!empty($tip->author)) {
+        $person['sameAs'] = [$tip->contact];
+    } else {
+        $person['sameAs'] = [
+            'https://x.com/exakat',
+            'https://www.linkedin.com/in/damienseguy',
+        ];
+        $person['worksFor'] = [
+            '@type' => 'Organization',
+            '@id'   => 'https://www.exakat.io/',
+            'name'  => 'Exakat',
+        ];
+    }
+
     $ldjson = [
         '@context' => 'https://schema.org',
         '@graph'   => [
@@ -421,6 +452,7 @@ foreach ($tips as $tip) {
                 'dateModified'    => date('r', filemtime($tip->file)),
                 'description'     => $first,
                 'inLanguage'      => $inLanguage,
+                'author'          => ['@id' => $authorId],
                 'potentialAction' => [
                     [
                         '@type'  => 'ReadAction',
@@ -428,6 +460,7 @@ foreach ($tips as $tip) {
                     ],
                 ],
             ],
+            $person,
             [
                 '@type'       => 'WebSite',
                 '@id'         => 'https://www.exakat.io/',
@@ -526,9 +559,13 @@ foreach ($tips as $tip) {
     $indexnow[] = $baseUrl . '/tips/' . substr($rstFile, 0, -4) . '.html';
 
     $tiplist[] = '   tips/' . $rstFile;
+    
+    $llmtxt[] = '['.$tip->title.']('.$baseUrl . '/tips/' . substr($rstFile, 0, -4) . '.html'.') '.first_sentence($tip->content);
 }
 
 $sitemap->write();
+
+file_put_contents('llm.txt', implode(PHP_EOL, $llmtxt));
 
 $index = file_get_contents($tipSectionIn);
 $index = str_replace('   tips', implode(PHP_EOL, $tiplist), $index);
@@ -632,4 +669,10 @@ function prepare_code_for_alt(string $code): string {
     $return = str_replace(PHP_EOL, PHP_EOL.str_repeat(' ', 3), $return);
     
     return $return;
+}
+
+function first_sentence(string $code): string {
+    $id = strpos($code, '.');
+    
+    return substr($code, 0, $id + 1);
 }
