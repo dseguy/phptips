@@ -21,7 +21,7 @@ Cast A Closure To Array
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_to_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_to_array.html","name":"Cast A Closure To Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:10 +0000","dateModified":"Tue, 14 Jul 2026 14:31:10 +0000","description":"TIL: ``(array) $obj`` will result in ``array<string, mixed>`` ( properties key\/value pairs ), with the exception if ``$obj`` is Closure, where the result would be ``[$obj]``","inLanguage":"en-US","author":{"@id":"https:\/\/github.com\/azjezz"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_to_array.html"]}]},{"@type":"Person","@id":"https:\/\/github.com\/azjezz","name":"Saif Eddin Gmati","url":"https:\/\/github.com\/azjezz","sameAs":["https:\/\/github.com\/azjezz"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_to_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_to_array.html","name":"Cast A Closure To Array","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:31:10+00:00","dateModified":"2026-07-14T14:31:10+00:00","description":"TIL: ``(array) $obj`` will result in ``array<string, mixed>`` ( properties key\/value pairs ), with the exception if ``$obj`` is Closure, where the result would be ``[$obj]``","inLanguage":"en-US","author":{"@id":"https:\/\/github.com\/azjezz"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_to_array.html"]}]},{"@type":"Person","@id":"https:\/\/github.com\/azjezz","name":"Saif Eddin Gmati","url":"https:\/\/github.com\/azjezz","sameAs":["https:\/\/github.com\/azjezz"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Saif Eddin Gmati <https://github.com/azjezz>`_
 
@@ -80,3 +80,5 @@ ____________
 * `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 
+
+Last updated: 14 July 2026

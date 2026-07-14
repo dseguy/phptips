@@ -21,7 +21,7 @@ Strange --> Operator
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html","name":"Strange --> Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:34:02 +0000","dateModified":"Tue, 14 Jul 2026 14:34:02 +0000","description":"This PHP code is valid","inLanguage":"en-US","author":{"@id":"https:\/\/twitter.com\/aschmelyun"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html"]}]},{"@type":"Person","@id":"https:\/\/twitter.com\/aschmelyun","name":"Andrew Schmelyun","url":"https:\/\/twitter.com\/aschmelyun","sameAs":["https:\/\/twitter.com\/aschmelyun"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html","name":"Strange --> Operator","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:34:02+00:00","dateModified":"2026-07-14T14:34:02+00:00","description":"This PHP code is valid","inLanguage":"en-US","author":{"@id":"https:\/\/twitter.com\/aschmelyun"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/while_i_--.html"]}]},{"@type":"Person","@id":"https:\/\/twitter.com\/aschmelyun","name":"Andrew Schmelyun","url":"https:\/\/twitter.com\/aschmelyun","sameAs":["https:\/\/twitter.com\/aschmelyun"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Andrew Schmelyun <https://twitter.com/aschmelyun>`_
 
@@ -53,3 +53,5 @@ ____________
 * `increment <https://php-dictionary.readthedocs.io/en/latest/dictionary/increment.ini.html>`_
 
 
+
+Last updated: 14 July 2026

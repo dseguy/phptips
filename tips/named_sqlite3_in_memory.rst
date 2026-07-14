@@ -21,7 +21,7 @@ Named Sqlite3 In Memory
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html","name":"Named Sqlite3 In Memory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:28 +0000","dateModified":"Tue, 14 Jul 2026 14:32:28 +0000","description":"``Sqlite3`` allows the creation of ``memory`` databases: the database is not stored on the disk, but in memory","inLanguage":"en-US","author":{"@id":"https:\/\/x.com\/archtechx"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html"]}]},{"@type":"Person","@id":"https:\/\/x.com\/archtechx","name":"archtechx","url":"https:\/\/x.com\/archtechx","sameAs":["https:\/\/x.com\/archtechx"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html","name":"Named Sqlite3 In Memory","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:32:28+00:00","dateModified":"2026-07-14T14:32:28+00:00","description":"``Sqlite3`` allows the creation of ``memory`` databases: the database is not stored on the disk, but in memory","inLanguage":"en-US","author":{"@id":"https:\/\/x.com\/archtechx"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html"]}]},{"@type":"Person","@id":"https:\/\/x.com\/archtechx","name":"archtechx","url":"https:\/\/x.com\/archtechx","sameAs":["https:\/\/x.com\/archtechx"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `archtechx <https://x.com/archtechx>`_
 
@@ -63,3 +63,5 @@ ____________
 * `database <https://php-dictionary.readthedocs.io/en/latest/dictionary/database.ini.html>`_
 
 
+
+Last updated: 14 July 2026

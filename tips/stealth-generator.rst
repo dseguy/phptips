@@ -21,7 +21,7 @@ Stealth Generator
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html","name":"Stealth Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:38 +0000","dateModified":"Tue, 14 Jul 2026 14:33:38 +0000","description":"The code below has a useless loop","inLanguage":"en-US","author":{"@id":"https:\/\/bsky.app\/profile\/bouchery.fr"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html"]}]},{"@type":"Person","@id":"https:\/\/bsky.app\/profile\/bouchery.fr","name":"Frederic Bouchery","url":"https:\/\/bsky.app\/profile\/bouchery.fr","sameAs":["https:\/\/bsky.app\/profile\/bouchery.fr"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html","name":"Stealth Generator","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:33:38+00:00","dateModified":"2026-07-14T14:33:38+00:00","description":"The code below has a useless loop","inLanguage":"en-US","author":{"@id":"https:\/\/bsky.app\/profile\/bouchery.fr"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html"]}]},{"@type":"Person","@id":"https:\/\/bsky.app\/profile\/bouchery.fr","name":"Frederic Bouchery","url":"https:\/\/bsky.app\/profile\/bouchery.fr","sameAs":["https:\/\/bsky.app\/profile\/bouchery.fr"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
 
@@ -56,3 +56,5 @@ ____________
 * `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
 
 
+
+Last updated: 14 July 2026

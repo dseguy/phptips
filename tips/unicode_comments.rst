@@ -21,7 +21,7 @@ Unicode Comments
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unicode_comments.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unicode_comments.html","name":"Unicode Comments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:52 +0000","dateModified":"Tue, 14 Jul 2026 14:33:52 +0000","description":"Besides ``\/\/``, ``#``, ``\/** *\/`` and ``\/* *\/``, there is another way to make a comment in PHP: unicode ``#\ufe0f\u20e3\ufe0f`` ","inLanguage":"en-US","author":{"@id":"https:\/\/bsky.app\/profile\/akenroberts.com"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unicode_comments.html"]}]},{"@type":"Person","@id":"https:\/\/bsky.app\/profile\/akenroberts.com","name":"Aken Roberts","url":"https:\/\/bsky.app\/profile\/akenroberts.com","sameAs":["https:\/\/bsky.app\/profile\/akenroberts.com"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unicode_comments.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unicode_comments.html","name":"Unicode Comments","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:33:52+00:00","dateModified":"2026-07-14T14:33:52+00:00","description":"Besides ``\/\/``, ``#``, ``\/** *\/`` and ``\/* *\/``, there is another way to make a comment in PHP: unicode ``#\ufe0f\u20e3\ufe0f`` ","inLanguage":"en-US","author":{"@id":"https:\/\/bsky.app\/profile\/akenroberts.com"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unicode_comments.html"]}]},{"@type":"Person","@id":"https:\/\/bsky.app\/profile\/akenroberts.com","name":"Aken Roberts","url":"https:\/\/bsky.app\/profile\/akenroberts.com","sameAs":["https:\/\/bsky.app\/profile\/akenroberts.com"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Aken Roberts <https://bsky.app/profile/akenroberts.com>`_
 
@@ -53,3 +53,5 @@ ____________
 * `unicode <https://php-dictionary.readthedocs.io/en/latest/dictionary/unicode.ini.html>`_
 
 
+
+Last updated: 14 July 2026

@@ -443,13 +443,13 @@ foreach ($tips as $tip) {
         '@context' => 'https://schema.org',
         '@graph'   => [
             [
-                '@type'           => 'WebPage',
+                '@type'           => 'TechArticle',
                 '@id'             => "$baseUrl/tips/$name.html",
                 'url'             => "$baseUrl/tips/$name.html",
                 'name'            => $title,
-                'isPartOf'        => ['@id' => 'https://www.exakat.io/'],
-                'datePublished'   => date('r', filectime($tip->file)),
-                'dateModified'    => date('r', filemtime($tip->file)),
+                'isPartOf'        => ['@id' => 'https://php-tips.readthedocs.io/en/latest/'],
+                'datePublished'   => date(DATE_ATOM, filectime($tip->file)),
+                'dateModified'    => date(DATE_ATOM, filemtime($tip->file)),
                 'description'     => $first,
                 'inLanguage'      => $inLanguage,
                 'author'          => ['@id' => $authorId],
@@ -544,6 +544,9 @@ foreach ($tips as $tip) {
     }
 
     $phptip[] = '';
+    
+    $phptip[] = 'Last updated: '.date('d F Y', filemtime($tip->file));
+    
 
     foreach (array_filter($tip->tags) as $tag) {
         if (!isset($tags[$tag])) {

@@ -21,7 +21,7 @@ Abstract Constants
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_constant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_constant.html","name":"Abstract Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 13:01:28 +0000","dateModified":"Tue, 14 Jul 2026 13:01:28 +0000","description":"There's a pretty common pattern to declare \"abstract class constants\" in PHP","inLanguage":"en-US","author":{"@id":"https:\/\/stackoverflow.com\/users\/2519523\/websmithery"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_constant.html"]}]},{"@type":"Person","@id":"https:\/\/stackoverflow.com\/users\/2519523\/websmithery","name":"WebSmithery","url":"https:\/\/stackoverflow.com\/users\/2519523\/websmithery","sameAs":["https:\/\/stackoverflow.com\/users\/2519523\/websmithery"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_constant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_constant.html","name":"Abstract Constants","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T13:01:28+00:00","dateModified":"2026-07-14T13:01:28+00:00","description":"There's a pretty common pattern to declare \"abstract class constants\" in PHP","inLanguage":"en-US","author":{"@id":"https:\/\/stackoverflow.com\/users\/2519523\/websmithery"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_constant.html"]}]},{"@type":"Person","@id":"https:\/\/stackoverflow.com\/users\/2519523\/websmithery","name":"WebSmithery","url":"https:\/\/stackoverflow.com\/users\/2519523\/websmithery","sameAs":["https:\/\/stackoverflow.com\/users\/2519523\/websmithery"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `WebSmithery <https://stackoverflow.com/users/2519523/websmithery>`_
 
@@ -72,3 +72,5 @@ ____________
 * `lazy-loading <https://php-dictionary.readthedocs.io/en/latest/dictionary/lazy-loading.ini.html>`_
 
 
+
+Last updated: 14 July 2026

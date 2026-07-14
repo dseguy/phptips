@@ -21,7 +21,7 @@ Quick DTO Or VO Copy
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html","name":"Quick DTO Or VO Copy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:06 +0000","dateModified":"Tue, 14 Jul 2026 14:33:06 +0000","description":"A small PHP trick, combining named parameters, spread and union arrays operators to ``easily`` create a modified copy of a DTO: ``https:\/\/3v4l","inLanguage":"en-US","author":{"@id":"https:\/\/phpc.social\/@b_viguier"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html"]}]},{"@type":"Person","@id":"https:\/\/phpc.social\/@b_viguier","name":"Benoit Viguier","url":"https:\/\/phpc.social\/@b_viguier","sameAs":["https:\/\/phpc.social\/@b_viguier"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html","name":"Quick DTO Or VO Copy","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:33:06+00:00","dateModified":"2026-07-14T14:33:06+00:00","description":"A small PHP trick, combining named parameters, spread and union arrays operators to ``easily`` create a modified copy of a DTO: ``https:\/\/3v4l","inLanguage":"en-US","author":{"@id":"https:\/\/phpc.social\/@b_viguier"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html"]}]},{"@type":"Person","@id":"https:\/\/phpc.social\/@b_viguier","name":"Benoit Viguier","url":"https:\/\/phpc.social\/@b_viguier","sameAs":["https:\/\/phpc.social\/@b_viguier"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Benoit Viguier <https://phpc.social/@b_viguier>`_
 
@@ -82,3 +82,5 @@ ____________
 * `dto <https://php-dictionary.readthedocs.io/en/latest/dictionary/dto.ini.html>`_
 
 
+
+Last updated: 14 July 2026

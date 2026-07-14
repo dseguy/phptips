@@ -21,7 +21,7 @@ Compatible Signature
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html","name":"Compatible Signature","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:15 +0000","dateModified":"Tue, 14 Jul 2026 14:31:15 +0000","description":"This piece of code shows a signature that changes with the version of PHP","inLanguage":"en-US","author":{"@id":"https:\/\/x.com\/another_clue"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html"]}]},{"@type":"Person","@id":"https:\/\/x.com\/another_clue","name":"Christian L\u00fcck","url":"https:\/\/x.com\/another_clue","sameAs":["https:\/\/x.com\/another_clue"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html","name":"Compatible Signature","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:31:15+00:00","dateModified":"2026-07-14T14:31:15+00:00","description":"This piece of code shows a signature that changes with the version of PHP","inLanguage":"en-US","author":{"@id":"https:\/\/x.com\/another_clue"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compatible-signature.html"]}]},{"@type":"Person","@id":"https:\/\/x.com\/another_clue","name":"Christian L\u00fcck","url":"https:\/\/x.com\/another_clue","sameAs":["https:\/\/x.com\/another_clue"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Christian Lück <https://x.com/another_clue>`_
 
@@ -63,3 +63,5 @@ ____________
 * `compatibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/compatibility.ini.html>`_
 
 
+
+Last updated: 14 July 2026

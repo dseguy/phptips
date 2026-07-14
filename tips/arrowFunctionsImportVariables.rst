@@ -21,7 +21,7 @@ Arrow Functions Import Variables By Values
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html","name":"Arrow Functions Import Variables By Values","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:45 +0000","dateModified":"Tue, 14 Jul 2026 14:30:45 +0000","description":"Arrow functions automatically import the variables from the current context, to be used in its returned expression","inLanguage":"en-US","author":{"@id":"https:\/\/www.exakat.io\/#damien-seguy"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html"]}]},{"@type":"Person","@id":"https:\/\/www.exakat.io\/#damien-seguy","name":"Damien Seguy","url":"https:\/\/www.exakat.io\/#damien-seguy","sameAs":["https:\/\/x.com\/exakat","https:\/\/www.linkedin.com\/in\/damienseguy"],"worksFor":{"@type":"Organization","@id":"https:\/\/www.exakat.io\/","name":"Exakat"}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html","name":"Arrow Functions Import Variables By Values","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:30:45+00:00","dateModified":"2026-07-14T14:30:45+00:00","description":"Arrow functions automatically import the variables from the current context, to be used in its returned expression","inLanguage":"en-US","author":{"@id":"https:\/\/www.exakat.io\/#damien-seguy"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html"]}]},{"@type":"Person","@id":"https:\/\/www.exakat.io\/#damien-seguy","name":"Damien Seguy","url":"https:\/\/www.exakat.io\/#damien-seguy","sameAs":["https:\/\/x.com\/exakat","https:\/\/www.linkedin.com\/in\/damienseguy"],"worksFor":{"@type":"Organization","@id":"https:\/\/www.exakat.io\/","name":"Exakat"}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. code-block:: php
 
@@ -64,3 +64,5 @@ ____________
 * `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
 
 
+
+Last updated: 14 July 2026

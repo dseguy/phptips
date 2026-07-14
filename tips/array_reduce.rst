@@ -21,7 +21,7 @@ array_reduce() To Filter And Alter
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html","name":"array_reduce() To Filter And Alter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:42 +0000","dateModified":"Tue, 14 Jul 2026 14:30:42 +0000","description":"Using array_reduce() to create custom data structures goes beyond simple filtering","inLanguage":"en-US","author":{"@id":"https:\/\/twitter.com\/rcsofttech85"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html"]}]},{"@type":"Person","@id":"https:\/\/twitter.com\/rcsofttech85","name":"Rahul Chavan","url":"https:\/\/twitter.com\/rcsofttech85","sameAs":["https:\/\/twitter.com\/rcsofttech85"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html","name":"array_reduce() To Filter And Alter","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:30:42+00:00","dateModified":"2026-07-14T14:30:42+00:00","description":"Using array_reduce() to create custom data structures goes beyond simple filtering","inLanguage":"en-US","author":{"@id":"https:\/\/twitter.com\/rcsofttech85"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html"]}]},{"@type":"Person","@id":"https:\/\/twitter.com\/rcsofttech85","name":"Rahul Chavan","url":"https:\/\/twitter.com\/rcsofttech85","sameAs":["https:\/\/twitter.com\/rcsofttech85"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Rahul Chavan <https://twitter.com/rcsofttech85>`_
 
@@ -127,3 +127,5 @@ ____________
 * `filter <https://php-dictionary.readthedocs.io/en/latest/dictionary/filter.ini.html>`_
 
 
+
+Last updated: 14 July 2026

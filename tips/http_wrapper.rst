@@ -21,7 +21,7 @@ Replacing PHP http Wrapper
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html","name":"Replacing PHP http Wrapper","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:52 +0000","dateModified":"Tue, 14 Jul 2026 14:31:52 +0000","description":"Did you know you can override built-in protocols such as https:\/\/","inLanguage":"en-US","author":{"@id":"https:\/\/x.com\/alexdaubois"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html"]}]},{"@type":"Person","@id":"https:\/\/x.com\/alexdaubois","name":"Alexandre Daubois","url":"https:\/\/x.com\/alexdaubois","sameAs":["https:\/\/x.com\/alexdaubois"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html","name":"Replacing PHP http Wrapper","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:31:52+00:00","dateModified":"2026-07-14T14:31:52+00:00","description":"Did you know you can override built-in protocols such as https:\/\/","inLanguage":"en-US","author":{"@id":"https:\/\/x.com\/alexdaubois"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html"]}]},{"@type":"Person","@id":"https:\/\/x.com\/alexdaubois","name":"Alexandre Daubois","url":"https:\/\/x.com\/alexdaubois","sameAs":["https:\/\/x.com\/alexdaubois"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Alexandre Daubois <https://x.com/alexdaubois>`_
 
@@ -114,3 +114,5 @@ ____________
 * `php-wrapper <https://php-dictionary.readthedocs.io/en/latest/dictionary/php-wrapper.ini.html>`_
 
 
+
+Last updated: 14 July 2026

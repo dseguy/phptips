@@ -21,7 +21,7 @@ Datetime Object, And Years
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html","name":"Datetime Object, And Years","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:22 +0000","dateModified":"Tue, 14 Jul 2026 14:31:22 +0000","description":"In this code, 2 years are given to ``Datetime``, and handed back","inLanguage":"en-US","author":{"@id":"https:\/\/bsky.app\/profile\/bouchery.fr"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html"]}]},{"@type":"Person","@id":"https:\/\/bsky.app\/profile\/bouchery.fr","name":"Frederic Bouchery","url":"https:\/\/bsky.app\/profile\/bouchery.fr","sameAs":["https:\/\/bsky.app\/profile\/bouchery.fr"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html","name":"Datetime Object, And Years","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:31:22+00:00","dateModified":"2026-07-14T14:31:22+00:00","description":"In this code, 2 years are given to ``Datetime``, and handed back","inLanguage":"en-US","author":{"@id":"https:\/\/bsky.app\/profile\/bouchery.fr"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html"]}]},{"@type":"Person","@id":"https:\/\/bsky.app\/profile\/bouchery.fr","name":"Frederic Bouchery","url":"https:\/\/bsky.app\/profile\/bouchery.fr","sameAs":["https:\/\/bsky.app\/profile\/bouchery.fr"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
 
@@ -58,3 +58,5 @@ ____________
 * `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
 
 
+
+Last updated: 14 July 2026

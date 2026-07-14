@@ -21,7 +21,7 @@ The Function Method
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/function_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/function_function.html","name":"The Function Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:48 +0000","dateModified":"Tue, 14 Jul 2026 14:31:48 +0000","description":"It is possible to name a method 'function'","inLanguage":"en-US","author":{"@id":"https:\/\/twitter.com\/brendt_gd"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/function_function.html"]}]},{"@type":"Person","@id":"https:\/\/twitter.com\/brendt_gd","name":"Brent Roose","url":"https:\/\/twitter.com\/brendt_gd","sameAs":["https:\/\/twitter.com\/brendt_gd"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/function_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/function_function.html","name":"The Function Method","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:31:48+00:00","dateModified":"2026-07-14T14:31:48+00:00","description":"It is possible to name a method 'function'","inLanguage":"en-US","author":{"@id":"https:\/\/twitter.com\/brendt_gd"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/function_function.html"]}]},{"@type":"Person","@id":"https:\/\/twitter.com\/brendt_gd","name":"Brent Roose","url":"https:\/\/twitter.com\/brendt_gd","sameAs":["https:\/\/twitter.com\/brendt_gd"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Brent Roose <https://twitter.com/brendt_gd>`_
 
@@ -59,3 +59,5 @@ ____________
 * `name <https://php-dictionary.readthedocs.io/en/latest/dictionary/name.ini.html>`_
 
 
+
+Last updated: 14 July 2026

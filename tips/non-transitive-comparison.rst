@@ -21,7 +21,7 @@ A Non-transitive Comparison
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-transitive-comparison.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-transitive-comparison.html","name":"A Non-transitive Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:23:58 +0000","dateModified":"Tue, 14 Jul 2026 14:23:58 +0000","description":"Sometimes I truly believe that I have grasped all of the weird semantics of PHP, and then I discover something so simple that breaks an assumption I had about the language","inLanguage":"en-US","author":{"@id":"https:\/\/github.com\/Girgias"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-transitive-comparison.html"]}]},{"@type":"Person","@id":"https:\/\/github.com\/Girgias","name":"Gina Peter Banyard","url":"https:\/\/github.com\/Girgias","sameAs":["https:\/\/github.com\/Girgias"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-transitive-comparison.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-transitive-comparison.html","name":"A Non-transitive Comparison","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:23:58+00:00","dateModified":"2026-07-14T14:23:58+00:00","description":"Sometimes I truly believe that I have grasped all of the weird semantics of PHP, and then I discover something so simple that breaks an assumption I had about the language","inLanguage":"en-US","author":{"@id":"https:\/\/github.com\/Girgias"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-transitive-comparison.html"]}]},{"@type":"Person","@id":"https:\/\/github.com\/Girgias","name":"Gina Peter Banyard","url":"https:\/\/github.com\/Girgias","sameAs":["https:\/\/github.com\/Girgias"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Gina Peter Banyard <https://github.com/Girgias>`_
 
@@ -68,3 +68,5 @@ ____________
 * `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
 
 
+
+Last updated: 14 July 2026

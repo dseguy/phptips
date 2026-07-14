@@ -21,7 +21,7 @@ Yield And Keys
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_and_keys.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_and_keys.html","name":"Yield And Keys","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:34:04 +0000","dateModified":"Tue, 14 Jul 2026 14:34:04 +0000","description":"Guess the output","inLanguage":"en-US","author":{"@id":"https:\/\/bsky.app\/profile\/jerome.tamarelle.net"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_and_keys.html"]}]},{"@type":"Person","@id":"https:\/\/bsky.app\/profile\/jerome.tamarelle.net","name":"Jerome Tamarelle","url":"https:\/\/bsky.app\/profile\/jerome.tamarelle.net","sameAs":["https:\/\/bsky.app\/profile\/jerome.tamarelle.net"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_and_keys.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_and_keys.html","name":"Yield And Keys","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:34:04+00:00","dateModified":"2026-07-14T14:34:04+00:00","description":"Guess the output","inLanguage":"en-US","author":{"@id":"https:\/\/bsky.app\/profile\/jerome.tamarelle.net"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_and_keys.html"]}]},{"@type":"Person","@id":"https:\/\/bsky.app\/profile\/jerome.tamarelle.net","name":"Jerome Tamarelle","url":"https:\/\/bsky.app\/profile\/jerome.tamarelle.net","sameAs":["https:\/\/bsky.app\/profile\/jerome.tamarelle.net"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Jerome Tamarelle <https://bsky.app/profile/jerome.tamarelle.net>`_
 
@@ -55,3 +55,5 @@ ____________
 * `iterator_to_array <https://php-dictionary.readthedocs.io/en/latest/dictionary/iterator_to_array.ini.html>`_
 
 
+
+Last updated: 14 July 2026

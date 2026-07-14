@@ -21,7 +21,7 @@ Match() With Multiple Values
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html","name":"Match() With Multiple Values","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:16 +0000","dateModified":"Tue, 14 Jul 2026 14:32:16 +0000","description":"This is an example of using ``match()``, to match against two values at the same time","inLanguage":"en-US","author":{"@id":"https:\/\/x.com\/pascalbaljet"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html"]}]},{"@type":"Person","@id":"https:\/\/x.com\/pascalbaljet","name":"Pascal Baljet","url":"https:\/\/x.com\/pascalbaljet","sameAs":["https:\/\/x.com\/pascalbaljet"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html","name":"Match() With Multiple Values","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:32:16+00:00","dateModified":"2026-07-14T14:32:16+00:00","description":"This is an example of using ``match()``, to match against two values at the same time","inLanguage":"en-US","author":{"@id":"https:\/\/x.com\/pascalbaljet"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html"]}]},{"@type":"Person","@id":"https:\/\/x.com\/pascalbaljet","name":"Pascal Baljet","url":"https:\/\/x.com\/pascalbaljet","sameAs":["https:\/\/x.com\/pascalbaljet"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Pascal Baljet <https://x.com/pascalbaljet>`_
 
@@ -57,3 +57,5 @@ ____________
 * `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
 
 
+
+Last updated: 14 July 2026

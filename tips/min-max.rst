@@ -21,7 +21,7 @@ min() And max() For Interval
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/min-max.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/min-max.html","name":"min() And max() For Interval","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:21 +0000","dateModified":"Tue, 14 Jul 2026 14:32:21 +0000","description":"PHP trick: min-max a number in one line","inLanguage":"en-US","author":{"@id":"https:\/\/www.youtube.com\/c\/LaravelDaily"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/min-max.html"]}]},{"@type":"Person","@id":"https:\/\/www.youtube.com\/c\/LaravelDaily","name":"Povilas Korop","url":"https:\/\/www.youtube.com\/c\/LaravelDaily","sameAs":["https:\/\/www.youtube.com\/c\/LaravelDaily"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/min-max.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/min-max.html","name":"min() And max() For Interval","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:32:21+00:00","dateModified":"2026-07-14T14:32:21+00:00","description":"PHP trick: min-max a number in one line","inLanguage":"en-US","author":{"@id":"https:\/\/www.youtube.com\/c\/LaravelDaily"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/min-max.html"]}]},{"@type":"Person","@id":"https:\/\/www.youtube.com\/c\/LaravelDaily","name":"Povilas Korop","url":"https:\/\/www.youtube.com\/c\/LaravelDaily","sameAs":["https:\/\/www.youtube.com\/c\/LaravelDaily"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Povilas Korop <https://www.youtube.com/c/LaravelDaily>`_
 
@@ -68,3 +68,5 @@ ____________
 * `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
 
 
+
+Last updated: 14 July 2026
