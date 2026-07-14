@@ -1,0 +1,352 @@
+#PHP Tips and tricks
+PHP tips and tricks is a treasure trove of PHP pieces of code. It collects all those quick one-liners, unexpected behaviors, hidden features and strange things that are concealed in the dark corners of PHP.
+
+##Entries
+[What Array Is A List](https://php-tips.readthedocs.io/en/latest/tips/what_array_list.html) array_is_list() was introduced in PHP 8.
+[A Non-transitive Comparison](https://php-tips.readthedocs.io/en/latest/tips/non-transitive-comparison.html) Sometimes I truly believe that I have grasped all of the weird semantics of PHP, and then I discover something so simple that breaks an assumption I had about the language.
+[Chained Assignation Skips __get()](https://php-tips.readthedocs.io/en/latest/tips/chained_assignation.html) Chained assignation skip the ``get`` part and assign the same value to all elements in the chain.
+[eval() And __FILE__](https://php-tips.readthedocs.io/en/latest/tips/eval_and__FILE__.html) __FILE__ is a magic constant that holds the current file full path.
+[Fiber Throws Where The Fiber Is](https://php-tips.readthedocs.io/en/latest/tips/fiber-throw-suspension.html) ``Fiber`` is the generator's sibling that nobody writes tips about, so here is one.
+[Infinite Operations](https://php-tips.readthedocs.io/en/latest/tips/infinite_operations.html) Here are some border line calculations with large numbers in PHP: calculating beyond PHP_INT_MAX is possible, as long as the resulting number is still.
+[array_find() And array_find_keys()](https://php-tips.readthedocs.io/en/latest/tips/array_find.html) PHP 8.
+[Readonly Class Must Match Its Parent](https://php-tips.readthedocs.io/en/latest/tips/readonly-class-inheritance.html) PHP 8.
+[The undefined Keyword](https://php-tips.readthedocs.io/en/latest/tips/undefined_keyword.html) This is valid PHP code.
+[SQL In Memory](https://php-tips.readthedocs.io/en/latest/tips/sql_memory.html) There is no need to set up a whole SQL server to run queries.
+[The Unreachable Method](https://php-tips.readthedocs.io/en/latest/tips/unreachable_method.html) How can one call the A::foo() method? A::foo() is public, but it is also part of an abstract class.
+[min() And max() For Interval](https://php-tips.readthedocs.io/en/latest/tips/min-max.html) PHP trick: min-max a number in one line.
+[Extra ::class](https://php-tips.readthedocs.io/en/latest/tips/extra_class.html) It is possible to use ``::class`` when reaching for static elements with the ``::`` operator: the ``::class`` returns the full name of the class, which is later used to look for the static.
+[Other Types For A Property](https://php-tips.readthedocs.io/en/latest/tips/other_type_for_property.html) It is possible to make a typed property accept more than its definition type.
+[Larger Than Int](https://php-tips.readthedocs.io/en/latest/tips/larger_than_int.html) printf() displays an integer as a string.
+[Duplicate Type](https://php-tips.readthedocs.io/en/latest/tips/duplicate_type.html) Union types check for duplicate types, so ``array|array`` is not possible, nor if a class is aliased with a use expression: on the other hand, it is valid with a class alias, created with ``class_alias()``.
+[Yield Or Return](https://php-tips.readthedocs.io/en/latest/tips/yield_or_return.html) It is possible to spread an array as dynamic arguments: this applies to returned arrays, after a function call.
+[Multiple Method In Interface](https://php-tips.readthedocs.io/en/latest/tips/multiple_method_in_interface.html) It is possible for a class to implements two interfaces that are defining the same method.
+[Operator Overloading](https://php-tips.readthedocs.io/en/latest/tips/operator_overloading.html) PHP has no operator overloading in the userland, but it may be achieved by using an extension.
+[Three Return Errors](https://php-tips.readthedocs.io/en/latest/tips/three_return_errors.html) There are three errors in this code.
+[array_unique() Is Slow](https://php-tips.readthedocs.io/en/latest/tips/array_unique_is_slow.html) Why is array_unique() still slower than using a combinaison of array_count_values() and array_keys? And by an order of magnitude.
+[Cloning Static Variable](https://php-tips.readthedocs.io/en/latest/tips/cloning_static_variable.html) It is not possible to clone a static variable, but it is well possible to duplicate a closure which contains a static variable.
+[Datetime And Leap Second](https://php-tips.readthedocs.io/en/latest/tips/beyond_datetime.html) The last leap second was added on 2016, Dec 31rst.
+[Silent Type Cast](https://php-tips.readthedocs.io/en/latest/tips/silent_type_cast.html) An integer is a float, but the opposite is not always true.
+[Objects As Keys In Foreach](https://php-tips.readthedocs.io/en/latest/tips/objects_as_keys.html) foreach() usually works on arrays, where the keys are either integer or strings.
+[isset() On Uninitialized Properties](https://php-tips.readthedocs.io/en/latest/tips/isset_usage.html) Typed properties cannot be read until they are written once.
+[Recycle Generator](https://php-tips.readthedocs.io/en/latest/tips/recycle_generator.html) After creating a generator, it is possible to nest it and run the same geenrator twice.
+[Of Integers And Floats](https://php-tips.readthedocs.io/en/latest/tips/int_and_float.html) First thing to unpack in this post: PHP accepts any number of decimals when it is hardcoded in the source.
+[max() On Strings](https://php-tips.readthedocs.io/en/latest/tips/max_on_string.html) The min() and max() functions return the minimum or the maximum value of items in an array.
+[e And Euler](https://php-tips.readthedocs.io/en/latest/tips/e_and_euler.html) PHP has two distinct constants: ``M_E``, which stands for the mathematical ``e`` exponential constant, and with a value of ``2.
+[Closure On Constructor](https://php-tips.readthedocs.io/en/latest/tips/closure_on_constructor.html) PHP 8.
+[++ Riddle](https://php-tips.readthedocs.io/en/latest/tips/plusplus_riddle.html) PHP has no operator ``++-++``.
+[Oversigned Integers](https://php-tips.readthedocs.io/en/latest/tips/signed_integer.html) PHP has signed integers.
+[Local Variable Cost](https://php-tips.readthedocs.io/en/latest/tips/local-variable-cost.html) Local variables in PHP methods cost something.
+[Array Items By Value](https://php-tips.readthedocs.io/en/latest/tips/array_by_value.html) In this code, an array is built with objects.
+[Not Set But Exists](https://php-tips.readthedocs.io/en/latest/tips/not_set_but_exists.html) In this code, a custom class X is created.
+[Sorting Enum](https://php-tips.readthedocs.io/en/latest/tips/sorting_enum.html) Enum cases are sorted, by default, with their definition order.
+[Hypotenuse In Action](https://php-tips.readthedocs.io/en/latest/tips/hypot.html) PHP has a built-in Euclidean distance function, if you need to calculate a distance!
+Sounds complex, but it's just the hypotenus! Without the overflow risk of doing it manually.
+[Spaceship Always False](https://php-tips.readthedocs.io/en/latest/tips/spaceship_always_false.html) Compare A to B, and A is bigger than B.
+[Inverted Spaceship Results](https://php-tips.readthedocs.io/en/latest/tips/inverted-spaceship.html) In the first class, the properties are declared $a, then $b.
+[isset(), empty() And the Magic Methods](https://php-tips.readthedocs.io/en/latest/tips/isset-empty-valued.html) The ``__isset()`` and ``__get()`` methods must go hand in hand.
+[Comparing Arrays And Object](https://php-tips.readthedocs.io/en/latest/tips/comparing-arrays.html) ``==`` and ``===`` apply different algorithms to compare arrays.
+[Mixed Compatibility](https://php-tips.readthedocs.io/en/latest/tips/mixed_compatibility.html) Method compatibility means that eponymous methods must have the same number of arguments, and compatible types.
+[Where Did The Comma Go?](https://php-tips.readthedocs.io/en/latest/tips/comma_in_number.html) It took me way too long to figure out this one.
+[Argument Renaming](https://php-tips.readthedocs.io/en/latest/tips/arg_renaming.html) Method compatibility does not allow adding or removing arguments between a parent and a child, and types must be compatible.
+[When htmlemtities() Is Failing](https://php-tips.readthedocs.io/en/latest/tips/htmlemtities_failing.html) By default, htmlemtities() uses UTF-8.
+[Static Arrow Function](https://php-tips.readthedocs.io/en/latest/tips/static_arrow_function.html) It is possible to add the ``static`` option to an arrow function.
+[defined() In Action](https://php-tips.readthedocs.io/en/latest/tips/defined.html) The defined() function checks if a constant is defined or not.
+[expm1() And log1p()](https://php-tips.readthedocs.io/en/latest/tips/expm1.html) In PHP, expm1() computes exp(x) - 1.
+[Is A Class Constant Set?](https://php-tips.readthedocs.io/en/latest/tips/isset_class_constant.html) When using a dynamic class constant, it is important to check if the constant is actually defined.
+[preg_split() Magic](https://php-tips.readthedocs.io/en/latest/tips/preg_split.html) Most of the time, explode() is sufficient to split a string with a static separator.
+[Comparing NAN](https://php-tips.readthedocs.io/en/latest/tips/compare_nan.html) PHP does not compare ``NAN`` values: it always fails, even if the source is the same.
+[array_unique() And Enum](https://php-tips.readthedocs.io/en/latest/tips/array_unique_and_enum.html) Enumerations works like normal values, most of the time.
+[Display A Tree Natively](https://php-tips.readthedocs.io/en/latest/tips/tree-iterator.html) PHP has a built-in ASCII tree renderer.
+[Speed Up CSV Write To Disk](https://php-tips.readthedocs.io/en/latest/tips/speed_up_write_to_disk.html) When writing CSV files with fputcsv() function, PHP flushes each row to the disk.
+[php://memory And Maxmemory](https://php-tips.readthedocs.io/en/latest/tips/maxmemory.html) ``php://memory`` is a stream that lives in RAM.
+[::parent Operator](https://php-tips.readthedocs.io/en/latest/tips/parent_operator.html) PHP provides the ``X::class`` operator to access a class's fully qualified name.
+[Stuttering PHP](https://php-tips.readthedocs.io/en/latest/tips/stuttering.html) Not a great joke, but it made me chuckle.
+[Riddle: ``$this<-code``](https://php-tips.readthedocs.io/en/latest/tips/make_it_work.html) Can you make this code work?
+The challenge is to only add more code to this snippet, not less.
+[Multiple Const Types](https://php-tips.readthedocs.io/en/latest/tips/crazy_const_type.html) Class constants may be typed since PHP 8.
+[Replacing PHP http Wrapper](https://php-tips.readthedocs.io/en/latest/tips/http_wrapper.html) Did you know you can override built-in protocols such as https://?
+You can create mocks! I'd advise to use dedicated tools such as #Symfony MockHttpClient.
+[Cast But Not A Cast](https://php-tips.readthedocs.io/en/latest/tips/cast_but_not_cast.html) One frequent way to convert a string to an integer is to ``+ 0`` it.
+[Hexadecimal Separator](https://php-tips.readthedocs.io/en/latest/tips/hexadecimal_separator.html) PHP offers a number separator since PHP 8.
+[Call echo With Commas](https://php-tips.readthedocs.io/en/latest/tips/echo-comma.html) The most efficient way to call echo is to use commas.
+[Reusing Decimals For Bananas](https://php-tips.readthedocs.io/en/latest/tips/errorNumber.html) Besides decimal numbers such as ``8.
+[Where To Put The Cast?](https://php-tips.readthedocs.io/en/latest/tips/put_the_cast_where.html) Start from a string, and turn it into a negative number.
+[Unpacking A Single Element Array](https://php-tips.readthedocs.io/en/latest/tips/unpacking_single_array.html) The ellipsis operator ``.
+[Abstract Or Not](https://php-tips.readthedocs.io/en/latest/tips/abstract_or_not.html) A parent method must have a compatible signature with the same method in any child.
+[(int) And (ant)](https://php-tips.readthedocs.io/en/latest/tips/int_and_ant.html) It is possible to store a Closure in a constant, since PHP 8.
+[Cast In Const](https://php-tips.readthedocs.io/en/latest/tips/cast_in_const.html) TIL that constant values accepts casting since PHP 8.
+[global Overwrites](https://php-tips.readthedocs.io/en/latest/tips/global_overwrite.html) The ``global`` keyword is actually enough to overwrite a local variable.
+[Property Hooks And Default Values](https://php-tips.readthedocs.io/en/latest/tips/property_hook_default_values.html) PHP property hooks
+Would you expect equal behaviour?
+[Added answer] The default value on the property hook is used when the hook is called.
+[Static And Not Static Method](https://php-tips.readthedocs.io/en/latest/tips/static_and_not_static.html) Could PHP have both a static and a non-static method, with the same name?
+PHP accepts to have several signatures for the same method, yet this has to be handled with different tools, in the body of the function.
+[intval() And Its Arguments](https://php-tips.readthedocs.io/en/latest/tips/intval.html) What is happening here? Multiple things to unfold, actually.
+[Easy Map](https://php-tips.readthedocs.io/en/latest/tips/easy_map.html) array_column() extracts a property or an index in an array of objects or arrays.
+[Returning Void](https://php-tips.readthedocs.io/en/latest/tips/returningVoid.html) A very large majority think that it doesn’t cause an error and yet, it does.
+[Casting An Enum Case](https://php-tips.readthedocs.io/en/latest/tips/casting_enum.html) TIL that enumeration cases cannot be cast.
+[Dynamic Class Constant Edge Cases](https://php-tips.readthedocs.io/en/latest/tips/dynamic_class_constant_edges.html) PHP 8.
+[Dynamic Enum Cases](https://php-tips.readthedocs.io/en/latest/tips/dynamic_enum_cases.html) PHP offers the ``constant()`` function to reach the value of a constant, when knowing its name.
+[Yield And Keys](https://php-tips.readthedocs.io/en/latest/tips/yield_and_keys.html) Guess the output.
+[Array Callback Index](https://php-tips.readthedocs.io/en/latest/tips/array-callaback-index.html) An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name.
+[Time Of Closure Creation](https://php-tips.readthedocs.io/en/latest/tips/closureCreation.html) Here are four ways to create a closure : a callable array, an arrow function, a first class callable, and a static method.
+[Coalesce And The Fatal Error](https://php-tips.readthedocs.io/en/latest/tips/fatal_error_on_coalesce.html) The coalesce operator is based on the ``isset()`` feature of PHP.
+[Weakmap And Enums](https://php-tips.readthedocs.io/en/latest/tips/weakmap.html) Have been reminded by a fellow PHP dev that, instead of a simple array, one could also use ``WeakMap``.
+[parent In Function](https://php-tips.readthedocs.io/en/latest/tips/parent_in_function.html) ``parent`` shall only be inside a class, as it refers to the parent class.
+[isset() And The Fatal Error](https://php-tips.readthedocs.io/en/latest/tips/isset_and_the_fatal_error.html) isset() checks if a variable exists.
+[All PHP Dereferencements](https://php-tips.readthedocs.io/en/latest/tips/allDereferencements.html) This ugly expression holds a long list of operators to move from one value to the other and produces the simple letter 'c'.
+[No Property Beyond Limits](https://php-tips.readthedocs.io/en/latest/tips/noPropertyBelowMininum.html) TIL that PHP reports attempts to go beyond the limits (upper and lower) of integer properties.
+[Can't Be Compatible With Less Arguments](https://php-tips.readthedocs.io/en/latest/tips/cantBeBackCompatible.html) A method is compatible with its parent's version when it has at least the same number of arguments.
+[Arrow Functions Import Variables By Values](https://php-tips.readthedocs.io/en/latest/tips/arrowFunctionsImportVariables.html) Arrow functions automatically import the variables from the current context, to be used in its returned expression.
+[Never Is The Lowest Ranking Type](https://php-tips.readthedocs.io/en/latest/tips/neverIsAlwaysCovariant.html) It is always possible to use ``never`` as a compatible type in a return type.
+[The Never Function Arrow](https://php-tips.readthedocs.io/en/latest/tips/neverFunctionArrow.html) This is a rare occurrence: that syntax is not valid in PHP 8.
+[No Rewrite For Exit](https://php-tips.readthedocs.io/en/latest/tips/noExitRewrite.html) Since PHP 8.
+[Alias Conflicts](https://php-tips.readthedocs.io/en/latest/tips/aliasConflicts.html) When the class is defined before the alias, the alias fails as the class already uses the name.
+[Not All Incremented Strings Are Deprecated](https://php-tips.readthedocs.io/en/latest/tips/notAllIncrementStrings.html) News are that the famous PHP feature to increment strings is deprecated.
+[get_class() Or ::class?](https://php-tips.readthedocs.io/en/latest/tips/get_class_or_class.html) Both ``get_class()`` and ``::class`` do the same: they report the name of the class of the provided object.
+[No Binding But With Original](https://php-tips.readthedocs.io/en/latest/tips/noBindingButOriginal.html) It is possible to change the underlying object of a closure.
+[Infinite foreach()](https://php-tips.readthedocs.io/en/latest/tips/infinite_foreach.html) Foreach() is built against infinite loops: it works on a finite number of elements in arrays.
+[Who Modifies This Property?](https://php-tips.readthedocs.io/en/latest/tips/who_modifies_this.html) Several observations in this code:
+it is possible to define a property without visibility: the property hook makes it a promoted property.
+[mixed Is Not No Type](https://php-tips.readthedocs.io/en/latest/tips/mixed_is_not_no_type.html) When a property is not typed, nor has a default value, it still may be accessed freely: its value is ``null``.
+[The Recursive array_merge()](https://php-tips.readthedocs.io/en/latest/tips/array_merge_recursive.html) array_merge_recursive() merges several arrays together, like its cousin array_merge().
+[$GLOBALS Is Not Defined](https://php-tips.readthedocs.io/en/latest/tips/GLOBALS_is_not_defined.html) $GLOBALS is a PHP superglobal, which is always available, no matter the context.
+[Cast Private To Array](https://php-tips.readthedocs.io/en/latest/tips/cast_private_to_array.html) Today I learned that PHP exposes private properties when an object is cast to an array.
+[Properties In Interfaces](https://php-tips.readthedocs.io/en/latest/tips/property_in_interface.html) Since PHP 8.
+[Bitwise Operations On String](https://php-tips.readthedocs.io/en/latest/tips/bit_operation_on_string.html) The bit operators ``&``, ``|`` and ``^`` work on integers, and use the numbers as a bitfield: each bit in the numbers are compared with the operator, and set accordingly in the result.
+[Typed Variables](https://php-tips.readthedocs.io/en/latest/tips/typed_variables.html) A local variable cannot be typed.
+[Type And Reference](https://php-tips.readthedocs.io/en/latest/tips/type_and_reference.html) Parameter's type is check at calling time.
+[Chaining Spaceship](https://php-tips.readthedocs.io/en/latest/tips/chaining_spaceship.html) It is possible to chain several spaceship operations by using the coalesce operator ``?:``.
+[parse_str() Edge Cases](https://php-tips.readthedocs.io/en/latest/tips/parse_str_edge_cases.html) parse_str() reads the variables in the URL's query string, and convert them into an array.
+[Cast A Closure To Array](https://php-tips.readthedocs.io/en/latest/tips/closure_to_array.html) TIL: ``(array) $obj`` will result in ``array<string, mixed>`` ( properties key/value pairs ), with the exception if ``$obj`` is Closure, where the result would be ``[$obj]``.
+[list() Does Not Type](https://php-tips.readthedocs.io/en/latest/tips/list_does_not_type.html) The list() command does not report that the type of the right operand is not correct.
+[Triple Plus Operator](https://php-tips.readthedocs.io/en/latest/tips/triple_plus_operator.html) This is a white space trick, where the expression allows for ``++`` and ``+`` to follow each other.
+[Function Name In A Method](https://php-tips.readthedocs.io/en/latest/tips/FunctionNameInAMethod.html) The magic constants give information on the context of execution of the code.
+[PHP Quine](https://php-tips.readthedocs.io/en/latest/tips/quine.html) A quine is a piece of code that produces itself.
+[Named Parameter In An Array](https://php-tips.readthedocs.io/en/latest/tips/named_parameter_in_an_array.html) It is possible to spread the arguments from an array to a functioncall.
+[self Is A Valid Type On A Closure](https://php-tips.readthedocs.io/en/latest/tips/selfOnAClosure.html) ``self`` is a valid type inside a class (trait, interface, enum) to reference the current class.
+[Keep Interface New Argument Compatible](https://php-tips.readthedocs.io/en/latest/tips/compatible_new_argument.html) A reminder for maintainers of PHP libraries: adding a parameter to a method of an interface causes a fatal error in all the classes that implement it.
+[Undefined Constant A On Its Line Of Definition](https://php-tips.readthedocs.io/en/latest/tips/no_const_A.html) This piece of code returns a puzzling error: 'Undefined constant A', on the line 9.
+[http_build_query() And Enumerations](https://php-tips.readthedocs.io/en/latest/tips/http_build_query_enum.html) When using a backed enum with http_build_query(), the PHP native function uses the value of the case, and not the case itself.
+[Cannot indirectly modify readonly](https://php-tips.readthedocs.io/en/latest/tips/cannot-initialy-modify-readonly.html) The same error message 'Cannot indirectly modify readonly property X::$property' is used when trying to sneak a reference on a readonly property, and updated it later.
+[Ellipsis And Coalesce](https://php-tips.readthedocs.io/en/latest/tips/ellipsisAndCoalesce.html) Ellipsis, aka ``.
+[namespace namespace](https://php-tips.readthedocs.io/en/latest/tips/namespace_namespace.html) The only forbidden name for a namespace is ``namespace``.
+[Namespace, But Far In The Name](https://php-tips.readthedocs.io/en/latest/tips/namespace_but_far.html) Namespaces can be named anything, except ``namespace``.
+[No Hidden Nullable](https://php-tips.readthedocs.io/en/latest/tips/no-hidden-nullable.html) A hidden nullable is a, now deprecated, PHP features where typed parameters with a default value of ``null`` are automatically nullable.
+[Remove Last Item In An Array](https://php-tips.readthedocs.io/en/latest/tips/remove_last_item.html) Three ways to remove the last item in an array.
+[Cancelling Native Function](https://php-tips.readthedocs.io/en/latest/tips/cancelling_native_function.html) PHP native functions are part of the global scope.
+[Classes Constant Disambiguation With Parenthesis](https://php-tips.readthedocs.io/en/latest/tips/class_const_confusion.html) The ``::`` (scope resolution) operator and the instanceof operator in PHP are strictly designed to work with class names, not with variables or constants holding object instances.
+[compact() Is Recursive](https://php-tips.readthedocs.io/en/latest/tips/compact_is_recursive.html) ``compact()`` accepts an array of strings.
+[No Final Parameter](https://php-tips.readthedocs.io/en/latest/tips/no-final-parameter.html) Final is reserved for class elements, such as property, methods and constants.
+[Is Not A NAN](https://php-tips.readthedocs.io/en/latest/tips/is_not_a_nan.html) NAN is a special PHP constant, which represents ``not-a-number``: it is returned when a math function cannot calculate a value because it is out of its domain of application.
+[Impossible Named Arguments](https://php-tips.readthedocs.io/en/latest/tips/impossible_named_arguments.html) Named parameters use the parameter name to allocate the argument.
+[func_get_args() Skips Variadic](https://php-tips.readthedocs.io/en/latest/tips/func_get_args.html) func_get_args() does not provide the variadic argument, when there is one.
+[Ellipsis With Array Parameters](https://php-tips.readthedocs.io/en/latest/tips/ellipsis_array_parameters.html) It is possible to spread parameters from an array, when calling a function.
+[Named Parameter Inheritance](https://php-tips.readthedocs.io/en/latest/tips/named_parameter_inheritance.html) PHP enforces the methods compatibility with their types, names, and various options, but not with the parameter names.
+[__invoke() On New](https://php-tips.readthedocs.io/en/latest/tips/invoke_on_new.html) It is possible to create a new object by calling new on a previous object: PHP fetches the name of the class, then its constructor.
+[Method Or Property?](https://php-tips.readthedocs.io/en/latest/tips/method_or_property.html) The first line is a simple call to the method ``foo``, on an object whose class is not show here: if this works, there is a method foo() in that class.
+[No More Class _](https://php-tips.readthedocs.io/en/latest/tips/no_more_class__.html) Naming a class ``_`` has been deprecated in PHP 8.
+[Method Not Property Name Must Be String](https://php-tips.readthedocs.io/en/latest/tips/method_not_property_name_must_be_string.html) A dynamic property name must be a string, and it must exist.
+[Static Properties](https://php-tips.readthedocs.io/en/latest/tips/static_properties.html) It is easy to read that the property ``$x`` is of type ``Test`` (via static), with an impossible default value of 0.
+[The New And The Parenthesis](https://php-tips.readthedocs.io/en/latest/tips/new_and_parenthesis.html) Where does PHP accept parenthesis in a ``new`` call?
+First, no parenthesis is possible, as long as the constructor has no parameter.
+[Fluent Function](https://php-tips.readthedocs.io/en/latest/tips/fluent_function.html) A fluent interface allows the chaining of method calls.
+[Cannot Use Isset On Expression, So Use What?](https://php-tips.readthedocs.io/en/latest/tips/isset_on_expression.html) isset() works on data containers, such as variables, properties, array elements, but not on literal or constant values.
+[Constant Redefinition](https://php-tips.readthedocs.io/en/latest/tips/constant_redefinition.html) It is possible to specify several identical global constant definition: PHP reports a warning, and ignores the second definitions.
+[No Class Constant In String](https://php-tips.readthedocs.io/en/latest/tips/no-constant-in-string.html) Interpolation is injecting variable values inside strings.
+[Return Int Not Bool](https://php-tips.readthedocs.io/en/latest/tips/return_int_not_bool.html) There is a cute deprecation warning, when using a closure to sort an array: ``Deprecated: usort(): Returning ``bool`` from comparison function is deprecated, return an integer less than, equal to, or greater than zero``.
+[By Reference, Error Or Notice?](https://php-tips.readthedocs.io/en/latest/tips/by_reference_errors.html) Passing a literal by reference to a method causes a Fatal error, while returning a literal by reference only triggers a Notice.
+[Call Function With Strings](https://php-tips.readthedocs.io/en/latest/tips/call_function_with_strings.html) Usually, a function is called with its name as first element of the syntax.
+[Non Empty Match](https://php-tips.readthedocs.io/en/latest/tips/non-empty-match.html) PHP allows the empty ``switch``: that is, a switch command with an empty block of cases.
+[Named Sqlite3 In Memory](https://php-tips.readthedocs.io/en/latest/tips/named_sqlite3_in_memory.html) ``Sqlite3`` allows the creation of ``memory`` databases: the database is not stored on the disk, but in memory.
+[Variable Creation](https://php-tips.readthedocs.io/en/latest/tips/variable_creation.html) When defining a closure, the lexical variables (in the ``use`` clause) are created immediately, with the default value of ``null``.
+[All Enum Cases](https://php-tips.readthedocs.io/en/latest/tips/all_cases.html) One convenient aspect of enumerations is that they come with a full list of their cases.
+[Unicode Comments](https://php-tips.readthedocs.io/en/latest/tips/unicode_comments.html) Besides ``//``, ``#``, ``/** */`` and ``/* */``, there is another way to make a comment in PHP: unicode ``#️⃣️`` .
+[Datetime Object, And Years](https://php-tips.readthedocs.io/en/latest/tips/datetime_and_year.html) In this code, 2 years are given to ``Datetime``, and handed back.
+[Escaping A Regex](https://php-tips.readthedocs.io/en/latest/tips/escaped_regex.html) To use literal characters inside a regex, it is possible to use preg_quote(): it adds a backslash before every special character in the string.
+[Every Anonymous Class Is Different](https://php-tips.readthedocs.io/en/latest/tips/every_anonymous_class.html) Anonymous classes don't have an explicit name, yet PHP uses one internally.
+[instanceof With Variables](https://php-tips.readthedocs.io/en/latest/tips/instanceof_with_variable.html) It is possible to compare the type of two objects with ``instanceof``: PHP uses the class of the second operand, or the name of the class passed as a string.
+[Undefined Variable](https://php-tips.readthedocs.io/en/latest/tips/undefined_variable.html) The variable is undefined, and yet this is reported on the actual line where the variable is defined!
+In fact, the assignation to ``$x`` appears to be the definition of the variable, because we, as human, encounter it first while reading.
+[Compatible Signature](https://php-tips.readthedocs.io/en/latest/tips/compatible-signature.html) This piece of code shows a signature that changes with the version of PHP.
+[private Is Relaxed](https://php-tips.readthedocs.io/en/latest/tips/private_is_relaxed.html) PHP has the relaxed syntax since early 7.
+[Class Implement No More](https://php-tips.readthedocs.io/en/latest/tips/class_implements_no_more.html) Inheritance forces children classes to have only methods that are compatible with the parent's methods.
+[Variadic Are Typed And Defaulted](https://php-tips.readthedocs.io/en/latest/tips/variadic_are_typed_and_defaulted.html) When using the ``.
+[array_column() To Hash](https://php-tips.readthedocs.io/en/latest/tips/array_column_to_hash.html) array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects.
+[\\array Was Customizable](https://php-tips.readthedocs.io/en/latest/tips/array_is_custom.html) This code gathers several PHP hacks together.
+[array Is Not An Array](https://php-tips.readthedocs.io/en/latest/tips/array_is_not_an_array.html) PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\``.
+[array_map_assoc() With Keys](https://php-tips.readthedocs.io/en/latest/tips/array_map_assoc.html) array_map() only provides the value of the array, not the key.
+[array_map() Goes Full Throttle](https://php-tips.readthedocs.io/en/latest/tips/array_map_to_the_max.html) array_map() applies a closure, its first argument, to every elements of an array, its second argument.
+[Typed Array](https://php-tips.readthedocs.io/en/latest/tips/typed_array.html) It is possible to set the type of all elements in a variadic: this is equivalent of passing an argument of type ``array<User>``.
+[Initialize Readonly On Child](https://php-tips.readthedocs.io/en/latest/tips/initialize_readonly_on_child.html) Readonly properties could only be initialized in the same class as their definition.
+[Silent Optimisation Of Variables](https://php-tips.readthedocs.io/en/latest/tips/silent_optimisation.html) See PHP optimisation in action: undefined variables are only reported when they are used (sic).
+[Modify String With Array Syntax](https://php-tips.readthedocs.io/en/latest/tips/array_syntax_on_string.html) PHP strings allows access to individual characters using the array syntax: ``$string[$index]``.
+[No Force Object To String](https://php-tips.readthedocs.io/en/latest/tips/no_force_object_to_string.html) PHP automatically converts numeric strings to integers when used as array indices, so '123' becomes 123 (the integer).
+[__invoke() Method And Properties](https://php-tips.readthedocs.io/en/latest/tips/invoke_and_properties.html) In the code here, the __invoke() makes the class ``X`` invokable : the object may be used as a function name and it will call the magic method ``__invoke``.
+[Constructor Needed](https://php-tips.readthedocs.io/en/latest/tips/constructor_needed.html) By default, classes don't need a constructor, and it may be omitted.
+[No Self Referencing Constants](https://php-tips.readthedocs.io/en/latest/tips/self-referencing-constants.html) It is not possible to define a recursive PHP class constant, although it is possible to write it.
+[Deanonymize Class](https://php-tips.readthedocs.io/en/latest/tips/deanonymize-class.html) Anonymize class are classes without a name.
+[Noscream On Ellipsis](https://php-tips.readthedocs.io/en/latest/tips/noscream-on-ellipsis.html) Noscream operator @ hides errors locally, in an expression.
+[Incompatible Promoted Readonly](https://php-tips.readthedocs.io/en/latest/tips/incompatible-promoted-readonlies.html) Promoted properties allows the creation of properties directly from the constructor signature.
+[Where Is The Semicolon?](https://php-tips.readthedocs.io/en/latest/tips/where-is-the-semicolon.html) This code is an attribute.
+[Self As Attribute](https://php-tips.readthedocs.io/en/latest/tips/self-as-attribute.html) Self, parent and static cannot be used as attributes.
+[Reading Micro-seconds](https://php-tips.readthedocs.io/en/latest/tips/microtimes.html) There are different ways to access micro seconds in PHP : use the ``Datetime`` format of ``u``, which works with ``Datetime``.
+[Promoted Properties Compatibility](https://php-tips.readthedocs.io/en/latest/tips/promoted_compatibility.html) Promoted properties are defined in a constructor signature.
+[Enum Are Not Linted](https://php-tips.readthedocs.io/en/latest/tips/enum_are_not_linted.html) It is possible to give two identical values to different enumeration cases, but not to execute it.
+[Sorting With Minus](https://php-tips.readthedocs.io/en/latest/tips/sorting_with_minus.html) Did you know that sorting ``f``, ``0`` and ``-f`` actually ends up with ``-f`` first, then ``0``, then ``f``.
+[Override With Interface](https://php-tips.readthedocs.io/en/latest/tips/override_with_interface.html) The override attribute checks that a method is actually overriding a parent definition of the same method: this implies that a class must have a parent to use the Override attribute.
+[Send An Argument To Generator](https://php-tips.readthedocs.io/en/latest/tips/send_to_generator.html) When calling the method send() on a PHP generator, the result of the first yield keyword is the argument value.
+[PHP Integer Format](https://php-tips.readthedocs.io/en/latest/tips/php_integer_format.html) PHP has several convenient integer format to write them in a proper way: 0x12F, 0b110101, 0o12367.
+[Compatible Only Interface](https://php-tips.readthedocs.io/en/latest/tips/compatible_interface.html) Interfaces are contracts that defines methods signatures, which the derived classes have to implements.
+[No Cast In Constant Expressions](https://php-tips.readthedocs.io/en/latest/tips/no_cast_in_constant_expression.html) Constant expressions do not accept the cast operator.
+[Lots Of Silly Arguments](https://php-tips.readthedocs.io/en/latest/tips/self_invoking.html) PHP 8.
+[Child Of Attribute Is Not An Attribute](https://php-tips.readthedocs.io/en/latest/tips/no_child_with_attribute.html) A class attribute must be marked with an attribute called ``Attribute``.
+[Dynamic Class Constant](https://php-tips.readthedocs.io/en/latest/tips/dynamic_class_constant.html) It is not allowed to create dynamically a class constant.
+[The Function Method](https://php-tips.readthedocs.io/en/latest/tips/function_function.html) It is possible to name a method 'function'.
+[Match() With Multiple Values](https://php-tips.readthedocs.io/en/latest/tips/match_multiple_values.html) This is an example of using ``match()``, to match against two values at the same time.
+[Interfaces Constants Conflicts](https://php-tips.readthedocs.io/en/latest/tips/interface_constant_conflict.html) PHP reports duplicate constant definitions in different interfaces.
+[Foreach() Skips Uninitialized Properties](https://php-tips.readthedocs.io/en/latest/tips/foreach_skips_uninitialized.html) Foreach() reads naturally all public properties in an object.
+[Casting And Power](https://php-tips.readthedocs.io/en/latest/tips/cast_and_power.html) When you know that ``2*2 = 4``, and ``2**2 = 4`` (too), and ``2.
+[Attribute Without Class](https://php-tips.readthedocs.io/en/latest/tips/attribute_without_class.html) PHP 8.
+[Class Is A Valid Type](https://php-tips.readthedocs.io/en/latest/tips/class_is_valid_class.html) PHP allows to use ``\class`` as a class name in a type.
+[Float Precision](https://php-tips.readthedocs.io/en/latest/tips/precision.html) PHP has a ``precision`` directive that controls the number of decimals displayed by float values.
+[Store Float As Index](https://php-tips.readthedocs.io/en/latest/tips/store_float_as_index.html) With PHP, floats cannot be used directly as array indexes because array keys must be either integers or strings.
+[Case Insensitive Cast](https://php-tips.readthedocs.io/en/latest/tips/case_insensitive_cast.html) PHP's cast operators are case-insensitive, meaning variations like ``(int)``, ``(INT)``, and ``(iNt)`` all work the same way.
+[$this $this](https://php-tips.readthedocs.io/en/latest/tips/this_this.html) $this is the pseudo-variable that represents the current object.
+[No Returntype But Still, Only String](https://php-tips.readthedocs.io/en/latest/tips/no-type-but-string.html) Without a return type (or mixed), a method may return any type of data.
+[No Unknown For array_merge()](https://php-tips.readthedocs.io/en/latest/tips/no_unknown_for_array_merge.html) A PHP variadic argument collects all the unused named parameters, along with their key.
+[No Returntype Enforced](https://php-tips.readthedocs.io/en/latest/tips/no-returntype-enforced.html) A return type on a method means that the method must return something of that type.
+[As As As](https://php-tips.readthedocs.io/en/latest/tips/as-as-as.html) 1) it is possible to call a method 'as', because relaxed keywords PHP methods
+2) it is possible to import a method from a trait, and alias it to itself.
+[No DNF For Catch](https://php-tips.readthedocs.io/en/latest/tips/no_dnf_for_catch.html) Catch clauses accept multiple types of exceptions, since PHP 7.
+[new On Object](https://php-tips.readthedocs.io/en/latest/tips/new_on_object.html) It is possible to use new on an object, to get a new object of the same class.
+[Unfinished Class Doesn't Compile](https://php-tips.readthedocs.io/en/latest/tips/unfinished_class.html) PHP is not able to use a class before it is defined.
+[Yield, Not Return By Reference](https://php-tips.readthedocs.io/en/latest/tips/yield_not_return_by_reference.html) When a method returns a reference, there is a ``&`` before its name, in the signature.
+[class_exists() With Enums](https://php-tips.readthedocs.io/en/latest/tips/enum_exists.html) In PHP, there are dedicated functions to check the availability of structures:
+- ``class_exists()``
+- ``trait_exists()``
+- ``interface_exists()``
+- ``enum_exists()``
+What would the code here produce?
+This is displaying true.
+[No Semicolon In Sight](https://php-tips.readthedocs.io/en/latest/tips/no_semi_colon_in_sight.html) This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag.
+[glob() With Hidden Files](https://php-tips.readthedocs.io/en/latest/tips/glob_with_hidden_files.html) By default, the ``glob()`` function lists only files that don't start with a dot ``.
+[A Function Called file_append_contents()](https://php-tips.readthedocs.io/en/latest/tips/file_append_contents.html) file_put_contents() can append data to the end of the file, with the ``FILE_APPEND`` option.
+[array_reduce() To Filter And Alter](https://php-tips.readthedocs.io/en/latest/tips/array_reduce.html) Using array_reduce() to create custom data structures goes beyond simple filtering.
+[$this Is Not Of The Current Class](https://php-tips.readthedocs.io/en/latest/tips/this_is_not_the_current_class.html) $this is a pseudo-variable, that represents the current object of the calling object (dixit the manual): it is often portrayed as representing an object of the current class.
+[Class Constants With Different Types](https://php-tips.readthedocs.io/en/latest/tips/class_constant_different_types.html) With PHP, it is possible to have a class constant with different values, between a parent class, and its child class.
+[No Change To $this](https://php-tips.readthedocs.io/en/latest/tips/no_change_to_this.html) Variable ``$this`` is passed and reassigned by reference is a noop, as opposed to all other variables.
+[file_put_contents() With Array Argument](https://php-tips.readthedocs.io/en/latest/tips/file_put_array.html) The second argument of file_put_contents() is typed as ``mixed``.
+[Get The Generator](https://php-tips.readthedocs.io/en/latest/tips/get_the_generator.html) It is possible to catch a generator when it is called, by putting it in a variable.
+[Redefine Native Functions](https://php-tips.readthedocs.io/en/latest/tips/redefine_native_functions.html) It is possible to redefine PHP functions or constants, or even any defined of such, by using the ``use`` command.
+[A Static Method Cannot Call A Non Static Method](https://php-tips.readthedocs.io/en/latest/tips/static_cannot_call_non_static.html) It is known that a non-static method can call a static method.
+[Declared Before Or After](https://php-tips.readthedocs.io/en/latest/tips/before_after.html) PHP takes the opportunity to validate everything it can when it is handy, and leave the rest to execution time.
+[Cast Is So Strong](https://php-tips.readthedocs.io/en/latest/tips/cast_is_strong.html) The code below yields a Fatal Error, at linting time.
+[Roman Loops](https://php-tips.readthedocs.io/en/latest/tips/roman_loops.html) If the classic variable with a for() loop is ``$i``, then nested loop should use ``$ii``, then ``$iii``, ``$iv``, ``$v``.
+[Finally Catches Exception](https://php-tips.readthedocs.io/en/latest/tips/finally_catches_exception.html) In this code, finally is executed after the throw.
+[Always Compatible Variadic](https://php-tips.readthedocs.io/en/latest/tips/always_compatible_variadic.html) A variadic argument is a valid and compatible signature, for methods that overwrite other methods.
+[Yield, Not Return](https://php-tips.readthedocs.io/en/latest/tips/yield_not_return.html) This code displays ``1 2 3``.
+[try, catch, finally Are All Optional](https://php-tips.readthedocs.io/en/latest/tips/try-catch-finally.html) The finally clause in a try-catch-finally is actually optional: it can be omitted.
+[null Or Boolean As Array](https://php-tips.readthedocs.io/en/latest/tips/nullAsArray.html) Null and booleans support the array syntax, but always return NULL as value.
+[Hide Sensitive Parameter](https://php-tips.readthedocs.io/en/latest/tips/sensitiveParameter.html) PHP 8.
+[No Property In Interface](https://php-tips.readthedocs.io/en/latest/tips/no_property_in_interface.html) PHP is better than me : I thought I found a way to create properties in an interface, by declaring promoted properties in a constructor.
+[The Uncallable Function](https://php-tips.readthedocs.io/en/latest/tips/uncallable_function.html) The function foo() cannot be called.
+[Easy Wither Call](https://php-tips.readthedocs.io/en/latest/tips/easy_wither.html) Can be useful to create "with-ers" in an immutable (value) object with a LOT of readonly properties.
+[Array Is Full](https://php-tips.readthedocs.io/en/latest/tips/array_is_full.html) When using append, the next id is calculated based on the largest integer key ever used in that array.
+[Const Without Parenthesis](https://php-tips.readthedocs.io/en/latest/tips/const_without_parenthesis.html) It is possible to put a single literal inside parenthesis: that's just the literal itself.
+[Cast Are Case Insensitive](https://php-tips.readthedocs.io/en/latest/tips/cast_are_case_insensitive.html) Today I learned that PHP cast operators like ``(int)`` and ``(array)`` are case-insensitive—so ``(STRING)`` works just as well.
+[Array And Object Syntax, Not The Same Error](https://php-tips.readthedocs.io/en/latest/tips/not_same_error.html) When accessing an array as an object, PHP raises a Warning and continues with NULL.
+[When Space Matters](https://php-tips.readthedocs.io/en/latest/tips/when_space_matters.html) The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation.
+[array array = array()](https://php-tips.readthedocs.io/en/latest/tips/array_array_array.html) This made me chuckle.
+[Cannot Yield And Never](https://php-tips.readthedocs.io/en/latest/tips/yield_cannot_never.html) Never, as a return type, mentions that the method will never return.
+[Class Invasion Both Ways](https://php-tips.readthedocs.io/en/latest/tips/class_invasion_reciproque.html) Class invasion, it when an object access anything it wants in another object of the same class.
+[Typed By Enum](https://php-tips.readthedocs.io/en/latest/tips/typed_by_enum.html) Enumeration cannot be instantiated into an object.
+[Change A Static Variable Outside Its Function](https://php-tips.readthedocs.io/en/latest/tips/reference_on_static.html) Static variables are persistent between calls to the same method.
+[Scalar Types Are Unqualified](https://php-tips.readthedocs.io/en/latest/tips/scalar_types_are_unqualified.html) Scalar types like ``int `` or  ``iterable`` should be used without a leading slash.
+[array_append() And Short Assignation](https://php-tips.readthedocs.io/en/latest/tips/array_append.html) PHP allows using short assignation operators with the array append operators.
+[Coalesce And Null](https://php-tips.readthedocs.io/en/latest/tips/coalesce_is_null.html) I'm still struggling to pick a side in this debate.
+[All Classes Aliases](https://php-tips.readthedocs.io/en/latest/tips/class_alias_alias.html) To make a class alias, use class_alias();
+To make an interface alias, use class_alias();
+To make an enum alias, use class_alias();
+To make a trait alias, use class_alias();
+
+Also, there is no ``::enum`` operator, ``::trait`` operator or ``::interface`` operator, so you can just just ``::class``
+In the end, they all share the same name space.
+[Mixed And Untyped Are Not Compatible Types](https://php-tips.readthedocs.io/en/latest/tips/mixed_and_no_type.html) A property typed mixed cannot be redefined later as untyped.
+[Abstract Constants](https://php-tips.readthedocs.io/en/latest/tips/abstract_constant.html) There's a pretty common pattern to declare "abstract class constants" in PHP.
+[Cannot Static Static Property](https://php-tips.readthedocs.io/en/latest/tips/static_static_property.html) Static can be used as a keyword to mark a property as ``static`` (sic).
+[More Attribute Usage](https://php-tips.readthedocs.io/en/latest/tips/attributes_for_all.html) PHP attributes are for classes, but also for enums, traits and interfaces.
+[Run Any Script In A Phar](https://php-tips.readthedocs.io/en/latest/tips/run_any_phar_file.html) It is not possible to call directly a PHP script stored in a Phar archive: the only way to reach it, is using ``include 'phar://$path'``, where PHP understands the ``phar://`` protocol.
+[Static Variable Outside A Method](https://php-tips.readthedocs.io/en/latest/tips/static_outside_method.html) TIL that PHP static variables can be declared out of a function, in the namespace.
+[Enumeration's Cases Comparisons](https://php-tips.readthedocs.io/en/latest/tips/enum_case_comparisons.html) Enumeration cases are different when the enumeration are different, not when the value of the case is different.
+[All Static Curly Syntaxes And One Wrong](https://php-tips.readthedocs.io/en/latest/tips/all_static_curly_syntaxes.html) What is the only invalid syntax in the following list?
+Assume that all needed definitions are available.
+[No Such Function As Empty](https://php-tips.readthedocs.io/en/latest/tips/no_empty_function.html) There is no function called empty(), which could be accessed using a fully qualified name, such as ``\empty``.
+[Strange --> Operator](https://php-tips.readthedocs.io/en/latest/tips/while_i_--.html) This PHP code is valid.
+[Unexpected Keys In Array](https://php-tips.readthedocs.io/en/latest/tips/unexpected_keys.html) It is possible to put 2 elements in a PHP array, find different 5 keys with ``array_key_exists()`` or ``isset()`` and yet, still count 2 distinct elements (key wise).
+[Recursive Generator](https://php-tips.readthedocs.io/en/latest/tips/recursive_yield.html) Generators in PHP, when using the ``yield`` keyword, can become recursive through the use of the ``yield from`` construct.
+[Documenting Parameters](https://php-tips.readthedocs.io/en/latest/tips/documenting_parameter.html) Sometimes, even a literal value used as parameter is not readable.
+[Catch Is Optional](https://php-tips.readthedocs.io/en/latest/tips/catch_is_optional.html) In a Try Catch Finally command, only the try part is compulsory.
+[Void Parameter In array_keys()](https://php-tips.readthedocs.io/en/latest/tips/void_parameter.html) There is a 'void' parameter in PHP.
+[Unsetting Properties Surprises](https://php-tips.readthedocs.io/en/latest/tips/unset_properties.html) Unsetting properties is always a surprise.
+[Multiple Aliases](https://php-tips.readthedocs.io/en/latest/tips/multipleAliases.html) It is possible to rename an imported method from a trait, by using an alias name.
+[Plus Plus Minus Minus](https://php-tips.readthedocs.io/en/latest/tips/plus_plus_minus_minus.html) What does a separated list of plus and minus do to a literal? They will be merged independently in the literal.
+[Constants Can Be Impossible](https://php-tips.readthedocs.io/en/latest/tips/when_a_constant_is_impossible.html) In this code, the constant ``x2::F`` is not possible, because adding a string and an array results in a fatal error.
+[Constants Are Mutable](https://php-tips.readthedocs.io/en/latest/tips/constant_are_mutable.html) Since PHP 8.
+[Quick DTO Or VO Copy](https://php-tips.readthedocs.io/en/latest/tips/quick-dto.html) A small PHP trick, combining named parameters, spread and union arrays operators to ``easily`` create a modified copy of a DTO: ``https://3v4l.
+[Stealth Generator](https://php-tips.readthedocs.io/en/latest/tips/stealth-generator.html) The code below has a useless loop.
+[Quick Serialize](https://php-tips.readthedocs.io/en/latest/tips/quick_serialize.html) Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects? This can be very useful when unserializing objects.
+[Clone Clone Clone](https://php-tips.readthedocs.io/en/latest/tips/clone_clone_clone.html) It is possible to chain clone operators : PHP optimize this and skips any intermediate clone.
+[Set readonly Properties Outside The Class](https://php-tips.readthedocs.io/en/latest/tips/readonly_and_private.html) PHP 8.
+[Exception Polymorphism](https://php-tips.readthedocs.io/en/latest/tips/interface_exceptions.html) Custom exceptions are like any other classes: they may implements interfaces.
+[Exponential Minus One](https://php-tips.readthedocs.io/en/latest/tips/exp_minus_one.html) You can save typing by using ``expm1($x)`` instead of ``exp($x) - 1``.
+[PHP Infinity Is Reachable](https://php-tips.readthedocs.io/en/latest/tips/infinite_is_reachable.html) Infinite values are sometimes returned by PHP functions, such as ``log(0)`` or ``exp(PHP_INT_MAX)``.
+[Negative Squares](https://php-tips.readthedocs.io/en/latest/tips/squared_negative.html) This is still my favorite PHP bug : literal negative value is squared, and is .
+[Negating An Assignation](https://php-tips.readthedocs.io/en/latest/tips/negating_a_variable.html) I always wondered why PHP allows to ``NOT`` a variable on the LEFT side of an assignation.
+[Numeric Separators Inside A String?](https://php-tips.readthedocs.io/en/latest/tips/numeric_separator_string.html) Since PHP 7.
+[Identifier Confusions](https://php-tips.readthedocs.io/en/latest/tips/confusing_identifier.html) Identifiers are used both for constant names and for class names (CITE).
+[Relaxed Syntax With Const](https://php-tips.readthedocs.io/en/latest/tips/relaxed_syntax_with_const.html) Relaxed syntax is the possibility to use PHP keywords as method or class constant names.
+[Closure To Call](https://php-tips.readthedocs.io/en/latest/tips/closure_to_call.html) The ``.
+[Get $this In A Static](https://php-tips.readthedocs.io/en/latest/tips/static_get_this.html) A static method does not have access to the current object, by definition.
+[How To array_intersect_uassoc_insensitive()](https://php-tips.readthedocs.io/en/latest/tips/array_intersect_uassoc_insensitive.html) array_intersect() functions use a direct comparison between the values in the array to make the comparison.
+[Class And Constant Confusion](https://php-tips.readthedocs.io/en/latest/tips/class_and_constants.html) Class names and global constant names are two distinct name spaces.
+[Don't Forget To Yield](https://php-tips.readthedocs.io/en/latest/tips/dont_forget_yield.html) It is possible to delegate a generator to another generator.
+[Inconsistent Constructor Signatures](https://php-tips.readthedocs.io/en/latest/tips/phptip-1.html) PHP enforces that methods have the same signature in a parent class and in a children class.
+[foreach() With All The Same Keys](https://php-tips.readthedocs.io/en/latest/tips/foreach_same_keys.html) It is possible for a foreach() loop to produce multiple times the same key.
+[Battle Of Definition](https://php-tips.readthedocs.io/en/latest/tips/battle_of_definitions.html) Methods signatures must be compatible with the parent class's definition.
+[Variadic All The Yields](https://php-tips.readthedocs.io/en/latest/tips/variadic_all_yield.html) The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array().
+[Refactoring strpos()](https://php-tips.readthedocs.io/en/latest/tips/refactor_str_pos.html) Converting an expression like ``strpos() === 0`` to use ``str_starts_with()`` is simple and direct.
+[is_a() Versus Instanceof](https://php-tips.readthedocs.io/en/latest/tips/is_a_and_instanceof.html) is_a() and instanceof are the same feature: check if an object is of a specific class.
+[Exporting Properties](https://php-tips.readthedocs.io/en/latest/tips/export_properties.html) With an accessor and a reference, it is possible to export a private property and manipulate it from the outside of the object.
+[Another Cast To Int](https://php-tips.readthedocs.io/en/latest/tips/cast_to_int.html) Another way to cast a value to int, besides the obvious ``(int)`` operator and the classic ``+ 0``, is to use the unary operator ``+`` operator on a variable: it add a sign operation on the variable, and the ``+`` sign is invariant: yet, the content of the variable is turned into an integer.
+[``ReturnTypeWillChange`` Is For All](https://php-tips.readthedocs.io/en/latest/tips/returntypewillchange_for_all.html) ``ReturnTypeWillChange`` is an attribute that tells PHP that the return type of the related method is different from the defined by the PHP native methods.
+[URL As Comments](https://php-tips.readthedocs.io/en/latest/tips/URL_as_comments.html) The code below includes a raw URL in the code.
+[Coalesce And Assignation](https://php-tips.readthedocs.io/en/latest/tips/coalesce_and_assignation.html) The coalesce operator has lower precedence than assignment, meaning the assignment occurs first.
+[Missing Methods Are Fatal](https://php-tips.readthedocs.io/en/latest/tips/missing_methods_are_fatal.html) Calling a missing method is a fatal error.
+[Only Initialize With Short Assignation Coalesce](https://php-tips.readthedocs.io/en/latest/tips/initialize_with_coalesce.html) It is not possible to access a property before its initialisation.
+[Keys Are Integers Whenever Possible](https://php-tips.readthedocs.io/en/latest/tips/keys_are_integers.html) Array keys are only strings or integers: the later has priority.
+[Fast Creation Of stdClass Objects](https://php-tips.readthedocs.io/en/latest/tips/fastest_stdclass_creation.html) The fastest way to create a ``stdClass`` object is to create an array, and then cast it to stdClass with the ``(array)`` cast operator.
+[An Elephpant In The Code](https://php-tips.readthedocs.io/en/latest/tips/elephpant.html) When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least.
+[Internal Static Call](https://php-tips.readthedocs.io/en/latest/tips/internal_static_call.html) Trap of the day: one of the calls in bar() generates a 'Non-static method a::foo() cannot be called statically' error.
+[strict_types Exceptions](https://php-tips.readthedocs.io/en/latest/tips/strict_types_exceptions.html) strict_types do not apply to PHP operators, only on to typed structures.
+[Playing With Integers Limits](https://php-tips.readthedocs.io/en/latest/tips/playing_with_the_limit.html) In mathematics, there’s the famous concept known as the 'Ramanujan Summation', where the infinite sum of all positive integers surprisingly equals -1/12.
+[Signature Compatibility Exception](https://php-tips.readthedocs.io/en/latest/tips/constructor_consistency.html) All methods must be compatible with their parent's signature: the types, reference options, variadic and number must be compatible (although, not equal).
+[Object Is Not A Type](https://php-tips.readthedocs.io/en/latest/tips/object_is_not_a_type.html) Such situations always make me smile, yet I am certain several of us will loose time on such a mistake.
+[Forgotten Throw](https://php-tips.readthedocs.io/en/latest/tips/forgotten_throw.html) Sometimes, the ``throw`` keyword is forgotten, even as it is needed.
+[Keywords In Namespaces](https://php-tips.readthedocs.io/en/latest/tips/keywords_in_namespaces.html) Since PHP 8.
+[No Warning For Unused Variables](https://php-tips.readthedocs.io/en/latest/tips/variable_optimisation.html) PHP variable optimisation in action: the undefined variables are only reported when they are used.
+[Self In An Interface](https://php-tips.readthedocs.io/en/latest/tips/self_in_interface.html) The keyword ``self`` in an interface represents that same interface: it does not represent the host class.
+[instanceof Object](https://php-tips.readthedocs.io/en/latest/tips/instanceof_class.html) object is a type, but it can also be used as a constant name.
+[stdClass Object](https://php-tips.readthedocs.io/en/latest/tips/stdclass_tracking.html) PHP recycles the previously created stdClass objects ids.
+[A Case Of Misplaced Parenthesis](https://php-tips.readthedocs.io/en/latest/tips/misplaced_parenthesis.html) The closing parenthesis of the in_array() call may be misplaced, yet yield a valid PHP code, and even, a valid business case.
+[Checking For Names At Different Times](https://php-tips.readthedocs.io/en/latest/tips/check_for_names.html) PHP lint detects early to avoid ``redeclared functions``, based on the local PHP executable.
+[Integer Becomes Negative](https://php-tips.readthedocs.io/en/latest/tips/int_back_to_negative.html) $a is the largest integer in PHP.
+[Not All Strings In Arrays](https://php-tips.readthedocs.io/en/latest/tips/not_all_strings.html) Array keys are coerced into strings or integers, while array values are left intact.
+[Recursive Arrow Function](https://php-tips.readthedocs.io/en/latest/tips/recursive_arrow_function.html) To make an arrow function recursive, it must include itself in the list of arguments.
+[null Does Not Always Equal false](https://php-tips.readthedocs.io/en/latest/tips/null_equal_false.html) null equals false, so the first equality is actually true.
+[Recursive Closure](https://php-tips.readthedocs.io/en/latest/tips/recursive_closure.html) To make a recursive closure, the closure must be both stored in a variable and passed as a ``use`` parameter to the same factorial.
+[Cast Precedence](https://php-tips.readthedocs.io/en/latest/tips/cast_precedence.html) Casting has a higher precedence than multiplication (and addition).
+[Enum As A Name](https://php-tips.readthedocs.io/en/latest/tips/enum_as_name.html) It is possible to name a class enum, but not to name an enum class.
+[Type Is Not Always Returned](https://php-tips.readthedocs.io/en/latest/tips/type_is_not_available.html) A method can display a return type, and never return it actually.
+[The Namespace Stack](https://php-tips.readthedocs.io/en/latest/tips/namespace_stack.html) This is a reminder that namespaces are not nested, but are merely prefixes.
+[Catch On Interfaces](https://php-tips.readthedocs.io/en/latest/tips/catch_interfaces.html) Exceptions can be caught using their interfaces rather than their specific class names or parent classes.
