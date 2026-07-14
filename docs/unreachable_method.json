@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["class", "parent", "class-invasion"],
     "3v4l": {"The unreachable method":"https://3v4l.org/pXCpG#v8.5.7"},
+    "code": "<?php\n\nabstract class A {\n    private function foo() {\n        print __CLASS__;\n    }\n}\n\nabstract class B extends A {\n    public function foo() {\n        print __CLASS__;\n    }\n}\n\nclass C extends B {\n    public function foo() {\n        print __CLASS__;\n    }\n    \n    public function goo() {\n        parent::foo();\n        a::foo();\n    }\n}\n\n($c = new C)->foo();\n$c->goo();",
+
     "phpError": {}
 }

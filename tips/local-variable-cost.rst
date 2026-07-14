@@ -21,9 +21,22 @@ Local Variable Cost
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/local-variable-cost.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/local-variable-cost.html","name":"Local Variable Cost","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 09 May 2026 10:04:47 +0000","dateModified":"Sat, 09 May 2026 10:04:47 +0000","description":"Local variables in PHP methods cost something","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/local-variable-cost.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/local-variable-cost.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/local-variable-cost.html","name":"Local Variable Cost","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:15 +0000","dateModified":"Tue, 14 Jul 2026 14:32:15 +0000","description":"Local variables in PHP methods cost something","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/local-variable-cost.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/local-variable-cost.png
+.. code-block:: php
+
+   <?php
+   
+   ini_set('memory_limit', 2100000);
+   
+   function foo($i = 0) {
+       print $i.PHP_EOL;
+       foo($i + 1);
+       $a = 2;
+   }
+   
+   foo();
+
 
 Local variables in PHP methods cost something. Not much, but a bit. And, more importantly, they cost memory even when not used.
 

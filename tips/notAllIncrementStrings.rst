@@ -21,9 +21,19 @@ Not All Incremented Strings Are Deprecated
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/notAllIncrementStrings.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/notAllIncrementStrings.html","name":"Not All Incremented Strings Are Deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 11:29:42 +0000","dateModified":"Thu, 02 Apr 2026 11:29:42 +0000","description":"News are that the famous PHP feature to increment strings is deprecated","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/notAllIncrementStrings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/notAllIncrementStrings.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/notAllIncrementStrings.html","name":"Not All Incremented Strings Are Deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:48 +0000","dateModified":"Tue, 14 Jul 2026 14:32:48 +0000","description":"News are that the famous PHP feature to increment strings is deprecated","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/notAllIncrementStrings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/notAllIncrementStrings.png
+.. code-block:: php
+
+   <?php
+   
+   $a = 'aaa';
+   echo ++$a;
+   
+   
+   $a = 'aaa!';
+   echo ++$a;
+
 
 News are that the famous PHP feature to increment strings is deprecated. This is not entirely true, as only the strings that can't be incremented emit the warning since PHP 8.3.
 

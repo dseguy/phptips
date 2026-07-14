@@ -21,9 +21,24 @@ Unpacking A Single Element Array
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unpacking_single_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unpacking_single_array.html","name":"Unpacking A Single Element Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:42 +0000","dateModified":"Thu, 02 Apr 2026 05:33:42 +0000","description":"The ellipsis operator ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unpacking_single_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unpacking_single_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unpacking_single_array.html","name":"Unpacking A Single Element Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:53 +0000","dateModified":"Tue, 14 Jul 2026 14:33:53 +0000","description":"The ellipsis operator ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unpacking_single_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/unpacking_single_array.png
+.. code-block:: php
+
+   <?php
+   
+   function foo() {
+       print_r(func_get_args());
+   }
+   
+   $array = [1,2,3];
+   
+   // Not possible
+   // cannot use positional argument after unpacking
+   //foo(...$array, ...$array, 4);
+   
+   foo(...$array, ...$array, ...[4]);
+
 
 The ellipsis operator ``...`` is used to unpack arrays as individual arguments in a method call. Its opposite is the ``[]`` array, which holds a random number of values.
 

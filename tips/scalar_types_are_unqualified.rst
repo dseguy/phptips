@@ -21,9 +21,24 @@ Scalar Types Are Unqualified
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/scalar_types_are_unqualified.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/scalar_types_are_unqualified.html","name":"Scalar Types Are Unqualified","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:38 +0000","dateModified":"Thu, 02 Apr 2026 05:33:38 +0000","description":"Scalar types like ``int `` or  ``iterable`` should be used without a leading slash","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/scalar_types_are_unqualified.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/scalar_types_are_unqualified.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/scalar_types_are_unqualified.html","name":"Scalar Types Are Unqualified","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:52:51 +0000","dateModified":"Tue, 14 Jul 2026 14:52:51 +0000","description":"Scalar types like ``int `` or  ``iterable`` should be used without a leading slash","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/scalar_types_are_unqualified.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/scalar_types_are_unqualified.png
+.. code-block:: php
+
+   <?php
+   
+   function foo(\array $array) {}
+   foo([]);
+   //TypeError: foo(): Argument #1 ($array) must be of type array, array given, 
+   
+   function goo(\callable $callable) {}
+   goo(strlen(...));
+   //TypeError: foo(): Argument #1 ($array) must be of type callable, array Colsure, 
+   
+   function hoo(\int $int) {}
+   hoo(1);
+   //Type declaration 'int' must be unqualifid
+
 
 Scalar types like ``int `` or  ``iterable`` should be used without a leading slash. However, there are exceptions. In PHP 8.3, types such as  ``callable `` and  ``array`` are still misinterpreted as class names, which can result in confusing or poorly worded error messages. This inconsistency remains a known issue in the language, affecting type declarations and error reporting for these specific cases, until PHP 8.5.
 

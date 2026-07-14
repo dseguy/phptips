@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["enum", "array", "in_array", "array_unique"],
     "3v4l": {"in_array, array_unique and enums":"https://3v4l.org/q9iGl"},
+    "code": "<?php\n  \nenum E: string {\n  case A = 'a';\n  case B = 'b'; \n  case C = 'c';\n  case D = 'd';\n}\n\nvar_dump(in_array(E::B, E::cases())); \n\nvar_dump(array_unique(E::cases())); \nvar_dump(array_unique(E::cases(), SORT_REGULAR)); \n\n?>",
+
     "phpError": {"Object of class E could not be converted to string":"object-of-class-%s-could-not-be-converted-to-string"}
 }

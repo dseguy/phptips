@@ -21,9 +21,18 @@ Cast Precedence
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_precedence.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_precedence.html","name":"Cast Precedence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"Casting has a higher precedence than multiplication (and addition)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_precedence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_precedence.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_precedence.html","name":"Cast Precedence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:57 +0000","dateModified":"Tue, 14 Jul 2026 14:30:57 +0000","description":"Casting has a higher precedence than multiplication (and addition)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_precedence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/cast_precedence.png
+.. code-block:: php
+
+   <?php
+   
+   $c = 100;
+   
+   echo (int) $c * 0.12345;
+   
+   ?>
+
 
 Casting has a higher precedence than multiplication (and addition). Here, the cast on the float happens first, which leads to 0. This 0 is later multiplied by 100, and that still gives 0.
 

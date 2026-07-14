@@ -3,8 +3,7 @@
     "date": "2023-07-31",
     "title": "Identifier Confusions",
     "content": "Identifiers are used both for constant names and for class names (CITE). Depending on the situation, they may be confused one for the other: here, ``A`` is a constant, and its value is accessible for dynamic code purposes. Yet, ``A()`` cannot be used.\nThere is no syntax to call dynamically a function whose name is stored in a constant, without resorting to a call the the ``constant()`` function or a temporary variable.",
-    "seeAlso": {
-    },
+    "seeAlso": [],
     "tags": [
         "constant",
         "identifier",
@@ -13,7 +12,14 @@
     ],
     "author": "",
     "contact": "",
-    "phpError":{},
-    "features":["constant", "identifier", "class"],
-    "3v4l":{"What is in an identifier":"https://3v4l.org/c16hv"}
+    "phpError": {},
+    "features": [
+        "constant",
+        "identifier",
+        "class"
+    ],
+    "3v4l": {
+        "What is in an identifier": "https://3v4l.org/c16hv"
+    },
+    "code": "<?php\n\n\nconst A = 'b::c';\n\nclass B {\n    static function C() { echo __METHOD__; }\n}\n\n//valid call to \\B::C()\nconstant('A')();\n\n// class A not found\n//new A;\n\n// Call to undefined function A()\nA();\n\n// parse error, this is not supported\n//{A}();"
 }

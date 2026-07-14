@@ -21,9 +21,15 @@ Run Any Script In A Phar
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/run_any_phar_file.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/run_any_phar_file.html","name":"Run Any Script In A Phar","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 11:27:14 +0000","dateModified":"Thu, 02 Apr 2026 11:27:14 +0000","description":"It is not possible to call directly a PHP script stored in a Phar archive: the only way to reach it, is using ``include 'phar:\/\/$path'``, where PHP understands the ``phar:\/\/`` protocol","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/run_any_phar_file.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/run_any_phar_file.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/run_any_phar_file.html","name":"Run Any Script In A Phar","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:20 +0000","dateModified":"Tue, 14 Jul 2026 14:33:20 +0000","description":"It is not possible to call directly a PHP script stored in a Phar archive: the only way to reach it, is using ``include 'phar:\/\/$path'``, where PHP understands the ``phar:\/\/`` protocol","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/run_any_phar_file.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/run_any_phar_file.png
+.. code-block:: php
+
+   <?php
+   
+   
+   include 'phar://exakat.phar/script/load.php';
+
 
 It is not possible to call directly a PHP script stored in a Phar archive: the only way to reach it, is using ``include 'phar://$path'``, where PHP understands the ``phar://`` protocol.
 

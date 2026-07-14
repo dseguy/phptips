@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["global", "default", "$argv"],
     "3v4l": {"global Overwrites":"https://3v4l.org/UBSoD"},
+    "code": "<?php\n\n$argv = [1,2,3];\n$_POST = [1,2,3];\n\nfunction foo(?array $argv = null) {\n    if ($argv === null) {\n        global $argv;\n    }\n    \n    print_r($argv);\n}\n\nfoo();\nfoo([4,5,6]);",
+
     "phpError": {"Cannot re-assign auto-global variable %s":"cannot-use-auto-global-as-lexical-variable"}
 }

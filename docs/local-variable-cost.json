@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["method", "micro-optimisation", "memory"],
     "3v4l": {"local variable cost": "https://3v4l.org/bPXW4#v8.1.33"},
+    "code": "<?php\n\nini_set('memory_limit', 2100000);\n\nfunction foo($i = 0) {\n    print $i.PHP_EOL;\n    foo($i + 1);\n    $a = 2;\n}\n\nfoo();",
+
     "phpError": {}
 }

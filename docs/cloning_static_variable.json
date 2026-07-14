@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["first-class-callable", "closure", "clone", "static-variable", "order-of-execution"],
     "3v4l": {"Cloning Static variable":"https://3v4l.org/UmHpO#v8.5.7"},
+    "code": "<?php\n\n\/\/ First class callable\nfunction a() { static $c = 0; return $c++; }\n$c = a(...);\n\n$c = function () { static $c = 0; return $c++; };\n\nprint $c();\nprint $c();\n$d = clone $c;\nprint $d();\n\n?>",
+
     "phpError": {}
 }

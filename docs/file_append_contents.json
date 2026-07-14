@@ -16,6 +16,8 @@
     "3v4l": {
         "Two ways to append to files": "https://3v4l.org/Da3Op"
     },
+    "code": "<?php\n\n\/\/ appends the text to the end of the end of the file\nfile_put_contents($file, $text, FILE_APPEND);\n\n\/\/ appends the text to the end of the end of the file\n$fp = fwrite($file, 'a');\nfwrite($fp, $text);",
+
     "phpError": {},
     "features": ["append", "file"]
 }

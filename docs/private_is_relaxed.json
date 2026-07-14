@@ -13,5 +13,7 @@
     "contact": "",
     "features":["exponential", "relaxed-syntax", "private"], 
     "3v4l":{"private as a public constant":"https://3v4l.org/XYmck"}, 
+    "code": "<?php\n\n\/\/ relaxed syntax is not possible with constants\n\/\/ const PROTECTED = 'instanity';\n\nclass x {\n    \/\/ relaxed syntax is possible with class constants\n    private const string public = 'protected';\n}",
+ 
     "phpError":{}
 }

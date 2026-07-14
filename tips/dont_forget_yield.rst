@@ -21,9 +21,41 @@ Don't Forget To Yield
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dont_forget_yield.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dont_forget_yield.html","name":"Don't Forget To Yield","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:30 +0000","dateModified":"Thu, 02 Apr 2026 05:33:30 +0000","description":"It is possible to delegate a generator to another generator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dont_forget_yield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dont_forget_yield.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dont_forget_yield.html","name":"Don't Forget To Yield","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:24 +0000","dateModified":"Tue, 14 Jul 2026 14:31:24 +0000","description":"It is possible to delegate a generator to another generator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dont_forget_yield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/dont_forget_yield.png
+.. code-block:: php
+
+   <?php
+   
+   function foo() {
+       yield 'foo';
+       goo();
+   }
+   
+   function too() {
+       yield 'too';
+       yield from goo();
+   }
+   
+   function hoo() {
+       yield 'hoo';
+       yield goo();
+   }
+   
+   function goo() {
+       yield 'goo';
+   }
+   
+   foreach(foo() as $a) { print $a.PHP_EOL;}
+   // goo
+   foreach(too() as $a) { print $a.PHP_EOL;}
+   // too goo
+   foreach(hoo() as $a) { print $a.PHP_EOL;}
+   // hoo Uncaught Error: Object of class Generator
+   // could not be converted to string
+   
+   ?>
+
 
 It is possible to delegate a generator to another generator.
 

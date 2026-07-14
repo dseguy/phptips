@@ -16,5 +16,7 @@
     "contact": "https://twitter.com/SergiiShymko",
     "3v4l":{"always compatible variadic":"https://3v4l.org/IiQhc"},
     "features":["variadic", "signature", "inheritance"],
+    "code": "<?php\n\ninterface i {\n    function foo($a, $b = 2);\n}\n\nclass x implements i {\n    \/\/ This is compatible with the interface definition\n    function foo(...$args) {}\n}\n\n?>",
+
     "phpError":{}
 }

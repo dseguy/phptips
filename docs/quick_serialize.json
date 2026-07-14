@@ -14,5 +14,7 @@
     "contact": "https://twitter.com/doekenorg",
     "features":["initialisation", "get_object_vars", "serialization"], 
     "3v4l":{"initialized properties":"https://3v4l.org/Dr6YT"}, 
+    "code": "<?php\n\nfinal class ValueObject{\n    \n    private int $uninitialized;\n    private int $initialized = 3;\n    \n    public function toArray(): array {\n        return get_object_vars($this);\n    }\n}\n\n$object = new ValueObject();\n\nvar_dump($object->toArray());\n\n\/\/ ['initialized' => 3]",
+ 
     "phpError":{}
 }

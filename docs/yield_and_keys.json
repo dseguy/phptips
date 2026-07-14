@@ -12,5 +12,7 @@
     "contact": "https://bsky.app/profile/jerome.tamarelle.net",
     "features": ["yield", "yield-from", "iterator_to_array"],
     "3v4l": {"Guess the output":"https://3v4l.org/Oflt2"},
+    "code": "<?php\n\nfunction test() {\n    yield from [1, 2, 3];\n    yield 4;\n}\n\nvar_dump(iterator_to_array(test()));",
+
     "phpError": {}
 }

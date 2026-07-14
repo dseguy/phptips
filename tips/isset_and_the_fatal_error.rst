@@ -21,9 +21,39 @@ isset() And The Fatal Error
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html","name":"isset() And The Fatal Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"isset() checks if a variable exists","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html","name":"isset() And The Fatal Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:10 +0000","dateModified":"Tue, 14 Jul 2026 14:32:10 +0000","description":"isset() checks if a variable exists","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_and_the_fatal_error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/isset_and_the_fatal_error.png
+.. code-block:: php
+
+   <?php
+   
+   $a = [];
+   $a['b']['c']['d'] = 1;
+   $a['b']['c']['d2'] = new stdclass();
+   $a['b']['c']['d3'] = [];
+   
+   var_dump(isset($a['b']['c']['d'])); // as expected, and within type
+   var_dump(isset($a['b']['c']['f'])); // as expected, and within type
+   
+   var_dump(isset($a['b']['c']['d']['g']));   // as expected, because 'd' is 1
+   var_dump(isset($a['b']['c']['d']->g));     // as expected, because 'd' is 1
+   
+   var_dump(isset($a['b']['c']['d3']->f));    // as expected, because 'd' is an array
+   var_dump(isset($a['b']['c']['d3']['f']));  // as expected, because 'd' is an array
+   
+   var_dump(isset($a['b']['c']['d2']->f));   // as expected, because 'd' is an object
+   var_dump(isset($a['b']['c']['d2']['f']));   // fatal error!! 
+   
+   var_dump(isset($a['b']['c']['D']['g']->f));   // as expected, because 'D' is actually null
+   var_dump(isset($a['b']['c']['D']['g']['f'])); // as expected, because 'D' is actually null
+   
+   // isset($a['b']['c']['d']) is set so following are true and within type
+   var_dump(isset($a['b']['c']));
+   var_dump(isset($a['b']));
+   
+   $i = 1;
+   echo $i[3]; // error,
+
 
 isset() checks if a variable exists. By extension, it also checks array elements, object properties etc. As the check is performed, any attempt to access an undefined part of the expression is muted: this makes total sense.
 

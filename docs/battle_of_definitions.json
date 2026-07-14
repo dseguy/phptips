@@ -22,5 +22,7 @@
         "3v4l : __construct() signature enforced when in an interface": "https:\/\/3v4l.org\/QPaRG"
 
     },
+    "code": "<?php\n\ninterface I {\n    function __construct(int $i);\n}\n\nclass X implements I {\n    function __construct(int $i) {}\n}\n\n\/\/ Fatal error: Declaration of Yy::__construct(string $a) must be\n\/\/ compatible with I::__construct(int $i)\n\nclass Y extends X {\n    function __construct(string $a) {}\n}\n\n?>",
+
     "phpError": {}
 }

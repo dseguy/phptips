@@ -14,6 +14,8 @@
     "3v4l": {
         "Unexpected token ;": "https://3v4l.org/jDYd7"
     },
+    "code": "<?php\n\n#[A (new B(4), 2, 3)]\n\n\/\/ Parse error: syntax error, unexpected token \";\" in \/in\/vNMQk on line 5\n?>",
+
     "phpError": {"syntax error, unexpected token \";\"":"syntax-error,-unexpected-token-\";\""},
     "features": ["semicolon", "close-tag"]
 }

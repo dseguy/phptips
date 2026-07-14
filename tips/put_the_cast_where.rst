@@ -21,9 +21,23 @@ Where To Put The Cast?
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/put_the_cast_where.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/put_the_cast_where.html","name":"Where To Put The Cast?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:39 +0000","dateModified":"Thu, 02 Apr 2026 05:33:39 +0000","description":"Start from a string, and turn it into a negative number","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/put_the_cast_where.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/put_the_cast_where.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/put_the_cast_where.html","name":"Where To Put The Cast?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:06 +0000","dateModified":"Tue, 14 Jul 2026 14:33:06 +0000","description":"Start from a string, and turn it into a negative number","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/put_the_cast_where.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/put_the_cast_where.png
+.. code-block:: php
+
+   <?php
+   
+   $string = '123a';
+   
+   $integer = -$string; // warning!
+   
+   $integer = (int) $string; 
+   $integer = -$integer; // too long! 
+   
+   $integer =  -(int)$string; // alright !
+   $integer = @-(int)$string; // also possible !
+   $integer = @-@(int)@$string; // too much?
+
 
 Start from a string, and turn it into a negative number. It is actually as simple as adding the ``-`` sign in front of the string.
 

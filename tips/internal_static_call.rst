@@ -21,9 +21,37 @@ Internal Static Call
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html","name":"Internal Static Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 09:48:56 +0000","dateModified":"Fri, 29 May 2026 09:48:56 +0000","description":"Trap of the day: one of the calls in bar() generates a 'Non-static method a::foo() cannot be called statically' error","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html","name":"Internal Static Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:04 +0000","dateModified":"Tue, 14 Jul 2026 14:32:04 +0000","description":"Trap of the day: one of the calls in bar() generates a 'Non-static method a::foo() cannot be called statically' error","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/internal_static_call.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/internal_static_call.png
+.. code-block:: php
+
+   <?php
+   
+   class a {
+       function foo() {
+           echo __METHOD__ . PHP_EOL;
+       }
+   }
+   
+   class b extends a {}
+   class c extends b {
+       function bar() {
+           $this::foo();
+           $this->foo();
+           a::foo();
+           b::foo();
+           c::foo();
+           d::foo();
+           static::foo();
+           self::foo();
+           parent::foo();
+       }
+   }
+   
+   class d extends c {}
+   
+   (new c)->bar();
+
 
 Trap of the day: one of the calls in bar() generates a 'Non-static method a::foo() cannot be called statically' error.
 

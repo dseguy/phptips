@@ -21,9 +21,22 @@ When htmlemtities() Is Failing
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html","name":"When htmlemtities() Is Failing","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 17:56:15 +0000","dateModified":"Fri, 01 May 2026 17:56:15 +0000","description":"By default, htmlemtities() uses UTF-8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html","name":"When htmlemtities() Is Failing","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:51 +0000","dateModified":"Tue, 14 Jul 2026 14:31:51 +0000","description":"By default, htmlemtities() uses UTF-8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/htmlemtities_failing.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/htmlemtities_failing.png
+.. code-block:: php
+
+   <?php
+   
+   $string = "Café & 'quotes' and € euro";
+   
+   // ISO-8859-1 mode
+   var_dump( htmlentities($string, ENT_QUOTES, "big5"));
+   // empty string
+   
+   var_dump( htmlentities($string, ENT_QUOTES, "xxx"));
+   // default to utf8
+   // Caf&eacute; &amp; &#039;quotes&#039; and &euro; euro
+
 
 By default, htmlemtities() uses UTF-8. The third argument of that function is the actual encoding, so it is a parameter. When using a non-existing encoding, such as ``xxx``, PHP detects it, and default to UTF-8 (here it works well).
 

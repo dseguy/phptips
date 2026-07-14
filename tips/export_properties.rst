@@ -21,11 +21,47 @@ Exporting Properties
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/export_properties.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/export_properties.html","name":"Exporting Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:31 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"With an accessor and a reference, it is possible to export a private property and manipulate it from the outside of the object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/export_properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/export_properties.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/export_properties.html","name":"Exporting Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:39 +0000","dateModified":"Tue, 14 Jul 2026 14:31:39 +0000","description":"With an accessor and a reference, it is possible to export a private property and manipulate it from the outside of the object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/export_properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Tim Macdonald <https://twitter.com/timacdonald87>`_
 
-.. image:: ../images/export_properties.png
+.. code-block:: php
+
+   <?php
+   
+   class MyList
+   {
+       private $list = [];
+   
+       function &getList()
+       {
+           return $this->list;
+       }
+   
+       function add($item)
+       {
+           $this->list[] = $item;
+       }
+   }
+   
+   $list = new MyList;
+   $list->add(1);
+   $list->add(2);
+   
+   $arr = &$list->getList();
+   
+   $arr[] = 3;
+   $arr[] = 4;
+   
+   dd($list->getList());
+   
+   // array:4 [
+   //   0 => 1
+   //   1 => 2
+   //   2 => 3
+   //   3 => 4
+   // ]
+
 
 With an accessor and a reference, it is possible to export a private property and manipulate it from the outside of the object.
 

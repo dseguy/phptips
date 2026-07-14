@@ -21,9 +21,23 @@ No Property Beyond Limits
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noPropertyBelowMininum.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noPropertyBelowMininum.html","name":"No Property Beyond Limits","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:34 +0000","dateModified":"Thu, 02 Apr 2026 05:33:34 +0000","description":"TIL that PHP reports attempts to go beyond the limits (upper and lower) of integer properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noPropertyBelowMininum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noPropertyBelowMininum.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noPropertyBelowMininum.html","name":"No Property Beyond Limits","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:39 +0000","dateModified":"Tue, 14 Jul 2026 14:32:39 +0000","description":"TIL that PHP reports attempts to go beyond the limits (upper and lower) of integer properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noPropertyBelowMininum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/noPropertyBelowMininum.png
+.. code-block:: php
+
+   <?php
+   
+   class X {
+       public int $p;
+   }
+   
+   $x = new X;
+   
+   $x->p = PHP_INT_MIN;
+   --$x->p;
+   
+   ?>
+
 
 TIL that PHP reports attempts to go beyond the limits (upper and lower) of integer properties. Indeed, beyond these limits, the property is converted to a float, which violate the typing.
 

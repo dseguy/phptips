@@ -21,9 +21,31 @@ instanceof Object
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/instanceof_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/instanceof_class.html","name":"instanceof Object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 07:58:32 +0000","dateModified":"Thu, 02 Apr 2026 05:33:32 +0000","description":"object is a type, but it can also be used as a constant name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/instanceof_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/instanceof_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/instanceof_class.html","name":"instanceof Object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:53:05 +0000","dateModified":"Tue, 14 Jul 2026 14:53:05 +0000","description":"object is a type, but it can also be used as a constant name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/instanceof_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/instanceof_class.png
+.. code-block:: php
+
+   <?php
+   
+   class a {}
+   
+   $a = new a;
+   
+   $b = '\\a';
+   var_dump($a instanceof $b);
+   var_dump($a instanceof \a);
+   
+   // C is not a constant, but a class name (see use)
+   const object = '\\a';
+   var_dump($a instanceof object);
+   use a as c;
+   var_dump($a instanceof c);
+   
+   // compile error : unexpected T_CLASS
+   // var_dump($a instanceof a::class);
+   // compile error : unexpected T_CONSTANT_ENCAPS_STRING
+   // var_dump($a instanceof 'a');
+
 
 object is a type, but it can also be used as a constant name. Then, instanceof accepts it for testing a variable.
 

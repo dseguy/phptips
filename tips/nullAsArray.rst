@@ -21,9 +21,19 @@ null Or Boolean As Array
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/nullAsArray.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/nullAsArray.html","name":"null Or Boolean As Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:31 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"Null and booleans support the array syntax, but always return NULL as value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/nullAsArray.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/nullAsArray.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/nullAsArray.html","name":"null Or Boolean As Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:51 +0000","dateModified":"Tue, 14 Jul 2026 14:32:51 +0000","description":"Null and booleans support the array syntax, but always return NULL as value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/nullAsArray.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/nullAsArray.png
+.. code-block:: php
+
+   <?php
+   
+   
+   var_dump(null [[]]); // NULL
+   var_dump(true [[]]); // NULL
+   var_dump(false [[]]); // NULL
+   
+   var_dump( [][[]]); // fatal error
+
 
 Null and booleans support the array syntax, but always return NULL as value. Since PHP 7.4, they also report a warning, as this is not good code.
 

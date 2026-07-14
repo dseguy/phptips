@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["unpacking", "ellipsis", "coalesce"],
     "3v4l": {"ellipsis and coalesce":"https://3v4l.org/YTEL6"},
+    "code": "<?php\n\n$a = [3];\nfoo(...$a ?? range(1,2));\n\n$a = [null];\nfoo(...$a ?? range(1,2));\n\n$a = null;\nfoo(...$a ?? range(1,2));\n\n\nfunction foo() {\n    print_r(func_get_args());\n}",
+
     "phpError": {}
 }

@@ -21,9 +21,18 @@ No Such Function As Empty
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_empty_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_empty_function.html","name":"No Such Function As Empty","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:31 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"There is no function called empty(), which could be accessed using a fully qualified name, such as ``\\empty``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_empty_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_empty_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_empty_function.html","name":"No Such Function As Empty","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:52:53 +0000","dateModified":"Tue, 14 Jul 2026 14:52:53 +0000","description":"There is no function called empty(), which could be accessed using a fully qualified name, such as ``\\empty``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_empty_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/no_empty_function.png
+.. code-block:: php
+
+   <?php
+   
+   // bool(true)
+   var_dump(empty(null));
+   
+   //Fatal error: Uncaught Error: Call to undefined function empty() 
+   var_dump(\empty(null));
+
 
 There is no function called empty(), which could be accessed using a fully qualified name, such as ``\empty``. There is also no function that can be defined as such, since empty() is already taken.
 

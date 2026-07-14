@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["type", "variable"],
     "3v4l": {"Typed Variables":"https://3v4l.org/H1uAS"},
+    "code": "<?php\n\nclass X {\n    public static int $int = 1;\n    public string $string = 'abc';\n}\n\n\nfunction foo() {\n    $foo = new X();\n    $varString = &$foo->string;\n    $varString = [];\n    \/\/Cannot assign array to reference held by property X::$string of type string \n\n\n    $varInt = &X::$int;\n    $varInt = 'abc';\n    \/\/Cannot assign string to reference held by property X::$int of type int\n}\n\nfoo();",
+
     "phpError":{"Cannot assign %s to reference held by property %s::$%s of type %s":"cannot-assign-%s-to-reference-held-by-property-%s::$%s-of-type-%s"}
 }

@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["self", "closure", "static"],
     "3v4l": {"self on a closure":"https://3v4l.org/PAjY6"},
+    "code": "<?php\n\nclass XABC {\n    function foo() {\n            \/\/ static does not apply to self\n        $f = static function () : self {\n            \/\/ __CLASS__ is preserved in the closure\n            echo __CLASS__.PHP_EOL;\n            return new self();\n        };\n        \n        return $f;\n    }\n}\n\nvar_dump((new xabc)->foo()());",
+
     "phpError":{}
 }

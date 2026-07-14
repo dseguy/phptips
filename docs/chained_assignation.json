@@ -15,5 +15,6 @@
     "contact": "",
     "features": ["magic-method", "property-hook", "chaining-assignation"],
     "3v4l": {"Chained surprises":"https://3v4l.org/bD8OB#v8.5.7"},
+    "code": "<?php\n\nclass x {\n    private string $p = 'a' {\n        get => 'c';\n        set => $value;\n    }\n}\n\n$x = new x;\n$b = $x->f = 'b';\n\nprint_r($x->f);\nprint_r($b);",
     "phpError": {}
 }

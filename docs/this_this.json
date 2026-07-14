@@ -13,6 +13,8 @@
     "contact": "",
     "features": ["$this", "cast", "__tostring"],
     "3v4l": {"$this->$this in the code":"https://3v4l.org/K60Kl"},
+    "code": "<?php\n\nclass x {\n    private $p = 'Yes!';\n    \n    function foo() {\n        \/\/ valid code\n        echo $this->$this;\n    }\n    \n    function __toString() {\n        return 'p';\n    }\n}\n\n(new x)->foo();",
+
     "phpError":{}
 
 }

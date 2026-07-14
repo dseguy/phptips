@@ -21,9 +21,22 @@ Numeric Separators Inside A String?
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html","name":"Numeric Separators Inside A String?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 10:38:15 +0000","dateModified":"Thu, 02 Apr 2026 10:38:15 +0000","description":"Since PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html","name":"Numeric Separators Inside A String?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:49:43 +0000","dateModified":"Tue, 14 Jul 2026 14:49:43 +0000","description":"Since PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/numeric_separator_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/numeric_separator_string.png
+.. code-block:: php
+
+   <?php
+   
+   echo 1_2_3;
+   
+   $a = '1_2_3';
+   
+   // warning: a non-numeric value encountered
+   echo $a + 0;   // 1
+   echo (int) $a; // 1
+   $int = eval("return $a;");
+   
+
 
 Since PHP 7.4, there are numeric separators, to make integers more readable.
 

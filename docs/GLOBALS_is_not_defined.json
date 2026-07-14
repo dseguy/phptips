@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["superglobal", "global", "$globals"],
     "3v4l": {"No $GLOBALS here":"https://3v4l.org/dLrij"},
+    "code": "<?php\n\n    print gettype($GLOBALS);\n    var_dump($GLOBALS['GLOBALS']);",
+
     "phpError": {"Undefined global variable %s":"undefined-global-variable-%s"}
 }

@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["minus","cast","sign","non-numeric"],
     "3v4l": {"cast and sign":"https://3v4l.org/m6F8G"},
+    "code": "<?php\n\n$string = '123a';\n\n$integer = -$string; \/\/ warning!\n\n$integer = (int) $string; \n$integer = -$integer; \/\/ too long! \n\n$integer =  -(int)$string; \/\/ alright !\n$integer = @-(int)$string; \/\/ also possible !\n$integer = @-@(int)@$string; \/\/ too much?",
+
     "phpError": {"A non-numeric value encountered":"a-non-numeric-value-encountered"}
 }

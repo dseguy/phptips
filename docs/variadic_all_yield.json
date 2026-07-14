@@ -14,6 +14,8 @@
     "3v4l": {
         "Generator In Function Call": "https://3v4l.org/WdGDd"
     },
+    "code": "<?php\n\nfunction foo() {\n    yield 1;\n    yield 2;\n    yield 3;\n    \n}\n\nfunction goo($x, $y, $z) {\n    print \"$x $y $z\n\";\n}\n\ngoo(...foo());\n\/\/ 1 2 3\n\n?>",
+
     "phpError": {},
     "features": [
         "ellipsis",

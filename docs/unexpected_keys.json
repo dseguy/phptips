@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["array", "index-array", "type-juggling", "array_key_exists"],
     "3v4l": {"More keys than count":"https://3v4l.org/ITVEd"},
+    "code": "<?php\n\n$array = [null => 42, false => 43];\n\nvar_dump(array_key_exists(null, $array));  \/\/ true\nvar_dump(array_key_exists('', $array));    \/\/ true\nvar_dump(array_key_exists(false, $array)); \/\/ true\nvar_dump(array_key_exists(0, $array));     \/\/ true\nvar_dump(array_key_exists(0.0, $array));   \/\/ true\n\nprint count($array). \" elements in the array\n\";",
+
     "phpError":{}
 }

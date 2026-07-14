@@ -21,9 +21,29 @@ Battle Of Definition
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/battle_of_definitions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/battle_of_definitions.html","name":"Battle Of Definition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:38 +0000","dateModified":"Thu, 02 Apr 2026 05:33:38 +0000","description":"Methods signatures must be compatible with the parent class's definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/battle_of_definitions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/battle_of_definitions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/battle_of_definitions.html","name":"Battle Of Definition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:47 +0000","dateModified":"Tue, 14 Jul 2026 14:30:47 +0000","description":"Methods signatures must be compatible with the parent class's definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/battle_of_definitions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/battle_of_definitions.png
+.. code-block:: php
+
+   <?php
+   
+   interface I {
+       function __construct(int $i);
+   }
+   
+   class X implements I {
+       function __construct(int $i) {}
+   }
+   
+   // Fatal error: Declaration of Yy::__construct(string $a) must be
+   // compatible with I::__construct(int $i)
+   
+   class Y extends X {
+       function __construct(string $a) {}
+   }
+   
+   ?>
+
 
 Methods signatures must be compatible with the parent class's definition. This is true, except for ``__construct()``, for which the compatibility is never checked.
 

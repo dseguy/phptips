@@ -21,9 +21,24 @@ array_append() And Short Assignation
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html","name":"array_append() And Short Assignation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 10:37:51 +0000","dateModified":"Thu, 02 Apr 2026 10:37:51 +0000","description":"PHP allows using short assignation operators with the array append operators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html","name":"array_append() And Short Assignation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:34 +0000","dateModified":"Tue, 14 Jul 2026 14:30:34 +0000","description":"PHP allows using short assignation operators with the array append operators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_append.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/array_append.png
+.. code-block:: php
+
+   <?php
+   
+   $x = [];
+   $x[] = 1;
+   $x[] += 2;
+   $x[] ??= 3;
+   $x[] *= 4;
+   $x[] **= 5;
+   $x[] |= 6;
+   
+   print_r($x);
+   
+   ?>
+
 
 PHP allows using short assignation operators with the array append operators. This means that the code adds ``2`` to the array append. No error is displayed, except in the case of ``??=``, who is yield a Fatal error, with an explicit "Cannot use [] for reading".
 

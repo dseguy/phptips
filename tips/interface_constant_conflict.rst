@@ -21,9 +21,22 @@ Interfaces Constants Conflicts
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html","name":"Interfaces Constants Conflicts","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 06:33:21 +0000","dateModified":"Thu, 02 Jul 2026 06:33:21 +0000","description":"PHP reports duplicate constant definitions in different interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html","name":"Interfaces Constants Conflicts","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:02 +0000","dateModified":"Tue, 14 Jul 2026 14:32:02 +0000","description":"PHP reports duplicate constant definitions in different interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_constant_conflict.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/interface_constant_conflict.png
+.. code-block:: php
+
+   <?php
+   
+   interface A {
+       const FOO = 10;
+   }
+   
+   interface b {
+       const FOO = 10;
+   }
+   
+   class test implements A, B {}
+
 
 PHP reports duplicate constant definitions in different interfaces.
 

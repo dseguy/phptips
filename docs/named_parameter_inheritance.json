@@ -16,5 +16,7 @@
     "3v4l": {
         "named parameter changes": "https:\/\/3v4l.org\/k3Rhl"
     },
+    "code": "<?php\n  \ninterface I { function foo(int $i); }\n\nclass X implements I { function foo(int $x) { echo $x; } }\n\n(new X)->foo(x: 1);\n(new X)->foo(i: 1);\n  \n?>",
+
     "phpError": {"Unknown named parameter $%s":"unknown-named-parameter-$%s"}
 }

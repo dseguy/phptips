@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["spaceship", "coalesce"],
     "3v4l": {"chaining spaceships":"https://3v4l.org/8C5Xd"},
+    "code": "<?php\n\n\nfunction foo($a, $b) {\n    return $a[0] <=> $b[0] ?:\n           $a[1] <=> $b[1] ?:\n           $a[2] <=> $b[2] ?:\n               0;\n}\n\n\n$array = [\n    [1, 2, 3],\n    [1, 3, 5],\n    [1, 2, 4],\n    [0, 2, 3],\n    ];\n\nusort($array, foo(...));\nprint_r($array);",
+
     "phpError":{}
 }

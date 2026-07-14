@@ -16,5 +16,7 @@
     "contact":"",
     "features": ["attribute", "userland", "cite"],
     "3v4l": {"Attributes for all":"https://3v4l.org/pZSn7"},
+    "code": "<?php\n\n#[MyAttribute]\nclass x {}\n\n#[MyAttribute]\nenum e {}\n\n#[MyAttribute]\ninterface i {}\n\n#[MyAttribute]\ntrait t {}\n\n\/\/ ===================\n\n#[MyFunctionAttribute]\nfunction foo() {}\n\n$c = #[MyFunctionAttribute] function () {};\n\n$f = #[MyFunctionAttribute] fn () => 1;",
+
     "phpError":{}
 }

@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["compact", "extract", "recursion"],
     "3v4l": {"Recursive compact()":"https://3v4l.org/EEAKb"},
+    "code": "<?php\n\n$a = ['b', [\"c\"]];\n$a = ['b', [[[[\"c\"]]]]];\n$b = 1;\n$c = 2;\n\n$d = compact($a);\nprint_r($d);\n\n?>",
+
     "phpError": {"Recursion detected":"recursion-detected"}
 }

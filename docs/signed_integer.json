@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["integer", "sign", "cast"],
     "3v4l": {"Over-signed integers":"https://3v4l.org/HU2ub#v8.5.3"},
+    "code": "<?php\n\n$three = +-+3; \/\/ -3\n$three = -+-3; \/\/  3\n\n$four  = -+-+4; \/\/ 4\n$four  = -+-+4; \/\/ 4\n\nvar_dump(+0 === -0);\n\nvar_dump((int) '+-+3');\n\nvar_dump(is_numeric('+-+3'));",
+
     "phpError": {"Unsupported operand types: string + int":"unsupported-operand-types:-%s-%s-%s"}
 }

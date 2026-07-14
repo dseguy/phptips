@@ -15,5 +15,7 @@
     "contact": "",
     "features": ["parse_str", "query-string", "concatenation", "underscore"],
     "3v4l": {"Various parse_str() replacements":"https://3v4l.org/4GMFX"},
+    "code": "<?php\n\nparse_str('x=1&y.z=2&a b=3&c+d=4&e[=3', $x);\nprint_r($x);",
+
     "phpError":{}
 }

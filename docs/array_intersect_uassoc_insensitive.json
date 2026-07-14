@@ -24,5 +24,7 @@
         "comparison",
         "index-array"
     ],
+    "code": "<?php\n\/\/ From the PHP manual\n$arrayl = array(\"a\" => \"green\", \"b\" => \"brown\", \"c\" => \"blue\", \"red\");\n$array2 = array(\"a\" => \"GREEN\", \"B\" => \"brown\", \"yellow\", \"red\");\n\n$arrays = [$arrayl, $array2];\n\nprint_r(call_user_func_array(\"array_intersect_uassoc\", [$arrayl, $array2, \"strcasecmp\"] ));",
+
     "phpError": {}
 }

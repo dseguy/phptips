@@ -21,9 +21,18 @@ Argument Renaming
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arg_renaming.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arg_renaming.html","name":"Argument Renaming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:22:39 +0000","dateModified":"Mon, 29 Jun 2026 09:22:39 +0000","description":"Method compatibility does not allow adding or removing arguments between a parent and a child, and types must be compatible","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arg_renaming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arg_renaming.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arg_renaming.html","name":"Argument Renaming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:32 +0000","dateModified":"Tue, 14 Jul 2026 14:30:32 +0000","description":"Method compatibility does not allow adding or removing arguments between a parent and a child, and types must be compatible","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arg_renaming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/arg_renaming.png
+.. code-block:: php
+
+   <?php
+   
+   class x           { function foo(int $a, int $b) {} }
+   class y extends x { function foo(int $b, int $a) {} }
+   
+   class x2            { function foo(int $a, string $b) {} }
+   class y2 extends x2 { function foo(string $b, int $a) {} }
+
 
 Method compatibility does not allow adding or removing arguments between a parent and a child, and types must be compatible.
 

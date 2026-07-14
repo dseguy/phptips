@@ -15,6 +15,8 @@
     "3v4l": {
         "No yield, no loop": "https://3v4l.org/Znbbl"
     },
+    "code": "<?php\n\nfunction foo() {\n    yield 'foo';\n    goo();\n}\n\nfunction too() {\n    yield 'too';\n    yield from goo();\n}\n\nfunction hoo() {\n    yield 'hoo';\n    yield goo();\n}\n\nfunction goo() {\n    yield 'goo';\n}\n\nforeach(foo() as $a) { print $a.PHP_EOL;}\n\/\/ goo\nforeach(too() as $a) { print $a.PHP_EOL;}\n\/\/ too goo\nforeach(hoo() as $a) { print $a.PHP_EOL;}\n\/\/ hoo Uncaught Error: Object of class Generator\n\/\/ could not be converted to string\n\n?>",
+
     "phpError": {},
     "features": [
     	"function",

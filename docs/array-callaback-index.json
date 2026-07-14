@@ -13,6 +13,8 @@
     "contact": "",
     "features": ["array", "array-callable", "callable", "index-array", "method"],
     "3v4l": {"Which array is callable? ":"https://3v4l.org/49TcN"},
+    "code": "<?php\n\nclass x {\n    static function foo() { echo __METHOD__.PHP_EOL;}\n}\n\n['x', 'foo']();\n[0 => 'x', 1 => 'foo']();\n\/\/Array callback has to contain indices 0 and 1\n\/\/[10 => 'x', 11 => 'foo']();\n\/\/Array callback must have exactly two elements\n\/\/[10 => 'x', 11 => 'foo', 0 =>0, 1=>1]();\n\n\/\/ OK! \n[1 => 'foo', 0 => 'x']();",
+
     "phpError": {"Array callback has to contain indices 0 and 1":"array-callback-has-to-contain-indices-0-and-1",
                  "Array callback must have exactly two elements":"array-callback-must-have-exactly-two-elements"}
 }

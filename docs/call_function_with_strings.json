@@ -1,5 +1,6 @@
 {
     "image": "call_function_with_strings.png",
+    "code":"<?php\n\nfunction foo() { echo __FUNCTION__; }\n\nfoo();\n'foo'();\nb'foo'();\n\"foo\"();\n\n$x = \"oo\";\n\"f$x\"();\n",
     "date": "2024-12-07",
     "title": "Call Function With Strings",
     "content": "Usually, a function is called with its name as first element of the syntax.\nAnd it is also possible to use a string, either in a variable or directly as a literal. This means that adding single or double quotes to the name of a function is still a valid syntax.\nOf course, there is still the left over binary string of PHP 6, so it is also possible to add an initial ``b`` to the string.\nThen, the double quoted strings accepts interpolated variables, to make the call dynamic.\nFinally, it is not possible to use the HereDoc syntax, as parenthesis are not allowed directly after the closing tag.",
@@ -12,6 +13,7 @@
     "author": "",
     "contact": "",
     "3v4l": {
+    "Calling functions with strings":"https://3v4l.org/K2JIq#v8.5.8"
     },
     "phpError": {},
     "features": ["function", "string"]

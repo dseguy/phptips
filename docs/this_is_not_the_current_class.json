@@ -14,5 +14,7 @@
     "contact": "",
     "3v4l":{"Where is my class?":"https://3v4l.org/r49jU"},
     "features":["magic-constant", "get_class"],
+    "code": "<?php\n\nclass a {\n    function foo() {\n        echo __CLASS__;          \/\/ a\n        print get_class($this);  \/\/ a or b\n    }\n}\n\nclass b extends a {}\n\n(new b)->foo();",
+
     "phpError":{}
 }

@@ -11,6 +11,8 @@
     "3v4l": {
         "null as a parameter": "https://3v4l.org/3JsR4"
     },
+    "code": "<?php\n\n$array = [3 => null, 4 => 4];\n\nvar_dump(array_keys($array, null));\n\/\/ 3\n\nvar_dump(array_keys($array \/*, void *\/));\n\/\/ 3, 4",
+
     "phpError": {},
     "features": ["null", "void", "parameter"],
     "author": "",

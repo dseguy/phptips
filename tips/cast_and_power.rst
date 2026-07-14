@@ -21,9 +21,23 @@ Casting And Power
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_and_power.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_and_power.html","name":"Casting And Power","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:31 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"When you know that ``2*2 = 4``, and ``2**2 = 4`` (too), and ``2","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_and_power.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_and_power.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_and_power.html","name":"Casting And Power","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:53 +0000","dateModified":"Tue, 14 Jul 2026 14:30:53 +0000","description":"When you know that ``2*2 = 4``, and ``2**2 = 4`` (too), and ``2","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_and_power.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/cast_and_power.png
+.. code-block:: php
+
+   <?php
+   
+   $a = 2.5;
+   $b = 2.5;
+   
+   print (int) $a * (int) $b;  // 4
+   
+   print PHP_EOL;
+   
+   print (int) $a ** (int) $b; // 6
+   
+   ?>
+
 
 When you know that ``2*2 = 4``, and ``2**2 = 4`` (too), and ``2.5 ** 2.5 = 9.8821176880262``, you have to ask yourself where is this 6 coming from.
 

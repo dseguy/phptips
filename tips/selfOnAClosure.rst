@@ -21,9 +21,27 @@ self Is A Valid Type On A Closure
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html","name":"self Is A Valid Type On A Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:42 +0000","dateModified":"Thu, 02 Apr 2026 05:33:42 +0000","description":"``self`` is a valid type inside a class (trait, interface, enum) to reference the current class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html","name":"self Is A Valid Type On A Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:22 +0000","dateModified":"Tue, 14 Jul 2026 14:33:22 +0000","description":"``self`` is a valid type inside a class (trait, interface, enum) to reference the current class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/selfOnAClosure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/selfOnAClosure.png
+.. code-block:: php
+
+   <?php
+   
+   class XABC {
+       function foo() {
+               // static does not apply to self
+           $f = static function () : self {
+               // __CLASS__ is preserved in the closure
+               echo __CLASS__.PHP_EOL;
+               return new self();
+           };
+           
+           return $f;
+       }
+   }
+   
+   var_dump((new xabc)->foo()());
+
 
 ``self`` is a valid type inside a class (trait, interface, enum) to reference the current class. ``self`` may also be used with a closure, since the closure use its location of definition. The class name may be exported that way, and instantiated outside the original class.
 

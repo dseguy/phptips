@@ -13,6 +13,8 @@
 	"oop"
 ],
 "3v4l":{"Inconsistent Constructor Signatures":"https://3v4l.org/RAMIo"},
+"code": "<?php\n\ndeclare(strict_types=1);\n\nclass x {\n    function __toString() : string {\n        return \"YES\";\n    }\n}\n\nfunction foo(string $a) {}\n\n\/\/ piece of syntax of the day (POSOTD)\necho $x = new x;\n\nprint \" A $x\";\n\n\/\/ Fata error: Argument #1 ($a) must be of type string, x given, foo($x);\n\n?>",
+
 "phpError":{},
 "author":"",
 "contact":""

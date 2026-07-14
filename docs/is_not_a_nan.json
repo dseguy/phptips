@@ -18,5 +18,7 @@
     "3v4l": {
         "NAN !== NAN": "https:\/\/3v4l.org\/Hb5EI"
     },
+    "code": "<?php\n  \nvar_dump(NAN === NAN); \/\/ false\n\nvar_dump(is_nan(NAN)); \/\/ true\n  \n?>",
+
     "phpError": {}
 }

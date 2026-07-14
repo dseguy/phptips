@@ -21,9 +21,31 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_operator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_operator.html","name":"::parent Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:44 +0000","dateModified":"Thu, 02 Apr 2026 05:33:44 +0000","description":"PHP provides the ``X::class`` operator to access a class's fully qualified name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_operator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_operator.html","name":"::parent Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:56 +0000","dateModified":"Tue, 14 Jul 2026 14:32:56 +0000","description":"PHP provides the ``X::class`` operator to access a class's fully qualified name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/parent_operator.png
+.. code-block:: php
+
+   <?php
+   
+   trait t {
+       const parent = parent::class;
+       const grandparent = self::parent::class;
+   }
+   
+   class x {
+       use t;  // valid but just don't even think about using x::parent, 
+   }
+   
+   class y extends x {
+       use t;
+   }
+   
+   class z extends y {
+   }
+   
+   echo y::parent; // x
+   echo z::parent; // y
+
 
 PHP provides the ``X::class`` operator to access a class's fully qualified name. To get the parent's class, one must use the ``get_parent_class()`` native function. Wouldn't it be cool to have the same operator?
 

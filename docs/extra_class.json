@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["class", "scope-resolution-operator"],
     "3v4l": {"A::class":"https://3v4l.org/QdZ5J#v8.5.7"},
+    "code": "<?php\n\nclass A {\n    const B = C;\n}\n\nclass C {}\n\nconst C = new C;\n\nconst A = 'Z'; \/\/ unused\n\necho A::class::B::class;\necho (A::class)::B::class;\necho A::B::class;",
+
     "phpError": {}
 }

@@ -14,6 +14,8 @@
     "3v4l": {
         "By reference or by value?": "https://3v4l.org/6knLV"
     },
+    "code": "<?php\n\nconst A = 1;\n\nfunction &foo(&$a) {\n    return [];\n}\n\n$a = 1;\n$a = foo($a);\n\/\/ Notice: Only variable references should be returned by reference\n\nfoo(1);\n\/\/ Fatal error: Uncaught Error: foo(): Argument #1 ($a) cannot be passed by reference\n\n?>",
+
     "phpError": {},
     "features": [
             "reference",

@@ -21,9 +21,26 @@ Array Callback Index
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html","name":"Array Callback Index","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:22:39 +0000","dateModified":"Mon, 29 Jun 2026 09:22:39 +0000","description":"An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html","name":"Array Callback Index","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:33 +0000","dateModified":"Tue, 14 Jul 2026 14:30:33 +0000","description":"An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callaback-index.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/array-callaback-index.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       static function foo() { echo __METHOD__.PHP_EOL;}
+   }
+   
+   ['x', 'foo']();
+   [0 => 'x', 1 => 'foo']();
+   //Array callback has to contain indices 0 and 1
+   //[10 => 'x', 11 => 'foo']();
+   //Array callback must have exactly two elements
+   //[10 => 'x', 11 => 'foo', 0 =>0, 1=>1]();
+   
+   // OK! 
+   [1 => 'foo', 0 => 'x']();
+
 
 An array callback must be built with two elements, and their index must be ``0``, for the class or object, and ``1`` for the method name. PHP enforces the number of elements in the array, and the actual used index.
 

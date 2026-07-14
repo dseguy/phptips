@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["sqlite3", "temporary", "memory"],
     "3v4l": {"sqlite3 in memory":"https://3v4l.org/VkfuV#v8.5.7"},
+    "code": "<?php\n\/\/ Create an in-memory SQLite database\n$db = new PDO('sqlite::memory:', null, null, [\n    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION\n]);\n\n$count = 10;\n\n\/\/ Measure time to insert $count integers\n$startInsert = microtime(true);\n$db->exec(\"CREATE TABLE numbers (id INTEGER PRIMARY KEY AUTOINCREMENT, value INTEGER NOT NULL)\");\n\nfor ($i = 1; $i <= $count; $i++) {\n    $db->exec(\"INSERT INTO numbers (value) VALUES ($i)\");\n}\n$insertTime = microtime(true) - $startInsert;\n\n$stmt = $db->query(\"SELECT sum(id) FROM numbers\");\n$records = $stmt->fetchAll(PDO::FETCH_COLUMN);\nprint_r($records); \/\/ 55",
+
     "phpError": {}
 }

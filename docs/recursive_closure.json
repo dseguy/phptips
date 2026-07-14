@@ -13,6 +13,8 @@
     "author": "",
     "contact": "",
     "3v4l":{"recursive closure":"https://3v4l.org/3MHeR"},
+    "code": "<?php\n\n$factorial = function (int $n) use (&factorial) {\n    if ($n === 1) {\n        return 1;\n    }\n    \n    return $factorial($n - 1) * $n;\n};\n\nprint factorial( 5 );\n\n?>",
+
     "phpError":{},
     "features":["closure", "arrow-function", "recursion"]
 }

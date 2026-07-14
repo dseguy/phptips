@@ -21,11 +21,20 @@ Datetime Object, And Years
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html","name":"Datetime Object, And Years","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 14:44:12 +0000","dateModified":"Thu, 09 Apr 2026 14:44:12 +0000","description":"In this code, 2 years are given to ``Datetime``, and handed back","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html","name":"Datetime Object, And Years","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:22 +0000","dateModified":"Tue, 14 Jul 2026 14:31:22 +0000","description":"In this code, 2 years are given to ``Datetime``, and handed back","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/datetime_and_year.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
 
-.. image:: ../images/datetime_and_year.png
+.. code-block:: php
+
+   <?php
+   for ($y = 1900; $y < 2100; $y++) {
+     if (new DateTime($y)->format('Y') != $y) {
+         echo $y, ' ', (new DateTime($y))->format('c'), "
+   ";
+         }
+   }
+
 
 In this code, 2 years are given to ``Datetime``, and handed back. Yet, they return the same value: 2024.
 

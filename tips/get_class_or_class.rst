@@ -21,9 +21,24 @@ get_class() Or ::class?
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_class_or_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_class_or_class.html","name":"get_class() Or ::class?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:33 +0000","dateModified":"Thu, 02 Apr 2026 05:33:33 +0000","description":"Both ``get_class()`` and ``::class`` do the same: they report the name of the class of the provided object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_class_or_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_class_or_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_class_or_class.html","name":"get_class() Or ::class?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:53:07 +0000","dateModified":"Tue, 14 Jul 2026 14:53:07 +0000","description":"Both ``get_class()`` and ``::class`` do the same: they report the name of the class of the provided object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_class_or_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/get_class_or_class.png
+.. code-block:: php
+
+   <?php
+   
+   namespace abc;
+   
+   class def {}
+   
+   $x = new \ABC\DEF();
+   print get_class($x);
+   print PHP_EOL;
+   print $x::class;
+   print PHP_EOL;
+   print DEF::class;
+   print PHP_EOL;
+
 
 Both ``get_class()`` and ``::class`` do the same: they report the name of the class of the provided object. The nuances are in the details.
 

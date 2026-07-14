@@ -16,6 +16,8 @@
     "3v4l": {
         "Aboard the compatibility train": "https://3v4l.org/KrZlK"
     },
+    "code": "<?php\n\nclass CallbackWithIntersectionTypehintClass {\n    \n    #[PHP8] public function __invoke(Exception&Countable $e) : void \/*\n    \/\/ public function __invoke(bool $feelingDirty = true): void  \/\/ *\/\n    { echo __METHOD__; }\n}\n\n(new CallbackWithIntersectionTypehintClass)();",
+
     "phpError": {},
     "features": ["signature", "compatibility"]
 }

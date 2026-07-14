@@ -21,9 +21,30 @@ Three Return Errors
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/three_return_errors.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/three_return_errors.html","name":"Three Return Errors","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 03 Jun 2026 15:06:24 +0000","dateModified":"Wed, 03 Jun 2026 15:06:24 +0000","description":"There are three errors in this code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/three_return_errors.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/three_return_errors.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/three_return_errors.html","name":"Three Return Errors","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:42 +0000","dateModified":"Tue, 14 Jul 2026 14:33:42 +0000","description":"There are three errors in this code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/three_return_errors.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/three_return_errors.png
+.. code-block:: php
+
+   <?php
+   
+   interface I {
+       function foo(): A; 
+   }
+   
+   class X implements i {
+   
+       function foo() : A {
+           // return type is not useful here
+           throw new Exception('');
+       
+           // PHP complains that a value must be returned
+           return;
+       
+           // PHP won't complain until execution time
+           return 1;
+       }
+   }
+
 
 There are three errors in this code.
 

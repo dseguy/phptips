@@ -21,9 +21,22 @@ array_map_assoc() With Keys
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_assoc.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_assoc.html","name":"array_map_assoc() With Keys","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 11:26:25 +0000","dateModified":"Thu, 02 Apr 2026 11:26:25 +0000","description":"array_map() only provides the value of the array, not the key","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_assoc.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_assoc.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_assoc.html","name":"array_map_assoc() With Keys","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:39 +0000","dateModified":"Tue, 14 Jul 2026 14:30:39 +0000","description":"array_map() only provides the value of the array, not the key","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_assoc.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/array_map_assoc.png
+.. code-block:: php
+
+   <?php
+   
+   $hash = ['a' => 1, 'b' => 2];
+   
+   
+   print_r(array_map(function($v, $k) { return "$k: $v";},
+                     $hash,
+                     array_keys($hash)
+                   ));
+                   
+   ?>
+
 
 array_map() only provides the value of the array, not the key. To access the key, one must use the extra argument, and array_keys().
 

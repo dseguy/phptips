@@ -14,6 +14,8 @@
     "3v4l": {
         "Self Referencing Constants": "https://3v4l.org/QjKnC"
     },
+    "code": "<?php\n\nclass x {\n    const A = x::A + 1;\n    \n    const B = x::C + 1;\n    const C = x::B + 1;\n    \n}",
+
     "phpError": {"Cannot declare self-referencing constant x::A":"cannot-declare-self-referencing-constant"},
     "features": ["constant", "self", "static-expression"]
 }

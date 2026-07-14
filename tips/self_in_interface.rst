@@ -21,9 +21,24 @@ Self In An Interface
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_in_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_in_interface.html","name":"Self In An Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:36 +0000","dateModified":"Thu, 02 Apr 2026 05:33:36 +0000","description":"The keyword ``self`` in an interface represents that same interface: it does not represent the host class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_in_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_in_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_in_interface.html","name":"Self In An Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:23 +0000","dateModified":"Tue, 14 Jul 2026 14:33:23 +0000","description":"The keyword ``self`` in an interface represents that same interface: it does not represent the host class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_in_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/self_in_interface.png
+.. code-block:: php
+
+   <?php
+   
+   interface i {
+       function foo(self $i); 
+   }
+   
+   class x implements i {
+       //Declaration of x::foo(x $i) must be compatible with i::foo(i $i)
+       function foo(self $i) {} 
+       
+       // OK
+       function foo(i $i) {}
+   }
+
 
 The keyword ``self`` in an interface represents that same interface: it does not represent the host class. Hence, using ``self`` as return type means that the method must return an object that implements the type ``i``, not of the host class.
 

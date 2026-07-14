@@ -16,6 +16,8 @@
        	"expm1() versus exp() - 1":"https://3v4l.org/s2Y5G"
 
     },
+    "code": "<?php\n\n\necho expm1(1);\necho PHP_EOL;\necho exp(1) - 1;",
+
     "phpError": {},
     "features": ["math", "exponent"]
 }

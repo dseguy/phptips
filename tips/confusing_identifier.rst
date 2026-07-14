@@ -21,9 +21,31 @@ Identifier Confusions
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/confusing_identifier.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/confusing_identifier.html","name":"Identifier Confusions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:46 +0000","dateModified":"Thu, 02 Apr 2026 05:33:39 +0000","description":"Identifiers are used both for constant names and for class names (CITE)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/confusing_identifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/confusing_identifier.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/confusing_identifier.html","name":"Identifier Confusions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:53:12 +0000","dateModified":"Tue, 14 Jul 2026 14:53:12 +0000","description":"Identifiers are used both for constant names and for class names (CITE)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/confusing_identifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/confusing_identifier.png
+.. code-block:: php
+
+   <?php
+   
+   
+   const A = 'b::c';
+   
+   class B {
+       static function C() { echo __METHOD__; }
+   }
+   
+   //valid call to \B::C()
+   constant('A')();
+   
+   // class A not found
+   //new A;
+   
+   // Call to undefined function A()
+   A();
+   
+   // parse error, this is not supported
+   //{A}();
+
 
 Identifiers are used both for constant names and for class names (CITE). Depending on the situation, they may be confused one for the other: here, ``A`` is a constant, and its value is accessible for dynamic code purposes. Yet, ``A()`` cannot be used.
 

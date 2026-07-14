@@ -16,5 +16,7 @@
     "3v4l": {
         "Get The Generator": "https:\/\/3v4l.org\/S24Re"
     },
+    "code": "<?php\n\nfunction foo() {\n    yield 1;\n    return \"a\";\n}\n\nfunction goo($a) {\n    print $a . PHP_EOL;\n}\n\ngoo(...($generator = foo()));\n\nprint $generator->getReturn();\n\/\/ la\n\nforeach (($generator = foo()) as $b) {\n    print $b . PHP_EOL;\n}\nprint $generator->getReturn();\n\/\/ la\n\n?>",
+
     "phpError": {}
 }

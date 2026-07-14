@@ -21,9 +21,25 @@ What Array Is A List
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/what_array_list.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/what_array_list.html","name":"What Array Is A List","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 06:32:02 +0000","dateModified":"Sun, 12 Jul 2026 06:32:02 +0000","description":"array_is_list() was introduced in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/what_array_list.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/what_array_list.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/what_array_list.html","name":"What Array Is A List","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:59 +0000","dateModified":"Tue, 14 Jul 2026 14:33:59 +0000","description":"array_is_list() was introduced in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/what_array_list.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/what_array_list.png
+.. code-block:: php
+
+   <?php
+   
+   $array = [1 => 'a', 0 => 'b'];
+   var_dump(array_is_list($array));
+   
+   ksort($array);
+   var_dump(array_is_list($array));
+   
+   $array = [1 => 'b'];
+   $array[0] = 'a';
+   var_dump(array_is_list($array));
+   
+   asort($array); // lucky sort
+   var_dump(array_is_list($array));
+
 
 array_is_list() was introduced in PHP 8.1, and tells if an array is a list: an array is considered a list if its keys consist of consecutive numbers from 0 to ``count($array)-1``.
 

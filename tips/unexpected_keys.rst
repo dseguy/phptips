@@ -21,9 +21,23 @@ Unexpected Keys In Array
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unexpected_keys.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unexpected_keys.html","name":"Unexpected Keys In Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:34 +0000","dateModified":"Thu, 02 Apr 2026 05:33:34 +0000","description":"It is possible to put 2 elements in a PHP array, find different 5 keys with ``array_key_exists()`` or ``isset()`` and yet, still count 2 distinct elements (key wise)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unexpected_keys.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unexpected_keys.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unexpected_keys.html","name":"Unexpected Keys In Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:51 +0000","dateModified":"Tue, 14 Jul 2026 14:33:51 +0000","description":"It is possible to put 2 elements in a PHP array, find different 5 keys with ``array_key_exists()`` or ``isset()`` and yet, still count 2 distinct elements (key wise)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unexpected_keys.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/unexpected_keys.png
+.. code-block:: php
+
+   <?php
+   
+   $array = [null => 42, false => 43];
+   
+   var_dump(array_key_exists(null, $array));  // true
+   var_dump(array_key_exists('', $array));    // true
+   var_dump(array_key_exists(false, $array)); // true
+   var_dump(array_key_exists(0, $array));     // true
+   var_dump(array_key_exists(0.0, $array));   // true
+   
+   print count($array). " elements in the array
+   ";
+
 
 It is possible to put 2 elements in a PHP array, find different 5 keys with ``array_key_exists()`` or ``isset()`` and yet, still count 2 distinct elements (key wise).
 

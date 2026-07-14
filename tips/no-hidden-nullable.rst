@@ -21,9 +21,23 @@ No Hidden Nullable
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-hidden-nullable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-hidden-nullable.html","name":"No Hidden Nullable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:36 +0000","dateModified":"Thu, 02 Apr 2026 05:33:36 +0000","description":"A hidden nullable is a, now deprecated, PHP features where typed parameters with a default value of ``null`` are automatically nullable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-hidden-nullable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-hidden-nullable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-hidden-nullable.html","name":"No Hidden Nullable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:35 +0000","dateModified":"Tue, 14 Jul 2026 14:32:35 +0000","description":"A hidden nullable is a, now deprecated, PHP features where typed parameters with a default value of ``null`` are automatically nullable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-hidden-nullable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/no-hidden-nullable.png
+.. code-block:: php
+
+   <?php
+   
+   function foo(string $a = null) {}
+   
+   
+   const A  = null;
+   function bar(string $a = A) {}
+   
+   foo();  // Deprecated 
+   bar();  // Fatal error
+   
+   ?>
+
 
 A hidden nullable is a, now deprecated, PHP features where typed parameters with a default value of ``null`` are automatically nullable.
 

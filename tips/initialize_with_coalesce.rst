@@ -21,9 +21,35 @@ Only Initialize With Short Assignation Coalesce
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/initialize_with_coalesce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/initialize_with_coalesce.html","name":"Only Initialize With Short Assignation Coalesce","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:44 +0000","dateModified":"Thu, 02 Apr 2026 05:33:44 +0000","description":"It is not possible to access a property before its initialisation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/initialize_with_coalesce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/initialize_with_coalesce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/initialize_with_coalesce.html","name":"Only Initialize With Short Assignation Coalesce","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:58 +0000","dateModified":"Tue, 14 Jul 2026 14:31:58 +0000","description":"It is not possible to access a property before its initialisation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/initialize_with_coalesce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/initialize_with_coalesce.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       private static self $x;
+   
+       static function getInstance() {
+           // all good
+           return self::$x ??= new self();
+       }
+   
+       static function getInstance2() {
+           // Not ok : cannot access before initialisation
+           return self::$x = self::$x ?? new self();
+       }
+   
+       static function getError() {
+           // Not ok : cannot access before initialisation
+           if (!self::$x instanceof self) {
+               self::$x = new self();
+           }
+   
+           return self::$x;
+       }
+   }
+
 
 It is not possible to access a property before its initialisation. This is true to both static and normal properties.
 

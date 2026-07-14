@@ -21,11 +21,36 @@ The undefined Keyword
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_keyword.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_keyword.html","name":"The undefined Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 15:24:50 +0000","dateModified":"Tue, 07 Jul 2026 15:24:50 +0000","description":"This is valid PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_keyword.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_keyword.html","name":"The undefined Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:49 +0000","dateModified":"Tue, 14 Jul 2026 14:33:49 +0000","description":"This is valid PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Hammed Oyedele <https://x.com/devhammed>`_
 
-.. image:: ../images/undefined_keyword.png
+.. code-block:: php
+
+   <?php
+     
+    declare(strict_types = 1);
+   
+   if (! class_exists('undefined')) {
+      class undefined {}
+   }
+   
+   if (! defined('undefined')) {
+      define('undefined',  new undefined());
+   }
+   
+   class X {
+     function foo( 
+         SomeType|undefined $object = undefined,
+         bool|undefined $option = undefined,
+     ) {
+        return match($object) {
+          undefined => new DefaultBehavior(),
+          default => $object->someMethod()
+        };
+     }
+   }
+
 
 This is valid PHP code.
 

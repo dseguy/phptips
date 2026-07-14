@@ -21,9 +21,35 @@ Every Anonymous Class Is Different
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/every_anonymous_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/every_anonymous_class.html","name":"Every Anonymous Class Is Different","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"Anonymous classes don't have an explicit name, yet PHP uses one internally","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/every_anonymous_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/every_anonymous_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/every_anonymous_class.html","name":"Every Anonymous Class Is Different","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:53:09 +0000","dateModified":"Tue, 14 Jul 2026 14:53:09 +0000","description":"Anonymous classes don't have an explicit name, yet PHP uses one internally","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/every_anonymous_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/every_anonymous_class.png
+.. code-block:: php
+
+   <?php
+   
+   print get_class($c = new class() {});
+   //class@anonymousphp-wasm run script:3$0
+   $d = new class() {};
+   
+   var_dump($c instanceof $d);
+   // false!
+   
+   interface i {}
+   
+   $e = new class() implements i {};
+   var_dump($e instanceof i);
+   // true
+   
+   function foo() {
+       return new class() {};
+   }
+   $x = foo();
+   var_dump(foo() instanceof $x);
+   // syntax error !
+   // var_dump($x instanceof foo());
+   
+   ?>
+
 
 Anonymous classes don't have an explicit name, yet PHP uses one internally. That name is build on top of the localisation of the class definition in the code.
 

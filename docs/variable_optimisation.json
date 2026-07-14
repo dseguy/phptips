@@ -13,6 +13,8 @@
     "tip",
     "silent"
     ],
+    "code": "<?php\n\n  $a;\n  \/\/ crii crii \n  \n  3 || $b; \n  \/\/ ...\n  \n  echo $c;\n  \/\/ Warning: Undefined variable $c\n  \n?>",
+
     "phpError": {},
     "features": [
             "variable",

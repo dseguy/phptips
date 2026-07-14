@@ -21,11 +21,24 @@ Named Sqlite3 In Memory
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html","name":"Named Sqlite3 In Memory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:44 +0000","dateModified":"Thu, 02 Apr 2026 05:33:44 +0000","description":"``Sqlite3`` allows the creation of ``memory`` databases: the database is not stored on the disk, but in memory","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html","name":"Named Sqlite3 In Memory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:28 +0000","dateModified":"Tue, 14 Jul 2026 14:32:28 +0000","description":"``Sqlite3`` allows the creation of ``memory`` databases: the database is not stored on the disk, but in memory","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named_sqlite3_in_memory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `archtechx <https://x.com/archtechx>`_
 
-.. image:: ../images/named_sqlite3_in_memory.png
+.. code-block:: php
+
+   <?php
+   
+   $foo = new PDO('sqlite:file:foo?mode=memory&cache=shared');
+   // add some tables and rows to foo
+   
+   $bar = new PDO('sqlite:file:bar?mode=memory&cache=shared');
+   // $bar remains totally independent
+   
+   
+   $foo2 = new PDO('sqlite:file:foo?mode=memory&cache=shared');
+   // $foo2 contains the EXACT SAME database as $foo
+
 
 ``Sqlite3`` allows the creation of ``memory`` databases: the database is not stored on the disk, but in memory. This is good for temporary data, that requires some SQL features.
 

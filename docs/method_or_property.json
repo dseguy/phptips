@@ -17,5 +17,7 @@
     "3v4l": {
         "method or property?": "https:\/\/3v4l.org\/b8rEC"
     },
+    "code": "<?php\n\n$object = new X();\n\n$one =     $object->foo();   \/\/ X::foo\n\n$two = new $object->foo();   \/\/ object Y {}\n\nclass X {\n    public $foo = Y::class;\n    \n    function foo() {\n        return __METHOD__;\n    }\n}\nclass Y {}\n  \n?>",
+
     "phpError": {}
 }

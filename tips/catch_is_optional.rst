@@ -21,9 +21,27 @@ Catch Is Optional
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/catch_is_optional.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/catch_is_optional.html","name":"Catch Is Optional","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:31 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"In a Try Catch Finally command, only the try part is compulsory","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/catch_is_optional.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/catch_is_optional.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/catch_is_optional.html","name":"Catch Is Optional","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:00 +0000","dateModified":"Tue, 14 Jul 2026 14:31:00 +0000","description":"In a Try Catch Finally command, only the try part is compulsory","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/catch_is_optional.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/catch_is_optional.png
+.. code-block:: php
+
+   <?php
+   
+   try {
+       $x = initSomething();
+       doSomething();        // may throw an exception
+   }
+   
+   // no catch: exception keep their way
+   
+   // finally is always executed
+   // with or without exception being caught
+   finally{
+       $x->shutdown();
+   }
+   
+   ?>
+
 
 In a Try Catch Finally command, only the try part is compulsory. It is possible to create a try command without any catch clause: that way, exceptions are indeed not caught. The finally clause is also optional, but when it is provided, it is always executed, even if exceptions are not caught.
 

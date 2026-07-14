@@ -15,6 +15,8 @@
     },
     "author": "",
     "contact": "",
+    "code": "<?php\n\n$c = 100;\n\necho (int) $c * 0.12345;\n\n?>",
+
     "phpError":{},
     "features":["cast", "precedence"]
 }

@@ -21,9 +21,38 @@ Fluent Function
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fluent_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fluent_function.html","name":"Fluent Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:39 +0000","dateModified":"Thu, 02 Apr 2026 05:33:39 +0000","description":"A fluent interface allows the chaining of method calls","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fluent_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fluent_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fluent_function.html","name":"Fluent Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:44 +0000","dateModified":"Tue, 14 Jul 2026 14:31:44 +0000","description":"A fluent interface allows the chaining of method calls","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fluent_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/fluent_function.png
+.. code-block:: php
+
+   <?php
+   
+   function WTF($arg) {
+       // Payload: count the number of its own calls
+       global $c;
+       ++$c;
+       
+       // payload could be anything
+       // use global to extract values
+       global $collection;
+       if (!isset($collection)) { $collection = []; }
+       $collection[] = $arg;
+       
+       // also possible
+       // $r = __FUNCTION__;
+       // return $r(...)
+       
+       return __FUNCTION__;
+   }
+   
+   WTF(1)(2)(4)(8)(16);
+   
+   echo "WTF was called $c times
+   ";
+   print_r($collection);
+   
+   ?>
+
 
 A fluent interface allows the chaining of method calls. It is a bit harder to do with functions, as there is no supporting object, but it is possible.
 

@@ -15,6 +15,8 @@
     ],
     "author": "",
     "contact": "",
+    "code": "<?php\n\necho 1\/7;\n\/\/ 0.14285714285714\n\nini_set('precision', 2);\necho 1\/7;\n\/\/ 0.14\n\nini_set('precision', 200);\necho 1\/7;\n\/\/ 0.142857142857142849212692681248881854116916656494140625 (php)\n\/\/ 0.142857142857142857142857142857142857142857142857142857 (real)\n\/\/ garbage starts at 18 and stops at 54\n\n?>",
+
     "phpError": {},
     "features": [
         "integer",

@@ -21,9 +21,24 @@ When Space Matters
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html","name":"When Space Matters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:36 +0000","dateModified":"Thu, 02 Apr 2026 05:33:36 +0000","description":"The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html","name":"When Space Matters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:34:01 +0000","dateModified":"Tue, 14 Jul 2026 14:34:01 +0000","description":"The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_space_matters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/when_space_matters.png
+.. code-block:: php
+
+   <?php
+   
+   echo 10 / 1 . ' ms ';
+   echo 10 / 2 .' ms ';
+   
+   //Parse error: syntax error, unexpected single-quoted string " ms ", expecting "," or ";" 
+   echo 10 / 3. ' ms ';
+   
+   //Parse error: syntax error, unexpected single-quoted string " ms ", expecting "," or ";" 
+   echo 10 / 4.' ms ';
+   
+   // OK again
+   echo 10 / 5.6. ' ms ';
+
 
 The two first echo are valid, because there is a space between the integer and the dot : PHP interpret them as a concatenation.
 

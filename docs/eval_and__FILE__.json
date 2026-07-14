@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["eval", "magic-constant", "__FILE__"],
     "3v4l": {"__FILE__ in eval()":"https://3v4l.org/TTNvC#v8.5.8"},
+    "code": "<?php\n\neval(' echo \"__FILE__ is not `'.__FILE__.'` in `\" .  __FILE__.\"`\"; ');",
+
     "phpError": {}
 }

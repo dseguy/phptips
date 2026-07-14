@@ -23,8 +23,7 @@ author = 'Damien Seguy'
 html_favicon = '_static/logo.png'
 
 # The full version, including alpha/beta/rc tags
-release = '1.326'
-
+release = '1.325'
 
 # -- General configuration ---------------------------------------------------
 
@@ -40,7 +39,19 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = [
+    '_build',
+    'Thumbs.db', 
+    '.DS_Store',
+
+    'fr',
+    'es',
+    'de',
+    'zh',
+    'pt',
+    'jp'
+
+]
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -70,7 +81,7 @@ html_title = '';
 html_theme_options = {
     'light_logo': 'logo.png',
     'dark_logo': 'logo.png',
-    'source_repository': 'https://codeberg.org/exakat/PHP-tips/',
+    'source_view_link': 'https://codeberg.org/exakat/PHP-tips/',
     'source_branch': 'main',
     'source_directory': '',
 }
@@ -82,3 +93,5 @@ html_js_files = [
 ]
 
 source_view_link = 'https://codeberg.org/exakat/PHP-tips';
+
+pygments_style = 'sphinx';

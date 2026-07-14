@@ -11,6 +11,8 @@
     "author":"Frederic Bouchery",
     "contact":"https://bsky.app/profile/bouchery.fr",
     "3v4l":{"How is this code running":"https://3v4l.org/6CCFl"},
+    "code": "<?php\nfor ($y = 1900; $y < 2100; $y++) {\n  if (new DateTime($y)->format('Y') != $y) {\n      echo $y, ' ', (new DateTime($y))->format('c'), \"\n\";\n      }\n}",
+
     "phpError":{},
     "features":["datetime", "intdiv", "integer"]
 }

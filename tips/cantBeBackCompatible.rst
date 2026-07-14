@@ -21,9 +21,28 @@ Can't Be Compatible With Less Arguments
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cantBeBackCompatible.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cantBeBackCompatible.html","name":"Can't Be Compatible With Less Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:33 +0000","dateModified":"Thu, 02 Apr 2026 05:33:33 +0000","description":"A method is compatible with its parent's version when it has at least the same number of arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cantBeBackCompatible.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cantBeBackCompatible.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cantBeBackCompatible.html","name":"Can't Be Compatible With Less Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:52 +0000","dateModified":"Tue, 14 Jul 2026 14:30:52 +0000","description":"A method is compatible with its parent's version when it has at least the same number of arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cantBeBackCompatible.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/cantBeBackCompatible.png
+.. code-block:: php
+
+   <?php
+   
+   interface i {
+       function foo($a) ;
+   }
+   
+   interface j extends i {
+       function foo($a, $b = 3);
+   }
+   
+   interface k extends j {
+       function foo($a = 4, $b = 3);
+   }
+   
+   interface l extends k {
+       function foo();
+   }
+
 
 A method is compatible with its parent's version when it has at least the same number of arguments. This is valid with classes, but also with interfaces.
 

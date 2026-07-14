@@ -21,9 +21,17 @@ array array = array()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_array_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_array_array.html","name":"array array = array()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:39 +0000","dateModified":"Thu, 02 Apr 2026 05:33:39 +0000","description":"This made me chuckle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_array_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_array_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_array_array.html","name":"array array = array()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:34 +0000","dateModified":"Tue, 14 Jul 2026 14:30:34 +0000","description":"This made me chuckle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_array_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/array_array_array.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       // PHP 8.3 syntax
+       const array array = array();
+   }
+
 
 This made me chuckle... welcome to PHP 8.3 !
 

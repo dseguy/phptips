@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["never", "type"],
     "3v4l": {"Always Compatible Returntype":"https://3v4l.org/2YXVq6"},
+    "code": "<?php\n\nclass x {\n    function foo() : int {}     \n}\n\nclass y extends x {\n    function foo() : never {}     \n}",
+
     "phpError": {"Declaration of %s must be compatible with %s":"declaration-of-%s-must-be-compatible-with-%s"}
 }

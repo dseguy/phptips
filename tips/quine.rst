@@ -21,9 +21,16 @@ PHP Quine
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html","name":"PHP Quine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 10:24:55 +0000","dateModified":"Thu, 02 Apr 2026 10:24:55 +0000","description":"A quine is a piece of code that produces itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html","name":"PHP Quine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:08 +0000","dateModified":"Tue, 14 Jul 2026 14:33:08 +0000","description":"A quine is a piece of code that produces itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/quine.png
+.. code-block:: php
+
+   <?php
+   $code = '<?php
+   $code = %c%s%c;
+   printf($code, 39, $code, 39);';
+   printf($code, 39, $code, 39);
+
 
 A quine is a piece of code that produces itself. It takes not input, and outputs a text that is its own code. The code is run to produce itself.
 

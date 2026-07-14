@@ -12,6 +12,8 @@
     "contact": "",
     "features": ["throw", "return", "never"],
     "3v4l": {"Three Errors in One Method":"https://3v4l.org/Ic9jV#v8.5.6"},
+    "code": "<?php\n\ninterface I {\n    function foo(): A; \n}\n\nclass X implements i {\n\n    function foo() : A {\n        \/\/ return type is not useful here\n        throw new Exception('');\n    \n        \/\/ PHP complains that a value must be returned\n        return;\n    \n        \/\/ PHP won't complain until execution time\n        return 1;\n    }\n}",
+
     "phpError": {
         "A function with return type must return a value":"a-function-with-return-type-must-return-a-value",
         "A never-returning method must not return":"a-never-returning-method-must-not-return"}

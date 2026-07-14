@@ -21,9 +21,36 @@ Time Of Closure Creation
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closureCreation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closureCreation.html","name":"Time Of Closure Creation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"Here are four ways to create a closure : a callable array, an arrow function, a first class callable, and a static method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closureCreation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closureCreation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closureCreation.html","name":"Time Of Closure Creation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:08 +0000","dateModified":"Tue, 14 Jul 2026 14:31:08 +0000","description":"Here are four ways to create a closure : a callable array, an arrow function, a first class callable, and a static method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closureCreation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/closureCreation.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+      /*    
+       function foo() {
+           echo __METHOD__.PHP_EOL;
+       }
+       */
+   }
+   
+   $object = new x();
+   $method = 'foo';
+   
+   $callable = [$object, $method];
+   //$callable(1); // Call to undefined method stdClass::foo()
+   
+   // No check until execution
+   $closure = fn (...$args) => $object->$method(...$args);
+   //$closure(1); // Call to undefined method stdClass::foo()
+   
+   //Call to undefined method stdClass::foo()
+   $closure = [$object, $method](...);
+   
+   //Failed to create closure from callable: class stdClass does not have a method "foo" 
+   Closure::fromCallable([$object, $method]);
+
 
 Here are four ways to create a closure : a callable array, an arrow function, a first class callable, and a static method. All of them produce the same feature. Here, we focus on the time of checks.
 

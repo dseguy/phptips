@@ -21,9 +21,23 @@ Call Function With Strings
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call_function_with_strings.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call_function_with_strings.html","name":"Call Function With Strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:38 +0000","dateModified":"Thu, 02 Apr 2026 05:33:38 +0000","description":"Usually, a function is called with its name as first element of the syntax","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call_function_with_strings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call_function_with_strings.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call_function_with_strings.html","name":"Call Function With Strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:45:22 +0000","dateModified":"Tue, 14 Jul 2026 14:45:22 +0000","description":"Usually, a function is called with its name as first element of the syntax","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call_function_with_strings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/call_function_with_strings.png
+.. code-block:: php
+
+   <?php
+   
+   function foo() { echo __FUNCTION__; }
+   
+   foo();
+   'foo'();
+   b'foo'();
+   "foo"();
+   
+   $x = "oo";
+   "f$x"();
+   
+
 
 Usually, a function is called with its name as first element of the syntax.
 
@@ -39,6 +53,7 @@ See Also
 ________
 
 * `Function (PHP manual) <https://www.php.net/manual/en/language.functions.php>`_
+* `Calling functions with strings <https://3v4l.org/K2JIq#v8.5.8>`_ [Try me]
 
 
 PHP Features

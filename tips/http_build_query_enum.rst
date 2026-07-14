@@ -21,9 +21,22 @@ http_build_query() And Enumerations
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_build_query_enum.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_build_query_enum.html","name":"http_build_query() And Enumerations","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"When using a backed enum with http_build_query(), the PHP native function uses the value of the case, and not the case itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_build_query_enum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_build_query_enum.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_build_query_enum.html","name":"http_build_query() And Enumerations","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:52 +0000","dateModified":"Tue, 14 Jul 2026 14:31:52 +0000","description":"When using a backed enum with http_build_query(), the PHP native function uses the value of the case, and not the case itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_build_query_enum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/http_build_query_enum.png
+.. code-block:: php
+
+   <?php
+   
+   enum e : string {
+       case A = 'a';
+   }
+   
+   print http_build_query(['a' => 'A', 'b' => e::A]);
+   
+   // PHP 8.4 and more recent : a=A&b=a
+   
+   // Pre PHP 8.4 : a=A&b%5Bname%5D=A&b%5Bvalue%5D=a  a=A&b[name]=A&b[value]='a'
+
 
 When using a backed enum with http_build_query(), the PHP native function uses the value of the case, and not the case itself. This is very convenient to output a compatible value, instead of an internal object. This is valid since PHP 8.4.
 

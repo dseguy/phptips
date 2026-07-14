@@ -13,6 +13,8 @@
     "3v4l": {
         "Different type of constants":"https://3v4l.org/KWbU7"
     },
+    "code": "<?php\n\nclass A {\n    protected const int|string|X C = 1;\n}\n\nclass B extends A {\n    protected const int|string|Y C = 'a';\n}",
+
     "phpError": {},
     "features": [
         "union-type",

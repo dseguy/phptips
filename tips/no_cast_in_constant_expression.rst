@@ -21,9 +21,20 @@ No Cast In Constant Expressions
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html","name":"No Cast In Constant Expressions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:37 +0000","dateModified":"Thu, 02 Apr 2026 05:33:37 +0000","description":"Constant expressions do not accept the cast operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html","name":"No Cast In Constant Expressions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:39 +0000","dateModified":"Tue, 14 Jul 2026 14:32:39 +0000","description":"Constant expressions do not accept the cast operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_cast_in_constant_expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/no_cast_in_constant_expression.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       const string A = '42';
+       const int B = +self::A;
+       // This, below, is a compile error
+       const int C = (int) self::A;
+       
+   }
+
 
 Constant expressions do not accept the cast operator.
 

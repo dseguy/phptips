@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["magic-constant", "method", "function"],
     "3v4l": {"Magic constants":"https://3v4l.org/JuFfn"},
+    "code": "<?php\n\nclass X {\n    function foo() {\n        print __METHOD__.PHP_EOL;\n        print __CLASS__.PHP_EOL;\n        print __FUNCTION__.PHP_EOL;\n    }\n}\n\n(new x)->foo();\n\n    function foo() {\n        print __METHOD__.PHP_EOL;\n        print __CLASS__.PHP_EOL;\n        print __FUNCTION__.PHP_EOL;\n    }\n\nfoo();",
+
     "phpError":{}
 }

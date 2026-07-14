@@ -21,9 +21,14 @@ Where Did The Comma Go?
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/comma_in_number.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/comma_in_number.html","name":"Where Did The Comma Go?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 09:25:35 +0000","dateModified":"Thu, 02 Apr 2026 09:25:35 +0000","description":"It took me way too long to figure out this one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/comma_in_number.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/comma_in_number.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/comma_in_number.html","name":"Where Did The Comma Go?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:12 +0000","dateModified":"Tue, 14 Jul 2026 14:31:12 +0000","description":"It took me way too long to figure out this one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/comma_in_number.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/comma_in_number.png
+.. code-block:: php
+
+   <?php
+   
+   echo 1,34 . ' euros';
+
 
 It took me way too long to figure out this one. In certain cultures, the comma ``,`` is the decimal separator. And here, it looks all good, in particular since there is a dot ``.`` afterwards.
 

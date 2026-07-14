@@ -21,9 +21,39 @@ All Enum Cases
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_cases.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_cases.html","name":"All Enum Cases","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:22:37 +0000","dateModified":"Mon, 29 Jun 2026 09:22:37 +0000","description":"One convenient aspect of enumerations is that they come with a full list of their cases","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_cases.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_cases.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_cases.html","name":"All Enum Cases","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:30 +0000","dateModified":"Tue, 14 Jul 2026 14:30:30 +0000","description":"One convenient aspect of enumerations is that they come with a full list of their cases","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/all_cases.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/all_cases.png
+.. code-block:: php
+
+   <?php
+   
+   enum e: string {
+       case A = 1;
+       case B = 2;
+       case C = 3;
+   }
+   
+   print_r(e::cases());
+   print_r(array_column(e::cases(), 'value'));
+   /**
+   Array
+   (
+       [0] => 1
+       [1] => 2
+       [2] => 3
+   )
+   */
+   print_r(array_column(e::cases(), 'name'));
+   /**
+   Array
+   (
+       [0] => A
+       [1] => B
+       [2] => C
+   )
+   */
+   ?>
+
 
 One convenient aspect of enumerations is that they come with a full list of their cases. Call the ``::cases()`` on any enumeration to get the full list of elements.
 

@@ -21,9 +21,37 @@ Array Items By Value
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_by_value.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_by_value.html","name":"Array Items By Value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 14:17:56 +0000","dateModified":"Mon, 13 Jul 2026 14:17:56 +0000","description":"In this code, an array is built with objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_by_value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_by_value.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_by_value.html","name":"Array Items By Value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:35 +0000","dateModified":"Tue, 14 Jul 2026 14:30:35 +0000","description":"In this code, an array is built with objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_by_value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/array_by_value.png
+.. code-block:: php
+
+   <?php
+   
+   class X {
+       public int $i;
+   }
+   
+   $array = [new x, new x, new x];
+   $array[0]->i = 0;
+   $array[1]->i = 1;
+   $array[2]->i = 2;
+   
+   function foo(array $array) {
+       
+       $array[] = new x;
+       $array[2]->i = 12;
+       $array[3]->i = 3;
+       print count($array)." elements in foo
+   ";
+   }
+   
+   print count($array)." elements before foo
+   ";
+   foo($array);
+   print count($array)." elements after foo
+   ";
+   print_r($array[2]);
+
 
 In this code, an array is built with objects. The array is passed by value to the function. The function updates both the array and one of the elements. When the function is finished, the array in the calling context is still the same, but the object #2 has changed.
 

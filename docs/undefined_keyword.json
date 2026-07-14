@@ -13,5 +13,7 @@
     "contact": "https://x.com/devhammed",
     "features": ["constant", "class", "naming"],
     "3v4l": {"undefined in action":"https://3v4l.org/avVQD#v8.5.7"},
+    "code": "<?php\n  \n declare(strict_types = 1);\n\nif (! class_exists('undefined')) {\n   class undefined {}\n}\n\nif (! defined('undefined')) {\n   define('undefined',  new undefined());\n}\n\nclass X {\n  function foo( \n      SomeType|undefined $object = undefined,\n      bool|undefined $option = undefined,\n  ) {\n     return match($object) {\n       undefined => new DefaultBehavior(),\n       default => $object->someMethod()\n     };\n  }\n}",
+
     "phpError": {}
 }

@@ -14,6 +14,8 @@
     "3v4l": {
         "yield but not return on 3v4l.org": "https:\/\/3v4l.org\/DLIiA"
     },
+    "code": "<?php\n\nfunction foo() {\n    yield 1;\n    yield 2;\n    yield 3;\n    \n    return ' 4';\n}\n\nfunction goo($a, $b, $c) {\n    print \"$a $b $c\";\n}\nprint PHP_EOL;\n\ngoo(...foo());\n\ngoo(...($g = foo()));\necho $g->getReturn();\n\n?>",
+
     "phpError": {},
     "features": [
         "ellipsis",

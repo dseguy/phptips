@@ -24,5 +24,7 @@
     "3v4l": {
         "no more class _": "https:\/\/3v4l.org\/bfh8v"
     },
+    "code": "<?php\n\nclass _ {}\n\nfunction _($_) { echo $_; }\n\nconst _ = 'hello PHP';\n\n_    (_:_)     ;\n\n?>",
+
     "phpError": {"Using \"_\" as a class name is deprecated since 8.4":"using-\"_\"-as-%s-is-deprecated-since-8.4"}
 }

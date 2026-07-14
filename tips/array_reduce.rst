@@ -21,11 +21,87 @@ array_reduce() To Filter And Alter
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html","name":"array_reduce() To Filter And Alter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:34 +0000","dateModified":"Thu, 02 Apr 2026 05:33:34 +0000","description":"Using array_reduce() to create custom data structures goes beyond simple filtering","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html","name":"array_reduce() To Filter And Alter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:42 +0000","dateModified":"Tue, 14 Jul 2026 14:30:42 +0000","description":"Using array_reduce() to create custom data structures goes beyond simple filtering","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_reduce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Rahul Chavan <https://twitter.com/rcsofttech85>`_
 
-.. image:: ../images/array_reduce.png
+.. code-block:: php
+
+   <?php
+   $users = [
+       [
+           "id" => 1,
+           "name" => "rahul",
+           "premium" => true,
+           "purchases" => ["apple", "banana", "carrot"],
+           "price" => 22,
+           ],
+       [        
+           "id" => 2,
+           "name" => "abhi",
+           "premium" => false,
+           "purchases" => ["apple", "banana", "carrot"],
+           "price" => 22,
+           ],
+           [        
+           "id" => 3,
+           "name" => "kavita",
+           "premium" => true,
+           "purchases" => ["apple", "banana", "carrot", "orange"],
+           "price" => 30,
+           ],
+       ];
+   
+   $premiumUsers = array_reduce(
+       $users,
+       function ($carry, $user) {
+           if ($user['premium']) {
+               $carry[] = [
+                   "name" => $user["name"],
+                   "purchases" => $user["purchases"],
+                   "price" => $user["price"] - 2
+                   ];
+           }
+           return $carry;
+       },
+       []
+   );
+   
+   print_r($premiumUsers);
+   
+   /**
+    * Array
+   (
+       [0] => Array
+           (
+               [name] => rahul
+               [purchases] => Array
+                   (
+                       [0] => apple
+                       [1] => banana
+                       [2] => carrot
+                   )
+   
+               [price] => 20
+           )
+   
+       [1] => Array
+           (
+               [name] => kavita
+               [purchases] => Array
+                   (
+                       [0] => apple
+                       [1] => banana
+                       [2] => carrot
+                       [3] => orange
+                   )
+   
+               [price] => 28
+           )
+   
+   )
+    */
+
 
 Using array_reduce() to create custom data structures goes beyond simple filtering.
 

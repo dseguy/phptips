@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["promoted-property", "interface"],
     "3v4l": {"Properties In Interfaces":"https://3v4l.org/U4AZH"},
+    "code": "<?php\n\ninterface i { \n    public $p { get;}\n}\n\nclass x implements i {\n    public $p = 1 { get => $this->p;}\n}\n\necho (new x)->p;",
+
     "phpError":{}
 }

@@ -15,6 +15,8 @@
     "3v4l": {
         "match multiple values": "https://3v4l.org/2UQWu"
     },
+    "code": "<?php\n\nmatch([$clause, $this->isNested()]) {\n    [Clause::IsSet, true]  => $query->has($this->relationship),\n    [Clause::IsNotSet, true]  => $query->doesntHave($this->relationship),\n    [Clause::IsSet, false]  => $query->whereNotNull($this->column),\n    [Clause::IsNotSet, false]  => $query->whereNull($this->column),\n};",
+
     "phpError": {},
     "features": [
         "match",

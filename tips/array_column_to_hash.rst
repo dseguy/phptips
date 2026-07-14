@@ -21,9 +21,30 @@ array_column() To Hash
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","name":"array_column() To Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:22:40 +0000","dateModified":"Mon, 29 Jun 2026 09:22:40 +0000","description":"array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html","name":"array_column() To Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:36 +0000","dateModified":"Tue, 14 Jul 2026 14:30:36 +0000","description":"array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_column_to_hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/array_column_to_hash.png
+.. code-block:: php
+
+   <?php
+   
+   class X {
+       function foo() {
+           print __METHOD__.PHP_EOL;
+           print __CLASS__.PHP_EOL;
+           print __FUNCTION__.PHP_EOL;
+       }
+   }
+   
+   (new x)->foo();
+   
+       function foo() {
+           print __METHOD__.PHP_EOL;
+           print __CLASS__.PHP_EOL;
+           print __FUNCTION__.PHP_EOL;
+       }
+   
+   foo();
+
 
 array_column() is a very handy PHP native function, which extracts a index from a list of arrays, or a public property from a list of objects.
 

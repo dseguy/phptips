@@ -21,9 +21,23 @@ parent In Function
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_in_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_in_function.html","name":"parent In Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:37 +0000","dateModified":"Thu, 02 Apr 2026 05:33:37 +0000","description":"``parent`` shall only be inside a class, as it refers to the parent class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_in_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_in_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_in_function.html","name":"parent In Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:55 +0000","dateModified":"Tue, 14 Jul 2026 14:32:55 +0000","description":"``parent`` shall only be inside a class, as it refers to the parent class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parent_in_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/parent_in_function.png
+.. code-block:: php
+
+   <?php
+     
+   class W {}
+   class X extends W {}
+   $x = new X;
+   
+   $f = function    ()  { return parent::class; };
+   print $f->call($x);
+   
+   //function foo(parent $p)  { return $this; }
+     
+   ?>
+
 
 ``parent`` shall only be inside a class, as it refers to the parent class. This does not happen with a function, so the second line in this example produces a Fatal Error.
 

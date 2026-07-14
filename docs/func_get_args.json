@@ -18,5 +18,7 @@
     "3v4l": {
         "func_get_args() versus variadic": "https:\/\/3v4l.org\/2U6E4"
     },
+    "code": "<?php\n\nfunction foo($a, ...$arg) {\n    print_r(func_get_args());\n    print_r($arg);\n    print_r($a);\n}\n\nfunction goo(...$arg) {\n    print_r(func_get_args());\n    print_r($arg);\n}\n\nfoo(...[ 'b' => 2, 'a' => 1,'d' => 3]);\nprint PHP_EOL;\nprint PHP_EOL;\ngoo(...[ 'b' => 2, 'a' => 1,'d' => 3]);",
+
     "phpError": {}
 }

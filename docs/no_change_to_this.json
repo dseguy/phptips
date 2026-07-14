@@ -17,6 +17,8 @@
         "Can't change this'": "https://3v4l.org/a5cXC",
         "Running code": "https://3v4l.org/2PkHO"
     },
+    "code": "<?php\n\nfunction foo(&$var) {\n    $var = 2;\n}\n\n$a = 1;\nfoo($a);\nvar_dump($a); \/\/ 2\n\nclass A {\n    public function do() {\n        foo($this);\n        var_dump($this); \/\/ still the same object\n    }\n\n    public function doo() {\n        $a = new self();\n        foo($a);\n        var_dump($a); \/\/ 2\n    }\n}",
+
     "phpError": {},
     "features": ["$this", "noop"]
 }

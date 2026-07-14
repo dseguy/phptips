@@ -21,9 +21,17 @@ Cast Is So Strong
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_is_strong.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_is_strong.html","name":"Cast Is So Strong","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:41 +0000","dateModified":"Thu, 02 Apr 2026 05:33:41 +0000","description":"The code below yields a Fatal Error, at linting time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_is_strong.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_is_strong.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_is_strong.html","name":"Cast Is So Strong","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:56 +0000","dateModified":"Tue, 14 Jul 2026 14:30:56 +0000","description":"The code below yields a Fatal Error, at linting time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_is_strong.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/cast_is_strong.png
+.. code-block:: php
+
+   <?php
+   
+   const int = 3;
+   var_dump(int);
+   
+   ?>
+
 
 The code below yields a Fatal Error, at linting time. PHP identifies too early the cast operator ``(int)``, and fail to recognize the function call to ``var_dump()``.
 

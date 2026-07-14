@@ -21,9 +21,17 @@ Where Is The Semicolon?
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/where-is-the-semicolon.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/where-is-the-semicolon.html","name":"Where Is The Semicolon?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:36 +0000","dateModified":"Thu, 02 Apr 2026 05:33:36 +0000","description":"This code is an attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/where-is-the-semicolon.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/where-is-the-semicolon.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/where-is-the-semicolon.html","name":"Where Is The Semicolon?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:34:02 +0000","dateModified":"Tue, 14 Jul 2026 14:34:02 +0000","description":"This code is an attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/where-is-the-semicolon.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/where-is-the-semicolon.png
+.. code-block:: php
+
+   <?php
+   
+   #[A (new B(4), 2, 3)]
+   
+   // Parse error: syntax error, unexpected token ";" in /in/vNMQk on line 5
+   ?>
+
 
 This code is an attribute. A attribute always expects to be followed by a structure that it will characterize. Here, without anything else to parse, the parser displays a mysterious error about a semi colon, while none is in sight.
 

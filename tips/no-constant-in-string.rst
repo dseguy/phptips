@@ -21,9 +21,26 @@ No Class Constant In String
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html","name":"No Class Constant In String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:37 +0000","dateModified":"Thu, 02 Apr 2026 05:33:37 +0000","description":"Interpolation is injecting variable values inside strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html","name":"No Class Constant In String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:33 +0000","dateModified":"Tue, 14 Jul 2026 14:32:33 +0000","description":"Interpolation is injecting variable values inside strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-constant-in-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/no-constant-in-string.png
+.. code-block:: php
+
+   <?php
+   
+   $a = new STDClass;
+   
+   // Syntax error!!
+   // syntax error, unexpected token "}", expecting "->" or "?->" or "{" or "["
+   //print "{$a::class}";
+   
+   print "{$a::class[0]}{$a::class[1]}{$a::class[2]}".
+         "{$a::class[3]}{$a::class[4]}{$a::class[5]}".
+         "{$a::class[6]}{$a::class[7]}";
+   
+   // stdClass
+   
+   ?>
+
 
 Interpolation is injecting variable values inside strings. For complex variables, such as objects, it requires the curly braces to work.
 

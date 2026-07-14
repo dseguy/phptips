@@ -21,11 +21,77 @@ Replacing PHP http Wrapper
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html","name":"Replacing PHP http Wrapper","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:35 +0000","dateModified":"Thu, 02 Apr 2026 05:33:35 +0000","description":"Did you know you can override built-in protocols such as https:\/\/","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html","name":"Replacing PHP http Wrapper","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:52 +0000","dateModified":"Tue, 14 Jul 2026 14:31:52 +0000","description":"Did you know you can override built-in protocols such as https:\/\/","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/http_wrapper.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Alexandre Daubois <https://x.com/alexdaubois>`_
 
-.. image:: ../images/http_wrapper.png
+.. code-block:: php
+
+   <?php
+   
+   // based on Alexandre Daubois code
+   // Refactored to make it running here 
+   
+   class MockHttp
+   {
+       private string $data = '';
+       private int $pos = 0;
+       public $context;
+   
+       public function stream_open(
+           string $path,
+           string $mode,
+           int $options,
+           ?string &$opened_path = null
+       ): bool {
+           $this->data = json_encode([
+               'mocked' => true,
+               'url'    => $path,
+           ]);
+   
+           $this->pos = 0;
+   
+           return true;
+       }
+   
+       public function stream_read(int $count): string
+       {
+           $result = substr($this->data, $this->pos, $count);
+           $this->pos += strlen($result);
+   
+           return $result;
+       }
+   
+       public function stream_eof(): bool
+       {
+           return $this->pos >= strlen($this->data);
+       }
+   
+       public function stream_stat(): array
+       {
+           return [
+               'size' => strlen($this->data),
+           ];
+       }
+   
+       // Required when using STREAM_IS_URL in modern PHP versions
+       public function url_stat(string $path, int $flags): array|false
+       {
+           return [
+               'size' => strlen($this->data),
+           ];
+       }
+   }
+   
+   stream_wrapper_unregister('http');
+   stream_wrapper_register('http', MockHttp::class, STREAM_IS_URL);
+   
+   $data = file_get_contents('http://api.example.com/users');
+   
+   var_dump($data);
+   
+   stream_wrapper_restore('http');
+
 
 Did you know you can override built-in protocols such as https://?
 

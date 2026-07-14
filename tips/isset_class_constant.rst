@@ -21,9 +21,31 @@ Is A Class Constant Set?
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_class_constant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_class_constant.html","name":"Is A Class Constant Set?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:33 +0000","dateModified":"Thu, 02 Apr 2026 05:33:33 +0000","description":"When using a dynamic class constant, it is important to check if the constant is actually defined","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_class_constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_class_constant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_class_constant.html","name":"Is A Class Constant Set?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:10 +0000","dateModified":"Tue, 14 Jul 2026 14:32:10 +0000","description":"When using a dynamic class constant, it is important to check if the constant is actually defined","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_class_constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/isset_class_constant.png
+.. code-block:: php
+
+   <?php
+   
+   class B {
+       const A = 1;
+   }
+   $c = "b";
+   
+   
+   // can't use ??, it is a fatal error 
+   echo B::{$c} ?? '';
+   
+   // can't use isset() because it is an expression
+   if (isset(B::{$c})) { echo B::{$c}; }
+   
+   // Must use defined() as it is a constant
+   // and then, use the string syntax
+   if (defined("B::$c")) { echo B::{$c}; }
+   
+   // This still yields a fatal error, or will check the class constant content
+   if (defined(B::{$c})) { echo B::{$c}; }
+
 
 When using a dynamic class constant, it is important to check if the constant is actually defined.
 

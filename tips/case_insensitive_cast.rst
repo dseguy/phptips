@@ -21,9 +21,15 @@ Case Insensitive Cast
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/case_insensitive_cast.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/case_insensitive_cast.html","name":"Case Insensitive Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:41 +0000","dateModified":"Thu, 02 Apr 2026 05:33:41 +0000","description":"PHP's cast operators are case-insensitive, meaning variations like ``(int)``, ``(INT)``, and ``(iNt)`` all work the same way","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/case_insensitive_cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/case_insensitive_cast.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/case_insensitive_cast.html","name":"Case Insensitive Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:52 +0000","dateModified":"Tue, 14 Jul 2026 14:30:52 +0000","description":"PHP's cast operators are case-insensitive, meaning variations like ``(int)``, ``(INT)``, and ``(iNt)`` all work the same way","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/case_insensitive_cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/case_insensitive_cast.png
+.. code-block:: php
+
+   <?php
+   
+   $string = '123';
+   $integer = (INT) $string;
+
 
 PHP's cast operators are case-insensitive, meaning variations like ``(int)``, ``(INT)``, and ``(iNt)`` all work the same way. However, the common convention is to use all lowercase, such as ``(int)``. Using other case styles is technically valid but extremely rare and generally discouraged for consistency and readability in code. Stick to lowercase for better code standards.
 

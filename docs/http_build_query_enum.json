@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["enum", "http_build_query"],
     "3v4l": {"http_build_query and enum":"https://3v4l.org/0mWQs"},
+    "code": "<?php\n\nenum e : string {\n    case A = 'a';\n}\n\nprint http_build_query(['a' => 'A', 'b' => e::A]);\n\n\/\/ PHP 8.4 and more recent : a=A&b=a\n\n\/\/ Pre PHP 8.4 : a=A&b%5Bname%5D=A&b%5Bvalue%5D=a  a=A&b[name]=A&b[value]='a'",
+
     "phpError":{}
 }

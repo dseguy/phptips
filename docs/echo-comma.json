@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["echo", "concatenation", "print", "micro-optimisation", "language-construct"],
     "3v4l": {"echo and print":"https://3v4l.org/qi4pp#veol"},
+    "code": "<?php\n  \necho 'a', 'b', 'c'; \/\/ abc\necho ('a' . 'b' . 'c'); \/\/ abc\nprint('a' . 'b' . 'c'); \/\/ abc\n\n?>",
+
     "phpError": {}
 }

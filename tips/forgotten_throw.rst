@@ -21,9 +21,19 @@ Forgotten Throw
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html","name":"Forgotten Throw","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 10:36:28 +0000","dateModified":"Thu, 02 Apr 2026 10:36:28 +0000","description":"Sometimes, the ``throw`` keyword is forgotten, even as it is needed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html","name":"Forgotten Throw","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:53:08 +0000","dateModified":"Tue, 14 Jul 2026 14:53:08 +0000","description":"Sometimes, the ``throw`` keyword is forgotten, even as it is needed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/forgotten_throw.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/forgotten_throw.png
+.. code-block:: php
+
+   <?php
+   
+   class MyException extends \Exception {}
+   
+   if ($error !== false) {
+       // This looks like 'throw' was omitted
+       new MyException();
+   }
+
 
 Sometimes, the ``throw`` keyword is forgotten, even as it is needed. It is difficult to realize it is missing: PHP instantiates correctly the exception, yet it immediately ignores it, as there is no usage of that exception: no error is reported. One need to identify a situation with an error, understand that the error is missing.
 

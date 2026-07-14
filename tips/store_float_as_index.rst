@@ -21,9 +21,19 @@ Store Float As Index
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/store_float_as_index.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/store_float_as_index.html","name":"Store Float As Index","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:36 +0000","dateModified":"Thu, 02 Apr 2026 05:33:36 +0000","description":"With PHP, floats cannot be used directly as array indexes because array keys must be either integers or strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/store_float_as_index.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/store_float_as_index.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/store_float_as_index.html","name":"Store Float As Index","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:39 +0000","dateModified":"Tue, 14 Jul 2026 14:33:39 +0000","description":"With PHP, floats cannot be used directly as array indexes because array keys must be either integers or strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/store_float_as_index.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/store_float_as_index.png
+.. code-block:: php
+
+   <?php
+   
+   $array  = [1 => 0,
+              // Implicit conversion from float 1.2 to int loses precision
+              1.2 => 1,
+              // as string, it fits!
+              '1.1' => 2,
+             ];
+
 
 With PHP, floats cannot be used directly as array indexes because array keys must be either integers or strings. If you attempt to use a float as an index, PHP will automatically cast it to an integer, potentially causing unexpected behavior. However, you can explicitly cast the float to a string to preserve its precision as an index. Later, due to PHP's type juggling, you can still perform arithmetic with it seamlessly.
 

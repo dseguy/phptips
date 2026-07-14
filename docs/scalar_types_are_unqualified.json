@@ -8,7 +8,7 @@
     },
     "tags": [
         "funny"
-            ],
+    ],
     "author": "",
     "contact": "",
     "3v4l": {
@@ -19,5 +19,6 @@
         "type",
         "bug",
         "scalar-type"
-    ]
+    ],
+    "code": "<?php\n\nfunction foo(\\array $array) {}\nfoo([]);\n//TypeError: foo(): Argument #1 ($array) must be of type array, array given, \n\nfunction goo(\\callable $callable) {}\ngoo(strlen(...));\n//TypeError: foo(): Argument #1 ($array) must be of type callable, array Colsure, \n\nfunction hoo(\\int $int) {}\nhoo(1);\n//Type declaration 'int' must be unqualifid"
 }

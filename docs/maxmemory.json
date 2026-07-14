@@ -15,5 +15,7 @@
     "contact": "https://x.com/alexdaubois",
     "features": ["wrapper", "stream"],
     "3v4l": {"maxmemory and php:// wrapper":"https://3v4l.org/UFBcn"},
+    "code": "<?php\n\n\/\/ build something entirely in memory...\n$fp = fopen('php:\/\/memory', 'r+');\nfputcsv($fp, ['name', 'email', 'role']);\nfputcsv($fp, ['Alex', 'alex@example.com', 'CTO']);\nfputcsv($fp, ['Jane', 'jane@example.com', 'Dev']);\n\nrewind($fp);\n$csv = stream_get_contents($fp);\nfclose($fp);\n\n\/\/ send as download\nheader('Content-Type: text\/csv');\necho $csv;\n\n\/\/ php:\/\/temp, same but spills to disk over 2MB... or more!\n$fp = fopen('php:\/\/temp\/maxmemory:8388608', 'r+');\n\/\/ 8MB in RAM, then auto-swaps to a temp file\n\n\/\/ no gc, no unlink(), no \/tmp pollution\n\/\/ the stream disappears when $fp is closed",
+
     "phpError": {}
 }

@@ -11,6 +11,8 @@
   "3v4l": {
     "Almost impossible constant": "https://3v4l.org/J1JpE"
   },
+  "code": "<?php\n\nenum x : string {\n    case B = 'b';\n    const C = 'c';\n}\n\nclass x2 {\n    const E = x::B->value;\n    const F = x::C + [];\n}\n\necho x2::E;",
+
   "phpError": {},
   "features": [
     "static-expression",

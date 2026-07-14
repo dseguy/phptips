@@ -14,6 +14,8 @@
     "3v4l": {
         "4 ways to create a stdClass object":"https://3v4l.org/8n1Uh"
     },
+    "code": "<?php\n\n\/\/ fastest\n$final = (object) ['a' => 1, 'b' => 2];\n\n\/\/ 2nd fastest\n$array = [];\n$array['a'] = 1;\n$array['b'] = 2;\n$final = (object) $array;\n\n\/\/slow\n$final = new stdClass();\n$final->a = 1;\n$final->b = 2;\n\n\/\/slowest\nclass myStdClass extends stdClass {\n    $function __construct($a, $b) {\n        $this->a = $a;\n        $this->b = $b;\n    }\n}\n$final = new mystdclass(1, 2);",
+
     "phpError": {  },
     "features": [
         "performance",

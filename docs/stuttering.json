@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["yield", "yield-from", "reserved-name"],
     "3v4l": {"Stuttering PHP":"https://3v4l.org/KiQGo"},
+    "code": "<?php\n\nconst from = ['yield from'];\n\n$a = fn () => yield yield from from;\n\nforeach($a() as $b) {\n    print $b;\n}",
+
     "phpError": {}
 }

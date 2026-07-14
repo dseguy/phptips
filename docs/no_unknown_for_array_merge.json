@@ -15,6 +15,8 @@
     "3v4l": {
         "array_merge() doesn't accept unknown named parameters": "https://3v4l.org/miPmk"
     },
+    "code": "<?php\n\nfunction foo($x, ...$array) {\n    print_r($x);\n    print_r($array);\n}\n\n$a = ['w' => 'w', 'x' => 'x'];\n\nfoo(...$a);\n\nprint_r(array_merge(...$a));\n\/\/ array_merge() does not accept unknown named parameters",
+
     "phpError": {"array_merge() does not accept unknown named parameters":"array_merge()-does-not-accept-unknown-named-parameters"},
     "features": ["ellipsis", "named-parameter"]
 }

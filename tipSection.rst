@@ -231,7 +231,6 @@ PHP tips and tricks
    tips/cast_is_strong.rst
    tips/roman_loops.rst
    tips/finally_catches_exception.rst
-   tips/abstract_again.rst
    tips/always_compatible_variadic.rst
    tips/yield_not_return.rst
    tips/try-catch-finally.rst

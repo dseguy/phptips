@@ -21,9 +21,29 @@ No Property In Interface
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_property_in_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_property_in_interface.html","name":"No Property In Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:44 +0000","dateModified":"Thu, 02 Apr 2026 05:33:44 +0000","description":"PHP is better than me : I thought I found a way to create properties in an interface, by declaring promoted properties in a constructor","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_property_in_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_property_in_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_property_in_interface.html","name":"No Property In Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:44 +0000","dateModified":"Tue, 14 Jul 2026 14:32:44 +0000","description":"PHP is better than me : I thought I found a way to create properties in an interface, by declaring promoted properties in a constructor","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_property_in_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/no_property_in_interface.png
+.. code-block:: php
+
+   <?php
+   
+   function naturalIntegers() {
+       $i = 0;
+       while (true) {
+           yield $i++;
+       }
+   }
+   
+   foreach(naturalIntegers() as $i) {
+       if ($i > 10) {
+           break;
+       }
+       print $i.PHP_EOL;
+   }
+   
+   print "finished
+   ";
+
 
 PHP is better than me : I thought I found a way to create properties in an interface, by declaring promoted properties in a constructor.
 

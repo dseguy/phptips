@@ -8,11 +8,21 @@
         "RecursiveIterator (PHP manual)": "https://www.php.net/manual/en/class.recursiveiterator.php"
     },
     "tags": [
-        "tip", "PHP", "ascii", "renderer"
+        "tip",
+        "PHP",
+        "ascii",
+        "renderer"
     ],
     "author": "Alexandre Daubois",
     "contact": "https://x.com/alexdaubois",
-    "features": ["iterator", "tree", "render"],
-    "3v4l": {"tree and iterator":"https://3v4l.org/GS9dq"},
-    "phpError": {}
+    "features": [
+        "iterator",
+        "tree",
+        "render"
+    ],
+    "3v4l": {
+        "tree and iterator": "https://3v4l.org/GS9dq"
+    },
+    "phpError": {},
+    "code": "<?php\n\n$data = [\n    'src' => [\n        'Controller' => ['HomeController.php', 'ApiController.php'],\n        'Entity' => ['User.php', 'Product.php'],\n        'Kernel.php',\n    ],\n    'tests' => ['AppTest.php'],\n    'composer.json',\n];\n\n$tree = new RecursiveTreeIterator(\n    new RecursiveArrayIterator($data)\n);\n\nforeach ($tree as $line) {\n    echo $line . \"\\n\";\n}\n\n// Output:\n// |-src\n// | |-Controller\n// | | |-HomeController.php\n// | | \\-ApiController.php\n// | |-Entity\n// | | |-User.php\n// | | \\-Product.php\n// | \\-Kernel.php\n// |-tests\n// | \\-AppTest.php\n// \\-composer.json\n\n// (also works with RecursiveDirectoryIterator!)"
 }

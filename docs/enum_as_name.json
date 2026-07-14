@@ -14,6 +14,8 @@
     "3v4l": {
         "name it class!": "https://3v4l.org/Ammha"
     },
+    "code": "<?php\n\nclass enum {} \n\nenum class {} \n\n?>",
+
     "phpError": {},
     "features": [        "enum",
         "name"

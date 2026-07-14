@@ -21,9 +21,30 @@ Not Set But Exists
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_set_but_exists.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_set_but_exists.html","name":"Not Set But Exists","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 14:02:06 +0000","dateModified":"Wed, 15 Apr 2026 14:02:06 +0000","description":"In this code, a custom class X is created","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_set_but_exists.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_set_but_exists.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_set_but_exists.html","name":"Not Set But Exists","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:50 +0000","dateModified":"Tue, 14 Jul 2026 14:32:50 +0000","description":"In this code, a custom class X is created","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_set_but_exists.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/not_set_but_exists.png
+.. code-block:: php
+
+   <?php
+   
+   class X {
+       function __get($name) {
+           return 'a';
+       }
+       
+       // The important part is 
+       // that function __isset() is missing
+   }
+   
+   $x = new X();
+   var_dump(isset($x->a));    //  false
+   var_dump(!empty($x->a));   // false
+   
+   // With
+   
+   var_dump($x->a === null);  // false
+   var_dump($x->a == '');     // false
+
 
 In this code, a custom class X is created. When checking the presence of a property ``a``, ``isset()`` and ``empty()`` both say ``false``. This is consistent with the definition of the class.
 

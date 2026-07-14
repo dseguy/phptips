@@ -21,9 +21,32 @@ Other Types For A Property
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/other_type_for_property.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/other_type_for_property.html","name":"Other Types For A Property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 05:24:45 +0000","dateModified":"Wed, 24 Jun 2026 05:24:45 +0000","description":"It is possible to make a typed property accept more than its definition type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/other_type_for_property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/other_type_for_property.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/other_type_for_property.html","name":"Other Types For A Property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:53 +0000","dateModified":"Tue, 14 Jul 2026 14:32:53 +0000","description":"It is possible to make a typed property accept more than its definition type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/other_type_for_property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/other_type_for_property.png
+.. code-block:: php
+
+   <?php
+   
+   class X {
+       
+       public string $p {
+           set(string|A|null $value)  {
+               $this->p = (string) $value;
+           }
+           
+           get => $this-p . ' more';
+       }
+   }
+   
+   class A {
+       function __toString() {
+           return 'abc';
+       }
+   }
+   
+   $x = new X;
+   $x->p = new A;
+
 
 It is possible to make a typed property accept more than its definition type.
 

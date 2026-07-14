@@ -3,15 +3,27 @@
     "date": "2026-02-19",
     "title": "Hexadecimal Separator",
     "content": "PHP offers a number separator since PHP 8.0: ``_``. It may be added inside any integer or float, to make long list of digits more readable.\nIn fact, this also applies to the other integer notations: hexadecimal, octal, binary, etc. Just don't put it inside the header, like ``0_x_1``, but in the body of the integer.\nInterestingly, the separator does not work in string sequences, like inside an hexadecimal unicode representation.",
-    "seeAlso": {
-    },
+    "seeAlso": [],
     "tags": [
         "integer",
         "extended case"
     ],
     "author": "",
     "contact": "",
-    "features": ["numeric-separator", "underscore", "hexadecimal-integer", "octal-integer", "binary-integer", "unicode", "escape-sequence"],
-    "3v4l": {"Hexadecimal separated":"https://3v4l.org/AQRE2"},
-    "phpError": {"Invalid UTF-8 codepoint escape":"invalid-utf-8-codepoint-escape"}
+    "features": [
+        "numeric-separator",
+        "underscore",
+        "hexadecimal-integer",
+        "octal-integer",
+        "binary-integer",
+        "unicode",
+        "escape-sequence"
+    ],
+    "3v4l": {
+        "Hexadecimal separated": "https://3v4l.org/AQRE2"
+    },
+    "phpError": {
+        "Invalid UTF-8 codepoint escape": "invalid-utf-8-codepoint-escape"
+    },
+    "code": "<?php\n\necho 123_456;\necho 12.45_56;\necho 0x12_34;\necho 0b111_110_001;\necho 0b111_110_00_1;\n\necho mb_chr(0x1F_418); // OK\necho \"\\u{1F4_18}\";   // KO\n\n?>"
 }

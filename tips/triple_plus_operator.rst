@@ -21,9 +21,16 @@ Triple Plus Operator
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/triple_plus_operator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/triple_plus_operator.html","name":"Triple Plus Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 10:28:31 +0000","dateModified":"Wed, 08 Apr 2026 10:28:31 +0000","description":"This is a white space trick, where the expression allows for ``++`` and ``+`` to follow each other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/triple_plus_operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/triple_plus_operator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/triple_plus_operator.html","name":"Triple Plus Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:43 +0000","dateModified":"Tue, 14 Jul 2026 14:33:43 +0000","description":"This is a white space trick, where the expression allows for ``++`` and ``+`` to follow each other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/triple_plus_operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/triple_plus_operator.png
+.. code-block:: php
+
+   <?php
+   
+   $a = 1;
+   $b = $a+++ ++$a;
+   echo $b;
+
 
 This is a white space trick, where the expression allows for ``++`` and ``+`` to follow each other. Note that it is not possible to make a quadruple (four times) or pentuple (five times), operator, as PHP does not parse it anymore.
 

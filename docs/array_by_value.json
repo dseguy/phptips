@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["reference", "copy-on-write", "readonly", "array_fill", "array_pad"],
     "3v4l": {"Passing array of object by value":"https://3v4l.org/neuVu"},
+    "code": "<?php\n\nclass X {\n    public int $i;\n}\n\n$array = [new x, new x, new x];\n$array[0]->i = 0;\n$array[1]->i = 1;\n$array[2]->i = 2;\n\nfunction foo(array $array) {\n    \n    $array[] = new x;\n    $array[2]->i = 12;\n    $array[3]->i = 3;\n    print count($array).\" elements in foo\n\";\n}\n\nprint count($array).\" elements before foo\n\";\nfoo($array);\nprint count($array).\" elements after foo\n\";\nprint_r($array[2]);",
+
     "phpError": {}
 }

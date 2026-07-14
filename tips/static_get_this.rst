@@ -21,9 +21,24 @@ Get $this In A Static
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html","name":"Get $this In A Static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 10:30:57 +0000","dateModified":"Wed, 08 Apr 2026 10:30:57 +0000","description":"A static method does not have access to the current object, by definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html","name":"Get $this In A Static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:34 +0000","dateModified":"Tue, 14 Jul 2026 14:33:34 +0000","description":"A static method does not have access to the current object, by definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_get_this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/static_get_this.png
+.. code-block:: php
+
+   <?php
+   
+   class X {
+       function foo() {
+           print_r($this);
+       }
+       
+       function bar() {
+           self::foo();
+       }
+       
+   }
+   ?>
+
 
 A static method does not have access to the current object, by definition.
 

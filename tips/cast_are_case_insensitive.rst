@@ -21,9 +21,20 @@ Cast Are Case Insensitive
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_are_case_insensitive.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_are_case_insensitive.html","name":"Cast Are Case Insensitive","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:43 +0000","dateModified":"Thu, 02 Apr 2026 05:33:43 +0000","description":"Today I learned that PHP cast operators like ``(int)`` and ``(array)`` are case-insensitive\u2014so ``(STRING)`` works just as well","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_are_case_insensitive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_are_case_insensitive.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_are_case_insensitive.html","name":"Cast Are Case Insensitive","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:54 +0000","dateModified":"Tue, 14 Jul 2026 14:30:54 +0000","description":"Today I learned that PHP cast operators like ``(int)`` and ``(array)`` are case-insensitive\u2014so ``(STRING)`` works just as well","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_are_case_insensitive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/cast_are_case_insensitive.png
+.. code-block:: php
+
+   <?php
+   
+   $a = (int) $b;
+   $a = (INT) $b;
+   $a = ( int) $b;
+   $a = ( int ) $b;
+   $a = (int ) $b;
+   $a = (     int    ) $b;
+   ?>
+
 
 Today I learned that PHP cast operators like ``(int)`` and ``(array)`` are case-insensitive—so ``(STRING)`` works just as well. Additionally, the amount of whitespace (spaces, tabs, etc.) around these casts doesn’t affect functionality. These aspects are flexible in PHP, and what remains—such as casing and spacing style—is largely a matter of coding convention and personal or team preference.
 

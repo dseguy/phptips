@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["reference", "argument"],
     "3v4l": {"reference on a static variable":"https://3v4l.org/DWSkK"},
+    "code": "<?php\n\nfunction &foo() {\n    static $x = [];\n    print_r($x);\n    \n    return $x;\n}\n\n$a = foo()[] = 3;\nvar_dump($a);\nfoo();",
+
     "phpError":{}
 }

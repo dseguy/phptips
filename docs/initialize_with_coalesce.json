@@ -14,6 +14,8 @@
     "3v4l": {
         "this function never returns": "https://3v4l.org/ZmVk4"
     },
+    "code": "<?php\n\nclass x {\n    private static self $x;\n\n    static function getInstance() {\n        \/\/ all good\n        return self::$x ??= new self();\n    }\n\n    static function getInstance2() {\n        \/\/ Not ok : cannot access before initialisation\n        return self::$x = self::$x ?? new self();\n    }\n\n    static function getError() {\n        \/\/ Not ok : cannot access before initialisation\n        if (!self::$x instanceof self) {\n            self::$x = new self();\n        }\n\n        return self::$x;\n    }\n}",
+
     "phpError": {},
     "features": [
     "property",

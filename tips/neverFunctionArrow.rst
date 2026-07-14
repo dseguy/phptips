@@ -21,9 +21,14 @@ The Never Function Arrow
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html","name":"The Never Function Arrow","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:37 +0000","dateModified":"Thu, 02 Apr 2026 05:33:37 +0000","description":"This is a rare occurrence: that syntax is not valid in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html","name":"The Never Function Arrow","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:31 +0000","dateModified":"Tue, 14 Jul 2026 14:32:31 +0000","description":"This is a rare occurrence: that syntax is not valid in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/neverFunctionArrow.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/neverFunctionArrow.png
+.. code-block:: php
+
+   <?php
+   
+   fn($a): never => die();
+
 
 This is a rare occurrence: that syntax is not valid in PHP 8.1, but valid before and after.
 

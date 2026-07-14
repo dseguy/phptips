@@ -21,9 +21,30 @@ Static Properties
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_properties.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_properties.html","name":"Static Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 09:45:00 +0000","dateModified":"Fri, 29 May 2026 09:45:00 +0000","description":"It is easy to read that the property ``$x`` is of type ``Test`` (via static), with an impossible default value of 0","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_properties.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_properties.html","name":"Static Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:36 +0000","dateModified":"Tue, 14 Jul 2026 14:33:36 +0000","description":"It is easy to read that the property ``$x`` is of type ``Test`` (via static), with an impossible default value of 0","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/static_properties.png
+.. code-block:: php
+
+   <?php
+   
+       class Test {
+           public static $x = 0;
+       }
+       class Test2 extends Test {
+           // $x is inherited
+       }
+       class Test3 extends Test {
+           // $x is NOT inherited
+           public static $x = 3;
+       }
+       
+   	$x = 1;
+       Test2::$x = &$x;
+       
+       var_dump(Test::$x, Test2::$x, Test3::$x);
+       // int(1), int(1), int(3)
+   ?>
+
 
 It is easy to read that the property ``$x`` is of type ``Test`` (via static), with an impossible default value of 0. In fact, this property is not typed, as using ``static`` is not a possible type for properties.
 

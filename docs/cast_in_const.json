@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["cast", "constant", "class-constant", "static-expression"],
     "3v4l": {"cast in constant":"https://3v4l.org/QnIDl"},
+    "code": "<?php\n\nclass X {\n    const T = (int) 1.73;\n    \/\/ Fatal error\n    \/\/const U = (object) [];\n}\n\necho X::T; \/\/",
+
     "phpError": {"Object casts are not supported in this context":"object-casts-are-not-supported-in-this-context"}
 }

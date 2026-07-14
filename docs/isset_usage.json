@@ -15,5 +15,7 @@
     "contact": "",
     "features": ["isset", "null", "coalesce"],
     "3v4l": {"No Need For Nullable On Typed Property":"https://3v4l.org/F6jts#veol"},
+    "code": "<?php\n\n\/\/declare(strict_types=1);\n\nfunction foo(float $x): int {\n    var_dump($x);\n    \n    return $x;\n}\n\nvar_dump(foo(1));\n\/\/var_dump(foo(1.1));",
+
     "phpError": {"Typed property X::$x must not be accessed before initialization":"typed-property-%s::$%s-must-not-be-accessed-before-initialization"}
 }

@@ -15,6 +15,8 @@
     "3v4l": {
         "Typing with enum": "https://3v4l.org/9LZpq"
     },
+    "code": "<?php\n\nenum e {\n    case A;\n    \n    const B = 1;\n}\n\nvar_dump(e::A instanceof e);\nvar_dump(e::B instanceof e);\n\n?>",
+
     "phpError": {},
     "features": ["enum", "type"]
 }

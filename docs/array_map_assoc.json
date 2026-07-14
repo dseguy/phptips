@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["array", "array_map", "index-array"],
     "3v4l": {"array_map_assoc() with keys":"https://3v4l.org/v72hT"},
+    "code": "<?php\n\n$hash = ['a' => 1, 'b' => 2];\n\n\nprint_r(array_map(function($v, $k) { return \"$k: $v\";},\n                  $hash,\n                  array_keys($hash)\n                ));\n                \n?>",
+
     "phpError":{}
 }

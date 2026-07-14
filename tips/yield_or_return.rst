@@ -21,9 +21,31 @@ Yield Or Return
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_or_return.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_or_return.html","name":"Yield Or Return","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 10:47:57 +0000","dateModified":"Fri, 05 Jun 2026 10:47:57 +0000","description":"It is possible to spread an array as dynamic arguments: this applies to returned arrays, after a function call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_or_return.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_or_return.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_or_return.html","name":"Yield Or Return","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:06:03 +0000","dateModified":"Tue, 14 Jul 2026 14:06:03 +0000","description":"It is possible to spread an array as dynamic arguments: this applies to returned arrays, after a function call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_or_return.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/yield_or_return.png
+.. code-block:: php
+
+   <?php
+   
+   function foo() {
+       yield 1;
+       yield 2;
+       yield 3;
+       
+       return ['a', 'b', 'c'];
+   }
+   
+   function foo2() {
+       return ['a', 'b', 'c'];
+   }
+   
+   function goo($x, $y, $z) {
+       print "$x $y $z\n";
+   }
+   
+   goo(...foo());
+   goo(...foo2());
+
 
 It is possible to spread an array as dynamic arguments: this applies to returned arrays, after a function call.
 

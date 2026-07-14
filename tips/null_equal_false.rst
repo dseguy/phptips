@@ -21,9 +21,20 @@ null Does Not Always Equal false
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/null_equal_false.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/null_equal_false.html","name":"null Does Not Always Equal false","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:42 +0000","dateModified":"Thu, 02 Apr 2026 05:33:42 +0000","description":"null equals false, so the first equality is actually true","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/null_equal_false.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/null_equal_false.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/null_equal_false.html","name":"null Does Not Always Equal false","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:52 +0000","dateModified":"Tue, 14 Jul 2026 14:32:52 +0000","description":"null equals false, so the first equality is actually true","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/null_equal_false.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/null_equal_false.png
+.. code-block:: php
+
+   <?php
+   
+   var_dump(null == false);
+   
+   print_r([null => 1,
+           false => 1,
+           ]);
+   
+   ?>
+
 
 null equals false, so the first equality is actually true.
 

@@ -21,9 +21,31 @@ Chaining Spaceship
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chaining_spaceship.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chaining_spaceship.html","name":"Chaining Spaceship","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:38 +0000","dateModified":"Thu, 02 Apr 2026 05:33:38 +0000","description":"It is possible to chain several spaceship operations by using the coalesce operator ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chaining_spaceship.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chaining_spaceship.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chaining_spaceship.html","name":"Chaining Spaceship","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:01 +0000","dateModified":"Tue, 14 Jul 2026 14:31:01 +0000","description":"It is possible to chain several spaceship operations by using the coalesce operator ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chaining_spaceship.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/chaining_spaceship.png
+.. code-block:: php
+
+   <?php
+   
+   
+   function foo($a, $b) {
+       return $a[0] <=> $b[0] ?:
+              $a[1] <=> $b[1] ?:
+              $a[2] <=> $b[2] ?:
+                  0;
+   }
+   
+   
+   $array = [
+       [1, 2, 3],
+       [1, 3, 5],
+       [1, 2, 4],
+       [0, 2, 3],
+       ];
+   
+   usort($array, foo(...));
+   print_r($array);
+
 
 It is possible to chain several spaceship operations by using the coalesce operator ``?:``. When the first spaceship operator returns 1 or -1, its value is immediately used. On the other hand, when the operation leads to 0, the coalesce ``?:`` uses the else branch, where the second spaceship operator is used, to the same effect.
 

@@ -15,5 +15,7 @@
         "min-max":"https://3v4l.org/shWEL#v8.5.7",
         "min-max with strings":"https://3v4l.org/HHLkD#v8.5.7"
     },
+    "code": "<?php\n\n$value = 0.7;\n\necho min(1, max($value, 0)) ;\nprint PHP_EOL;\necho max(0, min($value, 1)) ;",
+
     "phpError": {}
 }

@@ -21,9 +21,23 @@ Redefine Native Functions
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html","name":"Redefine Native Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:38 +0000","dateModified":"Thu, 02 Apr 2026 05:33:38 +0000","description":"It is possible to redefine PHP functions or constants, or even any defined of such, by using the ``use`` command","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html","name":"Redefine Native Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:13 +0000","dateModified":"Tue, 14 Jul 2026 14:33:13 +0000","description":"It is possible to redefine PHP functions or constants, or even any defined of such, by using the ``use`` command","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/redefine_native_functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/redefine_native_functions.png
+.. code-block:: php
+
+   <?php
+   
+   echo strtolower('ABC').PHP_EOL;
+   
+   function b($a) {
+       print "b: $a
+   ";
+   }
+   
+   use function b as strtolower;
+   
+   echo strtolower('ABC').PHP_EOL;
+
 
 It is possible to redefine PHP functions or constants, or even any defined of such, by using the ``use`` command.
 

@@ -16,6 +16,8 @@
     "3v4l": {
         "yielding the same key": "https://3v4l.org/KTj27"
     },
+    "code": "<?php\n\nfunction myGenerator() {\n    yield 0 => 1;\n    yield 0 => 2;\n    yield 0 => 3;\n}\n\nforeach (myGenerator() as $key => $value) {\n    echo $key . PHP_EOL;\n}\n\n\/\/ Output:\n\/\/ 0\n\/\/ 0\n\/\/ 0\n\n?>",
+
     "phpError": {},
     "features": ["yield", "index-array", "double-arrow"]
 }

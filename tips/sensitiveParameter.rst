@@ -21,9 +21,25 @@ Hide Sensitive Parameter
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sensitiveParameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sensitiveParameter.html","name":"Hide Sensitive Parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:32 +0000","dateModified":"Thu, 02 Apr 2026 05:33:32 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sensitiveParameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sensitiveParameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sensitiveParameter.html","name":"Hide Sensitive Parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:52:45 +0000","dateModified":"Tue, 14 Jul 2026 14:52:45 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sensitiveParameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/sensitiveParameter.png
+.. code-block:: php
+
+   <?php
+   
+   function secret($key, #[\SensitiveParameter] string $key2, $otherKey) {
+       throw new Exception('');
+   }
+   
+   $key = '123';
+   print secret(
+       $key,                              // plain visible
+       $key,                              // hidden by the method
+       new SensitiveParameterValue($key)  // hidden by the caller
+   );
+   
+   ?>
+
 
 PHP 8.2 introduces the ``#[SensitiveParameter]`` attribute to hide sensitive values from debug messages when used on function parameters. Additionally, the ``SensitiveParameterValue`` class allows you to mark data as sensitive at the caller level, ensuring it won’t appear in stack traces. To retrieve the original value when needed, simply call the ``$object->getValue()`` method.
 

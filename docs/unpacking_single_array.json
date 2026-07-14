@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["ellipsis", "unpacking"],
     "3v4l": {"Unpacking single element arrays":"https://3v4l.org/n1pq9"},
+    "code": "<?php\n\nfunction foo() {\n    print_r(func_get_args());\n}\n\n$array = [1,2,3];\n\n\/\/ Not possible\n\/\/ cannot use positional argument after unpacking\n\/\/foo(...$array, ...$array, 4);\n\nfoo(...$array, ...$array, ...[4]);",
+
     "phpError": {"Cannot use positional argument after argument unpacking":"cannot-use-positional-argument-after-argument-unpacking"}
 }

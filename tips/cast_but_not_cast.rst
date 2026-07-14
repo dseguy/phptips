@@ -21,9 +21,26 @@ Cast But Not A Cast
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_but_not_cast.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_but_not_cast.html","name":"Cast But Not A Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 06:07:31 +0000","dateModified":"Thu, 02 Apr 2026 06:07:31 +0000","description":"One frequent way to convert a string to an integer is to ``+ 0`` it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_but_not_cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_but_not_cast.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_but_not_cast.html","name":"Cast But Not A Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:55 +0000","dateModified":"Tue, 14 Jul 2026 14:30:55 +0000","description":"One frequent way to convert a string to an integer is to ``+ 0`` it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_but_not_cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/cast_but_not_cast.png
+.. code-block:: php
+
+   <?php
+   
+   $string = '123';
+   $integer = 0 + $string;
+   $integer = $string - 0;
+   $integer = 1 * $string;
+   $integer = $string / 1;
+   $integer = $string ** 1;
+   $integer = + $string;
+   $integer = - - $string;
+   
+   echo '123' ** 0;
+   
+   
+   ?>
+
 
 One frequent way to convert a string to an integer is to ``+ 0`` it. And, similarly, a frequent way to convert an integer into a string is to ``. ''``, aka concatenate the empty string.
 

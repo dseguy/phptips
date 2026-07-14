@@ -21,9 +21,28 @@ list() Does Not Type
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/list_does_not_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/list_does_not_type.html","name":"list() Does Not Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:33 +0000","dateModified":"Thu, 02 Apr 2026 05:33:33 +0000","description":"The list() command does not report that the type of the right operand is not correct","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/list_does_not_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/list_does_not_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/list_does_not_type.html","name":"list() Does Not Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:14 +0000","dateModified":"Tue, 14 Jul 2026 14:32:14 +0000","description":"The list() command does not report that the type of the right operand is not correct","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/list_does_not_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/list_does_not_type.png
+.. code-block:: php
+
+   <?php
+   
+   list($a) = null;
+   list($a) = 1;
+   list($a) = 'a';
+   list($a) = 1.2;
+   
+   function foo() { yield 3; }
+   // syntax error
+   //list($a) = ...foo();
+   list($a) = iterator_to_array(foo());
+   
+   // fatal error
+   //list($a) = (object) ['a' => 1];
+   
+   //Undefined array key 0
+   list($a) = [];
+
 
 The list() command does not report that the type of the right operand is not correct. It is then possible to use ``list()`` with integers, string or boolean, and obtain ``null`` values for all variables.
 

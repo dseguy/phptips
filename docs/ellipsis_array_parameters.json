@@ -19,5 +19,7 @@
     "3v4l": {
         "ellipsis with arrays": "https:\/\/3v4l.org\/TbFHe"
     },
+    "code": "<?php\n\nfunction foo($a, $b) { echo \"$a $b\n\";}\n\nfoo(...['x', 'y']);                 \/\/ x y\n\/\/ named parameters\nfoo(...['a' => 'x',  'b' => 'y']);  \/\/ x y\nfoo(...['b' => 'x',  'a' => 'y']);  \/\/ y x\n\n\/\/ positional parameters: integer key not used\nfoo(...[0 => 'x',  1 => 'y']);      \/\/ x y\nfoo(...[120 => 'x',  11 => 'y']);   \/\/ x y\nfoo(...[11 => 'y', 120 => 'x']);    \/\/ y x\n\n?>",
+
     "phpError": {}
 }

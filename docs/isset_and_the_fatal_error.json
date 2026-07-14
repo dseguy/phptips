@@ -15,5 +15,7 @@
     "contact": "",
     "features": ["isset", "empty", "object-syntax", "array-syntax", "arrayaccess"],
     "3v4l": {"Don't use array syntax on objects in isset()":"https://3v4l.org/81sh5"},
+    "code": "<?php\n\n$a = [];\n$a['b']['c']['d'] = 1;\n$a['b']['c']['d2'] = new stdclass();\n$a['b']['c']['d3'] = [];\n\nvar_dump(isset($a['b']['c']['d'])); \/\/ as expected, and within type\nvar_dump(isset($a['b']['c']['f'])); \/\/ as expected, and within type\n\nvar_dump(isset($a['b']['c']['d']['g']));   \/\/ as expected, because 'd' is 1\nvar_dump(isset($a['b']['c']['d']->g));     \/\/ as expected, because 'd' is 1\n\nvar_dump(isset($a['b']['c']['d3']->f));    \/\/ as expected, because 'd' is an array\nvar_dump(isset($a['b']['c']['d3']['f']));  \/\/ as expected, because 'd' is an array\n\nvar_dump(isset($a['b']['c']['d2']->f));   \/\/ as expected, because 'd' is an object\nvar_dump(isset($a['b']['c']['d2']['f']));   \/\/ fatal error!! \n\nvar_dump(isset($a['b']['c']['D']['g']->f));   \/\/ as expected, because 'D' is actually null\nvar_dump(isset($a['b']['c']['D']['g']['f'])); \/\/ as expected, because 'D' is actually null\n\n\/\/ isset($a['b']['c']['d']) is set so following are true and within type\nvar_dump(isset($a['b']['c']));\nvar_dump(isset($a['b']));\n\n$i = 1;\necho $i[3]; \/\/ error,",
+
     "phpError": {"Cannot use object of type stdClass as array":"cannot-use-object-of-type-%s-as-array"}
 }

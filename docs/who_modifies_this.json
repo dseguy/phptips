@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["promoted-property", "property-hook", "reference", "property"],
     "3v4l": {"Uninitialized property":"https://3v4l.org/RH1V7"},
+    "code": "<?php\n\nclass x {\n        function __construct(\n            int &$y { get => $this->y; },\n        ) {}\n}\n\n$w = 4;\n$x = new x($w);",
+
     "phpError": {"Typed property x::$y must not be accessed before initialization":"typed-property-%s::$%s-must-not-be-accessed-before-initialization"}
 }

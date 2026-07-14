@@ -17,5 +17,7 @@
     "author": "",
     "contact": "",
     "features":["cast", "linting"],
+    "code": "<?php\n\nconst int = 3;\nvar_dump(int);\n\n?>",
+
     "phpError":{"syntax error, unexpected token \"(int)\"":"syntax-error,-unexpected-token-\"(int)\""}
 }

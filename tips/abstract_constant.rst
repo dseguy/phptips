@@ -21,11 +21,27 @@ Abstract Constants
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_constant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_constant.html","name":"Abstract Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:22:36 +0000","dateModified":"Mon, 29 Jun 2026 09:22:36 +0000","description":"There's a pretty common pattern to declare \"abstract class constants\" in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_constant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_constant.html","name":"Abstract Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 13:01:28 +0000","dateModified":"Tue, 14 Jul 2026 13:01:28 +0000","description":"There's a pretty common pattern to declare \"abstract class constants\" in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `WebSmithery <https://stackoverflow.com/users/2519523/websmithery>`_
 
-.. image:: ../images/abstract_constant.png
+.. code-block:: php
+
+   <?php
+   
+   abstract class Foo {
+       
+       // self-referential 'abstract' declaration
+       const NAME = self::NAME;
+   }
+   
+   class Fooling extends Foo {
+       
+       // Overrides definition from parent class
+       // Without this declaration, an error will be triggered
+       const NAME = 'Donald';
+   }
+
 
 There's a pretty common pattern to declare "abstract class constants" in PHP.
 

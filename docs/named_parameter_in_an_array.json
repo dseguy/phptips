@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["named-parameter", "ellipsis"],
     "3v4l": {"Named parameter in array":"https://3v4l.org/pTq6T"},
+    "code": "<?php\n\nfunction greet($name, $title) {\n    print \"Hello, $title $name\";\n}\n\n$args = ['title' => 'Mr.', 'name' => 'Doe'];\ngreet(...$args);\n\n?>",
+
     "phpError": {"Cannot unpack array with string keys":"cannot-unpack-array-with-string-keys"}
 }

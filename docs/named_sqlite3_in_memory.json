@@ -16,6 +16,8 @@
     "3v4l": {
         "naming database in memory": "https://3v4l.org/JKF0n"
     },
+    "code": "<?php\n\n$foo = new PDO('sqlite:file:foo?mode=memory&cache=shared');\n\/\/ add some tables and rows to foo\n\n$bar = new PDO('sqlite:file:bar?mode=memory&cache=shared');\n\/\/ $bar remains totally independent\n\n\n$foo2 = new PDO('sqlite:file:foo?mode=memory&cache=shared');\n\/\/ $foo2 contains the EXACT SAME database as $foo",
+
     "phpError": {},
     "features": ["sqlite3", "memory", "database"]
 }

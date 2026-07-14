@@ -21,9 +21,24 @@ Reading Micro-seconds
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/microtimes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/microtimes.html","name":"Reading Micro-seconds","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:46 +0000","dateModified":"Thu, 02 Apr 2026 05:33:34 +0000","description":"There are different ways to access micro seconds in PHP : use the ``Datetime`` format of ``u``, which works with ``Datetime``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/microtimes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/microtimes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/microtimes.html","name":"Reading Micro-seconds","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:20 +0000","dateModified":"Tue, 14 Jul 2026 14:32:20 +0000","description":"There are different ways to access micro seconds in PHP : use the ``Datetime`` format of ``u``, which works with ``Datetime``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/microtimes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/microtimes.png
+.. code-block:: php
+
+   <?php
+   
+   echo (new Datetime())->format('u');
+   print PHP_EOL;
+   
+   echo microtime(true);
+   print PHP_EOL;
+   
+   echo hrtime(true);
+   print PHP_EOL;
+   
+   echo date('u');
+   print PHP_EOL;
+
 
 There are different ways to access micro seconds in PHP : use the ``Datetime`` format of ``u``, which works with ``Datetime``. Or call the microtime() or hrtime() functions, with the true parameter.
 

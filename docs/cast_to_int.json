@@ -12,6 +12,8 @@
     "3v4l": {
         "Another cast to int": "https://3v4l.org/qmWik"
     },
+    "code": "<?php\n\n$a = '2';\n\n$b = +$a;\n\nvar_dump($b);\n\n?>",
+
     "phpError": {},
     "features": ["integer", "cast"]
 }

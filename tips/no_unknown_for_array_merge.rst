@@ -21,9 +21,24 @@ No Unknown For array_merge()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html","name":"No Unknown For array_merge()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:42 +0000","dateModified":"Thu, 02 Apr 2026 05:33:42 +0000","description":"A PHP variadic argument collects all the unused named parameters, along with their key","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html","name":"No Unknown For array_merge()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:46 +0000","dateModified":"Tue, 14 Jul 2026 14:32:46 +0000","description":"A PHP variadic argument collects all the unused named parameters, along with their key","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_unknown_for_array_merge.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/no_unknown_for_array_merge.png
+.. code-block:: php
+
+   <?php
+   
+   function foo($x, ...$array) {
+       print_r($x);
+       print_r($array);
+   }
+   
+   $a = ['w' => 'w', 'x' => 'x'];
+   
+   foo(...$a);
+   
+   print_r(array_merge(...$a));
+   // array_merge() does not accept unknown named parameters
+
 
 A PHP variadic argument collects all the unused named parameters, along with their key.  That way, it is possible to handle them with their name inside the method.
 

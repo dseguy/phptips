@@ -21,9 +21,21 @@ Abstract Or Not
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_or_not.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_or_not.html","name":"Abstract Or Not","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"A parent method must have a compatible signature with the same method in any child","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_or_not.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_or_not.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_or_not.html","name":"Abstract Or Not","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:28 +0000","dateModified":"Tue, 14 Jul 2026 14:30:28 +0000","description":"A parent method must have a compatible signature with the same method in any child","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract_or_not.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/abstract_or_not.png
+.. code-block:: php
+
+   <?php
+   
+   abstract class a {
+       abstract function __construct($a);
+   }
+   
+   class b extends a {
+       function __construct() {}
+       
+   }
+
 
 A parent method must have a compatible signature with the same method in any child.
 

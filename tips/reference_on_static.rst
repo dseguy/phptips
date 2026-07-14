@@ -21,9 +21,23 @@ Change A Static Variable Outside Its Function
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html","name":"Change A Static Variable Outside Its Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"Static variables are persistent between calls to the same method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html","name":"Change A Static Variable Outside Its Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:14 +0000","dateModified":"Tue, 14 Jul 2026 14:33:14 +0000","description":"Static variables are persistent between calls to the same method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/reference_on_static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/reference_on_static.png
+.. code-block:: php
+
+   <?php
+   
+   function &foo() {
+       static $x = [];
+       print_r($x);
+       
+       return $x;
+   }
+   
+   $a = foo()[] = 3;
+   var_dump($a);
+   foo();
+
 
 Static variables are persistent between calls to the same method. They are local, unless they are returned with a reference. Then, they can be accessed in the main code, and read or even written.
 

@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["enum", "case", "sort"],
     "3v4l": {"Sorting Enums":"https://3v4l.org/R1pFL"},
+    "code": "<?php\n\nenum E {\n    case A;\n    case B;\n    \n    case D;\n    case E;\n}\n\nprint_r(E::cases());\n\nenum E2 {\n    case E;\n    case D;\n    case B;\n    case A;\n}\n\nprint_r(E2::cases());\n\nenum E3: int {\n    case A = 3;\n    case B = 12;\n    \n    case D = 1;\n    case E = 20;\n}\n\n$cases = E3::cases();\nuasort($cases, fn ($a, $b) => $a->value <=> $b->value);\nprint_r($cases);",
+
     "phpError": {"Only variables should be passed by reference":"only-variables-should-be-passed-by-reference"}
 }

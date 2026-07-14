@@ -21,9 +21,20 @@ Readonly Class Must Match Its Parent
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/readonly-class-inheritance.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/readonly-class-inheritance.html","name":"Readonly Class Must Match Its Parent","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 14:39:03 +0000","dateModified":"Mon, 13 Jul 2026 14:39:03 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/readonly-class-inheritance.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/readonly-class-inheritance.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/readonly-class-inheritance.html","name":"Readonly Class Must Match Its Parent","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:09 +0000","dateModified":"Tue, 14 Jul 2026 14:33:09 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/readonly-class-inheritance.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/readonly-class-inheritance.png
+.. code-block:: php
+
+   <?php
+   
+   readonly class x {
+       public string $p;
+   }
+   
+   class y extends x {
+       readonly public string $p;
+   }
+
 
 PHP 8.2's ``readonly class`` looks like sugar for marking every property readonly at once, but it comes with the same strict rule than plain readonly properties: the whole inheritance chain must agree.
 

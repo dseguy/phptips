@@ -18,6 +18,8 @@
     "3v4l": {
         "No static static": "https://3v4l.org/C4DLP"
     },
+    "code": "<?php\n\nclass x {\n    \/\/ the way to go is self\n    static private self $property1;\n    \n    \/\/ tough luck not possible\n    static private static $property2;\n    \n}\n?>",
+
     "phpError": {"Multiple static modifiers are not allowed":"multiple-static-modifiers-are-not-allowed"},
     "features": ["static", "property", "self"]
 }

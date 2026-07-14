@@ -13,6 +13,8 @@
     "3v4l": {
         "Removed unwanted files": "https://3v4l.org/SFD97"
     },
+    "code": "<?php\n\n$path = __DIR__;\n\n\/\/ list all files, with and without leading . \n$files = glob($path . '\/{,.}[!.,!..]*', GLOB_BRACE);\n\n\/\/ list all files, except . and ..\n$files = glob($path . '\/{,.}*', GLOB_BRACE);",
+
     "phpError": {},
     "features": ["file", "glob", "dot-file"]
 }

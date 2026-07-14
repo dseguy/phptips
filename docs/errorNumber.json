@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["float", "nan", "inf"],
     "3v4l": {"NAN and INF for BANANA":"https://3v4l.org/nFSZj"},
+    "code": "<?php\n\necho 'BA', sqrt(-1), 'A', PHP_EOL;\n\necho 'DIS', exp(1000), 'ECTION', PHP_EOL;\n\necho 'ANTI', log(0), 'LAMMATORY', PHP_EOL;\n\necho 'dis', strtolower(@implode('', [[]])), 'ment', PHP_EOL;",
+
     "phpError": {"Object of class stdClass could not be converted to string":"object-of-class-%s-could-not-be-converted-to-string"}
 }

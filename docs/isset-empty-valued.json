@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["__get", "__isset", "empty", "isset"],
     "3v4l": {"isset, empty and get are on a boat":"https://3v4l.org/Eiumt"},
+    "code": "<?php\n\nclass x {\n    private array $config = array();\n    \n    function __isset($name) {\n            print __METHOD__.\" \".$name.PHP_EOL;\n        return isset($this->config[$name]);\n    }\n\n        function __get($name) {\n            print __METHOD__.\" \".$name.PHP_EOL;\n            return 'a';\n    }\n\n}\n\n\n$x = new x;\nvar_dump(isset($x->a));\nvar_dump(empty($x->a));",
+
     "phpError": {}
 }

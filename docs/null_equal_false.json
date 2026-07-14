@@ -14,6 +14,8 @@
     "3v4l": {
         "null and false are in an array": "https://3v4l.org/av7e9"
     },
+    "code": "<?php\n\nvar_dump(null == false);\n\nprint_r([null => 1,\n        false => 1,\n        ]);\n\n?>",
+
     "phpError": {},
     "features": ["index-array", "false", "null"]
 }

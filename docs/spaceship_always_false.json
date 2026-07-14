@@ -12,5 +12,7 @@
     "contact": "https://bsky.app/profile/jerome.tamarelle.net",
     "features": ["spaceship", "object", "comparison"],
     "3v4l": {"Comparing two objects":"https://3v4l.org/gBecg#veol"},
+    "code": "<?php\n\nclass A {}\nclass B {}\n\n$a = new A;\n$b = new B;\n\nvar_dump($a <=> $b); \/\/ 1: A > B\nvar_dump($b <=> $a); \/\/ 1: B > A \nvar_dump($b == $a);  \/\/ false",
+
     "phpError": {}
 }

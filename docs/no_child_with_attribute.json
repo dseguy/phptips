@@ -15,5 +15,10 @@
         "attribute is not for children": "https://3v4l.org/tDOsd"
     },
     "phpError": {},
-    "features": ["reflection", "attribute", "inheritance"]
+    "features": [
+        "reflection",
+        "attribute",
+        "inheritance"
+    ],
+    "code": "<?php\n\n#[Attribute]\nclass x {}\n\nclass y extends x {}\n\n$ref = new \\ReflectionFunction(#[x, y] function () { });\n\ntry {\n    $ref->getAttributes()[0]->newInstance();\n    $ref->getAttributes()[1]->newInstance();\n} catch (\\Error $e) {\n    var_dump('Error : ', $e->getMessage());\n}\n\n?>"
 }

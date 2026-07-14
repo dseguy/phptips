@@ -11,6 +11,8 @@
     ],
     "author": "",
     "contact": "",
+    "code": "<?php\n\nclass_alias(class1::class, class2::class);\n\nclass_alias(trait1::class, trait2::class);\n\nclass_alias(enum1::class, enum2::class);\n\nclass_alias(interface1::class, interface1::class);\n\n?>",
+
     "phpError":{},
     "features":["alias", "class_alias", "interface", "trait", "enum"],
     "3v4l":{"class_alias everywhere":"https://3v4l.org/0jFCr"}

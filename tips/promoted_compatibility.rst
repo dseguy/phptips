@@ -21,9 +21,29 @@ Promoted Properties Compatibility
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/promoted_compatibility.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/promoted_compatibility.html","name":"Promoted Properties Compatibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:35 +0000","dateModified":"Thu, 02 Apr 2026 05:33:35 +0000","description":"Promoted properties are defined in a constructor signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/promoted_compatibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/promoted_compatibility.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/promoted_compatibility.html","name":"Promoted Properties Compatibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:03 +0000","dateModified":"Tue, 14 Jul 2026 14:33:03 +0000","description":"Promoted properties are defined in a constructor signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/promoted_compatibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/promoted_compatibility.png
+.. code-block:: php
+
+   <?php
+   
+   interface i {
+       // no promoted property
+       function __construct(int $a);
+   }
+   
+   class x implements i {
+       // promoted property
+       function __construct(private int $a) {}
+   }
+   
+   class y extends x {
+       // valid extension of a promoted property
+       function __construct(int $a) {}
+   }
+   
+   ?>
+
 
 Promoted properties are defined in a constructor signature. They cannot be defined in an abstract method, so they are not allowed in an abstract constructor: this is true in an abstract class and in an interface.
 

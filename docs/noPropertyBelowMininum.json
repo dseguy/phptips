@@ -12,6 +12,8 @@
     "contact": "",
     "features": ["property", "php_int_max", "php_int_min"],
     "3v4l": {"No decrement":"https://3v4l.org/b6JKa"},
+    "code": "<?php\n\nclass X {\n    public int $p;\n}\n\n$x = new X;\n\n$x->p = PHP_INT_MIN;\n--$x->p;\n\n?>",
+
     "phpError": {
         "Cannot decrement property %s::$%s of type int past its minimal value":"cannot-decrement-property-%s::$%s-of-type-int-past-its-minimal-value",
         "Cannot increment property %s::$%s of type int past its maximal value":"cannot-increment-property-%s::$%s-of-type-int-past-its-maximal-value",

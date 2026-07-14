@@ -13,5 +13,7 @@
     "contact": "",
     "features":["abstract", "property", "constructor"], 
     "3v4l":{"Promoting and compatibility":"https://3v4l.org/KUlk3"}, 
+    "code": "<?php\n\ninterface i {\n    \/\/ no promoted property\n    function __construct(int $a);\n}\n\nclass x implements i {\n    \/\/ promoted property\n    function __construct(private int $a) {}\n}\n\nclass y extends x {\n    \/\/ valid extension of a promoted property\n    function __construct(int $a) {}\n}\n\n?>",
+ 
     "phpError":{}
 }

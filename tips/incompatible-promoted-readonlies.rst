@@ -21,9 +21,37 @@ Incompatible Promoted Readonly
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html","name":"Incompatible Promoted Readonly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 17:54:25 +0000","dateModified":"Fri, 01 May 2026 17:54:25 +0000","description":"Promoted properties allows the creation of properties directly from the constructor signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html","name":"Incompatible Promoted Readonly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:55 +0000","dateModified":"Tue, 14 Jul 2026 14:31:55 +0000","description":"Promoted properties allows the creation of properties directly from the constructor signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/incompatible-promoted-readonlies.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/incompatible-promoted-readonlies.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       function __construct(protected readonly int $x) {
+       }
+   }
+   
+   class y extends x {
+       function __construct(protected readonly int $x) {
+           parent::__construct($x);
+       }
+   }
+   
+   new y(1);
+   // Fatal error: Uncaught Error: Cannot modify readonly property y::$x
+   
+   class z extends x {
+       function __construct(int $x) {
+           parent::__construct($x);
+       }
+   }
+   
+   new z(1);
+   // OK
+   
+   ?>
+
 
 Promoted properties allows the creation of properties directly from the constructor signature.
 

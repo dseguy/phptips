@@ -16,5 +16,7 @@
     "3v4l":{"How To Alter A Constant":"https://3v4l.org/Ej6t6"},
     "author": "",
     "contact": "",
+    "code": "<?php\n  \nclass x {\n    public string $p = 'abc';\n}\n\nconst A = new x;\n\nA->p = 'def';\n\necho A->p; \/\/ def\n\n?>",
+
     "phpError": {}
 }

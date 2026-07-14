@@ -21,9 +21,24 @@ Recursive Closure
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html","name":"Recursive Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:46 +0000","dateModified":"Thu, 02 Apr 2026 05:33:39 +0000","description":"To make a recursive closure, the closure must be both stored in a variable and passed as a ``use`` parameter to the same factorial","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html","name":"Recursive Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:11 +0000","dateModified":"Tue, 14 Jul 2026 14:33:11 +0000","description":"To make a recursive closure, the closure must be both stored in a variable and passed as a ``use`` parameter to the same factorial","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recursive_closure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/recursive_closure.png
+.. code-block:: php
+
+   <?php
+   
+   $factorial = function (int $n) use (&factorial) {
+       if ($n === 1) {
+           return 1;
+       }
+       
+       return $factorial($n - 1) * $n;
+   };
+   
+   print factorial( 5 );
+   
+   ?>
+
 
 To make a recursive closure, the closure must be both stored in a variable and passed as a ``use`` parameter to the same factorial.
 

@@ -21,9 +21,23 @@ Relaxed Syntax With Const
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html","name":"Relaxed Syntax With Const","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:37 +0000","dateModified":"Thu, 02 Apr 2026 05:33:37 +0000","description":"Relaxed syntax is the possibility to use PHP keywords as method or class constant names","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html","name":"Relaxed Syntax With Const","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:15 +0000","dateModified":"Tue, 14 Jul 2026 14:33:15 +0000","description":"Relaxed syntax is the possibility to use PHP keywords as method or class constant names","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/relaxed_syntax_with_const.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/relaxed_syntax_with_const.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       const array = [];
+       const int   = 2;
+   }
+   
+   print_r(x::array);
+   echo x::int;
+   echo x::class;
+   
+   ?>
+
 
 Relaxed syntax is the possibility to use PHP keywords as method or class constant names. This leads to funny expressions, that look like something else.
 

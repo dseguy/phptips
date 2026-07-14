@@ -16,5 +16,7 @@
     "3v4l": {
         "namespace namespace": "https:\/\/3v4l.org\/8TdKi"
     },
+    "code": "<?php\n\nnamespace namespace {}\n\n?>",
+
     "phpError": {}
 }

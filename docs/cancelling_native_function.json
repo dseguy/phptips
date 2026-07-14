@@ -11,7 +11,14 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["disable-functions", "fallback-to-global", "function"],
-    "3v4l": {"disable print_r() in namespace":"https://3v4l.org/nuUL6"},
-    "phpError": {}
+    "features": [
+        "disable-functions",
+        "fallback-to-global",
+        "function"
+    ],
+    "3v4l": {
+        "disable print_r() in namespace": "https://3v4l.org/nuUL6"
+    },
+    "phpError": {},
+    "code": "<?php\n\nnamespace A {\n    function print_r($x) {\n        print 'No print_r for you!'.PHP_EOL;\n    }\n}\n\nnamespace A {\n    $x = [];\n    print_r($x);\n}\n\n// It looks like it, but \n// A\\B is not a child of A!! \nnamespace A\\B {\n    // Just print_r for you, with fallback\n    print_r($x);\n}\n\n?>"
 }

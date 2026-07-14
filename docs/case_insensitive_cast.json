@@ -14,6 +14,8 @@
     "3v4l": {
         "cast or CAST": "https://3v4l.org/FUbgY"
     },
+    "code": "<?php\n\n$string = '123';\n$integer = (INT) $string;",
+
     "phpError": {},
     "features": ["cast", "syntax"]
 }

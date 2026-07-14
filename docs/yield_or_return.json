@@ -1,5 +1,6 @@
 {
     "image": "yield_or_return.png",
+    "code":"<?php\n\nfunction foo() {\n    yield 1;\n    yield 2;\n    yield 3;\n    \n    return ['a', 'b', 'c'];\n}\n\nfunction foo2() {\n    return ['a', 'b', 'c'];\n}\n\nfunction goo($x, $y, $z) {\n    print \"$x $y $z\\n\";\n}\n\ngoo(...foo());\ngoo(...foo2());",
     "date": "2026-06-06",
     "title": "Yield Or Return",
     "content": "It is possible to spread an array as dynamic arguments: this applies to returned arrays, after a function call.\nThe function call may be actually of two types: function or a generator.\nThe first type is a generator: then, the yielded values are used as argument and the returned array is ignored.\nIn the second case, the array is returned and used.",

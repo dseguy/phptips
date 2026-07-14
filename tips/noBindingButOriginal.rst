@@ -21,9 +21,33 @@ No Binding But With Original
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noBindingButOriginal.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noBindingButOriginal.html","name":"No Binding But With Original","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:33 +0000","dateModified":"Thu, 02 Apr 2026 05:33:33 +0000","description":"It is possible to change the underlying object of a closure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noBindingButOriginal.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noBindingButOriginal.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noBindingButOriginal.html","name":"No Binding But With Original","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:37 +0000","dateModified":"Tue, 14 Jul 2026 14:32:37 +0000","description":"It is possible to change the underlying object of a closure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noBindingButOriginal.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/noBindingButOriginal.png
+.. code-block:: php
+
+   <?php
+   
+   class A {
+       public function method() {    }
+   }
+   
+   class B extends A  {
+       public function method() {    }
+   }
+   
+   class C {
+       public function method() {    }
+   }
+   
+   class D { }
+   
+   $fn = Closure::fromCallable([new A, 'method']);
+   $fn->call(new B); // error
+   $fn->call(new C); // error
+   $fn->call(new D); // error
+   
+   ?>
+
 
 It is possible to change the underlying object of a closure. The new closure will be executed with the new object, with the same method.
 

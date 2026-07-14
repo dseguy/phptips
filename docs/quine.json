@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["php", "quine", "folklore"],
     "3v4l": {"Quine in PHP":"https://3v4l.org/X9TuF"},
+    "code": "<?php\n$code = '<?php\n$code = %c%s%c;\nprintf($code, 39, $code, 39);';\nprintf($code, 39, $code, 39);",
+
     "phpError": {}
 }

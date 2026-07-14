@@ -21,9 +21,25 @@ Mixed And Untyped Are Not Compatible Types
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_and_no_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_and_no_type.html","name":"Mixed And Untyped Are Not Compatible Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:31 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"A property typed mixed cannot be redefined later as untyped","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_and_no_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_and_no_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_and_no_type.html","name":"Mixed And Untyped Are Not Compatible Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:23 +0000","dateModified":"Tue, 14 Jul 2026 14:32:23 +0000","description":"A property typed mixed cannot be redefined later as untyped","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_and_no_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/mixed_and_no_type.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       protected $p;
+       protected mixed $p2;
+   }
+   
+   class x2 extends x {
+       protected mixed $p;
+       // type of x2:$p must not be defined (as in class x)
+       
+       protected $p2;
+       // Type of $x2:$p2 must be mixed
+   }
+
 
 A property typed mixed cannot be redefined later as untyped.
 

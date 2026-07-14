@@ -14,6 +14,8 @@
 "3v4l":{
     "class and constants":"https://3v4l.org/RQIRu"
 },
+"code": "<?php\n\n  const stdClass = 1;\n  \n  new stdClass;\n\n?>",
+
 "phpError":{},
 "features":["class", "constant", "name"]
 }

@@ -17,6 +17,8 @@
     "3v4l": {
         "some micro times": "https://3v4l.org/JvH2H"
     },
+    "code": "<?php\n\necho (new Datetime())->format('u');\nprint PHP_EOL;\n\necho microtime(true);\nprint PHP_EOL;\n\necho hrtime(true);\nprint PHP_EOL;\n\necho date('u');\nprint PHP_EOL;",
+
     "phpError": {},
     "features": ["micro-second", "datetime", "date", "hrtime"]
 }

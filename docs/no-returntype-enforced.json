@@ -12,6 +12,8 @@
     "author": "",
     "contact": "",
     "features":["return-type","generator"],
+    "code": "<?php\n\nfunction foo() : Generator {\n    yield 1;\n\n    return 'not a generator';\n}\n\nforeach($g = foo() as $b) {\n    print $b;  \/\/ print 1\n}\n\necho $g->getReturn(); \/\/ print 'not a generator'\n\n?>",
+
     "phpError":{},
     "3v4l":{"Return is not enforced":"https://3v4l.org/vRXn3"}
 }

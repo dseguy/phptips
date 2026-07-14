@@ -21,9 +21,37 @@ Cannot indirectly modify readonly
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-initialy-modify-readonly.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-initialy-modify-readonly.html","name":"Cannot indirectly modify readonly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:31 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"The same error message 'Cannot indirectly modify readonly property X::$property' is used when trying to sneak a reference on a readonly property, and updated it later","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-initialy-modify-readonly.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-initialy-modify-readonly.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-initialy-modify-readonly.html","name":"Cannot indirectly modify readonly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:51 +0000","dateModified":"Tue, 14 Jul 2026 14:30:51 +0000","description":"The same error message 'Cannot indirectly modify readonly property X::$property' is used when trying to sneak a reference on a readonly property, and updated it later","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-initialy-modify-readonly.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/cannot-initialy-modify-readonly.png
+.. code-block:: php
+
+   <?php
+   
+   class X {
+       readonly public string $property;
+   
+       public function __construct() {
+           $this->property = 1;
+       }
+   }
+   
+   $object = new x();
+   $reference =& $object->property;
+   //Cannot modify readonly property X::$property 
+   
+   class Y {
+       readonly public string $property;
+   
+       public function __construct(&$a) {
+           // first time assignation
+           $this->property = &$a;
+           //Cannot modify readonly property X::$property 
+       }
+   }
+   
+   $a = 'A';
+   $object = new Y($a);
+
 
 The same error message 'Cannot indirectly modify readonly property X::$property' is used when trying to sneak a reference on a readonly property, and updated it later.
 

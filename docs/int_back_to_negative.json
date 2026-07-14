@@ -14,6 +14,8 @@
     "3v4l": {
         "Larger than integers": "https://3v4l.org/g8NCp"
     },
+    "code": "<?php\n\n$a = PHP_INT_MAX;\n$b = $a + 1;\n$c = (int) $b;\n$d = intval($b);\n\nvar_dump($b < 0);\nvar_dump($c < 0);\nvar_dump($d < 0);",
+
     "phpError": {},
     "features": ["integer", "comparison", "php_int_max", "php_int_min"]
 }

@@ -15,5 +15,7 @@
     "contact": "",
     "features": ["integer", "cast", "numeric-base"],
     "3v4l": {"intval() and usages":"https://3v4l.org/UaCpt#veol"},
+    "code": "<?php\n \necho intval('1AZ')    .PHP_EOL; \/\/ 1 \necho intval('1AZ', 11).PHP_EOL; \/\/ 21\necho intval('1AZ', 21).PHP_EOL; \/\/ 31\necho intval('1AZ', 36).PHP_EOL; \/\/ 1691\necho intval('1AZ', 37).PHP_EOL; \/\/ 0\n\necho intval( 123, 11).PHP_EOL;  \/\/ 123\necho intval('123', 11).PHP_EOL; \/\/ 246",
+
     "phpError": {}
 }

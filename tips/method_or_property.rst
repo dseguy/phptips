@@ -21,9 +21,29 @@ Method Or Property?
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/method_or_property.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/method_or_property.html","name":"Method Or Property?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:44 +0000","dateModified":"Thu, 02 Apr 2026 05:33:44 +0000","description":"The first line is a simple call to the method ``foo``, on an object whose class is not show here: if this works, there is a method foo() in that class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/method_or_property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/method_or_property.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/method_or_property.html","name":"Method Or Property?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:19 +0000","dateModified":"Tue, 14 Jul 2026 14:32:19 +0000","description":"The first line is a simple call to the method ``foo``, on an object whose class is not show here: if this works, there is a method foo() in that class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/method_or_property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/method_or_property.png
+.. code-block:: php
+
+   <?php
+   
+   $object = new X();
+   
+   $one =     $object->foo();   // X::foo
+   
+   $two = new $object->foo();   // object Y {}
+   
+   class X {
+       public $foo = Y::class;
+       
+       function foo() {
+           return __METHOD__;
+       }
+   }
+   class Y {}
+     
+   ?>
+
 
 The first line is a simple call to the method ``foo``, on an object whose class is not show here: if this works, there is a method foo() in that class.
 

@@ -12,6 +12,8 @@
     "3v4l": {
         "When space matters": "https://3v4l.org/EvDBu"
     },
+    "code": "<?php\n\necho 10 \/ 1 . ' ms ';\necho 10 \/ 2 .' ms ';\n\n\/\/Parse error: syntax error, unexpected single-quoted string \" ms \", expecting \",\" or \";\" \necho 10 \/ 3. ' ms ';\n\n\/\/Parse error: syntax error, unexpected single-quoted string \" ms \", expecting \",\" or \";\" \necho 10 \/ 4.' ms ';\n\n\/\/ OK again\necho 10 \/ 5.6. ' ms ';",
+
     "phpError": {},
     "features": [
         "space",

@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["closure", "bind"],
     "3v4l": {"Rebind to object":"https://3v4l.org/stFK6"},
+    "code": "<?php\n\nclass A {\n    public function method() {    }\n}\n\nclass B extends A  {\n    public function method() {    }\n}\n\nclass C {\n    public function method() {    }\n}\n\nclass D { }\n\n$fn = Closure::fromCallable([new A, 'method']);\n$fn->call(new B); \/\/ error\n$fn->call(new C); \/\/ error\n$fn->call(new D); \/\/ error\n\n?>",
+
     "phpError": {"Cannot rebind scope of closure created from method":"cannot-rebind-scope-of-closure-created-from-method"}
 }

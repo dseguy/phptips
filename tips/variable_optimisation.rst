@@ -21,9 +21,23 @@ No Warning For Unused Variables
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html","name":"No Warning For Unused Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:43 +0000","dateModified":"Thu, 02 Apr 2026 05:33:43 +0000","description":"PHP variable optimisation in action: the undefined variables are only reported when they are used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html","name":"No Warning For Unused Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:56 +0000","dateModified":"Tue, 14 Jul 2026 14:33:56 +0000","description":"PHP variable optimisation in action: the undefined variables are only reported when they are used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_optimisation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/variable_optimisation.png
+.. code-block:: php
+
+   <?php
+   
+     $a;
+     // crii crii 
+     
+     3 || $b; 
+     // ...
+     
+     echo $c;
+     // Warning: Undefined variable $c
+     
+   ?>
+
 
 PHP variable optimisation in action: the undefined variables are only reported when they are used.
 

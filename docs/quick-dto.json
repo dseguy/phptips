@@ -13,5 +13,7 @@
 "contact":"https://phpc.social/@b_viguier",
     "features":["variadic", "ellipsis", "dto"], 
     "3v4l":{"initialize DTO":"https://3v4l.org/dvtO4"}, 
+    "code": "<?php\n\nclass DTO {\n    public function __construct(\n        public int $a,\n        public int $b,\n        public int $c,\n        public int $d,\n        public int $e,\n        public int $f,\n    ) {}\n}\n\n$dto = new DTO(1, 2, 3, 4, 5, 6);\nvar_dump($dto);\n\n\/\/ #PHP 8.2+, with named parameters in arrays\n$copy = new DTO(...(['d' => 42] + get_object_vars($dto)));\nvar_dump($copy);\n\n\/\/ #PHP 8.0\u20131+, with unnamed parameters in arrays\n$copy2 = new \nDTO(...array_values(array_merge(get_object_vars($dto), ['d' => 42])));\nvar_dump($copy2);\n\n\/\/ #PHP 7.4\u2013 : not supported",
+ 
     "phpError":{}
 }

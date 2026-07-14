@@ -21,9 +21,22 @@ Clone Clone Clone
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html","name":"Clone Clone Clone","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:39 +0000","dateModified":"Thu, 02 Apr 2026 05:33:39 +0000","description":"It is possible to chain clone operators : PHP optimize this and skips any intermediate clone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html","name":"Clone Clone Clone","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:07 +0000","dateModified":"Tue, 14 Jul 2026 14:31:07 +0000","description":"It is possible to chain clone operators : PHP optimize this and skips any intermediate clone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone_clone_clone.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/clone_clone_clone.png
+.. code-block:: php
+
+   <?php
+   
+   class a {}
+   $a = new a;
+   // object(a)#1 (0) {}
+   
+   var_dump($b = clone clone clone $a);
+   // object(a)#2 (0) {}
+   
+   var_dump(new (new $a));
+   // object(a)#3 (0) {}
+
 
 It is possible to chain clone operators : PHP optimize this and skips any intermediate clone. The resulting final object is number 2, so the inner clones were duly ignored.
 

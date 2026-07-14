@@ -16,5 +16,7 @@
     "contact": "",
     "features": ["as", "relaxed-syntax", "import", "trait"],
     "3v4l": {"As as as are in a boat...":"https://3v4l.org/SN2hX"},
+    "code": "<?php\n\n\ntrait t {\n    function as() { echo 'as'; }\n}\n\nclass x {\n    use t { as as as ;}\n}\n\n(new x)->as();\n\/\/ prints as",
+
     "phpError":{}
 }

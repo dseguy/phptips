@@ -15,5 +15,7 @@
     "contact": "",
     "features": ["new-in-initializer", "constant"],
     "3v4l": {"Undefined Constant A":"https://3v4l.org/cAQ9P"},
+    "code": "<?php\n\nclass X {\n    const abstract = A;\n\n    function foo($a = A) {}\n}\n\nconst A = new x();",
+
     "phpError":{}
 }

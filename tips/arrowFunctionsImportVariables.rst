@@ -21,9 +21,26 @@ Arrow Functions Import Variables By Values
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html","name":"Arrow Functions Import Variables By Values","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:42 +0000","dateModified":"Thu, 02 Apr 2026 05:33:42 +0000","description":"Arrow functions automatically import the variables from the current context, to be used in its returned expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html","name":"Arrow Functions Import Variables By Values","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:45 +0000","dateModified":"Tue, 14 Jul 2026 14:30:45 +0000","description":"Arrow functions automatically import the variables from the current context, to be used in its returned expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/arrowFunctionsImportVariables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/arrowFunctionsImportVariables.png
+.. code-block:: php
+
+   <?php
+   
+   $a = 1;
+   $f1 = fn() => $a = 2;
+   
+   $b = &$a;
+   $f2 = fn() => $b = 3;
+   
+   echo $f1();
+   echo $a;
+   echo PHP_EOL;
+   
+   echo $f2();
+   echo $a;
+   echo PHP_EOL;
+
 
 Arrow functions automatically import the variables from the current context, to be used in its returned expression. It is still possible to assign a variable in such situation, by using an assignation in the return statement.
 

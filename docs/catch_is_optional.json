@@ -11,6 +11,8 @@
     ],
     "author": "",
     "contact": "",
+    "code": "<?php\n\ntry {\n    $x = initSomething();\n    doSomething();        \/\/ may throw an exception\n}\n\n\/\/ no catch: exception keep their way\n\n\/\/ finally is always executed\n\/\/ with or without exception being caught\nfinally{\n    $x->shutdown();\n}\n\n?>",
+
     "phpError":{},
     "3v4l":{"No need for catch with try":"https://3v4l.org/Wh9Ie"},
     "features":["catch", "try-catch"]

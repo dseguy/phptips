@@ -7,7 +7,8 @@
         "Exceptions (PHP manual)": "https://www.php.net/manual/en/language.exceptions.php"
     },
     "tags": [
-        "typo", "silent"
+        "typo",
+        "silent"
     ],
     "author": "",
     "contact": "",
@@ -15,5 +16,10 @@
         "Forgetting something?": "https://3v4l.org/tMv3J"
     },
     "phpError": {},
-    "features": ["throw", "useless", "silent"]
+    "features": [
+        "throw",
+        "useless",
+        "silent"
+    ],
+    "code": "<?php\n\nclass MyException extends \\Exception {}\n\nif ($error !== false) {\n    // This looks like 'throw' was omitted\n    new MyException();\n}"
 }

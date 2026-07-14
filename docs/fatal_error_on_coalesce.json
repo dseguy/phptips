@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["array", "isset", "json_decode", "object", "yaml", "json"],
     "3v4l": {"Fatal error on coalesce":"https://3v4l.org/piqCB"},
+    "code": "<?php\n\n$a = 1;\n$b = $a['c'] ?? 'b';\n$b = $a->c ?? 'b';\n\n$a = [];\n$b = $a->f ?? 'b';\n\n$a = new stdclass();\n$b = $a['f'] ?? 'b';",
+
     "phpError": {"Cannot use object of type stdClass as array":"cannot-use-object-of-type-%s-as-array"}
 }

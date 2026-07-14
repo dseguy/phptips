@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["constructor", "first-class-callable", "method"],
     "3v4l": {"Calling the constructor":"https://3v4l.org/k57Tp#v8.5.3"},
+    "code": "<?php\n\nclass x {\n    public $p = 3;\n    \n    function __construct() {\n        $this->p = 4;    \n    }\n}\n\n\/\/Cannot create Closure for new expression\n\/\/$c = new X(...);\n\n$x = new x();\necho $x->p;\n$x->p = 5;\necho $x->p;\n$f = $x->__construct(...);\n\n$f();\necho $x->p;",
+
     "phpError": {"Cannot create Closure for new expression":"cannot-create-closure-for-new-expression"}
 }

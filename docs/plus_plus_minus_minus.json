@@ -10,6 +10,8 @@
     "author": "",
     "contact": "",
     "3v4l": {"plus plus":"https://3v4l.org/4m7rI"},
+    "code": "<?php\n\n$d = 0;\n\necho $d + + - - 1;\n?>",
+
     "phpError": {},
     "features": [
 	"operator", "plus", "minus"

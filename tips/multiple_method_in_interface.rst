@@ -21,9 +21,32 @@ Multiple Method In Interface
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multiple_method_in_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multiple_method_in_interface.html","name":"Multiple Method In Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 04 Jun 2026 17:12:08 +0000","dateModified":"Thu, 04 Jun 2026 17:12:08 +0000","description":"It is possible for a class to implements two interfaces that are defining the same method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multiple_method_in_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multiple_method_in_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multiple_method_in_interface.html","name":"Multiple Method In Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:26 +0000","dateModified":"Tue, 14 Jul 2026 14:32:26 +0000","description":"It is possible for a class to implements two interfaces that are defining the same method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multiple_method_in_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/multiple_method_in_interface.png
+.. code-block:: php
+
+   <?php
+   
+   interface i {
+   //    function foo($k, $j, $l);
+       function foo();
+       function hoo();
+   }
+   
+   interface j {
+       
+       function goo();     
+       function foo();
+   }
+   
+   class x implements  i, j  {
+       function foo() {}
+       function goo() {}
+       function hoo() {}
+   }
+   
+   new x;
+
 
 It is possible for a class to implements two interfaces that are defining the same method. The main condition is to have the same signature for these methods.
 

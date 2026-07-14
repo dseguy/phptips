@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["class", "closure", "function", "parent"],
     "3v4l": {"Calling parent on a closure":"https://3v4l.org/QWeN7"},
+    "code": "<?php\n  \nclass W {}\nclass X extends W {}\n$x = new X;\n\n$f = function    ()  { return parent::class; };\nprint $f->call($x);\n\n\/\/function foo(parent $p)  { return $this; }\n  \n?>",
+
     "phpError": {"Cannot use \"parent\" when no class scope is active":"cannot-use-\"parent\"-when-no-class-scope-is-active"}
 }

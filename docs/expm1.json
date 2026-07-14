@@ -17,5 +17,7 @@
     "contact": "https://x.com/alexdaubois",
     "features": ["exponential", "logarithm"],
     "3v4l": {"expm1() And log1p() In A boat":"https://3v4l.org/dm1Bh"},
+    "code": "<?php\n\n$x = 1e-15;\n\n\/\/ naive: catastrophic cancellation\n$native = exp($x) - 1;\necho $native; \/\/ 1.1102230246252E-15, WRONG\n\n\/\/ expm1: computed without cancellation\n$precise = expm1($x);\necho $precise; \/\/ 1.00000000000000005E-15, CORRECT\n\n\/\/ same problem in reverse\n$y = 1e-15;\n\n\/\/ naive\necho log(1 + $y); \/\/ 1.1102230246252E-15, WRONG\necho log1p($y);   \/\/ 1.00000000000000005E-15, CORRECT\n\n\/\/ real-world use: compound interest on tiny rates.\n$rate = 0.00001; \/\/ 0.001% daily rate\n$days = 365;\n\n\/\/ naive continuous compounding\n$wrong = exp($rate * $days) - 1;\n\n\/\/ precise\n$right = expm1($rate * $days);",
+
     "phpError": {}
 }

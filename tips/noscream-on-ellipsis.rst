@@ -21,9 +21,22 @@ Noscream On Ellipsis
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html","name":"Noscream On Ellipsis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:36 +0000","dateModified":"Thu, 02 Apr 2026 05:33:36 +0000","description":"Noscream operator @ hides errors locally, in an expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html","name":"Noscream On Ellipsis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:47 +0000","dateModified":"Tue, 14 Jul 2026 14:32:47 +0000","description":"Noscream operator @ hides errors locally, in an expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/noscream-on-ellipsis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/noscream-on-ellipsis.png
+.. code-block:: php
+
+   <?php
+   
+   function foo($a, $b) {}
+   
+   foo(...$array); // Normal call
+   
+   foo(...@$array); // Hide Undefined variable, but trips on null!
+   
+   foo(@...$array); // @ doesn't work on operators, so not on ...
+   
+   foo(@...@$array); // same as above, but it looks cool!
+
 
 Noscream operator @ hides errors locally, in an expression. Variadic ``...`` spreads the elements of an array.
 

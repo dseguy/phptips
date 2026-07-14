@@ -14,5 +14,7 @@
     "3v4l": {"nesting generators":"https://3v4l.org/cF28h#v8.5.6",
              "Not nesting generators":"https://3v4l.org/J6iLN#v8.5.6"
     },
+    "code": "<?php\n\n$g = function (): Generator {\n    yield from [1,2,3,4];\n};\n\nforeach($g() as $h) {\n    print \"h:$h - \";\n    foreach($g() as $i) {\n        echo \"i:$i + \";\n        \n        break 1;\n    }\n}",
+
     "phpError": {"Cannot rewind a generator that was already run":"cannot-rewind-a-generator-that-was-already-run"}
 }

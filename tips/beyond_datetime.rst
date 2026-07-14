@@ -21,9 +21,31 @@ Datetime And Leap Second
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/beyond_datetime.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/beyond_datetime.html","name":"Datetime And Leap Second","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 15:22:03 +0000","dateModified":"Sun, 31 May 2026 15:22:03 +0000","description":"The last leap second was added on 2016, Dec 31rst","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/beyond_datetime.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/beyond_datetime.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/beyond_datetime.html","name":"Datetime And Leap Second","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:49 +0000","dateModified":"Tue, 14 Jul 2026 14:30:49 +0000","description":"The last leap second was added on 2016, Dec 31rst","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/beyond_datetime.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/beyond_datetime.png
+.. code-block:: php
+
+   <?php
+   
+   // Leap second on 2016-12-31
+   $date = DateTimeImmutable::createFromFormat(
+       'j-M-Y H:i:s', '31-Dec-2016 23:59:60'
+       );
+   echo $date->format('Y-m-d H:i:s');
+   // 2017-01-01 00:00:00 
+   
+       
+   $date = DateTimeImmutable::createFromFormat(
+       'j-M-Y H:i:s', '99-Dec-2016 99:99:99'
+   );
+   echo $date->format('Y-m-d H:i:s');
+   // 2017-03-13 04:40:39
+   
+   $date = DateTimeImmutable::createFromFormat(
+       'j-M-Y H:i:s', '99-Dec-2016 99:99:100'
+   );
+   var_dump($date); // false
+
 
 The last leap second was added on 2016, Dec 31rst. On that day, 23:59:60 existed, and was followed by 00:00:00 on the first of January. The date time do not handle this, rand rather convert the ``60`` seconds into the next day, silently.
 

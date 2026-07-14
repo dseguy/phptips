@@ -21,9 +21,20 @@ Stuttering PHP
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stuttering.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stuttering.html","name":"Stuttering PHP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:43 +0000","dateModified":"Thu, 02 Apr 2026 05:33:43 +0000","description":"Not a great joke, but it made me chuckle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stuttering.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stuttering.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stuttering.html","name":"Stuttering PHP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:40 +0000","dateModified":"Tue, 14 Jul 2026 14:33:40 +0000","description":"Not a great joke, but it made me chuckle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stuttering.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/stuttering.png
+.. code-block:: php
+
+   <?php
+   
+   const from = ['yield from'];
+   
+   $a = fn () => yield yield from from;
+   
+   foreach($a() as $b) {
+       print $b;
+   }
+
 
 Not a great joke, but it made me chuckle.
 

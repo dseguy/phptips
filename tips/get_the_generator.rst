@@ -21,9 +21,34 @@ Get The Generator
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_the_generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_the_generator.html","name":"Get The Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:32 +0000","dateModified":"Thu, 02 Apr 2026 05:33:32 +0000","description":"It is possible to catch a generator when it is called, by putting it in a variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_the_generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_the_generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_the_generator.html","name":"Get The Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:49 +0000","dateModified":"Tue, 14 Jul 2026 14:31:49 +0000","description":"It is possible to catch a generator when it is called, by putting it in a variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_the_generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/get_the_generator.png
+.. code-block:: php
+
+   <?php
+   
+   function foo() {
+       yield 1;
+       return "a";
+   }
+   
+   function goo($a) {
+       print $a . PHP_EOL;
+   }
+   
+   goo(...($generator = foo()));
+   
+   print $generator->getReturn();
+   // la
+   
+   foreach (($generator = foo()) as $b) {
+       print $b . PHP_EOL;
+   }
+   print $generator->getReturn();
+   // la
+   
+   ?>
+
 
 It is possible to catch a generator when it is called, by putting it in a variable. Once the generator has been used, it is possible to call a method such as ``getReturn`` on it.
 

@@ -21,11 +21,25 @@ Always Compatible Variadic
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html","name":"Always Compatible Variadic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 14:47:23 +0000","dateModified":"Thu, 09 Apr 2026 14:47:23 +0000","description":"A variadic argument is a valid and compatible signature, for methods that overwrite other methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html","name":"Always Compatible Variadic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:31 +0000","dateModified":"Tue, 14 Jul 2026 14:30:31 +0000","description":"A variadic argument is a valid and compatible signature, for methods that overwrite other methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/always_compatible_variadic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Sergii Shymko <https://twitter.com/SergiiShymko>`_
 
-.. image:: ../images/always_compatible_variadic.png
+.. code-block:: php
+
+   <?php
+   
+   interface i {
+       function foo($a, $b = 2);
+   }
+   
+   class x implements i {
+       // This is compatible with the interface definition
+       function foo(...$args) {}
+   }
+   
+   ?>
+
 
 A variadic argument is a valid and compatible signature, for methods that overwrite other methods.
 

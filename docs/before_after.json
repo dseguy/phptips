@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["linting", "lint-wont-execute"],
     "3v4l":{"Order Of Declaration Is Lintable":"https://3v4l.org/mUEsK"},
+    "code": "<?php\n\n\/\/ defined before the parent class : no error\nclass y extends x {}\n\nabstract class x {\n    abstract function foo();\n}\n\n\/\/ defined after the parent class : error\nclass y2 extends x {}\n\n?>",
+
     "phpError":{"Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods":"class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods"}
 }

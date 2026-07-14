@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["reference", "argument"],
     "3v4l": {"int became string":"https://3v4l.org/79cJH"},
+    "code": "<?php\n\nfunction foo(int &$x) {\n    $x = \"foo!\";\n}\n\n$x = 1;\nfoo($x);\nvar_dump($x);",
+
     "phpError":{}
 }

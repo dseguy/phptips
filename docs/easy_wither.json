@@ -17,6 +17,8 @@
 	"3v4l":{
 	    "Easy Wither":"https://3v4l.org/XhG90"
 	},
+	"code": "<?php\n\nclass Foo\n{\n    public function __construct(\n        private readonly int $a,\n        private readonly string $b,\n    ) {\n    }\n\n    public function withA(int $a): self\n    {\n        return new self(...(get_defined_vars() + get_object_vars($this)));\n    }\n\n    public function withB(string $b): self\n    {\n        return new self(...(get_defined_vars() + get_object_vars($this)));\n    }\n}\n\n$f = (new Foo(1, \"foo\"))\n    ->withA(2)\n    ->withB(\"bar\");\n\nvar_dump($f);",
+
 	"phpError":{},
 	"features":["property", "method", "wither"]
 }

@@ -13,6 +13,8 @@
     "author": "",
     "contact": "",
     "3v4l":{"Redefinition of a constant":"https://3v4l.org/mHLNu"},
+    "code": "<?php\n\n const A = 1;\n const A  =1; \/\/ warning!\n \n class X {\n     const B = 2;\n     const B = 2; \/\/ fatal error\n }",
+
     "phpError":{"Cannot redefine class constant X::B ":"cannot-redefine-class-constant"},
     "features":["constant", "definition", "class-constant"]
 }

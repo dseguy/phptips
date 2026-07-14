@@ -21,9 +21,27 @@ Static And Not Static Method
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_and_not_static.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_and_not_static.html","name":"Static And Not Static Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:42 +0000","dateModified":"Thu, 02 Apr 2026 05:33:42 +0000","description":"Could PHP have both a static and a non-static method, with the same name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_and_not_static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_and_not_static.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_and_not_static.html","name":"Static And Not Static Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:32 +0000","dateModified":"Tue, 14 Jul 2026 14:33:32 +0000","description":"Could PHP have both a static and a non-static method, with the same name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_and_not_static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/static_and_not_static.png
+.. code-block:: php
+
+   <?php
+   
+   class X {
+       function __call($name, $arg) {
+           print "normal
+   ";
+       }    
+   
+       static function __callStatic($name, $arg) {
+           print "static
+   ";
+       }    
+   }
+   
+   X::foo();
+   (new x)->foo();
+
 
 Could PHP have both a static and a non-static method, with the same name?
 

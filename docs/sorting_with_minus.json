@@ -17,6 +17,8 @@
     "3v4l": {
         "Sorting with a leading minus": "https://3v4l.org/Tk3C4"
     },
+    "code": "<?php\n\n$array = ['a' => 1, 'b' => 2, 0, 'f' => 4, '-f' => 5];\nksort($array);\n\n\/**\nArray\n(\n    [-f] => 5\n    [0] => 0\n    [a] => 1\n    [b] => 2\n    [f] => 4\n)\n*\/\n\n?>",
+
     "phpError": {},
     "features": ["sort", "comparison"]
 }

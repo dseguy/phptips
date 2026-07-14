@@ -12,6 +12,8 @@
     "contact": "",
     "features": ["cast", "type-juggling", "implicit", "null", "integer", "silent"],
     "3v4l": {"Integers to floats, and back":"https://3v4l.org/F6jts#v8.5.6"},
+    "code": "<?php\n\n\/\/declare(strict_types=1);\n\nfunction foo(float $x): int {\n    var_dump($x);\n    \n    return $x;\n}\n\nvar_dump(foo(1));\n\/\/var_dump(foo(1.1));",
+
     "phpError": {
         "Return value must be of type int, float returned":"return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned",
         "Implicit conversion from float 1.1 to int loses precision":"implicit-conversion-from-float-%.*h-to-int-loses-precision"

@@ -15,6 +15,8 @@
     "3v4l": {
         "this function never returns": "https://3v4l.org/AtbW9"
     },
+    "code": "<?php\n\ninterface i {\n    function foo(): int;\n}\n\nclass x implements i {\n    #[Returntypewillchange]\n    function foo() : int { return 'abc'; }\n}",
+
     "phpError": {"Declaration of x::foo() must be compatible with i::foo(): int":"declaration-of-%s::%s()-must-be-compatible-with-%s::%s()"},
     "features": [
     "attribute",

@@ -21,9 +21,20 @@ Cast In Const
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_in_const.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_in_const.html","name":"Cast In Const","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:35 +0000","dateModified":"Thu, 02 Apr 2026 05:33:35 +0000","description":"TIL that constant values accepts casting since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_in_const.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_in_const.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_in_const.html","name":"Cast In Const","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:55 +0000","dateModified":"Tue, 14 Jul 2026 14:30:55 +0000","description":"TIL that constant values accepts casting since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cast_in_const.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/cast_in_const.png
+.. code-block:: php
+
+   <?php
+   
+   class X {
+       const T = (int) 1.73;
+       // Fatal error
+       //const U = (object) [];
+   }
+   
+   echo X::T; //
+
 
 TIL that constant values accepts casting since PHP 8.5. It is possible to cast a value to another type when defining the global or class constant.
 

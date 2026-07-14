@@ -21,11 +21,24 @@ Send An Argument To Generator
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html","name":"Send An Argument To Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:32 +0000","dateModified":"Thu, 02 Apr 2026 05:33:32 +0000","description":"When calling the method send() on a PHP generator, the result of the first yield keyword is the argument value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html","name":"Send An Argument To Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:24 +0000","dateModified":"Tue, 14 Jul 2026 14:33:24 +0000","description":"When calling the method send() on a PHP generator, the result of the first yield keyword is the argument value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/send_to_generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Rahul Chavan <https://twitter.com/rcsofttech85>`_
 
-.. image:: ../images/send_to_generator.png
+.. code-block:: php
+
+   <?php
+   
+   function checkEvenOrOdd() {
+       $value = yield;
+       
+       yield ($value % 2 === 0) ? "Even: $value" : "Odd: $value";
+   }
+   
+   $evenOddChecker = checkEvenOrOdd();
+   
+   echo $evenOddChecker->send(7). PHP_EOL;
+
 
 When calling the method send() on a PHP generator, the result of the first yield keyword is the argument value. Then, it can be used to yield a specific result.
 

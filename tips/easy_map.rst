@@ -21,9 +21,30 @@ Easy Map
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_map.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_map.html","name":"Easy Map","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:37 +0000","dateModified":"Thu, 02 Apr 2026 05:33:37 +0000","description":"array_column() extracts a property or an index in an array of objects or arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_map.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_map.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_map.html","name":"Easy Map","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:28 +0000","dateModified":"Tue, 14 Jul 2026 14:31:28 +0000","description":"array_column() extracts a property or an index in an array of objects or arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/easy_map.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/easy_map.png
+.. code-block:: php
+
+   <?php
+     
+     class X {
+        public function __construct(
+   	     public $id,
+       	 public $name,
+        ) {}
+     }
+   
+     $list = [];
+     foreach(range(0, 10) as $i) {
+        $list[] = new X(rand(0, 1000_000), 'name '.$i);
+     }
+     
+     $map = array_column($list, null, 'id');
+   
+     print_r($map)  ;
+     
+   ?>
+
 
 array_column() extracts a property or an index in an array of objects or arrays. It also accepts ``null`` as second argument: this represents the original object or array, as a whole.
 

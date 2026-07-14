@@ -21,11 +21,45 @@ Weakmap And Enums
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/weakmap.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/weakmap.html","name":"Weakmap And Enums","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:42 +0000","dateModified":"Thu, 02 Apr 2026 05:33:42 +0000","description":"Have been reminded by a fellow PHP dev that, instead of a simple array, one could also use ``WeakMap``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/weakmap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/weakmap.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/weakmap.html","name":"Weakmap And Enums","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:59 +0000","dateModified":"Tue, 14 Jul 2026 14:33:59 +0000","description":"Have been reminded by a fellow PHP dev that, instead of a simple array, one could also use ``WeakMap``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/weakmap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Dmitri Goosens <https://phpc.social/@dgoosens>`_
 
-.. image:: ../images/weakmap.png
+.. code-block:: php
+
+   <?php
+   
+   enum WeekDay: string
+   {
+       case Monday = 'monday';
+       case Tuesday = 'tuesday';
+       case Wednesday = 'wednesday';
+       case Thursday = 'thursday';
+       case Friday = 'friday';
+       case Saturday = 'saturday';
+       case Sunday = 'sunday';
+   }
+   
+   class Foo
+   {
+       public function hello()
+       {
+           return "Hello world" . PHP_EOL;
+       }
+   }
+   
+   $array = [];
+   $array[WeekDay::Monday->value] = new Foo();
+   // etc
+   
+   echo $array[WeekDay::Monday->value]->hello();
+   
+   $map = new WeakMap();
+   $map[WeekDay::Monday] = new Foo();
+   // etc
+   
+   echo $map[WeekDay::Monday]->hello();
+
 
 Have been reminded by a fellow PHP dev that, instead of a simple array, one could also use ``WeakMap``...
 

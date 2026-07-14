@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["enum", "enum-case", "constant","constant-function","class-constant-syntax"],
     "3v4l": {"Dynamic Enum Cases":"https://3v4l.org/lQY9A"},
+    "code": "<?php\n\nenum E: string {\n    case A = 'abc';\n    const B = 'def';\n}\n\n$name = 'E::A';\necho constant($name)->value;\n$name = 'E::B';\necho constant($name);",
+
     "phpError": {}
 }

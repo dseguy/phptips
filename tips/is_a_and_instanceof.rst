@@ -21,9 +21,26 @@ is_a() Versus Instanceof
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_a_and_instanceof.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_a_and_instanceof.html","name":"is_a() Versus Instanceof","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:46 +0000","dateModified":"Thu, 02 Apr 2026 05:33:41 +0000","description":"is_a() and instanceof are the same feature: check if an object is of a specific class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_a_and_instanceof.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_a_and_instanceof.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_a_and_instanceof.html","name":"is_a() Versus Instanceof","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:07 +0000","dateModified":"Tue, 14 Jul 2026 14:32:07 +0000","description":"is_a() and instanceof are the same feature: check if an object is of a specific class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/is_a_and_instanceof.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/is_a_and_instanceof.png
+.. code-block:: php
+
+   <?php
+   
+   class A {}
+   
+   var_dump(new a instanceof A);
+   // true
+   
+   var_dump(new a instanceof A::class);
+   // Fatal error
+   
+   var_dump(is_a(new a, A::class));
+   // true
+   
+   var_dump(is_a(new a, A);
+   // Undefined constant A
+
 
 is_a() and instanceof are the same feature: check if an object is of a specific class. Yet, they do things in different ways.
 

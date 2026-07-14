@@ -14,6 +14,8 @@
     "3v4l": {
         "Export properties": "https://3v4l.org/PXVQh"
     },
+    "code": "<?php\n\nclass MyList\n{\n    private $list = [];\n\n    function &getList()\n    {\n        return $this->list;\n    }\n\n    function add($item)\n    {\n        $this->list[] = $item;\n    }\n}\n\n$list = new MyList;\n$list->add(1);\n$list->add(2);\n\n$arr = &$list->getList();\n\n$arr[] = 3;\n$arr[] = 4;\n\ndd($list->getList());\n\n\/\/ array:4 [\n\/\/   0 => 1\n\/\/   1 => 2\n\/\/   2 => 3\n\/\/   3 => 4\n\/\/ ]",
+
     "phpError": {},
     "features": ["reference", "visibility", "property"]
 }

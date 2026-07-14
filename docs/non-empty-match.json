@@ -15,6 +15,8 @@
     "3v4l": {
         "unhandled case with NULL": "https://3v4l.org/OHMUb"
     },
+    "code": "<?php\n\nswitch ($a) {}\n\nmatch($b) {};\n\n?>",
+
     "phpError": {"Unhandled case NULL":"unhandled-match-case-%s"},
     "features": ["switch", "match"]
 }

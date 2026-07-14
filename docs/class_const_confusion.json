@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["constant", "scope-resolution-operator", "class", "instanceof", "parenthesis"],
     "3v4l": {"Classes Only":"https://3v4l.org/XsH0k"},
+    "code": "<?php\n\nclass A { const B = 'A::B is a constant'.PHP_EOL; }\n\nclass C { const B = 'C::B is a constant'.PHP_EOL; }\n\nconst C = new A;\n\necho C::B;    \/\/ C is the class\necho (C)::B;  \/\/ C is the constant\n\n\/\/ C is a class here\nvar_dump(new C instanceof C);\n\/\/ (C) is the constant, \nvar_dump(new C instanceof (C));\n\n\/\/ instanceof works with objects too\nvar_dump(new C instanceof (new C));\n\n\/\/ but this is invalid syntax\n\/\/var_dump(new C instanceof new C);\n\n?>",
+
     "phpError":{}
 }

@@ -14,6 +14,8 @@
     "3v4l": {
         "Unicode comment": "https://3v4l.org/QYFD0"
     },
+    "code": "<?php\n\n#\ufe0f\u20e3\ufe0f This is a comment\n\necho 'No syntax errors here!';\n\n?>",
+
     "phpError": {},
     "features": ["comment", "unicode"]
 }

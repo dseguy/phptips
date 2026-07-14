@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["arrow-function", "closure", "reference"],
     "3v4l": {"arrow-functions with references":"https://3v4l.org/SZdGS"},
+    "code": "<?php\n\n$a = 1;\n$f1 = fn() => $a = 2;\n\n$b = &$a;\n$f2 = fn() => $b = 3;\n\necho $f1();\necho $a;\necho PHP_EOL;\n\necho $f2();\necho $a;\necho PHP_EOL;",
+
     "phpError": {}
 }

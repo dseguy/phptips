@@ -21,11 +21,20 @@ min() And max() For Interval
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/min-max.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/min-max.html","name":"min() And max() For Interval","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 08:49:19 +0000","dateModified":"Mon, 29 Jun 2026 08:49:19 +0000","description":"PHP trick: min-max a number in one line","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/min-max.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/min-max.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/min-max.html","name":"min() And max() For Interval","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:21 +0000","dateModified":"Tue, 14 Jul 2026 14:32:21 +0000","description":"PHP trick: min-max a number in one line","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/min-max.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Povilas Korop <https://www.youtube.com/c/LaravelDaily>`_
 
-.. image:: ../images/min-max.png
+.. code-block:: php
+
+   <?php
+   
+   $value = 0.7;
+   
+   echo min(1, max($value, 0)) ;
+   print PHP_EOL;
+   echo max(0, min($value, 1)) ;
+
 
 PHP trick: min-max a number in one line.
 

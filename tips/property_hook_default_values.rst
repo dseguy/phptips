@@ -21,11 +21,34 @@ Property Hooks And Default Values
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/property_hook_default_values.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/property_hook_default_values.html","name":"Property Hooks And Default Values","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:38 +0000","dateModified":"Thu, 02 Apr 2026 05:33:38 +0000","description":"PHP property hooks","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/property_hook_default_values.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/property_hook_default_values.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/property_hook_default_values.html","name":"Property Hooks And Default Values","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:04 +0000","dateModified":"Tue, 14 Jul 2026 14:33:04 +0000","description":"PHP property hooks","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/property_hook_default_values.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Jan Nedbal <https://janedbal.cz/>`_
 
-.. image:: ../images/property_hook_default_values.png
+.. code-block:: php
+
+   <?php declare(strict_types = 1);
+   
+   class Example1
+   {
+       public string $foo = 'UPPERCASE' {
+           set => strtolower($value);
+       }
+   }
+   
+   class Example2
+   {
+       public function __construct(
+           public string $foo = 'UPPERCASE' {
+               set => strtolower($value);
+           }
+       ) {
+       }
+   }
+   
+   echo new Example1()->foo;
+   echo new Example2()->foo;
+
 
 PHP property hooks
 

@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["null", "noscream", "class-constant", "dynamic-class-constant"],
     "3v4l": {"Dynamic Class Constant Edge Cases":"https://3v4l.org/QKvnA"},
+    "code": "<?php\n\nclass X {\n    const A = null;\n}\n\n\/\/ ?? works with class constants\necho X::A ?? 3;\n\n\/\/ parse error, invalid syntax\n\/\/echo X::{A} ?? 3;\n\n\/\/ quotes are needed, or a global constant\nconst A = 'A';\necho X::{A};\n\n\/\/ @ does not hide undefined constants\necho @X::{'B'};",
+
     "phpError": {}
 }

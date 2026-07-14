@@ -14,6 +14,8 @@
     "3v4l": {
         "foreach skips the empty values": "https://3v4l.org/cAniT"
     },
+    "code": "<?php\n\nclass z {\n    public readonly int $p;\n    public readonly int $q;\n\n    public function __construct()\n    {\n        $this->p = 1;\n    }\n}\n\n$x = new z;\n\n\/\/ foreach skips undefined properties, readonly or not\nforeach($x as $k => $v) {\n    print $k . \" \" . $v . PHP_EOL;\n}\n\necho $x->q;\n?>",
+
     "phpError": {},
     "features": [
         "foreach",

@@ -21,9 +21,35 @@ array_unique() Is Slow
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_unique_is_slow.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_unique_is_slow.html","name":"array_unique() Is Slow","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 18:57:01 +0000","dateModified":"Tue, 02 Jun 2026 18:57:01 +0000","description":"Why is array_unique() still slower than using a combinaison of array_count_values() and array_keys","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_unique_is_slow.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_unique_is_slow.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_unique_is_slow.html","name":"array_unique() Is Slow","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:44 +0000","dateModified":"Tue, 14 Jul 2026 14:30:44 +0000","description":"Why is array_unique() still slower than using a combinaison of array_count_values() and array_keys","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_unique_is_slow.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/array_unique_is_slow.png
+.. code-block:: php
+
+   <?php
+   
+   $array = array_merge(range(0, 100), array());
+   shuffle($array);
+   
+   const LOOPS = 1000;
+   
+   $b = hrtime(true);
+   for ($i = 0; $i < LOOPS; ++$i) {
+       $c = $array;
+       $c = array_unique($c);
+   }
+   $e = hrtime(true);
+   print number_format( ($e - $b) / 1_000_000, 2). " ms
+   ";
+   
+   $b = hrtime(true);
+   for ($i = 0; $i < LOOPS; ++$i) {
+       $c = $array;
+       $d = array_keys(array_count_values($c));
+   }
+   $e = hrtime(true);
+   print number_format(($e - $b) / 1_000_000, 2). " ms
+   ";
+
 
 Why is array_unique() still slower than using a combinaison of array_count_values() and array_keys? And by an order of magnitude.
 

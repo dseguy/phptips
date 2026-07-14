@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["never", "arrow-function"],
     "3v4l": {"never arrow function":"https://3v4l.org/Kmq3Q"},
+    "code": "<?php\n\nfn($a): never => die();",
+
     "phpError": {"never-returning function must not implicitly return":"never-returning-function-must-not-implicitly-return"}
 }

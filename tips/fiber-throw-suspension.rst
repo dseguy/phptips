@@ -21,9 +21,57 @@ Fiber Throws Where The Fiber Is
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fiber-throw-suspension.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fiber-throw-suspension.html","name":"Fiber Throws Where The Fiber Is","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 14:18:12 +0000","dateModified":"Mon, 13 Jul 2026 14:18:12 +0000","description":"``Fiber`` is the generator's sibling that nobody writes tips about, so here is one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fiber-throw-suspension.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fiber-throw-suspension.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fiber-throw-suspension.html","name":"Fiber Throws Where The Fiber Is","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:42 +0000","dateModified":"Tue, 14 Jul 2026 14:31:42 +0000","description":"``Fiber`` is the generator's sibling that nobody writes tips about, so here is one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fiber-throw-suspension.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/fiber-throw-suspension.png
+.. code-block:: php
+
+   <?php
+   
+   // Illustrates: $fiber->throw($exception) resumes the fiber and raises the
+   // exception exactly where Fiber::suspend() paused it, not in the caller's scope.
+   
+   $fiber = new Fiber(function (): void {
+       echo "fiber: starting
+   ";
+   
+       try {
+           $value = Fiber::suspend('paused, waiting for input');
+           echo "fiber: resumed normally with '{$value}'
+   ";
+       } catch (RuntimeException $e) {
+           // This ordinary try/catch, wrapped around suspend(), catches the
+           // exception injected by Fiber::throw() -- no special API needed.
+           echo "fiber: caught injected exception: '{$e->getMessage()}'
+   ";
+       }
+   
+       echo "fiber: finishing
+   ";
+   });
+   
+   echo "main: getCurrent() outside any fiber is: ";
+   var_dump(Fiber::getCurrent());
+   
+   $suspendedValue = $fiber->start();
+   echo "main: fiber suspended with '{$suspendedValue}'
+   ";
+   
+   // This does NOT throw here, in main's scope. It resumes the fiber and the
+   // exception surfaces at the suspend() call above, inside the fiber's body.
+   $fiber->throw(new RuntimeException('something went wrong'));
+   
+   echo "main: fiber finished? " . ($fiber->isTerminated() ? 'yes' : 'no') . "
+   ";
+   
+   // Starting an already-started (and now terminated) fiber is not a silent
+   // no-op: it throws a FiberError.
+   try {
+       $fiber->start();
+   } catch (FiberError $e) {
+       echo "main: caught FiberError: '{$e->getMessage()}'
+   ";
+   }
+
 
 ``Fiber`` is the generator's sibling that nobody writes tips about, so here is one.
 

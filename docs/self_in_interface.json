@@ -14,6 +14,8 @@
     "3v4l": {
         "interface, not class": "https://3v4l.org/DANG4"
     },
+    "code": "<?php\n\ninterface i {\n    function foo(self $i); \n}\n\nclass x implements i {\n    \/\/Declaration of x::foo(x $i) must be compatible with i::foo(i $i)\n    function foo(self $i) {} \n    \n    \/\/ OK\n    function foo(i $i) {}\n}",
+
     "phpError": {},
     "features": [
         "self",

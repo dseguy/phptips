@@ -15,6 +15,8 @@
     "3v4l": {
         "Cast to object as key": "https://3v4l.org/4teSv"
     },
+    "code": "<?php\n\nclass A {\n    function __toString() {\n        return 'A';\n    }\n}\n\n$a = new A();\n\n$b = [$a => $a];\n\nprint_r($b);",
+
     "phpError": {"Cannot access offset of type A on array":"cannot-access-offset-of-type-%s-on-%s"},
     "features": ["string", "object"]
 }

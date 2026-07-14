@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["type", "iterable", "array", "class_alias", "use-alias"],
     "3v4l": {"Duplicate types":"https://3v4l.org/SvDIP#v8.5.7"},
+    "code": "<?php\n\nclass_alias('a', 'c');\nuse A as B;\n\n\/\/ duplicate hidden type\nfunction foo(array | iterable $b) {}\n\n\/\/ d8plicate type\nfunction foo2(a | b $b) {}\n\n\/\/ a and c are always considered distinct\nfunction foo3(a | c $b) {}\n\n\/\/ PHP is smarter than this poor usage of DNF\nfunction foo4((a & b) | (b & a) $b) {}\n\n?>",
+
     "phpError": {"Duplicate type array is redundant":"duplicate-type-%s-is-redundant"}
 }

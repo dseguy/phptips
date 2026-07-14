@@ -21,11 +21,30 @@ Quick Serialize
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html","name":"Quick Serialize","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 10:34:13 +0000","dateModified":"Thu, 02 Apr 2026 10:34:13 +0000","description":"Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html","name":"Quick Serialize","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:07 +0000","dateModified":"Tue, 14 Jul 2026 14:33:07 +0000","description":"Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick_serialize.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Doeke Norg <https://twitter.com/doekenorg>`_
 
-.. image:: ../images/quick_serialize.png
+.. code-block:: php
+
+   <?php
+   
+   final class ValueObject{
+       
+       private int $uninitialized;
+       private int $initialized = 3;
+       
+       public function toArray(): array {
+           return get_object_vars($this);
+       }
+   }
+   
+   $object = new ValueObject();
+   
+   var_dump($object->toArray());
+   
+   // ['initialized' => 3]
+
 
 Did you know that ``get_object_vars()`` only returns the initialized parameters from your objects? This can be very useful when unserializing objects.
 

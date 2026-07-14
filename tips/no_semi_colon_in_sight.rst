@@ -21,9 +21,17 @@ No Semicolon In Sight
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_semi_colon_in_sight.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_semi_colon_in_sight.html","name":"No Semicolon In Sight","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 11:30:26 +0000","dateModified":"Thu, 02 Apr 2026 11:30:26 +0000","description":"This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_semi_colon_in_sight.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_semi_colon_in_sight.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_semi_colon_in_sight.html","name":"No Semicolon In Sight","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:45 +0000","dateModified":"Tue, 14 Jul 2026 14:32:45 +0000","description":"This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_semi_colon_in_sight.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/no_semi_colon_in_sight.png
+.. code-block:: php
+
+   <?php
+   
+   echo 'a',
+   
+   ?>
+   //Parse error: syntax error, unexpected token ";" in /in/6WEF0 on line 5
+
 
 This PHP code doesn't compile: the echo must be complete to be closed with a PHP tag. Either the comma should be a semicolon, or an extra argument should be present.
 

@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["plus", "post-increment"],
     "3v4l": {"Triple plus operator in action":"https://3v4l.org/Kku5h"},
+    "code": "<?php\n\n$a = 1;\n$b = $a+++ ++$a;\necho $b;",
+
     "phpError":{}
 }

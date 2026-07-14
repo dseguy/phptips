@@ -12,6 +12,8 @@
     "contact": "",
     "features": ["interface", "method", "signature", "compatibility"],
     "3v4l": {"Implementing twice the same method":"https://3v4l.org/rKRb4#veol"},
+    "code": "<?php\n\ninterface i {\n\/\/    function foo($k, $j, $l);\n    function foo();\n    function hoo();\n}\n\ninterface j {\n    \n    function goo();     \n    function foo();\n}\n\nclass x implements  i, j  {\n    function foo() {}\n    function goo() {}\n    function hoo() {}\n}\n\nnew x;",
+
     "phpError": {
         "Declaration of x::foo() must be compatible with i::foo($k, $j, $l)":"declaration-of-%s-must-be-compatible-with-%s"
     }

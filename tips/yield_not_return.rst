@@ -21,9 +21,32 @@ Yield, Not Return
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return.html","name":"Yield, Not Return","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:39 +0000","dateModified":"Thu, 02 Apr 2026 05:33:39 +0000","description":"This code displays ``1 2 3``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return.html","name":"Yield, Not Return","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:34:05 +0000","dateModified":"Tue, 14 Jul 2026 14:34:05 +0000","description":"This code displays ``1 2 3``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/yield_not_return.png
+.. code-block:: php
+
+   <?php
+   
+   function foo() {
+       yield 1;
+       yield 2;
+       yield 3;
+       
+       return ' 4';
+   }
+   
+   function goo($a, $b, $c) {
+       print "$a $b $c";
+   }
+   print PHP_EOL;
+   
+   goo(...foo());
+   
+   goo(...($g = foo()));
+   echo $g->getReturn();
+   
+   ?>
+
 
 This code displays ``1 2 3``. This is because the ``...`` operator acts as a ``foreach`` and runs the generator. It then spreads the values as arguments for the function call, and, in this case, it matches the needed arguments.
 

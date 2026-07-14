@@ -79,6 +79,7 @@ $phptips[] = "-------------------";
 $phptips[] = "";
 
 $files = glob($docsGlob);
+//$files = array_slice($files, 0, 10);
 
 // Exclude skeleton files
 $files = array_diff($files, ['docs/skeleton.json', "docs/$lang/skeleton.json"]);
@@ -107,6 +108,7 @@ const FIELDS = [
     "contact",
     "file",
     "phpError",
+    "code",
 ];
 
 $stats        = ['author' => 0];
@@ -178,7 +180,7 @@ foreach ($files as $file) {
         }
     }
 
-    if (isset($tip->{'3v4l'}) && empty($tip->{'3v4l'})) {
+    if (isset($tip->{'3v4l'}) && (empty($tip->{'3v4l'}) )) {
         buildlog("Warning : 3v4l is empty in $file");
         ++$errors;
     } elseif (isset($tip->{'3v4l'}) && is_string($tip->{'3v4l'})) {
@@ -442,9 +444,15 @@ foreach ($tips as $tip) {
         $authors[$author][] = '    * :ref:`' . $anchor . '`';
     }
 
-    $phptip[] = '.. image:: ' . $imageRelPath . $tip->image;
+    if (isset($tip->code)) {
+        $phptip[] = '.. code-block:: php' . PHP_EOL . PHP_EOL .
+                        '   ' . prepare_code_for_alt($tip->code) . PHP_EOL;
+        $phptip[] = '';
+    } else {
+        $phptip[] = '.. image:: ' . $imageRelPath . $tip->image . PHP_EOL;
+        $phptip[] = '';
+    }
 
-    $phptip[] = '';
     $phptip[] = str_replace("\n", "\n\n", $tip->content);
 
     if (isset($tip->{'3v4l'}->{''})) {
@@ -612,4 +620,12 @@ function buildlog(string $message): void
         $log = fopen($GLOBALS['buildLogPath'], 'a');
     }
     fwrite($log, $message . PHP_EOL);
+}
+
+function prepare_code_for_alt(string $code): string {
+    $return = $code;
+//    $return = preg_replace("/\n *\n/m", PHP_EOL, $code);
+    $return = str_replace(PHP_EOL, PHP_EOL.str_repeat(' ', 3), $return);
+    
+    return $return;
 }

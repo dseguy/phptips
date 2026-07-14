@@ -21,9 +21,22 @@ Coalesce And The Fatal Error
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html","name":"Coalesce And The Fatal Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:31 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"The coalesce operator is based on the ``isset()`` feature of PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html","name":"Coalesce And The Fatal Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:41 +0000","dateModified":"Tue, 14 Jul 2026 14:31:41 +0000","description":"The coalesce operator is based on the ``isset()`` feature of PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/fatal_error_on_coalesce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/fatal_error_on_coalesce.png
+.. code-block:: php
+
+   <?php
+   
+   $a = 1;
+   $b = $a['c'] ?? 'b';
+   $b = $a->c ?? 'b';
+   
+   $a = [];
+   $b = $a->f ?? 'b';
+   
+   $a = new stdclass();
+   $b = $a['f'] ?? 'b';
+
 
 The coalesce operator is based on the ``isset()`` feature of PHP. As such, it is prone to the same issues. This is the case with a sneaky fatal error.
 

@@ -21,9 +21,30 @@ Namespace, But Far In The Name
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_but_far.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_but_far.html","name":"Namespace, But Far In The Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 12:36:46 +0000","dateModified":"Thu, 02 Apr 2026 12:36:46 +0000","description":"Namespaces can be named anything, except ``namespace``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_but_far.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_but_far.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_but_far.html","name":"Namespace, But Far In The Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:34:53 +0000","dateModified":"Tue, 14 Jul 2026 14:34:53 +0000","description":"Namespaces can be named anything, except ``namespace``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace_but_far.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/namespace_but_far.png
+.. code-block:: php
+
+   <?php
+   
+   // Not allowed
+   namespace namespace {}
+   
+   //syntax error, unexpected namespace-relative name "namespace\A", expecting "{" 
+   namespace namespace\A {}
+   
+   // namespace may be used, but not in first position
+   // surely, not a good idea
+   namespace A\namespace {
+       const B = 1;
+   }
+   
+   namespace A {
+       echo namespace\namespace\B;
+   }
+   
+   ?>
+
 
 Namespaces can be named anything, except ``namespace``. That keyword is used as a prefix, on a name (class, function, constant, etc.) to represent the current namespace, and allow for relative sub-namespaces.
 

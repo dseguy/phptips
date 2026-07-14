@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["null", "nullable", "default-value"],
     "3v4l": {"Hidden and not so hidden":"https://3v4l.org/g846c"},
+    "code": "<?php\n\nfunction foo(string $a = null) {}\n\n\nconst A  = null;\nfunction bar(string $a = A) {}\n\nfoo();  \/\/ Deprecated \nbar();  \/\/ Fatal error\n\n?>",
+
     "phpError":{}
 }

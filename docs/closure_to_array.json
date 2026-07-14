@@ -13,5 +13,7 @@
     "contact": "https://github.com/azjezz",
     "features": ["closure", "cast", "array"],
     "3v4l": {"Casting a closure to array":"https://3v4l.org/4FGnj"},
+    "code": "<?php\n\nclass X {\n    private $p = 1;\n    public $q = 2;\n}\n\n$x = new x;\n$y = (array) $x;\nprint_r($y);\n\n\/*\nArray\n(\n    [Xp] => 1\n    [q] => 2\n)\n*\/\n\n$f = function() {};\nprint get_class($f);  \/\/\/ Closure\nvar_dump((array) $f);\n\n\/*\nClosure\narray(1) {\n  [0]=>\n  object(Closure)#2 (0) {\n  }\n}\n*\/\n?>",
+
     "phpError":{}
 }

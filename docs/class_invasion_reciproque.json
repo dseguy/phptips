@@ -12,6 +12,8 @@
     "author": "",
     "contact": "",
     "3v4l":{"class invasion reciproque":"https://3v4l.org/rFjoe"},
+    "code": "<?php\n\nclass x {\n    private function foo() { echo __METHOD__; }\n\n    function YinX() {\n        $y = new y();\n        $y->foo();\n    }\n}\n\nclass y extends x {\n    function YinY() {\n        $this->foo();\n    }\n}\n\n\/\/ here, Y can call private foo();\n(new x)->YinX();\n\n\/\/ here, Y cannot call foo()\n(new y)->YinY();\n\n?>",
+
     "phpError":{},
     "features":["class", "class-invasion"]
 }

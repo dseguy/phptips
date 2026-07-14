@@ -21,9 +21,29 @@ Cannot Yield And Never
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_cannot_never.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_cannot_never.html","name":"Cannot Yield And Never","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:35 +0000","dateModified":"Thu, 02 Apr 2026 05:33:35 +0000","description":"Never, as a return type, mentions that the method will never return","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_cannot_never.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_cannot_never.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_cannot_never.html","name":"Cannot Yield And Never","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:34:05 +0000","dateModified":"Tue, 14 Jul 2026 14:34:05 +0000","description":"Never, as a return type, mentions that the method will never return","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_cannot_never.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/yield_cannot_never.png
+.. code-block:: php
+
+   <?php
+   
+   function naturalIntegers() {
+       $i = 0;
+       while (true) {
+           yield $i++;
+       }
+   }
+   
+   foreach(naturalIntegers() as $i) {
+       if ($i > 10) {
+           break;
+       }
+       print $i.PHP_EOL;
+   }
+   
+   print "finished
+   ";
+
 
 Never, as a return type, mentions that the method will never return. This means that it either calls exit(), throws an exception, or is an infinite loop.
 

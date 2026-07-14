@@ -21,9 +21,26 @@ Ellipsis And Coalesce
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsisAndCoalesce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsisAndCoalesce.html","name":"Ellipsis And Coalesce","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 09:47:27 +0000","dateModified":"Fri, 29 May 2026 09:47:27 +0000","description":"Ellipsis, aka ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsisAndCoalesce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsisAndCoalesce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsisAndCoalesce.html","name":"Ellipsis And Coalesce","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:31 +0000","dateModified":"Tue, 14 Jul 2026 14:31:31 +0000","description":"Ellipsis, aka ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsisAndCoalesce.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/ellipsisAndCoalesce.png
+.. code-block:: php
+
+   <?php
+   
+   $a = [3];
+   foo(...$a ?? range(1,2));
+   
+   $a = [null];
+   foo(...$a ?? range(1,2));
+   
+   $a = null;
+   foo(...$a ?? range(1,2));
+   
+   
+   function foo() {
+       print_r(func_get_args());
+   }
+
 
 Ellipsis, aka ``...`` three dots, applies only to arrays and Traversable objects. It also has a lower priority than the ``??`` coalesce operator, which means that ``??`` is applied before the ``...``.
 

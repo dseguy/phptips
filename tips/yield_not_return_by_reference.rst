@@ -21,9 +21,30 @@ Yield, Not Return By Reference
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return_by_reference.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return_by_reference.html","name":"Yield, Not Return By Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:34 +0000","dateModified":"Thu, 02 Apr 2026 05:33:34 +0000","description":"When a method returns a reference, there is a ``&`` before its name, in the signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return_by_reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return_by_reference.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return_by_reference.html","name":"Yield, Not Return By Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:34:06 +0000","dateModified":"Tue, 14 Jul 2026 14:34:06 +0000","description":"When a method returns a reference, there is a ``&`` before its name, in the signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/yield_not_return_by_reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/yield_not_return_by_reference.png
+.. code-block:: php
+
+   <?php
+   
+   function &gen() {
+       yield 'foo';
+       
+       return 'Literal';
+   }
+   
+   $gen = gen();
+   var_dump($gen->current());
+   
+   
+   foreach($gen as $a) {
+       print $a;
+   }
+   
+   print $gen->getReturn();
+   
+   ?>
+
 
 When a method returns a reference, there is a ``&`` before its name, in the signature. This means that the function must return a variable, or a property, and not a literal value.
 

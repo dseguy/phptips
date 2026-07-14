@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["method-compatibility", "interface"],
     "3v4l": {"compatible, but not so much":"https://3v4l.org/u4p3g"},
+    "code": "<?php\n\ninterface i {\n    function foo($a) ;\n}\n\ninterface j extends i {\n    function foo($a, $b = 3);\n}\n\ninterface k extends j {\n    function foo($a = 4, $b = 3);\n}\n\ninterface l extends k {\n    function foo();\n}",
+
     "phpError": {"Declaration of %s::%s() must be compatible with %s::%s":"declaration-of-%s::%s()-must-be-compatible-with-%s::%s()"}
 }

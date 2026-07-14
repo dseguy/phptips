@@ -12,6 +12,8 @@
     "author": "Greg Korba",
     "contact": "https://twitter.com/_Codito_",
     "features": ["invoke", "new"],
+    "code": "<?php\n\nclass Foo {\n    public function __invoke(): self {\n        return new self();\n    }\n    \n    public function bar(): self {\n        return $this();\n    }\n}\n\nvar_dump(new Foo()()()()->bar()()()()());",
+
     "phpError":{},
     "3v4l": {"Lots of Silly Arguments":"https://3v4l.org/Xbv66"}
 }

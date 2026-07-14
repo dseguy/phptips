@@ -21,9 +21,23 @@ isset() On Uninitialized Properties
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_usage.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_usage.html","name":"isset() On Uninitialized Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 16:17:29 +0000","dateModified":"Fri, 29 May 2026 16:17:29 +0000","description":"Typed properties cannot be read until they are written once","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_usage.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_usage.html","name":"isset() On Uninitialized Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:12 +0000","dateModified":"Tue, 14 Jul 2026 14:32:12 +0000","description":"Typed properties cannot be read until they are written once","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/isset_usage.png
+.. code-block:: php
+
+   <?php
+   
+   //declare(strict_types=1);
+   
+   function foo(float $x): int {
+       var_dump($x);
+       
+       return $x;
+   }
+   
+   var_dump(foo(1));
+   //var_dump(foo(1.1));
+
 
 Typed properties cannot be read until they are written once. And many situations require to check if the property is set before writing it. Often, the type of the property is set to nullable, so it can have a default value of NULL, and then, be both checked and replaced.
 

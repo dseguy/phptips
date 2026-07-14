@@ -18,5 +18,7 @@
         "property",
         "static"
     ],
+    "code": "<?php\n\n    class Test {\n        public static $x = 0;\n    }\n    class Test2 extends Test {\n        \/\/ $x is inherited\n    }\n    class Test3 extends Test {\n        \/\/ $x is NOT inherited\n        public static $x = 3;\n    }\n    \n\t$x = 1;\n    Test2::$x = &$x;\n    \n    var_dump(Test::$x, Test2::$x, Test3::$x);\n    \/\/ int(1), int(1), int(3)\n?>",
+
     "phpError": {}
 }

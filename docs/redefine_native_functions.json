@@ -12,6 +12,8 @@
     "3v4l": {
         "Redefining native PHP functions": "https://3v4l.org/BM9C8"
     },
+    "code": "<?php\n\necho strtolower('ABC').PHP_EOL;\n\nfunction b($a) {\n    print \"b: $a\n\";\n}\n\nuse function b as strtolower;\n\necho strtolower('ABC').PHP_EOL;",
+
     "phpError": {},
     "features": [
         "fallback-function",         

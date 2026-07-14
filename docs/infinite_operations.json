@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["float", "exponent", "addition"],
     "3v4l": {"Really Large Numbers":"https://3v4l.org/KHkJl#v8.5.7"},
+    "code": "<?php\n\nvar_dump( 2 * PHP_INT_MAX === 3 * PHP_INT_MAX);          \/\/ false\nvar_dump( PHP_FLOAT_MAX + 1 === 3 * PHP_FLOAT_MAX);      \/\/ false\nvar_dump( PHP_FLOAT_MAX + 1E+308 === 3 * PHP_FLOAT_MAX); \/\/ false\nvar_dump( 2 * PHP_FLOAT_MAX === 3 * PHP_FLOAT_MAX);      \/\/ true\nvar_dump( 2 * INF === 3 * INF);                          \/\/ true\nvar_dump( INF ** INF === INF);                           \/\/ true\n\n?>",
+
     "phpError": {}
 }

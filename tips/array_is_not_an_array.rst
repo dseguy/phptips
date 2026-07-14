@@ -21,9 +21,21 @@ array Is Not An Array
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_not_an_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_not_an_array.html","name":"array Is Not An Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:46 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\\``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_not_an_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_not_an_array.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_not_an_array.html","name":"array Is Not An Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:53:19 +0000","dateModified":"Tue, 14 Jul 2026 14:53:19 +0000","description":"PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\\``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_not_an_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/array_is_not_an_array.png
+.. code-block:: php
+
+   <?php
+   
+   function foo(\array $a) {}
+   
+   foo([]);
+   
+   // Fatal error: Uncaught TypeError: foo(): 
+   // Argument #1 ($a) must be of type array, array given
+   
+   ?>
+
 
 PHP native types, such as the scalar ``int`` cannot be specified with a leading ``\``. Such code get hit with a ``Type declaration ‘\int’ must be unqualified``.
 

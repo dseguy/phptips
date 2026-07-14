@@ -21,9 +21,18 @@ Variable Creation
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html","name":"Variable Creation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:34 +0000","dateModified":"Thu, 02 Apr 2026 05:33:34 +0000","description":"When defining a closure, the lexical variables (in the ``use`` clause) are created immediately, with the default value of ``null``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html","name":"Variable Creation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:55 +0000","dateModified":"Tue, 14 Jul 2026 14:33:55 +0000","description":"When defining a closure, the lexical variables (in the ``use`` clause) are created immediately, with the default value of ``null``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variable_creation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/variable_creation.png
+.. code-block:: php
+
+   <?php
+   
+   $f = function () use (&$a) { $a = [1]; };
+   var_dump($a);
+   
+   $x = new class ($c) { function __construct(&$d) { $d = []; } };
+   var_dump($c);
+
 
 When defining a closure, the lexical variables (in the ``use`` clause) are created immediately, with the default value of ``null``. The closure is executed later, and then, the values of the lexical variables are changed.
 

@@ -12,6 +12,8 @@
 "author":"",
 "contact":"",
     "features": ["phar", "include"],
+    "code": "<?php\n\n\ninclude 'phar:\/\/exakat.phar\/script\/load.php';",
+
     "phpError":{},
     "3v4l": {"include on phar":"https://3v4l.org/s9jrt"}
 }

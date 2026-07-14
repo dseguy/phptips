@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["nan", "inf", "comparison"],
     "3v4l": {"nan !== nan":"https://3v4l.org/N6AoL"},
+    "code": "<?php\n\n\/\/echo acos(3);\nvar_dump(acos(3) === acos(3));\nvar_dump(acos(3) == acos(3));\n\n\/\/ Note that NAN is a float and becomes 0\nvar_dump($array = [acos(3) => 3]);\nvar_dump(isset($array[acos(3)]));\n\n\/\/ Idem pour INF, which is infinity \nvar_dump($array = [INF => 3]);\nvar_dump(isset($array[INF]));",
+
     "phpError": {}
 }

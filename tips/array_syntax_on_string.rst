@@ -21,9 +21,20 @@ Modify String With Array Syntax
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html","name":"Modify String With Array Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:31 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"PHP strings allows access to individual characters using the array syntax: ``$string[$index]``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html","name":"Modify String With Array Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:42 +0000","dateModified":"Tue, 14 Jul 2026 14:30:42 +0000","description":"PHP strings allows access to individual characters using the array syntax: ``$string[$index]``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_syntax_on_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/array_syntax_on_string.png
+.. code-block:: php
+
+   <?php
+   
+   $a = '1';
+   $a[1] = 2;
+   $a[10] = 3;
+   $a[-9] = 4;
+   
+   print $a;
+   // 124       3
+
 
 PHP strings allows access to individual characters using the array syntax: ``$string[$index]``.
 

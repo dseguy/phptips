@@ -13,6 +13,8 @@
     "contact": "",
     "features": ["cast", "integer", "keyword"],
     "3v4l": {"(int) compilation error":"https://3v4l.org/1Lt2o"},
+    "code": "<?php\n\nconst A = 1;\necho ( A ) + (3);\n\nconst int = 2;\necho ( int ); \/\/ syntax error!!",
+
     "phpError":{}
     
 }

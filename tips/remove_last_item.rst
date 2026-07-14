@@ -21,9 +21,22 @@ Remove Last Item In An Array
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html","name":"Remove Last Item In An Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Apr 2026 05:05:18 +0000","dateModified":"Tue, 07 Apr 2026 05:05:18 +0000","description":"Three ways to remove the last item in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html","name":"Remove Last Item In An Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:16 +0000","dateModified":"Tue, 14 Jul 2026 14:33:16 +0000","description":"Three ways to remove the last item in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/remove_last_item.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/remove_last_item.png
+.. code-block:: php
+
+   <?php
+   
+   $array = range(0, 100);
+   
+   array_pop($array);
+   
+   unset($array[array_key_last($array)]);
+   
+   $array = array_slice($array, 0, -1, preserve_keys: true);
+     
+   ?>
+
 
 Three ways to remove the last item in an array.
 

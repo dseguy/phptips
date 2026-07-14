@@ -21,9 +21,26 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/plusplus_riddle.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/plusplus_riddle.html","name":"++ Riddle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 16 May 2026 08:31:33 +0000","dateModified":"Sat, 16 May 2026 08:31:33 +0000","description":"PHP has no operator ``++-++``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/plusplus_riddle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/plusplus_riddle.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/plusplus_riddle.html","name":"++ Riddle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:00 +0000","dateModified":"Tue, 14 Jul 2026 14:33:00 +0000","description":"PHP has no operator ``++-++``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/plusplus_riddle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/plusplus_riddle.png
+.. code-block:: php
+
+   <?php
+   
+   $a = 5;
+   $b = $a++-++$a;
+   
+   echo $b; // -2
+   echo $a; // 7
+   
+   // This, sadly, doesn't compile 
+   //$b = $a+++++$a;
+   
+   $a = 5;
+   $b = $a++ + ++$a; // 12
+   echo $b; // 12
+   echo $a; // 7
+
 
 PHP has no operator ``++-++``. This has to be read with spaces, as ``++ - ++``: there is one post increment operator, a substraction then a pre-increment operator.
 

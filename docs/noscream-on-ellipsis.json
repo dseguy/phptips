@@ -16,6 +16,8 @@
     "3v4l": {
         "Noscream on Ellipsis": "https://3v4l.org/T0L1k"
     },
+    "code": "<?php\n\nfunction foo($a, $b) {}\n\nfoo(...$array); \/\/ Normal call\n\nfoo(...@$array); \/\/ Hide Undefined variable, but trips on null!\n\nfoo(@...$array); \/\/ @ doesn't work on operators, so not on ...\n\nfoo(@...@$array); \/\/ same as above, but it looks cool!",
+
     "phpError": {},
     "features": ["noscream", "ellipsis"]
 }

@@ -21,9 +21,14 @@ eval() And __FILE__
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/eval_and__FILE__.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/eval_and__FILE__.html","name":"eval() And __FILE__","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 08:21:12 +0000","dateModified":"Sat, 11 Jul 2026 08:21:12 +0000","description":"__FILE__ is a magic constant that holds the current file full path","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/eval_and__FILE__.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/eval_and__FILE__.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/eval_and__FILE__.html","name":"eval() And __FILE__","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:36 +0000","dateModified":"Tue, 14 Jul 2026 14:31:36 +0000","description":"__FILE__ is a magic constant that holds the current file full path","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/eval_and__FILE__.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/eval_and__FILE__.png
+.. code-block:: php
+
+   <?php
+   
+   eval(' echo "__FILE__ is not `'.__FILE__.'` in `" .  __FILE__."`"; ');
+
 
 __FILE__ is a magic constant that holds the current file full path. This is not true when using it inside eval(), which comes with an extra suffix that tell it is executed in eval(). In fact, eval() has its own __FILE__, since it is executed in a sandboxed and temporary area.
 

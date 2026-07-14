@@ -21,9 +21,25 @@ Bitwise Operations On String
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/bit_operation_on_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/bit_operation_on_string.html","name":"Bitwise Operations On String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:37 +0000","dateModified":"Thu, 02 Apr 2026 05:33:37 +0000","description":"The bit operators ``&``, ``|`` and ``^`` work on integers, and use the numbers as a bitfield: each bit in the numbers are compared with the operator, and set accordingly in the result","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/bit_operation_on_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/bit_operation_on_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/bit_operation_on_string.html","name":"Bitwise Operations On String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:49 +0000","dateModified":"Tue, 14 Jul 2026 14:30:49 +0000","description":"The bit operators ``&``, ``|`` and ``^`` work on integers, and use the numbers as a bitfield: each bit in the numbers are compared with the operator, and set accordingly in the result","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/bit_operation_on_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/bit_operation_on_string.png
+.. code-block:: php
+
+   <?php
+   
+   
+   var_dump( 1 & 3);      // 1
+   
+   var_dump( "b" & "a");  // `
+   var_dump( chr(ord("b") & ord("a")));
+   
+   var_dump( "1" & "a");  // ! 
+   // type error
+   //var_dump( 1 & "a");
+   
+   var_dump( "1" & "4"); // 0
+   var_dump( chr(ord("1") & ord("4")));  // 0
+
 
 The bit operators ``&``, ``|`` and ``^`` work on integers, and use the numbers as a bitfield: each bit in the numbers are compared with the operator, and set accordingly in the result.
 

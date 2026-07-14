@@ -17,5 +17,7 @@
     "3v4l": {
         "invoke on new": "https:\/\/3v4l.org\/7G8C7"
     },
+    "code": "<?php\n\nclass x {\n    function __construct($i = 0) { echo __METHOD__.PHP_EOL;}\n    \n    function __invoke()          { echo __METHOD__.PHP_EOL;}\n}\n\n$x = new x;\n\n$y = new $x()();\n\/\/ identical to \n\/\/$y = (new $x(0)) ()\n\nvar_dump($y);\n\/\/ NULL \n\n?>",
+
     "phpError": {}
 }

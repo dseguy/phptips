@@ -14,6 +14,8 @@
     "3v4l": {
         "Create variables with a closure": "https://3v4l.org/Z5jgo"
     },
+    "code": "<?php\n\n$f = function () use (&$a) { $a = [1]; };\nvar_dump($a);\n\n$x = new class ($c) { function __construct(&$d) { $d = []; } };\nvar_dump($c);",
+
     "phpError": {},
     "features": ["variable", "closure"]
 }

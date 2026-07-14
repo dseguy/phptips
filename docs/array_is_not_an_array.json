@@ -12,8 +12,13 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["array", "namespace"],
-    "3v4l": {"Array is not an array message":"https://3v4l.org/q4nrY"},
-    "phpError":{    }
+    "features": [
+        "array",
+        "namespace"
+    ],
+    "3v4l": {
+        "Array is not an array message": "https://3v4l.org/q4nrY"
+    },
+    "phpError": {},
+    "code": "<?php\n\nfunction foo(\\array $a) {}\n\nfoo([]);\n\n// Fatal error: Uncaught TypeError: foo(): \n// Argument #1 ($a) must be of type array, array given\n\n?>"
 }
-

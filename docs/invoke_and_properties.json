@@ -17,5 +17,7 @@
         "property",
         "magic-method"
     ],
+    "code": "<?php\n\nclass x {\n    private X $y;\n    \n    function __invoke() { echo __METHOD__;}\n    \n    function foo() {\n        $this->y = new X;\n        $this->y();\n        \/\/ better this way\n        ($this->y)();\n    }\n}\n\n(new X)->foo();",
+
     "phpError": {}
 }

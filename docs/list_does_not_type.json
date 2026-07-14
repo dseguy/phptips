@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["list", "iterator_to_array"],
     "3v4l": {"list() with all sorts of types":"https://3v4l.org/SkKon"},
+    "code": "<?php\n\nlist($a) = null;\nlist($a) = 1;\nlist($a) = 'a';\nlist($a) = 1.2;\n\nfunction foo() { yield 3; }\n\/\/ syntax error\n\/\/list($a) = ...foo();\nlist($a) = iterator_to_array(foo());\n\n\/\/ fatal error\n\/\/list($a) = (object) ['a' => 1];\n\n\/\/Undefined array key 0\nlist($a) = [];",
+
     "phpError":{}
 }

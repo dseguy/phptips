@@ -12,6 +12,8 @@
     "3v4l": {
         "strings and magic":"https://3v4l.org/O8SYj"
     },
+    "code": "<?php\n\n$a = '1';\n$a[1] = 2;\n$a[10] = 3;\n$a[-9] = 4;\n\nprint $a;\n\/\/ 124       3",
+
     "phpError": {},
     "features": [
         "string",

@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["trait", "parent", "const", "relaxed-syntax"],
     "3v4l": {"::parent operator":"https://3v4l.org/4s7KM"},
+    "code": "<?php\n\ntrait t {\n    const parent = parent::class;\n    const grandparent = self::parent::class;\n}\n\nclass x {\n    use t;  \/\/ valid but just don't even think about using x::parent, \n}\n\nclass y extends x {\n    use t;\n}\n\nclass z extends y {\n}\n\necho y::parent; \/\/ x\necho z::parent; \/\/ y",
+
     "phpError": {"(expression)::class cannot be used in constant expressions":"(expression)::class-cannot-be-used-in-constant-expressions"}
 }

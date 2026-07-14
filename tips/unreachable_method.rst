@@ -21,9 +21,38 @@ The Unreachable Method
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unreachable_method.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unreachable_method.html","name":"The Unreachable Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 20:09:27 +0000","dateModified":"Tue, 30 Jun 2026 20:09:27 +0000","description":"How can one call the A::foo() method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unreachable_method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unreachable_method.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unreachable_method.html","name":"The Unreachable Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:53 +0000","dateModified":"Tue, 14 Jul 2026 14:33:53 +0000","description":"How can one call the A::foo() method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unreachable_method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/unreachable_method.png
+.. code-block:: php
+
+   <?php
+   
+   abstract class A {
+       private function foo() {
+           print __CLASS__;
+       }
+   }
+   
+   abstract class B extends A {
+       public function foo() {
+           print __CLASS__;
+       }
+   }
+   
+   class C extends B {
+       public function foo() {
+           print __CLASS__;
+       }
+       
+       public function goo() {
+           parent::foo();
+           a::foo();
+       }
+   }
+   
+   ($c = new C)->foo();
+   $c->goo();
+
 
 How can one call the A::foo() method? A::foo() is public, but it is also part of an abstract class. It is not possible to call it directly, as no such object may be created.
 

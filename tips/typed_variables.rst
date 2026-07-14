@@ -21,9 +21,32 @@ Typed Variables
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html","name":"Typed Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"A local variable cannot be typed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html","name":"Typed Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:48 +0000","dateModified":"Tue, 14 Jul 2026 14:33:48 +0000","description":"A local variable cannot be typed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed_variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/typed_variables.png
+.. code-block:: php
+
+   <?php
+   
+   class X {
+       public static int $int = 1;
+       public string $string = 'abc';
+   }
+   
+   
+   function foo() {
+       $foo = new X();
+       $varString = &$foo->string;
+       $varString = [];
+       //Cannot assign array to reference held by property X::$string of type string 
+   
+   
+       $varInt = &X::$int;
+       $varInt = 'abc';
+       //Cannot assign string to reference held by property X::$int of type int
+   }
+   
+   foo();
+
 
 A local variable cannot be typed.
 

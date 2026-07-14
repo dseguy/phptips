@@ -21,9 +21,29 @@ preg_split() Magic
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/preg_split.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/preg_split.html","name":"preg_split() Magic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:36 +0000","dateModified":"Thu, 02 Apr 2026 05:33:36 +0000","description":"Most of the time, explode() is sufficient to split a string with a static separator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/preg_split.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/preg_split.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/preg_split.html","name":"preg_split() Magic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:34:58 +0000","dateModified":"Tue, 14 Jul 2026 14:34:58 +0000","description":"Most of the time, explode() is sufficient to split a string with a static separator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/preg_split.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/preg_split.png
+.. code-block:: php
+
+   <?php
+   
+   $sentence = 'hypertext language, programming';
+   
+   $keywords = preg_split('/[\s,]+/', $sentence);
+   // ['hypertext', 'language', 'programming']
+   
+   $separators = preg_split('/([\s,]+)/', $sentence, flags: PREG_SPLIT_DELIM_CAPTURE);
+   // ['hypertext', ' ', 'language', ', ', 'programming']
+   
+   $separator2s = preg_split('/([\s,])([\s]*)/', $sentence, flags: PREG_SPLIT_DELIM_CAPTURE);
+   // ['hypertext', ' ', '', 'language', ',', ' ', 'programming']
+   
+   $words = explode(' ', $sentence);
+   // ['hypertext', 'language,', 'programming']
+   // comma is still collected
+   
+   ?>
+
 
 Most of the time, explode() is sufficient to split a string with a static separator. Otherwise, there is preg_split().
 

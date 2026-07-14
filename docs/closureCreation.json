@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["closure", "arrow-function", "callable", "array-callable"],
     "3v4l": {"Potato, potato, potato...":"https://3v4l.org/tRUT3"},
+    "code": "<?php\n\nclass x {\n   \/*    \n    function foo() {\n        echo __METHOD__.PHP_EOL;\n    }\n    *\/\n}\n\n$object = new x();\n$method = 'foo';\n\n$callable = [$object, $method];\n\/\/$callable(1); \/\/ Call to undefined method stdClass::foo()\n\n\/\/ No check until execution\n$closure = fn (...$args) => $object->$method(...$args);\n\/\/$closure(1); \/\/ Call to undefined method stdClass::foo()\n\n\/\/Call to undefined method stdClass::foo()\n$closure = [$object, $method](...);\n\n\/\/Failed to create closure from callable: class stdClass does not have a method \"foo\" \nClosure::fromCallable([$object, $method]);",
+
     "phpError": {}
 }

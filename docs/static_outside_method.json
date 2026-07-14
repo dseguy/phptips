@@ -12,6 +12,8 @@
     "3v4l": {
         "Static Variable Outside A Method": "https://3v4l.org/2jjV7"
     },
+    "code": "<?php\n\n\nnamespace x {\n    foreach([1,2] as $i) {\n        static $s = 0;\n        \n        print $s + $i;\n        ++$s;\n    }\n    \n}\n\n\/\/ 13\n\n?>",
+
     "phpError": {},
     "features": ["static-variable", "method", "scope"],
     "author": "",

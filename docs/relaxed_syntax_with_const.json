@@ -14,6 +14,8 @@
     "author": "",
     "contact": "",
     "3v4l":{"Relaxed syntax with const":"https://3v4l.org/fiaHc"},
+    "code": "<?php\n\nclass x {\n    const array = [];\n    const int   = 2;\n}\n\nprint_r(x::array);\necho x::int;\necho x::class;\n\n?>",
+
     "phpError":{},
     "features":["const", "relaxed-syntax"]
 }

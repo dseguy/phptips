@@ -14,6 +14,8 @@
     "3v4l": {
         "Default values on Property Hooks":"https://3v4l.org/t80RS#v8.4.15"
     },
+    "code": "<?php declare(strict_types = 1);\n\nclass Example1\n{\n    public string $foo = 'UPPERCASE' {\n        set => strtolower($value);\n    }\n}\n\nclass Example2\n{\n    public function __construct(\n        public string $foo = 'UPPERCASE' {\n            set => strtolower($value);\n        }\n    ) {\n    }\n}\n\necho new Example1()->foo;\necho new Example2()->foo;",
+
     "phpError": {},
     "features": ["property-hook", "default"]
 }

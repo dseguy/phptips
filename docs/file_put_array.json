@@ -15,6 +15,8 @@
     "3v4l": {
         "implode, no space": "https://3v4l.org/sBflr"
     },
+    "code": "<?php\n\nfile_put_contents('\/path\/to\/file.txt', [1,2,3]);\n\nprint file_get_contents('\/path\/to\/file.txt');\n\/\/ print 123",
+
     "phpError": {},
     "features": ["implode", "file_put_contents"]
 }

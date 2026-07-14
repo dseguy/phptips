@@ -11,7 +11,15 @@
     ],
     "author": "",
     "contact": "",
-    "features": ["namespace", "keyword"],
-    "phpError":{"Cannot use 'namespace' as namespace name":"cannot-use-'namespace'-as-namespace-name"},
-    "3v4l": {"namespace in a namespace":"https://3v4l.org/gQie5"}
+    "features": [
+        "namespace",
+        "keyword"
+    ],
+    "phpError": {
+        "Cannot use 'namespace' as namespace name": "cannot-use-'namespace'-as-namespace-name"
+    },
+    "3v4l": {
+        "namespace in a namespace": "https://3v4l.org/gQie5"
+    },
+    "code": "<?php\n\n// Not allowed\nnamespace namespace {}\n\n//syntax error, unexpected namespace-relative name \"namespace\\A\", expecting \"{\" \nnamespace namespace\\A {}\n\n// namespace may be used, but not in first position\n// surely, not a good idea\nnamespace A\\namespace {\n    const B = 1;\n}\n\nnamespace A {\n    echo namespace\\namespace\\B;\n}\n\n?>"
 }

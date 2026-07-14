@@ -15,6 +15,8 @@
     "3v4l": {
         "Typed in interface, not available": "https://3v4l.org/ea7eA"
     },
+    "code": "<?php\n\nclass x implements y {\n    function foo(): bool {\n        throw new exception('Ah!');\n    }\n}\n\ninterface y {\n    function foo(): bool;\n}\n\n?>",
+
     "phpError": {},
     "features": ["type", "return-type", "never"]
 }

@@ -14,5 +14,7 @@
     "author": "",
     "contact": "",
     "3v4l":{"strict types exceptions":"https://3v4l.org/R6XVR"},
+    "code": "<?php declare(strict_types = 1);\n\nclass x {\n  function __toString() : string {\n    return \"abc\";\n  }\n}\n\n$x = new x;\nprint $x . \" and $x\n\";\n\nprint $x;\necho $x;\necho PHP_EOL;\n\nprint implode(', ', [$x, $x]);\nprint implode($x, [1, 2]);\n\n?>",
+
     "phpError":{}
 }

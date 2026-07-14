@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["static", "method"], 
     "3v4l":{"cannot call static":"https://3v4l.org/C8gAO"}, 
+    "code": "<?php\n\nclass X {\n    static function foo() {\n        self::goo();\n    }\n    \n    function goo() {    }\n}\n\n(new x)->foo();",
+ 
     "phpError": {}
 }

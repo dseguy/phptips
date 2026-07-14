@@ -12,6 +12,8 @@
     "contact": "",
     "features": ["index-array", "float"],
     "3v4l": {"Storing float as keys":"https://3v4l.org/dvHg8"},
+    "code": "<?php\n\n$array  = [1 => 0,\n           \/\/ Implicit conversion from float 1.2 to int loses precision\n           1.2 => 1,\n           \/\/ as string, it fits!\n           '1.1' => 2,\n          ];",
+
     "phpError":{    }
 }
 

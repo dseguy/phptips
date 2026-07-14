@@ -21,11 +21,41 @@ Hypotenuse In Action
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/hypot.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/hypot.html","name":"Hypotenuse In Action","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 17:55:30 +0000","dateModified":"Fri, 01 May 2026 17:55:30 +0000","description":"PHP has a built-in Euclidean distance function, if you need to calculate a distance!","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/hypot.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/hypot.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/hypot.html","name":"Hypotenuse In Action","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:53 +0000","dateModified":"Tue, 14 Jul 2026 14:31:53 +0000","description":"PHP has a built-in Euclidean distance function, if you need to calculate a distance!","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/hypot.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Alexandre Daubois <https://x.com/alexdaubois>`_
 
-.. image:: ../images/hypot.png
+.. code-block:: php
+
+   <?php
+   
+   // distance between two 2D points
+   $x1 = 3; $y1 = 4;
+   $x2 = 7; $y2 = 1;
+   
+   $dist = hypot($x2 - $x1, $y2 - $y1); // 5.0
+   
+   // why not just sqrt(($dx)**2 + ($dy)**2)?
+   // because hypot() avoids intermediate overflow
+   
+   // QUICK TIP STRAIGHT FROM GAME DEV: sometimes you only want to *compare* distances, and
+   // square root is SLOW
+   // in this case, just compare squared values, it's equivalent!
+   $dx1 = $x2 - $x1;
+   $dy1 = $y2 - $y1;
+   $dist1Sq = $dx1 * $dx1 + $dy1 * $dy1;
+   
+   // some other points in space...
+   $dist2Sq = $dx2 * $dx2 + $dy2 * $dy2;
+   
+   if ($dist1Sq < $dist2Sq) { // squared value compared, way faster without square root!
+       echo "Point 2 is closer to Point 1
+   ";
+   } else {
+       echo "Point 3 is closer to Point 1
+   ";
+   }
+
 
 PHP has a built-in Euclidean distance function, if you need to calculate a distance!
 

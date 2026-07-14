@@ -21,11 +21,39 @@ Quick DTO Or VO Copy
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html","name":"Quick DTO Or VO Copy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 07:43:26 +0000","dateModified":"Fri, 29 May 2026 07:43:26 +0000","description":"A small PHP trick, combining named parameters, spread and union arrays operators to ``easily`` create a modified copy of a DTO: ``https:\/\/3v4l","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html","name":"Quick DTO Or VO Copy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:06 +0000","dateModified":"Tue, 14 Jul 2026 14:33:06 +0000","description":"A small PHP trick, combining named parameters, spread and union arrays operators to ``easily`` create a modified copy of a DTO: ``https:\/\/3v4l","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/quick-dto.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Benoit Viguier <https://phpc.social/@b_viguier>`_
 
-.. image:: ../images/quick-dto.png
+.. code-block:: php
+
+   <?php
+   
+   class DTO {
+       public function __construct(
+           public int $a,
+           public int $b,
+           public int $c,
+           public int $d,
+           public int $e,
+           public int $f,
+       ) {}
+   }
+   
+   $dto = new DTO(1, 2, 3, 4, 5, 6);
+   var_dump($dto);
+   
+   // #PHP 8.2+, with named parameters in arrays
+   $copy = new DTO(...(['d' => 42] + get_object_vars($dto)));
+   var_dump($copy);
+   
+   // #PHP 8.0–1+, with unnamed parameters in arrays
+   $copy2 = new 
+   DTO(...array_values(array_merge(get_object_vars($dto), ['d' => 42])));
+   var_dump($copy2);
+   
+   // #PHP 7.4– : not supported
+
 
 A small PHP trick, combining named parameters, spread and union arrays operators to ``easily`` create a modified copy of a DTO: ``https://3v4l.org/ZWX5G#v8.2.10``
 

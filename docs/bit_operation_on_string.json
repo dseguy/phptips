@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["bitwise-operator", "string", "integer"],
     "3v4l": {"& on integers and strings":"https://3v4l.org/Kkepg"},
+    "code": "<?php\n\n\nvar_dump( 1 & 3);      \/\/ 1\n\nvar_dump( \"b\" & \"a\");  \/\/ `\nvar_dump( chr(ord(\"b\") & ord(\"a\")));\n\nvar_dump( \"1\" & \"a\");  \/\/ ! \n\/\/ type error\n\/\/var_dump( 1 & \"a\");\n\nvar_dump( \"1\" & \"4\"); \/\/ 0\nvar_dump( chr(ord(\"1\") & ord(\"4\")));  \/\/ 0",
+
     "phpError":{"Unsupported operand types: int & string":"unsupported-operand-types:-%s-%s-%s"}
 }

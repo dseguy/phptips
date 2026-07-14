@@ -21,9 +21,22 @@ Cannot Static Static Property
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_static_property.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_static_property.html","name":"Cannot Static Static Property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:39 +0000","dateModified":"Thu, 02 Apr 2026 05:33:39 +0000","description":"Static can be used as a keyword to mark a property as ``static`` (sic)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_static_property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_static_property.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_static_property.html","name":"Cannot Static Static Property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:36 +0000","dateModified":"Tue, 14 Jul 2026 14:33:36 +0000","description":"Static can be used as a keyword to mark a property as ``static`` (sic)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_static_property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/static_static_property.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       // the way to go is self
+       static private self $property1;
+       
+       // tough luck not possible
+       static private static $property2;
+       
+   }
+   ?>
+
 
 Static can be used as a keyword to mark a property as ``static`` (sic). It could also be used as a type for that same property, leading to those confusing lines below.
 

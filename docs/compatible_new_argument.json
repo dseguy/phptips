@@ -14,5 +14,7 @@
     "contact": "https://bsky.app/profile/jerome.tamarelle.net",
     "features": ["compatibility", "method-compatibility", "version"],
     "3v4l": {"Example code":"https://3v4l.org/g3htG"},
+    "code": "<?php\n\nclass X \n{\n    \/**\n     * @param int $nbToken\n     * \n     * @pslam-param int<1, max> $nbToken\n     *\/\n     public function mark(string $place, \/*, int, $nbToken = 1 *\/): void \n     {\n         $nbToken = 1 < \func_num_args() ? func_get_arg(1) : 1;\n     }\n \n}",
+
     "phpError":{}
 }

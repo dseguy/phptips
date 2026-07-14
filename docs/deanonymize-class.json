@@ -14,6 +14,8 @@
     "3v4l": {
         "Give a name to a class": "https://3v4l.org/MLrBX"
     },
+    "code": "<?php\n\n$x = new class() {\n    function __construct() {\n        echo __METHOD__.PHP_EOL;\n    }\n}\n\nclass_alias($x::class, B::class);\n\nnew B();",
+
     "phpError": {},
     "features": [        
         "anonymous-class",

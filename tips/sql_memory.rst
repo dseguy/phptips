@@ -21,9 +21,31 @@ SQL In Memory
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sql_memory.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sql_memory.html","name":"SQL In Memory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 17:31:05 +0000","dateModified":"Fri, 03 Jul 2026 17:31:05 +0000","description":"There is no need to set up a whole SQL server to run queries","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sql_memory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sql_memory.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sql_memory.html","name":"SQL In Memory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:30 +0000","dateModified":"Tue, 14 Jul 2026 14:33:30 +0000","description":"There is no need to set up a whole SQL server to run queries","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/sql_memory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/sql_memory.png
+.. code-block:: php
+
+   <?php
+   // Create an in-memory SQLite database
+   $db = new PDO('sqlite::memory:', null, null, [
+       PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
+   ]);
+   
+   $count = 10;
+   
+   // Measure time to insert $count integers
+   $startInsert = microtime(true);
+   $db->exec("CREATE TABLE numbers (id INTEGER PRIMARY KEY AUTOINCREMENT, value INTEGER NOT NULL)");
+   
+   for ($i = 1; $i <= $count; $i++) {
+       $db->exec("INSERT INTO numbers (value) VALUES ($i)");
+   }
+   $insertTime = microtime(true) - $startInsert;
+   
+   $stmt = $db->query("SELECT sum(id) FROM numbers");
+   $records = $stmt->fetchAll(PDO::FETCH_COLUMN);
+   print_r($records); // 55
+
 
 There is no need to set up a whole SQL server to run queries. When the dataset is small enough, but the processing is complex enough, it may be worth starting a SQLITE database in PHP memory, and run the queries there.
 

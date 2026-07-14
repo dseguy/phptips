@@ -18,6 +18,8 @@
     "author": "",
     "contact": "",
     "3v4l":{"converting and back":"https://3v4l.org/H5Yk3"},
+    "code": "<?php\n\n$number = 0x12A;\n\n$string = '0x12A';\n\n\/\/ direct decoding\necho hexdec($string);\n\n\/\/ the reverse way\n$newString = '0x'.dechex($number);\n\n?>",
+
     "phpError":{},
     "features":[        
         "integer",

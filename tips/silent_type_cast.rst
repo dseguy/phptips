@@ -21,9 +21,23 @@ Silent Type Cast
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/silent_type_cast.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/silent_type_cast.html","name":"Silent Type Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 16:08:11 +0000","dateModified":"Fri, 29 May 2026 16:08:11 +0000","description":"An integer is a float, but the opposite is not always true","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/silent_type_cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/silent_type_cast.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/silent_type_cast.html","name":"Silent Type Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:27 +0000","dateModified":"Tue, 14 Jul 2026 14:33:27 +0000","description":"An integer is a float, but the opposite is not always true","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/silent_type_cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/silent_type_cast.png
+.. code-block:: php
+
+   <?php
+   
+   //declare(strict_types=1);
+   
+   function foo(float $x): int {
+       var_dump($x);
+       
+       return $x;
+   }
+   
+   var_dump(foo(1));
+   //var_dump(foo(1.1));
+
 
 An integer is a float, but the opposite is not always true. For PHP, pushing an integer in a function that types ``float`` its argument, makes that integer an float. The reverse conversion from float to integer is also possible, at return time. This happens when strict_types is not activated, and when the float has no decimal part, as is the case here.
 

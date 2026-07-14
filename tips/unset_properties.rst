@@ -21,9 +21,30 @@ Unsetting Properties Surprises
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unset_properties.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unset_properties.html","name":"Unsetting Properties Surprises","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:33 +0000","dateModified":"Thu, 02 Apr 2026 05:33:33 +0000","description":"Unsetting properties is always a surprise","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unset_properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unset_properties.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unset_properties.html","name":"Unsetting Properties Surprises","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:54 +0000","dateModified":"Tue, 14 Jul 2026 14:33:54 +0000","description":"Unsetting properties is always a surprise","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unset_properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/unset_properties.png
+.. code-block:: php
+
+   <?php
+   
+   class X {
+       public $a;
+       public ?int $b = 1;
+       
+       function clean() {
+           unset($this->a);
+           unset($this->b);
+       }
+   }
+   
+   $x = new X;
+   $x->clean();
+   
+   var_dump($x->a);
+   var_dump($x->b);
+   
+   ?>
+
 
 Unsetting properties is always a surprise.
 

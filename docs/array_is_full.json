@@ -14,6 +14,8 @@
     ],
     "author": "",
     "contact": "",
+    "code": "<?php\n\n$array = [PHP_INT_MAX => 1];\n$array[] = 2;\n\n\/\/ Cannot add element to the array as the next element is already occupied",
+
     "phpError":{},
     "3v4l":{"array is full":"https://3v4l.org/aN7pP"},
     "features":["array", "index-array", "php_int_max"]

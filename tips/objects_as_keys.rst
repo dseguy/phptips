@@ -21,9 +21,43 @@ Objects As Keys In Foreach
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/objects_as_keys.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/objects_as_keys.html","name":"Objects As Keys In Foreach","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 16:26:12 +0000","dateModified":"Fri, 29 May 2026 16:26:12 +0000","description":"foreach() usually works on arrays, where the keys are either integer or strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/objects_as_keys.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/objects_as_keys.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/objects_as_keys.html","name":"Objects As Keys In Foreach","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:51:55 +0000","dateModified":"Tue, 14 Jul 2026 14:51:55 +0000","description":"foreach() usually works on arrays, where the keys are either integer or strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/objects_as_keys.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/objects_as_keys.png
+.. code-block:: php
+
+   <?php
+   
+   // Weakmaps accepts objects and arrays as keys
+   $source = new Weakmap();
+   $key = (object) ['a' => 2];
+   $source[$key] = 1;
+   
+   // Yield may emit objects and arrays as keys
+   $source = function () {
+       yield (object) ['a' => 3] => 1;
+   };
+   // This is just for illustration
+   $source = $source();
+   
+   // An iterator may return objects and arrays as keys(mixed, in fact)
+   class myIterator implements Iterator {
+       private int $position = 0;
+   
+       public function rewind(): void { $this->position = 0; }
+       public function current(): mixed { return 1; }
+       public function key(): mixed {
+           return (object) ['a' => 4];
+       }
+       public function next(): void { ++$this->position; }
+       public function valid(): bool { return $this->position == 0; }
+   }
+   $source = new myIterator();
+   
+   foreach($source as $key => $value) {
+       print get_class($key); // Stdclass
+       print $value;        // 1
+   }
+
 
 foreach() usually works on arrays, where the keys are either integer or strings. Not null, boolean anymore, but, more importantly, no array or objects. Yet, there are three solutions to make an object appear as the key, instead of the value (or also as the value).
 

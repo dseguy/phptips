@@ -15,6 +15,8 @@
     "3v4l": {
         "this function never returns": "https:\/\/3v4l.org\/X3KJH"
     },
+    "code": "<?php\n\nfunction naturalIntegers() {\n    $i = 0;\n    while (true) {\n        yield $i++;\n    }\n}\n\nforeach(naturalIntegers() as $i) {\n    if ($i > 10) {\n        break;\n    }\n    print $i.PHP_EOL;\n}\n\nprint \"finished\n\";",
+
     "phpError": {},
     "features": [
         "infinite",

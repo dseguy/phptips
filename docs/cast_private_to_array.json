@@ -13,5 +13,7 @@
     "contact": "https://phpc.social/@paulshryock",
     "features": ["cast", "visibility", "private", "debug"],
     "3v4l": {"Casting private properties":"https://3v4l.org/AfOPT"},
+    "code": "<?php\n\nclass MyClass {\n    private $hi = 'Hi';\n    protected $hello = 'Hello';\n    public $goodday = 'Goodday';\n}\n\n$thing = new MyClass();\nprint json_encode($thing); \/\/ {\"goodday\":\"Goodday\"}\n\nprint json_encode((array) $thing); \n\/\/ {\"\u0000MyClass\u0000hi\":\"Hi\",\"\u0000*\u0000hello\":\"Hello\",\"goodday\":\"Goodday\"}",
+
     "phpError": {}
 }

@@ -21,9 +21,22 @@ Riddle: ``$this<-code``
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/make_it_work.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/make_it_work.html","name":"Riddle: $this<-code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 07:43:38 +0000","dateModified":"Fri, 29 May 2026 07:43:38 +0000","description":"Can you make this code work","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/make_it_work.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/make_it_work.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/make_it_work.html","name":"Riddle: $this<-code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:16 +0000","dateModified":"Tue, 14 Jul 2026 14:32:16 +0000","description":"Can you make this code work","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/make_it_work.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/make_it_work.png
+.. code-block:: php
+
+   <?php
+   
+   class X {
+       private array $code = [];
+   
+       function foo() {
+           return (string) $this<-code; 
+       }   
+   }
+   
+   var_dump((new x)->foo());
+
 
 Can you make this code work?
 

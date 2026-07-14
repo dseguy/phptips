@@ -12,6 +12,8 @@
     "3v4l": {
         "Multiple same alias": "https://3v4l.org/Is251"
     },
+    "code": "<?php\n\ntrait t {\n    function foo() {\n        echo __METHOD__.PHP_EOL;\n    }\n}\n\nclass x {\n    use t {\n        foo as goo;\n        foo as ioo;\n    }\n}\n\n(new x)->foo(); \/\/ t::foo\n(new x)->goo(); \/\/ t::foo\n(new x)->ioo(); \/\/ t::foo",
+
     "phpError": {},
     "features": [
         "trait",

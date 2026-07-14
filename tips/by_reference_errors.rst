@@ -21,9 +21,27 @@ By Reference, Error Or Notice?
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/by_reference_errors.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/by_reference_errors.html","name":"By Reference, Error Or Notice?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:34 +0000","dateModified":"Thu, 02 Apr 2026 05:33:34 +0000","description":"Passing a literal by reference to a method causes a Fatal error, while returning a literal by reference only triggers a Notice","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/by_reference_errors.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/by_reference_errors.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/by_reference_errors.html","name":"By Reference, Error Or Notice?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:50 +0000","dateModified":"Tue, 14 Jul 2026 14:30:50 +0000","description":"Passing a literal by reference to a method causes a Fatal error, while returning a literal by reference only triggers a Notice","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/by_reference_errors.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/by_reference_errors.png
+.. code-block:: php
+
+   <?php
+   
+   const A = 1;
+   
+   function &foo(&$a) {
+       return [];
+   }
+   
+   $a = 1;
+   $a = foo($a);
+   // Notice: Only variable references should be returned by reference
+   
+   foo(1);
+   // Fatal error: Uncaught Error: foo(): Argument #1 ($a) cannot be passed by reference
+   
+   ?>
+
 
 Passing a literal by reference to a method causes a Fatal error, while returning a literal by reference only triggers a Notice. This difference in error level is puzzling, given how similar the operations are. It raises the question: why does one completely halt execution, while the other merely issues a warning and continues running?
 

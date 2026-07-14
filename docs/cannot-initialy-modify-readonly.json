@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["readonly", "reference"],
     "3v4l": {"Sneaky readonly":"https://3v4l.org/jNtaT"},
+    "code": "<?php\n\nclass X {\n    readonly public string $property;\n\n    public function __construct() {\n        $this->property = 1;\n    }\n}\n\n$object = new x();\n$reference =& $object->property;\n\/\/Cannot modify readonly property X::$property \n\nclass Y {\n    readonly public string $property;\n\n    public function __construct(&$a) {\n        \/\/ first time assignation\n        $this->property = &$a;\n        \/\/Cannot modify readonly property X::$property \n    }\n}\n\n$a = 'A';\n$object = new Y($a);",
+
     "phpError":{"Cannot indirectly modify readonly property %s::$%s":"cannot-indirectly-modify-readonly-property-%s::$%s"}
 }

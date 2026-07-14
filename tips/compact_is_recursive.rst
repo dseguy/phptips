@@ -21,9 +21,22 @@ compact() Is Recursive
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compact_is_recursive.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compact_is_recursive.html","name":"compact() Is Recursive","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:37 +0000","dateModified":"Thu, 02 Apr 2026 05:33:37 +0000","description":"``compact()`` accepts an array of strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compact_is_recursive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compact_is_recursive.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compact_is_recursive.html","name":"compact() Is Recursive","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:13 +0000","dateModified":"Tue, 14 Jul 2026 14:31:13 +0000","description":"``compact()`` accepts an array of strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compact_is_recursive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/compact_is_recursive.png
+.. code-block:: php
+
+   <?php
+   
+   $a = ['b', ["c"]];
+   $a = ['b', [[[["c"]]]]];
+   $b = 1;
+   $c = 2;
+   
+   $d = compact($a);
+   print_r($d);
+   
+   ?>
+
 
 ``compact()`` accepts an array of strings... and arrays. It uses the available arguments recursively, yet produces an array with only one level: the deep nesting is lots at compacting type.
 

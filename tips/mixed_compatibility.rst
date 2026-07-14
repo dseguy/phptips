@@ -21,9 +21,31 @@ Mixed Compatibility
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_compatibility.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_compatibility.html","name":"Mixed Compatibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 14:39:58 +0000","dateModified":"Thu, 09 Apr 2026 14:39:58 +0000","description":"Method compatibility means that eponymous methods must have the same number of arguments, and compatible types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_compatibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_compatibility.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_compatibility.html","name":"Mixed Compatibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:24 +0000","dateModified":"Tue, 14 Jul 2026 14:32:24 +0000","description":"Method compatibility means that eponymous methods must have the same number of arguments, and compatible types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_compatibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/mixed_compatibility.png
+.. code-block:: php
+
+   <?php
+   
+   class x           { function foo(int $a, int ...$args) {} }
+   class y extends x { function foo(        int ...$args) {} }  // OK! 
+   //class z extends x { function foo(int $a, int $b, int ...$args) {} } // KO 
+   
+   class x2            { function foo() {} }
+   class y2 extends x2 { function foo(mixed ...$args) {} }  // OK! 
+   //class y22 extends x2 { function foo(mixed $a, mixed ...$args) {} }  // KO
+   
+   class x4            { function foo($a, $b) {} }
+   class y4 extends x4 { function foo($b, $c, $d) {} }  // OK! 
+   //class y22 extends x2 { function foo(mixed $a, mixed ...$args) {} }  // KO
+   
+   class x3            { function foo(mixed ...$args) {} }
+   //class y3 extends x3 { function foo() {} }  // KO
+   //class y32 extends x3 { function foo(mixed $a) {} }  // KOx
+   
+   class x4            { function foo(int $a, int $b) {} }
+   class y4 extends x4 { function foo(int $b, int $a) {} }  // KO
+
 
 Method compatibility means that eponymous methods must have the same number of arguments, and compatible types.
 

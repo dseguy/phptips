@@ -4,7 +4,7 @@
     "title": "The Namespace Stack",
     "content": "This is a reminder that namespaces are not nested, but are merely prefixes. Hence, there is the current namespace, and the global one for the occasional fallback, but nothing in between. Namespaces are not folders, even when they are stored as such.",
     "seeAlso": {
-        "Namespace (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.namespaces.php"
+        "Namespace (PHP manual)": "https://www.php.net/manual/en/language.namespaces.php"
     },
     "tags": [
         "surprise"
@@ -15,5 +15,9 @@
         "Namespace is local or global": "https://3v4l.org/FekcH"
     },
     "phpError": {},
-    "features": ["namespace", "subnamespace"]
+    "features": [
+        "namespace",
+        "subnamespace"
+    ],
+    "code": "<?php\n\nnamespace {\n    const A = 'in \\\\';\n}\n\nnamespace A {\n    const A = 'in A';\n}\n\nnamespace A\\B {\n    const A = 'in A\\\\B';\n}\n\nnamespace A\\B\\C {\n    echo A;\n}"
 }

@@ -21,9 +21,20 @@ Reusing Decimals For Bananas
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/errorNumber.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/errorNumber.html","name":"Reusing Decimals For Bananas","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:38 +0000","dateModified":"Thu, 02 Apr 2026 05:33:38 +0000","description":"Besides decimal numbers such as ``8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/errorNumber.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/errorNumber.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/errorNumber.html","name":"Reusing Decimals For Bananas","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:35 +0000","dateModified":"Tue, 14 Jul 2026 14:31:35 +0000","description":"Besides decimal numbers such as ``8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/errorNumber.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/errorNumber.png
+.. code-block:: php
+
+   <?php
+   
+   echo 'BA', sqrt(-1), 'A', PHP_EOL;
+   
+   echo 'DIS', exp(1000), 'ECTION', PHP_EOL;
+   
+   echo 'ANTI', log(0), 'LAMMATORY', PHP_EOL;
+   
+   echo 'dis', strtolower(@implode('', [[]])), 'ment', PHP_EOL;
+
 
 Besides decimal numbers such as ``8.53`` or ``3.141592654``, PHP has 2 extra decimal numbers: ``INF``, for infinity and ``NAN`` for not a number. Both of them default to the eponymous string, when displayed. This might be useful.
 

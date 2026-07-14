@@ -14,6 +14,8 @@
     "author": "Brent Roose",
     "contact": "https://twitter.com/brendt_gd",
     "3v4l":{"method function":"https://3v4l.org/8Y6m7"},
+    "code": "<?php\n\nclass x {\n    function function() {\n        echo __METHOD__;\n    }\n}\n\n(new x)->function();\n\/\/ x::function\n\n?>",
+
     "phpError": {},
     "features": ["function", "name"]
 }

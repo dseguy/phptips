@@ -11,6 +11,8 @@
     ],
     "author": "",
     "contact": "",
+    "code": "<?php\n\n$array = array_map(function($a, $b) { return 1; },\n                    range(0, 10),\n                    array_fill(0, 1, 2),\n                    array_fill(0, 100, 3), \/\/ not even used \n);\n\nprint count($array); \/\/ 100\n\n?>",
+
     "phpError":{},
     "3v4l":{"array_map() filling the void":"https://3v4l.org/8VDEa"},
     "features":["array_map", "argumentcounterror"]

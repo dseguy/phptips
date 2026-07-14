@@ -12,6 +12,8 @@
     "3v4l": {
         "Recycling stdclass": "https://3v4l.org/Pnkll"
     },
+    "code": "<?php\n\nvar_dump(new stdclass);\nvar_dump((object) []);\nvar_dump($b = new stdclass());\nvar_dump(new stdclass(3));",
+
     "phpError": {},
     "features": [        
         "class",

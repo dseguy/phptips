@@ -10,6 +10,8 @@
     "3v4l": {
         "When placing the parenthesis is ambiguous": "https://3v4l.org/YN2FK"
     },
+    "code": "<?php\n\n\/\/ suspicious and legit\nif (in_array($a, $b, $c === true)) {}\n\n\/\/ could it be this one? \nif (in_array($a, $b, $c) === true) {}",
+
     "phpError": {},
     "features": [
         "php",

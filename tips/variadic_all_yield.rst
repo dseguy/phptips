@@ -21,9 +21,29 @@ Variadic All The Yields
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html","name":"Variadic All The Yields","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 11:27:07 +0000","dateModified":"Fri, 05 Jun 2026 11:27:07 +0000","description":"The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html","name":"Variadic All The Yields","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:57 +0000","dateModified":"Tue, 14 Jul 2026 14:33:57 +0000","description":"The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/variadic_all_yield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/variadic_all_yield.png
+.. code-block:: php
+
+   <?php
+   
+   function foo() {
+       yield 1;
+       yield 2;
+       yield 3;
+       
+   }
+   
+   function goo($x, $y, $z) {
+       print "$x $y $z
+   ";
+   }
+   
+   goo(...foo());
+   // 1 2 3
+   
+   ?>
+
 
 The ellipsis operator works on generators: it is akin to a foreach() on all the values, or a call to iterator_to_array().
 

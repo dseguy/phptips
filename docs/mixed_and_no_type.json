@@ -14,6 +14,8 @@
     "3v4l": {
         "mixed or not mixed": "https://3v4l.org/biaDm"
     },
+    "code": "<?php\n\nclass x {\n    protected $p;\n    protected mixed $p2;\n}\n\nclass x2 extends x {\n    protected mixed $p;\n    \/\/ type of x2:$p must not be defined (as in class x)\n    \n    protected $p2;\n    \/\/ Type of $x2:$p2 must be mixed\n}",
+
     "phpError": {},
     "features": [	
     "mixed",

@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["htmlentities", "encoding"],
     "3v4l": {"utf8, big5 and xxx":"https://3v4l.org/1vaRr#veol"},
+    "code": "<?php\n\n$string = \"Caf\u00e9 & 'quotes' and \u20ac euro\";\n\n\/\/ ISO-8859-1 mode\nvar_dump( htmlentities($string, ENT_QUOTES, \"big5\"));\n\/\/ empty string\n\nvar_dump( htmlentities($string, ENT_QUOTES, \"xxx\"));\n\/\/ default to utf8\n\/\/ Caf&eacute; &amp; &#039;quotes&#039; and &euro; euro",
+
     "phpError": {"Only basic entities substitution is supported for multi-byte encodings other than UTF-8; functionality is equivalent to htmlspecialchars":"only-basic-entities-substitution-is-supported-for-multi-byte-encodings-other-than-utf-8;-functionality-is-equivalent-to-htmlspecialchars"}
 }

@@ -6,7 +6,6 @@
     "seeAlso": {
         "SensitiveParameter (PHP manual)": "https://www.php.net/manual/en/class.sensitiveparameter.php",
         "SensitiveParameterValue (PHP manual)": "https://www.php.net/manual/en/class.sensitiveparametervalue.php"
-
     },
     "tags": [
         "security"
@@ -17,5 +16,9 @@
         "Hide sensitive parameters": "https://3v4l.org/dEPeZ"
     },
     "phpError": {},
-    "features": ["attribute", "secret"]
+    "features": [
+        "attribute",
+        "secret"
+    ],
+    "code": "<?php\n\nfunction secret($key, #[\\SensitiveParameter] string $key2, $otherKey) {\n    throw new Exception('');\n}\n\n$key = '123';\nprint secret(\n    $key,                              // plain visible\n    $key,                              // hidden by the method\n    new SensitiveParameterValue($key)  // hidden by the caller\n);\n\n?>"
 }

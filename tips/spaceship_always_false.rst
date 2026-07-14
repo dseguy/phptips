@@ -21,11 +21,24 @@ Spaceship Always False
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/spaceship_always_false.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/spaceship_always_false.html","name":"Spaceship Always False","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 15:46:00 +0000","dateModified":"Thu, 09 Apr 2026 15:46:00 +0000","description":"Compare A to B, and A is bigger than B","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/spaceship_always_false.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/spaceship_always_false.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/spaceship_always_false.html","name":"Spaceship Always False","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:29 +0000","dateModified":"Tue, 14 Jul 2026 14:33:29 +0000","description":"Compare A to B, and A is bigger than B","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/spaceship_always_false.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Jerome Tamarelle <https://bsky.app/profile/jerome.tamarelle.net>`_
 
-.. image:: ../images/spaceship_always_false.png
+.. code-block:: php
+
+   <?php
+   
+   class A {}
+   class B {}
+   
+   $a = new A;
+   $b = new B;
+   
+   var_dump($a <=> $b); // 1: A > B
+   var_dump($b <=> $a); // 1: B > A 
+   var_dump($b == $a);  // false
+
 
 Compare A to B, and A is bigger than B.
 

@@ -9,11 +9,21 @@
         "strtok (PHP manual)": "https://www.php.net/manual/en/function.strtok.php"
     },
     "tags": [
-        "feature", "trick"
+        "feature",
+        "trick"
     ],
     "author": "",
     "contact": "",
-    "features": ["preg_split", "explode", "regex"],
-    "3v4l": {"preg_split magic":"https://3v4l.org/32S4H"},
-    "phpError": {"Argument #1 must not be empty":"must-not-be-empty"}
+    "features": [
+        "preg_split",
+        "explode",
+        "regex"
+    ],
+    "3v4l": {
+        "preg_split magic": "https://3v4l.org/32S4H"
+    },
+    "phpError": {
+        "Argument #1 must not be empty": "must-not-be-empty"
+    },
+    "code": "<?php\n\n$sentence = 'hypertext language, programming';\n\n$keywords = preg_split('/[\\s,]+/', $sentence);\n// ['hypertext', 'language', 'programming']\n\n$separators = preg_split('/([\\s,]+)/', $sentence, flags: PREG_SPLIT_DELIM_CAPTURE);\n// ['hypertext', ' ', 'language', ', ', 'programming']\n\n$separator2s = preg_split('/([\\s,])([\\s]*)/', $sentence, flags: PREG_SPLIT_DELIM_CAPTURE);\n// ['hypertext', ' ', '', 'language', ',', ' ', 'programming']\n\n$words = explode(' ', $sentence);\n// ['hypertext', 'language,', 'programming']\n// comma is still collected\n\n?>"
 }

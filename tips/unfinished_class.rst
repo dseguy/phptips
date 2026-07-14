@@ -21,11 +21,22 @@ Unfinished Class Doesn't Compile
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unfinished_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unfinished_class.html","name":"Unfinished Class Doesn't Compile","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:41 +0000","dateModified":"Thu, 02 Apr 2026 05:33:41 +0000","description":"PHP is not able to use a class before it is defined","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unfinished_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unfinished_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unfinished_class.html","name":"Unfinished Class Doesn't Compile","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:51 +0000","dateModified":"Tue, 14 Jul 2026 14:33:51 +0000","description":"PHP is not able to use a class before it is defined","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unfinished_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Jan Nedbal <https://janedbal.cz/>`_
 
-.. image:: ../images/unfinished_class.png
+.. code-block:: php
+
+   <?php
+   
+   // this is FATAL ERROR
+   
+   class A extends B {}
+   
+   class B extends C {}
+   
+   class C {}
+
 
 PHP is not able to use a class before it is defined. Yet, when the second class is simple enough to be entirely defined, it would. When the class is not completely defined, aka it has the extends, implements, or use (for trait) keywords, PHP postpone the finalization of the class to execution phase, and consider it as non-defined.
 

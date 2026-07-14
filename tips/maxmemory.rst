@@ -21,11 +21,35 @@ php://memory And Maxmemory
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/maxmemory.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/maxmemory.html","name":"php:\/\/memory And Maxmemory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 16:29:20 +0000","dateModified":"Fri, 29 May 2026 16:29:20 +0000","description":"``php:\/\/memory`` is a stream that lives in RAM","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/maxmemory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/maxmemory.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/maxmemory.html","name":"php:\/\/memory And Maxmemory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:18 +0000","dateModified":"Tue, 14 Jul 2026 14:32:18 +0000","description":"``php:\/\/memory`` is a stream that lives in RAM","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/maxmemory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Alexandre Daubois <https://x.com/alexdaubois>`_
 
-.. image:: ../images/maxmemory.png
+.. code-block:: php
+
+   <?php
+   
+   // build something entirely in memory...
+   $fp = fopen('php://memory', 'r+');
+   fputcsv($fp, ['name', 'email', 'role']);
+   fputcsv($fp, ['Alex', 'alex@example.com', 'CTO']);
+   fputcsv($fp, ['Jane', 'jane@example.com', 'Dev']);
+   
+   rewind($fp);
+   $csv = stream_get_contents($fp);
+   fclose($fp);
+   
+   // send as download
+   header('Content-Type: text/csv');
+   echo $csv;
+   
+   // php://temp, same but spills to disk over 2MB... or more!
+   $fp = fopen('php://temp/maxmemory:8388608', 'r+');
+   // 8MB in RAM, then auto-swaps to a temp file
+   
+   // no gc, no unlink(), no /tmp pollution
+   // the stream disappears when $fp is closed
+
 
 ``php://memory`` is a stream that lives in RAM.
 

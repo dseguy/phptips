@@ -21,9 +21,21 @@ Integer Becomes Negative
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/int_back_to_negative.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/int_back_to_negative.html","name":"Integer Becomes Negative","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:32 +0000","dateModified":"Thu, 02 Apr 2026 05:33:32 +0000","description":"$a is the largest integer in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/int_back_to_negative.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/int_back_to_negative.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/int_back_to_negative.html","name":"Integer Becomes Negative","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:02 +0000","dateModified":"Tue, 14 Jul 2026 14:32:02 +0000","description":"$a is the largest integer in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/int_back_to_negative.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/int_back_to_negative.png
+.. code-block:: php
+
+   <?php
+   
+   $a = PHP_INT_MAX;
+   $b = $a + 1;
+   $c = (int) $b;
+   $d = intval($b);
+   
+   var_dump($b < 0);
+   var_dump($c < 0);
+   var_dump($d < 0);
+
 
 $a is the largest integer in PHP. So, $b, which is one bigger than $a, is actually a float, which is bigger and still positive. When casting the float to an integer, the integer is turned into a negative number by overflowing.
 

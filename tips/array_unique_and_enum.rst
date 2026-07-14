@@ -21,9 +21,26 @@ array_unique() And Enum
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_unique_and_enum.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_unique_and_enum.html","name":"array_unique() And Enum","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 20:09:21 +0000","dateModified":"Tue, 30 Jun 2026 20:09:21 +0000","description":"Enumerations works like normal values, most of the time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_unique_and_enum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_unique_and_enum.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_unique_and_enum.html","name":"array_unique() And Enum","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:43 +0000","dateModified":"Tue, 14 Jul 2026 14:30:43 +0000","description":"Enumerations works like normal values, most of the time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_unique_and_enum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/array_unique_and_enum.png
+.. code-block:: php
+
+   <?php
+     
+   enum E: string {
+     case A = 'a';
+     case B = 'b'; 
+     case C = 'c';
+     case D = 'd';
+   }
+   
+   var_dump(in_array(E::B, E::cases())); 
+   
+   var_dump(array_unique(E::cases())); 
+   var_dump(array_unique(E::cases(), SORT_REGULAR)); 
+   
+   ?>
+
 
 Enumerations works like normal values, most of the time. They may be used as values in arrays, but not as keys, may it be directly, or with casting.
 

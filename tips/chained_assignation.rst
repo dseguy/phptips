@@ -21,9 +21,25 @@ Chained Assignation Skips __get()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chained_assignation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chained_assignation.html","name":"Chained Assignation Skips __get()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 14:17:25 +0000","dateModified":"Mon, 13 Jul 2026 14:17:25 +0000","description":"Chained assignation skip the ``get`` part and assign the same value to all elements in the chain","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chained_assignation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chained_assignation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chained_assignation.html","name":"Chained Assignation Skips __get()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:25:31 +0000","dateModified":"Tue, 14 Jul 2026 14:25:31 +0000","description":"Chained assignation skip the ``get`` part and assign the same value to all elements in the chain","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/chained_assignation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/chained_assignation.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       private string $p = 'a' {
+           get => 'c';
+           set => $value;
+       }
+   }
+   
+   $x = new x;
+   $b = $x->f = 'b';
+   
+   print_r($x->f);
+   print_r($b);
+
 
 Chained assignation skip the ``get`` part and assign the same value to all elements in the chain.
 

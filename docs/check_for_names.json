@@ -11,5 +11,7 @@
     "contact": "",
     "features": ["class", "function", "cite"],
     "3v4l": {"When to check for name":"https://3v4l.org/eT5rs"},
+    "code": "<?php\n\n\nclass stdClass {}\n\/\/ Checked at execution time\n\ninterface Iterator {}\n\/\/ Checked at execution time\n\nfunction mb_substr() {}\n\/\/ Checked at compile time",
+
     "phpError":{}
 }

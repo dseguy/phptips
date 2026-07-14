@@ -13,6 +13,8 @@
     "3v4l": {
         "Try-catch-finally are optional": "https://3v4l.org/jOtGX"
     },
+    "code": "<?php\n\ntry {\n    doSomething();\n} catch (Exception $e) {\n    processException($e);\n} finally {\n    cleanupWork();\n}\n\n\/\/ finally is optional\ntry {\n    doSomething();\n} catch (Exception $e) {\n    processException($e);\n}\n\n\/\/ catch is optional\ntry {\n    doSomething();\n}\n\n\/\/ In the end, catch is also optional\n    doSomething();\n\n?>",
+
     "phpError": {},
     "features": ["catch", "try-catch", "finally", "exception"]
 }

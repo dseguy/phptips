@@ -1,5 +1,6 @@
 {
     "image": "abstract_constant.png",
+    "code": "<?php\n\nabstract class Foo {\n    \n    // self-referential 'abstract' declaration\n    const NAME = self::NAME;\n}\n\nclass Fooling extends Foo {\n    \n    // Overrides definition from parent class\n    // Without this declaration, an error will be triggered\n    const NAME = 'Donald';\n}",
     "date": "2023-11-19",
     "title": "Abstract Constants",
     "content": "There's a pretty common pattern to declare \"abstract class constants\" in PHP.\nPHP lazy loading will prevent the error \"Fatal error: Uncaught Error: Cannot declare self-referencing constant self::NAME\" if the constant is overloaded.\nThis makes an effective 'abstract constant', that must be defined to be usable.",

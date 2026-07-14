@@ -21,9 +21,20 @@ Multiple Const Types
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/crazy_const_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/crazy_const_type.html","name":"Multiple Const Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 16:31:02 +0000","dateModified":"Fri, 29 May 2026 16:31:02 +0000","description":"Class constants may be typed since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/crazy_const_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/crazy_const_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/crazy_const_type.html","name":"Multiple Const Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:21 +0000","dateModified":"Tue, 14 Jul 2026 14:31:21 +0000","description":"Class constants may be typed since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/crazy_const_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/crazy_const_type.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       const int|string A=1, B='abc';
+   	const int|string C = PHP_OS === 'win' ? 0 : 'not win';
+   }
+   
+   
+   echo strlen(x::B);
+
 
 Class constants may be typed since PHP 8.3. Union types are possible, and they are valid with class constants.
 

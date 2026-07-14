@@ -21,9 +21,28 @@ func_get_args() Skips Variadic
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/func_get_args.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/func_get_args.html","name":"func_get_args() Skips Variadic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:37 +0000","dateModified":"Thu, 02 Apr 2026 05:33:37 +0000","description":"func_get_args() does not provide the variadic argument, when there is one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/func_get_args.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/func_get_args.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/func_get_args.html","name":"func_get_args() Skips Variadic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:47 +0000","dateModified":"Tue, 14 Jul 2026 14:31:47 +0000","description":"func_get_args() does not provide the variadic argument, when there is one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/func_get_args.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/func_get_args.png
+.. code-block:: php
+
+   <?php
+   
+   function foo($a, ...$arg) {
+       print_r(func_get_args());
+       print_r($arg);
+       print_r($a);
+   }
+   
+   function goo(...$arg) {
+       print_r(func_get_args());
+       print_r($arg);
+   }
+   
+   foo(...[ 'b' => 2, 'a' => 1,'d' => 3]);
+   print PHP_EOL;
+   print PHP_EOL;
+   goo(...[ 'b' => 2, 'a' => 1,'d' => 3]);
+
 
 func_get_args() does not provide the variadic argument, when there is one. It is simply omitted.
 

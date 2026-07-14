@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["array", "array_is_list", "index-array"],
     "3v4l": {"array_is_list() and sorting":"https://3v4l.org/eNYsj#v8.5.7"},
+    "code": "<?php\n\n$array = [1 => 'a', 0 => 'b'];\nvar_dump(array_is_list($array));\n\nksort($array);\nvar_dump(array_is_list($array));\n\n$array = [1 => 'b'];\n$array[0] = 'a';\nvar_dump(array_is_list($array));\n\nasort($array); \/\/ lucky sort\nvar_dump(array_is_list($array));",
+
     "phpError": {}
 }

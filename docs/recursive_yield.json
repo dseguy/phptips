@@ -13,6 +13,8 @@
     "3v4l": {
         "recursive yielding functions": "https://3v4l.org/kpOuk"
     },
+    "code": "<?php\n\nfunction foo() {\n    static $f = 0;\n    yield ++$f;\n    yield from goo();\n}\n\nfunction goo() {\n    static $g = 'a';\n    yield ++$g;\n    yield from foo();\n}\n\nforeach (foo() as $foo) {\n    print $foo.PHP_EOL;\n}\n\n?>",
+
     "phpError": {},
     "features": [
 	"yield",

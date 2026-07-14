@@ -14,6 +14,8 @@
     "contact": "",
     "features": ["cast", "exponent", "precedence"],
     "3v4l": {"Cast And Power":"https://3v4l.org/ciEvM"},
+    "code": "<?php\n\n$a = 2.5;\n$b = 2.5;\n\nprint (int) $a * (int) $b;  \/\/ 4\n\nprint PHP_EOL;\n\nprint (int) $a ** (int) $b; \/\/ 6\n\n?>",
+
     "phpError":{}
 
 }

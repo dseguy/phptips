@@ -21,9 +21,30 @@ Function Name In A Method
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/FunctionNameInAMethod.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/FunctionNameInAMethod.html","name":"Function Name In A Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 10:34:45 +0000","dateModified":"Thu, 02 Apr 2026 10:34:45 +0000","description":"The magic constants give information on the context of execution of the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/FunctionNameInAMethod.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/FunctionNameInAMethod.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/FunctionNameInAMethod.html","name":"Function Name In A Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:26 +0000","dateModified":"Tue, 14 Jul 2026 14:30:26 +0000","description":"The magic constants give information on the context of execution of the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/FunctionNameInAMethod.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/FunctionNameInAMethod.png
+.. code-block:: php
+
+   <?php
+   
+   class X {
+       function foo() {
+           print __METHOD__.PHP_EOL;
+           print __CLASS__.PHP_EOL;
+           print __FUNCTION__.PHP_EOL;
+       }
+   }
+   
+   (new x)->foo();
+   
+       function foo() {
+           print __METHOD__.PHP_EOL;
+           print __CLASS__.PHP_EOL;
+           print __FUNCTION__.PHP_EOL;
+       }
+   
+   foo();
+
 
 The magic constants give information on the context of execution of the code. ``__METHOD__`` gives the name of the method, and its related class. ``__CLASS__`` gives the name of the current class, whatever the method. And ``__FUNCTION__`` gives the name of the current function, or, also, the name of the method, though without the name of the class.
 

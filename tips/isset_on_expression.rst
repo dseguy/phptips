@@ -21,9 +21,16 @@ Cannot Use Isset On Expression, So Use What?
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_on_expression.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_on_expression.html","name":"Cannot Use Isset On Expression, So Use What?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"isset() works on data containers, such as variables, properties, array elements, but not on literal or constant values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_on_expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_on_expression.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_on_expression.html","name":"Cannot Use Isset On Expression, So Use What?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:11 +0000","dateModified":"Tue, 14 Jul 2026 14:32:11 +0000","description":"isset() works on data containers, such as variables, properties, array elements, but not on literal or constant values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/isset_on_expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/isset_on_expression.png
+.. code-block:: php
+
+   <?php
+   
+   var_dump(isset(NULL !== A));
+       
+   // Fatal error: Cannot use Isset() on the result of an expression
+
 
 isset() works on data containers, such as variables, properties, array elements, but not on literal or constant values.
 

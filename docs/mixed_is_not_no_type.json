@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["mixed", "type", "initialisation"],
     "3v4l": {"mixed is not absence of type":"https://3v4l.org/itGW9"},
+    "code": "<?php\n\nclass x {\n    public $p;\n    public mixed $q;\n}\n\n$x = new x;\nvar_dump($x->p);\nvar_dump($x->q);  \/\/ Fatal error!",
+
     "phpError": {"Typed property %s::$%s must not be accessed before initialization":"typed-property-%s::$%s-must-not-be-accessed-before-initialization"}
 }

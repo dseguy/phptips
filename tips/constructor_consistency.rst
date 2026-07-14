@@ -21,9 +21,42 @@ Signature Compatibility Exception
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_consistency.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_consistency.html","name":"Signature Compatibility Exception","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:42 +0000","dateModified":"Thu, 02 Apr 2026 05:33:42 +0000","description":"All methods must be compatible with their parent's signature: the types, reference options, variadic and number must be compatible (although, not equal)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_consistency.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_consistency.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_consistency.html","name":"Signature Compatibility Exception","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:20 +0000","dateModified":"Tue, 14 Jul 2026 14:31:20 +0000","description":"All methods must be compatible with their parent's signature: the types, reference options, variadic and number must be compatible (although, not equal)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_consistency.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/constructor_consistency.png
+.. code-block:: php
+
+   <?php
+   
+   // Normal constructor
+   abstract class x {
+        function __construct($a) {}
+   }
+   
+   class y extends x {
+       // OK
+       function __construct($b, $c) {}
+   }
+   
+   // abstract constructor
+   abstract class x2 {
+        abstract function __construct($a);
+   }
+   
+   class y2 extends x2 {
+       // KO
+       function __construct($b, $c) {}
+   }
+   
+   // With interface
+   interface i3 {
+        abstract function __construct($a);
+   }
+   
+   class y3 implements i3 {
+       // KO
+       function __construct($b, $c) {}
+   }
+
 
 All methods must be compatible with their parent's signature: the types, reference options, variadic and number must be compatible (although, not equal).
 

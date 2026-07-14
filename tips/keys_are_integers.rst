@@ -21,9 +21,18 @@ Keys Are Integers Whenever Possible
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html","name":"Keys Are Integers Whenever Possible","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:37 +0000","dateModified":"Thu, 02 Apr 2026 05:33:37 +0000","description":"Array keys are only strings or integers: the later has priority","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html","name":"Keys Are Integers Whenever Possible","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:12 +0000","dateModified":"Tue, 14 Jul 2026 14:32:12 +0000","description":"Array keys are only strings or integers: the later has priority","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys_are_integers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/keys_are_integers.png
+.. code-block:: php
+
+   <?php
+   
+   $array = [];
+   $array["01000"] = "Bourg-en-Bresse";
+   $array["75001"] = "Paris";
+   
+   var_dump($array);
+
 
 Array keys are only strings or integers: the later has priority. So, when storing a string that can be converted to an integer, PHP does the conversion automatically.
 

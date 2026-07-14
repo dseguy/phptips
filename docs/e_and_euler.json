@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["math", "constant"],
     "3v4l": {"M_E and M_EULER":"https://3v4l.org/covqi#veol"},
+    "code": "<?php\n\n    echo M_E; \n    echo PHP_EOL;\n    echo M_EULER;",
+
     "phpError": {}
 }

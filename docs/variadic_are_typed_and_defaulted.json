@@ -14,6 +14,8 @@
     "3v4l": {
         "Hidden type and default value": "https://3v4l.org/8S0fa"
     },
+    "code": "<?php\n\nfunction foo($a, ...$arg \/* = [] *\/) {\n    var_dump($arg);\n    \/\/ array()\n}\n\nfoo(1);\n\n?>",
+
     "phpError": {},
     "features": [        "array",
         "variadic",

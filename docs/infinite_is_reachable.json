@@ -16,6 +16,8 @@
     "3v4l": {
         "beyond infinity": "https://3v4l.org/lU5bg"
     },
+    "code": "<?php\n\nvar_dump(is_infinite(log(0)));\n\/\/ true\nvar_dump(1 > log(0));\n\/\/ true",
+
     "phpError": {},
     "features": ["math", "integer"]
 }

@@ -19,5 +19,7 @@
     "3v4l": {
         "Final On A Parameter": "https:\/\/3v4l.org\/HKsFL"
     },
+    "code": "<?php\n\nclass X {\n    function __construct(\n        \/\/Cannot use the final modifier on a parameter        \n        private final $property\n    ) {}\n}",
+
     "phpError": {"Cannot use the %s modifier on a %s":"cannot-use-the-%s-modifier-on-a-%s"}
 }

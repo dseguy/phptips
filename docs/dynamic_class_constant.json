@@ -17,6 +17,8 @@
     ],
     "author": "",
     "contact": "",
+    "code": "<?php\n\n\/\/ echo A::A;\n\/\/ Undefined constant \"B\"\n\ndefine('B', 'yes');\n\nclass A {\n    public const A = B;\n}\n\necho A::A;\n\/\/ yes\n\n?>",
+
     "phpError":{},
     "3v4l":{"Define a dynamic class constant value":"https://3v4l.org/MigJ2"}
 }

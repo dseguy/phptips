@@ -21,9 +21,32 @@ Cancelling Native Function
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cancelling_native_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cancelling_native_function.html","name":"Cancelling Native Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:42 +0000","dateModified":"Thu, 02 Apr 2026 05:33:42 +0000","description":"PHP native functions are part of the global scope","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cancelling_native_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cancelling_native_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cancelling_native_function.html","name":"Cancelling Native Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:53:14 +0000","dateModified":"Tue, 14 Jul 2026 14:53:14 +0000","description":"PHP native functions are part of the global scope","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cancelling_native_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/cancelling_native_function.png
+.. code-block:: php
+
+   <?php
+   
+   namespace A {
+       function print_r($x) {
+           print 'No print_r for you!'.PHP_EOL;
+       }
+   }
+   
+   namespace A {
+       $x = [];
+       print_r($x);
+   }
+   
+   // It looks like it, but 
+   // A\B is not a child of A!! 
+   namespace A\B {
+       // Just print_r for you, with fallback
+       print_r($x);
+   }
+   
+   ?>
+
 
 PHP native functions are part of the global scope. In a custom namespace, the local definition of a function has priority. And when this fails, PHP fallbacks to the global space. This is a backward compatibility process, that prevents developer from adding ALL native PHP functions as a ``use`` expression in every file. This would be long, boring and a performance boost.
 

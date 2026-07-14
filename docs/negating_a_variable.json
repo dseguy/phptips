@@ -13,5 +13,7 @@
     "contact": "",
     "3v4l":{"Don't negate conditions'":"https://3v4l.org/OaqKp"},
     "features":["not", "assignation", 	"iffectation" ],
+    "code": "<?php\n\n\/\/ $e contains the check\n!$e = checkSomething();\n\n\/\/ $e contains the check,\n\/\/ and the condition still passes\nif (!$e = checkSomething()) {\n    print \"Something was wrong!\";\n}",
+
     "phpError":{}
 }

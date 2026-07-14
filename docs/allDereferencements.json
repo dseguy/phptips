@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["enum", "class", "backedenum"],
     "3v4l": {"Can you understand this?":"https://3v4l.org/0bOpD"},
+    "code": "<?php\n\nenum F: string {\n    case PHP = \"Rocks!\";\n}\n\nconst E = F::PHP;\nconst D = new D;\n\nvar_dump(x::C->{$p = 'p'}[1](...)()?->{$p . $c = 2}::PHP->value[$c]);\n\nclass X {\n    const C = D;\n}\n\nclass D {\n    public array $p = [1 => 'foo'];\n    public F $p2 = E;\n}\n\nfunction foo() {\n    return new D;\n}",
+
     "phpError": {}
 }

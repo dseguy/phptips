@@ -14,6 +14,8 @@
     "3v4l": {
         "Internal Static Call": "https://3v4l.org/j04vj"
     },
+    "code": "<?php\n\nclass a {\n    function foo() {\n        echo __METHOD__ . PHP_EOL;\n    }\n}\n\nclass b extends a {}\nclass c extends b {\n    function bar() {\n        $this::foo();\n        $this->foo();\n        a::foo();\n        b::foo();\n        c::foo();\n        d::foo();\n        static::foo();\n        self::foo();\n        parent::foo();\n    }\n}\n\nclass d extends c {}\n\n(new c)->bar();",
+
     "phpError": {"Non-static method a::foo() cannot be called statically":"non-static-method-%s::%s()-cannot-be-called-statically"},
     "features": [
 	"static",

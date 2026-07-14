@@ -21,9 +21,26 @@ Dynamic Class Constant
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dynamic_class_constant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dynamic_class_constant.html","name":"Dynamic Class Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:37 +0000","dateModified":"Thu, 02 Apr 2026 05:33:37 +0000","description":"It is not allowed to create dynamically a class constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dynamic_class_constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dynamic_class_constant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dynamic_class_constant.html","name":"Dynamic Class Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:25 +0000","dateModified":"Tue, 14 Jul 2026 14:31:25 +0000","description":"It is not allowed to create dynamically a class constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/dynamic_class_constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/dynamic_class_constant.png
+.. code-block:: php
+
+   <?php
+   
+   // echo A::A;
+   // Undefined constant "B"
+   
+   define('B', 'yes');
+   
+   class A {
+       public const A = B;
+   }
+   
+   echo A::A;
+   // yes
+   
+   ?>
+
 
 It is not allowed to create dynamically a class constant. The only way is to create a global constant, using the define() function.
 

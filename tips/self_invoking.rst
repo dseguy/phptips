@@ -21,11 +21,26 @@ Lots Of Silly Arguments
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html","name":"Lots Of Silly Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:32 +0000","dateModified":"Thu, 02 Apr 2026 05:33:32 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html","name":"Lots Of Silly Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:24 +0000","dateModified":"Tue, 14 Jul 2026 14:33:24 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self_invoking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Greg Korba <https://twitter.com/_Codito_>`_
 
-.. image:: ../images/self_invoking.png
+.. code-block:: php
+
+   <?php
+   
+   class Foo {
+       public function __invoke(): self {
+           return new self();
+       }
+       
+       public function bar(): self {
+           return $this();
+       }
+   }
+   
+   var_dump(new Foo()()()()->bar()()()()());
+
 
 PHP 8.4 drops the requirement of parenthesis around the new operator: it is possible to directly call a method on it.
 

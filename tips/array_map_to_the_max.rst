@@ -21,9 +21,22 @@ array_map() Goes Full Throttle
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","name":"array_map() Goes Full Throttle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:35 +0000","dateModified":"Thu, 02 Apr 2026 05:33:35 +0000","description":"array_map() applies a closure, its first argument, to every elements of an array, its second argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html","name":"array_map() Goes Full Throttle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:40 +0000","dateModified":"Tue, 14 Jul 2026 14:30:40 +0000","description":"array_map() applies a closure, its first argument, to every elements of an array, its second argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_map_to_the_max.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/array_map_to_the_max.png
+.. code-block:: php
+
+   <?php
+   
+   $array = array_map(function($a, $b) { return 1; },
+                       range(0, 10),
+                       array_fill(0, 1, 2),
+                       array_fill(0, 100, 3), // not even used 
+   );
+   
+   print count($array); // 100
+   
+   ?>
+
 
 array_map() applies a closure, its first argument, to every elements of an array, its second argument.
 

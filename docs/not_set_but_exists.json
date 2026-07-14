@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["comparison", "isset", "empty", "__isset", "__get", "existence"],
     "3v4l": {"Not set but exists?":"https://3v4l.org/WEI12"},
+    "code": "<?php\n\nclass X {\n    function __get($name) {\n        return 'a';\n    }\n    \n    \/\/ The important part is \n    \/\/ that function __isset() is missing\n}\n\n$x = new X();\nvar_dump(isset($x->a));    \/\/  false\nvar_dump(!empty($x->a));   \/\/ false\n\n\/\/ With\n\nvar_dump($x->a === null);  \/\/ false\nvar_dump($x->a == '');     \/\/ false",
+
     "phpError": {}
 }

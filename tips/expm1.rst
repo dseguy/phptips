@@ -21,11 +21,41 @@ expm1() And log1p()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/expm1.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/expm1.html","name":"expm1() And log1p()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 11:30:58 +0000","dateModified":"Thu, 02 Apr 2026 11:30:58 +0000","description":"In PHP, expm1() computes exp(x) - 1","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/expm1.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/expm1.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/expm1.html","name":"expm1() And log1p()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:38 +0000","dateModified":"Tue, 14 Jul 2026 14:31:38 +0000","description":"In PHP, expm1() computes exp(x) - 1","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/expm1.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Alexandre Daubois <https://x.com/alexdaubois>`_
 
-.. image:: ../images/expm1.png
+.. code-block:: php
+
+   <?php
+   
+   $x = 1e-15;
+   
+   // naive: catastrophic cancellation
+   $native = exp($x) - 1;
+   echo $native; // 1.1102230246252E-15, WRONG
+   
+   // expm1: computed without cancellation
+   $precise = expm1($x);
+   echo $precise; // 1.00000000000000005E-15, CORRECT
+   
+   // same problem in reverse
+   $y = 1e-15;
+   
+   // naive
+   echo log(1 + $y); // 1.1102230246252E-15, WRONG
+   echo log1p($y);   // 1.00000000000000005E-15, CORRECT
+   
+   // real-world use: compound interest on tiny rates.
+   $rate = 0.00001; // 0.001% daily rate
+   $days = 365;
+   
+   // naive continuous compounding
+   $wrong = exp($rate * $days) - 1;
+   
+   // precise
+   $right = expm1($rate * $days);
+
 
 In PHP, expm1() computes exp(x) - 1.
 

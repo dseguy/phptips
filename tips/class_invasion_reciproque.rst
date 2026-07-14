@@ -21,9 +21,35 @@ Class Invasion Both Ways
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_invasion_reciproque.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_invasion_reciproque.html","name":"Class Invasion Both Ways","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:35 +0000","dateModified":"Thu, 02 Apr 2026 05:33:35 +0000","description":"Class invasion, it when an object access anything it wants in another object of the same class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_invasion_reciproque.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_invasion_reciproque.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_invasion_reciproque.html","name":"Class Invasion Both Ways","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:06 +0000","dateModified":"Tue, 14 Jul 2026 14:31:06 +0000","description":"Class invasion, it when an object access anything it wants in another object of the same class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_invasion_reciproque.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/class_invasion_reciproque.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       private function foo() { echo __METHOD__; }
+   
+       function YinX() {
+           $y = new y();
+           $y->foo();
+       }
+   }
+   
+   class y extends x {
+       function YinY() {
+           $this->foo();
+       }
+   }
+   
+   // here, Y can call private foo();
+   (new x)->YinX();
+   
+   // here, Y cannot call foo()
+   (new y)->YinY();
+   
+   ?>
+
 
 Class invasion, it when an object access anything it wants in another object of the same class. Thanks to the way PHP checks each object's perimeter.
 

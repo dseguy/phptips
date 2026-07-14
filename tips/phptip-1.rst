@@ -21,9 +21,31 @@ Inconsistent Constructor Signatures
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/phptip-1.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/phptip-1.html","name":"Inconsistent Constructor Signatures","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:46 +0000","dateModified":"Thu, 02 Apr 2026 05:33:35 +0000","description":"PHP enforces that methods have the same signature in a parent class and in a children class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/phptip-1.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/phptip-1.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/phptip-1.html","name":"Inconsistent Constructor Signatures","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:58 +0000","dateModified":"Tue, 14 Jul 2026 14:32:58 +0000","description":"PHP enforces that methods have the same signature in a parent class and in a children class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/phptip-1.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/phptip-1.png
+.. code-block:: php
+
+   <?php
+   
+   declare(strict_types=1);
+   
+   class x {
+       function __toString() : string {
+           return "YES";
+       }
+   }
+   
+   function foo(string $a) {}
+   
+   // piece of syntax of the day (POSOTD)
+   echo $x = new x;
+   
+   print " A $x";
+   
+   // Fata error: Argument #1 ($a) must be of type string, x given, foo($x);
+   
+   ?>
+
 
 PHP enforces that methods have the same signature in a parent class and in a children class. It raises a Fatal Error if not.
 

@@ -12,6 +12,8 @@
     "3v4l": {
         "Too many arrays": "https://3v4l.org/Ovasb"
     },
+    "code": "<?php\n\nclass x {\n    \/\/ PHP 8.3 syntax\n    const array array = array();\n}",
+
     "phpError": {},
     "features": [
         "array",

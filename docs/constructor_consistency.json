@@ -15,6 +15,8 @@
     "3v4l": {
         "compatible or not?": "https://3v4l.org/GAiN9"
     },
+    "code": "<?php\n\n\/\/ Normal constructor\nabstract class x {\n     function __construct($a) {}\n}\n\nclass y extends x {\n    \/\/ OK\n    function __construct($b, $c) {}\n}\n\n\/\/ abstract constructor\nabstract class x2 {\n     abstract function __construct($a);\n}\n\nclass y2 extends x2 {\n    \/\/ KO\n    function __construct($b, $c) {}\n}\n\n\/\/ With interface\ninterface i3 {\n     abstract function __construct($a);\n}\n\nclass y3 implements i3 {\n    \/\/ KO\n    function __construct($b, $c) {}\n}",
+
     "phpError": {},
     "features": ["constructor", "abstract", "interface", "inheritance"]
 }

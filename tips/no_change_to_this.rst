@@ -21,11 +21,35 @@ No Change To $this
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_change_to_this.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_change_to_this.html","name":"No Change To $this","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:36 +0000","dateModified":"Thu, 02 Apr 2026 05:33:36 +0000","description":"Variable ``$this`` is passed and reassigned by reference is a noop, as opposed to all other variables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_change_to_this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_change_to_this.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_change_to_this.html","name":"No Change To $this","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:40 +0000","dateModified":"Tue, 14 Jul 2026 14:32:40 +0000","description":"Variable ``$this`` is passed and reassigned by reference is a noop, as opposed to all other variables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_change_to_this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Ondrej Mirtes <https://twitter.com/OndrejMirtes>`_
 
-.. image:: ../images/no_change_to_this.png
+.. code-block:: php
+
+   <?php
+   
+   function foo(&$var) {
+       $var = 2;
+   }
+   
+   $a = 1;
+   foo($a);
+   var_dump($a); // 2
+   
+   class A {
+       public function do() {
+           foo($this);
+           var_dump($this); // still the same object
+       }
+   
+       public function doo() {
+           $a = new self();
+           foo($a);
+           var_dump($a); // 2
+       }
+   }
+
 
 Variable ``$this`` is passed and reassigned by reference is a noop, as opposed to all other variables. I'd expect an error to be honest.
 

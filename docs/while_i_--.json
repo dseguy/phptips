@@ -13,6 +13,8 @@
     "3v4l": {
         "down to 0": "https:\/\/3v4l.org\/bXlOC"
     },
+    "code": "<?php\n\n$i = 10;\n\nwhile( $i --> 0) {\n    print $i . ', ';\n    \n}",
+
     "phpError": {},
     "features": [        
         "while",

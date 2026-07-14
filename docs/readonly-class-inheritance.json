@@ -16,6 +16,8 @@
     "contact": "",
     "features": ["readonly", "property", "class", "inheritance"],
     "3v4l": {"readonly, classes and properties":"https://3v4l.org/6TpEk#v8.5.7"},
+    "code": "<?php\n\nreadonly class x {\n    public string $p;\n}\n\nclass y extends x {\n    readonly public string $p;\n}",
+
     "phpError": {
         "Non-readonly class X cannot extend readonly class Y":"non-readonly-class-%s-cannot-extend-readonly-class-%s",
         "Readonly class X cannot extend non-readonly class Y":"readonly-class-%s-cannot-extend-non-readonly-class-%s"

@@ -21,9 +21,23 @@ Hexadecimal Separator
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/hexadecimal_separator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/hexadecimal_separator.html","name":"Hexadecimal Separator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:43 +0000","dateModified":"Thu, 02 Apr 2026 05:33:43 +0000","description":"PHP offers a number separator since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/hexadecimal_separator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/hexadecimal_separator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/hexadecimal_separator.html","name":"Hexadecimal Separator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:34:51 +0000","dateModified":"Tue, 14 Jul 2026 14:34:51 +0000","description":"PHP offers a number separator since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/hexadecimal_separator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/hexadecimal_separator.png
+.. code-block:: php
+
+   <?php
+   
+   echo 123_456;
+   echo 12.45_56;
+   echo 0x12_34;
+   echo 0b111_110_001;
+   echo 0b111_110_00_1;
+   
+   echo mb_chr(0x1F_418); // OK
+   echo "\u{1F4_18}";   // KO
+   
+   ?>
+
 
 PHP offers a number separator since PHP 8.0: ``_``. It may be added inside any integer or float, to make long list of digits more readable.
 

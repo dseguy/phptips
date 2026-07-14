@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["look-up", "array_find", "array_find_key", "strpos-syndrom"],
     "3v4l": {"Finding elephpant":"https://3v4l.org/CWbr8#v8.5.8"},
+    "code": "<?php\n\n$bucket = [1, 2, 'A', 'z', INF, '\ud83d\udc18'];\n\nprint array_find($bucket, fn($x) => $x > '\ud83d\udc17' );\n\nprint array_find_key($bucket, fn($x) => $x > '\ud83d\udc17' );",
+
     "phpError": {}
 }

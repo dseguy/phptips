@@ -15,6 +15,8 @@
     "3v4l": {
         "No DNF": "https://3v4l.org/G3LWB"
     },
+    "code": "<?php\n\ntry {} catch (A&B $e) {}\n\ntry {} catch (A|(B&C) $e) {}",
+
     "phpError": {},
     "features": [
         "catch",

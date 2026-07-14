@@ -13,6 +13,8 @@
     "3v4l": {
         "Silent PHP Optimisation": "https:\/\/3v4l.org\/6gQeh"
     },
+    "code": "<?php\n\n\n$a;\n\/\/ crii crii\n\n3 || $b;\n\/\/ ...\n\necho $c;\n\/\/ warning: undefined variable $c;\n\n?>",
+
     "phpError": {"Undefined variable %s":"undefined-variable-$%s"},
     "features": [
         "silent", "variable"

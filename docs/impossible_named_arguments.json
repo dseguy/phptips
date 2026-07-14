@@ -17,5 +17,7 @@
     "3v4l": {
         "Using impossible parameter names": "https:\/\/3v4l.org\/U88Ip"
     },
+    "code": "<?php\n  \nfunction foo(...$args) {\n    echo $args['a b' ] ?? $args['a$b'] ?? $args['\u6211'];\n}\n\nfoo(...['a b' => 'c']);  \/\/ c\nfoo(...['a$b' => 'd']);  \/\/ d\nfoo(\u6211: 3);              \/\/ 3\n  \n?>",
+
     "phpError": {}
 }

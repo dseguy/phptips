@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["array_column", "null"],
     "3v4l": {"Easy mapping":"https://3v4l.org/F0CR0"},
+    "code": "<?php\n  \n  class X {\n     public function __construct(\n\t     public $id,\n    \t public $name,\n     ) {}\n  }\n\n  $list = [];\n  foreach(range(0, 10) as $i) {\n     $list[] = new X(rand(0, 1000_000), 'name '.$i);\n  }\n  \n  $map = array_column($list, null, 'id');\n\n  print_r($map)  ;\n  \n?>",
+
     "phpError": {}
 }

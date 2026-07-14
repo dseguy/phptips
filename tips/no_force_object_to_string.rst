@@ -21,9 +21,24 @@ No Force Object To String
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_force_object_to_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_force_object_to_string.html","name":"No Force Object To String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:32 +0000","dateModified":"Thu, 02 Apr 2026 05:33:32 +0000","description":"PHP automatically converts numeric strings to integers when used as array indices, so '123' becomes 123 (the integer)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_force_object_to_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_force_object_to_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_force_object_to_string.html","name":"No Force Object To String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:43 +0000","dateModified":"Tue, 14 Jul 2026 14:32:43 +0000","description":"PHP automatically converts numeric strings to integers when used as array indices, so '123' becomes 123 (the integer)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_force_object_to_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/no_force_object_to_string.png
+.. code-block:: php
+
+   <?php
+   
+   class A {
+       function __toString() {
+           return 'A';
+       }
+   }
+   
+   $a = new A();
+   
+   $b = [$a => $a];
+   
+   print_r($b);
+
 
 PHP automatically converts numeric strings to integers when used as array indices, so '123' becomes 123 (the integer). However, PHP doesn't perform similar conversions for objects, when they are used as array keys. Instead, it immediately throws a fatal ``Illegal offset type`` error because objects are not automatically converted to valid array keys.
 

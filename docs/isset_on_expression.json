@@ -14,6 +14,8 @@
     "3v4l": {
         "isset on expression": "https://3v4l.org/Ot3sH"
     },
+    "code": "<?php\n\nvar_dump(isset(NULL !== A));\n    \n\/\/ Fatal error: Cannot use Isset() on the result of an expression",
+
     "phpError": {"Cannot use isset() on the result of an expression (you can use \"null !== expression\" instead)":"cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-\"null-!==-expression\"-instead)"},
     "features": ["isset", "expression"]
 }

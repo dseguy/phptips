@@ -15,5 +15,7 @@
 "3v4l":{"-3 ^ 2 == -9":"https://3v4l.org/fKHbm"}, 
 "author":"", 
 "contact":"", 
+"code": "<?php\n\n\necho -3 ** 2;\n\/\/ -9",
+ 
 "phpError":{}
 }

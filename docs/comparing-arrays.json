@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["comparison", "array", "property", "cast"],
     "3v4l": {"Comparing arrays":"https://3v4l.org/Zqkng", "Comparing object":"https://3v4l.org/isKLn"},
+    "code": "<?php\n\n    $a = array('green', 4 => '3', 'c' => 'yellow');\n    $b = array('green', 'c' => 'yellow', '4' => 0x3);\n    $c = array('green', 'c' => 'yellow', '4' => '3');\n\n    var_dump($a == $b);  \/\/ true   identical, whatever the order\n    var_dump($a === $b); \/\/ false  identical, but not the order\n    \n    var_dump($c == $b);  \/\/ true   identical, with some type juggling\n    var_dump($c === $b); \/\/ false  identical, but not at the type level\n    \n?>",
+
     "phpError": {}
 }

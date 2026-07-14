@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["enum", "enum-case", "cast"],
     "3v4l": {"Cannot Cast Enum":"https://3v4l.org/G5aLS"},
+    "code": "<?php\n\nenum E: string {\n    case A = \"ab\";\n}\n\n(string) E::A;",
+
     "phpError": {"Object of class E could not be converted to string":"object-of-class-%s-could-not-be-converted-to-string"}
 }

@@ -21,9 +21,32 @@ Static Arrow Function
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_arrow_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_arrow_function.html","name":"Static Arrow Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:42 +0000","dateModified":"Thu, 02 Apr 2026 05:33:42 +0000","description":"It is possible to add the ``static`` option to an arrow function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_arrow_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_arrow_function.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_arrow_function.html","name":"Static Arrow Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:33 +0000","dateModified":"Tue, 14 Jul 2026 14:33:33 +0000","description":"It is possible to add the ``static`` option to an arrow function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static_arrow_function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/static_arrow_function.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       private $p = 5;
+   
+       function foo() {
+           $b = 2;
+           $f = fn($a) => $a + $b + $this->p;
+           echo $f(1);         // 8 = 1 + 2 + 5 
+   
+           $t = $this;
+           $f = static fn($a) => $a + $b + $t->p;
+           echo $f(1);         // 8 = 1 + 2 + 5 
+   
+           $f = static fn($a) => $a + $b + $this->p;
+           // Only an error if the code is executed
+           //echo $f(1);        
+       }
+   }
+   
+   new x()->foo();
+
 
 It is possible to add the ``static`` option to an arrow function. In that case, PHP doesn't allow usage of the local object context, via ``$this``.
 

@@ -14,6 +14,8 @@
     "3v4l": {
         "integer or string?": "https://3v4l.org/Xlp2g"
     },
+    "code": "<?php\n\n$array = [];\n$array[\"01000\"] = \"Bourg-en-Bresse\";\n$array[\"75001\"] = \"Paris\";\n\nvar_dump($array);",
+
     "phpError": {},
     "features": [
 	"array",

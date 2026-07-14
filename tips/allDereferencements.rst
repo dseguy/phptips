@@ -21,9 +21,34 @@ All PHP Dereferencements
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html","name":"All PHP Dereferencements","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:39 +0000","dateModified":"Thu, 02 Apr 2026 05:33:39 +0000","description":"This ugly expression holds a long list of operators to move from one value to the other and produces the simple letter 'c'","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html","name":"All PHP Dereferencements","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:29 +0000","dateModified":"Tue, 14 Jul 2026 14:30:29 +0000","description":"This ugly expression holds a long list of operators to move from one value to the other and produces the simple letter 'c'","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/allDereferencements.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/allDereferencements.png
+.. code-block:: php
+
+   <?php
+   
+   enum F: string {
+       case PHP = "Rocks!";
+   }
+   
+   const E = F::PHP;
+   const D = new D;
+   
+   var_dump(x::C->{$p = 'p'}[1](...)()?->{$p . $c = 2}::PHP->value[$c]);
+   
+   class X {
+       const C = D;
+   }
+   
+   class D {
+       public array $p = [1 => 'foo'];
+       public F $p2 = E;
+   }
+   
+   function foo() {
+       return new D;
+   }
+
 
 This ugly expression holds a long list of operators to move from one value to the other and produces the simple letter 'c'. Can you recognize them all?
 

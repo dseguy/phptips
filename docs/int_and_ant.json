@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["cast", "constant"],
     "3v4l": {"Of int and ant":"https://3v4l.org/nQXAL"},
+    "code": "<?php\n\nconst INT = static function($x) {return  (int)$x * (int)$x;};\necho (int)(\" 123s \");\n\/\/ fatal error\n\/\/ echo ((int))(\" 123s \");\n\nconst ant = static function($x) {return  (int)$x * (int)$x;};\necho (ant)(\" 123s \");\necho ((ant))(\" 123s \");",
+
     "phpError": {"Constant expression contains invalid operations":"constant-expression-contains-invalid-operations"}
 }

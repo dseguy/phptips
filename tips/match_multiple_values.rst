@@ -21,11 +21,21 @@ Match() With Multiple Values
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html","name":"Match() With Multiple Values","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"This is an example of using ``match()``, to match against two values at the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html","name":"Match() With Multiple Values","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:16 +0000","dateModified":"Tue, 14 Jul 2026 14:32:16 +0000","description":"This is an example of using ``match()``, to match against two values at the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match_multiple_values.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Pascal Baljet <https://x.com/pascalbaljet>`_
 
-.. image:: ../images/match_multiple_values.png
+.. code-block:: php
+
+   <?php
+   
+   match([$clause, $this->isNested()]) {
+       [Clause::IsSet, true]  => $query->has($this->relationship),
+       [Clause::IsNotSet, true]  => $query->doesntHave($this->relationship),
+       [Clause::IsSet, false]  => $query->whereNotNull($this->column),
+       [Clause::IsNotSet, false]  => $query->whereNull($this->column),
+   };
+
 
 This is an example of using ``match()``, to match against two values at the same time. The trick is to collect the two, or more, values in an array, and then return an array with the same number of elements in the same order.
 

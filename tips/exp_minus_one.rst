@@ -21,9 +21,17 @@ Exponential Minus One
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/exp_minus_one.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/exp_minus_one.html","name":"Exponential Minus One","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:41 +0000","dateModified":"Thu, 02 Apr 2026 05:33:41 +0000","description":"You can save typing by using ``expm1($x)`` instead of ``exp($x) - 1``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/exp_minus_one.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/exp_minus_one.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/exp_minus_one.html","name":"Exponential Minus One","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:37 +0000","dateModified":"Tue, 14 Jul 2026 14:31:37 +0000","description":"You can save typing by using ``expm1($x)`` instead of ``exp($x) - 1``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/exp_minus_one.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/exp_minus_one.png
+.. code-block:: php
+
+   <?php
+   
+   
+   echo expm1(1);
+   echo PHP_EOL;
+   echo exp(1) - 1;
+
 
 You can save typing by using ``expm1($x)`` instead of ``exp($x) - 1``. Also, you might have to take care of differences, as both results might be slightly different depending on the OS you're running it on : Debian is OK, but MacOS says it's different.
 

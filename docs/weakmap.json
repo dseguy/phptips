@@ -14,5 +14,7 @@
     "contact": "https://phpc.social/@dgoosens",
     "features": ["weakmap", "enum", "array"],
     "3v4l": {"Weakmap in action":"https://3v4l.org/cji28"},
+    "code": "<?php\n\nenum WeekDay: string\n{\n    case Monday = 'monday';\n    case Tuesday = 'tuesday';\n    case Wednesday = 'wednesday';\n    case Thursday = 'thursday';\n    case Friday = 'friday';\n    case Saturday = 'saturday';\n    case Sunday = 'sunday';\n}\n\nclass Foo\n{\n    public function hello()\n    {\n        return \"Hello world\" . PHP_EOL;\n    }\n}\n\n$array = [];\n$array[WeekDay::Monday->value] = new Foo();\n\/\/ etc\n\necho $array[WeekDay::Monday->value]->hello();\n\n$map = new WeakMap();\n$map[WeekDay::Monday] = new Foo();\n\/\/ etc\n\necho $map[WeekDay::Monday]->hello();",
+
     "phpError": {}
 }

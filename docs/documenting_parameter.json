@@ -16,6 +16,8 @@
     "3v4l": {
         "documenting parameters": "https://3v4l.org/Qr4tP"
     },
+    "code": "<?php\n\n\/\/ what does 1 and true mean here?\n$keys = array_keys($array, 1, true);\n\n\/\/ yes but of course\n$keys = array_keys($array, filter_value:1, strict:true);\n\n?>",
+
     "phpError": {},
     "features": [
         "named-parameter",

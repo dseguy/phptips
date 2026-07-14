@@ -21,9 +21,21 @@ mixed Is Not No Type
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_is_not_no_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_is_not_no_type.html","name":"mixed Is Not No Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:43 +0000","dateModified":"Thu, 02 Apr 2026 05:33:43 +0000","description":"When a property is not typed, nor has a default value, it still may be accessed freely: its value is ``null``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_is_not_no_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_is_not_no_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_is_not_no_type.html","name":"mixed Is Not No Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:24 +0000","dateModified":"Tue, 14 Jul 2026 14:32:24 +0000","description":"When a property is not typed, nor has a default value, it still may be accessed freely: its value is ``null``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/mixed_is_not_no_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/mixed_is_not_no_type.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       public $p;
+       public mixed $q;
+   }
+   
+   $x = new x;
+   var_dump($x->p);
+   var_dump($x->q);  // Fatal error!
+
 
 When a property is not typed, nor has a default value, it still may be accessed freely: its value is ``null``. On the other hand, a ``mixed`` typed property may also hold anything, but it cannot be accessed until it was written once.
 

@@ -21,11 +21,23 @@ A Non-transitive Comparison
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-transitive-comparison.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-transitive-comparison.html","name":"A Non-transitive Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 14:19:13 +0000","dateModified":"Mon, 13 Jul 2026 14:19:13 +0000","description":"Sometimes I truly believe that I have grasped all of the weird semantics of PHP, and then I discover something so simple that breaks an assumption I had about the language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-transitive-comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-transitive-comparison.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-transitive-comparison.html","name":"A Non-transitive Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:23:58 +0000","dateModified":"Tue, 14 Jul 2026 14:23:58 +0000","description":"Sometimes I truly believe that I have grasped all of the weird semantics of PHP, and then I discover something so simple that breaks an assumption I had about the language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-transitive-comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Gina Peter Banyard <https://github.com/Girgias>`_
 
-.. image:: ../images/non-transitive-comparison.png
+.. code-block:: php
+
+   <?php
+   
+   var_dump('0' == 0);
+   
+   var_dump('0' == false);
+   var_dump(0 == false);
+   
+   // Non transifive
+   var_dump('0' == null);
+   var_dump(0 == null);
+
 
 Sometimes I truly believe that I have grasped all of the weird semantics of PHP, and then I discover something so simple that breaks an assumption I had about the language.
 

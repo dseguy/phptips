@@ -14,6 +14,8 @@
     "3v4l": {
         "const cannot cast": "https://3v4l.org/Rff9R"
     },
+    "code": "<?php\n\nclass x {\n    const string A = '42';\n    const int B = +self::A;\n    \/\/ This, below, is a compile error\n    const int C = (int) self::A;\n    \n}",
+
     "phpError": {"Constant expression contains invalid operations":"constant-expression-contains-invalid-operations"},
     "features": ["cast", "constant-expression"]
 }

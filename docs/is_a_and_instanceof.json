@@ -15,6 +15,8 @@
     "3v4l": {
         "is_a and instanceof are in a boat...": "https://3v4l.org/ojvjm"
     },
+    "code": "<?php\n\nclass A {}\n\nvar_dump(new a instanceof A);\n\/\/ true\n\nvar_dump(new a instanceof A::class);\n\/\/ Fatal error\n\nvar_dump(is_a(new a, A::class));\n\/\/ true\n\nvar_dump(is_a(new a, A);\n\/\/ Undefined constant A",
+
     "phpError": {},
     "features": [
         "type",

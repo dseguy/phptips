@@ -13,7 +13,15 @@
     ],
     "author": "",
     "contact": "",
-    "phpError":{"Cannot call constructor":"cannot-call-constructor"},
-    "features":["constructor", "class"],
-    "3v4l":{"What is in an identifier":"https://3v4l.org/c16hv"}
+    "phpError": {
+        "Cannot call constructor": "cannot-call-constructor"
+    },
+    "features": [
+        "constructor",
+        "class"
+    ],
+    "3v4l": {
+        "What is in an identifier": "https://3v4l.org/c16hv"
+    },
+    "code": "<?php\n\n\nconst A = 'b::c';\n\nclass B {\n    static function C() { echo __METHOD__; }\n}\n\n//valid call to \\B::C()\nconstant('A')();\n\n// class A not found\n//new A;\n\n// Call to undefined function A()\nA();\n\n// parse error, this is not supported\n//{A}();"
 }

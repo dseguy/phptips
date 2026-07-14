@@ -21,9 +21,18 @@ Casting An Enum Case
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/casting_enum.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/casting_enum.html","name":"Casting An Enum Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:41 +0000","dateModified":"Thu, 02 Apr 2026 05:33:41 +0000","description":"TIL that enumeration cases cannot be cast","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/casting_enum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/casting_enum.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/casting_enum.html","name":"Casting An Enum Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:59 +0000","dateModified":"Tue, 14 Jul 2026 14:30:59 +0000","description":"TIL that enumeration cases cannot be cast","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/casting_enum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/casting_enum.png
+.. code-block:: php
+
+   <?php
+   
+   enum E: string {
+       case A = "ab";
+   }
+   
+   (string) E::A;
+
 
 TIL that enumeration cases cannot be cast. They can't be to a boolean, because they are an object.
 

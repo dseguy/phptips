@@ -21,9 +21,16 @@ Larger Than Int
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/larger_than_int.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/larger_than_int.html","name":"Larger Than Int","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 05:36:55 +0000","dateModified":"Wed, 24 Jun 2026 05:36:55 +0000","description":"printf() displays an integer as a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/larger_than_int.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/larger_than_int.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/larger_than_int.html","name":"Larger Than Int","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:13 +0000","dateModified":"Tue, 14 Jul 2026 14:32:13 +0000","description":"printf() displays an integer as a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/larger_than_int.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/larger_than_int.png
+.. code-block:: php
+
+   <?php
+   
+   printf('%u', -1);
+   print PHP_EOL;
+   print PHP_INT_MAX;
+
 
 printf() displays an integer as a string. The %u format treats the integer as an unsigned integer, while PHP only process signed integer. Here, -1 is actually 0xffffffffffffff, and the resulting string is actually twice as large as the largest PHP integer PHP_INT_MAX.
 

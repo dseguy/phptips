@@ -21,9 +21,29 @@ Multiple Aliases
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multipleAliases.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multipleAliases.html","name":"Multiple Aliases","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:38 +0000","dateModified":"Thu, 02 Apr 2026 05:33:38 +0000","description":"It is possible to rename an imported method from a trait, by using an alias name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multipleAliases.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multipleAliases.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multipleAliases.html","name":"Multiple Aliases","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:25 +0000","dateModified":"Tue, 14 Jul 2026 14:32:25 +0000","description":"It is possible to rename an imported method from a trait, by using an alias name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/multipleAliases.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/multipleAliases.png
+.. code-block:: php
+
+   <?php
+   
+   trait t {
+       function foo() {
+           echo __METHOD__.PHP_EOL;
+       }
+   }
+   
+   class x {
+       use t {
+           foo as goo;
+           foo as ioo;
+       }
+   }
+   
+   (new x)->foo(); // t::foo
+   (new x)->goo(); // t::foo
+   (new x)->ioo(); // t::foo
+
 
 It is possible to rename an imported method from a trait, by using an alias name. It is also possible to import it several times, with different names.
 

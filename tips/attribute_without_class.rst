@@ -21,9 +21,37 @@ Attribute Without Class
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attribute_without_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attribute_without_class.html","name":"Attribute Without Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 14:48:21 +0000","dateModified":"Thu, 09 Apr 2026 14:48:21 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attribute_without_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attribute_without_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attribute_without_class.html","name":"Attribute Without Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:53:17 +0000","dateModified":"Tue, 14 Jul 2026 14:53:17 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attribute_without_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/attribute_without_class.png
+.. code-block:: php
+
+   <?php
+   
+   #[Attribute]
+   class y {
+       function foo() { return __METHOD__; }
+   }
+   
+   #[X, Y]
+   function f() { }
+   
+   $ref = new \ReflectionFunction('\f');
+   
+   try {
+       if ($ref->getAttributes()[0]->getName() === 'X') {
+           print 'Look mom! No hands' . PHP_EOL;
+       }
+   
+       if ($ref->getAttributes()[1]->getName() === 'Y') {
+           print $ref->getAttributes()[1]->newInstance()->foo();
+       }
+   } catch (\Error $e) {
+       # other errors
+       var_dump($e->getMessage());
+   }
+   
+   ?>
+
 
 PHP 8.0 has an attribute feature, where extra options may be attached to various structures. The option is defined as a class, and is accessible via the Reflection API, and the getAttribute() method.
 

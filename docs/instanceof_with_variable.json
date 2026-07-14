@@ -13,5 +13,7 @@
     "contact": "",
     "3v4l":{"instanceof With Variables":"https://3v4l.org/UCoEf"},
     "features":["instanceof", "stdclass", "cast"],
+    "code": "<?php\n\n$a = (object) ['b' => 1];\n$b = new stdClass();\n\nvar_dump($a instanceof $b);\n\/\/ true\n\n?>",
+
     "phpError":{}
 }

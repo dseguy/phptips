@@ -13,6 +13,8 @@
     "author": "",
     "contact": "",
     "3v4l": {"Cannot modify readonly property":"https://3v4l.org/RIZ8k"},
+    "code": "<?php\n\nclass x {\n    function __construct(protected readonly int $x) {\n    }\n}\n\nclass y extends x {\n    function __construct(protected readonly int $x) {\n        parent::__construct($x);\n    }\n}\n\nnew y(1);\n\/\/ Fatal error: Uncaught Error: Cannot modify readonly property y::$x\n\nclass z extends x {\n    function __construct(int $x) {\n        parent::__construct($x);\n    }\n}\n\nnew z(1);\n\/\/ OK\n\n?>",
+
     "phpError": {"Incompatible readonly":"cannot-modify-readonly-property-%s::$%s"},
     "features": ["readonly", "property", "promoted-property"]
 }

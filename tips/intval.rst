@@ -21,9 +21,21 @@ intval() And Its Arguments
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/intval.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/intval.html","name":"intval() And Its Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:36 +0000","dateModified":"Thu, 02 Apr 2026 05:33:36 +0000","description":"What is happening here","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/intval.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/intval.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/intval.html","name":"intval() And Its Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:04 +0000","dateModified":"Tue, 14 Jul 2026 14:32:04 +0000","description":"What is happening here","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/intval.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/intval.png
+.. code-block:: php
+
+   <?php
+    
+   echo intval('1AZ')    .PHP_EOL; // 1 
+   echo intval('1AZ', 11).PHP_EOL; // 21
+   echo intval('1AZ', 21).PHP_EOL; // 31
+   echo intval('1AZ', 36).PHP_EOL; // 1691
+   echo intval('1AZ', 37).PHP_EOL; // 0
+   
+   echo intval( 123, 11).PHP_EOL;  // 123
+   echo intval('123', 11).PHP_EOL; // 246
+
 
 What is happening here? Multiple things to unfold, actually.
 

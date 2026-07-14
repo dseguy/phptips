@@ -21,9 +21,24 @@ Constants Can Be Impossible
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_a_constant_is_impossible.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_a_constant_is_impossible.html","name":"Constants Can Be Impossible","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:38:42 +0000","dateModified":"Thu, 02 Apr 2026 05:38:42 +0000","description":"In this code, the constant ``x2::F`` is not possible, because adding a string and an array results in a fatal error","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_a_constant_is_impossible.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_a_constant_is_impossible.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_a_constant_is_impossible.html","name":"Constants Can Be Impossible","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:34:00 +0000","dateModified":"Tue, 14 Jul 2026 14:34:00 +0000","description":"In this code, the constant ``x2::F`` is not possible, because adding a string and an array results in a fatal error","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/when_a_constant_is_impossible.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/when_a_constant_is_impossible.png
+.. code-block:: php
+
+   <?php
+   
+   enum x : string {
+       case B = 'b';
+       const C = 'c';
+   }
+   
+   class x2 {
+       const E = x::B->value;
+       const F = x::C + [];
+   }
+   
+   echo x2::E;
+
 
 In this code, the constant ``x2::F`` is not possible, because adding a string and an array results in a fatal error.
 

@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["class", "namespace", "use", "alias"],
     "3v4l": {"Possible name conflicts":"https://3v4l.org/A6YOX"},
+    "code": "<?php\n\nnamespace A {\n\n\/\/        class xBefore {}\n}\n\nnamespace A {\n    use y as xAfter;\n    use y as xBefore;\n    class y {}\n}\n\n\nnamespace A {\n        class xAfter {}\n}",
+
     "phpError": {}
 }

@@ -21,9 +21,26 @@ Escaping A Regex
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/escaped_regex.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/escaped_regex.html","name":"Escaping A Regex","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:43 +0000","dateModified":"Thu, 02 Apr 2026 05:33:43 +0000","description":"To use literal characters inside a regex, it is possible to use preg_quote(): it adds a backslash before every special character in the string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/escaped_regex.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/escaped_regex.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/escaped_regex.html","name":"Escaping A Regex","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:53:10 +0000","dateModified":"Tue, 14 Jul 2026 14:53:10 +0000","description":"To use literal characters inside a regex, it is possible to use preg_quote(): it adds a backslash before every special character in the string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/escaped_regex.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/escaped_regex.png
+.. code-block:: php
+
+   <?php
+   $regex = 'test.';
+   
+   // match
+   print preg_match('/^'.$regex.'$/i', 'tests') ? 'match' : 'nomatch';
+   print PHP_EOL;
+   
+   // nomatch
+   print preg_match('/^'.preg_quote($regex).'$/i', 'tests') ? 'match' : 'nomatch';
+   print PHP_EOL;
+   
+   // nomatch
+   print preg_match('/^\Q'.$regex.'\E$/i', 'tests') ? 'match' : 'nomatch';
+   print PHP_EOL;
+   ?>
+
 
 To use literal characters inside a regex, it is possible to use preg_quote(): it adds a backslash before every special character in the string. Don't forget to use the second argument, which can hold any arbitrary delimiter.
 

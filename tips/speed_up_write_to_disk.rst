@@ -21,9 +21,33 @@ Speed Up CSV Write To Disk
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/speed_up_write_to_disk.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/speed_up_write_to_disk.html","name":"Speed Up CSV Write To Disk","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:32 +0000","dateModified":"Thu, 02 Apr 2026 05:33:32 +0000","description":"When writing CSV files with fputcsv() function, PHP flushes each row to the disk","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/speed_up_write_to_disk.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/speed_up_write_to_disk.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/speed_up_write_to_disk.html","name":"Speed Up CSV Write To Disk","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:30 +0000","dateModified":"Tue, 14 Jul 2026 14:33:30 +0000","description":"When writing CSV files with fputcsv() function, PHP flushes each row to the disk","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/speed_up_write_to_disk.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/speed_up_write_to_disk.png
+.. code-block:: php
+
+   <?php
+   
+   // Speedy yet memory intensive version
+   $f = fopen('php://memory', 'w+');
+   foreach($data_source as $row) {
+       // You may configure fputcsv as usual
+       fputcsv($f, $row);
+   }
+   rewind($f); // Important
+   $fp = fopen('final.csv', 'w+');
+   fputs($fp, stream_get_contents($f));
+   fclose($fp);
+   fclose($f);
+   
+   // Slower version
+   $fp = fopen('final.csv', 'w+');
+   foreach($data_source as $row) {
+       // You may configure fputcsv as usual
+       fputcsv($fp, $row);
+   }
+   fclose($fp);
+   ?>
+
 
 When writing CSV files with fputcsv() function, PHP flushes each row to the disk. To speed up the process, it is possible to open a file in memory, with the ``php://memory`` wrapper, and write the CSV there. Then, it is possible to write down from memory down to the disk in one batch, saving a lot of disks flushes.
 

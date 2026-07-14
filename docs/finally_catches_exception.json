@@ -14,6 +14,8 @@
     "3v4l": {
         "Catch an exception with finally": "https://3v4l.org/uVRJ3"
     },
+    "code": "<?php\n\nfunction foo() {\n    try {\n        throw new Exception('yeah');\n    } finally {\n        return 1;\n    }\n}\n\nprint foo();\n\/\/ print 1, no exception\n\n?>",
+
     "phpError": {},
     "features": [        
         "finally",

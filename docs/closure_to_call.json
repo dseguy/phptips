@@ -15,5 +15,7 @@
     "contact": "",
     "features": ["self", "call", "ellipsis"],
     "3v4l": {"Define and call a closure":"https://3v4l.org/mDFnh"},
+    "code": "<?php\n\n\nfunction foo($a, $b) { return $a + $b; }\n\nfoo(1,2);\nfoo(...)(1,2);\nfoo(...)(...)(1,2);",
+
     "phpError":{}
 }

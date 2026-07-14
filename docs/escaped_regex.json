@@ -5,7 +5,7 @@
     "content": "To use literal characters inside a regex, it is possible to use preg_quote(): it adds a backslash before every special character in the string. Don't forget to use the second argument, which can hold any arbitrary delimiter.\nAnother option is to use the ``\\Q`` and ``\\E`` characters inside the regex: it turns all the special characters into a literal value.",
     "seeAlso": {
         "Escape sequences (PHP manual)": "https://www.php.net/manual/en/regexp.reference.escape.php",
-        "preg_quote":"https://www.php.net/manual/en/function.preg-quote.php"
+        "preg_quote": "https://www.php.net/manual/en/function.preg-quote.php"
     },
     "tags": [
         "hidden gem",
@@ -17,5 +17,9 @@
         "Escaping for regex": "https://3v4l.org/oTFal"
     },
     "phpError": {},
-    "features": ["regex", "escape-data"]
+    "features": [
+        "regex",
+        "escape-data"
+    ],
+    "code": "<?php\n$regex = 'test.';\n\n// match\nprint preg_match('/^'.$regex.'$/i', 'tests') ? 'match' : 'nomatch';\nprint PHP_EOL;\n\n// nomatch\nprint preg_match('/^'.preg_quote($regex).'$/i', 'tests') ? 'match' : 'nomatch';\nprint PHP_EOL;\n\n// nomatch\nprint preg_match('/^\\Q'.$regex.'\\E$/i', 'tests') ? 'match' : 'nomatch';\nprint PHP_EOL;\n?>"
 }

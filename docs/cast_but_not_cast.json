@@ -13,5 +13,7 @@
     "features": ["cast", "neutral-element"],
     "3v4l": {"cast, cast, cast and cast":"https://3v4l.org/J6SM0",
             "Not so silent":"https://3v4l.org/oZKZM"},
+    "code": "<?php\n\n$string = '123';\n$integer = 0 + $string;\n$integer = $string - 0;\n$integer = 1 * $string;\n$integer = $string \/ 1;\n$integer = $string ** 1;\n$integer = + $string;\n$integer = - - $string;\n\necho '123' ** 0;\n\n\n?>",
+
     "phpError": {"A non-numeric value encountered":"a-non-numeric-value-encountered"}
 }

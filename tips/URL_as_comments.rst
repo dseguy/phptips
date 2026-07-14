@@ -21,9 +21,19 @@ URL As Comments
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/URL_as_comments.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/URL_as_comments.html","name":"URL As Comments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:21:40 +0000","dateModified":"Mon, 29 Jun 2026 09:21:40 +0000","description":"The code below includes a raw URL in the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/URL_as_comments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/URL_as_comments.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/URL_as_comments.html","name":"URL As Comments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:27 +0000","dateModified":"Tue, 14 Jul 2026 14:30:27 +0000","description":"The code below includes a raw URL in the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/URL_as_comments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/URL_as_comments.png
+.. code-block:: php
+
+   <?php
+   
+   http://www.example.com/foo 
+   function foo($a) {
+       // what does this do?
+   }
+   
+   ?>
+
 
 The code below includes a raw URL in the code. PHP understand that code as a goto label, followed by a online comment starting with //. As such, the comment is valid, but cannot be repeated, as it would make a dual goto label, and PHP would raise an error.
 

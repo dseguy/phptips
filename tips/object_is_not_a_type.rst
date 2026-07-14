@@ -21,9 +21,18 @@ Object Is Not A Type
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/object_is_not_a_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/object_is_not_a_type.html","name":"Object Is Not A Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:41 +0000","dateModified":"Thu, 02 Apr 2026 05:33:41 +0000","description":"Such situations always make me smile, yet I am certain several of us will loose time on such a mistake","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/object_is_not_a_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/object_is_not_a_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/object_is_not_a_type.html","name":"Object Is Not A Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:52 +0000","dateModified":"Tue, 14 Jul 2026 14:32:52 +0000","description":"Such situations always make me smile, yet I am certain several of us will loose time on such a mistake","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/object_is_not_a_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/object_is_not_a_type.png
+.. code-block:: php
+
+   <?php
+   
+   class a {}
+   
+   $a = new A;
+   var_dump($a instanceof object); // false
+   var_dump(is_object($a));        // true
+
 
 Such situations always make me smile, yet I am certain several of us will loose time on such a mistake. ``object`` is a type that can be used with argument, returntypes and properties, but not with ``instanceof``. It is a bit more obvious with integer or string in the ``instanceof``.
 

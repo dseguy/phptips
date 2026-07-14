@@ -21,9 +21,30 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_custom.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_custom.html","name":"\\\\array Was Customizable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 10:35:11 +0000","dateModified":"Thu, 02 Apr 2026 10:35:11 +0000","description":"This code gathers several PHP hacks together","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_custom.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_custom.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_custom.html","name":"\\\\array Was Customizable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:53:21 +0000","dateModified":"Tue, 14 Jul 2026 14:53:21 +0000","description":"This code gathers several PHP hacks together","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_custom.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/array_is_custom.png
+.. code-block:: php
+
+   <?php
+   
+   $anonymous = new class () {};
+   
+   class_alias($anonymous::class, \array::class);
+   
+   function foo(\array $object) : \array {
+       var_dump($object);
+   
+       return $object;
+   }
+   
+   foo($anonymous);
+   
+   /*
+   object(class@anonymous)#1 (0) {
+   }
+   */
+   ?>
+
 
 This code gathers several PHP hacks together.
 

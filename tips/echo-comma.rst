@@ -21,9 +21,18 @@ Call echo With Commas
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/echo-comma.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/echo-comma.html","name":"Call echo With Commas","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:38 +0000","dateModified":"Thu, 02 Apr 2026 05:33:38 +0000","description":"The most efficient way to call echo is to use commas","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/echo-comma.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/echo-comma.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/echo-comma.html","name":"Call echo With Commas","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:30 +0000","dateModified":"Tue, 14 Jul 2026 14:31:30 +0000","description":"The most efficient way to call echo is to use commas","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/echo-comma.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/echo-comma.png
+.. code-block:: php
+
+   <?php
+     
+   echo 'a', 'b', 'c'; // abc
+   echo ('a' . 'b' . 'c'); // abc
+   print('a' . 'b' . 'c'); // abc
+   
+   ?>
+
 
 The most efficient way to call echo is to use commas. Each argument of echo is then sent to the output. Echo is not a function, but a language construct, with this special ability.
 

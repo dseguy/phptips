@@ -21,9 +21,19 @@ No Final Parameter
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-final-parameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-final-parameter.html","name":"No Final Parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:31 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"Final is reserved for class elements, such as property, methods and constants","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-final-parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-final-parameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-final-parameter.html","name":"No Final Parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:34 +0000","dateModified":"Tue, 14 Jul 2026 14:32:34 +0000","description":"Final is reserved for class elements, such as property, methods and constants","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-final-parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/no-final-parameter.png
+.. code-block:: php
+
+   <?php
+   
+   class X {
+       function __construct(
+           //Cannot use the final modifier on a parameter        
+           private final $property
+       ) {}
+   }
+
 
 Final is reserved for class elements, such as property, methods and constants. They do not apply to parameters, unless the parameter is a promoted property, in the constructor signature.
 

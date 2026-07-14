@@ -4,7 +4,7 @@
     "title": "Attribute Without Class",
     "content": "PHP 8.0 has an attribute feature, where extra options may be attached to various structures. The option is defined as a class, and is accessible via the Reflection API, and the getAttribute() method.\nThe attribute class is not necessary, per se. As long at the attribute is not instantiated, it is possible to rely only on the name of the attribute to handle specific behaviors.",
     "seeAlso": {
-        "Attributes overview (PHP manual)": "https:\/\/www.php.net\/manual\/en\/language.attributes.overview.php"
+        "Attributes overview (PHP manual)": "https://www.php.net/manual/en/language.attributes.overview.php"
     },
     "tags": [
         "attribute",
@@ -13,8 +13,12 @@
     "author": "",
     "contact": "",
     "3v4l": {
-        "Attribute Without Class on 3v4l.org": "https:\/\/3v4l.org\/jc7gE"
+        "Attribute Without Class on 3v4l.org": "https://3v4l.org/jc7gE"
     },
     "phpError": {},
-    "features": ["attribute", "undefined"]
+    "features": [
+        "attribute",
+        "undefined"
+    ],
+    "code": "<?php\n\n#[Attribute]\nclass y {\n    function foo() { return __METHOD__; }\n}\n\n#[X, Y]\nfunction f() { }\n\n$ref = new \\ReflectionFunction('\\f');\n\ntry {\n    if ($ref->getAttributes()[0]->getName() === 'X') {\n        print 'Look mom! No hands' . PHP_EOL;\n    }\n\n    if ($ref->getAttributes()[1]->getName() === 'Y') {\n        print $ref->getAttributes()[1]->newInstance()->foo();\n    }\n} catch (\\Error $e) {\n    # other errors\n    var_dump($e->getMessage());\n}\n\n?>"
 }

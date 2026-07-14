@@ -21,9 +21,31 @@ Constructor Needed
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_needed.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_needed.html","name":"Constructor Needed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:32 +0000","dateModified":"Thu, 02 Apr 2026 05:33:32 +0000","description":"By default, classes don't need a constructor, and it may be omitted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_needed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_needed.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_needed.html","name":"Constructor Needed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:34:46 +0000","dateModified":"Tue, 14 Jul 2026 14:34:46 +0000","description":"By default, classes don't need a constructor, and it may be omitted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constructor_needed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/constructor_needed.png
+.. code-block:: php
+
+   <?php
+   
+   
+   const A = 'b::c';
+   
+   class B {
+       static function C() { echo __METHOD__; }
+   }
+   
+   //valid call to \B::C()
+   constant('A')();
+   
+   // class A not found
+   //new A;
+   
+   // Call to undefined function A()
+   A();
+   
+   // parse error, this is not supported
+   //{A}();
+
 
 By default, classes don't need a constructor, and it may be omitted. It is also true in the case of child classes: PHP look for a local constructor, then a parent constructor, and it is valid to have none of them.
 

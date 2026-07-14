@@ -21,9 +21,17 @@ stdClass Object
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stdclass_tracking.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stdclass_tracking.html","name":"stdClass Object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:44 +0000","dateModified":"Thu, 02 Apr 2026 05:33:44 +0000","description":"PHP recycles the previously created stdClass objects ids","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stdclass_tracking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stdclass_tracking.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stdclass_tracking.html","name":"stdClass Object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:37 +0000","dateModified":"Tue, 14 Jul 2026 14:33:37 +0000","description":"PHP recycles the previously created stdClass objects ids","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stdclass_tracking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/stdclass_tracking.png
+.. code-block:: php
+
+   <?php
+   
+   var_dump(new stdclass);
+   var_dump((object) []);
+   var_dump($b = new stdclass());
+   var_dump(new stdclass(3));
+
 
 PHP recycles the previously created stdClass objects ids. The following code displays Object #1, until it is stored in $b. When the stdClass is not stored in a container (variable, property, etc.), it is completely lost and no object counting happens.
 

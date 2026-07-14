@@ -14,5 +14,7 @@
     "contact": "",
     "features":["null", "coalesce"],
     "3v4l":{"3 ways to check on null":"https://3v4l.org/Y8IUC"},
+    "code": "<?php\n\n\/\/ very slow\n$total = @$x;\n\n\/\/ looks weird\n$total = $x ?? null;\n\n\/\/ lengthy \nif (!isset($x)) {\n    $total = null;\n} else {\n    $total = $x;\n}\n\n?>",
+
     "phpError":{}
 }

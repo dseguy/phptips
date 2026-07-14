@@ -21,9 +21,25 @@ Cloning Static Variable
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cloning_static_variable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cloning_static_variable.html","name":"Cloning Static Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 11:25:46 +0000","dateModified":"Fri, 05 Jun 2026 11:25:46 +0000","description":"It is not possible to clone a static variable, but it is well possible to duplicate a closure which contains a static variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cloning_static_variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cloning_static_variable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cloning_static_variable.html","name":"Cloning Static Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:07 +0000","dateModified":"Tue, 14 Jul 2026 14:31:07 +0000","description":"It is not possible to clone a static variable, but it is well possible to duplicate a closure which contains a static variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cloning_static_variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/cloning_static_variable.png
+.. code-block:: php
+
+   <?php
+   
+   // First class callable
+   function a() { static $c = 0; return $c++; }
+   $c = a(...);
+   
+   $c = function () { static $c = 0; return $c++; };
+   
+   print $c();
+   print $c();
+   $d = clone $c;
+   print $d();
+   
+   ?>
+
 
 It is not possible to clone a static variable, but it is well possible to duplicate a closure which contains a static variable. Then, the variable is duplicated with its content at the time of cloning. So, it might be the default value, or it might be an subsequent value if the closure has already been used.
 

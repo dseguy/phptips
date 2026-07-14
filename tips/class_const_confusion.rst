@@ -21,9 +21,34 @@ Classes Constant Disambiguation With Parenthesis
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_const_confusion.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_const_confusion.html","name":"Classes Constant Disambiguation With Parenthesis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:39 +0000","dateModified":"Thu, 02 Apr 2026 05:33:39 +0000","description":"The ``::`` (scope resolution) operator and the instanceof operator in PHP are strictly designed to work with class names, not with variables or constants holding object instances","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_const_confusion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_const_confusion.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_const_confusion.html","name":"Classes Constant Disambiguation With Parenthesis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:04 +0000","dateModified":"Tue, 14 Jul 2026 14:31:04 +0000","description":"The ``::`` (scope resolution) operator and the instanceof operator in PHP are strictly designed to work with class names, not with variables or constants holding object instances","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class_const_confusion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/class_const_confusion.png
+.. code-block:: php
+
+   <?php
+   
+   class A { const B = 'A::B is a constant'.PHP_EOL; }
+   
+   class C { const B = 'C::B is a constant'.PHP_EOL; }
+   
+   const C = new A;
+   
+   echo C::B;    // C is the class
+   echo (C)::B;  // C is the constant
+   
+   // C is a class here
+   var_dump(new C instanceof C);
+   // (C) is the constant, 
+   var_dump(new C instanceof (C));
+   
+   // instanceof works with objects too
+   var_dump(new C instanceof (new C));
+   
+   // but this is invalid syntax
+   //var_dump(new C instanceof new C);
+   
+   ?>
+
 
 The ``::`` (scope resolution) operator and the instanceof operator in PHP are strictly designed to work with class names, not with variables or constants holding object instances. Even when a constant exists with a name identical to a class, PHP will not automatically treat it as an object for these operators. The constant’s value, even if it holds an object, will not be used unless it is explicitly dereferenced. To dereference and force evaluation of the constant's value as an object, you must enclose the constant in parentheses. This ensures PHP evaluates the constant and retrieves the object it contains before applying the operator.
 

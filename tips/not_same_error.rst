@@ -21,9 +21,32 @@ Array And Object Syntax, Not The Same Error
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_same_error.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_same_error.html","name":"Array And Object Syntax, Not The Same Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:34 +0000","dateModified":"Thu, 02 Apr 2026 05:33:34 +0000","description":"When accessing an array as an object, PHP raises a Warning and continues with NULL","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_same_error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_same_error.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_same_error.html","name":"Array And Object Syntax, Not The Same Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:49 +0000","dateModified":"Tue, 14 Jul 2026 14:32:49 +0000","description":"When accessing an array as an object, PHP raises a Warning and continues with NULL","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/not_same_error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/not_same_error.png
+.. code-block:: php
+
+   <?php
+   
+   function foo() {
+       yield 1;
+       yield 2;
+       yield 3;
+       
+       return ' 4';
+   }
+   
+   function goo($a, $b, $c) {
+       print "$a $b $c";
+   }
+   print PHP_EOL;
+   
+   goo(...foo());
+   
+   goo(...($g = foo()));
+   echo $g->getReturn();
+   
+   ?>
+
 
 When accessing an array as an object, PHP raises a Warning and continues with NULL.
 

@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["sort", "spaceship",    "ascii", "multi-byte"],
     "3v4l": {"min-max on strings":"https://3v4l.org/CkVhSL#v8.5.6"},
+    "code": "<?php\n\n$a = ['shit', 'min', 'acces', 'max'];\necho min($a); \/\/ access\n\n$a = ['shit', 0, 'acces', '%'];\necho min($a); \/\/ %\n\n\/\/ Cute\n$a = ['shit', .8 , 'acces', '.9'];\necho min($a); \/\/ 0.8 \n\n\/\/ Multi-byte\n$a = ['\u901a','\u7528','\u89c4','\u8303','\u6c49','\u5b57','\u8868'];\necho min($a); \n\n\/\/ Multi-byte\n$a = ['\uc548','\ub155','\ud558','\uc138','\uc694'];\necho min($a);",
+
     "phpError": {}
 }

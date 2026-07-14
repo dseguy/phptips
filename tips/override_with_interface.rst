@@ -21,9 +21,23 @@ Override With Interface
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/override_with_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/override_with_interface.html","name":"Override With Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:34 +0000","dateModified":"Thu, 02 Apr 2026 05:33:34 +0000","description":"The override attribute checks that a method is actually overriding a parent definition of the same method: this implies that a class must have a parent to use the Override attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/override_with_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/override_with_interface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/override_with_interface.html","name":"Override With Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:54 +0000","dateModified":"Tue, 14 Jul 2026 14:32:54 +0000","description":"The override attribute checks that a method is actually overriding a parent definition of the same method: this implies that a class must have a parent to use the Override attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/override_with_interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/override_with_interface.png
+.. code-block:: php
+
+   <?php
+   
+   interface i {
+       function foo();
+   }
+   
+   class X implements i {
+       #[Override]
+       function foo() {}
+   }
+   
+   var_dump(new x);
+
 
 The override attribute checks that a method is actually overriding a parent definition of the same method: this implies that a class must have a parent to use the Override attribute.
 

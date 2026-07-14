@@ -21,9 +21,20 @@ No Self Referencing Constants
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-referencing-constants.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-referencing-constants.html","name":"No Self Referencing Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 10:26:34 +0000","dateModified":"Wed, 08 Apr 2026 10:26:34 +0000","description":"It is not possible to define a recursive PHP class constant, although it is possible to write it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-referencing-constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-referencing-constants.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-referencing-constants.html","name":"No Self Referencing Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:21 +0000","dateModified":"Tue, 14 Jul 2026 14:33:21 +0000","description":"It is not possible to define a recursive PHP class constant, although it is possible to write it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/self-referencing-constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/self-referencing-constants.png
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       const A = x::A + 1;
+       
+       const B = x::C + 1;
+       const C = x::B + 1;
+       
+   }
+
 
 It is not possible to define a recursive PHP class constant, although it is possible to write it. A self referencing constant may be with itself, or it may use a complex right of class definitions before failing.
 

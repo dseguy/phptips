@@ -1,14 +1,14 @@
 {
-"image":"instanceof_class.png",
-"date":"2022-08-10",
-"title":"instanceof Object",
-"content":"object is a type, but it can also be used as a constant name. Then, instanceof accepts it for testing a variable.\nThere are some other cases around instanceof, which are surprising upon first read.\nIt is possible to use a string or an object in a variable, but not a direct string, a constant nor a ``::class``.",
-"seeAlso":{
-	"Type Operators (PHP manual)":"https://www.php.net/manual/en/language.operators.type.php"
-},
-"tags":[
-	"trick"
-],
+    "image": "instanceof_class.png",
+    "date": "2022-08-10",
+    "title": "instanceof Object",
+    "content": "object is a type, but it can also be used as a constant name. Then, instanceof accepts it for testing a variable.\nThere are some other cases around instanceof, which are surprising upon first read.\nIt is possible to use a string or an object in a variable, but not a direct string, a constant nor a ``::class``.",
+    "seeAlso": {
+        "Type Operators (PHP manual)": "https://www.php.net/manual/en/language.operators.type.php"
+    },
+    "tags": [
+        "trick"
+    ],
     "author": "",
     "contact": "",
     "3v4l": {
@@ -16,8 +16,8 @@
     },
     "phpError": {},
     "features": [
-        	"class",
-        	"constant"
+        "class",
+        "constant"
     ],
-    "phpError":{}
+    "code": "<?php\n\nclass a {}\n\n$a = new a;\n\n$b = '\\\\a';\nvar_dump($a instanceof $b);\nvar_dump($a instanceof \\a);\n\n// C is not a constant, but a class name (see use)\nconst object = '\\\\a';\nvar_dump($a instanceof object);\nuse a as c;\nvar_dump($a instanceof c);\n\n// compile error : unexpected T_CLASS\n// var_dump($a instanceof a::class);\n// compile error : unexpected T_CONSTANT_ENCAPS_STRING\n// var_dump($a instanceof 'a');"
 }

@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["post-increment", "pre-increment", "addition"],
     "3v4l": {"Lots of +":"https://3v4l.org/lrZe3#v8.5.3"},
+    "code": "<?php\n\n$a = 5;\n$b = $a++-++$a;\n\necho $b; \/\/ -2\necho $a; \/\/ 7\n\n\/\/ This, sadly, doesn't compile \n\/\/$b = $a+++++$a;\n\n$a = 5;\n$b = $a++ + ++$a; \/\/ 12\necho $b; \/\/ 12\necho $a; \/\/ 7",
+
     "phpError": {}
 }

@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["php_int_max", "printf", "signed-integer"],
     "3v4l": {"Larger then PHP_INT_MAX":"https://3v4l.org/GZtNq#v8.5.7"},
+    "code": "<?php\n\nprintf('%u', -1);\nprint PHP_EOL;\nprint PHP_INT_MAX;",
+
     "phpError": {}
 }

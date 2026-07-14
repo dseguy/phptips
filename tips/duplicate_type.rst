@@ -21,9 +21,29 @@ Duplicate Type
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/duplicate_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/duplicate_type.html","name":"Duplicate Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 11:26:16 +0000","dateModified":"Fri, 05 Jun 2026 11:26:16 +0000","description":"Union types check for duplicate types, so ``array|array`` is not possible, nor if a class is aliased with a use expression: on the other hand, it is valid with a class alias, created with ``class_alias()``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/duplicate_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/duplicate_type.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/duplicate_type.html","name":"Duplicate Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:25 +0000","dateModified":"Tue, 14 Jul 2026 14:31:25 +0000","description":"Union types check for duplicate types, so ``array|array`` is not possible, nor if a class is aliased with a use expression: on the other hand, it is valid with a class alias, created with ``class_alias()``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/duplicate_type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/duplicate_type.png
+.. code-block:: php
+
+   <?php
+   
+   class_alias('a', 'c');
+   use A as B;
+   
+   // duplicate hidden type
+   function foo(array | iterable $b) {}
+   
+   // d8plicate type
+   function foo2(a | b $b) {}
+   
+   // a and c are always considered distinct
+   function foo3(a | c $b) {}
+   
+   // PHP is smarter than this poor usage of DNF
+   function foo4((a & b) | (b & a) $b) {}
+   
+   ?>
+
 
 Union types check for duplicate types, so ``array|array`` is not possible, nor if a class is aliased with a use expression: on the other hand, it is valid with a class alias, created with ``class_alias()``.
 

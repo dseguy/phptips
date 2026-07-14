@@ -15,6 +15,8 @@
     "3v4l": {
         "Unset Properties": "https://3v4l.org/SU2SE"
     },
+    "code": "<?php\n\nclass X {\n    public $a;\n    public ?int $b = 1;\n    \n    function clean() {\n        unset($this->a);\n        unset($this->b);\n    }\n}\n\n$x = new X;\n$x->clean();\n\nvar_dump($x->a);\nvar_dump($x->b);\n\n?>",
+
     "phpError": {
         "Undefined property": "undefined-property-%s::$%s",
         "Typed property %s::$%s must not be accessed before initialization": "typed-property-%s::$%s-must-not-be-accessed-before-initialization"

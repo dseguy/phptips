@@ -15,6 +15,8 @@
     "3v4l": {
         "No reference for yield": "https://3v4l.org/KQ4Nq"
     },
+    "code": "<?php\n\nfunction &gen() {\n    yield 'foo';\n    \n    return 'Literal';\n}\n\n$gen = gen();\nvar_dump($gen->current());\n\n\nforeach($gen as $a) {\n    print $a;\n}\n\nprint $gen->getReturn();\n\n?>",
+
     "phpError": {},
     "features": [        "reference",
         "generator", "yield"

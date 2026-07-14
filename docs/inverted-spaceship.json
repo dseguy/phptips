@@ -15,5 +15,7 @@
         "Order of properties matter":"https://3v4l.org/2nPL6#veol",
         "Order of promoted properties doesn't matter'":"https://3v4l.org/E6G8f#veol"
     },
+    "code": "<?php\n\nclass A {\n    public string $a;\n    public string $b;\n    public function __construct(\n        string $a,\n        string $b,\n    ){\n        $this->a = $a;\n        $this->b = $b;\n    }\n}\n\n$a = new A('b', 'a');\n$b = new A('a', 'b');\n\nvar_dump($a <=> $b);  \/\/ 1\nvar_dump($b <=> $a);  \/\/ -1\n\nclass B {\n    public string $b;  \/\/ The property declarations are inverted\n    public string $a;\n    public function __construct(\n        string $a,\n        string $b,\n    ){\n        $this->a = $a;\n        $this->b = $b;\n    }\n}\n\n$a = new B('b', 'a');\n$b = new B('a', 'b');\n\nvar_dump($a <=> $b);  \/\/ -1\nvar_dump($b <=> $a);  \/\/ 1",
+
     "phpError": {}
 }

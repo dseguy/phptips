@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["loop", "foreach"],
     "3v4l": {"Infinite loop with Foreach()":"https://3v4l.org/EdqjS"},
+    "code": "<?php\n\n$array = [0];\n\nforeach ($array as &$value) {\n    print $value.PHP_EOL;\n    $array[] = $value + 1;\n}",
+
     "phpError": {}
 }

@@ -21,9 +21,15 @@ parse_str() Edge Cases
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parse_str_edge_cases.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parse_str_edge_cases.html","name":"parse_str() Edge Cases","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:34 +0000","dateModified":"Thu, 02 Apr 2026 05:33:34 +0000","description":"parse_str() reads the variables in the URL's query string, and convert them into an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parse_str_edge_cases.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parse_str_edge_cases.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parse_str_edge_cases.html","name":"parse_str() Edge Cases","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:56 +0000","dateModified":"Tue, 14 Jul 2026 14:32:56 +0000","description":"parse_str() reads the variables in the URL's query string, and convert them into an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parse_str_edge_cases.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/parse_str_edge_cases.png
+.. code-block:: php
+
+   <?php
+   
+   parse_str('x=1&y.z=2&a b=3&c+d=4&e[=3', $x);
+   print_r($x);
+
 
 parse_str() reads the variables in the URL's query string, and convert them into an array. When the variable names contain a dot ``.``, that dot is automagically converted to an underscore.
 

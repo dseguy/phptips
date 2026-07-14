@@ -21,9 +21,17 @@ Array Is Full
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html","name":"Array Is Full","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 07:43:26 +0000","dateModified":"Fri, 29 May 2026 07:43:26 +0000","description":"When using append, the next id is calculated based on the largest integer key ever used in that array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html","name":"Array Is Full","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:38 +0000","dateModified":"Tue, 14 Jul 2026 14:30:38 +0000","description":"When using append, the next id is calculated based on the largest integer key ever used in that array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_is_full.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/array_is_full.png
+.. code-block:: php
+
+   <?php
+   
+   $array = [PHP_INT_MAX => 1];
+   $array[] = 2;
+   
+   // Cannot add element to the array as the next element is already occupied
+
 
 When using append, the next id is calculated based on the largest integer key ever used in that array. When the array has reached the biggest integer possible, a.k.a. ``PHP_INT_MAX``, then the next-array-key generator fails, and this error is displayed.
 

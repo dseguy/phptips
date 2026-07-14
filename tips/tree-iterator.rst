@@ -21,11 +21,47 @@ Display A Tree Natively
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/tree-iterator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/tree-iterator.html","name":"Display A Tree Natively","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:42 +0000","dateModified":"Thu, 02 Apr 2026 05:33:42 +0000","description":"PHP has a built-in ASCII tree renderer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/tree-iterator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/tree-iterator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/tree-iterator.html","name":"Display A Tree Natively","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:52:40 +0000","dateModified":"Tue, 14 Jul 2026 14:52:40 +0000","description":"PHP has a built-in ASCII tree renderer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/tree-iterator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Alexandre Daubois <https://x.com/alexdaubois>`_
 
-.. image:: ../images/tree-iterator.png
+.. code-block:: php
+
+   <?php
+   
+   $data = [
+       'src' => [
+           'Controller' => ['HomeController.php', 'ApiController.php'],
+           'Entity' => ['User.php', 'Product.php'],
+           'Kernel.php',
+       ],
+       'tests' => ['AppTest.php'],
+       'composer.json',
+   ];
+   
+   $tree = new RecursiveTreeIterator(
+       new RecursiveArrayIterator($data)
+   );
+   
+   foreach ($tree as $line) {
+       echo $line . "\n";
+   }
+   
+   // Output:
+   // |-src
+   // | |-Controller
+   // | | |-HomeController.php
+   // | | \-ApiController.php
+   // | |-Entity
+   // | | |-User.php
+   // | | \-Product.php
+   // | \-Kernel.php
+   // |-tests
+   // | \-AppTest.php
+   // \-composer.json
+   
+   // (also works with RecursiveDirectoryIterator!)
+
 
 PHP has a built-in ASCII tree renderer. In the SPL.
 

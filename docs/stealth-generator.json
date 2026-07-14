@@ -14,5 +14,7 @@
 "contact":"https://bsky.app/profile/bouchery.fr",
 "3v4l":{"stealth generator":"https://3v4l.org/5d9JC"},
 "features":["generator", "yield"],
+"code": "<?php \n\nfunction foo(): iterable {\n    return ['a'];\n    yield 'b';\n}\n\nforeach(foo() as $v) {\n    echo $v;\n}",
+
 "phpError":{}
 }

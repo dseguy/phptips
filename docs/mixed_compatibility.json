@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["method-compatibility", "variadic", "mixed"],
     "3v4l": {"mixed variadic magic":"https://3v4l.org/6kQRu"},
+    "code": "<?php\n\nclass x           { function foo(int $a, int ...$args) {} }\nclass y extends x { function foo(        int ...$args) {} }  \/\/ OK! \n\/\/class z extends x { function foo(int $a, int $b, int ...$args) {} } \/\/ KO \n\nclass x2            { function foo() {} }\nclass y2 extends x2 { function foo(mixed ...$args) {} }  \/\/ OK! \n\/\/class y22 extends x2 { function foo(mixed $a, mixed ...$args) {} }  \/\/ KO\n\nclass x4            { function foo($a, $b) {} }\nclass y4 extends x4 { function foo($b, $c, $d) {} }  \/\/ OK! \n\/\/class y22 extends x2 { function foo(mixed $a, mixed ...$args) {} }  \/\/ KO\n\nclass x3            { function foo(mixed ...$args) {} }\n\/\/class y3 extends x3 { function foo() {} }  \/\/ KO\n\/\/class y32 extends x3 { function foo(mixed $a) {} }  \/\/ KOx\n\nclass x4            { function foo(int $a, int $b) {} }\nclass y4 extends x4 { function foo(int $b, int $a) {} }  \/\/ KO",
+
     "phpError": {"Declaration of y4::foo($b, $c, $d) must be compatible with x4::foo($a, $b)":"declaration-of-%s::%s()-must-be-compatible-with-%s::%s()"}
 }

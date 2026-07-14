@@ -21,11 +21,24 @@ No Returntype But Still, Only String
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html","name":"No Returntype But Still, Only String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 05 Jul 2026 10:18:28 +0000","dateModified":"Sun, 05 Jul 2026 10:18:28 +0000","description":"Without a return type (or mixed), a method may return any type of data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html","name":"No Returntype But Still, Only String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:36 +0000","dateModified":"Tue, 14 Jul 2026 14:32:36 +0000","description":"Without a return type (or mixed), a method may return any type of data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-type-but-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
 
-.. image:: ../images/no-type-but-string.png
+.. code-block:: php
+
+   <?php
+   
+   declare(strict_types=1);
+   
+   class x {
+       function __toString() {
+           return 1;
+       }
+   }
+   
+   echo new x;
+
 
 Without a return type (or mixed), a method may return any type of data. This is not the case for the magic method ``__toString``, as it really should return a string. So, even without a return type, it complains about the type.
 

@@ -18,5 +18,7 @@
 	"override"
 ],
 "3v4l":{"Override works on Interfaces":"https://3v4l.org/WaZPd"},
+"code": "<?php\n\ninterface i {\n    function foo();\n}\n\nclass X implements i {\n    #[Override]\n    function foo() {}\n}\n\nvar_dump(new x);",
+
 "phpError":{}
 }

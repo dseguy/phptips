@@ -21,9 +21,27 @@ Ellipsis With Array Parameters
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsis_array_parameters.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsis_array_parameters.html","name":"Ellipsis With Array Parameters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:33 +0000","dateModified":"Thu, 02 Apr 2026 05:33:33 +0000","description":"It is possible to spread parameters from an array, when calling a function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsis_array_parameters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsis_array_parameters.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsis_array_parameters.html","name":"Ellipsis With Array Parameters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:32 +0000","dateModified":"Tue, 14 Jul 2026 14:31:32 +0000","description":"It is possible to spread parameters from an array, when calling a function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ellipsis_array_parameters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/ellipsis_array_parameters.png
+.. code-block:: php
+
+   <?php
+   
+   function foo($a, $b) { echo "$a $b
+   ";}
+   
+   foo(...['x', 'y']);                 // x y
+   // named parameters
+   foo(...['a' => 'x',  'b' => 'y']);  // x y
+   foo(...['b' => 'x',  'a' => 'y']);  // y x
+   
+   // positional parameters: integer key not used
+   foo(...[0 => 'x',  1 => 'y']);      // x y
+   foo(...[120 => 'x',  11 => 'y']);   // x y
+   foo(...[11 => 'y', 120 => 'x']);    // y x
+   
+   ?>
+
 
 It is possible to spread parameters from an array, when calling a function.
 

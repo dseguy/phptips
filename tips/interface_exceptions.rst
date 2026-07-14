@@ -21,9 +21,22 @@ Exception Polymorphism
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_exceptions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_exceptions.html","name":"Exception Polymorphism","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:43 +0000","dateModified":"Thu, 02 Apr 2026 05:33:43 +0000","description":"Custom exceptions are like any other classes: they may implements interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_exceptions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_exceptions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_exceptions.html","name":"Exception Polymorphism","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:03 +0000","dateModified":"Tue, 14 Jul 2026 14:32:03 +0000","description":"Custom exceptions are like any other classes: they may implements interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface_exceptions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/interface_exceptions.png
+.. code-block:: php
+
+   <?php
+   
+   interface i {}
+   
+   class myException extends Exception implements i {}
+   
+   try {
+       throw new myException();
+   } catch(i $i) {
+       var_dump($i instanceof myException);
+   }
+
 
 Custom exceptions are like any other classes: they may implements interfaces. Later, that interface may be used to catch the exception, even if the interface has nothing to do with exceptions. And with several interfaces on the same exception, it is possible to catch them in different ways.
 

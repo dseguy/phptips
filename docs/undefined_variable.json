@@ -12,5 +12,7 @@
     "contact": "",
     "3v4l":{"Undefined variable in action":"https://3v4l.org/3ifYo"},
     "features": ["variable", "order-of-execution"],
+    "code": "<?php\n\nhttp:\/\/www.example.com\/foo \nfunction foo($a) {\n    \/\/ what does this do?\n}\n\n?>",
+
     "phpError":{"Undefined variable":"undefined-variable"}
 }

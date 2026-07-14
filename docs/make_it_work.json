@@ -18,5 +18,7 @@
     "features": ["constant", "$this", "comparison", "sign", "__tostring"],
     "3v4l": {"Original Riddle":"https://3v4l.org/W4NL5",
              "Solution":"https://3v4l.org/cogKD"},
+    "code": "<?php\n\nclass X {\n    private array $code = [];\n\n    function foo() {\n        return (string) $this<-code; \n    }   \n}\n\nvar_dump((new x)->foo());",
+
     "phpError": {}
 }

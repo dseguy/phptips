@@ -21,9 +21,18 @@ array_find() And array_find_keys()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_find.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_find.html","name":"array_find() And array_find_keys()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:42:18 +0000","dateModified":"Thu, 09 Jul 2026 09:42:18 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_find.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_find.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_find.html","name":"array_find() And array_find_keys()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:37 +0000","dateModified":"Tue, 14 Jul 2026 14:30:37 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_find.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/array_find.png
+.. code-block:: php
+
+   <?php
+   
+   $bucket = [1, 2, 'A', 'z', INF, '🐘'];
+   
+   print array_find($bucket, fn($x) => $x > '🐗' );
+   
+   print array_find_key($bucket, fn($x) => $x > '🐗' );
+
 
 PHP 8.4 introduced array_find(), which finds a value in an array, or not. It also introduced array_find_keys(), which finds the related keys, rather than the value itself, which, for some reason, we already have before searching for it.
 

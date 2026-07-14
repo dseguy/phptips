@@ -21,9 +21,28 @@ Child Of Attribute Is Not An Attribute
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_child_with_attribute.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_child_with_attribute.html","name":"Child Of Attribute Is Not An Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:37 +0000","dateModified":"Thu, 02 Apr 2026 05:33:37 +0000","description":"A class attribute must be marked with an attribute called ``Attribute``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_child_with_attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_child_with_attribute.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_child_with_attribute.html","name":"Child Of Attribute Is Not An Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:52:55 +0000","dateModified":"Tue, 14 Jul 2026 14:52:55 +0000","description":"A class attribute must be marked with an attribute called ``Attribute``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no_child_with_attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/no_child_with_attribute.png
+.. code-block:: php
+
+   <?php
+   
+   #[Attribute]
+   class x {}
+   
+   class y extends x {}
+   
+   $ref = new \ReflectionFunction(#[x, y] function () { });
+   
+   try {
+       $ref->getAttributes()[0]->newInstance();
+       $ref->getAttributes()[1]->newInstance();
+   } catch (\Error $e) {
+       var_dump('Error : ', $e->getMessage());
+   }
+   
+   ?>
+
 
 A class attribute must be marked with an attribute called ``Attribute``. It is compulsory to use Reflection and obtain an instance of the attribute.
 

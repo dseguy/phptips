@@ -15,6 +15,8 @@
     "author": "",
     "contact": "",
     "features": ["array", "array_pop", "array_push", "unset", "array_slice"],
+    "code": "<?php\n\n$array = range(0, 100);\n\narray_pop($array);\n\nunset($array[array_key_last($array)]);\n\n$array = array_slice($array, 0, -1, preserve_keys: true);\n  \n?>",
+
     "phpError": {},
     "3v4l": {"comparisons":"https://3v4l.org/bEaBT"}
 }

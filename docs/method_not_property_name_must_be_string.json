@@ -17,5 +17,7 @@
     "3v4l": {
         "Method Not Property Name Must Be String": "https:\/\/3v4l.org\/aKlmO"
     },
+    "code": "<?php\n\nclass X {\n    static public $p = 1;\n    static function foo() {}\n\n\n    function __toString() :  string {\n        return 'foo';\n    }    \n}\n\n$name = []; \/\/ try with different type : bool, int, float, object..\ntry {\n    echo X::$name;\n} catch (Error $e) {\n    print $e->getMessage();\n}\n\n$name = [];\ntry {\n    echo X::${$name}();\n} catch (Error $e) {\n    print $e->getMessage();\n}\n\n?>",
+
     "phpError": {}
 }

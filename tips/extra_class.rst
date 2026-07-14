@@ -21,9 +21,26 @@ Extra ::class
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/extra_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/extra_class.html","name":"Extra ::class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:18:34 +0000","dateModified":"Mon, 29 Jun 2026 09:18:34 +0000","description":"It is possible to use ``::class`` when reaching for static elements with the ``::`` operator: the ``::class`` returns the full name of the class, which is later used to look for the static","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/extra_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/extra_class.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/extra_class.html","name":"Extra ::class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:39 +0000","dateModified":"Tue, 14 Jul 2026 14:31:39 +0000","description":"It is possible to use ``::class`` when reaching for static elements with the ``::`` operator: the ``::class`` returns the full name of the class, which is later used to look for the static","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/extra_class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/extra_class.png
+.. code-block:: php
+
+   <?php
+   
+   class A {
+       const B = C;
+   }
+   
+   class C {}
+   
+   const C = new C;
+   
+   const A = 'Z'; // unused
+   
+   echo A::class::B::class;
+   echo (A::class)::B::class;
+   echo A::B::class;
+
 
 It is possible to use ``::class`` when reaching for static elements with the ``::`` operator: the ``::class`` returns the full name of the class, which is later used to look for the static. In the end, it does not add anything to the syntax and may be dropped.
 

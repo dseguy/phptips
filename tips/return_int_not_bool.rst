@@ -21,9 +21,28 @@ Return Int Not Bool
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/return_int_not_bool.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/return_int_not_bool.html","name":"Return Int Not Bool","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:33 +0000","dateModified":"Thu, 02 Apr 2026 05:33:33 +0000","description":"There is a cute deprecation warning, when using a closure to sort an array: ``Deprecated: usort(): Returning ``bool`` from comparison function is deprecated, return an integer less than, equal to, or greater than zero``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/return_int_not_bool.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/return_int_not_bool.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/return_int_not_bool.html","name":"Return Int Not Bool","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:17 +0000","dateModified":"Tue, 14 Jul 2026 14:33:17 +0000","description":"There is a cute deprecation warning, when using a closure to sort an array: ``Deprecated: usort(): Returning ``bool`` from comparison function is deprecated, return an integer less than, equal to, or greater than zero``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/return_int_not_bool.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/return_int_not_bool.png
+.. code-block:: php
+
+   <?php
+   
+   $array = range(0, 10);
+   
+   usort($array, withBool(...));
+   print(implode(', ', $array)).PHP_EOL;
+   // 9, 10, 7, 8, 5, 6, 4, 3, 2, 1, 0
+   
+   usort($array, withInt(...));
+   print(implode(', ', $array)).PHP_EOL;
+   // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+   
+   function withBool($a, $b) : bool { return $a <=> $b; }
+   
+   function withInt($a, $b) : int { return $a <=> $b; }
+   
+   ?>
+
 
 There is a cute deprecation warning, when using a closure to sort an array: ``Deprecated: usort(): Returning ``bool`` from comparison function is deprecated, return an integer less than, equal to, or greater than zero``.
 

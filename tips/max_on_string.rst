@@ -21,9 +21,30 @@ max() On Strings
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/max_on_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/max_on_string.html","name":"max() On Strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 07:43:42 +0000","dateModified":"Fri, 29 May 2026 07:43:42 +0000","description":"The min() and max() functions return the minimum or the maximum value of items in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/max_on_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/max_on_string.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/max_on_string.html","name":"max() On Strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:32:17 +0000","dateModified":"Tue, 14 Jul 2026 14:32:17 +0000","description":"The min() and max() functions return the minimum or the maximum value of items in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/max_on_string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/max_on_string.png
+.. code-block:: php
+
+   <?php
+   
+   $a = ['shit', 'min', 'acces', 'max'];
+   echo min($a); // access
+   
+   $a = ['shit', 0, 'acces', '%'];
+   echo min($a); // %
+   
+   // Cute
+   $a = ['shit', .8 , 'acces', '.9'];
+   echo min($a); // 0.8 
+   
+   // Multi-byte
+   $a = ['通','用','规','范','汉','字','表'];
+   echo min($a); 
+   
+   // Multi-byte
+   $a = ['안','녕','하','세','요'];
+   echo min($a);
+
 
 The min() and max() functions return the minimum or the maximum value of items in an array. This works on integers, but it also works on strings.
 

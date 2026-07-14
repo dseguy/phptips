@@ -21,9 +21,18 @@ An Elephpant In The Code
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html","name":"An Elephpant In The Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:38 +0000","dateModified":"Thu, 02 Apr 2026 05:33:38 +0000","description":"When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html","name":"An Elephpant In The Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:46:08 +0000","dateModified":"Tue, 14 Jul 2026 14:46:08 +0000","description":"When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/elephpant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/elephpant.png
+.. code-block:: php
+
+   <?php
+   
+   // decimal version
+   echo mb_chr(128024);
+   
+   // hexadecimal version
+   echo "\u{01f418}";
+
 
 When there is a need an elePHPant in a text, PHP always have one ready: well, an elephant, at least.
 

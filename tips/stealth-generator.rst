@@ -21,11 +21,23 @@ Stealth Generator
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html","name":"Stealth Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:42 +0000","dateModified":"Thu, 02 Apr 2026 05:33:42 +0000","description":"The code below has a useless loop","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html","name":"Stealth Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:38 +0000","dateModified":"Tue, 14 Jul 2026 14:33:38 +0000","description":"The code below has a useless loop","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/stealth-generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 By `Frederic Bouchery <https://bsky.app/profile/bouchery.fr>`_
 
-.. image:: ../images/stealth-generator.png
+.. code-block:: php
+
+   <?php 
+   
+   function foo(): iterable {
+       return ['a'];
+       yield 'b';
+   }
+   
+   foreach(foo() as $v) {
+       echo $v;
+   }
+
 
 The code below has a useless loop. The presence of the ``yield`` keyword in the function body makes it a generator. As such, foreach() will react to ``yield`` calls, though the function returns immediately, without a ``yield``. Hence, the empty loop, even though the function returns an array: indeed, to have the function behave as expected, it is necessary to remove the unreachable ``yield`` call, and then, the foreach() can use the return for the loop.
 

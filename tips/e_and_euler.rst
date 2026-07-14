@@ -21,9 +21,16 @@ e And Euler
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/e_and_euler.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/e_and_euler.html","name":"e And Euler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 May 2026 09:35:44 +0000","dateModified":"Tue, 26 May 2026 09:35:44 +0000","description":"PHP has two distinct constants: ``M_E``, which stands for the mathematical ``e`` exponential constant, and with a value of ``2","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/e_and_euler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/e_and_euler.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/e_and_euler.html","name":"e And Euler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:28 +0000","dateModified":"Tue, 14 Jul 2026 14:31:28 +0000","description":"PHP has two distinct constants: ``M_E``, which stands for the mathematical ``e`` exponential constant, and with a value of ``2","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/e_and_euler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/e_and_euler.png
+.. code-block:: php
+
+   <?php
+   
+       echo M_E; 
+       echo PHP_EOL;
+       echo M_EULER;
+
 
 PHP has two distinct constants: ``M_E``, which stands for the mathematical ``e`` exponential constant, and with a value of ``2.718281828459``.
 

@@ -21,9 +21,22 @@ Checking For Names At Different Times
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/check_for_names.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/check_for_names.html","name":"Checking For Names At Different Times","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:35 +0000","dateModified":"Thu, 02 Apr 2026 05:33:35 +0000","description":"PHP lint detects early to avoid ``redeclared functions``, based on the local PHP executable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/check_for_names.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/check_for_names.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/check_for_names.html","name":"Checking For Names At Different Times","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:01 +0000","dateModified":"Tue, 14 Jul 2026 14:31:01 +0000","description":"PHP lint detects early to avoid ``redeclared functions``, based on the local PHP executable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/check_for_names.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/check_for_names.png
+.. code-block:: php
+
+   <?php
+   
+   
+   class stdClass {}
+   // Checked at execution time
+   
+   interface Iterator {}
+   // Checked at execution time
+   
+   function mb_substr() {}
+   // Checked at compile time
+
 
 PHP lint detects early to avoid ``redeclared functions``, based on the local PHP executable.
 

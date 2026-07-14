@@ -21,9 +21,27 @@ Operator Overloading
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/operator_overloading.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/operator_overloading.html","name":"Operator Overloading","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 03 Jun 2026 15:28:21 +0000","dateModified":"Wed, 03 Jun 2026 15:28:21 +0000","description":"PHP has no operator overloading in the userland, but it may be achieved by using an extension","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/operator_overloading.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/operator_overloading.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/operator_overloading.html","name":"Operator Overloading","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:44:19 +0000","dateModified":"Tue, 14 Jul 2026 14:44:19 +0000","description":"PHP has no operator overloading in the userland, but it may be achieved by using an extension","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/operator_overloading.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/operator_overloading.png
+.. code-block:: php
+
+   <?php 
+   
+   use BcMath\Number;
+   
+   $a = new Number('1.005691112');
+   $b = new Number('2.567891112');
+   
+   $result = $a * $b; 
+   
+   echo $result->round(2);
+   echo PHP_EOL;
+   echo $result;
+   echo PHP_EOL;
+   echo 1.005691112 * 2.567891112;
+   echo PHP_EOL;
+   echo 'precision is '.ini_get('precision');
+
 
 PHP has no operator overloading in the userland, but it may be achieved by using an extension.
 
@@ -51,8 +69,6 @@ PHP Features
 ____________
 
 * `bcmath <https://php-dictionary.readthedocs.io/en/latest/dictionary/bcmath.ini.html>`_
-
-* `operator-overloading <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator-overloading.ini.html>`_
 
 * `multiplication <https://php-dictionary.readthedocs.io/en/latest/dictionary/multiplication.ini.html>`_
 

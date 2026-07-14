@@ -17,5 +17,7 @@
         "method"
     ],
     "3v4l": {"Same method, different static":"https://3v4l.org/qCGKn0"},
+    "code": "<?php\n\nclass X {\n    function __call($name, $arg) {\n        print \"normal\n\";\n    }    \n\n    static function __callStatic($name, $arg) {\n        print \"static\n\";\n    }    \n}\n\nX::foo();\n(new x)->foo();",
+
     "phpError": {}
 }

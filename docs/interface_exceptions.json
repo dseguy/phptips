@@ -14,6 +14,8 @@
     "3v4l": {
         "catching interfaces": "https://3v4l.org/ffu4v"
     },
+    "code": "<?php\n\ninterface i {}\n\nclass myException extends Exception implements i {}\n\ntry {\n    throw new myException();\n} catch(i $i) {\n    var_dump($i instanceof myException);\n}",
+
     "phpError": {},
     "features": [
 	"exception",

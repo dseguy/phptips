@@ -14,6 +14,8 @@
     "3v4l": {
         "strange sums": "https://3v4l.org/8s8q1"
     },
+    "code": "<?php\n\n  $a = PHP_INT_MAX;\n  $b = $a + 1;\n  $c = (int) $b; \n  $d = intval($b);\n\n  var_dump($b < 0);\n  var_dump($c < 0);\n  var_dump($d < 0);\n  \n?>",
+
     "phpError": {},
     "features": [	
     "operator",

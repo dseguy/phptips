@@ -16,6 +16,8 @@
     "3v4l": {
         "Simple Fatal Error": "https://3v4l.org/GGUVm"
     },
+    "code": "<?php\n\n\/\/ this is FATAL ERROR\n\nclass A extends B {}\n\nclass B extends C {}\n\nclass C {}",
+
     "phpError": {"Class \"%s\" not found":"class-\"%s\"-not-found"},
     "features": ["class", "definition"]
 }

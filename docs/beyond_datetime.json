@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["silent", "datetime", "edge-case"],
     "3v4l": {"99s after midnight":"https://3v4l.org/pXq0Q#veol"},
+    "code": "<?php\n\n\/\/ Leap second on 2016-12-31\n$date = DateTimeImmutable::createFromFormat(\n    'j-M-Y H:i:s', '31-Dec-2016 23:59:60'\n    );\necho $date->format('Y-m-d H:i:s');\n\/\/ 2017-01-01 00:00:00 \n\n    \n$date = DateTimeImmutable::createFromFormat(\n    'j-M-Y H:i:s', '99-Dec-2016 99:99:99'\n);\necho $date->format('Y-m-d H:i:s');\n\/\/ 2017-03-13 04:40:39\n\n$date = DateTimeImmutable::createFromFormat(\n    'j-M-Y H:i:s', '99-Dec-2016 99:99:100'\n);\nvar_dump($date); \/\/ false",
+
     "phpError": {}
 }

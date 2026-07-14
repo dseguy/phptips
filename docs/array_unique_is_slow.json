@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["array_unique", "integer", "string"],
     "3v4l": {"array_unique(), but faster":"https://3v4l.org/mCTDV#v"},
+    "code": "<?php\n\n$array = array_merge(range(0, 100), array());\nshuffle($array);\n\nconst LOOPS = 1000;\n\n$b = hrtime(true);\nfor ($i = 0; $i < LOOPS; ++$i) {\n    $c = $array;\n    $c = array_unique($c);\n}\n$e = hrtime(true);\nprint number_format( ($e - $b) \/ 1_000_000, 2). \" ms\n\";\n\n$b = hrtime(true);\nfor ($i = 0; $i < LOOPS; ++$i) {\n    $c = $array;\n    $d = array_keys(array_count_values($c));\n}\n$e = hrtime(true);\nprint number_format(($e - $b) \/ 1_000_000, 2). \" ms\n\";",
+
     "phpError": {}
 }

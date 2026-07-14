@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["memory", "optimisation", "csv", "file"],
     "3v4l": {"fputcsv in loops":"https://3v4l.org/8ei2U"},
+    "code": "<?php\n\n\/\/ Speedy yet memory intensive version\n$f = fopen('php:\/\/memory', 'w+');\nforeach($data_source as $row) {\n    \/\/ You may configure fputcsv as usual\n    fputcsv($f, $row);\n}\nrewind($f); \/\/ Important\n$fp = fopen('final.csv', 'w+');\nfputs($fp, stream_get_contents($f));\nfclose($fp);\nfclose($f);\n\n\/\/ Slower version\n$fp = fopen('final.csv', 'w+');\nforeach($data_source as $row) {\n    \/\/ You may configure fputcsv as usual\n    fputcsv($fp, $row);\n}\nfclose($fp);\n?>",
+
     "phpError": {}
 }

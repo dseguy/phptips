@@ -21,9 +21,20 @@ glob() With Hidden Files
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html","name":"glob() With Hidden Files","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 16:29:45 +0000","dateModified":"Fri, 29 May 2026 16:29:45 +0000","description":"By default, the ``glob()`` function lists only files that don't start with a dot ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html","name":"glob() With Hidden Files","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:49 +0000","dateModified":"Tue, 14 Jul 2026 14:31:49 +0000","description":"By default, the ``glob()`` function lists only files that don't start with a dot ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/glob_with_hidden_files.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/glob_with_hidden_files.png
+.. code-block:: php
+
+   <?php
+   
+   $path = __DIR__;
+   
+   // list all files, with and without leading . 
+   $files = glob($path . '/{,.}[!.,!..]*', GLOB_BRACE);
+   
+   // list all files, except . and ..
+   $files = glob($path . '/{,.}*', GLOB_BRACE);
+
 
 By default, the ``glob()`` function lists only files that don't start with a dot ``.``. This means that the hidden files, on Linux, are not listed.
 

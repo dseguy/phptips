@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["constant", "class-constant", "typed-constant", "union-type", "condition"],
     "3v4l": {"Multiple Const Types":"https://3v4l.org/ElUNU"},
+    "code": "<?php\n\nclass x {\n    const int|string A=1, B='abc';\n\tconst int|string C = PHP_OS === 'win' ? 0 : 'not win';\n}\n\n\necho strlen(x::B);",
+
     "phpError": {"Cannot use int as value for class constant x::A of type string":"cannot-use-%s-as-value-for-class-constant-%s::%s-of-type-%s"}
 }

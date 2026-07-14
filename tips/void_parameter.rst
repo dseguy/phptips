@@ -21,9 +21,20 @@ Void Parameter In array_keys()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html","name":"Void Parameter In array_keys()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:33 +0000","dateModified":"Thu, 02 Apr 2026 05:33:33 +0000","description":"There is a 'void' parameter in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html","name":"Void Parameter In array_keys()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:58 +0000","dateModified":"Tue, 14 Jul 2026 14:33:58 +0000","description":"There is a 'void' parameter in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/void_parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/void_parameter.png
+.. code-block:: php
+
+   <?php
+   
+   $array = [3 => null, 4 => 4];
+   
+   var_dump(array_keys($array, null));
+   // 3
+   
+   var_dump(array_keys($array /*, void */));
+   // 3, 4
+
 
 There is a 'void' parameter in PHP. It is the second argument of array_keys().
 

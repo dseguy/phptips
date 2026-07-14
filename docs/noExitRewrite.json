@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["exit", "use", "relaxed-syntax"],
     "3v4l": {"No use for exit":"https://3v4l.org/QukZb"},
+    "code": "<?php\n\nnamespace A;\n\nuse function foo as exit;\n\nfunction foo() {\n    print \"FOO!\n\";\n    exit();\n}",
+
     "phpError": {"syntax error, unexpected token \"exit\", expecting identifier":"syntax-error,-unexpected-token-\"exit\""}
 }

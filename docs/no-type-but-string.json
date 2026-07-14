@@ -15,6 +15,8 @@
     "3v4l": {
         "must return string": "https://3v4l.org/cDaOL"
     },
+    "code": "<?php\n\ndeclare(strict_types=1);\n\nclass x {\n    function __toString() {\n        return 1;\n    }\n}\n\necho new x;",
+
     "phpError": {},
     "features": [        
         "strict_types",

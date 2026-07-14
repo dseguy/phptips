@@ -14,6 +14,8 @@
     "3v4l": {
         "non existent token": "https://3v4l.org/92VL2"
     },
+    "code": "<?php\n\necho 'a',\n\n?>\n\/\/Parse error: syntax error, unexpected token \";\" in \/in\/6WEF0 on line 5",
+
     "phpError": {"syntax error, unexpected token \";\"":"syntax-error,-unexpected-token-\";\""},
     "features": ["close-tag", "semicolon"]
 }

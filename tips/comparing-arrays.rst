@@ -21,9 +21,24 @@ Comparing Arrays And Object
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/comparing-arrays.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/comparing-arrays.html","name":"Comparing Arrays And Object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 10:26:08 +0000","dateModified":"Wed, 08 Apr 2026 10:26:08 +0000","description":"``==`` and ``===`` apply different algorithms to compare arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/comparing-arrays.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/comparing-arrays.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/comparing-arrays.html","name":"Comparing Arrays And Object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:15 +0000","dateModified":"Tue, 14 Jul 2026 14:31:15 +0000","description":"``==`` and ``===`` apply different algorithms to compare arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/comparing-arrays.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/comparing-arrays.png
+.. code-block:: php
+
+   <?php
+   
+       $a = array('green', 4 => '3', 'c' => 'yellow');
+       $b = array('green', 'c' => 'yellow', '4' => 0x3);
+       $c = array('green', 'c' => 'yellow', '4' => '3');
+   
+       var_dump($a == $b);  // true   identical, whatever the order
+       var_dump($a === $b); // false  identical, but not the order
+       
+       var_dump($c == $b);  // true   identical, with some type juggling
+       var_dump($c === $b); // false  identical, but not at the type level
+       
+   ?>
+
 
 ``==`` and ``===`` apply different algorithms to compare arrays.
 

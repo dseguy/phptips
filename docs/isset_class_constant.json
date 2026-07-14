@@ -13,5 +13,7 @@
     "contact": "",
     "features": ["isset", "coalesce", "class-constant", "dynamic-class-constant"],
     "3v4l": {"Class Constant Check":"https://3v4l.org/pNPQG"},
+    "code": "<?php\n\nclass B {\n    const A = 1;\n}\n$c = \"b\";\n\n\n\/\/ can't use ??, it is a fatal error \necho B::{$c} ?? '';\n\n\/\/ can't use isset() because it is an expression\nif (isset(B::{$c})) { echo B::{$c}; }\n\n\/\/ Must use defined() as it is a constant\n\/\/ and then, use the string syntax\nif (defined(\"B::$c\")) { echo B::{$c}; }\n\n\/\/ This still yields a fatal error, or will check the class constant content\nif (defined(B::{$c})) { echo B::{$c}; }",
+
     "phpError": {"Cannot use isset() on the result of an expression (you can use \"null !== expression\" instead)":"cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-\"null-!==-expression\"-instead)"}
 }

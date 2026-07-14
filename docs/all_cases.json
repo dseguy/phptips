@@ -14,6 +14,8 @@
     "author": "",
     "contact": "",
     "3v4l": {"All the enum cases":"https://3v4l.org/JATi0"},
+    "code": "<?php\n\nenum e: string {\n    case A = 1;\n    case B = 2;\n    case C = 3;\n}\n\nprint_r(e::cases());\nprint_r(array_column(e::cases(), 'value'));\n\/**\nArray\n(\n    [0] => 1\n    [1] => 2\n    [2] => 3\n)\n*\/\nprint_r(array_column(e::cases(), 'name'));\n\/**\nArray\n(\n    [0] => A\n    [1] => B\n    [2] => C\n)\n*\/\n?>",
+
     "phpError": {},
     "features": [
             "enum",

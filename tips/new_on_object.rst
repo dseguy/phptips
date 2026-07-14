@@ -21,9 +21,26 @@ new On Object
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html","name":"new On Object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:31 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"It is possible to use new on an object, to get a new object of the same class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html","name":"new On Object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:53:00 +0000","dateModified":"Tue, 14 Jul 2026 14:53:00 +0000","description":"It is possible to use new on an object, to get a new object of the same class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new_on_object.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/new_on_object.png
+.. code-block:: php
+
+   <?php
+   
+   class X {}
+   
+   $s = '\x'; new $s;       // a x object
+   $x = new x(); new $x();  // another x object
+   
+   $s = x::class;
+   $a = new $s;            // yet another one
+   
+   // syntax error, unexpected token "class",
+   // expecting variable or "$s"
+   $a = new x::class;
+   
+   ?>
+
 
 It is possible to use new on an object, to get a new object of the same class. This might be useful with anonymous classes, which cannot be created with their name.
 

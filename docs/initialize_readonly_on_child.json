@@ -10,6 +10,8 @@
     "3v4l": {
         "Initialize Readonly On Child": "https://3v4l.org/WtXbB"
     },
+    "code": "<?php\n\nclass x {\n    public readonly int $property;\n}\n\nclass y extends x {\n    function __construct() {\n        $this->property = 5;\n    }\n}\n\n$x = new x;\necho $x->property;",
+
     "phpError": {
         "Typed property %s::$%s must not be accessed before initialization":"typed-property-%s::$%s-must-not-be-accessed-before-initialization"
     },

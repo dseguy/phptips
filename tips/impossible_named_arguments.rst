@@ -21,9 +21,22 @@ Impossible Named Arguments
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/impossible_named_arguments.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/impossible_named_arguments.html","name":"Impossible Named Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:31 +0000","dateModified":"Thu, 02 Apr 2026 05:33:31 +0000","description":"Named parameters use the parameter name to allocate the argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/impossible_named_arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/impossible_named_arguments.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/impossible_named_arguments.html","name":"Impossible Named Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:54 +0000","dateModified":"Tue, 14 Jul 2026 14:31:54 +0000","description":"Named parameters use the parameter name to allocate the argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/impossible_named_arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/impossible_named_arguments.png
+.. code-block:: php
+
+   <?php
+     
+   function foo(...$args) {
+       echo $args['a b' ] ?? $args['a$b'] ?? $args['我'];
+   }
+   
+   foo(...['a b' => 'c']);  // c
+   foo(...['a$b' => 'd']);  // d
+   foo(我: 3);              // 3
+     
+   ?>
+
 
 Named parameters use the parameter name to allocate the argument. This implies that the provided parameter names are all compatible with a the variable name format. For example, it is not possible to use a space or a ``$`` sign in a variable name.
 

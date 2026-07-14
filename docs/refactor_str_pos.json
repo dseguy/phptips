@@ -14,5 +14,7 @@
     "contact": "",
     "features": ["reference", "argument"],
     "3v4l": {"to be or not to be at the beginning of a string":"https://3v4l.org/bO6YB"},
+    "code": "<?php\n\n$a = 'cde';\n\nif ( strpos($a, 'abc') === 0)       { \/**\/ }\n\/\/ Replace with \nif ( str_starts_with($a, 'abc'))    { \/**\/ }\n\nif ( strpos($a, 'abc') !== 0)       { \/**\/ }\n\/\/ Replace with \nif ( !str_starts_with($a, 'abc'))   { \/**\/ }\n\n?>",
+
     "phpError":{}
 }

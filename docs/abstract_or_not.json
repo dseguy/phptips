@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["constructor", "abstract", "method-compatibility"],
     "3v4l": {"constructor compatibility":"https://3v4l.org/CMnhH"},
+    "code": "<?php\n\nabstract class a {\n    abstract function __construct($a);\n}\n\nclass b extends a {\n    function __construct() {}\n    \n}",
+
     "phpError": {"Declaration of b::__construct() must be compatible with a::__construct($a)":"declaration-of-%s::%s()-must-be-compatible-with-%s::%s()"}
 }

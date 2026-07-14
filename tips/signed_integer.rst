@@ -21,9 +21,24 @@ Oversigned Integers
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/signed_integer.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/signed_integer.html","name":"Oversigned Integers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 16 May 2026 08:37:25 +0000","dateModified":"Sat, 16 May 2026 08:37:25 +0000","description":"PHP has signed integers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/signed_integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/signed_integer.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/signed_integer.html","name":"Oversigned Integers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:25 +0000","dateModified":"Tue, 14 Jul 2026 14:33:25 +0000","description":"PHP has signed integers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/signed_integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/signed_integer.png
+.. code-block:: php
+
+   <?php
+   
+   $three = +-+3; // -3
+   $three = -+-3; //  3
+   
+   $four  = -+-+4; // 4
+   $four  = -+-+4; // 4
+   
+   var_dump(+0 === -0);
+   
+   var_dump((int) '+-+3');
+   
+   var_dump(is_numeric('+-+3'));
+
 
 PHP has signed integers. They may be positive or negative, with ``+`` or ``-``.
 

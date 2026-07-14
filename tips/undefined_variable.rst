@@ -21,9 +21,19 @@ Undefined Variable
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html","name":"Undefined Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 10:29:45 +0000","dateModified":"Wed, 08 Apr 2026 10:29:45 +0000","description":"The variable is undefined, and yet this is reported on the actual line where the variable is defined!","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html","name":"Undefined Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:50 +0000","dateModified":"Tue, 14 Jul 2026 14:33:50 +0000","description":"The variable is undefined, and yet this is reported on the actual line where the variable is defined!","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined_variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/undefined_variable.png
+.. code-block:: php
+
+   <?php
+   
+   http://www.example.com/foo 
+   function foo($a) {
+       // what does this do?
+   }
+   
+   ?>
+
 
 The variable is undefined, and yet this is reported on the actual line where the variable is defined!
 

@@ -18,6 +18,8 @@
     ],
     "author": "",
     "contact": "",
+    "code": "<?php\n\nhttp:\/\/www.example.com\/foo \nfunction foo($a) {\n    \/\/ what does this do?\n}\n\n?>",
+
     "phpError": {},
     "3v4l":{"URL as comments":"https://3v4l.org/3ifYo"}
 }

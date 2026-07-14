@@ -15,6 +15,8 @@
     "3v4l": {
         "Coalesce and assignation": "https://3v4l.org/X84C1"
     },
+    "code": "<?php\n\n$a = null;\n$b = 2;\n$c = $a ?? $b = 3;\n\necho \"$a $b $c\";\n\/\/ 3 3",
+
     "phpError": {},
     "features": [
         "precedence",

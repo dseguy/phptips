@@ -14,6 +14,8 @@
     "3v4l": {
         "string or not?": "https://3v4l.org/CfEaW"
     },
+    "code": "<?php\n\nclass A {\n    function __toString() {\n        return \"A\";\n    }\n}\n\n$a = new a;\n\n$b = [$a => $a]; \/\/Illegal offset type\n\nprint_r($b);",
+
     "phpError": {},
     "features": ["type-juggling", "string", "class", "cast", "array"]
 }

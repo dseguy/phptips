@@ -21,9 +21,24 @@ Comparing NAN
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compare_nan.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compare_nan.html","name":"Comparing NAN","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:40 +0000","dateModified":"Thu, 02 Apr 2026 05:33:40 +0000","description":"PHP does not compare ``NAN`` values: it always fails, even if the source is the same","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compare_nan.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compare_nan.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compare_nan.html","name":"Comparing NAN","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:14 +0000","dateModified":"Tue, 14 Jul 2026 14:31:14 +0000","description":"PHP does not compare ``NAN`` values: it always fails, even if the source is the same","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/compare_nan.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/compare_nan.png
+.. code-block:: php
+
+   <?php
+   
+   //echo acos(3);
+   var_dump(acos(3) === acos(3));
+   var_dump(acos(3) == acos(3));
+   
+   // Note that NAN is a float and becomes 0
+   var_dump($array = [acos(3) => 3]);
+   var_dump(isset($array[acos(3)]));
+   
+   // Idem pour INF, which is infinity 
+   var_dump($array = [INF => 3]);
+   var_dump(isset($array[INF]));
+
 
 PHP does not compare ``NAN`` values: it always fails, even if the source is the same.
 

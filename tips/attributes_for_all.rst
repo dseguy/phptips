@@ -21,9 +21,33 @@ More Attribute Usage
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html","name":"More Attribute Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 14:46:04 +0000","dateModified":"Thu, 09 Apr 2026 14:46:04 +0000","description":"PHP attributes are for classes, but also for enums, traits and interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html","name":"More Attribute Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:30:46 +0000","dateModified":"Tue, 14 Jul 2026 14:30:46 +0000","description":"PHP attributes are for classes, but also for enums, traits and interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attributes_for_all.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/attributes_for_all.png
+.. code-block:: php
+
+   <?php
+   
+   #[MyAttribute]
+   class x {}
+   
+   #[MyAttribute]
+   enum e {}
+   
+   #[MyAttribute]
+   interface i {}
+   
+   #[MyAttribute]
+   trait t {}
+   
+   // ===================
+   
+   #[MyFunctionAttribute]
+   function foo() {}
+   
+   $c = #[MyFunctionAttribute] function () {};
+   
+   $f = #[MyFunctionAttribute] fn () => 1;
+
 
 PHP attributes are for classes, but also for enums, traits and interfaces. With ``::TARGET_CLASS``.
 

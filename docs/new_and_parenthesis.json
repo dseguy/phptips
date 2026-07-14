@@ -14,6 +14,8 @@
     },
     "author": "",
     "contact": "",
+    "code": "<?php\n\n\/\/ pre-requisite\n$a = 'a';\nconst ab = 'ab';\nclass ab {\n  function __construct() { echo __METHOD__.PHP_EOL; }\n}\n\n\/\/ create classes\nnew ab;\nnew ab();\nnew (ab);\nnew ($a.'b');\nnew (ab::class);\n\n\/\/ PHP 9, a wish!\n\/\/new ()ab; \n\n?>",
+
     "phpError":{},
     "features":["new", "parenthesis"]
 }

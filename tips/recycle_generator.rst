@@ -21,9 +21,25 @@ Recycle Generator
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recycle_generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recycle_generator.html","name":"Recycle Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 May 2026 21:20:47 +0000","dateModified":"Tue, 26 May 2026 21:20:47 +0000","description":"After creating a generator, it is possible to nest it and run the same geenrator twice","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recycle_generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recycle_generator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recycle_generator.html","name":"Recycle Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:33:12 +0000","dateModified":"Tue, 14 Jul 2026 14:33:12 +0000","description":"After creating a generator, it is possible to nest it and run the same geenrator twice","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/recycle_generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/recycle_generator.png
+.. code-block:: php
+
+   <?php
+   
+   $g = function (): Generator {
+       yield from [1,2,3,4];
+   };
+   
+   foreach($g() as $h) {
+       print "h:$h - ";
+       foreach($g() as $i) {
+           echo "i:$i + ";
+           
+           break 1;
+       }
+   }
+
 
 After creating a generator, it is possible to nest it and run the same geenrator twice. It is the role of the functioncall ``$g()``, which actually creates the data source for the loop. Hence, here, the generator is always fresh at the start of the nested loop.
 

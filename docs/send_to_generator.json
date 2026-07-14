@@ -13,5 +13,7 @@
     "contact": "https://twitter.com/rcsofttech85",
     "features": ["generator", "argument"],
     "3v4l": {"Typed Variables":"https://3v4l.org/I7AQN"},
+    "code": "<?php\n\nfunction checkEvenOrOdd() {\n    $value = yield;\n    \n    yield ($value % 2 === 0) ? \"Even: $value\" : \"Odd: $value\";\n}\n\n$evenOddChecker = checkEvenOrOdd();\n\necho $evenOddChecker->send(7). PHP_EOL;",
+
     "phpError":{}
 }

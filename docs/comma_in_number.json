@@ -12,5 +12,7 @@
     "contact": "",
     "features": ["echo", "numeric-separator", "language-construct", "parenthesis"],
     "3v4l": {"1,34":"https://3v4l.org/6QLph"},
+    "code": "<?php\n\necho 1,34 . ' euros';",
+
     "phpError": {}
 }

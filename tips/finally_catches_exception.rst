@@ -21,9 +21,25 @@ Finally Catches Exception
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/finally_catches_exception.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/finally_catches_exception.html","name":"Finally Catches Exception","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 05:33:30 +0000","dateModified":"Thu, 02 Apr 2026 05:33:30 +0000","description":"In this code, finally is executed after the throw","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/finally_catches_exception.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/finally_catches_exception.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/finally_catches_exception.html","name":"Finally Catches Exception","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 14:31:44 +0000","dateModified":"Tue, 14 Jul 2026 14:31:44 +0000","description":"In this code, finally is executed after the throw","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/finally_catches_exception.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-.. image:: ../images/finally_catches_exception.png
+.. code-block:: php
+
+   <?php
+   
+   function foo() {
+       try {
+           throw new Exception('yeah');
+       } finally {
+           return 1;
+       }
+   }
+   
+   print foo();
+   // print 1, no exception
+   
+   ?>
+
 
 In this code, finally is executed after the throw. Since it contains a return, the function is finalized before the throw is executed. The exception is then lost, and the scripts displays 1. This is why it is recommended to avoid return in a finally clause.
 

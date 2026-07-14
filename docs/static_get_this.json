@@ -15,6 +15,8 @@
     "3v4l": {
         "internal static and external static": "https://3v4l.org/hLtMb"
     },
+    "code": "<?php\n\nclass X {\n    function foo() {\n        print_r($this);\n    }\n    \n    function bar() {\n        self::foo();\n    }\n    \n}\n?>",
+
     "phpError": {"Non-static method %s::%s() cannot be called statically":"non-static-method-%s::%s()-cannot-be-called-statically"},
     "features": ["static", "method", "static-call"]
 }
