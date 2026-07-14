@@ -568,7 +568,7 @@ foreach ($tips as $tip) {
 
 $sitemap->write();
 
-file_put_contents('llm.txt', implode(PHP_EOL, $llmtxt));
+file_put_contents('llms.txt', implode(PHP_EOL, $llmtxt));
 
 $index = file_get_contents($tipSectionIn);
 $index = str_replace('   tips', implode(PHP_EOL, $tiplist), $index);
