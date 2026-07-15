@@ -13,7 +13,13 @@
   <loc>https://php-tips.readthedocs.io/en/latestphperrorindex.html</loc>
  </url>
  <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/interface_too_low.html</loc>
+ </url>
+ <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/what_array_list.html</loc>
+ </url>
+ <url>
+  <loc>https://php-tips.readthedocs.io/en/latest/tips/closure_getcurrent.html</loc>
  </url>
  <url>
   <loc>https://php-tips.readthedocs.io/en/latest/tips/non-transitive-comparison.html</loc>

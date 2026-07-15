@@ -2,7 +2,9 @@
 PHP tips and tricks is a treasure trove of PHP pieces of code. It collects all those quick one-liners, unexpected behaviors, hidden features and strange things that are concealed in the dark corners of PHP.
 
 ##Entries
+[Interface Implemented Too Low](https://php-tips.readthedocs.io/en/latest/tips/interface_too_low.html) An interface's signatures applies only to the current class and its children.
 [What Array Is A List](https://php-tips.readthedocs.io/en/latest/tips/what_array_list.html) array_is_list() was introduced in PHP 8.
+[Closure::getCurrent() To Reach The Closure](https://php-tips.readthedocs.io/en/latest/tips/closure_getcurrent.html) I was happy to see PHP add ``Closure::getCurrent()``.
 [A Non-transitive Comparison](https://php-tips.readthedocs.io/en/latest/tips/non-transitive-comparison.html) Sometimes I truly believe that I have grasped all of the weird semantics of PHP, and then I discover something so simple that breaks an assumption I had about the language.
 [Chained Assignation Skips __get()](https://php-tips.readthedocs.io/en/latest/tips/chained_assignation.html) Chained assignation skip the ``get`` part and assign the same value to all elements in the chain.
 [eval() And __FILE__](https://php-tips.readthedocs.io/en/latest/tips/eval_and__FILE__.html) __FILE__ is a magic constant that holds the current file full path.
