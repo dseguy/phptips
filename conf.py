@@ -31,6 +31,7 @@ release = '1.325'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+'sphinxcontrib.googleanalytics',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -96,3 +97,5 @@ html_js_files = [
 source_view_link = 'https://codeberg.org/exakat/PHP-tips';
 
 pygments_style = 'sphinx';
+
+googleanalytics_id = 'G-29LCZ34CDW';
