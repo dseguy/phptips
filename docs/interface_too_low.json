@@ -2,8 +2,8 @@
     "image": "interface_too_low.png",
     "date": "2026-07-17",
     "title": "Interface Implemented Too Low",
-    "code": "<?php\n\ninterface i {\n    function foo($a, $b); \n}\n\nclass x {\n    function foo() {}\n}\n\nclass y extends x implements i {\n    function foo($a = 1) {}\n}",
-    "content": "An interface's signatures applies only to the current class and its children. It means that the parent do not have to use the same signature.\nAlthough, the parent and the child must use a compatible signature, indepdently from the interface. And, in the end, the child signature must be compatible with both the parent and the interface.\nWhile it may be convenient to use the interface on a single child and not on its siblings, it might be less surprising to use the interface on the parent directly. Unless it does not have such a method.",
+    "code": "<?php\n\ninterface i {\n    function foo($a); \n}\n\nclass x {\n    function foo() {}\n}\n\nclass y extends x implements i {\n    function foo($a = 1) { echo __METHOD__; }\n}",
+    "content": "An interface's signatures applies only to the current class and its children. It means that the parent do not have to use the same signature.\nAlthough, the parent and the child must use a compatible signature, independently from the interface. And, in the end, the child signature must be compatible with both the parent and the interface. Note how the parent and the interface methods are quite different, yet are compatible.\nWhile it may be convenient to use the interface on a single child and not on its siblings, it might be less surprising to use the interface on the parent directly. Unless it does not have such a method.",
     "seeAlso": {
     },
     "tags": [
@@ -12,6 +12,6 @@
     "author": "",
     "contact": "",
     "features": ["interface", "compatibility", "parent"],
-    "3v4l": {"Interface on a child":"https://3v4l.org/1Wari#v"},
+    "3v4l": {"Interface on a child":"https://3v4l.org/gbOm6#v"},
     "phpError": {}
 }

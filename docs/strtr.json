@@ -1,0 +1,17 @@
+{
+    "image": "strtr.png",
+    "date": "2026-07-20",
+    "title": "strtr() Does Only One Pass",
+    "content": "strtr() replaces string inside a string, just like str_replace().\nThe two functions work both with string and arrays of strings as argument, so it is convenient when you need to replace several distinct and non-overlapping strings.\nIn terms of readability, strtr() accepts a hash with ``original => replacement`` strings, while str_replace() needs them split and aligned.\nFinally, strtr() only does one pass on the string, and replaces the longest available string. No need to sort the original strings by size, or end up with the replaced string used multiple times. It is actually more efficient and more predictable.",
+    "seeAlso": {
+    },
+    "tags": [
+        "tips", "trick"
+    ],
+    "code": "<?php\n\n$map = [\n    'foo' => 'bar',\n    'foobar' => 'foo',\n];\n\n$input = 'foobar and foo';\n\necho str_replace(array_keys($map), array_values($map), $input);\n// Output: 'bar bar and bar'\n\necho strtr($input, $map);\n// Output: 'baz and bar' ",
+    "author": "",
+    "contact": "",
+    "features": ["strtr", "array"],
+    "3v4l": {"strtr versus str_replace":"https://3v4l.org/a1T8q#v"},
+    "phpError": {}
+}

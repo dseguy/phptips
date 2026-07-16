@@ -5,6 +5,8 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/strtr.rst
+   tips/explode_third_arg.rst
    tips/interface_too_low.rst
    tips/what_array_list.rst
    tips/closure_getcurrent.rst

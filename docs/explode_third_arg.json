@@ -1,0 +1,17 @@
+{
+    "image": "explode_third_arg.png",
+    "date": "2026-07-18",
+    "title": "explode() negative third argument",
+    "content": "The third argument of explode() is a hidden gem.\nWhen passed as a positive integer, it limits the number of part in the returned array. When it reaches the limit, it saves everything else in the last returned string. It saves on memory and processing time, when there are many separators in a long string.\nWhen passed 0, explode() does nothing. This is not too useful, but it makes sense.\nWhen passed a negative number, explode() limits the number of returned parts to that number, starting from the end. It also means that the last returned strings do not contain the separator anymore, unlike when passing a positive integer.",
+    "seeAlso": {
+    },
+    "tags": [
+        "tips", "trick"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["explode", "memory_limit"],
+    "3v4l": {"exploding tricks":"https://3v4l.org/emDh3#v" },
+    "phpError": {},
+    "code": "<?php\n\n$string = 'a,b,c,d,e';\n\nprint_r(explode(',', $string, 3));\nprint_r(explode(',', $string, 0));\nprint_r(explode(',', $string, -2));"
+}
