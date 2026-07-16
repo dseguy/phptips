@@ -5,12 +5,13 @@
     "code":"<?php\n\n    $fibonnacci = function (int $n, $previous2 = 0, $previous1 = 1) {\n    if ($n <= 1) {\n        return $previous2 + $previous1;\n    }\n    \n    $closure = Closure::getCurrent();\n    return $closure($n - 1, $previous1, $previous1 + $previous2);\n};\nprint $fibonnacci(4);",
     "content": "I was happy to see PHP add ``Closure::getCurrent()``.\nNow I'm using it, I can't help but think we should add a ``Closure::callCurrent(/* ... */)``.\nI don't want to assign a variable, I don't need the thing. Invoking the return of a function inline also feels needlessly clunky.",
     "seeAlso": {
+        "Original tweet":"https://x.com/timacdonald87/status/2077183471882227858"
     },
     "tags": [
         "closure", "recursion"
     ],
-    "author": "Tim MacDonald",
-    "contact": "https://x.com/timacdonald87/status/2077183471882227858",
+    "author": "Tim Macdonald",
+    "contact": "https://x.com/timacdonald87",
     "features": ["closure", "recursion", "closure-class"],
     "3v4l": {"Access The Closure":"https://3v4l.org/cdKnN#v8.5.8"},
     "phpError": {}

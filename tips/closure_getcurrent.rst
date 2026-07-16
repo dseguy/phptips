@@ -21,9 +21,9 @@ Closure::getCurrent() To Reach The Closure
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_getcurrent.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_getcurrent.html","name":"Closure::getCurrent() To Reach The Closure","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-15T17:55:09+00:00","dateModified":"2026-07-15T17:55:09+00:00","description":"I was happy to see PHP add ``Closure::getCurrent()``","inLanguage":"en-US","author":{"@id":"https:\/\/x.com\/timacdonald87\/status\/2077183471882227858"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_getcurrent.html"]}]},{"@type":"Person","@id":"https:\/\/x.com\/timacdonald87\/status\/2077183471882227858","name":"Tim MacDonald","url":"https:\/\/x.com\/timacdonald87\/status\/2077183471882227858","sameAs":["https:\/\/x.com\/timacdonald87\/status\/2077183471882227858"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_getcurrent.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_getcurrent.html","name":"Closure::getCurrent() To Reach The Closure","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-16T05:14:54+00:00","dateModified":"2026-07-16T05:14:54+00:00","description":"I was happy to see PHP add ``Closure::getCurrent()``","inLanguage":"en-US","author":{"@id":"https:\/\/x.com\/timacdonald87"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/closure_getcurrent.html"]}]},{"@type":"Person","@id":"https:\/\/x.com\/timacdonald87","name":"Tim Macdonald","url":"https:\/\/x.com\/timacdonald87","sameAs":["https:\/\/x.com\/timacdonald87"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-By `Tim MacDonald <https://x.com/timacdonald87/status/2077183471882227858>`_
+By `Tim Macdonald <https://x.com/timacdonald87>`_
 
 .. code-block:: php
 
@@ -49,6 +49,7 @@ I don't want to assign a variable, I don't need the thing. Invoking the return o
 See Also
 ________
 
+* `Original tweet <https://x.com/timacdonald87/status/2077183471882227858>`_
 * `Access The Closure <https://3v4l.org/cdKnN#v8.5.8>`_ [Try me]
 
 
@@ -63,4 +64,4 @@ ____________
 
 
 
-Last updated: 15 July 2026
+Last updated: 16 July 2026

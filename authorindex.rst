@@ -60,9 +60,8 @@ Author index
     * :ref:`always-compatible-variadic`
 * `Stephen Rees-Carter <https://twitter.com/valorin>`_
     * :ref:`roman-loops`
-* `Tim MacDonald <https://x.com/timacdonald87/status/2077183471882227858>`_
+* `Tim Macdonald <https://x.com/timacdonald87>`_
     * :ref:`closuregetcurrent-to-reach-the-closure`
-* `Tim Macdonald <https://twitter.com/timacdonald87>`_
     * :ref:`exporting-properties`
 * `WebSmithery <https://stackoverflow.com/users/2519523/websmithery>`_
     * :ref:`abstract-constants`

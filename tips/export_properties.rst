@@ -21,9 +21,9 @@ Exporting Properties
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/export_properties.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/export_properties.html","name":"Exporting Properties","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:31:39+00:00","dateModified":"2026-07-14T14:31:39+00:00","description":"With an accessor and a reference, it is possible to export a private property and manipulate it from the outside of the object","inLanguage":"en-US","author":{"@id":"https:\/\/twitter.com\/timacdonald87"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/export_properties.html"]}]},{"@type":"Person","@id":"https:\/\/twitter.com\/timacdonald87","name":"Tim Macdonald","url":"https:\/\/twitter.com\/timacdonald87","sameAs":["https:\/\/twitter.com\/timacdonald87"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/export_properties.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/export_properties.html","name":"Exporting Properties","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-16T05:15:33+00:00","dateModified":"2026-07-16T05:15:33+00:00","description":"With an accessor and a reference, it is possible to export a private property and manipulate it from the outside of the object","inLanguage":"en-US","author":{"@id":"https:\/\/x.com\/timacdonald87"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/export_properties.html"]}]},{"@type":"Person","@id":"https:\/\/x.com\/timacdonald87","name":"Tim Macdonald","url":"https:\/\/x.com\/timacdonald87","sameAs":["https:\/\/x.com\/timacdonald87"]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-By `Tim Macdonald <https://twitter.com/timacdonald87>`_
+By `Tim Macdonald <https://x.com/timacdonald87>`_
 
 .. code-block:: php
 
@@ -85,4 +85,4 @@ ____________
 
 
 
-Last updated: 14 July 2026
+Last updated: 16 July 2026
