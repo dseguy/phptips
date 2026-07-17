@@ -1,0 +1,22 @@
+{% extends "!furo/base.html" %}
+{% block extrahead %}
+  {{ super() }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Damien Seguy",
+    "url": "https://www.exakat.io/",
+    "jobTitle": "Lead Developer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Exakat",
+      "url": "https://www.exakat.io/"
+    },
+    "sameAs": [
+      "https://x.com/damien_s",
+      "https://www.linkedin.com/in/damienseguy"
+    ]
+  }
+  </script>
+{% endblock extrahead %}

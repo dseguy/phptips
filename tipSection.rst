@@ -6,6 +6,7 @@ PHP tips and tricks
    :caption: Contents:
 
    tips/strtr.rst
+   tips/basename.rst
    tips/explode_third_arg.rst
    tips/interface_too_low.rst
    tips/what_array_list.rst

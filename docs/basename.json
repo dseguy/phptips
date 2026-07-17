@@ -1,0 +1,17 @@
+{
+    "image": "basename.png",
+    "date": "2026-07-19",
+    "title": "basename() As A str_replace()",
+    "content": "The useless tip of the day is to use basename on any string, to remove unwanted last characters.\nThe official use is to remove the extension on the file name, but since paths are actually strings, it works. Just avoid strings with ``/`` character in them.",
+    "seeAlso": {
+    },
+    "tags": [
+        "useless", "tip","funny"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["basename", "string"],
+    "3v4l": {"basename in action":"https://3v4l.org/1M3Fv#v"},
+    "phpError": {},
+    "code":"<?php\n\nprint basename('I made a catastrophe', 'astrophe');\n// pfious ... disaster avoided ? \n\n?>"
+}

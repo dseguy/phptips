@@ -27,30 +27,36 @@ if ($lang === 'en') {
     $tipsDir         = 'tips';
     $tipSectionIn    = 'tipSection.rst.in';
     $tipSectionOut   = 'tipSection.rst';
+    $llmsTxtIn       = "llms.txt.in";
+    $llmsTxtOut      = "llms.txt";
     $authorIndexFile = 'authorindex.rst';
     $phpErrorFile    = 'phperrorindex.rst';
     $confFile        = 'conf.py';
     $sitemapFile     = './sitemap.xml';
     $indexnowFile    = 'indexnow.php';
     $buildLogFile    = 'build.log';
-    $imageRelPath    = '../images/';   // relative to tips/*.rst
+    $imageRelPath    = 'images/';   // relative to tips/*.rst
     $baseUrl         = 'https://php-tips.readthedocs.io/en/latest';
     $inLanguage      = 'en-US';
     $ogLocale        = 'en';
 } else {
-    $docsGlob        = "docs/$lang/*.json";
+    $docsGlob        = "$lang/docs/*.json";
     $tipsDir         = "$lang/tips";
     $tipSectionIn    = "$lang/tipSection.rst.in";
     $tipSectionOut   = "$lang/tipSection.rst";
+    $llmsTxtIn       = "$lang/llms.txt.in";
+    $llmsTxtOut      = "$lang/llms.txt";
     $authorIndexFile = "$lang/authorindex.rst";
     $phpErrorFile    = "$lang/phperrorindex.rst";
     $confFile        = "$lang/conf.py";
-    $sitemapFile     = "./$lang/sitemap.xml";
+    $sitemapFile     = "$lang/sitemap.xml";
     $indexnowFile    = "$lang/indexnow.php";
     $buildLogFile    = "$lang/build.log";
-    $imageRelPath    = '../../images/'; // relative to <lang>/tips/*.rst
+    $imageRelPath    = "$lang/images/"; // relative to <lang>/tips/*.rst
     $baseUrl         = "https://php-tips.readthedocs.io/$lang/latest";
+        // @todo add a configuration per lanugage
     $inLanguage      = match ($lang) {
+        // @todo add the others
         'fr'    => 'fr-FR',
         default => 'en-US',
     };
@@ -70,11 +76,7 @@ $sitemap->addItem($baseUrl . 'introduction.html');
 $sitemap->addItem($baseUrl . 'authorindex.html');
 $sitemap->addItem($baseUrl . 'phperrorindex.html');
 $indexnow = [];
-$llmtxt = ['#PHP Tips and tricks',
-'PHP tips and tricks is a treasure trove of PHP pieces of code. It collects all those quick one-liners, unexpected behaviors, hidden features and strange things that are concealed in the dark corners of PHP.',
-'',
-'##Entries',
-];
+$llmtxt = file($llmsTxtIn, FILE_IGNORE_NEW_LINES); 
 
 if (!file_exists($tipsDir)) {
     mkdir($tipsDir, 0755, true);
@@ -83,6 +85,7 @@ if (!file_exists($tipsDir)) {
 fopen($buildLogFile, "w+");
 
 $phptips   = [];
+// @tddo : $this needs a translated version!!
 $phptips[] = "PHP tips and tricks";
 $phptips[] = "-------------------";
 $phptips[] = "";
@@ -93,12 +96,12 @@ $files = glob($docsGlob);
 // Exclude skeleton files
 $files = array_diff($files, ['docs/skeleton.json', "docs/$lang/skeleton.json"]);
 
-$images = glob('images/*.png');
+$images = glob($imageRelPath.'*.png');
 
 // Cross-check: every JSON must have a corresponding image (by image field, not filename)
 // We only warn — do not fatal — so multi-lang images can live without an EN counterpart.
 $f = array_map(fn($file) => basename($file, '.json'), $files);
-$i = array_map(fn($image) => substr($image, 7, -4), $images);
+$i = array_map(fn($image) => basename($image, '.png'), $images);
 if ($diff = array_diff($f, $i)) {
     print "Missing files in images : " . implode(', ', $diff) . "\n";
 }
@@ -290,7 +293,7 @@ foreach ($files as $file) {
         }
 
         if (ucwords(strtolower($tip->title)) != $tip->title &&
-            !preg_match('/(php:\/\/|CSV|DNF|e |max\(\) |eval\(\) |__FILE__|SQL|expm1|htmlemtities|log1p|defined|preg_split|isset|empty|echo|new|mixed|get_class|URL|GLOBALS|array|intval|private|NAN|parse_str|self|parent|static|namespace|list|http_build_query|compact|func_get_args|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents|glob|class_exists)/', $tip->title)) {
+            !preg_match('/(php:\/\/|CSV|DNF|e |max\(\) |eval\(\) |basename\(\) |__FILE__|SQL|expm1|htmlemtities|log1p|defined|preg_split|isset|empty|echo|new|mixed|get_class|URL|GLOBALS|array|intval|private|NAN|parse_str|self|parent|static|namespace|list|http_build_query|compact|func_get_args|strict_types|stdClass|foreach|PHP|ReturnTypeWillChange|strpos|readonly|DTO|VO|null|is_a|instanceof|file_put_contents|try|finally|catch|file_append_contents|glob|class_exists)/', $tip->title)) {
             buildlog("Warning : Not First Upper Cased in $file");
             ++$errors;
         }
@@ -568,7 +571,7 @@ foreach ($tips as $tip) {
 
 $sitemap->write();
 
-file_put_contents('llms.txt', implode(PHP_EOL, $llmtxt));
+file_put_contents($llmsTxtOut, implode(PHP_EOL, $llmtxt));
 
 $index = file_get_contents($tipSectionIn);
 $index = str_replace('   tips', implode(PHP_EOL, $tiplist), $index);

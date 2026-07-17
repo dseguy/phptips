@@ -14,6 +14,6 @@
     "author": "",
     "contact": "",
     "features": ["object", "yield", "weakmap", "array"],
-    "3v4l": {},
+    "3v4l": {"objects as array keys":"https://3v4l.org/OVvKR#v"},
     "phpError": {"Object of class %s could not be converted to string": "object-of-class-%s-could-not-be-converted-to-string"}
 }

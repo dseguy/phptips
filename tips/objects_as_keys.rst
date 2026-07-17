@@ -21,7 +21,7 @@ Objects As Keys In Foreach
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/objects_as_keys.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/objects_as_keys.html","name":"Objects As Keys In Foreach","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-14T14:51:55+00:00","dateModified":"2026-07-14T14:51:55+00:00","description":"foreach() usually works on arrays, where the keys are either integer or strings","inLanguage":"en-US","author":{"@id":"https:\/\/www.exakat.io\/#damien-seguy"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/objects_as_keys.html"]}]},{"@type":"Person","@id":"https:\/\/www.exakat.io\/#damien-seguy","name":"Damien Seguy","url":"https:\/\/www.exakat.io\/#damien-seguy","sameAs":["https:\/\/x.com\/exakat","https:\/\/www.linkedin.com\/in\/damienseguy"],"worksFor":{"@type":"Organization","@id":"https:\/\/www.exakat.io\/","name":"Exakat"}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"TechArticle","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/objects_as_keys.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/objects_as_keys.html","name":"Objects As Keys In Foreach","isPartOf":{"@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/"},"datePublished":"2026-07-16T13:34:01+00:00","dateModified":"2026-07-16T13:34:01+00:00","description":"foreach() usually works on arrays, where the keys are either integer or strings","inLanguage":"en-US","author":{"@id":"https:\/\/www.exakat.io\/#damien-seguy"},"potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/objects_as_keys.html"]}]},{"@type":"Person","@id":"https:\/\/www.exakat.io\/#damien-seguy","name":"Damien Seguy","url":"https:\/\/www.exakat.io\/#damien-seguy","sameAs":["https:\/\/x.com\/exakat","https:\/\/www.linkedin.com\/in\/damienseguy"],"worksFor":{"@type":"Organization","@id":"https:\/\/www.exakat.io\/","name":"Exakat"}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 .. code-block:: php
 
@@ -73,6 +73,7 @@ See Also
 ________
 
 * `WeakMap (PHP manual) <https://www.php.net/manual/en/class.weakmap.php>`_
+* `objects as array keys <https://3v4l.org/OVvKR#v>`_ [Try me]
 
 
 PHP Error Messages
@@ -95,4 +96,4 @@ ____________
 
 
 
-Last updated: 14 July 2026
+Last updated: 16 July 2026
