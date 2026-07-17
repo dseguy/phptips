@@ -5,6 +5,7 @@ PHP tips and tricks
    :maxdepth: 1
    :caption: Contents:
 
+   tips/less_arguments.rst
    tips/strtr.rst
    tips/basename.rst
    tips/explode_third_arg.rst

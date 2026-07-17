@@ -1,0 +1,17 @@
+{
+    "image": "less_arguments.png",
+    "date": "2026-07-21",
+    "title": "Less Arguments In Child Method",
+    "content": "It is possible to have less arguments in the child method than in the parent one. This is thanks to variadic.\nIn general, the number of arguments must grow, and, at best, the extra arguments have to be made optional.\nThat does not apply when there is a variadic argument, and the previous arguments are of the same type. In that case, the child method can have less named arguments than in the parent class. Technically, it goes from 'one or more' string argument, down to 'zero or more'.\nAll is in the compatibility between the parent and the child class.\nNote that it is not possible to apply this if the previous argument is not of the same type as the variadic one. Nor it is possible to add a new argument, even if it looks extracted from the variadic. Both are not compatible with the parent class.",
+    "seeAlso": {
+    },
+    "tags": [
+        "tips", "trick", "surprise"
+    ],
+    "author": "",
+    "contact": "",
+    "features": ["method", "compatibility", "argument", "variadic"],
+    "3v4l": {"Less arguments in chile method":"https://3v4l.org/UAV5t#veol"},
+    "phpError": {"Declaration of y::foo(int $a, string ...$b) should be compatible with x::foo(int $a, string $c, string ...$b)":"declaration-of-%s::%s()-must-be-compatible-with-%s::%s()"},
+    "code":"<?php\n\nclass x {\n    function foo(int $a, string $c, string ...$b) {}    \n}\n\n// OK\nclass y extends x {\n    function foo(int $a, string ...$b) {}    \n}"
+}

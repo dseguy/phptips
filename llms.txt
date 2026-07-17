@@ -2,6 +2,7 @@
 PHP tips and tricks are a treasure trove of little tricks of the trage: there are smartypants one-liners, unexpected behaviors, arcane features and hidden specifications, living in the dark corners of the language.
 
 ##Index
+[Less Arguments In Child Method](https://php-tips.readthedocs.io/en/latest/tips/less_arguments.html) It is possible to have less arguments in the child method than in the parent one.
 [strtr() Does Only One Pass](https://php-tips.readthedocs.io/en/latest/tips/strtr.html) strtr() replaces string inside a string, just like str_replace().
 [basename() As A str_replace()](https://php-tips.readthedocs.io/en/latest/tips/basename.html) The useless tip of the day is to use basename on any string, to remove unwanted last characters.
 [explode() negative third argument](https://php-tips.readthedocs.io/en/latest/tips/explode_third_arg.html) The third argument of explode() is a hidden gem.

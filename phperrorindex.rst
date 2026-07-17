@@ -86,6 +86,8 @@ Error Message index
 * Declaration of y4::foo($b, $c, $d) must be compatible with x4::foo($a, $b)
     * :ref:`mixed-compatibility`
     * :ref:`argument-renaming`
+* Declaration of y::foo(int $a, string ...$b) should be compatible with x::foo(int $a, string $c, string ...$b)
+    * :ref:`less-arguments-in-child-method`
 * Duplicate type array is redundant
     * :ref:`duplicate-type`
 * Duplicate value in enum E for cases A and B
